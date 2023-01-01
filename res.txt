@@ -1,1 +1,0 @@
-{"id":"cmpl-6TuVv1yZT9vSqivyX5dTrXLqLmkBK","object":"text_completion","created":1672586771,"model":"text-davinci-003","choices":[{"text":"\n\nI'm doing well, thank you for asking. How about you?","index":0,"logprobs":null,"finish_reason":"stop"}],"usage":{"prompt_tokens":4,"completion_tokens":16,"total_tokens":20}}
