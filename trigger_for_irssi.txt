@@ -1,2 +1,0 @@
-# Add this next line into irssi, also install trigger.pl and have it autoload in irssi.
-/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh "$1" "$N"'
