@@ -1,17 +1,23 @@
 #!/bin/bash
+## Franklin is a gpt3 api calling bot for irc (easily adapted to other applications)
+
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
 HARDL="-350"                       # hard limit (in bytes)
 SOFTL="120"                        # soft limit (in words)
-
+MODEL="text-davinci-003"
+HEAT="0.8"
 SAY="$1"
 WHO="$2"
 
 function call_api () {
   APIKEY=$(<api.key)
+  SRV="https://api.openai.com/v1/completions"
   if [[ $(grep ${WHO} block.list | wc -l) -eq 0 ]]; then
     echo "${WHO}: ${SAY}" >>gpt3.log
-    curl -s https://api.openai.com/v1/completions -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" -d "{\"model\": \"text-davinci-003\",\"prompt\": \"${SAY}\",\"temperature\": 0.8,\"max_tokens\": ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}" >res.txt
+    curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
+      -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
+      ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}" >res.txt
     # sanitizes input
     cat res.txt | tr -d "\'" | tr -d "\`" | tr -d "\;" | tr -d '\&' >sanitized.txt
     # json extraction and formatting
