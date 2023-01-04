@@ -3,11 +3,13 @@
 
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
-OUT_PTH="/var/www/html/"
+OUT_PTH="/var/www/html"
 HARDL="-350"                       # hard limit (in bytes)
 SOFTL="120"                        # soft limit (in words)
 MODEL="text-davinci-003"
 HEAT="0.7"
+LOGF="./franklin.log"
+
 SAY="$1"
 WHO="$2"
 
@@ -20,7 +22,7 @@ function call_api () {
   SRV="https://api.openai.com/v1/completions"
   if [[ $(grep ${WHO} block.list | wc -l) -eq 0 ]]; then
     # some logging of user input
-    echo "${WHO}: ${SAY}" >>gpt3.log
+    echo "${WHO}: ${SAY}" >>${LOGF}
     # pull back json
     curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
       -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
@@ -35,10 +37,24 @@ function call_api () {
     echo "${OUT_TXT}" >>${OUT_PTH}/said/${CALLR}
     # add it to the webserver dir and say/log its response
     SAID=$(echo "${OUT_TXT}" | sed -e 's/[^\.]$/.../' | cut -c ${HARDL})
-    echo "${SAID} ${SITE}/said/${CALLR}" | tee -a gpt3.log
+    echo "${SAID} ${SITE}/said/${CALLR}" | tee -a ${LOGF}
   else
     echo "You cannot use that command."
   fi
 }
 
-call_api;
+if [ -d ${OUT_PTH}/said ]; then
+  call_api;
+  rm sanitized.txt res.txt
+else
+  >&2 echo "Running setup routine..";
+  mkdir -p ~/.irssi/scripts/ || die $?
+  cp trigger.pl ~/.irssi/scripts/;
+  mkdir -p ${OUT_PTH}/said || die $?
+  touch ${LOGF}
+  touch api.key
+  >&2 echo "Setup complete..."
+  call_api;
+fi
+
+
