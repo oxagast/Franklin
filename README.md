@@ -4,6 +4,8 @@
 
 **Franklin runs inside irssi.**
 
+![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/irc_chats.png)
+
 *Setup*
 
 1) You should configure `trigger.pl` to autoloadd on irssi start, and optionally configure your channel autojoins.
