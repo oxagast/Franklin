@@ -29,8 +29,8 @@ function call_api () {
       -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
       ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}")
     # sanitizes input
-    SANI_RES=$(echo ${RES} | tr -d "\'" | tr -d "\`" | tr -d "\;" | tr -d '\&')
-    CALLR=$(echo ${SANI_RES} | md5sum | cut -c -8)
+    SANI_RES=$(echo "${RES}" | tr -d "\'" | tr -d "\`" | tr -d "\;" | tr -d '\&')
+    CALLR=$(echo "${SANI_RES}" | md5sum | cut -c -8)
     # json extraction and formatting
     echo "${SAY}" >${OUT_PTH}/said/${CALLR}
     echo >>${OUT_PTH}/said/${CALLR}
