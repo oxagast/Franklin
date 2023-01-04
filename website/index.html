@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    
+    
+    <title>Franklin, a GPTChat bot | </title>
+</head>
+<body><div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+           <h2 id="franklin-is-a-gpt3-backed-irc-bot">Franklin is a GPT3 backed IRC bot</h2>
+<p><strong>Franklin runs inside irssi.</strong></p>
+<center>
+<p><img src="https://gpt3.oxasploits.com/irc_chats_small.png" alt="Franklin on IRC"></p>
+</center>
+<p><em>Setup</em></p>
+<ol>
+<li>
+<p>You should configure <code>trigger.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
+</li>
+<li>
+<p>Create an API key, then put it in a file called <code>api.key</code> in the scripts working directory.</p>
+</li>
+<li>
+<p>You&rsquo;ll need to set up a webserver with a directory under it&rsquo;s root called <code>said</code> (usually something like <code>/var/www/html/said/</code>),
+that is writable by the call_gpt3.sh script.</p>
+</li>
+<li>
+<p>Create a file called <code>block.lst</code> and fill it, line by line, with any users that abuse the bot.</p>
+</li>
+<li>
+<p>Edit any variables in call_gpt3.sh you need to, such as the domain name of your server where the long-text is hosted.</p>
+</li>
+<li>
+<p>Finally, add a trigger: <code>/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh &quot;$1&quot; &quot;$N&quot;'</code></p>
+</li>
+</ol>
+<p><em>Debugging</em></p>
+<p>&hellip; Now test the bot by calling it with &ldquo;Franklin: print me a test message&rdquo; in channel (do this from a different nick,
+not Franklin&rsquo;s nick!)</p>
+<p>When debugging you can run the <code>call_gpt3.sh</code> script like: <code>./call_gpt3.sh &quot;print me a test message&quot; yournick</code>, as it does
+not necessarily need to be called from within irssi to work.</p>
+<p>If you get an error from jq it means that it got something back from the api that it didn&rsquo;t expect, probably due to a bad
+API key or excessive server load.</p>
+<p><em>Authors</em></p>
+<p>oxagast</p>
+<p><em>Thanks to people who asked for features</em></p>
+<p>dclaw, proge, CerebraNet and more&hellip;</p>
+
+        </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"> Jan 1, 1 </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+</html>

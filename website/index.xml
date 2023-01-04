@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Franklin, a GPTChat bot</title>
+    <link>http://gpt3.oxasploits.com/</link>
+    <description>Recent content on Franklin, a GPTChat bot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://gpt3.oxasploits.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>http://gpt3.oxasploits.com/main/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://gpt3.oxasploits.com/main/</guid>
+      <description>Franklin is a GPT3 backed IRC bot Franklin runs inside irssi.
+Setup
+You should configure trigger.pl to autoload on irssi start, and optionally configure your channel autojoins.
+Create an API key, then put it in a file called api.key in the scripts working directory.
+You&amp;rsquo;ll need to set up a webserver with a directory under it&amp;rsquo;s root called said (usually something like /var/www/html/said/), that is writable by the call_gpt3.sh script.</description>
+    </item>
+    
+  </channel>
+</rss>

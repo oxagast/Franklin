@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(191, 200, 255);
+  color: rgb(67, 76, 94);
+}
+
+.site_title {
+    margin-top: 10px;
+}
+
+code {
+  color: #222222;
+}
+
+.menu {
+    text-align: right;
+}
+
+.menu_list {
+    margin: 0;
+}
+
+.menu_item {
+    display: inline;
+    margin-right: 10px;
+}
+
+.main_section {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+}
+
+.footer_section {
+    margin: auto;
+    width: 50%;
+    font-size: 10px;
+}
+
+.top_section_title {
+    margin-bottom: 10px;
+}
+
+.inner_section_description {
+    margin-top: 0px;
+}
+
+.outer_section_description {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.recent_posts {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.social_icon_a, .social_icon_a:hover, .social_icon_a:focus, .social_icon_a:active{
+    text-decoration: none;
+    color: inherit;
+}
+
+.social_icon {
+    text-decoration: none;
+    font-size:25px;
+    display: inline-block;
+}
+
+a:visited {
+  color: rgb(123, 136, 161);
+}
+
+a:hover {
+  color: rgb(76, 86, 106);
+}
+a:link {
+  color: rgb(123, 136, 161)
+}
