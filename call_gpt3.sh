@@ -3,7 +3,7 @@
 
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
-OUT_PTH="/var/www/html"
+OUT_PTH="."
 HARDL="-350"                       # hard limit (in bytes)
 SOFTL="120"                        # soft limit (in words)
 MODEL="text-davinci-003"
@@ -12,7 +12,7 @@ LOGF="./franklin.log"
 
 SAY="$1"
 WHO="$2"
-
+WHO_S=$(echo ${WHO} | tr -d '`' | tr -d '&' | tr -d "'" | tr -d ";")
 # I can't decide if you're wearing me out or wearing me well
 # I just feel like I'm condemned to wear someone else's hell
 # We've only reached the third day of our seven-day binge
@@ -20,9 +20,9 @@ WHO="$2"
 function call_api () {
   APIKEY=$(<api.key)
   SRV="https://api.openai.com/v1/completions"
-  if [[ $(grep "${WHO}" block.list | wc -l) -eq 0 ]]; then
+  if [[ $(grep "${WHO_S}" block.list | wc -l) -eq 0 ]]; then
     # some logging of user input
-    echo "${WHO}: ${SAY}" >>${LOGF}
+    echo "${WHO_S}: ${SAY}" >>${LOGF}
     # pull back json
     curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
       -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
