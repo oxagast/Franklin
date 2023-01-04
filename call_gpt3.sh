@@ -20,7 +20,7 @@ WHO="$2"
 function call_api () {
   APIKEY=$(<api.key)
   SRV="https://api.openai.com/v1/completions"
-  if [[ $(grep ${WHO} block.list | wc -l) -eq 0 ]]; then
+  if [[ $(grep "${WHO}" block.list | wc -l) -eq 0 ]]; then
     # some logging of user input
     echo "${WHO}: ${SAY}" >>${LOGF}
     # pull back json
