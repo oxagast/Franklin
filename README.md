@@ -19,7 +19,7 @@ that is writable by the call_gpt3.sh script.
 
 5) Edit any variables in call_gpt3.sh you need to, such as the domain name of your server where the long-text is hosted.
 
-6) Finally, add a trigger: `/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh "$1" "$N"'`
+6) Finally, add a trigger: `/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''`
 
 *Debugging*
 

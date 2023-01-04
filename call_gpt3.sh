@@ -1,6 +1,7 @@
 #!/bin/bash
 ## Franklin is a gpt3 api calling bot for irc (easily adapted to other applications)
-
+## Add to irssi trigger.pl
+## /trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
 OUT_PTH="."
