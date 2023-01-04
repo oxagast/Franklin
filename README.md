@@ -34,4 +34,5 @@ not necessarily need to be called from within irssi to work.
 oxagast
 
 *Thanks to people who asked for features*
+
 dclaw, proge, CerebraNet and more...
