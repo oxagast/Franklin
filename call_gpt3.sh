@@ -4,7 +4,7 @@
 ## /trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
-OUT_PTH="."
+OUT_PTH="/var/www/html"
 HARDL="-350"                       # hard limit (in bytes)
 SOFTL="120"                        # soft limit (in words)
 MODEL="text-davinci-003"
@@ -25,16 +25,16 @@ function call_api () {
     # some logging of user input
     echo "${WHO_S}: ${SAY}" >>${LOGF}
     # pull back json
-    curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
+    RES=$(curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
       -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
-      ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}" >res.txt
+      ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}")
     # sanitizes input
-    cat res.txt | tr -d "\'" | tr -d "\`" | tr -d "\;" | tr -d '\&' >sanitized.txt
-    CALLR=$(md5sum < sanitized.txt | cut -c -8)
+    SANI_RES=$(echo ${RES} | tr -d "\'" | tr -d "\`" | tr -d "\;" | tr -d '\&')
+    CALLR=$(echo ${SANI_RES} | md5sum | cut -c -8)
     # json extraction and formatting
     echo "${SAY}" >${OUT_PTH}/said/${CALLR}
     echo >>${OUT_PTH}/said/${CALLR}
-    OUT_TXT=$(cat sanitized.txt | jq -r '.choices[].text' | sed -e 's|\\n||g' | tr -d '\n')
+    OUT_TXT=$(echo ${SANI_RES} | jq -r '.choices[].text' | sed -e 's|\\n||g' | tr -d '\n')
     echo "${OUT_TXT}" >>${OUT_PTH}/said/${CALLR}
     # add it to the webserver dir and say/log its response
     SAID=$(echo "${OUT_TXT}" | sed -e 's/[^\.]$/.../' | cut -c ${HARDL})
@@ -46,7 +46,6 @@ function call_api () {
 
 if [ -d ${OUT_PTH}/said ]; then
   call_api;
-  rm sanitized.txt res.txt
 else
   >&2 echo "Running setup routine..";
   mkdir -p ~/.irssi/scripts/ || die $?
