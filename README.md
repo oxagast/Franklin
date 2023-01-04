@@ -8,9 +8,9 @@
 
 *Setup*
 
-1) You should configure `trigger.pl` to autoloadd on irssi start, and optionally configure your channel autojoins.
+1) You should configure `trigger.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 
-2) Also you need to create an API key, then put it in a file called `api.key` in the scripts working directory.
+2) Create an API key, then put it in a file called `api.key` in the scripts working directory.
 
 3) You'll need to set up a webserver with a directory under it's root called `said` (usually something like `/var/www/html/said/`),
 that is writable by the call_gpt3.sh script.
@@ -28,6 +28,9 @@ not Franklin's nick!)
 
 When debugging you can run the `call_gpt3.sh` script like: `./call_gpt3.sh "print me a test message" yournick`, as it does
 not necessarily need to be called from within irssi to work.
+
+If you get an error from jq it means that it got something back from the api that it didn't expect, probably due to a bad 
+API key or excessive server load.
 
 *Authors*
 
