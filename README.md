@@ -8,7 +8,7 @@
 
 *Setup*
 
-1) You should configure `trigger.pl` to autoload on irssi start, and optionally configure your channel autojoins.
+1) You should configure `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 
 2) Create an API key, then put it in a file called `api.key` in the scripts working directory.
 
@@ -19,7 +19,7 @@ that is writable by the call_gpt3.sh script.
 
 5) Edit any variables in call_gpt3.sh you need to, such as the domain name of your server where the long-text is hosted.
 
-6) Finally, add a trigger: `/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''`
+6) Finally, test it by calling with Franklin: say hi! in chat.
 
 *Debugging*
 
