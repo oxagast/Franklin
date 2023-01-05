@@ -22,7 +22,10 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 <p><em>Setup</em></p>
 <ol>
 <li>
-<p>You should configure <code>trigger.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
+<p>Get it on <a href="https://github.com/oxagast/Franklin">GitHub</a>
+</li>
+<li>
+<p>You should configure <code>franklin.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
 </li>
 <li>
 <p>Create an API key, then put it in a file called <code>api.key</code> in the scripts working directory.</p>
@@ -38,7 +41,7 @@ that is writable by the call_gpt3.sh script.</p>
 <p>Edit any variables in call_gpt3.sh you need to, such as the domain name of your server where the long-text is hosted.</p>
 </li>
 <li>
-<p>Finally, add a trigger: <code>/trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''</code></p>
+<p>Finally, test it by calling Franklin: in chat.</code></p>
 </li>
 </ol>
 <p><em>Debugging</em></p>
