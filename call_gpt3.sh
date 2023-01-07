@@ -4,9 +4,9 @@
 ## /trigger add -publics -regexp '^Franklin. (.*)' -command 'exec -o ~/call_gpt3.sh \'$1\' \'$N\''
 
 SITE="https://gpt3.oxasploits.com" # where to host the overrun
-OUT_PTH="."
+OUT_PTH="/var/www/html"
 HARDL="-350" # hard limit (in bytes)
-SOFTL="120"  # soft limit (in words)
+SOFTL="200"  # soft limit (in words)
 MODEL="text-davinci-003"
 HEAT="0.7"
 LOGF="./franklin.log"
@@ -30,15 +30,16 @@ function call_api()
       -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
       ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}")
     if [ $? -eq 0 ]; then
-      # sanitizes input
+      # sanitizes output
       SANI_RES=$(echo "${RES}" | tr -d "'" | tr -d "\`" | tr -d ";" | tr -d '&')
       CALLR=$(echo "${SANI_RES}" | md5sum | cut -c -8)
       # json extraction and formatting
-      echo "${SAY}" >${OUT_PTH}/said/${CALLR}
-      echo >>${OUT_PTH}/said/${CALLR}
+      echo "${SAY}" >${OUT_PTH}/said/${CALLR};
+      echo "-------- snip --------" >> ${OUT_PTH}/said/${CALLR};
+      #echo >>${OUT_PTH}/said/${CALLR}
       OUT_TXT=$(echo ${SANI_RES} | jq -r '.choices[].text' 2>/dev/null)
       if [ $? -eq 0 ]; then
-        echo "${OUT_TXT}" | sed -e 's|\\n||g' | tr -d '\n' >>${OUT_PTH}/said/${CALLR}
+        echo "${OUT_TXT}" | sed -e 's|\\n|\n|gm' >>${OUT_PTH}/said/${CALLR}
         # add it to the webserver dir and say/log its response
         SAID=$(echo "${OUT_TXT}" | sed -e 's|\\n||g' | tr -d '\n' | sed -e 's/[^\.]$/.../' | cut -c ${HARDL})
         echo "${SAID} ${SITE}/said/${CALLR}" | tee -a ${LOGF}

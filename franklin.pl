@@ -46,7 +46,12 @@ sub frank {
         if ( $franksays !~ m/^ https/ ) {
             $server->command("msg $channel $franksays");
         }
-        else { $server->command("msg $channel No."); }
+        else { 
+            sleep(2);
+            my $r  = int rand(10);
+            my $rs = " "x$r;
+            $server->command("msg $channel No. $rs");
+        }
 
     }
 
