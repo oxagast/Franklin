@@ -1,6 +1,6 @@
 # Franklin
 
-## Franklin is a GPT3 backed IRC bot
+## Franklin is a GPTChat backed IRC bot
 
 **Franklin runs inside irssi.**
 
