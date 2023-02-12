@@ -13,10 +13,12 @@ LOGF="./franklin.log"
 
 SAY="$1"
 WHO="$2"
-WHO_S=$(echo ${WHO} | tr -d '\`' | tr -d '&' | tr -d "'" | tr -d ";")
+WHO_S=$(echo ${WHO} | tr -d '\`' | tr -d '&' | tr -d "'" | tr -d ";" | tr -d "(" | tr -d ")" | tr -d "$")
 # I can't decide if you're wearing me out or wearing me well
 # I just feel like I'm condemned to wear someone else's hell
 # We've only reached the third day of our seven-day binge
+
+RNDI=$(( $RANDOM % 999 + 100 ))
 
 function call_api()
 {
@@ -26,12 +28,13 @@ function call_api()
     # some logging of user input
     echo "${WHO_S}: ${SAY}" >>${LOGF}
     # pull back json
+    SAY_S=$(echo ${SAY} | tr -d '\`' | tr -d '&' | tr -d "'" | tr -d ";" | tr -d "(" | tr -d ")" | tr -d "$")
     RES=$(curl -s ${SRV} -H "Content-Type: application/json" -H "Authorization: Bearer ${APIKEY}" \
-      -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY}\",\"temperature\": ${HEAT},\"max_tokens\": \
+      -d "{\"model\": \"${MODEL}\",\"prompt\": \"${SAY_S}\",\"temperature\": ${HEAT},\"max_tokens\": \
       ${SOFTL},\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}")
     if [ $? -eq 0 ]; then
       # sanitizes output
-      SANI_RES=$(echo "${RES}" | tr -d "'" | tr -d "\`" | tr -d ";" | tr -d '&')
+      SANI_RES=$(echo "${RES}" | tr -d "'" | tr -d "\`" | tr -d ";" | tr -d '&' | tr -d "(" | tr -d ")" | tr -d "$")
       CALLR=$(echo "${SANI_RES}" | md5sum | cut -c -8)
       # json extraction and formatting
       echo "${SAY}" >${OUT_PTH}/said/${CALLR};
@@ -41,16 +44,20 @@ function call_api()
       if [ $? -eq 0 ]; then
         echo "${OUT_TXT}" | sed -e 's|\\n|\n|gm' >>${OUT_PTH}/said/${CALLR}
         # add it to the webserver dir and say/log its response
-        SAID=$(echo "${OUT_TXT}" | sed -e 's|\\n||g' | tr -d '\n' | sed -e 's/[^\.]$/.../' | cut -c ${HARDL})
-        echo "${SAID} ${SITE}/said/${CALLR}" | tee -a ${LOGF}
+        SAID=$(echo "${OUT_TXT}" | sed -e 's|\\n||g' | tr -d '\n' | cut -c ${HARDL})
+        echo "${SAID} ${SITE}/said/${CALLR}" | tee -a ${LOGF} && DONE=1;
       else
-        echo "Error parsing json."
+        sleep 1
+        call_api
+        echo "Error parsing json. ERR:1056$RNDI" >2
       fi
     else
-      echo "Did not get response from server."
+      sleep 1
+      call_api
+      echo "Did not get response from server. ERR:1034$RNDI" >2
     fi
   else
-    echo "You cannot use that command."
+    echo "Sorry you are on the blacklist. ERR:1027$RNDI"
   fi
 }
 
