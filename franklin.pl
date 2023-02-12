@@ -13,7 +13,7 @@ my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://gpt3.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "100";
-my $apikey    = "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";
+my $apikey    =  `cat api.key`;
 
 $VERSION = "2.0a1";
 %IRSSI   = (
