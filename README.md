@@ -17,7 +17,7 @@ that is writable by the call_gpt3.sh script.
 
 4) Create a file called `block.lst` and fill it, line by line, with any users that abuse the bot.
 
-5) Edit any variables in call_gpt3.sh you need to, such as the domain name of your server where the long-text is hosted.
+5) Edit any variables in franklin.pl you need to, such as the domain name of your server where the long-text is hosted.
 
 6) Finally, test it by calling with Franklin: say hi! in chat.
 
@@ -25,9 +25,6 @@ that is writable by the call_gpt3.sh script.
 
 ... Now test the bot by calling it with "Franklin: print me a test message" in channel (do this from a different nick, 
 not Franklin's nick!)
-
-When debugging you can run the `call_gpt3.sh` script like: `./call_gpt3.sh "print me a test message" yournick`, as it does
-not necessarily need to be called from within irssi to work.
 
 If you get an error from jq it means that it got something back from the api that it didn't expect, probably due to a bad 
 API key or excessive server load.
