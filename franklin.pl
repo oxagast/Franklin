@@ -37,8 +37,10 @@ sub callapi {
     my $heat  = "0.7";
     my $uri   = URI->new($url);
     my $ua    = LWP::UserAgent->new;
-    my $askbuilt =
-"{\"model\": \"$model\",\"prompt\": \"$textcall\",\"temperature\": $heat,\"max_tokens\": $wordlimit,\"top_p\": 1,\"frequency_penalty\": 0,\"presence_penalty\": 0}";
+    my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," .
+                   "\"temperature\":$heat,\"max_tokens\": $wordlimit," .
+                   "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" .
+                   "penalty\": 0}";
     $ua->default_header( "Content-Type"  => "application/json" );
     $ua->default_header( "Authorization" => "Bearer " . $apikey );
     my $res = $ua->post( $uri, Content => $askbuilt );
