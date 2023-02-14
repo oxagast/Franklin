@@ -9,12 +9,14 @@ use LWP::UserAgent;
 use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
+use Encode;
+
 my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://gpt3.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "340" - length($webaddr) + 10;
 my $done      = 0;
-$VERSION = "2.0a1";
+$VERSION = "2.0a2";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -36,7 +38,7 @@ sub callapi {
   }
   $apikey =~ s/\n//g;
   chomp($apikey);
-  Irssi::print "Franklin: API key: $apikey";
+  #Irssi::print "Franklin: API key: $apikey";
   close(FH);
   my $url   = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";
@@ -51,13 +53,12 @@ sub callapi {
   $ua->default_header( "Content-Type"  => "application/json" );
   $ua->default_header( "Authorization" => "Bearer " . $apikey );
   my $res = $ua->post( $uri, Content => $askbuilt );
-
   if ( $res->is_success ) {
     my $json_rep  = $res->decoded_content();
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     $said =~ s/^\n+//;
-    my $hexfn = substr( md5_hex($said), 0, 8 );
+    my $hexfn = substr( Digest::MD5::md5_hex(utf8::is_utf8($said) ? Encode::encode_utf8($said) : $said), 0, 8 );
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" ) or die $!;
     print SAID "$nick asked $textcall\n<---- snip ---->\n$said $webaddr$hexfn";
