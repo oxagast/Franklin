@@ -1,7 +1,5 @@
 #!/usr/bin/perl
 use Irssi;
-
-#use 5.6.0;
 use strict;
 use vars qw($VERSION %IRSSI);
 use warnings;
@@ -10,13 +8,11 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-
 my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://gpt3.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "340" - length($webaddr) + 10;
-my $done      = 0;
-$VERSION = "2.0a2";
+$VERSION = "2.0a3";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -24,22 +20,23 @@ $VERSION = "2.0a2";
            description => 'Support script for Franklin GPT3 bot',
            license     => 'BSD',
            url         => 'http://gpt3.oxasploits.com',
-           changed     => 'Feb, 12th 2023',
+           changed     => 'Feb, 14th 2023',
 );
+our $apikey;
+open( AK, '<', "api.key" ) or die $!;
+
+while (<AK>) {
+  $apikey = $_;
+}
+$apikey =~ s/\n//g;
+chomp($apikey);
+close(FH);
 Irssi::signal_add_last( 'message public', 'frank' );
 Irssi::print "Franklin: $VERSION loaded";
+Irssi::print "Franklin: API key: $apikey";
 
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
-  my $apikey = "";
-  open( AK, '<', "api.key" ) or die $!;
-  while (<AK>) {
-    $apikey = $_;
-  }
-  $apikey =~ s/\n//g;
-  chomp($apikey);
-  #Irssi::print "Franklin: API key: $apikey";
-  close(FH);
   my $url   = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";
   my $heat  = "0.7";
@@ -53,12 +50,20 @@ sub callapi {
   $ua->default_header( "Content-Type"  => "application/json" );
   $ua->default_header( "Authorization" => "Bearer " . $apikey );
   my $res = $ua->post( $uri, Content => $askbuilt );
+
   if ( $res->is_success ) {
     my $json_rep  = $res->decoded_content();
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     $said =~ s/^\n+//;
-    my $hexfn = substr( Digest::MD5::md5_hex(utf8::is_utf8($said) ? Encode::encode_utf8($said) : $said), 0, 8 );
+    my $hexfn = substr(
+                        Digest::MD5::md5_hex(
+                                                utf8::is_utf8($said)
+                                              ? Encode::encode_utf8($said)
+                                              : $said
+                        ),
+                        0, 8
+    );
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" ) or die $!;
     print SAID "$nick asked $textcall\n<---- snip ---->\n$said $webaddr$hexfn";
@@ -66,10 +71,11 @@ sub callapi {
     my $said_cut = substr( $said, 0, $hardlimit );
     Irssi::print "Franklin: Reply: $said $webaddr$hexfn";
     $server->command("msg $channel $said_cut $webaddr$hexfn");
-    our $done = 1;
+    return 0;
   }
   else {
     Irssi::print "Franklin: Something went wrong.";
+    return 1;
   }
 }
 
@@ -78,8 +84,9 @@ sub frank {
   if ( $msg =~ /^Franklin: (.*)/ ) {
     my $textcall = $1;
     Irssi::print "Franklin: $nick asked: $textcall";
-    if ( $done == 0 ) {
-      callapi( $textcall, $server, $nick, $channel );
+    my $wrote = 1;
+    while ( $wrote == 1 ) {
+      $wrote = callapi( $textcall, $server, $nick, $channel );
     }
   }
 }
