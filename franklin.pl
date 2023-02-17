@@ -10,7 +10,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 my $httploc   = "/var/www/html/said/";
-my $webaddr   = "https://gpt3.oxasploits.com/said/";
+my $webaddr   = "https://franklin.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "280";
 our $localdir  = "/home/gpt3/Franklin/";
