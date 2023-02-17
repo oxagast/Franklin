@@ -4,6 +4,7 @@ use strict;
 use vars qw($VERSION %IRSSI);
 use warnings;
 use LWP::UserAgent;
+use utf8;
 use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
@@ -11,8 +12,9 @@ use Encode;
 my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://gpt3.oxasploits.com/said/";
 my $wordlimit = "250";
-my $hardlimit = "340" - length($webaddr) + 10;
-$VERSION = "2.0a3";
+my $hardlimit = "280";
+our $localdir  = "/home/gpt3/Franklin/";
+$VERSION = "2.0b1";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -23,7 +25,7 @@ $VERSION = "2.0a3";
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-open( AK, '<', "api.key" ) or die $!;
+open( AK, '<', $localdir . "api.key" ) or die $!;
 
 while (<AK>) {
   $apikey = $_;
@@ -69,7 +71,8 @@ sub callapi {
     print SAID "$nick asked $textcall\n<---- snip ---->\n$said $webaddr$hexfn";
     close(SAID);
     my $said_cut = substr( $said, 0, $hardlimit );
-    Irssi::print "Franklin: Reply: $said $webaddr$hexfn";
+    $said_cut =~ s/\n/ /g;
+    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn";
     $server->command("msg $channel $said_cut $webaddr$hexfn");
     return 0;
   }
@@ -81,12 +84,28 @@ sub callapi {
 
 sub frank {
   my ( $server, $msg, $nick, $address, $channel ) = @_;
-  if ( $msg =~ /^Franklin: (.*)/ ) {
-    my $textcall = $1;
-    Irssi::print "Franklin: $nick asked: $textcall";
-    my $wrote = 1;
-    while ( $wrote == 1 ) {
-      $wrote = callapi( $textcall, $server, $nick, $channel );
+  open BN, '<', $localdir . "block.lst";
+  my @badnicks = <BN>;
+  close BN;
+  chomp(@badnicks);
+  if ( grep( /^$nick$/, @badnicks ) ) {
+    Irssi: print "Franklin: $nick does not have privs to use this.";
+  }
+  else {
+    if ( $msg =~ /^Franklin: (.*)/ ) {
+      my $textcall = $1;
+      Irssi::print "Franklin: $nick asked: $textcall";
+      my $wrote = 1;
+      my $try = 1;
+      while ( $wrote == 1 ) {
+        $wrote = callapi( $textcall, $server, $nick, $channel );
+        $try++;
+	sleep 1;
+        if ( $try >= 4) {
+          Irssi::print "Something went wrong, giving up after 4 retries...";
+          $wrote = 0;
+        }      
+      }
     }
   }
 }

@@ -13,7 +13,7 @@
 2) Create an API key, then put it in a file called `api.key` in the scripts working directory.
 
 3) You'll need to set up a webserver with a directory under it's root called `said` (usually something like `/var/www/html/said/`),
-that is writable by the call_gpt3.sh script.
+that is writable by the `franklin.pl` script.
 
 4) Create a file called `block.lst` and fill it, line by line, with any users that abuse the bot.
 
@@ -26,13 +26,13 @@ that is writable by the call_gpt3.sh script.
 ... Now test the bot by calling it with "Franklin: print me a test message" in channel (do this from a different nick, 
 not Franklin's nick!)
 
-If you get an error from jq it means that it got something back from the api that it didn't expect, probably due to a bad 
-API key or excessive server load.
+Sometimes Fraklin fails because of heavy load on the API, connection issues, or the like.  It has primitive recovery methods, if
+it happens to get stuck, just `script load franklin.pl` again. Should reload Franklin.
 
 *Authors*
 
 oxagast
 
-*Thanks to people who asked for features*
+*Thanks to people who asked for features or found bugs*
 
-dclaw, proge, CerebraNet and more...
+atg, dclaw, proge, CerebraNet and more...
