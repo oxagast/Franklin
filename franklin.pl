@@ -9,12 +9,20 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-my $httploc   = "/var/www/html/said/";
-my $webaddr   = "https://franklin.oxasploits.com/said/";
+
+#####################################################################
+### Adjust this variable to the location of Franklin's source!!!! ###
+our $localdir = "/home/gpt3/Franklin/"; #############################
+#####################################################################
+
+Irssi::settings_add_str("franklin", "franklin_http_location", "/var/www/html/said/");
+Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
+Irssi::settings_add_str("franklin", "franklin_max_retry", "3");
+my $httploc = Irssi::settings_get_str('franklin_http_location');
+my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
+our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = "250";
 my $hardlimit = "280";
-our $maxretry = 3;
-our $localdir = "/home/gpt3/Franklin/";
 $VERSION = "2.0b1";
 %IRSSI = (
            authors     => 'oxagast',
@@ -26,7 +34,7 @@ $VERSION = "2.0b1";
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-open( AK, '<', $localdir . "api.key" ) or die "Franklin: Sorry, your API key file does not exist yet, go get a key!\nFranklin: $!";
+open( AK, '<', $localdir . "api.key" ) or die "Franklin: Sorry, your API key file does not exist yet, go get a key!\nFranklin: It is also possible you have not yet adjusted the $localdir variable to where Franklin's source code is.\nFranklin: Ex. The line near the top should read something like: our $localdir = '/home/frank/Franklin/'\nFranklin: $!";
 
 while (<AK>) {
   $apikey = $_;
@@ -103,7 +111,7 @@ sub frank {
         $try++;
         sleep 1;
         if ( $try >= $maxretry ) {
-          Irssi::print "Something went wrong, giving up after 4 retries...";
+          #Irssi::print "Something went wrong, giving up after $maxretry retries...";
           $wrote = 0;
         }
       }
