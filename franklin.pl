@@ -13,6 +13,7 @@ my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://franklin.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "280";
+our $maxretry = 3;
 our $localdir = "/home/gpt3/Franklin/";
 $VERSION = "2.0b1";
 %IRSSI = (
@@ -21,11 +22,11 @@ $VERSION = "2.0b1";
            name        => 'franklin',
            description => 'Support script for Franklin GPT3 bot',
            license     => 'BSD',
-           url         => 'http://gpt3.oxasploits.com',
+           url         => 'http://franklin.oxasploits.com',
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-open( AK, '<', $localdir . "api.key" ) or die $!;
+open( AK, '<', $localdir . "api.key" ) or die "Franklin: Sorry, your API key file does not exist yet, go get a key!\nFranklin: $!";
 
 while (<AK>) {
   $apikey = $_;
@@ -84,7 +85,7 @@ sub callapi {
 
 sub frank {
   my ( $server, $msg, $nick, $address, $channel ) = @_;
-  open BN, '<', $localdir . "block.lst";
+  open ( BN, '<', $localdir . "block.lst" ) or die "Franklin: Sorry, you need a block.lst file, even if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
   close BN;
   chomp(@badnicks);
@@ -101,7 +102,7 @@ sub frank {
         $wrote = callapi( $textcall, $server, $nick, $channel );
         $try++;
         sleep 1;
-        if ( $try >= 4 ) {
+        if ( $try >= $maxretry ) {
           Irssi::print "Something went wrong, giving up after 4 retries...";
           $wrote = 0;
         }
