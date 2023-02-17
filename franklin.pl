@@ -13,7 +13,7 @@ my $httploc   = "/var/www/html/said/";
 my $webaddr   = "https://franklin.oxasploits.com/said/";
 my $wordlimit = "250";
 my $hardlimit = "280";
-our $localdir  = "/home/gpt3/Franklin/";
+our $localdir = "/home/gpt3/Franklin/";
 $VERSION = "2.0b1";
 %IRSSI = (
            authors     => 'oxagast',
@@ -89,22 +89,22 @@ sub frank {
   close BN;
   chomp(@badnicks);
   if ( grep( /^$nick$/, @badnicks ) ) {
-    Irssi: print "Franklin: $nick does not have privs to use this.";
+  Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
     if ( $msg =~ /^Franklin: (.*)/ ) {
       my $textcall = $1;
       Irssi::print "Franklin: $nick asked: $textcall";
       my $wrote = 1;
-      my $try = 1;
+      my $try   = 1;
       while ( $wrote == 1 ) {
         $wrote = callapi( $textcall, $server, $nick, $channel );
         $try++;
-	sleep 1;
-        if ( $try >= 4) {
+        sleep 1;
+        if ( $try >= 4 ) {
           Irssi::print "Something went wrong, giving up after 4 retries...";
           $wrote = 0;
-        }      
+        }
       }
     }
   }
