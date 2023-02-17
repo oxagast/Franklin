@@ -1,7 +1,8 @@
 #!/usr/bin/perl
+use Proc::Simple;
 use Irssi;
-use strict;
 use vars qw($VERSION %IRSSI);
+use strict;
 use warnings;
 use LWP::UserAgent;
 use utf8;
@@ -9,15 +10,19 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-
 #####################################################################
 ### Adjust this variable to the location of Franklin's source!!!! ###
-our $localdir = "/home/gpt3/Franklin/"; #############################
+our $localdir = "/home/gpt3/Franklin/";    ##########################
 #####################################################################
-
-Irssi::settings_add_str("franklin", "franklin_http_location", "/var/www/html/said/");
-Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
-Irssi::settings_add_str("franklin", "franklin_max_retry", "3");
+Irssi::settings_add_str( "franklin", "franklin_http_location",
+                         "/var/www/html/said/" );
+Irssi::settings_add_str(
+                         "franklin",
+                         "franklin_response_webserver_addr",
+                         "https://franklin.oxasploits.com/said/"
+);
+Irssi::settings_add_str( "franklin", "franklin_max_retry", "3" );
+Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -34,7 +39,13 @@ $VERSION = "2.0b1";
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-open( AK, '<', $localdir . "api.key" ) or die "Franklin: Sorry, your API key file does not exist yet, go get a key!\nFranklin: It is also possible you have not yet adjusted the $localdir variable to where Franklin's source code is.\nFranklin: Ex. The line near the top should read something like: our $localdir = '/home/frank/Franklin/'\nFranklin: $!";
+open( AK, '<', $localdir . "api.key" )
+  or die
+  "Franklin: Sorry, your API key file does not exist yet, go get a key!\n"
+  . "Franklin: It is also possible you have not yet adjusted the \$localdir"
+  . " variable to where Franklin's source code is.\nFranklin: Ex. The line "
+  . "near the top should read something like: our \$localdir = '/home/frank"
+  . "/Franklin/'\nFranklin: $!";
 
 while (<AK>) {
   $apikey = $_;
@@ -42,6 +53,10 @@ while (<AK>) {
 $apikey =~ s/\n//g;
 chomp($apikey);
 close(FH);
+my $aliveworker = Proc::Simple->new();
+if ( Irssi::settings_get_str('franklin_heartbeat_url') ne "" ) {
+  $aliveworker->start( \&falive );
+}
 Irssi::signal_add_last( 'message public', 'frank' );
 Irssi::print "Franklin: $VERSION loaded";
 Irssi::print "Franklin: API key: $apikey";
@@ -91,9 +106,23 @@ sub callapi {
   }
 }
 
+sub falive {
+  while (1) {
+  my $url = Irssi::settings_get_str('franklin_heartbeat_url');
+#    my $url =
+#"https://heartbeat.uptimerobot.com/m793650946-7aba08b41eac1a30845c47af01846a41594d456d";
+    my $uri = URI->new($url);
+    my $ua  = LWP::UserAgent->new;
+    my $res = $ua->post($uri);
+    sleep 30;
+  }
+}
+
 sub frank {
   my ( $server, $msg, $nick, $address, $channel ) = @_;
-  open ( BN, '<', $localdir . "block.lst" ) or die "Franklin: Sorry, you need a block.lst file, even if it is empty!\nFranklin: $!";
+  open( BN, '<', $localdir . "block.lst" )
+    or die "Franklin: Sorry, you need a block.lst file, even"
+    . " if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
   close BN;
   chomp(@badnicks);
@@ -111,7 +140,6 @@ sub frank {
         $try++;
         sleep 1;
         if ( $try >= $maxretry ) {
-          #Irssi::print "Something went wrong, giving up after $maxretry retries...";
           $wrote = 0;
         }
       }
