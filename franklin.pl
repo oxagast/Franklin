@@ -16,12 +16,11 @@ our $localdir = "/home/gpt3/Franklin/";    ##########################
 #####################################################################
 Irssi::settings_add_str( "franklin", "franklin_http_location",
                          "/var/www/html/said/" );
-Irssi::settings_add_str(
-                         "franklin",
+Irssi::settings_add_str( "franklin",
                          "franklin_response_webserver_addr",
-                         "https://franklin.oxasploits.com/said/"
-);
-Irssi::settings_add_str( "franklin", "franklin_max_retry", "3" );
+                         "https://franklin.oxasploits.com/said/" );
+Irssi::settings_add_str( "franklin", "franklin_max_retry",     "3" );
+Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
 Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
@@ -39,27 +38,23 @@ $VERSION = "2.0b1";
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-open( AK, '<', $localdir . "api.key" )
-  or die
-  "Franklin: Sorry, your API key file does not exist yet, go get a key!\n"
-  . "Franklin: It is also possible you have not yet adjusted the \$localdir"
-  . " variable to where Franklin's source code is.\nFranklin: Ex. The line "
-  . "near the top should read something like: our \$localdir = '/home/frank"
-  . "/Franklin/'\nFranklin: $!";
 
-while (<AK>) {
-  $apikey = $_;
+if ( Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/ ) {
+  Irssi::print "You must set a valid api key! /set franklin_api_key "
+    . "sk-BCjqdsTcwu9ptwVlIASqT3BlbklJuXr7tIo1yRQEcHeqfVvZ, "
+    . "then reload with /script load franklin.pl";
 }
-$apikey =~ s/\n//g;
-chomp($apikey);
-close(FH);
-my $aliveworker = Proc::Simple->new();
-if ( Irssi::settings_get_str('franklin_heartbeat_url') ne "" ) {
-  $aliveworker->start( \&falive );
+if ( Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/ ) {
+  my $aliveworker = Proc::Simple->new();
+  if ( Irssi::settings_get_str('franklin_heartbeat_url') ne "" ) {
+    $aliveworker->start( \&falive );
+  }
+  $apikey = Irssi::settings_get_str('franklin_api_key');
+  Irssi::signal_add_last( 'message public', 'frank' );
+  Irssi::print "Franklin: $VERSION loaded";
+  Irssi::print "Franklin: API key: $apikey";
 }
-Irssi::signal_add_last( 'message public', 'frank' );
-Irssi::print "Franklin: $VERSION loaded";
-Irssi::print "Franklin: API key: $apikey";
+else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
@@ -108,9 +103,7 @@ sub callapi {
 
 sub falive {
   while (1) {
-  my $url = Irssi::settings_get_str('franklin_heartbeat_url');
-#    my $url =
-#"https://heartbeat.uptimerobot.com/m793650946-7aba08b41eac1a30845c47af01846a41594d456d";
+    my $url = Irssi::settings_get_str('franklin_heartbeat_url');
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
     my $res = $ua->post($uri);
