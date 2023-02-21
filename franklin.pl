@@ -87,7 +87,7 @@ sub callapi {
     );
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" ) or die $!;
-    print SAID "$nick asked $textcall\n<---- snip ---->\n$said $webaddr$hexfn";
+    print SAID "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g; # fixes newlines for irc compat
@@ -119,18 +119,18 @@ sub frank {
   my @badnicks = <BN>;
   close BN;
   chomp(@badnicks);
-  if ( grep( /^$nick$/, @badnicks ) ) {  ## fuck everyone inside this loop
+  if ( grep( /^$nick$/, @badnicks ) ) {  ## fuck everyone inside this conditional
   Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    if ( $msg =~ /^Franklin: (.*)/i ) {
-      my $textcall = $1;
+    if ( $msg =~ /^Franklin: (.*)/i ) { ## added /i for case insensitivity
+      my $textcall = $1; ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
       my $wrote = 1;
       my $try   = 1;
       while ( $wrote == 1 ) {
         $wrote = callapi( $textcall, $server, $nick, $channel );
-        $try++;
+        $try++; ## increment the retry counter
         sleep 1;
         if ( $try >= $maxretry ) {
           $wrote = 0;  ## this is actually on fail, just so we don't get stuck
