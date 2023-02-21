@@ -28,7 +28,7 @@ my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = "600";
 my $hardlimit = "280";
-$VERSION = "2.0";
+$VERSION = "2.0.2";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -36,7 +36,7 @@ $VERSION = "2.0";
            description => 'Support script for Franklin GPT3 bot',
            license     => 'BSD',
            url         => 'http://franklin.oxasploits.com',
-           changed     => 'Feb, 14th 2023',
+           changed     => 'Feb, 21th 2023',
 );
 our $apikey;
 ## checking to see if the api key 'looks' valid before use
