@@ -10,6 +10,7 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
+$|++;
 #####################################################################
 ### Adjust this variable to the location of Franklin's source!!!! ###
 our $localdir = "/home/gpt3/Franklin/";    ##########################
@@ -58,6 +59,10 @@ else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
+  $textcall =~ s/\\"//g;
+  $textcall =~ s/\\'//g;
+  $textcall =~ s/\'/"/gs;
+  $textcall =~ s/\"/\\"/g;
   my $url   = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";   ## other model implementations work too
   my $heat  = "0.7";  ## ?? wtf
@@ -85,6 +90,7 @@ sub callapi {
                         ),
                         0, 8
     );
+    $textcall =~ s/\\\"/"/g;
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" ) or die $!;
     print SAID "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
