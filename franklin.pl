@@ -19,15 +19,15 @@ Irssi::settings_add_str( "franklin", "franklin_http_location",
 Irssi::settings_add_str( "franklin",
                          "franklin_response_webserver_addr",
                          "https://franklin.oxasploits.com/said/" );
-Irssi::settings_add_str( "franklin", "franklin_max_retry",     "3" );
-Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
-Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
+Irssi::settings_add_str( "franklin", "franklin_max_retry",     "3" ); ## you can change these
+Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );  ## variables inside irssi
+Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );  ## where franklin resides
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
-my $wordlimit = "250";
+my $wordlimit = "600";
 my $hardlimit = "280";
-$VERSION = "2.0b1";
+$VERSION = "2.0";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -38,16 +38,16 @@ $VERSION = "2.0b1";
            changed     => 'Feb, 14th 2023',
 );
 our $apikey;
-
+## checking to see if the api key 'looks' valid before use
 if ( Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/ ) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
     . "sk-BCjqdsTcwu9ptwVlIASqT3BlbklJuXr7tIo1yRQEcHeqfVvZ, "
     . "then reload with /script load franklin.pl";
 }
 if ( Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/ ) {
-  my $aliveworker = Proc::Simple->new();
-  if ( Irssi::settings_get_str('franklin_heartbeat_url') ne "" ) {
-    $aliveworker->start( \&falive );
+  my $aliveworker = Proc::Simple->new(); ## since you fags try to root me and crash franklin
+  if ( Irssi::settings_get_str('franklin_heartbeat_url') ne "" ) { # i need this so that
+    $aliveworker->start( \&falive ); ## i get alerts on my phone when franklin dies now.
   }
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last( 'message public', 'frank' );
@@ -59,8 +59,8 @@ else { Irssi: print "Something went wrong with the API key..."; }
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
   my $url   = "https://api.openai.com/v1/completions";
-  my $model = "text-davinci-003";
-  my $heat  = "0.7";
+  my $model = "text-davinci-003";   ## other model implementations work too
+  my $heat  = "0.7";  ## ?? wtf
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
   my $askbuilt =
@@ -70,7 +70,7 @@ sub callapi {
     . "penalty\": 0}";
   $ua->default_header( "Content-Type"  => "application/json" );
   $ua->default_header( "Authorization" => "Bearer " . $apikey );
-  my $res = $ua->post( $uri, Content => $askbuilt );
+  my $res = $ua->post( $uri, Content => $askbuilt ); ## send the post request to the api
 
   if ( $res->is_success ) {
     my $json_rep  = $res->decoded_content();
@@ -90,14 +90,14 @@ sub callapi {
     print SAID "$nick asked $textcall\n<---- snip ---->\n$said $webaddr$hexfn";
     close(SAID);
     my $said_cut = substr( $said, 0, $hardlimit );
-    $said_cut =~ s/\n/ /g;
+    $said_cut =~ s/\n/ /g; # fixes newlines for irc compat
     Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn";
     $server->command("msg $channel $said_cut $webaddr$hexfn");
     return 0;
   }
   else {
-    Irssi::print "Franklin: Something went wrong.";
-    return 1;
+    Irssi::print "Franklin: Something went wrong.";  ## damn it frank, ima bout to pimp you out
+    return 1;                                        ## to a two bit crackhead with a shlong dong
   }
 }
 
@@ -119,11 +119,11 @@ sub frank {
   my @badnicks = <BN>;
   close BN;
   chomp(@badnicks);
-  if ( grep( /^$nick$/, @badnicks ) ) {
+  if ( grep( /^$nick$/, @badnicks ) ) {  ## fuck everyone inside this loop
   Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    if ( $msg =~ /^Franklin: (.*)/ ) {
+    if ( $msg =~ /^Franklin: (.*)/i ) {
       my $textcall = $1;
       Irssi::print "Franklin: $nick asked: $textcall";
       my $wrote = 1;
@@ -133,7 +133,7 @@ sub frank {
         $try++;
         sleep 1;
         if ( $try >= $maxretry ) {
-          $wrote = 0;
+          $wrote = 0;  ## this is actually on fail, just so we don't get stuck
         }
       }
     }
