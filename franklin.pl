@@ -1,4 +1,8 @@
 #!/usr/bin/perl
+# written by oxagast
+# 
+# Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+#
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
