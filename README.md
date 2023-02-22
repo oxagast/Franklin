@@ -10,14 +10,15 @@
 
 1) You should configure `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 
-2) Create an API key, then put it in a file called `api.key` in the scripts working directory.
+2 Set the API key by running `/set franklin_api_key [key goes here]` inside irssi.
 
 3) You'll need to set up a webserver with a directory under it's root called `said` (usually something like `/var/www/html/said/`),
 that is writable by the `franklin.pl` script.
 
 4) Create a file called `block.lst` and fill it, line by line, with any users that abuse the bot.
 
-5) Edit any variables in franklin.pl you need to, such as the domain name of your server where the long-text is hosted.
+5) Edit any variables in franklin you need to from within irssi, such as the domain name of your server where the long-text is hosted,
+   by using `/set fraklin_...`.
 
 6) Finally, test it by calling with Franklin: say hi! in chat.
 
@@ -28,6 +29,28 @@ not Franklin's nick!)
 
 Sometimes Fraklin fails because of heavy load on the API, connection issues, or the like.  It has primitive recovery methods, if
 it happens to get stuck, just `script load franklin.pl` again. Should reload Franklin.
+
+*Settings*
+
+`/set franklin_api_key [apikey]`
+
+This is the API key you need to get from OpenAI.
+
+`/set franklin_heartbeat_url`
+
+A url that the franklin script will hit every 30 seconds to show it has not crashed.
+
+`/set franklin_response_webserver_addr`
+
+The directory of where the said files were saved on the domain your running franklin on.  This is something like: `https://franklin.com/said/`.
+
+`/set franklin_http_location`
+
+The directory location of where the files are to be saved to be served by the webserver. Should look like: `/var/www/html/said/`.
+
+`/set franklin_max_retry`
+
+How many times the script should retry connecting to the API before giving up.
 
 *Authors*
 
