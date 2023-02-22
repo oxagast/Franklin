@@ -10,7 +10,6 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-$|++;
 #####################################################################
 ### Adjust this variable to the location of Franklin's source!!!! ###
 our $localdir = "/home/gpt3/Franklin/";    ##########################
