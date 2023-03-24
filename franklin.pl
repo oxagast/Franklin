@@ -85,7 +85,7 @@ sub callapi {
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     $said =~ s/^\n+//;
-    $said =~ s/\?\s+(\w)/\1/;
+    $said =~ s/^\?\s+(\w)/\1/;
     my $hexfn = substr(
                         Digest::MD5::md5_hex(
                                                 utf8::is_utf8($said)
