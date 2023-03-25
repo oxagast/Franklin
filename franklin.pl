@@ -36,7 +36,7 @@ my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
-$VERSION = "2.0.2";
+$VERSION = "2.2";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -44,7 +44,7 @@ $VERSION = "2.0.2";
            description => 'Support script for Franklin GPT3 bot',
            license     => 'BSD',
            url         => 'http://franklin.oxasploits.com',
-           changed     => 'Feb, 21th 2023',
+           changed     => 'March, 25th 2023',
 );
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)";
