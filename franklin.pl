@@ -118,7 +118,7 @@ sub callapi {
     close(SAID);
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    my $localnick = $IRSSI{name};
+    my $localnick = $server->{nick};
     Irssi::print "$localnick: Reply: $said_cut $webaddr$hexfn";
     $server->command("msg $channel $said_cut $webaddr$hexfn");
     return 0;
@@ -154,7 +154,7 @@ sub frank {
   Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    my $localnick = $IRSSI{name};
+    my $localnick = $server->{nick};
     if ( $msg =~ /^$localnick: (.*)/i ) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "$localnick: $nick asked: $textcall";
