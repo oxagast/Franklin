@@ -155,7 +155,7 @@ sub frank {
   close BN;
   chomp(@badnicks);
   for(@badnicks) {
-  s/(.*)#.*$/$1/; ## for comments in the badnicks file
+    s/(.*)#.*$/$1/; ## for comments in the badnicks file
   }
   if ( grep( /^$nick$/, @badnicks ) ) { ## fuck everyone inside this conditional
   Irssi: print "Franklin: $nick does not have privs to use this.";
