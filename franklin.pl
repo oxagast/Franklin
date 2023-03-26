@@ -23,9 +23,11 @@ our $localdir = "/home/gpt3/Franklin/";    ##########################
 ## these varaibles you can change from within irssi using /set
 Irssi::settings_add_str( "franklin", "franklin_http_location",
                          "/var/www/html/said/" );
-Irssi::settings_add_str( "franklin",
+Irssi::settings_add_str(
+                         "franklin",
                          "franklin_response_webserver_addr",
-                         "https://franklin.oxasploits.com/said/" );
+                         "https://franklin.oxasploits.com/said/"
+);
 Irssi::settings_add_str( "franklin", "franklin_max_retry",     "3" );
 Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
 Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
@@ -81,7 +83,7 @@ sub callapi {
   $textcall =~ s/\\'//g;
   $textcall =~ s/\'/"/gs;
   $textcall =~ s/\"/\\"/g;
-  my $url = "https://api.openai.com/v1/completions";
+  my $url   = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
   my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
@@ -98,12 +100,13 @@ sub callapi {
 
   if ( $res->is_success ) {
     my $json_rep  = $res->decoded_content();
+    ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model":"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"finish_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     $said =~ s/^\n+//;
-    $said =~ s/^\?\s+(\w)/$1/;
-    my $hexfn = substr(
-                        Digest::MD5::md5_hex(
+    $said =~ s/^\?\s+(\w)/$1/;  ## if it spits out a question mark, this fixes it
+    my $hexfn = substr(   ## the reencode fixes the utf8 bug
+                        Digest::MD5::md5_hex(i 
                                                 utf8::is_utf8($said)
                                               ? Encode::encode_utf8($said)
                                               : $said
@@ -131,7 +134,7 @@ sub callapi {
 
 sub falive {
   my $url = Irssi::settings_get_str('franklin_heartbeat_url');
-  if ( $url ne "" ) {
+  if ( $url ne "" ) {    ## this makes it so its not mandatory to have it set
     while (1) {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
@@ -153,7 +156,7 @@ sub frank {
   Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    my $localnick = $server->{nick};
+    my $localnick = $server->{nick}; ## pull our nick on the server so we can call that
     if ( $msg =~ /^$localnick: (.*)/i ) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
