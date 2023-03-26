@@ -1,7 +1,14 @@
 #!/usr/bin/perl
-# written by oxagast
+# Author: by oxagast
+# Thanks: dclaw, proge, CerebraNet, atg and more...
 #
 # Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+#                  ,   .       
+#   ,-             |   | o     
+#   |  ;-. ,-: ;-. | , | . ;-. 
+#   |- |   | | | | |<  | | | | 
+#   |  '   `-` ' ' ' ` ' ' ' ' 
+#  -'                         
 #
 use Proc::Simple;
 use Irssi;
