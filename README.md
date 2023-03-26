@@ -36,25 +36,35 @@ it happens to get stuck, just `script load franklin.pl` again. Should reload Fra
 
 This is the API key you need to get from OpenAI.
 
-`/set franklin_heartbeat_url`
+`/set franklin_heartbeat_url [url]`
 
-A url that the franklin script will hit every 30 seconds to show it has not crashed.
+A url that the franklin script will hit every 30 seconds to show it has not crashed. This setting is optional, to turn it off: /set franklin_heartbeat_url "".
 
-`/set franklin_response_webserver_addr`
+`/set franklin_response_webserver_addr [address]`
 
-The directory of where the said files were saved on the domain your running franklin on.  This is something like: `https://franklin.com/said/`.
+The directory of where the said files were saved on the domain your running franklin on. This is something like: https://franklin.com/said/.
 
-`/set franklin_http_location`
+`/set franklin_http_location [dir]`
 
-The directory location of where the files are to be saved to be served by the webserver. Should look like: `/var/www/html/said/`.
+The directory location of where the files are to be saved to be served by the webserver. Should look like: /var/www/html/said/.
 
-`/set franklin_max_retry`
+`/set franklin_max_retry [int]`
 
 How many times the script should retry connecting to the API before giving up.
 
+`/set franklin_hard_limit [int]`
+
+The hard limit of characters that the response should be to fit in an IRC chat.
+This should be something like greater than 30 and less than 300.
+
+`/set franklin_word_limit [int]`
+
+This is the limit of words that the API should generate form the backend. Should
+be ~600.
+
 *Authors*
 
-oxagast
+oxagast / Marshall Whittaker
 
 *Thanks to people who asked for features or found bugs*
 
