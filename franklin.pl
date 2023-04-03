@@ -124,14 +124,14 @@ sub callapi {
     );
     $textcall =~ s/\\\"/"/g;
     umask(0133);
-    open( SAID, '>', "$httploc$hexfn" ) or die $!;
+    open( SAID, '>', "$httploc$hexfn" . ".txt" ) or die $!;
     print SAID
       "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn";
-    $server->command("msg $channel $said_cut $webaddr$hexfn");
+    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".txt";
+    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".txt");
     return 0;
   }
   else {
