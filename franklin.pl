@@ -169,7 +169,7 @@ sub frank {
   }
   else {
     my $localnick = $server->{nick}; ## pull our nick on the server so we can call that
-    if ( $msg =~ /^$localnick: (.*)/i ) {    ## added /i for case insensitivity
+    if ( $msg =~ /^$localnick[:|,] (.*)/i ) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
       my $wrote = 1;
