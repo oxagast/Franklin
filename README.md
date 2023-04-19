@@ -4,7 +4,7 @@
 
 **Franklin runs inside irssi.**
 
-![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/irc_chats.png)
+![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/franklin-cheese.png)
 
 *Examples*
 
