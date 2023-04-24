@@ -46,7 +46,7 @@ my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
-$VERSION = "2.4";
+$VERSION = "2.5";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -140,8 +140,10 @@ sub callapi {
       $fg_bottom = $fg_bottom . $_;
     }
     close;
+    my $said_html = sanitize($said, html => 1);
+    $said_html =~ s/\n/<br>/g;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
-    print SAIDHTML $fg_top . "$nick asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . sanitize($said, html => 1) . $fg_bottom;
+    print SAIDHTML $fg_top . "$nick asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . $said_html . $fg_bottom;
     close SAIDHTML;
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
