@@ -13,6 +13,7 @@
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
+use Sanitize;
 use strict;
 use warnings;
 use LWP::UserAgent;
@@ -86,10 +87,10 @@ else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
-  $textcall =~ s/\\"//g;
-  $textcall =~ s/\\'//g;
-  $textcall =~ s/\'/"/gs;
-  $textcall =~ s/\"/\\"/g;
+  my $fg_top = "";
+  my $fg_bottom = "";
+  $textcall =~ s/\"/\\"/gs;
+  $textcall =~ s/\'/\\\\'/gs;
   my $url   = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
   my $heat  = "0.7";                 ## ?? wtf
@@ -122,16 +123,30 @@ sub callapi {
                         ),
                         0, 8
     );
-    $textcall =~ s/\\\"/"/g;
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" . ".txt" ) or die $!;
     print SAID
       "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
+    open(FGT, "fg_top.dat") or die "Sorry!! couldn't open cgi!";
+    while(<FGT>)
+    {
+      $fg_top = $fg_top . $_;
+    }
+    close;
+    open(FGB, "fg_bottom.dat") or die "Sorry!! couldn't open cgi!";
+    while(<FGB>)
+    {
+      $fg_bottom = $fg_bottom . $_;
+    }
+    close;
+    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
+    print SAIDHTML $fg_top . "$nick asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . sanitize($said, html => 1) . $fg_bottom;
+    close SAIDHTML;
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".txt";
-    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".txt");
+    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
     return 0;
   }
   else {
