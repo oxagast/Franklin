@@ -133,7 +133,7 @@ sub callapi {
     open(FGT, "fg_top.html.part") or die "Sorry!! couldn't open cgi!";
     while(<FGT>)
     {
-i      $fg_top = $fg_top . $_;
+      $fg_top = $fg_top . $_;
     }
     close;
     open(FGB, "fg_bottom.html.part") or die "Sorry!! couldn't open cgi!";
