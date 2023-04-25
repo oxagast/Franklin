@@ -143,7 +143,7 @@ sub callapi {
     my $said_html = sanitize($said, html => 1);
     $said_html =~ s/\n/<br>/g;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
-    print SAIDHTML $fg_top . "$nick asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . $said_html . $fg_bottom;
+    print SAIDHTML $fg_top . "<br><i>" . localtime() . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . $said_html . $fg_bottom;
     close SAIDHTML;
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
