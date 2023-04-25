@@ -56,6 +56,8 @@ $VERSION = "2.5";
            url         => 'http://franklin.oxasploits.com',
            changed     => 'March, 25th 2023',
 );
+Irssi::print "";
+Irssi::print "Loading Franklin ChatGPT chatbot...";
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)";
 Irssi::print "  franklin_response_webserver_addr (mandatory)";
@@ -128,13 +130,13 @@ sub callapi {
     print SAID
       "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.dat") or die "Sorry!! couldn't open cgi!";
+    open(FGT, "fg_top.html.part") or die "Sorry!! couldn't open cgi!";
     while(<FGT>)
     {
-      $fg_top = $fg_top . $_;
+i      $fg_top = $fg_top . $_;
     }
     close;
-    open(FGB, "fg_bottom.dat") or die "Sorry!! couldn't open cgi!";
+    open(FGB, "fg_bottom.html.part") or die "Sorry!! couldn't open cgi!";
     while(<FGB>)
     {
       $fg_bottom = $fg_bottom . $_;
