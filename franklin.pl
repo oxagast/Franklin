@@ -3,12 +3,12 @@
 # Thanks: dclaw, proge, CerebraNet, atg and more...
 #
 # Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
-#                  ,   .       
-#   ,-             |   | o     
-#   |  ;-. ,-: ;-. | , | . ;-. 
-#   |- |   | | | | |<  | | | | 
-#   |  '   `-` ' ' ' ` ' ' ' ' 
-#  -'                         
+#                  ,   .
+#   ,-             |   | o
+#   |  ;-. ,-: ;-. | , | . ;-.
+#   |- |   | | | | |<  | | | |
+#   |  '   `-` ' ' ' ` ' ' ' '
+#  -'
 #
 use Proc::Simple;
 use Irssi;
@@ -31,11 +31,9 @@ our $localdir = "/home/gpt3/Franklin/";    ##########################
 ## these varaibles you can change from within irssi using /set
 Irssi::settings_add_str( "franklin", "franklin_http_location",
                          "/var/www/html/said/" );
-Irssi::settings_add_str(
-                         "franklin",
+Irssi::settings_add_str( "franklin",
                          "franklin_response_webserver_addr",
-                         "https://franklin.oxasploits.com/said/"
-);
+                         "https://franklin.oxasploits.com/said/" );
 Irssi::settings_add_str( "franklin", "franklin_max_retry",     "3" );
 Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
 Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
@@ -89,11 +87,11 @@ else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
   my ( $textcall, $server, $nick, $channel ) = @_;
-  my $fg_top = "";
+  my $fg_top    = "";
   my $fg_bottom = "";
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
-  my $url   = "https://api.openai.com/v1/completions";
+  my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
   my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
@@ -109,48 +107,54 @@ sub callapi {
     $ua->post( $uri, Content => $askbuilt ); ## send the post request to the api
 
   if ( $res->is_success ) {
-    my $json_rep  = $res->decoded_content();
+    my $json_rep = $res->decoded_content();
     ## response should look like
-    ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model":"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"finish_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
+    ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
+    ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
+    ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
     ## so we use a json decoder and fix for utf8
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     $said =~ s/^\n+//;
-    $said =~ s/^\?\s+(\w)/$1/;  ## if it spits out a question mark, this fixes it
-    my $hexfn = substr(   ## the reencode fixes the utf8 bug
-                        Digest::MD5::md5_hex(
-                                                utf8::is_utf8($said)
-                                              ? Encode::encode_utf8($said)
-                                              : $said
-                        ),
-                        0, 8
+    $said =~ s/^\?\s+(\w)/$1/; ## if it spits out a question mark, this fixes it
+    my $hexfn = substr(        ## the reencode fixes the utf8 bug
+      Digest::MD5::md5_hex(
+                              utf8::is_utf8($said)
+                            ? Encode::encode_utf8($said)
+                            : $said
+      ),
+      0,
+      8
     );
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" . ".txt" ) or die $!;
     print SAID
       "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part") or die "Sorry!! couldn't open cgi!";
-    while(<FGT>)
-    {
+    open( FGT, "fg_top.html.part" ) or die "Sorry!! couldn't open cgi!";
+    while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
     close;
-    open(FGB, "fg_bottom.html.part") or die "Sorry!! couldn't open cgi!";
-    while(<FGB>)
-    {
+    open( FGB, "fg_bottom.html.part" ) or die "Sorry!! couldn't open cgi!";
+    while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
     close;
-    my $said_html = sanitize($said, html => 1);
+    my $said_html = sanitize( $said, html => 1 );
     $said_html =~ s/\n/<br>/g;
-    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
-    print SAIDHTML $fg_top . "<br><i>" . localtime() . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>" . $said_html . $fg_bottom;
+    open( SAIDHTML, '>', "$httploc$hexfn" . ".html" ) or die $!;
+    print SAIDHTML $fg_top
+      . "<br><i>"
+      . localtime()
+      . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>"
+      . $said_html
+      . $fg_bottom;
     close SAIDHTML;
     my $said_cut = substr( $said, 0, $hardlimit );
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
     Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
+    $server->command( "msg $channel $said_cut $webaddr$hexfn" . ".html" );
     return 0;
   }
   else {
@@ -180,15 +184,16 @@ sub frank {
   my @badnicks = <BN>;
   close BN;
   chomp(@badnicks);
-  for(@badnicks) {
-    s/(.*)#.*$/$1/; ## for comments in the badnicks file
+  for (@badnicks) {
+    s/(.*)#.*$/$1/;    ## for comments in the badnicks file
   }
   if ( grep( /^$nick$/, @badnicks ) ) { ## fuck everyone inside this conditional
   Irssi: print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    my $localnick = $server->{nick}; ## pull our nick on the server so we can call that
-    if ( $msg =~ /^$localnick[:|,] (.*)/i ) {    ## added /i for case insensitivity
+    my $localnick =
+      $server->{nick};    ## pull our nick on the server so we can call that
+    if ( $msg =~ /^$localnick[:|,] (.*)/i ) { ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
       my $wrote = 1;
