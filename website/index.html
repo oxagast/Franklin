@@ -14,11 +14,23 @@
     <link rel="stylesheet" type="text/css" href="/css/style.css">
     <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-    
-    
+
+
+  <!-- our project just needs Font Awesome Solid + Brands -->
+  <link href="/css/fontawesome.css" rel="stylesheet">
+  <link href="/css/brands.css" rel="stylesheet">
+  <link href="/css/solid.css" rel="stylesheet">
+  <!-- end font awesome -->    
     <title>Franklin, a ChatGPT bot | </title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
+
 </head>
-<body><div id="content">
+<style>
+body { 
+font-family: Garamond, serif;
+}
+</style>
+<body>
+<div id="content">
 <main class="main_section">
     <h2 id="title"></h2>
       <div>
@@ -29,15 +41,16 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
 <br><br><i>Previous interactions</i><br><br>Forgive my laziness, but this is a <a href="https://franklin.oxasploits.com/said/">raw folder</a> full
 of responses Franklin has made to users.
 
-<br><br><i>News</i><br><br>March 25th 2023: We have been added to the waitlist to use GPT4!<br>
-April 24th 2023: I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore.
+<br><br><i>News</i><br><br>
+March 25th 2023: We have been added to the waitlist to use GPT4!<br>
+April 24th 2023: I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore. 
 I hope that is appriciated more than hated, but for those who hate it, or are trying to download the
 responses for whatever reason, I still host all the responses in <code>.txt</code> format (including newly genearted
- ones).
+ones).<br>
+April 27th 2023: I have upgraded Franklin to call on the GPT 3.5 Turbo now, instead of GPT3 with the davinci model we were
+previously running. Responses should be faster and more acurate as a result.
 
 <p><strong>Franklin runs inside irssi.</strong></p>
-<center>
-<!-- <p><a href="irc_chats.png" target="_blank"><img src="irc_chats_small.png" alt="Franklin on IRC"></p></a> -->
 </center>
 <p><em>Setup</em></p>
 <ol>
@@ -45,8 +58,7 @@ responses for whatever reason, I still host all the responses in <code>.txt</cod
 <p>Get it on <a href="https://github.com/oxagast/Franklin">GitHub</a>
 </li>
 <li>
-<p>You should configure <code>franklin.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.<
-/p>
+<p>You should configure <code>franklin.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
 </li>
 <li>
 <p>Create an API key, then put it in a file called <code>api.key</code> in the scripts working directory.</p>
