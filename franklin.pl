@@ -99,7 +99,7 @@ sub callapi {
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
   my $askbuilt = "{\"model\": \"$model\",\"messages\": [{\"role\": \"user\", \"content\": \"$textcall\"}],\"temperature\": $heat}";
-  Irssi::print $askbuilt;
+  #  Irssi::print $askbuilt;
   $ua->default_header( "Content-Type"  => "application/json" );
   $ua->default_header( "Authorization" => "Bearer " . $apikey );
   my $res =
@@ -114,8 +114,8 @@ sub callapi {
     ## so we use a json decoder and fix for utf8 
     my $json_decd = decode_json($json_rep);
     my $said = $json_decd->{choices}[0]{message}{content};;
-    $said =~ s/.*As an AI language model, .*\.//;
-    $said =~ s/.*I do not have personal .*\.//;
+    $said =~ s/.*As an AI language model, .*\.//i;
+    $said =~ s/.*I do not have personal .*\.//i;
     $said =~ s/^Sorry, .*\.//;
     $said =~ s/^\n+//;
     $said =~ s/^\?\s+(\w)/$1/; ## if it spits out a question mark, this fixes
