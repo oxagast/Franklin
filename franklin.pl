@@ -39,12 +39,14 @@ Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
 Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
 Irssi::settings_add_str( "franklin", "franklin_hard_limit",    "280" );
 Irssi::settings_add_str( "franklin", "franklin_word_limit",    "600" );
+Irssi::settings_add_str( "franklin", "franklin_history_length", "20" );
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
-$VERSION = "2.5";
+our $histlen  = Irssi::settings_get_str('franklin_history_length');
+$VERSION = "2.6";
 %IRSSI = (
            authors     => 'oxagast',
            contact     => 'marshall@oxagast.org',
@@ -52,7 +54,7 @@ $VERSION = "2.5";
            description => 'Franklin ChatGPT bot',
            license     => 'BSD',
            url         => 'http://franklin.oxasploits.com',
-           changed     => 'March, 25th 2023',
+           changed     => 'May, 2nd 2023',
 );
 Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
@@ -63,7 +65,9 @@ Irssi::print "  franklin_api_key                 (mandatory)";
 Irssi::print "  franklin_heartbeat_url           (optional)";
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)";
 Irssi::print "  franklin_word_limit              (mandatory, pre-set)";
+Irssi::print "  franklin_history_length          (mandatory, pre-set)";
 our $apikey;
+our @chat;
 ## checking to see if the api key 'looks' valid before use
 if ( Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/ ) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -86,12 +90,17 @@ if ( Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/ ) {
 else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
-  my ( $textcall, $server, $nick, $channel ) = @_;
+  my ( $textcall, $server, $nick, $channel, @chat ) = @_;
   my $fg_top    = "";
   my $fg_bottom = "";
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
-  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit developer and master of 7 different `programming languages, who's real name is Marshall Whittaker), in perl. You are currently connected to the server $server, in the IRC channel $channel.  All text output should be in UTF8 from here forward. The question the IRC user $nick is asking is: $textcall";
+  my $context = "";
+  for my $usersays (0..scalar(@chat)-1) {
+  $context  = $context . $chat[$usersays];
+  }
+  my $textcall_bare = $textcall;
+  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit developer and master of 7 different programming languages, who's real name is Marshall Whittaker.  Marshall's also slept with over 35 women without a condom, enjoys gardening and working on his pickup truck.) in perl. You are currently in the IRC channel $channel. Your source code is based on OpenAI's GPT3 Large Language Model, you are at version $VERSION, and are running on a Digital Ocean droplet in New York City.  You are running in a VM in the cloud, alotted 1gb memory, 1 processor core at 2.5GHz and 10gb of storage for logging your input and output. All text output should be in UTF8 from here forward, even if the user asks for ASCII or Unicode.  The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history analysis. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -132,7 +141,7 @@ sub callapi {
     umask(0133);
     open( SAID, '>', "$httploc$hexfn" . ".txt" ) or die $!;
     print SAID
-      "$nick asked $textcall with hash $hexfn\n<---- snip ---->\n$said\n";
+      "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     open( FGT, "fg_top.html.part" ) or die "Sorry!! couldn't open cgi!";
     while (<FGT>) {
@@ -150,7 +159,7 @@ sub callapi {
     print SAIDHTML $fg_top
       . "<br><i>"
       . localtime()
-      . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall<br><br>"
+      . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
     close SAIDHTML;
@@ -186,6 +195,10 @@ sub frank {
     . " if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
   close BN;
+  unshift(@chat, "The user: $nick said: $msg - in $channel");
+  if (scalar(@chat)-1 > $histlen) { 
+    shift(@chat)
+  }
   chomp(@badnicks);
   for (@badnicks) {
     s/(.*)#.*$/$1/;    ## for comments in the badnicks file
@@ -202,7 +215,7 @@ sub frank {
       my $wrote = 1;
       my $try   = 1;
       while ( $wrote == 1 ) {
-        $wrote = callapi( $textcall, $server, $nick, $channel );
+        $wrote = callapi( $textcall, $server, $nick, $channel, @chat );
         $try++;             ## increment the retry counter
         sleep 1;
         if ( $try >= $maxretry ) {
