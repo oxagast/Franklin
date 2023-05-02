@@ -23,6 +23,37 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
   <!-- end font awesome -->    
     <title>Franklin, a ChatGPT bot | </title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
 
+<script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /* Loop through a collection of all HTML elements: */
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("include-html");
+    if (file) {
+      /* Make an HTTP request using the attribute value as the file name: */
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+          /* Remove the attribute, and call this function once more: */
+          elmnt.removeAttribute("include-html");
+          includeHTML();
+        }
+      }
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /* Exit the function: */
+      return;
+    }
+  }
+}
+</script>
+
+
 </head>
 <style>
 body { 
@@ -41,21 +72,26 @@ font-family: Garamond, serif;
 <br><br><i>Previous interactions</i><br><br>Forgive my laziness, but this is a <a href="https://franklin.oxasploits.com/said/">raw folder</a> full
 of responses Franklin has made to users.
 
+<div include-html="totals.html"></div>
+
 <br><br><i>News</i><br><br>
+May 2nd 2023: We have surpassed 10k queries to Franklin since the project began!<br>
 March 25th 2023: We have been added to the waitlist to use GPT4!<br>
-April 24th 2023: I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore. 
+April 24th 2023: I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore.
 I hope that is appriciated more than hated, but for those who hate it, or are trying to download the
 responses for whatever reason, I still host all the responses in <code>.txt</code> format (including newly genearted
 ones).<br>
 April 27th 2023: I have upgraded Franklin to call on the GPT 3.5 Turbo now, instead of GPT3 with the davinci model we were
 previously running. Responses should be faster and more acurate as a result.
 
-<p><strong>Franklin runs inside irssi.</strong></p>
 </center>
 <p><em>Setup</em></p>
 <ol>
 <li>
-<p>Get it on <a href="https://github.com/oxagast/Franklin">GitHub</a>
+<p>Install Irssi and the perl interpreter from your system's package manager.</p>
+</li>
+<li>
+<p>Get it on <a href="https://github.com/oxagast/Franklin">GitHub</a></p>
 </li>
 <li>
 <p>You should configure <code>franklin.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
@@ -93,11 +129,16 @@ not Franklin&rsquo;s nick!)</p>
       </div>
     <aside id="meta">
         <div>
-        <h5 id="date"> Apr 24, 2023 </h5>
+        <h5 id="date"> May 2nd, 2023 </h5>
         
         </div>
     </aside>
 </main>
 
-        </div></body>
+        </div>
+
+<script>
+includeHTML();
+</script>
+</body>
 </html>

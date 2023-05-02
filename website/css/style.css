@@ -1,3 +1,68 @@
+h1 {
+  font-size: 3rem;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 1.75rem;
+  font-style: italic;
+  font-weight: 200;
+}
+
+p {
+  font-size: 1.125rem;
+}
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 10%);
+  line-height: 1.5;
+  font-family: "Open Sans", "PT Sans", Calibri, Tahoma, sans-serif;
+}
+
+
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+.content-width {
+  max-width: 70ch;
+  width: calc(100% - 4rem);
+  margin: 0 auto;
+}
+
+main {
+  margin-bottom: 4rem;
+}
+
+header {
+  margin-bottom: 4rem;
+  padding: 2rem 0;
+  background-color: hsl(280, 50%, 40%);
+  border-bottom: 4px solid hsl(300, 50%, 50%);
+  color: hsl(300, 50%, 90%);
+}
+
+header p {
+  color: hsl(300, 50%, 85%);
+}
+
+h1, h2, h3 {
+  margin: 0;
+  line-height: 1.25;
+}
+
+h2, h3 {
+  color: hsl(280, 50%, 40%)
+}
+
+
 body {
   background-color: rgb(191, 200, 255);
   color: rgb(67, 76, 94);
