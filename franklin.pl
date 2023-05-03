@@ -216,7 +216,7 @@ sub frank_thinks {
   $context = substr($context, 550);
   my $textcall_bare = $textcall;
   my $setup =
-      "Given the last $histlen lines of the chat: $context, only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.";
+      "You are an IRC bot in the channel $channel. Given the last $histlen lines of the chat: $context, only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -336,7 +336,7 @@ sub frank {
     }
     else {
       if($say_rng eq $msg_count) {
-        $say_rng = $msg_count+int(rand(8))+15;
+        $say_rng = $msg_count+int(rand(8))+8;
         frank_thinks();
       }
     }
