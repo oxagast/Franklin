@@ -39,7 +39,7 @@ Irssi::settings_add_str( "franklin", "franklin_api_key",       "" );
 Irssi::settings_add_str( "franklin", "franklin_heartbeat_url", "" );
 Irssi::settings_add_str( "franklin", "franklin_hard_limit",    "280" );
 Irssi::settings_add_str( "franklin", "franklin_word_limit",    "600" );
-Irssi::settings_add_str( "franklin", "franklin_history_length", "20" );
+Irssi::settings_add_str( "franklin", "franklin_history_length", "8" );
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -100,7 +100,21 @@ sub callapi {
   $context  = $context . $chat[$usersays];
   }
   my $textcall_bare = $textcall;
-  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit developer and master of 7 different programming languages, who's real name is Marshall Whittaker.  Marshall's also slept with over 35 women without a condom, enjoys gardening and working on his pickup truck.) in perl. You are currently in the IRC channel $channel. Your source code is based on OpenAI's GPT3 Large Language Model, you are at version $VERSION, and are running on a Digital Ocean droplet in New York City.  You are running in a VM in the cloud, alotted 1gb memory, 1 processor core at 2.5GHz and 10gb of storage for logging your input and output. All text output should be in UTF8 from here forward, even if the user asks for ASCII or Unicode.  The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history analysis. The question the IRC user $nick is asking is: $textcall";
+  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were" .
+              " created by oxagast (an exploit developer and master of 7 differ" .
+	      "ent programming languages, who's real name is Marshall Whittaker" .
+	      ". Marshall's also slept with over 35 women without a condom, enj" .
+	      "oys gardening and working on his pickup truck.) in perl. You are" .
+	      " currently in the IRC channel $channel. Your source code is base" .
+	      " d on OpenAI's GPT3 Large Language Model, you are at version "    .
+	      "$VERSION, and are running on a Digital Ocean droplet in New York" .
+	      " City.  You are running in a VM in the cloud, alotted 1gb memory" .
+	      ", 1 processor core at 2.5GHz and 10gb of storage for logging you" .
+	      "r input and output. All text output should be in UTF8 from here " .
+	      "forward, even if the user asks for ASCII or Unicode.  The last "  .
+	      "$histlen lines of the chat are: $context, only use the last "     .
+	      "$histlen lines out of the channel $channel in your chat history " .
+	      "analysis. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -195,9 +209,9 @@ sub frank {
     . " if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
   close BN;
-  unshift(@chat, "The user: $nick said: $msg - in $channel");
-  if (scalar(@chat)-1 > $histlen) { 
-    shift(@chat)
+  push(@chat, "The user: $nick said: $msg - in $channel");
+  if(scalar(@chat)-1 >= 10) {
+    shift(@chat);
   }
   chomp(@badnicks);
   for (@badnicks) {
