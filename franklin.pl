@@ -47,6 +47,8 @@ our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen = Irssi::settings_get_str('franklin_history_length');
+our $msg_count = 0;
+our $say_rng = $msg_count+int(rand(8))+15;
 $VERSION = "2.7";
 %IRSSI = (
           authors     => 'oxagast',
@@ -94,12 +96,14 @@ sub callapi {
   my $json_rep  = "";
   my $fg_top    = "";
   my $fg_bottom = "";
+  my $chansaid  = 0;
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
+  $context = substr($context, 550);
   my $textcall_bare = $textcall;
   my $setup =
       "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
@@ -183,14 +187,102 @@ sub callapi {
     Irssi::print "Franklin: Err: estimated context length is "
       . length($textcall)
       . "\$json_rep is: $json_rep";
+    if($chansaid eq 0) {
     $server->command(
 "msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
     );
+    $chansaid = 1;
+    }
     @chat    = "";    # try to recover
     $context = "";    # trying to recover
     ## damn it frank, ima bout to pimp you out
     return 1;         ## to a two bit crackhead with a shlong dong
   }
+}
+
+
+sub frank_thinks {
+  my ($textcall, $server, $nick, $channel, @chat) = @_;
+  my $json_rep  = "";
+  my $fg_top    = "";
+  my $fg_bottom = "";
+  my $chansaid  = 0;
+  $textcall =~ s/\"/\\"/gs;
+  $textcall =~ s/\'/\\\\'/gs;
+  my $context = "";
+  for my $usersays (0 .. scalar(@chat) - 1) {
+    $context = $context . $chat[$usersays];
+  }
+  $context = substr($context, 550);
+  my $textcall_bare = $textcall;
+  my $setup =
+      "Given the last $histlen lines of the chat: $context, only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.";
+  $textcall = $setup;
+  my $url = "https://api.openai.com/v1/completions";
+  my $model = "text-davinci-003";    ## other model implementations work too
+  my $heat  = "0.7";                 ## ?? wtf
+  my $uri   = URI->new($url);
+  my $ua    = LWP::UserAgent->new;
+  my $askbuilt =
+      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
+    . "\"temperature\":$heat,\"max_tokens\": $wordlimit,"
+    . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
+    . "penalty\": 0}";
+  $ua->default_header("Content-Type"  => "application/json");
+  $ua->default_header("Authorization" => "Bearer " . $apikey);
+  my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
+
+  if ($res->is_success) {
+    $json_rep = $res->decoded_content();
+    my $json_decd = decode_json($json_rep);
+    my $said      = $json_decd->{choices}[0]{text};
+    if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
+      $said = "Oof.";
+    }
+    $said =~ s/^\n+//;
+    $said =~ s/^\?\s+(\w)/$1/;      ## if it spits out a question mark, this fixes it
+    $said =~ s/Franklin[:|,].?//;
+    my $hexfn = substr(             ## the reencode fixes the utf8 bug
+      Digest::MD5::md5_hex(
+                             utf8::is_utf8($said)
+                           ? Encode::encode_utf8($said)
+                           : $said
+      ),
+      0,
+      8
+    );
+    umask(0133);
+    open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
+    print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
+    close(SAID);
+    open(FGT, "fg_top.html.part")
+      or die "Sorry!! couldn't open cgi!";
+    while (<FGT>) {
+      $fg_top = $fg_top . $_;
+    }
+    close;
+    open(FGB, "fg_bottom.html.part")
+      or die "Sorry!! couldn't open cgi!";
+    while (<FGB>) {
+      $fg_bottom = $fg_bottom . $_;
+    }
+    close;
+    my $said_html = sanitize($said, html => 1);
+   $said_html =~ s/\n/<br>/g;
+    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
+    print SAIDHTML $fg_top
+      . "<br><i>"
+      . localtime()
+      . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
+      . $said_html
+      . $fg_bottom;
+    close SAIDHTML;
+    my $said_cut = substr($said, 0, $hardlimit);
+    $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
+    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
+    return 0;
+  }   
 }
 
 
@@ -213,9 +305,10 @@ sub frank {
     or die "Franklin: Sorry, you need a block.lst file, even"
     . " if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
+  $msg_count++;
   close BN;
   push(@chat, "The user: $nick said: $msg - in $channel");
-  if (scalar(@chat) - 1 >= 10) {
+  if (scalar(@chat) - 1 >= 8) {
     shift(@chat);
   }
   chomp(@badnicks);
@@ -239,6 +332,12 @@ sub frank {
         if ($try >= $maxretry) {
           $wrote = 0;       ## this is actually on fail, just so we don't get stuck
         }
+      }
+    }
+    else {
+      if($say_rng eq $msg_count) {
+        $say_rng = $msg_count+int(rand(8))+15;
+        frank_thinks();
       }
     }
   }
