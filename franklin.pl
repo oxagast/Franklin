@@ -41,12 +41,14 @@ Irssi::settings_add_str("franklin", "franklin_heartbeat_url",  "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",     "280");
 Irssi::settings_add_str("franklin", "franklin_word_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length", "8");
+Irssi::settings_add_str("franklin", "franklin_chatterbox_mode","0");;
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen = Irssi::settings_get_str('franklin_history_length');
+our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $msg_count = 0;
 our $say_rng = $msg_count+int(rand(8))+15;
 $VERSION = "2.7";
@@ -202,13 +204,12 @@ sub callapi {
 
 
 sub frank_thinks {
-  my ($textcall, $server, $nick, $channel, @chat) = @_;
+  my ($server, $nick, $channel, @chat) = @_;
   my $json_rep  = "";
+  my $textcall = "";
   my $fg_top    = "";
   my $fg_bottom = "";
   my $chansaid  = 0;
-  $textcall =~ s/\"/\\"/gs;
-  $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
@@ -336,8 +337,13 @@ sub frank {
     }
     else {
       if($say_rng eq $msg_count) {
-        $say_rng = $msg_count+int(rand(8))+8;
-        frank_thinks();
+        if($chatterbox gt 1) {
+	  if($chatterbox lt 5) {
+	    frank_thinks($server, $nick, $channel, @chat);
+            $say_rng = $msg_count+int(rand(8))+8-$chatterbox;
+          }
+	  else { Irssi::print "Chatterbox settig should be between 0 and 4,  where 0 is off, 4 is annoyingly chatty."; }
+        }
       }
     }
   }
