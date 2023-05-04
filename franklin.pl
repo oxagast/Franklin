@@ -105,7 +105,7 @@ sub callapi {
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context, 550);
+  $context = substr($context,0, 550);
   my $textcall_bare = $textcall;
   my $setup =
       "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
@@ -137,6 +137,7 @@ sub callapi {
     ## so we use a json decoder and fix for utf8
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
+    my $toks      = $json_decd->{usage}{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
       $said = "Oof.";
     }
@@ -156,32 +157,32 @@ sub callapi {
     open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part")
-      or die "Sorry!! couldn't open cgi!";
+    open(FGT, "fg_top.html.part");
+#      or die "Sorry!! couldn't open cgi!";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
-    close;
-    open(FGB, "fg_bottom.html.part")
-      or die "Sorry!! couldn't open cgi!";
+    close FGT;
+    open(FGB, "fg_bottom.html.part");
+ #     or die "Sorry!! couldn't open cgi!";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
-    close;
+    close FGB;
     my $said_html = sanitize($said, html => 1);
     $said_html =~ s/\n/<br>/g;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime()
+      . localtime() . "<br>Tokens used: $toks<br>" 
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
     close SAIDHTML;
     my $said_cut = substr($said, 0, $hardlimit);
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
+    Irssi::print "Franklin: Reply: $said_cut $toks Tokens used: $webaddr$hexfn" . ".html";
+    $server->command("msg $channel $said_cut $toks Tokens used: $webaddr$hexfn" . ".html");
     return 0;
   }
   else {
@@ -189,14 +190,14 @@ sub callapi {
     Irssi::print "Franklin: Err: estimated context length is "
       . length($textcall)
       . "\$json_rep is: $json_rep";
-    if($chansaid eq 0) {
-    $server->command(
-"msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
-    );
-    $chansaid = 1;
-    }
-    @chat    = "";    # try to recover
-    $context = "";    # trying to recover
+      #    if($chansaid eq 0) {
+	    #    $server->command(
+	    #"msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
+	    #);
+	    #$chansaid = 1;
+	    #}
+    #@chat    = "";    # try to recover
+    #$context = "";    # trying to recover
     ## damn it frank, ima bout to pimp you out
     return 1;         ## to a two bit crackhead with a shlong dong
   }
@@ -212,12 +213,12 @@ sub frank_thinks {
   my $chansaid  = 0;
   my $context = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
-    $context = $context . $chat[$usersays];
+    $context = $context . "$chat[$usersays] \n";
   }
-  $context = substr($context, 550);
+  $context = substr($context, 0, 550);
   my $textcall_bare = $textcall;
   my $setup =
-      "You are an IRC bot in the channel $channel. Given the last $histlen lines of the chat: $context, only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.";
+      "The last few lines of the IRC chat are: $context \n Only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.  Do not talk about analyzing the chat.  Try to include yourself into the conversation.";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -236,6 +237,7 @@ sub frank_thinks {
   if ($res->is_success) {
     $json_rep = $res->decoded_content();
     my $json_decd = decode_json($json_rep);
+    my $toks      = $json_decd->{usage}{total_tokens};
     my $said      = $json_decd->{choices}[0]{text};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
       $said = "Oof.";
@@ -256,24 +258,24 @@ sub frank_thinks {
     open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part")
-      or die "Sorry!! couldn't open cgi!";
+    open(FGT, "fg_top.html.part");
+    #  or die "Sorry!! couldn't open cgi!";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
-    close;
-    open(FGB, "fg_bottom.html.part")
-      or die "Sorry!! couldn't open cgi!";
+    close FGT;
+    open(FGB, "fg_bottom.html.part");
+    #  or die "Sorry!! couldn't open cgi!";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
-    close;
+    close FGB;
     my $said_html = sanitize($said, html => 1);
    $said_html =~ s/\n/<br>/g;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime()
+      . localtime() . "<br>Tokens used: $toks<br>"
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
@@ -327,8 +329,10 @@ sub frank {
       my $wrote = 1;
       my $try   = 1;
       while ($wrote == 1) {
-        $wrote = callapi($textcall, $server, $nick, $channel, @chat);
-        $try++;             ## increment the retry counter
+	if(($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+          $wrote = callapi($textcall, $server, $nick, $channel, @chat);
+          $try++;             ## increment the retry counter
+        }
         sleep 1;
         if ($try >= $maxretry) {
           $wrote = 0;       ## this is actually on fail, just so we don't get stuck
@@ -337,12 +341,12 @@ sub frank {
     }
     else {
       if($say_rng eq $msg_count) {
-        if($chatterbox gt 1) {
-	  if($chatterbox lt 5) {
-	    frank_thinks($server, $nick, $channel, @chat);
-            $say_rng = $msg_count+int(rand(8))+8-$chatterbox;
+        if($chatterbox gt 0) {
+	  if($chatterbox lt 10) {
+	    my $rndsaid = frank_thinks($server, $nick, $channel, @chat);
+            $say_rng = $msg_count+int(rand(10))+20-$chatterbox;
           }
-	  else { Irssi::print "Chatterbox settig should be between 0 and 4,  where 0 is off, 4 is annoyingly chatty."; }
+	  else { Irssi::print "Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty."; }
         }
       }
     }
