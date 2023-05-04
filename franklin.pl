@@ -51,6 +51,7 @@ our $histlen = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $msg_count = 0;
 our $say_rng = $msg_count+int(rand(8))+15;
+our $price_per_k = 0.02;
 $VERSION = "2.7";
 %IRSSI = (
           authors     => 'oxagast',
@@ -154,17 +155,19 @@ sub callapi {
       8
     );
     umask(0133);
+    my $cost = $toks / 1000 * $price_per_k;
+    printf("%.4f", $cost);
     open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part");
-#      or die "Sorry!! couldn't open cgi!";
+    open(FGT, "fg_top.html.part")
+      or die "Sorry!! couldn't open cgi!";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
     close FGT;
-    open(FGB, "fg_bottom.html.part");
- #     or die "Sorry!! couldn't open cgi!";
+    open(FGB, "fg_bottom.html.part")
+      or die "Sorry!! couldn't open cgi!";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
@@ -174,15 +177,15 @@ sub callapi {
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime() . "<br>Tokens used: $toks<br>" 
+      . localtime() . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>" 
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
     close SAIDHTML;
     my $said_cut = substr($said, 0, $hardlimit);
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    Irssi::print "Franklin: Reply: $said_cut $toks Tokens used: $webaddr$hexfn" . ".html";
-    $server->command("msg $channel $said_cut $toks Tokens used: $webaddr$hexfn" . ".html");
+    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
     return 0;
   }
   else {
@@ -196,7 +199,7 @@ sub callapi {
 	    #);
 	    #$chansaid = 1;
 	    #}
-    #@chat    = "";    # try to recover
+    @chat    = "";    # try to recover
     #$context = "";    # trying to recover
     ## damn it frank, ima bout to pimp you out
     return 1;         ## to a two bit crackhead with a shlong dong
@@ -255,27 +258,29 @@ sub frank_thinks {
       8
     );
     umask(0133);
+    my $cost = $toks / 1000 * $price_per_k;
     open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part");
-    #  or die "Sorry!! couldn't open cgi!";
+    open(FGT, "fg_top.html.part")
+      or die "Sorry!! couldn't open cgi!";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
     close FGT;
-    open(FGB, "fg_bottom.html.part");
-    #  or die "Sorry!! couldn't open cgi!";
+    open(FGB, "fg_bottom.html.part")
+      or die "Sorry!! couldn't open cgi!";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
     close FGB;
     my $said_html = sanitize($said, html => 1);
-   $said_html =~ s/\n/<br>/g;
+    $said_html =~ s/\n/<br>/g;
+    $cost = $toks / 1000 * $price_per_k;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime() . "<br>Tokens used: $toks<br>"
+      . localtime() . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
