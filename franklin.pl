@@ -110,10 +110,10 @@ sub callapi {
   my $textcall_bare = $textcall;
   my $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
-    . "languages, who's real name is Marshall Whittaker, in perl You are currently in the IRC channel $channel Your source code is based on Open"
+    . "languages), in perl. You are currently in the IRC channel $channel Your source code is based on Open"
     . "AI's GPT3 Large Language Model, you are at version $VERSION, and are running on a Digital Ocean droplet. You are alotted 1gb memory, 1 co"
-    . "re at 2.5GHz and 10gb of storage for logging your input and output. The last $histlen lines of the chat are: $context, only use the last "
-    . "$histlen lines out of the channel $channel in your chat history analysis The question the IRC user $nick is asking is: $textcall";
+    . "re at 2.5GHz and 10gb of storage for logging. The last $histlen lines of the chat are: $context, only use the last "
+    . "$histlen lines out of the channel $channel in your chat history analysis. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -332,7 +332,7 @@ sub frank {
         $say_rng = $msg_count + int(rand(10)) + 20 - $chatterbox;
       }
  
-      else { Irssi::print "hatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
+      else { Irssi::print "Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
 
    }
   }
