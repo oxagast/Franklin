@@ -326,15 +326,19 @@ sub frank {
   }
   if ($say_rng le $msg_count) {
     if (($chatterbox gt 0) && ($chatterbox lt 10)) {
-        my $frank_worker = Proc::Simple->new();
-        $frank_worker->start(\&frank_thinks, $server, $nick, $channel, @chat)
-          ;    ## i get alerts on my phone when franklin dies now.
-        $say_rng = $msg_count + int(rand(10)) + 20 - $chatterbox;
-      }
- 
-      else { Irssi::print "Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
+      my $frank_worker = Proc::Simple->new();
+      $frank_worker->start(\&frank_thinks, $server, $nick, $channel, @chat)
+        ;    ## i get alerts on my phone when franklin dies now.
+      $say_rng = $msg_count + int(rand(10)) + 20 - $chatterbox;
+    }
 
-   }
+    else {
+      unless ($chatterbox eq 0) {
+        Irssi::print
+"Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
+      }
+
+    }
   }
   chomp(@badnicks);
   for (@badnicks) {
