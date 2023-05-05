@@ -35,22 +35,22 @@ Irssi::settings_add_str(
                         "franklin_response_webserver_addr",
                         "https://franklin.oxasploits.com/said/"
 );
-Irssi::settings_add_str("franklin", "franklin_max_retry",      "3");
-Irssi::settings_add_str("franklin", "franklin_api_key",        "");
-Irssi::settings_add_str("franklin", "franklin_heartbeat_url",  "");
-Irssi::settings_add_str("franklin", "franklin_hard_limit",     "280");
-Irssi::settings_add_str("franklin", "franklin_word_limit",     "600");
-Irssi::settings_add_str("franklin", "franklin_history_length", "8");
-Irssi::settings_add_str("franklin", "franklin_chatterbox_mode","0");;
+Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
+Irssi::settings_add_str("franklin", "franklin_api_key",         "");
+Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
+Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
+Irssi::settings_add_str("franklin", "franklin_word_limit",      "600");
+Irssi::settings_add_str("franklin", "franklin_history_length",  "8");
+Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
-our $histlen = Irssi::settings_get_str('franklin_history_length');
-our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
-our $msg_count = 0;
-our $say_rng = $msg_count+int(rand(8))+15;
+our $histlen     = Irssi::settings_get_str('franklin_history_length');
+our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
+our $msg_count   = 0;
+our $say_rng     = $msg_count + int(rand(8)) + 15;
 our $price_per_k = 0.02;
 $VERSION = "2.7";
 %IRSSI = (
@@ -103,13 +103,13 @@ sub callapi {
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
+
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context,0, 550);
   my $textcall_bare = $textcall;
   my $setup =
-      "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
     . "languages, who's real name is Marshall Whittaker, in perl You are currently in the IRC channel $channel Your source code is based on Open"
     . "AI's GPT3 Large Language Model, you are at version $VERSION, and are running on a Digital Ocean droplet. You are alotted 1gb memory, 1 co"
     . "re at 2.5GHz and 10gb of storage for logging your input and output. The last $histlen lines of the chat are: $context, only use the last "
@@ -157,27 +157,30 @@ sub callapi {
     umask(0133);
     my $cost = $toks / 1000 * $price_per_k;
     printf("%.4f", $cost);
-    open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
+    open(SAID, '>', "$httploc$hexfn" . ".txt")
+      or Irssi::print "Could not oepn txt file for writing.";
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     open(FGT, "fg_top.html.part")
-      or die "Sorry!! couldn't open cgi!";
+      or Irssi::print "Could not open the top html part for reading.";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
     close FGT;
     open(FGB, "fg_bottom.html.part")
-      or die "Sorry!! couldn't open cgi!";
+      or Irssi::print "Could not open the bottom html part for reading.";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
     close FGB;
     my $said_html = sanitize($said, html => 1);
     $said_html =~ s/\n/<br>/g;
-    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
+    open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
+      or Irssi::print "Couldn't open for writing.";
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime() . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>" 
+      . localtime()
+      . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
@@ -193,14 +196,15 @@ sub callapi {
     Irssi::print "Franklin: Err: estimated context length is "
       . length($textcall)
       . "\$json_rep is: $json_rep";
-      #    if($chansaid eq 0) {
-	    #    $server->command(
-	    #"msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
-	    #);
-	    #$chansaid = 1;
-	    #}
+
+#    if($chansaid eq 0) {
+#    $server->command(
+#"msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
+#);
+#$chansaid = 1;
+#}
     @chat    = "";    # try to recover
-    #$context = "";    # trying to recover
+    $context = "";    # trying to recover
     ## damn it frank, ima bout to pimp you out
     return 1;         ## to a two bit crackhead with a shlong dong
   }
@@ -210,18 +214,17 @@ sub callapi {
 sub frank_thinks {
   my ($server, $nick, $channel, @chat) = @_;
   my $json_rep  = "";
-  my $textcall = "";
+  my $textcall  = "";
   my $fg_top    = "";
   my $fg_bottom = "";
   my $chansaid  = 0;
-  my $context = "";
+  my $context   = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . "$chat[$usersays] \n";
   }
-  $context = substr($context, 0, 550);
   my $textcall_bare = $textcall;
   my $setup =
-      "The last few lines of the IRC chat are: $context \n Only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.  Do not talk about analyzing the chat.  Try to include yourself into the conversation.";
+"The last few lines of the IRC chat are: $context \n Only use the last $histlen lines out of the channel $channel in your analysis, and then say something relevent or helpful to add to the conversation.  Do not talk about analyzing the chat.  Try to include yourself into the conversation.";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -259,17 +262,18 @@ sub frank_thinks {
     );
     umask(0133);
     my $cost = $toks / 1000 * $price_per_k;
-    open(SAID, '>', "$httploc$hexfn" . ".txt") or die $!;
+    open(SAID, '>', "$httploc$hexfn" . ".txt")
+      or Irssi::print "Couldn't open txt file for writing.";
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     open(FGT, "fg_top.html.part")
-      or die "Sorry!! couldn't open cgi!";
+      or Irssi::print "Couldn't open the top part for reading.";
     while (<FGT>) {
       $fg_top = $fg_top . $_;
     }
     close FGT;
     open(FGB, "fg_bottom.html.part")
-      or die "Sorry!! couldn't open cgi!";
+      or Irssi::print "Couldn't open the bottom part for reading.";
     while (<FGB>) {
       $fg_bottom = $fg_bottom . $_;
     }
@@ -277,10 +281,11 @@ sub frank_thinks {
     my $said_html = sanitize($said, html => 1);
     $said_html =~ s/\n/<br>/g;
     $cost = $toks / 1000 * $price_per_k;
-    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or die $!;
+    open(SAIDHTML, '>', "$httploc$hexfn" . ".html") or Irssi::print "Couldn't write.";
     print SAIDHTML $fg_top
       . "<br><i>"
-      . localtime() . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
+      . localtime()
+      . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
       . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
       . $said_html
       . $fg_bottom;
@@ -290,13 +295,13 @@ sub frank_thinks {
     Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
     $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
     return 0;
-  }   
+  }
 }
 
 
 sub falive {
   my $url = Irssi::settings_get_str('franklin_heartbeat_url');
-  if ($url ne "") {    ## this makes it so its not mandatory to have it set
+  if ($url ne "") {           ## this makes it so its not mandatory to have it set
     while (1) {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
@@ -319,6 +324,18 @@ sub frank {
   if (scalar(@chat) - 1 >= 8) {
     shift(@chat);
   }
+  if ($say_rng le $msg_count) {
+    if (($chatterbox gt 0) && ($chatterbox lt 10)) {
+        my $frank_worker = Proc::Simple->new();
+        $frank_worker->start(\&frank_thinks, $server, $nick, $channel, @chat)
+          ;    ## i get alerts on my phone when franklin dies now.
+        $say_rng = $msg_count + int(rand(10)) + 20 - $chatterbox;
+      }
+ 
+      else { Irssi::print "hatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
+
+   }
+  }
   chomp(@badnicks);
   for (@badnicks) {
     s/(.*)#.*$/$1/;    ## for comments in the badnicks file
@@ -334,24 +351,13 @@ sub frank {
       my $wrote = 1;
       my $try   = 1;
       while ($wrote == 1) {
-	if(($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+        if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
           $wrote = callapi($textcall, $server, $nick, $channel, @chat);
-          $try++;             ## increment the retry counter
+          $try++;           ## increment the retry counter
         }
         sleep 1;
         if ($try >= $maxretry) {
           $wrote = 0;       ## this is actually on fail, just so we don't get stuck
-        }
-      }
-    }
-    else {
-      if($say_rng eq $msg_count) {
-        if($chatterbox gt 0) {
-	  if($chatterbox lt 10) {
-	    my $rndsaid = frank_thinks($server, $nick, $channel, @chat);
-            $say_rng = $msg_count+int(rand(10))+20-$chatterbox;
-          }
-	  else { Irssi::print "Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty."; }
         }
       }
     }
