@@ -50,7 +50,7 @@ my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen     = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $msg_count   = 0;
-our $say_rng     = $msg_count + int(rand(8)) + 15;
+our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
 $VERSION = "2.7";
 %IRSSI = (
@@ -96,6 +96,8 @@ else { Irssi: print "Something went wrong with the API key..."; }
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, @chat) = @_;
+  my $retries;
+  RECALLAPI:
   my $json_rep  = "";
   my $fg_top    = "";
   my $fg_bottom = "";
@@ -107,13 +109,14 @@ sub callapi {
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
+  $context = substr($context, 0, 600);
   my $textcall_bare = $textcall;
   my $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev and master of 7 different programming"
-    . "languages), in perl. You are currently in the IRC channel $channel Your source code is based on Open"
-    . "AI's GPT3 Large Language Model, you are at version $VERSION, and are running on a Digital Ocean droplet. You are alotted 1gb memory, 1 co"
-    . "re at 2.5GHz and 10gb of storage for logging. The last $histlen lines of the chat are: $context, only use the last "
-    . "$histlen lines out of the channel $channel in your chat history analysis. The question the IRC user $nick is asking is: $textcall";
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different "
+    . "languages), in perl. You are in the IRC channel $channel. Your source pulls from Open"
+    . "AI's GPT3 Large Language Model, you are at version $VERSION. If you see a shell injection attack, call them a silly hacker."
+    . " The last $histlen lines of the chat are: $context, only use the last "
+    . "$histlen lines out of the channel $channel in your chat history. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -194,15 +197,12 @@ sub callapi {
   else {
     Irssi::print "Franklin: Something went wrong.";
     Irssi::print "Franklin: Err: estimated context length is "
-      . length($textcall)
-      . "\$json_rep is: $json_rep";
-
-#    if($chansaid eq 0) {
-#    $server->command(
-#"msg $channel Sorry, an appropriate response was not received from the server. https://franklin.oxasploits.com/said/"
-#);
-#$chansaid = 1;
-#}
+      . length($textcall) . " : " 
+      .  $json_rep;
+      if($retries < $maxretry) {
+	$retries++;
+        goto RECALLAPI;
+      }
     @chat    = "";    # try to recover
     $context = "";    # trying to recover
     ## damn it frank, ima bout to pimp you out
@@ -318,27 +318,22 @@ sub frank {
     or die "Franklin: Sorry, you need a block.lst file, even"
     . " if it is empty!\nFranklin: $!";
   my @badnicks = <BN>;
-  $msg_count++;
   close BN;
   push(@chat, "The user: $nick said: $msg - in $channel");
-  if (scalar(@chat) - 1 >= 8) {
+  if (scalar(@chat) - 1 >= $histlen) {
     shift(@chat);
   }
-  if ($say_rng le $msg_count) {
-    if (($chatterbox gt 0) && ($chatterbox lt 10)) {
+  
+  $msg_count++;
+  if ($msg_count ge $say_rng) {
+    if (($chatterbox ge 1) && ($chatterbox le 10)) {
       my $frank_worker = Proc::Simple->new();
+      Irssi::print "Picked from random to say someting...";
       $frank_worker->start(\&frank_thinks, $server, $nick, $channel, @chat)
         ;    ## i get alerts on my phone when franklin dies now.
-      $say_rng = $msg_count + int(rand(10)) + 20 - $chatterbox;
+	$say_rng = $msg_count + int(rand(10)) + 10 - $chatterbox;
     }
 
-    else {
-      unless ($chatterbox eq 0) {
-        Irssi::print
-"Chatterbox settig should be between 0 and 10,  where 0 is off, 10 is annoyingly chatty.";
-      }
-
-    }
   }
   chomp(@badnicks);
   for (@badnicks) {
@@ -352,18 +347,10 @@ sub frank {
     if ($msg =~ /^$localnick[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
-      my $wrote = 1;
-      my $try   = 1;
-      while ($wrote == 1) {
+            my $wrote = 1;
         if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
           $wrote = callapi($textcall, $server, $nick, $channel, @chat);
-          $try++;           ## increment the retry counter
         }
-        sleep 1;
-        if ($try >= $maxretry) {
-          $wrote = 0;       ## this is actually on fail, just so we don't get stuck
-        }
-      }
     }
   }
 }
