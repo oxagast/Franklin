@@ -146,6 +146,7 @@ sub callapi {
       $said = "Oof.";
     }
     $said =~ s/^\n+//;
+    $said =~ s/Franklin: //;
     $said =~ s/^\?\s+(\w)/$1/;    ## if it spits out a question mark, this fixes it
     my $hexfn = substr(           ## the reencode fixes the utf8 bug
       Digest::MD5::md5_hex(
@@ -158,7 +159,7 @@ sub callapi {
     );
     umask(0133);
     my $cost = $toks / 1000 * $price_per_k;
-    $cost = printf("%.4f", $cost);
+    $cost = sprintf("%.5f", $cost);
     open(SAID, '>', "$httploc$hexfn" . ".txt")
       or Irssi::print "Could not oepn txt file for writing.";
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
@@ -190,7 +191,7 @@ sub callapi {
     my $said_cut = substr($said, 0, $hardlimit);
     $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
     Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-    $server->command("msg $channel $said_cut $webaddr$hexfn" . ".html");
+    $server->command("msg $channel $said_cut TXID:$hexfn");
     $retry++;
     return 0;
   }
@@ -244,3 +245,4 @@ sub frank {
     }
   }
 }
+
