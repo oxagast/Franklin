@@ -24,8 +24,6 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 ##
 #####################################################################
-### Adjust this variable to the location of Franklin's source!!!! ###
-our $localdir = "/home/gpt3/Franklin/";    ##########################
 #####################################################################
 ##
 ## these varaibles you can change from within irssi using /set
@@ -42,6 +40,7 @@ Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
 Irssi::settings_add_str("franklin", "franklin_word_limit",      "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "8");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
+Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -49,6 +48,7 @@ my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen     = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
+my $blockfn      = Irssi::settings_get_str('franklin_blocklist_file');
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
@@ -111,12 +111,10 @@ sub callapi {
   }
   $context = substr($context, 0, 650);
   my $textcall_bare = $textcall;
-  my $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different "
-    . "languages), in perl. You are in the IRC channel $channel. Your source pulls from Open"
-    . "AI's GPT3 Large Language Model, you are at version $VERSION. If you see a shell command, call them a silly hacker or a skid."
-    . " The last $histlen lines of the chat are: $context, only use the last "
-    . "$histlen lines out of the channel $channel in your chat history. The question the IRC user $nick is asking is: $textcall";
+  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+       . "), in perl. You are in the IRC channel $channel. Your source pulls from Open AI's GPT3 Large Language Model, you are at version $VERSION."
+       . " If you see a shell command, call them a silly hacker or a skid. The last $histlen lines of the chat are: $context, only use the last "
+       . "$histlen lines out of the channel $channel in your chat history. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -147,6 +145,7 @@ sub callapi {
     }
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
+    $said =~ s/Reply: //;
     $said =~ s/^\?\s+(\w)/$1/;    ## if it spits out a question mark, this fixes it
     my $hexfn = substr(           ## the reencode fixes the utf8 bug
       Digest::MD5::md5_hex(
@@ -164,18 +163,14 @@ sub callapi {
       or Irssi::print "Could not oepn txt file for writing.";
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
-    open(FGT, "fg_top.html.part")
-      or Irssi::print "Could not open the top html part for reading.";
-    while (<FGT>) {
-      $fg_top = $fg_top . $_;
-    }
-    close FGT;
-    open(FGB, "fg_bottom.html.part")
-      or Irssi::print "Could not open the bottom html part for reading.";
-    while (<FGB>) {
-      $fg_bottom = $fg_bottom . $_;
-    }
-    close FGB;
+    $fg_top = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
+            . 'GC"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
+            . '; gtag("config", "G-MN30E29EGC"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
+            . '1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib'
+            . 's/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_sec'
+            . 'tion"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
+    $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered'
+            . ' IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
     my $said_html = sanitize($said, html => 1);
     $said_html =~ s/\n/<br>/g;
     open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
@@ -214,9 +209,8 @@ sub falive {
 
 sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
-  open(BN, '<', $localdir . "block.lst")
-    or die "Franklin: Sorry, you need a block.lst file, even"
-    . " if it is empty!\nFranklin: $!";
+  open(BN, '<', $blockfn)
+    or die "Franklin: Sorry, you need a blocklist file. $!";
   my @badnicks = <BN>;
   close BN;
   my @chat = "";
