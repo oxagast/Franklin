@@ -69,7 +69,8 @@ function includeHTML() {
 function ftxid() {   
  const txid = document.getElementById("search").value;
  const siteprefix = "https://franklin.oxasploits.com/said/";
- window.open(siteprefix + txid + ".html");
+ const page = siteprefix + txid + ".html";
+ window.open(page);
 }
 </script>
 <div id="content">
@@ -95,7 +96,7 @@ function ftxid() {
 <br><br><i>Previous interactions</i><br><br>Forgive my laziness, but this is a <a href="https://franklin.oxasploits.com/said/">raw folder</a> full
 of responses Franklin has made to users.
 
-<div include-html="totals.html"></div>
+<div include-html="/totals.html"></div>
 
 <br><i>News</i><br><br>
 May 3rd 2023: Franklin now understands and utilizes context! Meaning, it knows what it is, who created, it, and what's going on in the chat 
@@ -117,12 +118,11 @@ For setup, please refer to the <a href="https://franklin.oxasploits.com/setup.ht
 <p>dclaw, proge, CerebraNet, atg, bookworm, morb, xibalba and more&hellip;</p>
 <p>A huge thanks to both <b>2600net</b> and <b>libera.chat</b> for letting me host my bot on their networks!</p>
 
-
+   <center>     <div include-html="/changedate.html"></div> </center>
         </article>
       </div>
     <aside id="meta">
         <div>
-        <div include-html="changedate.html"></div>
         </div>
     </aside>
 </main>

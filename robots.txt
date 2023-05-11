@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /*.html$
+Allow: /donations/*.html$
+Disallow: /donations/*.jpg$
+Disallow: /said
+Disallow: /said/*.txt$
+Disallow: /said/*.html$

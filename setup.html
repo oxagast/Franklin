@@ -21,7 +21,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
   <link href="/css/brands.css" rel="stylesheet">
   <link href="/css/solid.css" rel="stylesheet">
   <!-- end font awesome -->    
-    <title>Franklin, a ChatGPT bot | </title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
+    <title>Franklin, a ChatGPT bot | Setup</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
 
 
 
@@ -80,7 +80,10 @@ function includeHTML() {
 <p>You should configure <code>franklin.pl</code> to autoload on irssi start, and optionally configure your channel autojoins.</p>
 </li>
 <li>
-<p>Create an API key, then put it in a file called <code>api.key</code> in the scripts working directory.</p>
+<p>Create an API key, then run <code>/set franklin_api_key [api key]</code>.</p>
+</li>
+<li>
+<p>You'll need to create a block.lst file, and point franklin towards it with <code>/set franklin_block_file [filename]</code>.</p>
 </li>
 <li>
 <p>You&rsquo;ll need to set up a webserver with a directory under it&rsquo;s root called <code>said</code> (usually something
@@ -88,21 +91,24 @@ like <code>/var/www/html/said/</code>),
 that is writable by the franklin.pl script. Franklin should set the umask correctly for the files automatically.</p>
 </li>
 <li>
-<p>Edit any variables in <code>franklin.pl</code> you need to (<code>$localdir</code>), such as the domain name of your server where the long-text is hosted.</p>
+<p>Edit any variables in <code>franklin.pl</code> you need to, but most settings can be changed with the <code>/set franklin...</code> command.</p>
 </li>
 <li>
 <p>Finally, test it by calling <code>Franklin: hey buddy, send me a test message so I know that you are working.</code></p>
 </li>
 </ol>
 <p><em>Debugging</em></p>
-<p>&hellip; Now test the bot by calling it with &ldquo;Franklin: print me a test message&rdquo; in channel (do this from a different nick,
-not Franklin&rsquo;s nick!)</p>
+<p>&hellip; Test the bot by calling it with &ldquo;Franklin: print me a test message&rdquo; in channel (do this from a different nick,
+not Franklin&rsquo;s nick!)<br>
+You may have errors that franklin can't read from or write to something, check your permissions! (I set ownership to franklin:staff).<br>
+If text is to long, try using /set franklin_hard_limit to decrease the maximum number of characters on the line.<br>
+After edits you can just do <code>/script load franklin</code> to reload the bot without restarting irssi.</p>
+<center>   <div include-html="/changedate.html"></div> </center>
 
         </article>
       </div>
     <aside id="meta">
         <div>
-   <div include-html="changedate.html"></div>
         </div>
     </aside>
 </main>
