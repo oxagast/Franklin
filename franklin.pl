@@ -48,7 +48,7 @@ my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen     = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
-my $blockfn      = Irssi::settings_get_str('franklin_blocklist_file');
+our $blockfn      = Irssi::settings_get_str('franklin_blocklist_file');
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
@@ -141,12 +141,16 @@ sub callapi {
     my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
-      $said = "Oof.";
+      $said = "Oof. There was no response from the server.";
     }
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
-    $said =~ s/^\?\s+(\w)/$1/;    ## if it spits out a question mark, this fixes it
+    $said =~ s/My reply is: //;
+    $said =~ s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
+    if ($said =~ m/^\s*\?\s*$/) {
+     $said = "Sorry, I do not understand, or cannot fufill the request.";
+    }
     my $hexfn = substr(           ## the reencode fixes the utf8 bug
       Digest::MD5::md5_hex(
                              utf8::is_utf8($said)
@@ -160,7 +164,7 @@ sub callapi {
     my $cost = $toks / 1000 * $price_per_k;
     $cost = sprintf("%.5f", $cost);
     open(SAID, '>', "$httploc$hexfn" . ".txt")
-      or Irssi::print "Could not oepn txt file for writing.";
+      or Irssi::print "Could not open txt file for writing.";
     print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
     close(SAID);
     $fg_top = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
