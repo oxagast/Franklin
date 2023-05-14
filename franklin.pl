@@ -48,7 +48,7 @@ my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen     = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
-our $blockfn      = Irssi::settings_get_str('franklin_blocklist_file');
+our $blockfn     = Irssi::settings_get_str('franklin_blocklist_file');
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
@@ -111,10 +111,13 @@ sub callapi {
   }
   $context = substr($context, 0, 650);
   my $textcall_bare = $textcall;
-  my $setup = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-       . "), in perl. You are in the IRC channel $channel. Your source pulls from Open AI's GPT3 Large Language Model, you are at version $VERSION."
-       . " If you see a shell command, call them a silly hacker or a skid. The last $histlen lines of the chat are: $context, only use the last "
-       . "$histlen lines out of the channel $channel in your chat history. The question the IRC user $nick is asking is: $textcall";
+  my $setup =
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+    . "), in perl. You are in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
+    . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
+    . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
+    . " channel $channel in your chat history for context. If the question the users asks is nonsensical, answer with something snarky about not"
+    . " asking retarded questions. The question the IRC user $nick is asking is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -141,58 +144,64 @@ sub callapi {
     my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
-      $said = "Oof. There was no response from the server.";
+      $said = "";
     }
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
     $said =~ s/My reply is: //;
-    $said =~ s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
+    $said =~
+      s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
     if ($said =~ m/^\s*\?\s*$/) {
-     $said = "Sorry, I do not understand, or cannot fufill the request.";
+      $said = "";
     }
-    my $hexfn = substr(           ## the reencode fixes the utf8 bug
-      Digest::MD5::md5_hex(
-                             utf8::is_utf8($said)
-                           ? Encode::encode_utf8($said)
-                           : $said
-      ),
-      0,
-      8
-    );
-    umask(0133);
-    my $cost = $toks / 1000 * $price_per_k;
-    $cost = sprintf("%.5f", $cost);
-    open(SAID, '>', "$httploc$hexfn" . ".txt")
-      or Irssi::print "Could not open txt file for writing.";
-    print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
-    close(SAID);
-    $fg_top = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
-            . 'GC"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
-            . '; gtag("config", "G-MN30E29EGC"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
-            . '1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib'
-            . 's/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_sec'
-            . 'tion"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
-    $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered'
-            . ' IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
-    my $said_html = sanitize($said, html => 1);
-    $said_html =~ s/\n/<br>/g;
-    open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
-      or Irssi::print "Couldn't open for writing.";
-    print SAIDHTML $fg_top
-      . "<br><i>"
-      . localtime()
-      . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
-      . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
-      . $said_html
-      . $fg_bottom;
-    close SAIDHTML;
-    my $said_cut = substr($said, 0, $hardlimit);
-    $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-    Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-    $server->command("msg $channel $said_cut TXID:$hexfn");
-    $retry++;
-    return 0;
+    unless ($said eq "") {
+      my $hexfn = substr(           ## the reencode fixes the utf8 bug
+        Digest::MD5::md5_hex(
+                               utf8::is_utf8($said)
+                             ? Encode::encode_utf8($said)
+                             : $said
+        ),
+        0,
+        8
+      );
+      umask(0133);
+      my $cost = $toks / 1000 * $price_per_k;
+      $cost = sprintf("%.5f", $cost);
+      open(SAID, '>', "$httploc$hexfn" . ".txt")
+        or Irssi::print "Could not open txt file for writing.";
+      print SAID
+        "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
+      close(SAID);
+      $fg_top =
+'<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
+        . 'GC"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
+        . '; gtag("config", "G-MN30E29EGC"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
+        . '1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib'
+        . 's/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_sec'
+        . 'tion"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
+      $fg_bottom =
+'</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered'
+        . ' IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
+      my $said_html = sanitize($said, html => 1);
+      $said_html =~ s/\n/<br>/g;
+      open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
+        or Irssi::print "Couldn't open for writing.";
+      print SAIDHTML $fg_top
+        . "<br><i>"
+        . localtime()
+        . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
+        . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
+        . $said_html
+        . $fg_bottom;
+      close SAIDHTML;
+      my $said_cut = substr($said, 0, $hardlimit);
+      $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
+      Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+      $server->command("msg $channel $said_cut TXID:$hexfn");
+      $retry++;
+      return 0;
+    }
   }
   else { return 1; }
 }
@@ -200,7 +209,7 @@ sub callapi {
 
 sub falive {
   my $url = Irssi::settings_get_str('franklin_heartbeat_url');
-  if ($url ne "") {           ## this makes it so its not mandatory to have it set
+  if ($url ne "") {    ## this makes it so its not mandatory to have it set
     while (1) {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
@@ -232,13 +241,25 @@ sub frank {
     Irssi::print "Franklin: $nick does not have privs to use this.";
   }
   else {
+    my $wrote     = 1;
     my $localnick = $server->{nick};  ## pull our nick on the server so we can call that
     if ($msg =~ /^$localnick[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
-      my $wrote = 1;
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         $wrote = callapi($textcall, $server, $nick, $channel, @chat);
+      }
+    }
+    else {
+      if(($chatterbox le 95) && ($chatterbox gt 0)) {
+        if (int(rand(100)-$chatterbox) eq 0) {
+          $wrote = callapi($msg, $server, $nick, $channel, @chat);
+        }
+      }
+      else {
+	unless ($chatterbox eq 0) {
+	  Irssi::print "Chatterbox should be an int between 0 and 95, where 95 is very chatty."; 
+        }
       }
     }
   }
