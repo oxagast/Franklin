@@ -74,6 +74,8 @@ Irssi::print "  franklin_heartbeat_url           (optional)";
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)";
 Irssi::print "  franklin_word_limit              (mandatory, pre-set)";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)";
+Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)";
+Irssi::print "  franklin_blocklist_file          (mandatory)";
 our $apikey;
 
 ## checking to see if the api key 'looks' valid before use
