@@ -22,6 +22,8 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
+use HTML::Extract;
+use HTML::LinkExtractor;
 ##
 #####################################################################
 #####################################################################
@@ -38,7 +40,7 @@ Irssi::settings_add_str("franklin", "franklin_api_key",         "");
 Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
 Irssi::settings_add_str("franklin", "franklin_word_limit",      "600");
-Irssi::settings_add_str("franklin", "franklin_history_length",  "8");
+Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
@@ -105,7 +107,6 @@ sub callapi {
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
-
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
@@ -116,8 +117,8 @@ sub callapi {
     . "), in perl. You are in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
     . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
     . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
-    . " channel $channel in your chat history for context. If the question the users asks is nonsensical, answer with something snarky about not"
-    . " asking retarded questions. The question the IRC user $nick is asking is: $textcall";
+    . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
+    . "e bot by the IRC user $nick is: $textcall";
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
