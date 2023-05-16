@@ -76,7 +76,6 @@ Irssi::print "  franklin_word_limit              (mandatory, pre-set)";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)";
 our $apikey;
 
-#our @chat;
 ## checking to see if the api key 'looks' valid before use
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -101,8 +100,6 @@ sub callapi {
   my ($textcall, $server, $nick, $channel, @chat) = @_;
   my $retry     = 0;
   my $json_rep  = "";
-  my $fg_top    = "";
-  my $fg_bottom = "";
   my $chansaid  = 0;
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
@@ -133,7 +130,6 @@ sub callapi {
   $ua->default_header("Content-Type"  => "application/json");
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
-
   if ($res->is_success) {
     $json_rep = $res->decoded_content();
     ## response should look like
@@ -174,14 +170,14 @@ sub callapi {
       print SAID
         "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
       close(SAID);
-      $fg_top =
+      my $fg_top =
 '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
         . 'GC"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
         . '; gtag("config", "G-MN30E29EGC"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
         . '1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib'
         . 's/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_sec'
         . 'tion"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
-      $fg_bottom =
+      my $fg_bottom =
 '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered'
         . ' IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
       my $said_html = sanitize($said, html => 1);
@@ -223,6 +219,7 @@ sub falive {
 
 sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  $msg_count++;
   open(BN, '<', $blockfn)
     or die "Franklin: Sorry, you need a blocklist file. $!";
   my @badnicks = <BN>;
@@ -232,8 +229,6 @@ sub frank {
   if (scalar(@chat) - 1 >= $histlen) {
     shift(@chat);
   }
-
-  $msg_count++;
   chomp(@badnicks);
   for (@badnicks) {
     s/(.*)#.*$/$1/;    ## for comments in the badnicks file
@@ -252,14 +247,15 @@ sub frank {
       }
     }
     else {
-      if(($chatterbox le 95) && ($chatterbox gt 0)) {
-        if (int(rand(100)-$chatterbox) eq 0) {
+      if (($chatterbox le 95) && ($chatterbox gt 0)) {
+        if (int(rand(100) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
         }
       }
       else {
-	unless ($chatterbox eq 0) {
-	  Irssi::print "Chatterbox should be an int between 0 and 95, where 95 is very chatty."; 
+        unless ($chatterbox eq 0) {
+          Irssi::print
+            "Chatterbox should be an int between 0 and 95, where 95 is very chatty.";
         }
       }
     }
