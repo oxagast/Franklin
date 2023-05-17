@@ -22,12 +22,6 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-use HTML::Extract;
-use HTML::LinkExtractor;
-##
-#####################################################################
-#####################################################################
-##
 ## these varaibles you can change from within irssi using /set
 Irssi::settings_add_str("franklin", "franklin_http_location", "/var/www/html/said/");
 Irssi::settings_add_str(
