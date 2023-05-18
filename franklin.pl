@@ -10,6 +10,8 @@
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
 #
+
+use utf8;
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
@@ -17,12 +19,10 @@ use Sanitize;
 use strict;
 use warnings;
 use LWP::UserAgent;
-use utf8;
 use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-## these varaibles you can change from within irssi using /set
 Irssi::settings_add_str("franklin", "franklin_http_location", "/var/www/html/said/");
 Irssi::settings_add_str(
                         "franklin",
@@ -91,27 +91,106 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
 }
 else { Irssi: print "Something went wrong with the API key..."; }
 
+sub untag {
+  local $_ = $_[0] || $_;
+  s{
+    <               # open tag
+    (?:             # open group (A)
+      (!--) |       #   comment (1) or
+      (\?) |        #   another comment (2) or
+      (?i:          #   open group (B) for /i
+        ( TITLE  |  #     one of start tags
+          SCRIPT |  #     for which
+          APPLET |  #     must be skipped
+          OBJECT |  #     all content
+          STYLE     #     to correspond
+        )           #     end tag (3)
+      ) |           #   close group (B), or
+      ([!/A-Za-z])  #   one of these chars, remember in (4)
+    )               # close group (A)
+    (?(4)           # if previous case is (4)
+      (?:           #   open group (C)
+        (?!         #     and next is not : (D)
+          [\s=]     #       \s or "="
+          ["`']     #       with open quotes
+        )           #     close (D)
+        [^>] |      #     and not close tag or
+        [\s=]       #     \s or "=" with
+        `[^`]*` |   #     something in quotes ` or
+        [\s=]       #     \s or "=" with
+        '[^']*' |   #     something in quotes ' or
+        [\s=]       #     \s or "=" with
+        "[^"]*"     #     something in quotes "
+      )*            #   repeat (C) 0 or more times
+    |               # else (if previous case is not (4))
+      .*?           #   minimum of any chars
+    )               # end if previous char is (4)
+    (?(1)           # if comment (1)
+      (?<=--)       #   wait for "--"
+    )               # end if comment (1)
+    (?(2)           # if another comment (2)
+      (?<=\?)       #   wait for "?"
+    )               # end if another comment (2)
+    (?(3)           # if one of tags-containers (3)
+      </            #   wait for end
+      (?i:\3)       #   of this tag
+      (?:\s[^>]*)?  #   skip junk to ">"
+    )               # end if (3)
+    >               # tag closed
+   }{}gsx;          # STRIP THIS TAG
+  return $_ ? $_ : "";
+}
+
+sub pullpage {
+  my ($text) = @_;
+    if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])! ) {  # grab the link parts
+    my $text_uri = "$1://$2$3"; # put the link back together
+    Irssi::print "$text_uri";
+    my $cua = LWP::UserAgent->new;
+    $cua->agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'); # so we look like a real browser
+    my $curi = URI->new($text_uri);
+    my $cres = $cua->get($curi);
+    if($cres->is_success) {
+      my $cdc = encode('utf-8', $cres->decoded_content()); # we get an error unless this is utf8
+      my $page_body = untag($cdc);
+      $page_body =~ s/\s+/ /g;
+      return $page_body;
+    }
+  }
+  else { return undef }
+}
+ 
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, @chat) = @_;
   my $retry     = 0;
   my $json_rep  = "";
   my $chansaid  = 0;
+  my $page = pullpage($textcall);
   $textcall =~ s/\"/\\"/gs;
   $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context, 0, 650);
+  $context = substr($context, 0, 650);  # we have to trim this and this
+  $page = substr($page, 0, 800);        # becuse otherwise its too long
   my $textcall_bare = $textcall;
-  my $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+  my $setup;
+  if ($page) {
+  $setup =
+  "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+    . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
+   }
+  else {
+  $setup =
+  "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
     . "), in perl. You are in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
     . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
     . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
     . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
     . "e bot by the IRC user $nick is: $textcall";
+  }
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
@@ -241,6 +320,7 @@ sub frank {
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+ 
         $wrote = callapi($textcall, $server, $nick, $channel, @chat);
       }
     }
