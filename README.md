@@ -81,11 +81,11 @@ be ~600.
 
 An integer, 0 to 100, 0 being silent unless spoken to, 100 being says something every line.
 
-`/set franklin_history_length`
+`/set franklin_history_length [int]`
 
 How far back the chat history goes.  In lines, should be 5 to 8 lines.
 
-`/set franklin_blocklist_file`
+`/set franklin_blocklist_file [file]`
 
 The file where the line-by-line nick blocklist is stored. Users in this file cannot use Franklin.
 
