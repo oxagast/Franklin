@@ -163,6 +163,7 @@ sub callapi {
       $cost = sprintf("%.5f", $cost);
       open(SAID, '>', "$httploc$hexfn" . ".txt")
         or Irssi::print "Could not open txt file for writing.";
+      binmode(SAID, "encoding(UTF-8)");
       print SAID
         "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
       close(SAID);
@@ -180,6 +181,7 @@ sub callapi {
       $said_html =~ s/\n/<br>/g;
       open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
         or Irssi::print "Couldn't open for writing.";
+      binmode(SAIDHTML, "encoding(UTF-8)");
       print SAIDHTML $fg_top
         . "<br><i>"
         . localtime()
