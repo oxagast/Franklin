@@ -77,6 +77,18 @@ This should be something like greater than 30 and less than 300.
 This is the limit of words that the API should generate form the backend. Should
 be ~600.
 
+`/set franklin_chatterbox_mode [int]`
+
+An integer, 0 to 100, 0 being silent unless spoken to, 100 being says something every line.
+
+`/set franklin_history_length`
+
+How far back the chat history goes.  In lines, should be 5 to 8 lines.
+
+`/set franklin_blocklist_file`
+
+The file where the line-by-line nick blocklist is stored. Users in this file cannot use Franklin.
+
 *Authors*
 
 oxagast / Marshall Whittaker
