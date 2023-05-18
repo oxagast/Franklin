@@ -48,7 +48,7 @@ our $blockfn     = Irssi::settings_get_str('franklin_blocklist_file');
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
-$VERSION = "2.7";
+$VERSION = "2.8";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -56,7 +56,7 @@ $VERSION = "2.7";
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'May, 2nd 2023',
+          changed     => 'May, 18th 2023',
 );
 Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
@@ -173,11 +173,11 @@ sub callapi {
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context, 0, 650);  # we have to trim this and this
-  $page = substr($page, 0, 800);        # becuse otherwise its too long
+  $context = substr($context, 0, 650);  # we have to trim
   my $textcall_bare = $textcall;
   my $setup;
   if ($page) {
+  $page = substr($page, 0, 800);        # becuse otherwise its too long
   $setup =
   "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
     . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
@@ -320,7 +320,6 @@ sub frank {
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
- 
         $wrote = callapi($textcall, $server, $nick, $channel, @chat);
       }
     }
