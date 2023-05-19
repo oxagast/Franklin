@@ -61,7 +61,7 @@ Name | Description
 Now test the bot by calling it with "Franklin: print me a test message" in channel (do this from a different nick, 
 not Franklin's nick!)
 
-Fraklin may fail due to heavy load on the API, connection issues, or the like.  It has primitive recovery methods. However, one may reinitialize Fraklin with `script load franklin.pl`.
+Fraklin may fail due to heavy load on the API, connection issues, or the like.  It has primitive recovery methods. However, one may reinitialize Fraklin with `/script load franklin.pl`.
 
 Sometimes after running `/quit` in irssi, it is necessary to *also* run `pkill irssi` to reap any runaway franklin processes.  The
 longer irssi has been running, the more this is an issue.
