@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # Author: by oxagast
-# Thanks: atg, dclaw, proge, CerebraNet, morb, bookworm, denzuko, RDNt... and more...
+# Thanks: atg, dclaw, proge, CerebraNet, morb, bookworm, denzuko, RDNt, xibalba... and more...
 #
 # Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 #                  ,   .
