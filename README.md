@@ -46,7 +46,7 @@ Name | Description
 -|-
 `/set franklin_api_key [apikey]` | This is the API key you need to get from OpenAI.
 `/set franklin_heartbeat_url [url]` | A url that the franklin script will hit every 30 seconds to show it has not crashed. This setting is optional, to turn it off: /set franklin_heartbeat_url "".
-`/set franklin_response_webserver_addr [address]` | server root URL for hosting the domain files franklin is running on. (e.g.  https://franklin.com/said/).
+`/set franklin_response_webserver_addr [address]` | server root URL for hosting the domain files franklin is running on. (e.g.  https://franklin.oxasploits.com/said/).
 `/set franklin_http_location [dir]` | Server root location of files saved to be served by a web server. (e.g. /var/www/html/said/).
 `/set franklin_max_retry [int]` | How many times the script should retry connecting to the API before giving up.
 `/set franklin_hard_limit [int]` | The hard limit of characters that the response should be to fit in an IRC chat. (e.g. greater than 30 and less than 300.)
