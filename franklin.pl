@@ -33,18 +33,20 @@ Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",         "");
 Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
-Irssi::settings_add_str("franklin", "franklin_word_limit",      "600");
+Irssi::settings_add_str("franklin", "franklin_token_limit",      "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
-my $wordlimit = Irssi::settings_get_str('franklin_word_limit');
+my $tokenlimit = Irssi::settings_get_str('franklin_token_limit');
 my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen     = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn     = Irssi::settings_get_str('franklin_blocklist_file');
+my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
+our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
@@ -58,20 +60,6 @@ $VERSION = "2.8";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'May, 18th 2023',
 );
-Irssi::print "";
-Irssi::print "Loading Franklin ChatGPT chatbot...";
-Irssi::print "Use /set to set the following variables:";
-Irssi::print "  franklin_http_location           (mandatory, pre-set)";
-Irssi::print "  franklin_response_webserver_addr (mandatory)";
-Irssi::print "  franklin_api_key                 (mandatory)";
-Irssi::print "  franklin_heartbeat_url           (optional)";
-Irssi::print "  franklin_hard_limit              (mandatory, pre-set)";
-Irssi::print "  franklin_word_limit              (mandatory, pre-set)";
-Irssi::print "  franklin_history_length          (mandatory, pre-set)";
-Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)";
-Irssi::print "  franklin_blocklist_file          (mandatory)";
-our $apikey;
-
 ## checking to see if the api key 'looks' valid before use
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -90,6 +78,22 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   Irssi::print "Franklin: API key: $apikey";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
+
+  my $apifirstp = substr($apikey, 0, 9); 
+  my $apilastp = substr($apikey, 45, 49);
+Irssi::print "";
+Irssi::print "Loading Franklin ChatGPT chatbot...";
+Irssi::print "Use /set to set the following variables:";
+Irssi::print "  franklin_http_location           (mandatory, pre-set)  => $httploc";
+Irssi::print "  franklin_response_webserver_addr (mandatory)           => $webaddr";
+Irssi::print "  franklin_api_key                 (mandatory)           => $apifirstp...$apilastp";
+Irssi::print "  franklin_heartbeat_url           (optional)            => $hburl";
+Irssi::print "  franklin_hard_limit              (mandatory, pre-set)  => $hardlimit";
+Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $tokenlimit";
+Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
+Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox";
+Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
+
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -199,7 +203,7 @@ sub callapi {
   my $ua    = LWP::UserAgent->new;
   my $askbuilt =
       "{\"model\": \"$model\",\"prompt\": \"$textcall\","
-    . "\"temperature\":$heat,\"max_tokens\": $wordlimit,"
+    . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
     . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
     . "penalty\": 0}";
   $ua->default_header("Content-Type"  => "application/json");
@@ -282,10 +286,9 @@ sub callapi {
 
 
 sub falive {
-  my $url = Irssi::settings_get_str('franklin_heartbeat_url');
-  if ($url ne "") {    ## this makes it so its not mandatory to have it set
+  if ($hburl ne "") {    ## this makes it so its not mandatory to have it set
     while (1) {
-      my $uri = URI->new($url);
+      my $uri = URI->new($hburl);
       my $ua  = LWP::UserAgent->new;
       $ua->post($uri);
       sleep 30;
