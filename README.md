@@ -46,7 +46,7 @@ Name | Description
 -|-
 `/set franklin_api_key [apikey]` | This is the API key you need to get from OpenAI.
 `/set franklin_heartbeat_url [url]` | A url that the franklin script will hit every 30 seconds to show it has not crashed. This setting is optional, to turn it off: /set franklin_heartbeat_url "".
-`/set franklin_response_webserver_addr [address]` | server root URL for hosting the domain files franklin is running on. (e.g.  https://franklin.com/said/).
+`/set franklin_response_webserver_addr [address]` | server root URL for hosting the domain files franklin is running on. (e.g.  https://franklin.oxasploits.com/said/).
 `/set franklin_http_location [dir]` | Server root location of files saved to be served by a web server. (e.g. /var/www/html/said/).
 `/set franklin_max_retry [int]` | How many times the script should retry connecting to the API before giving up.
 `/set franklin_hard_limit [int]` | The hard limit of characters that the response should be to fit in an IRC chat. (e.g. greater than 30 and less than 300.)
@@ -61,7 +61,7 @@ Name | Description
 Now test the bot by calling it with "Franklin: print me a test message" in channel (do this from a different nick, 
 not Franklin's nick!)
 
-Fraklin may fail due to heavy load on the API, connection issues, or the like.  It has primitive recovery methods. However, one may reinitialize Fraklin with `script load franklin.pl`.
+Fraklin may fail due to heavy load on the API, connection issues, or the like.  It has primitive recovery methods. However, one may reinitialize Fraklin with `/script load franklin.pl`.
 
 Sometimes after running `/quit` in irssi, it is necessary to *also* run `pkill irssi` to reap any runaway franklin processes.  The
 longer irssi has been running, the more this is an issue.
