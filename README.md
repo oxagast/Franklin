@@ -25,7 +25,7 @@
 * Franklin is aware of the conversation in each channel, reading back ~7 lines, for context.
 * Franklin is aware of what it is (an irc bot), it's own name, which channel it is speaking to, who it is speaking to, how many lines back it can reference, as well as some other critical instance variables.
 * Franklin's configurable interface is easy to use, just set the varaibles with `/set franklin_...` in irssi.
-* Franklin's responses are all stored on the server he is hosted on, and are searchable on the server's http instance.
+* Franklin's responses are all stored on the server he is hosted on (the TXID number), and are searchable on the [website](https://franklin.oxasploits.com).
 
 **Setup**
 
