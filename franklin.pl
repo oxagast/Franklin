@@ -199,7 +199,7 @@ sub callapi {
   my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
-  $textcall =~ s/\"/''/g;
+  $textcall =~ s/\"/\\\"/g;
   my $askbuilt =
       "{\"model\": \"$model\",\"prompt\": \"$textcall\","
     . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
