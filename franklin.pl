@@ -171,8 +171,6 @@ sub callapi {
   my $json_rep  = "";
   my $chansaid  = 0;
   my $page = pullpage($textcall);
-  $textcall =~ s/\"/\\"/gs;
-  $textcall =~ s/\'/\\\\'/gs;
   my $context = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
@@ -201,6 +199,7 @@ sub callapi {
   my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
+  $textcall =~ s/\"/''/g;
   my $askbuilt =
       "{\"model\": \"$model\",\"prompt\": \"$textcall\","
     . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
@@ -208,6 +207,7 @@ sub callapi {
     . "penalty\": 0}";
   $ua->default_header("Content-Type"  => "application/json");
   $ua->default_header("Authorization" => "Bearer " . $apikey);
+  #Irssi::print "$askbuilt";
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
     $json_rep = $res->decoded_content();
@@ -219,18 +219,18 @@ sub callapi {
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
-    if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
-      $said = "";
-    }
+    #if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
+    # $said = "";
+      #}
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
     $said =~ s/My reply is: //;
     $said =~
       s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
-    if ($said =~ m/^\s*\?\s*$/) {
+      if ($said =~ m/^\s*\?\s*$/) {
       $said = "";
-    }
+      }
     unless ($said eq "") {
       my $hexfn = substr(           ## the reencode fixes the utf8 bug
         Digest::MD5::md5_hex(
@@ -321,6 +321,8 @@ sub frank {
     my $localnick = $server->{nick};  ## pull our nick on the server so we can call that
     if ($msg =~ /^$localnick[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
+  $textcall =~ s/\'//gs;
+  $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         $wrote = callapi($textcall, $server, $nick, $channel, @chat);
