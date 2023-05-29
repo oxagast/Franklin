@@ -60,7 +60,7 @@ $VERSION = "2.8";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'May, 18th 2023',
 );
-## checking to see if the api key 'looks' valid before use
+## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
     . "sk-BCjqdsTcwu9ptwVlIASqT3BlbklJuXr7tIo1yRQEcHeqfVvZ, "
@@ -176,6 +176,17 @@ sub callapi {
     $context = $context . $chat[$usersays];
   }
   $context = substr($context, 0, 650);  # we have to trim
+  my $modstat;
+  my $cms = $server->channel_find($channel);
+  my $cmn = $cms->nick_find($server->{nick}); 
+  #Irssi::print $cmn->{op};
+  if ($cmn->{op} eq 1)  {
+    $modstat = "a channel";  # cmn->{op} returns 0 on normal user, 1 on operator status.
+  }
+  else {
+    $modstat = "not a channel";
+  }
+  #Irssi::print $server->{mode};
   my $textcall_bare = $textcall;
   my $setup;
   if ($page) {
@@ -187,7 +198,7 @@ sub callapi {
   else {
   $setup =
   "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-    . "), in perl. You are in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
+    . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
     . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
     . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
     . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
