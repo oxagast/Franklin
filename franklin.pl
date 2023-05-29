@@ -33,7 +33,7 @@ Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",         "");
 Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
-Irssi::settings_add_str("franklin", "franklin_token_limit",      "600");
+Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
@@ -41,10 +41,10 @@ my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $tokenlimit = Irssi::settings_get_str('franklin_token_limit');
-my $hardlimit = Irssi::settings_get_str('franklin_hard_limit');
-our $histlen     = Irssi::settings_get_str('franklin_history_length');
-our $chatterbox  = Irssi::settings_get_str('franklin_chatterbox_mode');
-our $blockfn     = Irssi::settings_get_str('franklin_blocklist_file');
+my $hardlimit  = Irssi::settings_get_str('franklin_hard_limit');
+our $histlen    = Irssi::settings_get_str('franklin_history_length');
+our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
+our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $apikey;
 our $msg_count   = 0;
@@ -67,8 +67,9 @@ if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
     . "then reload with /script load franklin.pl";
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
-  my $aliveworker = Proc::Simple->new();    ## since you fags try to root me and crash franklin
-  if (Irssi::settings_get_str('franklin_heartbeat_url')){   # i need this so that
+  my $aliveworker =
+    Proc::Simple->new();    ## since you fags try to root me and crash franklin
+  if (Irssi::settings_get_str('franklin_heartbeat_url')) {    # i need this so that
     $aliveworker->start(\&falive);   ## i get alerts on my phone when franklin dies now.
     my $waiterp = Proc::Simple->new();
     $waiterp->start("/bin/sleep", "3");
@@ -85,20 +86,22 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
 }
 else { Irssi: print "Something went wrong with the API key..."; }
 
-  my $apifirstp = substr($apikey, 0, 9); 
-  my $apilastp = substr($apikey, 45, 49);
+my $apifirstp = substr($apikey, 0,  9);
+my $apilastp  = substr($apikey, 45, 49);
 Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)  => $httploc";
 Irssi::print "  franklin_response_webserver_addr (mandatory)           => $webaddr";
-Irssi::print "  franklin_api_key                 (mandatory)           => $apifirstp...$apilastp";
+Irssi::print
+  "  franklin_api_key                 (mandatory)           => $apifirstp...$apilastp";
 Irssi::print "  franklin_heartbeat_url           (optional)            => $hburl";
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)  => $hardlimit";
 Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $tokenlimit";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
 Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
+
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -146,21 +149,27 @@ sub untag {
       (?:\s[^>]*)?  #   skip junk to ">"
     )               # end if (3)
     >               # tag closed
-   }{}gsx;          # STRIP THIS TAG
+   }{}gsx;    # STRIP THIS TAG
   return $_ ? $_ : "";
 }
 
+
 sub pullpage {
   my ($text) = @_;
-    if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])! ) {  # grab the link parts
-    my $text_uri = "$1://$2$3"; # put the link back together
+  if ($text =~
+m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!
+    ) {       # grab the link parts
+    my $text_uri = "$1://$2$3";    # put the link back together
     Irssi::print "$text_uri";
     my $cua = LWP::UserAgent->new;
-    $cua->agent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'); # so we look like a real browser
+    $cua->agent(
+'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
+    );                             # so we look like a real browser
     my $curi = URI->new($text_uri);
     my $cres = $cua->get($curi);
-    if($cres->is_success) {
-      my $cdc = encode('utf-8', $cres->decoded_content()); # we get an error unless this is utf8
+    if ($cres->is_success) {
+      my $cdc =
+        encode('utf-8', $cres->decoded_content()); # we get an error unless this is utf8
       my $page_body = untag($cdc);
       $page_body =~ s/\s+/ /g;
       return $page_body;
@@ -168,46 +177,48 @@ sub pullpage {
   }
   else { return undef }
 }
- 
+
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, @chat) = @_;
-  my $retry     = 0;
-  my $json_rep  = "";
-  my $chansaid  = 0;
-  my $page = pullpage($textcall);
-  my $context = "";
+  my $retry    = 0;
+  my $json_rep = "";
+  my $chansaid = 0;
+  my $page     = pullpage($textcall);
+  my $context  = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context, 0, 650);  # we have to trim
+  $context = substr($context, 0, 650);    # we have to trim
   my $modstat;
   my $cms = $server->channel_find($channel);
-  my $cmn = $cms->nick_find($server->{nick}); 
+  my $cmn = $cms->nick_find($server->{nick});
+
   #Irssi::print $cmn->{op};
-  if ($cmn->{op} eq 1)  {
+  if ($cmn->{op} eq 1) {
     $modstat = "a channel";  # cmn->{op} returns 0 on normal user, 1 on operator status.
   }
   else {
     $modstat = "not a channel";
   }
+
   #Irssi::print $server->{mode};
   my $textcall_bare = $textcall;
   my $setup;
   if ($page) {
-  $page = substr($page, 0, 800);        # becuse otherwise its too long
-  $setup =
-  "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-    . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
-   }
+    $page = substr($page, 0, 800);    # becuse otherwise its too long
+    $setup =
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+      . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
+  }
   else {
-  $setup =
-  "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-    . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
-    . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
-    . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
-    . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
-    . "e bot by the IRC user $nick is: $textcall";
+    $setup =
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+      . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
+      . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
+      . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
+      . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
+      . "e bot by the IRC user $nick is: $textcall";
   }
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
@@ -223,6 +234,7 @@ sub callapi {
     . "penalty\": 0}";
   $ua->default_header("Content-Type"  => "application/json");
   $ua->default_header("Authorization" => "Bearer " . $apikey);
+
   #Irssi::print "$askbuilt";
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
@@ -235,18 +247,19 @@ sub callapi {
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
+
     #if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
     # $said = "";
-      #}
+    #}
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
     $said =~ s/My reply is: //;
     $said =~
       s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
-      if ($said =~ m/^\s*\?\s*$/) {
+    if ($said =~ m/^\s*\?\s*$/) {
       $said = "";
-      }
+    }
     unless ($said eq "") {
       my $hexfn = substr(           ## the reencode fixes the utf8 bug
         Digest::MD5::md5_hex(
@@ -302,7 +315,7 @@ sub callapi {
 
 
 sub falive {
-  if ($hburl) {    ## this makes it so its not mandatory to have it set
+  if ($hburl) {                 ## this makes it so its not mandatory to have it set
     while (1) {
       my $uri = URI->new($hburl);
       my $ua  = LWP::UserAgent->new;
@@ -337,8 +350,8 @@ sub frank {
     my $localnick = $server->{nick};  ## pull our nick on the server so we can call that
     if ($msg =~ /^$localnick[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
-  $textcall =~ s/\'//gs;
-  $textcall =~ s/\"//gs;
+      $textcall =~ s/\'//gs;
+      $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         $wrote = callapi($textcall, $server, $nick, $channel, @chat);
