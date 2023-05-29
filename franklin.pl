@@ -67,10 +67,16 @@ if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
     . "then reload with /script load franklin.pl";
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
-  my $aliveworker =
-    Proc::Simple->new();    ## since you fags try to root me and crash franklin
-  if (Irssi::settings_get_str('franklin_heartbeat_url') ne "") {   # i need this so that
+  my $aliveworker = Proc::Simple->new();    ## since you fags try to root me and crash franklin
+  if (Irssi::settings_get_str('franklin_heartbeat_url')){   # i need this so that
     $aliveworker->start(\&falive);   ## i get alerts on my phone when franklin dies now.
+    my $waiterp = Proc::Simple->new();
+    $waiterp->start("/bin/sleep", "3");
+    while ($waiterp->poll() eq 0) {
+      if (($waiterp->poll() eq 1) || ($aliveworker->poll() eq 1)) {
+        $aliveworker->kill();
+      }
+    }
   }
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message public', 'frank');
@@ -93,7 +99,6 @@ Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $token
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
 Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
-
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -297,7 +302,7 @@ sub callapi {
 
 
 sub falive {
-  if ($hburl ne "") {    ## this makes it so its not mandatory to have it set
+  if ($hburl) {    ## this makes it so its not mandatory to have it set
     while (1) {
       my $uri = URI->new($hburl);
       my $ua  = LWP::UserAgent->new;
