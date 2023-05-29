@@ -50,7 +50,7 @@ our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
-$VERSION = "2.8";
+$VERSION = "2.9";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -58,7 +58,7 @@ $VERSION = "2.8";
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'May, 18th 2023',
+          changed     => 'May, 29th 2023',
 );
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
