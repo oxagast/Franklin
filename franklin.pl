@@ -30,13 +30,13 @@ Irssi::settings_add_str(
                         "https://franklin.oxasploits.com/said/"
 );
 Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
-Irssi::settings_add_str("franklin", "franklin_api_key",         "");
-Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
+Irssi::settings_add_str("franklin", "franklin_api_key",         undef);
+Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   undef);
 Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
 Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
-Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
+Irssi::settings_add_str("franklin", "franklin_blocklist_file",  undef);
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -50,7 +50,7 @@ our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
-$VERSION = "2.9";
+$VERSION = "2.9.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -329,10 +329,15 @@ sub falive {
 sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $msg_count++;
-  open(BN, '<', $blockfn)
-    or die "Franklin: Sorry, you need a blocklist file. $!";
-  my @badnicks = <BN>;
-  close BN;
+  my @badnicks;
+  if ($blockfn) {
+    if (-e $blockfn) {
+      open(BN, '<', $blockfn)
+        or die "Franklin: Sorry, you need a blocklist file. $!";
+      @badnicks = <BN>;
+      close BN;
+    }
+  }
   my @chat = "";
   push(@chat, "The user: $nick said: $msg - in $channel");
   if (scalar(@chat) - 1 >= $histlen) {
