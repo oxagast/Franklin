@@ -37,6 +37,7 @@ Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  undef);
+Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -46,6 +47,7 @@ our $histlen    = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
+our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -101,7 +103,7 @@ Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $token
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
 Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
-
+Irssi::print "  franklin_server_info             (optional)            => $servinfo";
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -201,7 +203,6 @@ sub callapi {
   else {
     $modstat = "not a channel";
   }
-
   #Irssi::print $server->{mode};
   my $textcall_bare = $textcall;
   my $setup;
@@ -213,8 +214,8 @@ sub callapi {
   }
   else {
     $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-      . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load. Your source pulls from Open AI's GPT3 L"
+        "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+      . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 L"
       . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
       . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
       . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
