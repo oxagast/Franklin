@@ -213,6 +213,8 @@ sub callapi {
       . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
   }
   else {
+    # next is what is referred to as the 'contextual prelude' in the docs. 
+    # It loads Franklin up to know what it is, where it is connected to, what people have said recently, etc.
     $setup =
         "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
       . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 L"
@@ -224,7 +226,7 @@ sub callapi {
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
-  my $heat  = "0.7";                 ## ?? wtf
+  my $heat  = "0.7";                 ## ?? wtf - this augments consistency.s
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
   $textcall =~ s/\"/\\\"/g;
