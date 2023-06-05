@@ -23,7 +23,16 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-Irssi::settings_add_str("franklin", "franklin_http_location", "/var/www/html/said/");
+$VERSION = "2.9.2";
+%IRSSI = (
+          authors     => 'oxagast',
+          contact     => 'marshall@oxagast.org',
+          name        => 'franklin',
+          description => 'Franklin ChatGPT bot',
+          license     => 'BSD',
+          url         => 'http://franklin.oxasploits.com',
+          changed     => 'May, 29th 2023',
+);
 Irssi::settings_add_str(
                         "franklin",
                         "franklin_response_webserver_addr",
@@ -38,6 +47,7 @@ Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  undef);
 Irssi::settings_add_str("franklin", "franklin_server_info",     "");
+Irssi::settings_add_str("franklin", "franklin_http_location", "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -52,16 +62,6 @@ our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
-$VERSION = "2.9.1";
-%IRSSI = (
-          authors     => 'oxagast',
-          contact     => 'marshall@oxagast.org',
-          name        => 'franklin',
-          description => 'Franklin ChatGPT bot',
-          license     => 'BSD',
-          url         => 'http://franklin.oxasploits.com',
-          changed     => 'May, 29th 2023',
-);
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -101,9 +101,11 @@ Irssi::print "  franklin_heartbeat_url           (optional)            => $hburl
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)  => $hardlimit";
 Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $tokenlimit";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
-Irssi::print "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox";
+Irssi::print
+  "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox:1000";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
 Irssi::print "  franklin_server_info             (optional)            => $servinfo";
+
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -203,6 +205,7 @@ sub callapi {
   else {
     $modstat = "not a channel";
   }
+
   #Irssi::print $server->{mode};
   my $textcall_bare = $textcall;
   my $setup;
@@ -213,10 +216,8 @@ sub callapi {
       . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
   }
   else {
-    # next is what is referred to as the 'contextual prelude' in the docs. 
-    # It loads Franklin up to know what it is, where it is connected to, what people have said recently, etc.
     $setup =
-        "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
       . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 L"
       . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
       . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
@@ -226,7 +227,7 @@ sub callapi {
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
   my $model = "text-davinci-003";    ## other model implementations work too
-  my $heat  = "0.7";                 ## ?? wtf - this augments consistency.s
+  my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
   $textcall =~ s/\"/\\\"/g;
@@ -366,8 +367,8 @@ sub frank {
       }
     }
     else {
-      if (($chatterbox le 95) && ($chatterbox gt 0)) {
-        if (int(rand(100) - $chatterbox) eq 0) {
+      if (($chatterbox le 995) && ($chatterbox gt 0)) {
+        if (int(rand(1000) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
         }
       }
