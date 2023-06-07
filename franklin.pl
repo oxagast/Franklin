@@ -197,16 +197,12 @@ sub callapi {
   my $modstat;
   my $cms = $server->channel_find($channel);
   my $cmn = $cms->nick_find($server->{nick});
-
-  #Irssi::print $cmn->{op};
   if ($cmn->{op} eq 1) {
     $modstat = "a channel";  # cmn->{op} returns 0 on normal user, 1 on operator status.
   }
   else {
     $modstat = "not a channel";
   }
-
-  #Irssi::print $server->{mode};
   my $textcall_bare = $textcall;
   my $setup;
   if ($page) {
@@ -238,8 +234,6 @@ sub callapi {
     . "penalty\": 0}";
   $ua->default_header("Content-Type"  => "application/json");
   $ua->default_header("Authorization" => "Bearer " . $apikey);
-
-  #Irssi::print "$askbuilt";
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
     $json_rep = $res->decoded_content();
@@ -251,10 +245,9 @@ sub callapi {
     my $json_decd = decode_json($json_rep);
     my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
-
-    #if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
-    # $said = "";
-    #}
+    if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
+      $said = "";
+    }
     $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
