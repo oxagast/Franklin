@@ -48,6 +48,7 @@ Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  undef);
 Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 Irssi::settings_add_str("franklin", "franklin_http_location", "");
+Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -58,6 +59,7 @@ our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
+our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -105,7 +107,7 @@ Irssi::print
   "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox:1000";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
 Irssi::print "  franklin_server_info             (optional)            => $servinfo";
-
+Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -284,9 +286,9 @@ sub callapi {
         "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
       close(SAID);
       my $fg_top =
-'<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29E'
-        . 'GC"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
-        . '; gtag("config", "G-MN30E29EGC"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
+'<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=' . $gtag
+        . '"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date())'
+        . '; gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale='
         . '1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib'
         . 's/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_sec'
         . 'tion"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
