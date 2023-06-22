@@ -67,7 +67,7 @@ our $price_per_k = 0.02;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
-    . "sk-BCjqdsTcwu9ptwVlIASqT3BlbklJuXr7tIo1yRQEcHeqfVvZ, "
+    . "sk-BCjqdsTcwu9ptwVlIeniacsucksJuXr7tIo1yRQEcHeqfVvZ, "
     . "then reload with /script load franklin.pl";
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
@@ -86,7 +86,6 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message public', 'frank');
   Irssi::print "Franklin: $VERSION loaded";
-  Irssi::print "Franklin: API key: $apikey";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
 
