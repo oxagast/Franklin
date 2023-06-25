@@ -189,6 +189,7 @@ sub callapi {
   my $retry    = 0;
   my $json_rep = "";
   my $chansaid = 0;
+  $textcall    = sanitize($textcall, html => 1);
   my $page     = pullpage($textcall);
   my $context  = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
