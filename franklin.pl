@@ -189,7 +189,6 @@ sub callapi {
   my $retry    = 0;
   my $json_rep = "";
   my $chansaid = 0;
-  $textcall    = sanitize($textcall, html => 1);
   my $page     = pullpage($textcall);
   my $context  = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
@@ -289,6 +288,7 @@ sub callapi {
 '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered'
         . ' IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
       my $said_html = sanitize($said, html => 1);
+      $textcall_bare    = sanitize($textcall_bare, html => 1);
       $said_html =~ s/\n/<br>/g;
       open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
         or Irssi::print "Couldn't open for writing.";
