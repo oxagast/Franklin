@@ -198,8 +198,7 @@ sub callapi {
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
-  $context = substr($context, 0, 650);    # we have to trim
-  Irssi::print $context;
+  $context = substr($context, -450);    # we have to trim
   my $modstat;
   my $cms = $server->channel_find($channel);
   my $cmn = $cms->nick_find($server->{nick});
