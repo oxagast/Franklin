@@ -60,6 +60,7 @@ our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our $gtag = Irssi::settings_get_str('franklin_google_gtag');
+our @chat;
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -166,7 +167,10 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
     ) {       # grab the link parts
     my $text_uri = "$1://$2$3";    # put the link back together
     Irssi::print "$text_uri";
-    my $cua = LWP::UserAgent->new;
+    my $cua = LWP::UserAgent->new(
+         protocols_allowed => ['http', 'https'],
+         timeout           => 3,
+    );
     $cua->agent(
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
     );                             # so we look like a real browser
@@ -185,7 +189,7 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
 
 
 sub callapi {
-  my ($textcall, $server, $nick, $channel, @chat) = @_;
+  my ($textcall, $server, $nick, $channel) = @_;
   my $retry    = 0;
   my $json_rep = "";
   my $chansaid = 0;
@@ -195,6 +199,7 @@ sub callapi {
     $context = $context . $chat[$usersays];
   }
   $context = substr($context, 0, 650);    # we have to trim
+  Irssi::print $context;
   my $modstat;
   my $cms = $server->channel_find($channel);
   my $cmn = $cms->nick_find($server->{nick});
@@ -206,7 +211,7 @@ sub callapi {
   }
   my $textcall_bare = $textcall;
   my $setup;
-  if ($page) {
+  if (($page) && (length($page) >= 20)) {
     $page = substr($page, 0, 800);    # becuse otherwise its too long
     $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
@@ -227,6 +232,7 @@ sub callapi {
   my $heat  = "0.7";                 ## ?? wtf
   my $uri   = URI->new($url);
   my $ua    = LWP::UserAgent->new;
+  $textcall = Irssi::strip_codes($textcall);
   $textcall =~ s/\"/\\\"/g;
   my $askbuilt =
       "{\"model\": \"$model\",\"prompt\": \"$textcall\","
@@ -337,9 +343,8 @@ sub frank {
       close BN;
     }
   }
-  my @chat = "";
-  push(@chat, "The user: $nick said: $msg - in $channel");
-  if (scalar(@chat) - 1 >= $histlen) {
+  push(@chat, "The user: $nick said: $msg - in $channel ");
+  if (scalar(@chat) >= $histlen) {
     shift(@chat);
   }
   chomp(@badnicks);
@@ -358,7 +363,7 @@ sub frank {
       $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-        $wrote = callapi($textcall, $server, $nick, $channel, @chat);
+        $wrote = callapi($textcall, $server, $nick, $channel);
       }
     }
     else {
