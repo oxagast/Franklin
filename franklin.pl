@@ -193,6 +193,10 @@ sub callapi {
   my $retry    = 0;
   my $json_rep = "";
   my $chansaid = 0;
+  my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
+  my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
+  my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+  $year = "20" .substr($year, -2);
   my $page     = pullpage($textcall);
   my $context  = "";
   for my $usersays (0 .. scalar(@chat) - 1) {
@@ -220,7 +224,7 @@ sub callapi {
     $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
       . "), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 L"
-      . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. If you see a shell command and thi"
+      . "arge Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. Today's date is $days[$wday] $mday $months[$mon] $year. If you see a shell command and thi"
       . "nk you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the"
       . " channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to th"
       . "e bot by the IRC user $nick is: $textcall";
@@ -311,6 +315,10 @@ sub callapi {
       Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
       $server->command("msg $channel $said_cut TXID:$hexfn");
       $retry++;
+      push(@chat, "The user: $cmn said: $said_cut - in $channel ");
+      if (scalar(@chat) >= $histlen) {
+        shift(@chat);
+      }
       return 0;
     }
   }
