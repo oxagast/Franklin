@@ -39,6 +39,7 @@
 *  Append the `block.lst` file with one username per line with any users that abuse the bot.
 *  Edit any variables in franklin you need to from within irssi, such as the domain name of your server where the long-text is hosted, by using `/set fraklin_...`.
 *  Finally, test it by calling with "Franklin: say hi! in chat".
+* I would recommend also adding `-all -nocase -regexp 'Franklin: reload' -command 'script load franklin.pl'` to trigger.pl so that you (or others) can reload the bot without sshing in.
 
 **Settings**
 
