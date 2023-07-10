@@ -169,11 +169,12 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
     Irssi::print "$text_uri";
     my $cua = LWP::UserAgent->new(
          protocols_allowed => ['http', 'https'],
-         timeout           => 3,
+         timeout           => 5,
     );
     $cua->agent(
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
     );                             # so we look like a real browser
+    $ua->max_size( 4000 );
     my $curi = URI->new($text_uri);
     my $cres = $cua->get($curi);
     if ($cres->is_success) {
