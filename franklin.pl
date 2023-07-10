@@ -23,7 +23,7 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-$VERSION = "2.9.2";
+$VERSION = "2.9.3";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
