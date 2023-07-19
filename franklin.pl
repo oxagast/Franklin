@@ -11,19 +11,20 @@
 #  -'
 #
 
+use strict;
+use warnings;
 use utf8;
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 use Sanitize;
-use strict;
-use warnings;
 use LWP::UserAgent;
 use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-$VERSION = "2.9.3";
+use Data::Dumper;
+$VERSION = "2.10";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -39,13 +40,13 @@ Irssi::settings_add_str(
                         "https://franklin.oxasploits.com/said/"
 );
 Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
-Irssi::settings_add_str("franklin", "franklin_api_key",         undef);
-Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   undef);
+Irssi::settings_add_str("franklin", "franklin_api_key",         "");
+Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
 Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
-Irssi::settings_add_str("franklin", "franklin_blocklist_file",  undef);
+Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
 Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 Irssi::settings_add_str("franklin", "franklin_http_location", "");
 Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
@@ -188,6 +189,33 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
   else { return undef }
 }
 
+sub asshat {
+  my ($usertext, $server, $nick, $channel) = @_;
+  my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
+  if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
+    my $setup = "You are an IRC bot.  On a scale from 1 to 10, rate the user $nick comment, from 0 to 10, 10 being the most assholeish thing one could possibly say.  Format it so that only the number is displayed.  The user's comment is: $usertext";
+    my $url = "http://api.openai.com/v1/completions";
+    my $model = "text-davinci-003";    ## other model implementations work too
+    my $heat  = "0.7";                 ## ?? wtf
+    my $uri   = URI->new($url);
+    my $ua    = LWP::UserAgent->new;
+    my $askbuilt =
+        "{\"model\": \"$model\",\"prompt\": \"$setup\","
+      . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
+      . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
+      . "penalty\": 0}";
+    $ua->default_header("Content-Type"  => "application/json");
+    $ua->default_header("Authorization" => "Bearer " . $apikey);
+    my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
+    if ($res->is_success) {
+      my $json_decd = decode_json($res->decoded_content());
+      my $saidrating      = $json_decd->{choices}[0]{text};
+      Irssi::print "User $nick\'s asshole rating is $saidrating";
+      return 0;
+      }
+    }
+  return 1;
+}
 
 sub callapi {
   my ($textcall, $server, $nick, $channel) = @_;
@@ -343,6 +371,7 @@ sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $msg_count++;
   my @badnicks;
+  my $asshole = asshat($msg, $server, $nick, $channel);
   if ($blockfn) {
     if (-e $blockfn) {
       open(BN, '<', $blockfn)

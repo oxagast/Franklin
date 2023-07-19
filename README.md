@@ -51,7 +51,7 @@ Name | Description
 `/set franklin_http_location [dir]` | Server root location of files saved to be served by a web server. (e.g. /var/www/html/said/).
 `/set franklin_hard_limit [int]` | The hard limit of characters that the response should be to fit in an IRC chat. (e.g. greater than 30 and less than 300.)
 `/set franklin_word_limit [int]` | Limit of words that the API should generate from the backend. Should be ~1000.
-`/set franklin_chatterbox_mode [int]` | An integer, 0 to 95, 0 being silent unless spoken to, 100 being says something every line.
+`/set franklin_chatterbox_mode [int]` | An integer, 0 to 1000, 0 being silent unless spoken to, 1000 being says something every line.
 `/set franklin_history_length [int]` | Number of lines of chat history to remember.  In lines, should be 5 to 8 lines.
 `/set franklin_blocklist_file [file]` | The file where the line-by-line nick blocklist is stored. Users listed in this file cannot use Franklin.
 `/set franklin_server_info [str]` | A brief user defined outline of what each server the bot is connected to is about, injected into the contextual prelude.
