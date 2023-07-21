@@ -379,7 +379,14 @@ sub frank {
   $msg_count++;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
-  Irssi::print "$asshole";
+  my %modrate; 
+  my @rate;
+  $modrate{$nick} = $asshole - 5 + $modrate{$nick}; 
+  Irssi::print $modrate{$nick};
+  if ($modrate{$nick} >= 4) {
+    $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
+  }
+
   if ($blockfn) {
     if (-e $blockfn) {
       open(BN, '<', $blockfn)
