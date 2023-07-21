@@ -190,31 +190,38 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
 }
 
 sub asshat {
-  my ($usertext, $server, $nick, $channel) = @_;
+  my ($textcall, $server, $nick, $channel) = @_;
   my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
   if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
-    my $setup = "You are an IRC bot.  On a scale from 1 to 10, rate the user $nick comment, from 0 to 10, 10 being the most assholeish thing one could possibly say.  Format it so that only the number is displayed.  The user's comment is: $usertext";
-    my $url = "http://api.openai.com/v1/completions";
-    my $model = "text-davinci-003";    ## other model implementations work too
-    my $heat  = "0.7";                 ## ?? wtf
-    my $uri   = URI->new($url);
-    my $ua    = LWP::UserAgent->new;
-    my $askbuilt =
-        "{\"model\": \"$model\",\"prompt\": \"$setup\","
-      . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
-      . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
-      . "penalty\": 0}";
-    $ua->default_header("Content-Type"  => "application/json");
-    $ua->default_header("Authorization" => "Bearer " . $apikey);
-    my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
-    if ($res->is_success) {
-      my $json_decd = decode_json($res->decoded_content());
-      my $saidrating      = $json_decd->{choices}[0]{text};
-      Irssi::print "User $nick\'s asshole rating is $saidrating";
-      return 0;
-      }
-    }
+  my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
+  $textcall = $setup;
+  my $url = "https://api.openai.com/v1/completions";
+  my $model = "text-davinci-003";    ## other model implementations work too
+  my $heat  = "0.7";                 ## ?? wtf
+  my $uri   = URI->new($url);
+  my $ua    = LWP::UserAgent->new;
+  $textcall = Irssi::strip_codes($textcall);
+  $textcall =~ s/\"/\\\"/g;
+  my $askbuilt =
+      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
+    . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
+    . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
+    . "penalty\": 0}";
+  $ua->default_header("Content-Type"  => "application/json");
+  $ua->default_header("Authorization" => "Bearer " . $apikey);
+  my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
+  if ($res->is_success) {
+    my  $json_rep = $res->decoded_content();
+    my $json_decd = decode_json($json_rep);
+   my $said      = $json_decd->{choices}[0]{text};
+   chomp($said);
+  $said =~ m/(\d+)/;
+  my $rating = $1;
+  return $rating;
+            }
+      #
   return 1;
+    }
 }
 
 sub callapi {
@@ -275,14 +282,14 @@ sub callapi {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-    $json_rep = $res->decoded_content();
+     $json_rep = $res->decoded_content();
     ## response should look like
     ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
     ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
     ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
     ## so we use a json decoder and fix for utf8
     my $json_decd = decode_json($json_rep);
-    my $said      = $json_decd->{choices}[0]{text};
+   my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
       $said = "";
@@ -372,6 +379,7 @@ sub frank {
   $msg_count++;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
+  Irssi::print "$asshole";
   if ($blockfn) {
     if (-e $blockfn) {
       open(BN, '<', $blockfn)
