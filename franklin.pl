@@ -62,6 +62,7 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our @chat;
+our %modrate; 
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -379,12 +380,12 @@ sub frank {
   $msg_count++;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
-  my %modrate; 
   my @rate;
-  $modrate{$nick} = $asshole - 5 + $modrate{$nick}; 
-  Irssi::print $modrate{$nick};
-  if ($modrate{$nick} >= 4) {
+  $modrate{$nick} = $asshole - 5 + $modrate{$nick} * 0.65; 
+  Irssi::print "$nick\'s asshole rating is: $modrate{$nick}";
+  if ($modrate{$nick} >= 12) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
+    $modrate{$nick} = 0;
   }
 
   if ($blockfn) {
