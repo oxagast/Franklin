@@ -47,8 +47,9 @@ Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
 Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
-Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 Irssi::settings_add_str("franklin", "franklin_http_location", "");
+Irssi::settings_add_str("franklin", "franklin_server_info",     "");
+Irssi::settings_add_str("franklin", "franklin_asshat_threshold",     "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
@@ -59,8 +60,9 @@ our $histlen    = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
-our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our $gtag = Irssi::settings_get_str('franklin_google_gtag');
+our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
+our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our @chat;
 our %modrate; 
 our $apikey;
@@ -109,6 +111,7 @@ Irssi::print
   "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox:1000";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
 Irssi::print "  franklin_server_info             (optional)            => $servinfo";
+Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
 
 sub untag {
@@ -383,7 +386,7 @@ sub frank {
   my @rate;
   $modrate{$nick} = $asshole - 4 + $modrate{$nick} * 0.40; 
   Irssi::print "$nick\'s asshole rating is: $modrate{$nick}";
-  if ($modrate{$nick} >= 8) {
+  if ($modrate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $modrate{$nick} = 0;
   }
