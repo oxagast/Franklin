@@ -381,9 +381,9 @@ sub frank {
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
   my @rate;
-  $modrate{$nick} = $asshole - 5 + $modrate{$nick} * 0.65; 
+  $modrate{$nick} = $asshole - 4 + $modrate{$nick} * 0.40; 
   Irssi::print "$nick\'s asshole rating is: $modrate{$nick}";
-  if ($modrate{$nick} >= 12) {
+  if ($modrate{$nick} >= 8) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $modrate{$nick} = 0;
   }
