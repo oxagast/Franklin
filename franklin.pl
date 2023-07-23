@@ -348,6 +348,7 @@ sub callapi {
     }
  }
   else { return 1; }
+}
 
 sub falive {
   if ($hburl) {                 ## this makes it so its not mandatory to have it set
