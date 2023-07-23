@@ -215,8 +215,8 @@ sub asshat {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-    my  $json_rep = $res->decoded_content();
-    my $json_decd = decode_json($json_rep);
+    #  my  $json_rep = $res->decoded_content();
+    my $json_decd = decode_json($res->decoded_content());
    my $said      = $json_decd->{choices}[0]{text};
    chomp($said);
   $said =~ m/(\d+)/;
@@ -279,13 +279,13 @@ sub callapi {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-     $json_rep = $res->decoded_content();
+    #$json_rep = $res->decoded_content();
     ## response should look like
     ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
     ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
     ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
     ## so we use a json decoder and fix for utf8
-    my $json_decd = decode_json($json_rep);
+    my $json_decd = decode_json($res->decoded_content());
    my $said      = $json_decd->{choices}[0]{text};
     my $toks      = $json_decd->{usage}{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
