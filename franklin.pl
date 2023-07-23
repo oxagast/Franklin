@@ -215,7 +215,6 @@ sub asshat {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-    #  my  $json_rep = $res->decoded_content();
     my $json_decd = decode_json($res->decoded_content());
    my $said      = $json_decd->{choices}[0]{text};
    chomp($said);
@@ -279,7 +278,6 @@ sub callapi {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-    #$json_rep = $res->decoded_content();
     ## response should look like
     ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
     ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
@@ -292,6 +290,7 @@ sub callapi {
       $said = "";
     }
     $said =~ s/^\n+//;
+    $said =~ s/^\s+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
     $said =~ s/My reply is: //;
@@ -299,7 +298,7 @@ sub callapi {
       s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
     if ($said =~ m/^\s*\?\s*$/) {
       $said = "";
-    }
+      iiii:}
     unless ($said eq "") {
       my $hexfn = substr(           ## the reencode fixes the utf8 bug
         Digest::MD5::md5_hex(
