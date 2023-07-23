@@ -421,4 +421,3 @@ sub frank {
   }
 }
 
-#!/usr/bin/perl
