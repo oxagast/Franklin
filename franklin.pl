@@ -256,8 +256,7 @@ sub callapi {
   if (($page) && (length($page) >= 20)) {
     $page = substr($page, 0, 800);    # becuse otherwise its too long
     $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages"
-      . " The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
   }
   else {
     $setup =
