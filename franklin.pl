@@ -15,6 +15,7 @@ use strict;
 use warnings;
 use utf8;
 use Proc::Simple;
+:q
 use Irssi;
 use vars qw($VERSION %IRSSI);
 use Sanitize;
@@ -64,7 +65,7 @@ our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our @chat;
-our %modrate; 
+our %modrate;
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -260,6 +261,7 @@ sub callapi {
   else {
     $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EDT. If you see a shell command and think you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall";
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EDT. If you see a shell command and think you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall";
   }
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
@@ -289,8 +291,8 @@ sub callapi {
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
       $said = "";
     }
-    $said =~ s/^\n+//;
     $said =~ s/^\s+//;
+    $said =~ s/^\n+//;
     $said =~ s/Franklin: //;
     $said =~ s/Reply: //;
     $said =~ s/My reply is: //;
@@ -298,7 +300,7 @@ sub callapi {
       s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
     if ($said =~ m/^\s*\?\s*$/) {
       $said = "";
-      iiii:}
+    }
     unless ($said eq "") {
       my $hexfn = substr(           ## the reencode fixes the utf8 bug
         Digest::MD5::md5_hex(
@@ -310,8 +312,7 @@ sub callapi {
         8
       );
       umask(0133);
-      my $cost = $toks / 1000 * $price_per_k;
-      $cost = sprintf("%.5f", $cost);
+      $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
       open(SAID, '>', "$httploc$hexfn" . ".txt")
         or Irssi::print "Could not open txt file for writing.";
       binmode(SAID, "encoding(UTF-8)");
@@ -319,7 +320,6 @@ sub callapi {
         "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
       close(SAID);
       my $fg_top =
-'<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
       my $fg_bottom =
 '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
       my $said_html = sanitize($said, html => 1);
@@ -343,14 +343,12 @@ sub callapi {
       $retry++;
       push(@chat, "The user: $cmn said: $said_cut - in $channel ");
       if (scalar(@chat) >= $histlen) {
-        shift(@chat);
+       shift(@chat);
       }
       return 0;
     }
-  }
+ }
   else { return 1; }
-}
-
 
 sub falive {
   if ($hburl) {                 ## this makes it so its not mandatory to have it set
@@ -424,3 +422,4 @@ sub frank {
   }
 }
 
+#!/usr/bin/perl
