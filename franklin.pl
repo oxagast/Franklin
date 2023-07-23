@@ -15,7 +15,6 @@ use strict;
 use warnings;
 use utf8;
 use Proc::Simple;
-:q
 use Irssi;
 use vars qw($VERSION %IRSSI);
 use Sanitize;
