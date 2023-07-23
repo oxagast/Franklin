@@ -311,7 +311,7 @@ sub callapi {
         8
       );
       umask(0133);
-      $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
+      my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
       open(SAID, '>', "$httploc$hexfn" . ".txt")
         or Irssi::print "Could not open txt file for writing.";
       binmode(SAID, "encoding(UTF-8)");
