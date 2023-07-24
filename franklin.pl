@@ -354,7 +354,7 @@ sub frank {
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40; 
-  Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
+  #Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $moderate{$nick} = 0;
