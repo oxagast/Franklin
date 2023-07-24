@@ -64,7 +64,7 @@ our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our @chat;
-our %modrate;
+our %moderate;
 our $apikey;
 our $msg_count   = 0;
 our $say_rng     = $msg_count + int(rand(10)) + 10;
@@ -361,12 +361,11 @@ sub frank {
   $msg_count++;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
-  my @rate;
-  $modrate{$nick} = $asshole - 4 + $modrate{$nick} * 0.40; 
-  Irssi::print "$nick\'s asshole rating is: $modrate{$nick}";
-  if ($modrate{$nick} >= $asslevel) {
+  $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40; 
+  Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
+  if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
-    $modrate{$nick} = 0;
+    $moderate{$nick} = 0;
   }
 
   if ($blockfn) {
@@ -390,8 +389,7 @@ sub frank {
   }
   else {
     my $wrote     = 1;
-    my $localnick = $server->{nick};  ## pull our nick on the server so we can call that
-    if ($msg =~ /^$localnick[:|,] (.*)/i) {    ## added /i for case insensitivity
+    if ($msg =~ /^$server->{nick}[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
@@ -408,8 +406,7 @@ sub frank {
       }
       else {
         unless ($chatterbox eq 0) {
-          Irssi::print
-            "Chatterbox should be an int between 0 and 95, where 95 is very chatty.";
+          Irssi::print "Chatterbox should be an int between 0 and 95, where 95 is very chatty.";
         }
       }
     }
