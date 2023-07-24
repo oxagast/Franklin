@@ -224,7 +224,6 @@ sub asshat {
 sub callapi {
   my ($textcall, $server, $nick, $channel) = @_;
   my $retry    = 0;
-  my $chansaid = 0;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
   my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
