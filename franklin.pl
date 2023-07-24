@@ -180,12 +180,9 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
     );                             # so we look like a real browser
     $cua->max_size( 4000 );
-    my $curi = URI->new($text_uri);
-    my $cres = $cua->get($curi);
+    my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $cdc =
-        encode('utf-8', $cres->decoded_content()); # we get an error unless this is utf8
-      my $page_body = untag($cdc);
+      my $page_body = untag(encode('utf-8', $cres->decoded_content())); # we get an error unless this is utf8
       $page_body =~ s/\s+/ /g;
       return $page_body;
     }
