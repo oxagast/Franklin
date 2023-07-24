@@ -215,9 +215,7 @@ sub asshat {
   $ua->default_header("Authorization" => "Bearer " . $apikey);
   my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
   if ($res->is_success) {
-    my $json_decd = decode_json($res->decoded_content());
-   my $said      = $json_decd->{choices}[0]{text};
-   chomp($said);
+    my $said = decode_json($res->decoded_content())->{choices}[0]{text};
   $said =~ m/(\d+)/;
   my $rating = $1;
   return $rating;
