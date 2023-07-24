@@ -389,7 +389,8 @@ sub frank {
   }
   else {
     my $wrote     = 1;
-    if ($msg =~ /^$server->{nick}[:|,] (.*)/i) {    ## added /i for case insensitivity
+    my $ln = $server->{nick};
+    if ($msg =~ /^$ln[:|,] (.*)/i) {    ## added /i for case insensitivity
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
