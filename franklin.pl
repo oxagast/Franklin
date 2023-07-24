@@ -9,11 +9,6 @@
 #   |- |   | | | | |<  | | | |
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
-#
-
-use strict;
-use warnings;
-use utf8;
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
@@ -276,11 +271,8 @@ sub callapi {
     ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
     ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
     ## so we use a json decoder and fix for utf8
-    my $json_decd = decode_json($res->decoded_content());
-    #my $said      = $json_decd->{choices}[0]{text};
-    #my $toks      = $json_decd->{usage}{total_tokens};
- my $said = decode_json($res->decoded_content())->{choices}[0]{text};
-  my $toks = decode_json($res->decoded_content())->{choices}[0]{total_tokens};
+    my $said = decode_json($res->decoded_content())->{choices}[0]{text};
+    my $toks = decode_json($res->decoded_content())->{choices}[0]{total_tokens};
     if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
       $said = "";
     }
