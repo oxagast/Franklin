@@ -227,7 +227,6 @@ sub asshat {
 sub callapi {
   my ($textcall, $server, $nick, $channel) = @_;
   my $retry    = 0;
-  my $json_rep = "";
   my $chansaid = 0;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
   my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
@@ -240,8 +239,7 @@ sub callapi {
   }
   $context = substr($context, -450);    # we have to trim
   my $modstat;
-  my $cms = $server->channel_find($channel);
-  my $cmn = $cms->nick_find($server->{nick});
+  my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
   if ($cmn->{op} eq 1) {
     $modstat = "a channel";  # cmn->{op} returns 0 on normal user, 1 on operator status.
   }
