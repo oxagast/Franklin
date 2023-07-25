@@ -305,7 +305,7 @@ sub callapi {
         "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
       close(SAID);
       my $fg_top = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
-      my $fg_top = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
+      my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
       my $said_html = sanitize($said, html => 1);
       $textcall_bare    = sanitize($textcall_bare, html => 1);
       $said_html =~ s/\n/<br>/g;
