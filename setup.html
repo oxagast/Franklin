@@ -97,6 +97,41 @@ that is writable by the franklin.pl script. Franklin should set the umask correc
 <p>Finally, test it by calling <code>Franklin: hey buddy, send me a test message so I know that you are working.</code></p>
 </li>
 </ol>
+<br><br>
+<p><em>Options</em></p>
+<ul>
+<li>
+<code>/set franklin_response_webserver_addr [address]</code>This is the webserver address where responses should be stored on the website.
+</li>
+<li>
+<code>/set franklin_http_location [dir]</code>This is the dir location of where the responses are stored on the drive.
+</li>
+<li>
+<code>/set franklin_hard_limit [int]</code>This is a hard limit of characters for the IRC.
+</li>
+<li>
+<code>/set franklin_word_limit [int]</code>This is a soft word limit for ChatGPT.
+</li>
+<li>
+<code>/set franklin_chatterbox_mode [int]</code>This is how often Franklin will talk by itself when on chatterbox mode.  1 is barely at all, 1000 is every line it says something (only go up to 950 or so)
+</li>
+<li>
+<code>/set franklin_history_length [int]</code>How many messages back Franklin's history buffer goes for context.
+</li>
+<li>
+<code>/set franklin_blocklist_file [file]</code>Add users that cannot use Franklin to this filename and set it here.
+</li>
+<li>
+<code>/set franklin_server_info [str]</code>Some information on the servers Franklin is connected to.
+</li>
+<li>
+<code>/set franklin_asshat_threshold</code>How much of an asshole someone has to be before Franklin kicks if Franklin happens to have hops or ops.  Usually around 7 or 8.
+</li>
+<li>
+<code>/set franklin_google_gtag</code>The Gtag for your google analytics should go here.
+</li>
+</ul>
+<br><br>
 <p><em>Debugging</em></p>
 <p>&hellip; Test the bot by calling it with &ldquo;Franklin: print me a test message&rdquo; in channel (do this from a different nick,
 not Franklin&rsquo;s nick!)<br>
