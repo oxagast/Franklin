@@ -55,7 +55,8 @@ Name | Description
 `/set franklin_history_length [int]` | Number of lines of chat history to remember.  In lines, should be 5 to 8 lines.
 `/set franklin_blocklist_file [file]` | The file where the line-by-line nick blocklist is stored. Users listed in this file cannot use Franklin.
 `/set franklin_server_info [str]` | A brief user defined outline of what each server the bot is connected to is about, injected into the contextual prelude.
-
+`/set franklin_google_gtag [str]` | This is your google analytics G- tag id, for tracking the generated webpages.
+`/set franklin_asshat_threshold [float]` | This should be an floating point number from around 6 to 9, and is the kick threshold.
 
 **Debugging**
 
