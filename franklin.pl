@@ -62,7 +62,6 @@ our @chat;
 our %moderate;
 our $apikey;
 our $msg_count   = 0;
-our $say_rng     = $msg_count + int(rand(10)) + 10;
 our $price_per_k = 0.02;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
@@ -331,6 +330,7 @@ sub callapi {
       }
       return 0;
     }
+    return 1;
  }
   else { return 1; }
 }
@@ -389,6 +389,7 @@ sub frank {
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         $wrote = callapi($textcall, $server, $nick, $channel);
       }
+      else { Irssi::print "Unknown error, response not sent to server"; }1
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
