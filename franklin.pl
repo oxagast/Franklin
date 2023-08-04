@@ -398,7 +398,7 @@ sub frank {
       }
       else {
         unless ($chatterbox eq 0) {
-          Irssi::print "Chatterbox should be an int between 0 and 95, where 95 is very chatty.";
+          Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
         }
       }
     }
