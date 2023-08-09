@@ -216,7 +216,7 @@ sub asshat {
 }
 
 sub callapi {
-  my ($server, $nick, $channel, $textcall) = @_;
+  my ($textcall, $server, $nick, $channel) = @_;
   my $retry    = 0;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
   my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
@@ -386,9 +386,9 @@ sub frank {
       $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-        my $tapi = Proc::Simple->new();
-        $tapi->start(callapi, $server, $nick, $channel, $textcall);
-        #callapi($textcall, $server, $nick, $channel);
+        # my $tapi = Proc::Simple->new();
+        # $tapi->start(callapi, $textcall, $server, $nick, $channel);
+        callapi($textcall, $server, $nick, $channel);
       }
       else { Irssi::print "Unknown error, response not sent to server"; }1
     }
