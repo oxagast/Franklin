@@ -386,8 +386,9 @@ sub frank {
       $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      my $tapi = Proc::Simple->new();
-      $tapi->start(callapi, $textcall, $server, $nick, $channel);
+        # my $tapi = Proc::Simple->new();
+        # $tapi->start(callapi, $textcall, $server, $nick, $channel);
+        callapi($textcall, $server, $nick, $channel);
       }
       else { Irssi::print "Unknown error, response not sent to server"; }1
     }
