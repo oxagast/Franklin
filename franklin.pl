@@ -185,7 +185,7 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
 }
 
 sub asshat {
-  my ($server, $nick, $channel, $textcall) = @_;
+  my ($textcall, $server, $nick, $channel) = @_;
   my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
   if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
   my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
