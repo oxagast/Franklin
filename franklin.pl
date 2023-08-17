@@ -66,7 +66,7 @@ our $price_per_k = 0.02;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
-    . "sk-BCjqdsTcwu9ptwVlIeniacsucksJuXr7tIo1yRQEcHeqfVvZ, "
+    . "sk-BCjqd..., "
     . "then reload with /script load franklin.pl";
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
@@ -388,19 +388,24 @@ sub frank {
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         # my $tapi = Proc::Simple->new();
         # $tapi->start(callapi, $textcall, $server, $nick, $channel);
-        callapi($textcall, $server, $nick, $channel);
+        $wrote = callapi($textcall, $server, $nick, $channel);
+        return $wrote;
       }
-      else { Irssi::print "Unknown error, response not sent to server"; }1
+      else { 
+        Irssi::print "Unknown error, response not sent to server"; }
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
+          return $wrote;
         }
+        return 0;
       }
       else {
         unless ($chatterbox eq 0) {
           Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
+          return 1;
         }
       }
     }
