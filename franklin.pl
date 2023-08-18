@@ -348,8 +348,8 @@ sub falive {
 
 sub floader {
   my ($server, $msg, $nick, $address, $channel) = @_;
-  franksig = Proc::Simple->new();
-  franksig->start(\&frank);
+  $franksig = Proc::Simple->new();
+  $franksig->start(\&frank);
   return 0;
 }
 
