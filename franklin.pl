@@ -84,7 +84,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   }
   $apikey = Irssi::settings_get_str('franklin_api_key');
 
-  Irssi::signal_add_last('message public', 'floader');
+  Irssi::signal_add_last('message public', 'frank');
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
@@ -346,12 +346,6 @@ sub falive {
   }
 }
 
-sub floader {
-  my ($server, $msg, $nick, $address, $channel) = @_;
-  $franksig = Proc::Simple->new();
-  $franksig->start(\&frank);
-  return 0;
-}
 
 sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
