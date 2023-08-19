@@ -375,7 +375,7 @@ sub frank {
   for (@badnicks) {
     s/(.*)#.*$/$1/;    ## for comments in the badnicks file
   }
-  if (($msg =~ /quack!/i) || ($msg =~ /flap flap!/i)) && ($nick == "JARVIS")) {
+  if ((($msg =~ /quack!/i) || ($msg =~ /flap flap!/i)) && ($nick == "JARVIS")) {
     if (int(rand(10) eq 1) {
       sleep(0.950);
       $server->command("msg $channel .bang TXID:0000008b");
