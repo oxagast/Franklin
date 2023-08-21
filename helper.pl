@@ -31,24 +31,17 @@ $VERSION = "2.10";
 );
 
 Irssi::signal_add_last('message public', 'chncll');
-$SIG{ALRM} = \&timed_out;
-
-
-eval {
-    alarm(10);    
-    reloadfrank($server);
-    alarm(0);
-};
 
 sub chncll {
 my ($server, $msg, $nick, $address, $channel) = @_;
  my $ln = $server->{nick};
-if ($msg =~ /^$ln[:|,] reload/i) {
-reloadfrank($server); 
+ if ($msg =~ /^$ln[:|,] reload/i) {
+  reloadfrank($server); 
 }
-
+}
 
 sub reloadfrank {
   my ($server) = @_;
-    $server->command("script" . "load" . "frankln.pl");
+  $server->command("script load frankln.pl");
+    Irssi::print "Fanklin reloaded.";
 }
