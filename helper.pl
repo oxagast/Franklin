@@ -12,12 +12,6 @@
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
-use Sanitize;
-use LWP::UserAgent;
-use URI;
-use JSON;
-use Digest::MD5 qw(md5_hex);
-use Encode;
 use Data::Dumper;
 $VERSION = "2.10";
 %IRSSI = (
