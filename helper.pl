@@ -22,14 +22,7 @@ $VERSION = "1.1";
 );
 
 Irssi::signal_add_last('message public', 'chncll');
-$SIG{ALRM} = \&timed_out;
 
-
-eval {
-    alarm(10);    
-    reloadfrank($server);
-    alarm(0);
-};
 
 sub chncll {
 my ($server, $msg, $nick, $address, $channel) = @_;
@@ -41,5 +34,6 @@ reloadfrank($server);
 
 sub reloadfrank {
   my ($server) = @_;
-    $server->command("script" . "load" . "frankln.pl");
+    $server->command("script unload franklin.pl");
+    $server->command("script load franklin.pl");
 }
