@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 # Author: by oxagast
-# Thanks: atg, dclaw, proge, CerebraNet, morb, bookworm, denzuko, RDNt, xibalba... and more...
 #
 # Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 #                  ,   .
@@ -9,15 +8,13 @@
 #   |- |   | | | | |<  | | | |
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
-use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
-use Data::Dumper;
-$VERSION = "2.10";
+$VERSION = "1.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
-          name        => 'franklin',
+          name        => 'franklin_helper',
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
@@ -26,16 +23,18 @@ $VERSION = "2.10";
 
 Irssi::signal_add_last('message public', 'chncll');
 
+
 sub chncll {
-my ($server, $msg, $nick, $address, $channel) = @_;
- my $ln = $server->{nick};
- if ($msg =~ /^$ln[:|,] reload/i) {
-  reloadfrank($server); 
+  my ($server, $msg, $nick, $address, $channel) = @_;
+  my $ln = $server->{nick};
+  if ($msg =~ /^$ln[:|,] reload/i) {
+    reloadfrank($server);
+  }
 }
-}
+
 
 sub reloadfrank {
   my ($server) = @_;
-  $server->command("script load frankln.pl");
-    Irssi::print "Fanklin reloaded.";
+  $server->command("script unload franklin.pl");
+  $server->command("script load franklin.pl");
 }
