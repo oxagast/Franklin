@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.10";
+$VERSION = "2.11";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -374,12 +374,6 @@ sub frank {
   chomp(@badnicks);
   for (@badnicks) {
     s/(.*)#.*$/$1/;    ## for comments in the badnicks file
-  }
-  if ((($msg =~ /quack!/i) || ($msg =~ /flap flap!/i)) && ($nick == "JARVIS")) {
-    if (int(rand(10)) eq 1) {
-      sleep(0.950);
-      $server->command("msg $channel .bang TXID:0000008b");
-    }
   }
   if (grep(/^$nick$/, @badnicks)) {    ## fuck everyone inside this conditional
     Irssi::print "Franklin: $nick does not have privs to use this.";
