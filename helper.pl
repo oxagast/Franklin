@@ -13,11 +13,11 @@ use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 use Data::Dumper;
-$VERSION = "2.10";
+$VERSION = "1.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
-          name        => 'franklin',
+          name        => 'franklin_helper',
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
