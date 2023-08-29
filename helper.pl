@@ -1,6 +1,5 @@
 #!/usr/bin/perl
 # Author: by oxagast
-# Thanks: atg, dclaw, proge, CerebraNet, morb, bookworm, denzuko, RDNt, xibalba... and more...
 #
 # Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
 #                  ,   .
@@ -9,10 +8,8 @@
 #   |- |   | | | | |<  | | | |
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
-use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
-use Data::Dumper;
 $VERSION = "1.1";
 %IRSSI = (
           authors     => 'oxagast',
