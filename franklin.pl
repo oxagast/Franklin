@@ -46,6 +46,7 @@ Irssi::settings_add_str("franklin", "franklin_http_location", "");
 Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 Irssi::settings_add_str("franklin", "franklin_asshat_threshold",     "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
+Irssi::settings_add_str("franklin", "franklin_txid_chans", "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -58,6 +59,7 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
+our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our @chat;
 our %moderate;
 our $apikey;
@@ -322,7 +324,12 @@ sub callapi {
       my $said_cut = substr($said, 0, $hardlimit);
       $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
       Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-      $server->command("msg $channel $said_cut TXID:$hexfn");
+      if (grep($channel, @txidchans) {
+        $server->command("msg $channel $said_cut TXID:$hexfn");
+      }
+      else {
+        $server->command("msg $channel $said_cut);
+      }
       $retry++;
       push(@chat, "The user: $cmn said: $said_cut - in $channel ");
       if (scalar(@chat) >= $histlen) {
