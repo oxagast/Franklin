@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.11";
+$VERSION = "2.12";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -324,12 +324,11 @@ sub callapi {
       my $said_cut = substr($said, 0, $hardlimit);
       $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
       Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-      if (grep($channel, @txidchans) {
+      chomp(@txidchans);
+      if (grep(/^$channel$/, @txidchans)) {
         $server->command("msg $channel $said_cut TXID:$hexfn");
       }
-      else {
-        $server->command("msg $channel $said_cut);
-      }
+      else { $server->command("msg $channel $said_cut"); }
       $retry++;
       push(@chat, "The user: $cmn said: $said_cut - in $channel ");
       if (scalar(@chat) >= $histlen) {
