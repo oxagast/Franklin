@@ -37,10 +37,10 @@
 * Start irssi
 * Set the API key with `/set franklin_api_key [key goes here]` 
 * Ensure your webserver root directory contains a folder that is writeable by the `franklin.pl` script named `said`(usually something like `/var/www/html/said/`).
-*  Append the `block.lst` file with one username per line with any users that abuse the bot.
-*  Edit any variables in franklin you need to from within irssi, such as the domain name of your server where the long-text is hosted, by using `/set fraklin_...`.
-*  Finally, test it by calling with "Franklin: say hi! in chat".
-* I would recommend also adding `-all -nocase -regexp 'Franklin: reload' -command 'script load franklin.pl'` to trigger.pl so that you (or others) can reload the bot without sshing in.
+* Append the `block.lst` file with one username per line with any users that abuse the bot.
+* Edit any variables in franklin you need to from within irssi, such as the domain name of your server where the long-text is hosted, by using `/set fraklin_...`.
+* Finally, test it by calling with "Franklin: say hi! in chat".
+* Load the helper script with: `/script load franklin_helper.pl`.  This will allow *any user* in channel to reload Franklin, but generally this is a good thing unless abused.
 
 **Settings**
 
