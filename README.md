@@ -24,11 +24,12 @@
 * Uptime heartbeat with email and/or sms notifications.
 * Promptless chat with users *autonomously*.
 * Conversation awareness within each channel, reading back ~7 lines (user definable).  Injected into contextual prelude.
-* Self-aware of being an IRC bot, its name, current channel it is speaking within, who it is speaking with, how many lines within reference history, plus other critical instance variables.
+* Self-aware of being an IRC bot, its name, current channel it is speaking within, who it is speaking with, current date/time, if it is a channel operator, how many lines within reference history, plus other critical instance variables.
 * Ease of use configurable interface by variables assignment with `/set franklin_...` in irssi.
 * Franklin's responses are all stored on the server side with a TXID number and are searchable on the [website](https://franklin.oxasploits.com).
 * Administrative blocklist of abusive users.
 * Statistics dashboard detailing how many tokens were used to generate each response and cost estimates for the instance operator.
+* The ability to utilize operator status by kicking users who are being assholes (configurable in settings).
 
 **Setup**
 
@@ -57,6 +58,7 @@ Name | Description
 `/set franklin_server_info [str]` | A brief user defined outline of what each server the bot is connected to is about, injected into the contextual prelude.
 `/set franklin_google_gtag [str]` | This is your google analytics G- tag id, for tracking the generated webpages.
 `/set franklin_asshat_threshold [float]` | This should be an floating point number from around 6 to 9, and is the kick threshold.
+`/set franklin_txid_chans [#chan1 #chan2]` | This is a list of channels where the Transactional Identification should be appended to the end of message.  The channels should be seperated by spaces.
 
 **Debugging**
 
@@ -69,7 +71,7 @@ Sometimes after running `/quit` in irssi, it is necessary to *also* run `pkill i
 longer irssi has been running, the more this is an issue.
 
 Occasionally, if franklin stalls and/or stop responding to queries, you can run `/script load franklin.pl` and this will
-usually rectify the issue.
+usually rectify the issue.  This can also be accomplished if franklin_helper.pl is loaded, by calling Franklin in channel like: "Franklin: reload".
 
 **Authors**
 
