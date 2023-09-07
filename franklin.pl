@@ -65,6 +65,7 @@ our %moderate;
 our $apikey;
 our $msg_count   = 0;
 our $price_per_k = 0.02;
+our $isup = 0;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -344,9 +345,11 @@ sub callapi {
 sub falive {
   if ($hburl) {                 ## this makes it so its not mandatory to have it set
     while (1) {
+      if ($isup eq 0) {
       my $uri = URI->new($hburl);
       my $ua  = LWP::UserAgent->new;
       $ua->post($uri);
+      }
       sleep 30;
     }
   }
@@ -396,22 +399,27 @@ sub frank {
         # my $tapi = Proc::Simple->new();
         # $tapi->start(callapi, $textcall, $server, $nick, $channel);
         $wrote = callapi($textcall, $server, $nick, $channel);
+        $isup = $wrote;
         return $wrote;
       }
       else { 
+        $isup = 1;
         Irssi::print "Unknown error, response not sent to server"; }
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
+          $isup = $wrote;
           return $wrote;
         }
+        $isup = 0;
         return 0;
       }
       else {
         unless ($chatterbox eq 0) {
           Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
+          $isup = 1;
           return 1;
         }
       }
