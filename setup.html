@@ -125,19 +125,24 @@ that is writable by the franklin.pl script. Franklin should set the umask correc
 <code>/set franklin_server_info [str]</code>Some information on the servers Franklin is connected to.
 </li>
 <li>
-<code>/set franklin_asshat_threshold</code>How much of an asshole someone has to be before Franklin kicks if Franklin happens to have hops or ops.  Usually around 7 or 8.
+<code>/set franklin_asshat_threshold [int]</code>How much of an asshole someone has to be before Franklin kicks if Franklin happens to have hops or ops.  Usually around 7 or 8.
 </li>
 <li>
-<code>/set franklin_google_gtag</code>The Gtag for your google analytics should go here.
+<code>/set franklin_google_gtag [G-tag]</code>The Gtag for your google analytics should go here.
+</li>
+<li>
+<code>/set franklin_txid_chans [#chan1 #chan2]</code>This is a list of channels that the TXID should appear appended to the end of Franklin's message in.
 </li>
 </ul>
+          
 <br><br>
 <p><em>Debugging</em></p>
 <p>&hellip; Test the bot by calling it with &ldquo;Franklin: print me a test message&rdquo; in channel (do this from a different nick,
 not Franklin&rsquo;s nick!)<br>
 You may have errors that franklin can't read from or write to something, check your permissions! (I set ownership to franklin:staff).<br>
 If text is to long, try using /set franklin_hard_limit to decrease the maximum number of characters on the line.<br>
-After edits you can just do <code>/script load franklin</code> to reload the bot without restarting irssi.</p>
+After edits you can just do <code>/script load franklin</code> to reload the bot without restarting irssi.  Any user may also reload Franklin
+by typing "Franklin: reload" in channel with the bot, if the franklin_helper.pl module is loaded.</p>
 <center>   <div include-html="/changedate.html"></div> </center>
 
         </article>
