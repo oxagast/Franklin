@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.12";
+$VERSION = "2.13";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -47,6 +47,9 @@ Irssi::settings_add_str("franklin", "franklin_server_info",     "");
 Irssi::settings_add_str("franklin", "franklin_asshat_threshold",     "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
 Irssi::settings_add_str("franklin", "franklin_txid_chans", "");
+Irssi::settings_add_str("franklin", "franklin_hdd_approx", "");
+Irssi::settings_add_str("franklin", "franklin_mem_approx", "");
+Irssi::settings_add_str("franklin", "franklin_cpu_approx", "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -59,12 +62,16 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
+our $havemem = Irssi::settings_get_str('franklin_hdd_approx');
+our $havehdd = Irssi::settings_get_str('franklin_mem_approx');
+our $havecpu = Irssi::settings_get_str('franklin_cpu_approx');
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our @chat;
 our %moderate;
 our $apikey;
 our $msg_count   = 0;
 our $price_per_k = 0.02;
+our $isup = 0;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -110,6 +117,11 @@ Irssi::print "  franklin_blocklist_file          (mandatory)           => $block
 Irssi::print "  franklin_server_info             (optional)            => $servinfo";
 Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
+Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
+Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
+Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
+Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
+Irssi::print "  franklin_txid_chans              (optional)            => " . Irssi::settings_get_str('franklin_txid_chans');
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -248,7 +260,7 @@ sub callapi {
   }
   else {
     $setup =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EDT. If you see a shell command and think you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall";
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. If you see a shell command and think you are being hacked, call them a skid. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com/. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall";
   }
   $textcall = $setup;
   my $url = "https://api.openai.com/v1/completions";
@@ -344,9 +356,11 @@ sub callapi {
 sub falive {
   if ($hburl) {                 ## this makes it so its not mandatory to have it set
     while (1) {
+      if ($isup eq 0) {
       my $uri = URI->new($hburl);
       my $ua  = LWP::UserAgent->new;
       $ua->post($uri);
+      }
       sleep 30;
     }
   }
@@ -396,22 +410,27 @@ sub frank {
         # my $tapi = Proc::Simple->new();
         # $tapi->start(callapi, $textcall, $server, $nick, $channel);
         $wrote = callapi($textcall, $server, $nick, $channel);
+        $isup = $wrote;
         return $wrote;
       }
       else { 
+        $isup = 1;
         Irssi::print "Unknown error, response not sent to server"; }
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
+          $isup = $wrote;
           return $wrote;
         }
+        $isup = 0;
         return 0;
       }
       else {
         unless ($chatterbox eq 0) {
           Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
+          $isup = 1;
           return 1;
         }
       }
