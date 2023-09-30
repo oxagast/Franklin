@@ -11,7 +11,7 @@
 use Irssi;
 use Data::Dumper;
 use vars qw($VERSION %IRSSI);
-$VERSION = "1.2";
+$VERSION = "1.3";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
@@ -45,6 +45,9 @@ sub chncll {
     }
     if ($msg =~ m/^$ln[:|,] join (#\w+)\s?.*/i) {
       $server->command("JOIN $1");
+    }
+    if ($msg =~ m/^$ln[:|,] part (#\w+)\s?.*/i) {
+      $server->command("PART $1");
 
     }
   }
