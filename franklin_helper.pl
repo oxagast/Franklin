@@ -21,13 +21,25 @@ $VERSION = "1.1";
           changed     => 'May, 29th 2023',
 );
 
+
+
 Irssi::signal_add_last('message public', 'chncll');
+
+Irssi::settings_add_str("franklin_helper", "franklin_helper_admin", "");
+my $owner = Irssi::settings_get_str('franklin_helper_admin');
+
 
 sub chncll {
 my ($server, $msg, $nick, $address, $channel) = @_;
  my $ln = $server->{nick};
- if ($msg =~ /^$ln[:|,] reload/i) {
+if ($msg =~ /^$ln[:|,] reload/i) {
   reloadfrank($server); 
+}
+# for commands only by Franklin admin
+if ($nick == $owner) {
+if ($msg =~ /^$ln[:|,] pull code/i) {
+  newpull($server);
+}
 }
 }
 
@@ -36,3 +48,10 @@ sub reloadfrank {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
 }
+
+sub newpull {
+  my ($server) = @_;
+  system("cd /home/irc-bot/Franklin && git pull");
+}
+  
+
