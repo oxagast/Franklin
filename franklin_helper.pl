@@ -9,6 +9,7 @@
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
 use Irssi;
+use Data::Dumper;
 use vars qw($VERSION %IRSSI);
 $VERSION = "1.2";
 %IRSSI = (
@@ -21,8 +22,6 @@ $VERSION = "1.2";
           changed     => 'May, 29th 2023',
 );
 
-
-
 Irssi::signal_add_last('message public', 'chncll');
 
 Irssi::settings_add_str("franklin_helper", "franklin_helper_admin", "");
@@ -30,28 +29,23 @@ my $owner = Irssi::settings_get_str('franklin_helper_admin');
 
 
 sub chncll {
-my ($server, $msg, $nick, $address, $channel) = @_;
- my $ln = $server->{nick};
-if ($msg =~ /^$ln[:|,] reload/i) {
-  reloadfrank($server); 
-}
-# for commands only by Franklin admin
-if ($nick == $owner) {
-if ($msg =~ /^$ln[:|,] pull code/i) {
-  newpull($server);
-}
-}
-}
+  my ($server, $msg, $nick, $address, $channel) = @_;
+  my $ln = $server->{nick};
 
-sub reloadfrank {
-  my ($server) = @_;
+  # these commands can be used by anybody
+  if ($msg =~ m/^$ln[:|,] reload/i) {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
-}
+  }
 
-sub newpull {
-  my ($server) = @_;
-  system("cd /home/irc-bot/Franklin && git pull");
-}
-  
+  # below this in this sub is for commands only by Franklin admin
+  if ($nick == $owner) {
+    if ($msg =~ m/^$ln[:|,] pull code/i) {
+      system("cd /home/irc-bot/Franklin && git pull");
+    }
+    if ($msg =~ m/^$ln[:|,] join (#\w+)\s?.*/i) {
+      $server->command("JOIN $1");
 
+    }
+  }
+}
