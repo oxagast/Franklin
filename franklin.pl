@@ -375,7 +375,6 @@ sub frank {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $msg_count++;
   my @badnicks;
-  my @fhelperln = ("reload", "pullcode", "join #.*", "part #.*");
   my $asshole = asshat($msg, $server, $nick, $channel);
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40; 
   #Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
@@ -410,7 +409,6 @@ sub frank {
       my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
-      unless(grep(/^$textcall/, @fhelperln)) {
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
         # my $tapi = Proc::Simple->new();
@@ -422,7 +420,6 @@ sub frank {
       else { 
         $isup = 1;
         Irssi::print "Unknown error, response not sent to server"; }
-    }
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
