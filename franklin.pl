@@ -367,12 +367,11 @@ sub callapi {
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
-        if (($cmn ne defined)) {
+        #if ($channel eq $nick) {
           $server->command("query $nick");
           $server->command("msg $nick $said_cut");
-        }
+        #}
 
-        #if ($cmn eq defined) {
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           $server->command("msg $channel $said_cut TXID:$hexfn");
@@ -385,8 +384,6 @@ sub callapi {
         }
         return 0;
       }
-
-      #}
       $server->command("msg $channel I'm sorry, I do not understand. TXID:000002");
       return 1;
     }
