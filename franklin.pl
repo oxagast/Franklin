@@ -45,8 +45,7 @@ Irssi::settings_add_str("franklin", "franklin_blocklist_file",   "");
 Irssi::settings_add_str("franklin", "franklin_http_location",    "");
 Irssi::settings_add_str("franklin", "franklin_server_info",      "");
 Irssi::settings_add_str("franklin", "franklin_asshat_threshold", "7");
-Irssi::settings_add_str("franklin", "franklin_google_gtag",      "G-")
-  ;    # here goes your google analytics G-tag
+Irssi::settings_add_str("franklin", "franklin_google_gtag",      "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans", "");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx", "");
 Irssi::settings_add_str("franklin", "franklin_mem_approx", "");
@@ -366,12 +365,10 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-
         if ($type eq "pm") {
           $server->command("query $nick");
           $server->command("msg $nick $said_cut");
         }
-
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
@@ -417,8 +414,6 @@ sub checkcmsg {
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
-
-  #Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $moderate{$nick} = 0;
@@ -452,9 +447,6 @@ sub checkcmsg {
       $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-
-        # my $tapi = Proc::Simple->new();
-        # $tapi->start(callapi, $textcall, $server, $nick, $channel);
         $wrote = callapi($textcall, $server, $nick, $channel, $type);
         $isup  = $wrote;
         return $wrote;
@@ -485,7 +477,6 @@ sub checkcmsg {
     }
   }
 }
-
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
