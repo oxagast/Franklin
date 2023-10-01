@@ -46,10 +46,10 @@ Irssi::settings_add_str("franklin", "franklin_http_location",    "");
 Irssi::settings_add_str("franklin", "franklin_server_info",      "");
 Irssi::settings_add_str("franklin", "franklin_asshat_threshold", "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag",      "G-");
-Irssi::settings_add_str("franklin", "franklin_txid_chans", "");
-Irssi::settings_add_str("franklin", "franklin_hdd_approx", "");
-Irssi::settings_add_str("franklin", "franklin_mem_approx", "");
-Irssi::settings_add_str("franklin", "franklin_cpu_approx", "");
+Irssi::settings_add_str("franklin", "franklin_txid_chans",       "");
+Irssi::settings_add_str("franklin", "franklin_hdd_approx",       "");
+Irssi::settings_add_str("franklin", "franklin_mem_approx",       "");
+Irssi::settings_add_str("franklin", "franklin_cpu_approx",       "");
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -210,7 +210,7 @@ sub asshat {
       my $setup =
 "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
-      my $url = "https://api.openai.com/v1/completions";
+      my $url   = "https://api.openai.com/v1/completions";
       my $model = "text-davinci-003";    ## other model implementations work too
       my $heat  = "0.7";                 ## ?? wtf
       my $uri   = URI->new($url);
@@ -286,7 +286,7 @@ sub callapi {
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com/. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall.  It is ok to say you don't know if you don't know.";
     }
     $textcall = $setup;
-    my $url = "https://api.openai.com/v1/completions";
+    my $url   = "https://api.openai.com/v1/completions";
     my $model = "text-davinci-003";    ## other model implementations work too
     my $heat  = "0.7";                 ## ?? wtf
     my $uri   = URI->new($url);
@@ -325,13 +325,13 @@ sub callapi {
       }
       unless ($said eq "") {
         my $hexfn = substr(           ## the reencode fixes the utf8 bug
-          Digest::MD5::md5_hex(
-                                 utf8::is_utf8($said)
-                               ? Encode::encode_utf8($said)
-                               : $said
-          ),
-          0,
-          8
+         Digest::MD5::md5_hex(
+                                utf8::is_utf8($said)
+                              ? Encode::encode_utf8($said)
+                              : $said
+         ),
+         0,
+         8
         );
         umask(0133);
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
@@ -365,6 +365,7 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+
         if ($type eq "pm") {
           $server->command("query $nick");
           $server->command("msg $nick $said_cut");
@@ -372,8 +373,8 @@ sub callapi {
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
-          $server->command("msg $channel $said_cut TXID:$hexfn");
-        }
+            $server->command("msg $channel $said_cut TXID:$hexfn");
+          }
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
@@ -477,6 +478,7 @@ sub checkcmsg {
     }
   }
 }
+
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
