@@ -34,18 +34,19 @@ Irssi::settings_add_str(
                         "franklin_response_webserver_addr",
                         "https://franklin.oxasploits.com/said/"
 );
-Irssi::settings_add_str("franklin", "franklin_max_retry",       "3");
-Irssi::settings_add_str("franklin", "franklin_api_key",         "");
-Irssi::settings_add_str("franklin", "franklin_heartbeat_url",   "");
-Irssi::settings_add_str("franklin", "franklin_hard_limit",      "280");
-Irssi::settings_add_str("franklin", "franklin_token_limit",     "600");
-Irssi::settings_add_str("franklin", "franklin_history_length",  "7");
-Irssi::settings_add_str("franklin", "franklin_chatterbox_mode", "0");
-Irssi::settings_add_str("franklin", "franklin_blocklist_file",  "");
-Irssi::settings_add_str("franklin", "franklin_http_location", "");
-Irssi::settings_add_str("franklin", "franklin_server_info",     "");
-Irssi::settings_add_str("franklin", "franklin_asshat_threshold",     "7");
-Irssi::settings_add_str("franklin", "franklin_google_gtag", "G-");  # here goes your google analytics G-tag
+Irssi::settings_add_str("franklin", "franklin_max_retry",        "3");
+Irssi::settings_add_str("franklin", "franklin_api_key",          "");
+Irssi::settings_add_str("franklin", "franklin_heartbeat_url",    "");
+Irssi::settings_add_str("franklin", "franklin_hard_limit",       "280");
+Irssi::settings_add_str("franklin", "franklin_token_limit",      "600");
+Irssi::settings_add_str("franklin", "franklin_history_length",   "7");
+Irssi::settings_add_str("franklin", "franklin_chatterbox_mode",  "0");
+Irssi::settings_add_str("franklin", "franklin_blocklist_file",   "");
+Irssi::settings_add_str("franklin", "franklin_http_location",    "");
+Irssi::settings_add_str("franklin", "franklin_server_info",      "");
+Irssi::settings_add_str("franklin", "franklin_asshat_threshold", "7");
+Irssi::settings_add_str("franklin", "franklin_google_gtag",      "G-")
+  ;    # here goes your google analytics G-tag
 Irssi::settings_add_str("franklin", "franklin_txid_chans", "");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx", "");
 Irssi::settings_add_str("franklin", "franklin_mem_approx", "");
@@ -59,19 +60,20 @@ our $histlen    = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
-our $gtag = Irssi::settings_get_str('franklin_google_gtag');
-our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
-our $servinfo = Irssi::settings_get_str('franklin_server_info');
-our $havemem = Irssi::settings_get_str('franklin_hdd_approx');
-our $havehdd = Irssi::settings_get_str('franklin_mem_approx');
-our $havecpu = Irssi::settings_get_str('franklin_cpu_approx');
+our $gtag      = Irssi::settings_get_str('franklin_google_gtag');
+our $asslevel  = Irssi::settings_get_str('franklin_asshat_threshold');
+our $servinfo  = Irssi::settings_get_str('franklin_server_info');
+our $havemem   = Irssi::settings_get_str('franklin_hdd_approx');
+our $havehdd   = Irssi::settings_get_str('franklin_mem_approx');
+our $havecpu   = Irssi::settings_get_str('franklin_cpu_approx');
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our @chat;
 our %moderate;
 our $apikey;
 our $msg_count   = 0;
 our $price_per_k = 0.02;
-our $isup = 0;
+our $isup        = 0;
+our $pm          = -1;
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key "
@@ -92,8 +94,8 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
     }
   }
   $apikey = Irssi::settings_get_str('franklin_api_key');
-
-  Irssi::signal_add_last('message public', 'frank');
+  Irssi::signal_add_last('message private', 'checkpmsg');
+  Irssi::signal_add_last('message public',  'checkcmsg');
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
@@ -121,7 +123,9 @@ Irssi::print "  franklin_cpu_approx              (optional)            => $havec
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
-Irssi::print "  franklin_txid_chans              (optional)            => " . Irssi::settings_get_str('franklin_txid_chans');
+Irssi::print "  franklin_txid_chans              (optional)            => "
+  . Irssi::settings_get_str('franklin_txid_chans');
+
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -181,17 +185,16 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
     ) {       # grab the link parts
     my $text_uri = "$1://$2$3";    # put the link back together
     Irssi::print "$text_uri";
-    my $cua = LWP::UserAgent->new(
-         protocols_allowed => ['http', 'https'],
-         timeout           => 5,
-    );
+    my $cua = LWP::UserAgent->new(protocols_allowed => ['http', 'https'],
+                                  timeout           => 5,);
     $cua->agent(
 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
     );                             # so we look like a real browser
-    $cua->max_size( 4000 );
+    $cua->max_size(4000);
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $page_body = untag(encode('utf-8', $cres->decoded_content())); # we get an error unless this is utf8
+      my $page_body = untag(encode('utf-8', $cres->decoded_content()))
+        ;                          # we get an error unless this is utf8
       $page_body =~ s/\s+/ /g;
       return $page_body;
     }
@@ -199,171 +202,207 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
   else { return undef }
 }
 
+
 sub asshat {
   my ($textcall, $server, $nick, $channel) = @_;
-  my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
-  if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
-  my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
-  $textcall = $setup;
-  my $url = "https://api.openai.com/v1/completions";
-  my $model = "text-davinci-003";    ## other model implementations work too
-  my $heat  = "0.7";                 ## ?? wtf
-  my $uri   = URI->new($url);
-  my $ua    = LWP::UserAgent->new;
-  $textcall = Irssi::strip_codes($textcall);
-  $textcall =~ s/\"/\\\"/g;
-  my $askbuilt =
-      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
-    . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
-    . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
-    . "penalty\": 0}";
-  $ua->default_header("Content-Type"  => "application/json");
-  $ua->default_header("Authorization" => "Bearer " . $apikey);
-  my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
-  if ($res->is_success) {
-    my $said = decode_json($res->decoded_content())->{choices}[0]{text};
-  $said =~ m/(\d+)/;
-  my $rating = $1;
-  return $rating;
-            }
-  return 1;
+  if ($server->channel_find($channel)) {
+    my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
+    if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
+      my $setup =
+"Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
+      $textcall = $setup;
+      my $url = "https://api.openai.com/v1/completions";
+      my $model = "text-davinci-003";    ## other model implementations work too
+      my $heat  = "0.7";                 ## ?? wtf
+      my $uri   = URI->new($url);
+      my $ua    = LWP::UserAgent->new;
+      $textcall = Irssi::strip_codes($textcall);
+      $textcall =~ s/\"/\\\"/g;
+      my $askbuilt =
+          "{\"model\": \"$model\",\"prompt\": \"$textcall\","
+        . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
+        . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
+        . "penalty\": 0}";
+      $ua->default_header("Content-Type"  => "application/json");
+      $ua->default_header("Authorization" => "Bearer " . $apikey);
+      my $res =
+        $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
+
+      if ($res->is_success) {
+        my $said = decode_json($res->decoded_content())->{choices}[0]{text};
+        $said =~ m/(\d+)/;
+        my $rating = $1;
+        return $rating;
+      }
+      return 1;
     }
+  }
 }
+
 
 sub callapi {
   my ($textcall, $server, $nick, $channel) = @_;
-  my $retry    = 0;
+
+  #Irssi::print "$server, $nick, $channel";
+  my $retry  = 0;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
-  my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
-  my ($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
-  $year = "20" .substr($year, -2);
-  my $page     = pullpage($textcall);
-  my $context  = "";
+  my @days   = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
+  my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
+  $year = "20" . substr($year, -2);
+  my $page    = pullpage($textcall);
+  my $context = "";
+
   for my $usersays (0 .. scalar(@chat) - 1) {
     $context = $context . $chat[$usersays];
   }
   $context = substr($context, -450);    # we have to trim
   my $modstat;
-  my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
-  if ($cmn->{op} eq 1) {
-    $modstat = "a channel";  # cmn->{op} returns 0 on normal user, 1 on operator status.
+  if ($server->channel_find($channel)) {
+    my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
+    if ($cmn->{op} eq 1) {
+      $modstat =
+        "a channel";    # cmn->{op} returns 0 on normal user, 1 on operator status.
+    }
+    else {
+      $modstat = "not a channel";
+    }
   }
   else {
-    $modstat = "not a channel";
+    $modstat = " not a channel";
   }
-  my $textcall_bare = $textcall;
-  my $setup;
-  if (($page) && (length($page) >= 20)) {
-    $page = substr($page, 0, 800);    # becuse otherwise its too long
-    $setup =
+  if ($cmn ne $nick) {
+    my $textcall_bare = $textcall;
+    my $setup;
+    if (($page) && (length($page) >= 20)) {
+      $page = substr($page, 0, 800);    # becuse otherwise its too long
+      $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
-  }
-  else {
-    # below is the contextual prelude that sets text-danvinci-003 up
-    # with some information about it's environmenmt, as well as the
-    # question asked and user who asked it, to more accurately answer
-    # requests.
-    $setup =
+    }
+    else {
+      # below is the contextual prelude that sets text-danvinci-003 up
+      # with some information about it's environmenmt, as well as the
+      # question asked and user who asked it, to more accurately answer
+      # requests.
+      $setup =
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit dev, master of 7 different languages), in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com/. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall.  It is ok to say you don't know if you don't know.";
+    }
+    $textcall = $setup;
+    my $url = "https://api.openai.com/v1/completions";
+    my $model = "text-davinci-003";    ## other model implementations work too
+    my $heat  = "0.7";                 ## ?? wtf
+    my $uri   = URI->new($url);
+    my $ua    = LWP::UserAgent->new;
+    $textcall = Irssi::strip_codes($textcall);
+    $textcall =~ s/\"/\\\"/g;
+    my $askbuilt =
+        "{\"model\": \"$model\",\"prompt\": \"$textcall\","
+      . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
+      . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
+      . "penalty\": 0}";
+    $ua->default_header("Content-Type"  => "application/json");
+    $ua->default_header("Authorization" => "Bearer " . $apikey);
+    my $res = $ua->post($uri, Content => $askbuilt); ## send the post request to the api
+
+    if ($res->is_success) {
+      ## response should look like
+      ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
+      ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
+      ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
+      ## so we use a json decoder and fix for utf8
+      my $said = decode_json($res->decoded_content())->{choices}[0]{text};
+      my $toks = decode_json($res->decoded_content())->{choices}[0]{total_tokens};
+      if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
+        $said = "";
+      }
+      $said =~ s/^\s+//;
+      $said =~ s/^\n+//;
+      $said =~ s/Franklin: //;
+      $said =~ s/Reply: //;
+      $said =~ s/My reply is: //;
+      $said =~
+        s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
+      if ($said =~ m/^\s*\?\s*$/) {
+        $said = "";
+      }
+      unless ($said eq "") {
+        my $hexfn = substr(           ## the reencode fixes the utf8 bug
+          Digest::MD5::md5_hex(
+                                 utf8::is_utf8($said)
+                               ? Encode::encode_utf8($said)
+                               : $said
+          ),
+          0,
+          8
+        );
+        umask(0133);
+        my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
+        open(SAID, '>', "$httploc$hexfn" . ".txt")
+          or Irssi::print "Could not open txt file for writing.";
+        binmode(SAID, "encoding(UTF-8)");
+        print SAID
+          "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
+        close(SAID);
+        my $fg_top =
+'<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "'
+          . $gtag
+          . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
+        my $fg_bottom =
+'</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
+        my $said_html = sanitize($said, html => 1);
+        $textcall_bare = sanitize($textcall_bare, html => 1);
+
+        $said_html =~ s/\n/<br>/g;
+        open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
+          or Irssi::print "Couldn't open for writing.";
+        binmode(SAIDHTML, "encoding(UTF-8)");
+        print SAIDHTML $fg_top
+          . "<br><i>"
+          . localtime()
+          . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
+          . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
+          . $said_html
+          . $fg_bottom;
+        close SAIDHTML;
+        my $said_cut = substr($said, 0, $hardlimit);
+        $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
+        Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+
+        if (($cmn ne defined)) {
+          $server->command("query $nick");
+          $server->command("msg $nick $said_cut");
+        }
+
+        #if ($cmn eq defined) {
+        chomp(@txidchans);
+        if (grep(/^$channel$/, @txidchans)) {
+          $server->command("msg $channel $said_cut TXID:$hexfn");
+        }
+        else { $server->command("msg $channel $said_cut"); }
+        $retry++;
+        push(@chat, "The user: $cmn said: $said_cut - in $channel ");
+        if (scalar(@chat) >= $histlen) {
+          shift(@chat);
+        }
+        return 0;
+      }
+
+      #}
+      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002");
+      return 1;
+    }
+    else { return 1; }
+
   }
-  $textcall = $setup;
-  my $url = "https://api.openai.com/v1/completions";
-  my $model = "text-davinci-003";    ## other model implementations work too
-  my $heat  = "0.7";                 ## ?? wtf
-  my $uri   = URI->new($url);
-  my $ua    = LWP::UserAgent->new;
-  $textcall = Irssi::strip_codes($textcall);
-  $textcall =~ s/\"/\\\"/g;
-  my $askbuilt =
-      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
-    . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
-    . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
-    . "penalty\": 0}";
-  $ua->default_header("Content-Type"  => "application/json");
-  $ua->default_header("Authorization" => "Bearer " . $apikey);
-  my $res = $ua->post($uri, Content => $askbuilt);   ## send the post request to the api
-  if ($res->is_success) {
-    ## response should look like
-    ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
-    ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
-    ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
-    ## so we use a json decoder and fix for utf8
-    my $said = decode_json($res->decoded_content())->{choices}[0]{text};
-    my $toks = decode_json($res->decoded_content())->{choices}[0]{total_tokens};
-    if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
-      $said = "";
-    }
-    $said =~ s/^\s+//;
-    $said =~ s/^\n+//;
-    $said =~ s/Franklin: //;
-    $said =~ s/Reply: //;
-    $said =~ s/My reply is: //;
-    $said =~
-      s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
-    if ($said =~ m/^\s*\?\s*$/) {
-      $said = "";
-    }
-    unless ($said eq "") {
-      my $hexfn = substr(           ## the reencode fixes the utf8 bug
-        Digest::MD5::md5_hex(
-                               utf8::is_utf8($said)
-                             ? Encode::encode_utf8($said)
-                             : $said
-        ),
-        0,
-        8
-      );
-      umask(0133);
-      my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
-      open(SAID, '>', "$httploc$hexfn" . ".txt")
-        or Irssi::print "Could not open txt file for writing.";
-      binmode(SAID, "encoding(UTF-8)");
-      print SAID
-        "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
-      close(SAID);
-      my $fg_top = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
-      my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
-      my $said_html = sanitize($said, html => 1);
-      $textcall_bare    = sanitize($textcall_bare, html => 1);
-      $said_html =~ s/\n/<br>/g;
-      open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
-        or Irssi::print "Couldn't open for writing.";
-      binmode(SAIDHTML, "encoding(UTF-8)");
-      print SAIDHTML $fg_top
-        . "<br><i>"
-        . localtime()
-        . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
-        . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
-        . $said_html
-        . $fg_bottom;
-      close SAIDHTML;
-      my $said_cut = substr($said, 0, $hardlimit);
-      $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-      Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
-      chomp(@txidchans);
-      if (grep(/^$channel$/, @txidchans)) {
-        $server->command("msg $channel $said_cut TXID:$hexfn");
-      }
-      else { $server->command("msg $channel $said_cut"); }
-      $retry++;
-      push(@chat, "The user: $cmn said: $said_cut - in $channel ");
-      if (scalar(@chat) >= $histlen) {
-       shift(@chat);
-      }
-      return 0;
-    }
-    return 1;
- }
-  else { return 1; }
 }
 
+
 sub falive {
-  if ($hburl) {                 ## this makes it so its not mandatory to have it set
+  if ($hburl) {    ## this makes it so its not mandatory to have it set
     while (1) {
       if ($isup eq 0) {
-      my $uri = URI->new($hburl);
-      my $ua  = LWP::UserAgent->new;
-      $ua->post($uri);
+        my $uri = URI->new($hburl);
+        my $ua  = LWP::UserAgent->new;
+        $ua->post($uri);
       }
       sleep 30;
     }
@@ -371,12 +410,14 @@ sub falive {
 }
 
 
-sub frank {
+sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $msg_count++;
+  $pm = 0;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
-  $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40; 
+  $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
+
   #Irssi::print "$nick\'s asshole rating is: $moderate{$nick}";
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
@@ -403,29 +444,31 @@ sub frank {
     Irssi::print "Franklin: $nick does not have privs to use this.";
   }
   else {
-    my $wrote     = 1;
-    my $ln = $server->{nick};
+    my $wrote = 1;
+    my $ln    = $server->{nick};
     if ($msg =~ /^$ln[:|,] (.*)/i) {    ## added /i for case insensitivity
-      my $textcall = $1;    ## $1 is the "dot star" inside the parenthesis
+      my $textcall = $1;                ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
       Irssi::print "Franklin: $nick asked: $textcall";
       if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+
         # my $tapi = Proc::Simple->new();
         # $tapi->start(callapi, $textcall, $server, $nick, $channel);
         $wrote = callapi($textcall, $server, $nick, $channel);
-        $isup = $wrote;
+        $isup  = $wrote;
         return $wrote;
       }
-      else { 
+      else {
         $isup = 1;
-        Irssi::print "Unknown error, response not sent to server"; }
+        Irssi::print "Unknown error, response not sent to server";
+      }
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {
           $wrote = callapi($msg, $server, $nick, $channel, @chat);
-          $isup = $wrote;
+          $isup  = $wrote;
           return $wrote;
         }
         $isup = 0;
@@ -433,7 +476,8 @@ sub frank {
       }
       else {
         unless ($chatterbox eq 0) {
-          Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
+          Irssi::print
+"Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
           $isup = 1;
           return 1;
         }
@@ -442,3 +486,20 @@ sub frank {
   }
 }
 
+
+sub checkpmsg {
+  my ($server, $msg, $nick, $address, $channel) = @_;
+  if ($nick ne "Franklin") {
+    $msg_count++;
+    $pm = 1;
+    my $textcall = $msg;    ## $1 is the "dot star" inside the parenthesis
+    $textcall =~ s/\'//gs;
+    $textcall =~ s/\"//gs;
+    Irssi::print "Franklin: $nick asked: $textcall";
+    if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+      $wrote = callapi($textcall, $server, $nick, $channel);
+      $isup  = $wrote;
+    }
+    else { return 1 }
+  }
+}
