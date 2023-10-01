@@ -40,7 +40,7 @@ sub chncll {
 
   # below this in this sub is for commands only by Franklin admin
   if ($nick == $owner) {
-    if ($msg =~ m/^$ln[:|,] pull code/i) {
+    if ($msg =~ m/^$ln[:|,] pullcode/i) {
       system("cd /home/irc-bot/Franklin && git pull");
     }
     if ($msg =~ m/^$ln[:|,] join (#\w+)\s?.*/i) {
