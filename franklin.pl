@@ -241,7 +241,7 @@ sub asshat {
 
 
 sub callapi {
-  my ($textcall, $server, $nick, $channel) = @_;
+  my ($textcall, $server, $nick, $channel, $type) = @_;
 
   #Irssi::print "$server, $nick, $channel";
   my $retry  = 0;
@@ -367,14 +367,16 @@ sub callapi {
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
-        #if ($channel eq $nick) {
+        if ($type eq "pm") {
           $server->command("query $nick");
           $server->command("msg $nick $said_cut");
-        #}
+        }
 
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
+          if ($type eq "chan") {
           $server->command("msg $channel $said_cut TXID:$hexfn");
+        }
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
@@ -409,6 +411,7 @@ sub falive {
 
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  my $type = "chan";
   $msg_count++;
   $pm = 0;
   my @badnicks;
@@ -452,7 +455,7 @@ sub checkcmsg {
 
         # my $tapi = Proc::Simple->new();
         # $tapi->start(callapi, $textcall, $server, $nick, $channel);
-        $wrote = callapi($textcall, $server, $nick, $channel);
+        $wrote = callapi($textcall, $server, $nick, $channel, $type);
         $isup  = $wrote;
         return $wrote;
       }
@@ -486,6 +489,7 @@ sub checkcmsg {
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  my $type = "pm";
   if ($nick ne "Franklin") {
     $msg_count++;
     $pm = 1;
@@ -494,7 +498,7 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      $wrote = callapi($textcall, $server, $nick, $channel);
+      $wrote = callapi($textcall, $server, $nick, $channel, $type);
       $isup  = $wrote;
     }
     else { return 1 }
