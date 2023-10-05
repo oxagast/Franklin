@@ -419,7 +419,10 @@ sub checkcmsg {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $moderate{$nick} = 0;
   }
-
+  push(@chat, "The user: $nick said: $msg - in $channel ");
+  if (scalar(@chat) >= $histlen) {
+    shift(@chat);
+  }
   if ($blockfn) {
     if (-e $blockfn) {
       open(BN, '<', $blockfn)
@@ -427,14 +430,11 @@ sub checkcmsg {
       @badnicks = <BN>;
       close BN;
     }
-  }
-  push(@chat, "The user: $nick said: $msg - in $channel ");
-  if (scalar(@chat) >= $histlen) {
-    shift(@chat);
-  }
-  chomp(@badnicks);
-  for (@badnicks) {
-    s/(.*)#.*$/$1/;    ## for comments in the badnicks file
+    chomp(@badnicks);
+    for (@badnicks) {
+      s/(.*)#.*$/$1/;    ## for comments in the badnicks file
+      s/^#.*//;
+    }  
   }
   if (grep(/^$nick$/, @badnicks)) {    ## fuck everyone inside this conditional
     Irssi::print "Franklin: $nick does not have privs to use this.";
