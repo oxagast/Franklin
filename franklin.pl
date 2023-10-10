@@ -315,9 +315,10 @@ sub callapi {
       }
       $said =~ s/^\s+//;
       $said =~ s/^\n+//;
-      $said =~ s/Franklin: //;
-      $said =~ s/Reply: //;
-      $said =~ s/My reply is: //;
+      $said =~ s/Franklin: //i;
+      $said =~ s/Reply: //i;
+      $said =~ s/Response: //i;
+      $said =~ s/My reply is: //i;
       $said =~
         s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
       if ($said =~ m/^\s*\?\s*$/) {
