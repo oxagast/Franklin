@@ -33,6 +33,7 @@
 
 **Setup**
 
+* Install from Perl's CPAN (if deps not already met): Proc::Simple, Santitize, Irssi, and JSON.
 * Add `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 * Start irssi
 * Set the API key with `/set franklin_api_key [key goes here]` 
