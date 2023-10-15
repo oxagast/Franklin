@@ -1,3 +1,9 @@
+.search-parent {
+  right: 80px;
+}
+
+
+
 h1 {
   font-size: 3rem;
   font-weight: 100;
@@ -32,7 +38,7 @@ body {
 }
 
 .content-width {
-  max-width: 70ch;
+  max-width: 80ch;
   width: calc(100% - 4rem);
   margin: 0 auto;
 }
@@ -59,13 +65,13 @@ h1, h2, h3 {
 }
 
 h2, h3 {
-  color: hsl(280, 50%, 40%)
+  color: rgb(254, 201, 11)
 }
 
 
 body {
-  background-color: rgb(191, 200, 255);
-  color: rgb(67, 76, 94);
+  background-color: rgb(12, 29, 54);
+  color: rgb(255, 255, 255);
 }
 
 .site_title {
@@ -73,7 +79,7 @@ body {
 }
 
 code {
-  color: #222222;
+  color: #BBBBBB;
 }
 
 .menu {
@@ -91,7 +97,7 @@ code {
 
 .main_section {
     margin: auto;
-    width: 50%;
+    width: 80%;
     padding: 20px;
     background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' stroke='black' stroke-width='4' stroke-dasharray='6%2c 14' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
 }
@@ -132,12 +138,15 @@ code {
 }
 
 a:visited {
-  color: rgb(123, 136, 161);
+  color: rgb(249, 204, 11);
 }
 
 a:hover {
-  color: rgb(76, 86, 106);
+  color: rgb(255, 255, 255);
 }
 a:link {
-  color: rgb(123, 136, 161)
+  color: rgb(249, 204, 11);
+}
+table, th, td {
+  border: 1px solid white;
 }
