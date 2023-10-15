@@ -121,7 +121,6 @@ Irssi::print "  franklin_google_gtag             (optional)            => $gtag"
 Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
-Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
 Irssi::print "  franklin_txid_chans              (optional)            => "
   . Irssi::settings_get_str('franklin_txid_chans');
 
