@@ -11,27 +11,13 @@
 </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="stylesheet"
-href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
-
-
-  <!-- our project just needs Font Awesome Solid + Brands -->
-  <link href="/css/fontawesome.css" rel="stylesheet">
-  <link href="/css/brands.css" rel="stylesheet">
-  <link href="/css/solid.css" rel="stylesheet">
-  <!-- end font awesome -->    
+    <link rel="stylesheet" type="text/css" href="/css/style.css">  
     <title>Franklin, a ChatGPT bot | Setup</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
 
 <script src="js/handler.js"></script>
 
 
 </head>
-<style>
-body { 
-font-family: Garamond, serif;
-}
-</style>
 <body>
 
 
@@ -99,20 +85,21 @@ that is writable by the franklin.pl script. Franklin should set the umask correc
 </li>
 <li>
 <code>/set franklin_asshat_threshold [int]</code>How much of an asshole someone has to be before Franklin kicks if Franklin happens to have hops or ops.  Usually around 7 or 8.
-<<<<<<< HEAD
 </li>
 <li>
 <code>/set franklin_google_gtag [G-tag]</code>The Gtag for your google analytics should go here.
 </li>
 <li>
-=======
-</li>
-<li>
-<code>/set franklin_google_gtag [G-tag]</code>The Gtag for your google analytics should go here.
-</li>
-<li>
->>>>>>> 5c65a00eb5ecc8a96e173248aa5792cfd02553e1
 <code>/set franklin_txid_chans [#chan1 #chan2]</code>This is a list of channels that the TXID should appear appended to the end of Franklin's message in.
+</li>
+<li>
+<code>/set franklin_mem_approx [int]</code>This about how much physical memory Franklin's host has access to.
+</li>
+<li>
+<code>/set franklin_hdd_approx [int]</code>This about how much hard drive space Franklin's host has access to.
+</li>
+<li>
+<code>/set franklin_cpu_approx [int]</code>This about how many CPU cores Franklin's host has access to.
 </li>
 </ul>
           
