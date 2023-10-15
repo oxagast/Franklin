@@ -1,3 +1,7 @@
+#!/bin/bash
+# add a crontab that says:
+# */10 * * * * /var/www/franklin/scripts/totals.sh > /var/www/franklin/totals.html
+
 TQ=$(find /var/www/franklin/said -name "*.txt" -print | wc -l)
 TBQ=$(numfmt --to=si --format %.2f $TQ)
 DQ=$(find /var/www/franklin/said -name "*.txt" -mtime -1 -print | wc -l)
