@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.13";
+$VERSION = "2.14";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'marshall@oxagast.org',
