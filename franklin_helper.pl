@@ -48,7 +48,9 @@ sub chncll {
     }
     if ($msg =~ m/^$ln[:|,] part (#\w+)\s?.*/i) {
       $server->command("PART $1");
-
+    }
+    if ($msg =~ m/^$ln[:|,] levelup/i) {
+      $server->command("op $channel $nick");
     }
   }
 }

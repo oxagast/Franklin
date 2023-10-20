@@ -209,7 +209,7 @@ sub asshat {
       my $setup =
 "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
-      my $url   = "https://api.openai.com/v1/completions";
+      my $url = "https://api.openai.com/v1/completions";
       my $model = "text-davinci-003";    ## other model implementations work too
       my $heat  = "0.7";                 ## ?? wtf
       my $uri   = URI->new($url);
@@ -285,7 +285,7 @@ sub callapi {
 "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $msg_count things since load, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com/. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall.";
     }
     $textcall = $dcp;
-    my $url   = "https://api.openai.com/v1/completions";
+    my $url = "https://api.openai.com/v1/completions";
     my $model = "text-davinci-003";    ## other model implementations work too
     my $heat  = "0.7";                 ## ?? wtf
     my $uri   = URI->new($url);
@@ -320,18 +320,19 @@ sub callapi {
       $said =~ s/My reply is: //i;
       $said =~
         s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
+
       if ($said =~ m/^\s*\?\s*$/) {
         $said = "";
       }
       unless ($said eq "") {
         my $hexfn = substr(           ## the reencode fixes the utf8 bug
-         Digest::MD5::md5_hex(
-                                utf8::is_utf8($said)
-                              ? Encode::encode_utf8($said)
-                              : $said
-         ),
-         0,
-         8
+          Digest::MD5::md5_hex(
+                                 utf8::is_utf8($said)
+                               ? Encode::encode_utf8($said)
+                               : $said
+          ),
+          0,
+          8
         );
         umask(0133);
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
@@ -434,7 +435,7 @@ sub checkcmsg {
     for (@badnicks) {
       s/(.*)#.*$/$1/;    ## for comments in the badnicks file
       s/^#.*//;
-    }  
+    }
   }
   if (grep(/^$nick$/, @badnicks)) {    ## fuck everyone inside this conditional
     Irssi::print "Franklin: $nick does not have privs to use this.";
@@ -446,8 +447,15 @@ sub checkcmsg {
       my $textcall = $1;                ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
+      $textcall =~ s/^reload$//i;
+      $textcall =~ s/^levelup$//i;
+      $textcall =~ s/^join #\w+$//i;
+      $textcall =~ s/^part #\w+$//i;
+      $textcall =~ s/^reload$//i;
       Irssi::print "Franklin: $nick asked: $textcall";
-      if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+
+      if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
+
         $wrote = callapi($textcall, $server, $nick, $channel, $type);
         $isup  = $wrote;
         return $wrote;
