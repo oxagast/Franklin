@@ -1,5 +1,7 @@
 # Franklin
-![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/franklin-cheese.png)
+![Logo](https://raw.githubusercontent.com/oxagast/Franklin/webpage/logo.png)
+
+
 
 ## Franklin is a ChatGPT backed IRC bot
 
@@ -30,6 +32,8 @@
 * Administrative blocklist of abusive users.
 * Statistics dashboard detailing how many tokens were used to generate each response and cost estimates for the instance operator.
 * The ability to utilize operator status by kicking users who are being assholes (configurable in settings).
+
+![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/franklin-cheese.png)
 
 **Setup**
 
