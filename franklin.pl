@@ -19,15 +19,15 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.14";
+$VERSION = "2.15";
 %IRSSI = (
           authors     => 'oxagast',
-          contact     => 'marshall@oxagast.org',
+          contact     => 'oxagast@oxasploits.com',
           name        => 'franklin',
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'May, 29th 2023',
+          changed     => 'Oct, 22nd 2023',
 );
 Irssi::settings_add_str(
                         "franklin",
@@ -244,15 +244,15 @@ sub callapi {
   $reqs++;
   #Irssi::print "$server, $nick, $channel";
   my $retry  = 0;
-  my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );
+  my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );  # Set up the date for API req
   my @days   = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
   $year = "20" . substr($year, -2);
-  my $page    = pullpage($textcall);
+  my $page    = pullpage($textcall);  # If we need to read a URL
   my $context = "";
 
   for my $usersays (0 .. scalar(@chat) - 1) {
-    $context = $context . $chat[$usersays];
+    $context = $context . $chat[$usersays];        # BVreak down the chat stack for the context to build req
   }
   $context = substr($context, -450);    # we have to trim
   my $modstat;
@@ -308,7 +308,7 @@ sub callapi {
     my $ua    = LWP::UserAgent->new;
     $textcall = Irssi::strip_codes($textcall);
     $textcall =~ s/\"/\\\"/g;
-    my $askbuilt =
+    my $askbuilt =                                   # Build the API request
         "{\"model\": \"$model\",\"prompt\": \"$textcall\","
       . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
       . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
@@ -371,37 +371,37 @@ sub callapi {
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
           or Irssi::print "Couldn't open for writing.";
         binmode(SAIDHTML, "encoding(UTF-8)");
-        print SAIDHTML $fg_top
+        print SAIDHTML $fg_top  # write html
           . "<br><i>"
           . localtime()
           . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
           . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
           . $said_html
           . $fg_bottom;
-        close SAIDHTML;
+        close SAIDHTML;         # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
-          $server->command("query $nick");
-          $server->command("msg $nick $said_cut");
+          $server->command("query $nick");                             # If this is pm open win
+          $server->command("msg $nick $said_cut");                     # then pm
         }
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
-            $server->command("msg $channel $said_cut TXID:$hexfn");
+            $server->command("msg $channel $said_cut TXID:$hexfn");    # Send parsed API return to chan.
           }
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
-        push(@chat, "The user: $cmn said: $said_cut - in $channel ");
-        if (scalar(@chat) >= $histlen) {
-          shift(@chat);
+        push(@chat, "The user: $cmn said: $said_cut - in $channel ");  # The last thing said in channel is pushed onto stack here
+        if (scalar(@chat) >= $histlen) {                               # if the chat array is greater than max chat history, then
+          shift(@chat);  #                                             # shift the earlist back thing said off the array stack.
         }
         return 0;
       }
-      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002");
+      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002");  # Error out in chan if unknown
       return 1;
     }
     else { return 1; }
@@ -416,9 +416,9 @@ sub falive {
       if ($isup eq 0) {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
-        $ua->post($uri);
+        $ua->post($uri);   #  Send post to alive worker on other server
       }
-      sleep 30;
+      sleep 30;   # wait
     }
   }
 }
@@ -483,8 +483,8 @@ sub checkcmsg {
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
-        if (int(rand(1000) - $chatterbox) eq 0) {
-          $wrote = callapi($msg, $server, $nick, $channel, @chat);
+        if (int(rand(1000) - $chatterbox) eq 0) {        # Chatty level
+          $wrote = callapi($msg, $server, $nick, $channel, @chat);  # if chatterbox mode is on
           $isup  = $wrote;
           return $wrote;
         }
@@ -515,7 +515,7 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      $wrote = callapi($textcall, $server, $nick, $channel, $type);
+      $wrote = callapi($textcall, $server, $nick, $channel, $type);   # this puls from the api for the pm
       $isup  = $wrote;
     }
     else { return 1 }
