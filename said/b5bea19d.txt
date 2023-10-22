@@ -1,0 +1,3 @@
+bookworm asked what is the name of the misbehaving computer in the movie 1999? with hash b5bea19d
+<---- snip ---->
+The computer in the movie is named HAL 9000.

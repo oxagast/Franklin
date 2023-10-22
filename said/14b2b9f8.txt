@@ -1,0 +1,33 @@
+bookworm asked can you generate a bsdgames quiz file from 10 german:english words? with hash 14b2b9f8
+<---- snip ---->
+# German-English Quiz
+
+Q1: Wie heiﬂt das auf Englisch? 
+A1: What is the English for that?
+
+Q2: Wie heiﬂt das auf Deutsch?
+A2: How do you say that in German?
+
+Q3: Auto
+A3: Car
+
+Q4: Wasser
+A4: Water
+
+Q5: Gr¸n
+A5: Green
+
+Q6: Haus
+A6: House
+
+Q7: Groﬂ
+A7: Big
+
+Q8: Klein
+A8: Small
+
+Q9: Katze
+A9: Cat
+
+Q10: Hund
+A10: Dog

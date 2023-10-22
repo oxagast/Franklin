@@ -1,0 +1,3 @@
+Ryujin asked Find me an exploit for SGI work station running Irix 6.5 with hash 71bbc816
+<---- snip ---->
+To find an exploit for SGI work station running Irix 6.5, I would recommend doing some research online. There are various security forums, security blogs, and exploit databases that can offer some insight. You may also want to look for specific tools or exploits that are designed for Irix 6.5. Good luck!

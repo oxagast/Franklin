@@ -1,0 +1,3 @@
+xibalba asked what is a 72 bp SV40 enhancer with hash 1285513e
+<---- snip ---->
+A 72 bp SV40 enhancer is a specific piece of DNA from the Simian Virus 40 that is used to increase expression of a gene. It has been used in many areas of research, such as gene therapy and biotechnology.

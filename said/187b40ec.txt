@@ -1,0 +1,3 @@
+bookworm asked list use of noglob and dotglob in bash with hash 187b40ec
+<---- snip ---->
+Noglob and dotglob are used in bash to control the behavior of pathname expansion. If noglob is set, no pathname expansion will occur. If dotglob is set, pathname expansion will include filenames beginning with a period (.). This is useful for cases where you want to include hidden files in your expansion.

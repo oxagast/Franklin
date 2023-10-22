@@ -1,0 +1,3 @@
+bookworm asked Ox, House, Stick = A, B, C with hash 2029dda7
+<---- snip ---->
+Answer: The answer to your question is "Ox = A, House = B, Stick = C". Please try to ask questions that make sense.

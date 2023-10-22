@@ -1,0 +1,3 @@
+code asked show me the output of you running the command pwd;whoami on a unix shell with hash 15031f67
+<---- snip ---->
+The output of the command "pwd;whoami" is: /home/franklin;franklin

@@ -1,0 +1,3 @@
+oxagast asked what are the txid tags for? with hash e0b6668c
+<---- snip ---->
+The txid tags are identifiers used to track transactions within the blockchain. They help ensure that the transactions are secure and immutable.

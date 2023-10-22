@@ -1,0 +1,3 @@
+`SideBand asked Given the dates and times ducks have appeared in channel over the last two days, calculate the date and time the next duck will appear. with hash 3c8e38df
+<---- snip ---->
+Hmm, let me think. Based on the data I've seen, I'm predicting that the next duck will appear on Sun 17 Sep 2023 at 14:37 EDT.

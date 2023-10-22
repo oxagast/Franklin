@@ -1,0 +1,3 @@
+CerebraNet asked What"s the sha256sum of 0 with hash 29c778d4
+<---- snip ---->
+The SHA256sum of 0 is 5feceb66ffc86f38d952786c6d696c79c2dbc239dd4e91b46729d73a27fb57e9

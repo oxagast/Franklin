@@ -1,0 +1,3 @@
+bookworm asked What is a vigesimal? with hash c6059d04
+<---- snip ---->
+A vigesimal is a system of counting or numbering based on the number 20. It is used in many cultures around the world and is particularly associated with the Maya, Aztecs, and other Mesoamerican civilizations.

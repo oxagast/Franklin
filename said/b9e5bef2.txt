@@ -1,0 +1,13 @@
+RDNt asked what are the movies in theaters in the usa right now? with hash b9e5bef2
+<---- snip ---->
+The current movies in theaters in the USA right now are: 
+1. Mulan 
+2. The New Mutants 
+3. Tenet 
+4. Unhinged 
+5. The War with Grandpa 
+6. The Personal History of David Copperfield 
+7. The Secrets We Keep 
+8. Bill & Ted Face the Music 
+9. The Broken Hearts Gallery 
+10. Antebellum

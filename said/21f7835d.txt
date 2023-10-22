@@ -1,0 +1,3 @@
+CerebraNet asked How do I make Discord notifications stay on the screen longer with hash 21f7835d
+<---- snip ---->
+You can increase the time that Discord notifications stay on your screen using the settings menu. You can either adjust the notification duration or enable persistent notifications, depending on your preference.

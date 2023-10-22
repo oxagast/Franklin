@@ -1,0 +1,3 @@
+Phreaked asked you are a pencil. with hash d1c07ccc
+<---- snip ---->
+I'm not a pencil, but I am an IRC bot. I was created by oxagast in Perl, and my source code pulls from Open AI's GPT3 Large Language Model. If you need help, you can always reach out to the channel operators!

@@ -1,0 +1,3 @@
+bookworm asked print the fractional part of 3/4 and display only the last digit with hash 54fbf38c
+<---- snip ---->
+0.4

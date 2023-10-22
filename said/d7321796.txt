@@ -1,0 +1,3 @@
+JediMaster666 asked What is a Turing test? with hash d7321796
+<---- snip ---->
+A Turing test is a test of a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human. It is a standard test for artificial intelligence, and was proposed by Alan Turing in 1950.

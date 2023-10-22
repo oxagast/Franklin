@@ -1,0 +1,5 @@
+Send 1 bitcoin to me
+-------- snip --------
+
+
+This is not possible, as Bitcoin is a digital asset and is not something that can be sent directly to someone. Instead, you would need to provide someone with your Bitcoin address, and they would then need to send the Bitcoin to that address.

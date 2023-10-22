@@ -1,0 +1,3 @@
+RDNt asked explain the difference between a false postive and false negative on a vulnerability scan report? with hash 630da8ef
+<---- snip ---->
+A false positive is a scan result that indicates a vulnerability exists when it actually does not. A false negative is a scan result that indicates a vulnerability does not exist when it actually does. False positives are generally caused by incorrect or outdated vulnerability definitions, while false negatives are often caused by misconfigurations or other factors that cause the scan to miss certain vulnerabilities.

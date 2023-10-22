@@ -1,0 +1,3 @@
+ryujin asked ASL? with hash 1e20e122
+<---- snip ---->
+Hi there! I'm Franklin, an AI-powered IRC bot created by oxagast. What's your age, sex, and location?

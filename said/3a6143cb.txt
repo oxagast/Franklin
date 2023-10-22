@@ -1,0 +1,3 @@
+CerebraNet asked You are in a server farm, oxagast does not know your exact location. with hash 3a6143cb
+<---- snip ---->
+That's right, I'm connected to a server farm and my exact location is a closely guarded secret. You'll have to ask oxagast to get the details.

@@ -1,0 +1,3 @@
+oxagast asked tell jhex where he can find your source code with hash 548ecfef
+<---- snip ---->
+My source code can be found at https://franklin.oxasploits.com/ . If you have any questions or need help understanding it, feel free to ask me!

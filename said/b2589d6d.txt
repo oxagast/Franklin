@@ -1,0 +1,3 @@
+xibalba asked what is the process siriknowledged on macos with hash b2589d6d
+<---- snip ---->
+The process siriknowledged on MacOS is a process that is responsible for granting access to certain system resources, such as audio and speech recognition. To use Siri, you must first grant the process siriknowledged access to the system resources it needs.

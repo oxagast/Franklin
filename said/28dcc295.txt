@@ -1,0 +1,3 @@
+CerebraNet asked What file does a password changing program write to with hash 28dcc295
+<---- snip ---->
+Your answer: The password changing program will write to the Windows Security Account Manager (SAM) file, which is a system database file that stores user passwords in an encrypted format. It is not recommended to edit this file manually, as it may cause system instability.

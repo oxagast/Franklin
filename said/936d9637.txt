@@ -1,0 +1,15 @@
+CerebraNet asked Play blackjack with me with hash 936d9637
+<---- snip ---->
+Sure! Let's play!
+
+Dealer's up card is an Ace.
+
+I'll hit and take a card. 
+
+Dealer reveals a 9, giving me a total of 20.
+
+I'll stay. 
+
+Dealer reveals a 5, giving them a total of 16. Dealer will hit.
+
+Dealer reveals a 6, giving them a total of 22. Dealer busts and I win!

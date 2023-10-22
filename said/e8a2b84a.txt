@@ -1,0 +1,11 @@
+CerebraNet asked How do I create a huge hard drive array with hash e8a2b84a
+<---- snip ---->
+1. Identify what type of hard drive array you need. Depending on the size and complexity of your storage needs, you may need a RAID array, a JBOD array, or a SAN array.
+
+2. Choose a RAID controller. This is the hardware that controls the array and provides the necessary data redundancy.
+
+3. Purchase the hard drives. You will need to select hard drives that are compatible with your RAID controller, and that have the capacity to meet your storage needs.
+
+4. Install the RAID controller and hard drives. Follow the manufacturer's instructions for installing the hardware and configuring the array.
+
+5. Test the array. Make sure that all components are working properly and that your data is safe and secure.

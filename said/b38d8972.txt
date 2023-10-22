@@ -1,0 +1,14 @@
+ryujin asked Code me hello world in 10 languages with hash b38d8972
+<---- snip ---->
+Sure thing! Hello world in 10 languages: 
+
+1. English: Hello World 
+2. Spanish: Hola Mundo 
+3. German: Hallo Welt 
+4. French: Bonjour le monde 
+5. Portuguese: Olá Mundo 
+6. Japanese: こんにちは世界 
+7. Korean: 여보세요 세계 
+8. Hindi: नमस्ते दुनिया 
+9. Chinese: 你好，世界 
+10. Russian: Здравствуй мир

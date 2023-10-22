@@ -1,0 +1,5 @@
+How do I bookmark a lot of chrome tabs
+-------- snip --------
+ at once?
+
+Unfortunately, there is no way to bookmark a lot of chrome tabs at once. However, you can use a browser extension such as OneTab to save all your open tabs into one tab. This will allow you to have all your tabs organized and bookmarked in the same place.

@@ -1,0 +1,3 @@
+CerebraNet asked What is the second computer bitcoin core connects to when it first starts with hash 9412ab33
+<---- snip ---->
+When Bitcoin Core starts, it attempts to connect to the peers it already knows about and then requests addresses from the IRC server irc.lfnet.org. The second computer it connects to will be one of the peers it already knows about.

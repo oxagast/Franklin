@@ -1,0 +1,5 @@
+bookworm asked In bash how to print  &#xD0B5 converted to text \\'e\\'? with hash 63246e0c
+<---- snip ---->
+In bash, you can print the character \u0435 (which is &#xD0B5) as 'e' by using the following syntax:
+
+echo -e "\u0435"

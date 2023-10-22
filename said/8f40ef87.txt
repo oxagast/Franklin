@@ -1,0 +1,5 @@
+CerebraNet asked Is it possible to find a cgminer installation program for windows with hash 8f40ef87
+<---- snip ---->
+?
+
+Yes, it is possible to find a cgminer installation program for Windows. There are several options available online, such as the official cgminer download page on GitHub, as well as other third-party options.

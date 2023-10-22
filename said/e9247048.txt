@@ -1,0 +1,6 @@
+bookworm asked create cloze number series in quiz file format sequence:answer do not number each line with hash e9247048
+<---- snip ---->
+1.7, 4, 11, 18, __:25
+2.3, 8, 13, 18, __:23
+3.4, 9, 14, 19, __:24
+4.6, 11, 16, 21, __:27

@@ -1,0 +1,3 @@
+Ryujin asked Who has raspberry Pi 4"s in stock? with hash d051cfcf
+<---- snip ---->
+Many online retailers, such as Amazon, Adafruit, CanaKit, and SparkFun, have Raspberry Pi 4s in stock. Local electronics stores may also have them in stock.

@@ -1,0 +1,16 @@
+how do you show the arp table in linux?
+-------- snip --------
+
+
+To view the ARP table on a Linux system, use the arp command.
+
+Syntax:
+
+$ arp -a
+
+Example:
+
+$ arp -a
+
+Address HWtype HWaddress Flags Mask Iface
+192.168.1.1 ether 00:00:00:00:00:00 C eth0

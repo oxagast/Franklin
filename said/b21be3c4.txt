@@ -1,0 +1,24 @@
+oxagast asked test
+<---- snip ---->
+/resources/testData/FixtureTest/fixtures/invalidFixtures/
+            //with missing required field
+            Fixture fixture = Fixture.from(Paths.get("src/test/resources/testData/FixtureTest/fixtures/invalidFixtures/fixtureWithoutName.json"), Fixture.class);
+            assertNull(fixture);
+        }
+        @Test
+        void invalidFixtureWithIllegalFieldValue() {
+            //src/test/resources/testData/FixtureTest/fixtures/invalidFixtures/
+            //with illegal field value
+            Fixture fixture = Fixture.from(Paths.get("src/test/resources/testData/FixtureTest/fixtures/invalidFixtures/fixtureWithIllegalFieldValue.json"), Fixture.class);
+            assertNull(fixture);
+        }
+    }
+
+    /*
+    * Test Fixture.to()
+    * */
+    @Nested
+    class FixtureToTest {
+        @Test
+        void validFixture() {
+            //src/test/resources/test https://gpt3.oxasploits.com/said/b21be3c4

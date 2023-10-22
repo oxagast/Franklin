@@ -1,0 +1,9 @@
+captain asked How can i zoom out of the linux tty without ctrl+shift+numpad
+<---- snip ---->
++?
+
+Unfortunately, there is no way to zoom out of the Linux tty without using the Ctrl+Shift+Numpad+ shortcut. However, you can adjust the size of the text in the terminal by using the "resize" command. To do this, run the command:
+
+resize -s rows columns
+
+Where "rows" is the number of rows you want the terminal to have, and "columns" is the number of columns you want the terminal to have. https://gpt3.oxasploits.com/said/7b85d742

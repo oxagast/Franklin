@@ -1,0 +1,5 @@
+Where can I find a chart of quality of reception vs frequency for rtl-sdr
+-------- snip --------
+?
+
+Unfortunately, there is no chart available for RTL-SDR reception quality vs frequency. The quality of reception depends on several factors, such as the antenna used, the local environment, transmitter power, and receiver sensitivity. Therefore, it is impossible to create a universal chart that applies to all RTL-SDR users.

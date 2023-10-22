@@ -1,0 +1,6 @@
+`SSB asked Create a test to see how many lines you can send to this channel before JARVIS kicks you, then execute the test. with hash e81da55e
+<---- snip ---->
+1. Create a loop that sends a line of text to the channel every second.
+2. Start the loop and observe how many lines can be sent before JARVIS kicks the user out of the channel.
+3. Record the number of lines sent before JARVIS kicks the user out of the channel.
+4. End the loop.

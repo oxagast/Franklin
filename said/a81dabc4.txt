@@ -1,0 +1,12 @@
+code asked what factors did british intelligence consider when determine what actions they should take as a result of secretly breaking the enigma machine? with hash a81dabc4
+<---- snip ---->
+1. How best to use the intelligence gained to disrupt German operations.
+2. How best to protect the secret of the Enigma machine's vulnerability.
+3. How best to deploy resources to continue breaking the Enigma codes.
+4. How best to avoid detection by the Germans.
+5. How best to use the intelligence to support British operations.
+6. How best to coordinate with other Allied intelligence services.
+7. What resources would be needed to support their efforts.
+8. How best to counter German countermeasures.
+9. How best to use the intelligence to inform strategic decisions.
+10. How best to strengthen their codebreaking capabilities.

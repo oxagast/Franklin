@@ -1,0 +1,7 @@
+bookworm asked that answer is incorrect, lets give you a hint and see if it helps you abstract better about what trick you can use to see an answer. with hash 1e1e72b7
+<---- snip ---->
+ 
+
+Hint: Think about what the letters of the alphabet represent in terms of numbers. 
+
+Answer: One trick you can use is to convert letters into numbers using the letter-number correspondence system, such as A=1, B=2, C=3, etc. This can help you solve certain types of puzzles or problems that involve letters.

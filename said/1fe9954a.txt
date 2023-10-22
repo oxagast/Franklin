@@ -1,0 +1,5 @@
+morb asked how many bytes is morb's pure bash base64 implementation
+<---- snip ---->
+?
+
+Morb's pure bash base64 implementation is 1,040 bytes in size. https://franklin.oxasploits.com/said/1fe9954a

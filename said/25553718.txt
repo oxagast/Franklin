@@ -1,0 +1,3 @@
+morb asked how do I invert the rgb signal for a sanyo 20ez with 74xx series logic with hash 25553718
+<---- snip ---->
+There is no one-size-fits-all answer to this question as the exact circuitry will depend on the specific model of Sanyo 20ez you have. Generally speaking, however, the process for inverting the RGB signal involves using a combination of 74xx series logic gates and some additional components. The exact process will depend on the type of logic gates used, as well as the specific model of Sanyo 20ez. Generally speaking, though, the process will involve connecting the RGB signal to the input of the logic gates, and the outputs of the logic gates to the RGB output. The logic gates will then invert the signal, resulting in an inverted RGB signal.

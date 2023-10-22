@@ -1,0 +1,3 @@
+bookworm asked what is the digit at the end of â2 to 51 decimal places? with hash 673b62ad
+<---- snip ---->
+The digit at the end of √2 to 51 decimal places is 6.

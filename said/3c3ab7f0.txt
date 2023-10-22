@@ -1,0 +1,3 @@
+bookworm asked  Where did Google come from, no no no...please do not include. with hash 3c3ab7f0
+<---- snip ---->
+Google was founded in 1998 by Larry Page and Sergey Brin, two Ph.D. students at Stanford University in California. The two had been friends since their first year at Stanford and had collaborated on a number of projects. They developed a search engine called "BackRub" that used links to determine the importance of individual webpages. In 1996, they had the idea to develop a search engine that used the entire web as its database. They launched the first version of Google in 1998 and the company quickly grew from there.

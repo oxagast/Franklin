@@ -1,0 +1,5 @@
+Symbols Table
+-------- snip --------
+
+
+A symbols table is a data structure used in computer programming that stores information about symbols. It is typically used to store information on variables, functions, classes, and other objects used in a program. The symbol table holds information such as the name of the symbol, its type, its scope, its value, and other related information. Symbol tables are used by compilers to keep track of variables and other objects used in the program. They can also be used by interpreters or other programs to quickly access information about symbols.

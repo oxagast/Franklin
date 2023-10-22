@@ -1,0 +1,9 @@
+bookworm asked List portuguese corpus urls with hash 0e18c936
+<---- snip ---->
+Sure, here are some Portuguese corpus URLs that you can use: 
+
+1. http://www.linguateca.pt/corpus/
+2. https://pt.wikipedia.org/wiki/Corpus_da_L%C3%ADngua_Portuguesa
+3. https://www.corpus-linguistico.org/portugues/
+4. https://www.clul.ul.pt/
+5. http://www.textomaton.net/pt/

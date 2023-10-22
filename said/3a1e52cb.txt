@@ -1,0 +1,3 @@
+xibalba asked what is EWC in relation to VRRP with hash 3a1e52cb
+<---- snip ---->
+EWC stands for Enhanced Virtual Router Redundancy Protocol and is a protocol used to create a fault-tolerant virtual router system. It is mainly used in networks that require a high degree of availability and redundancy. EWC helps ensure that network traffic is rerouted in the event of a router failure.

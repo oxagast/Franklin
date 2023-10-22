@@ -1,0 +1,3 @@
+bookworm asked What does Cognative Dissonace look like in a language model? with hash 424039ff
+<---- snip ---->
+In a language model, cognitive dissonance may manifest as a model that produces sentences that are illogical, unclear, or semantically incorrect. For example, a language model may produce the sentence “The cat ate the dog” which would be an example of cognitive dissonance because it does not make sense in the context of the language.

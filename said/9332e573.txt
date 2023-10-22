@@ -1,0 +1,5 @@
+what is the difference between a cluster and a botnet
+-------- snip --------
+
+
+A cluster is a group of computers that are connected and working together to achieve a common goal. A botnet is a network of computers that have been infected with malicious software and can be used to send spam or launch distributed denial of service (DDoS) attacks.

@@ -1,0 +1,14 @@
+bookworm asked table showing Shell Parameter Expansion without use of colon : with hash fe118947
+<---- snip ---->
+| Parameter Expansion | Meaning |
+|--------------------|--------|
+| $$                | Current process ID |
+| $?                | Exit status of last command |
+| $0                | Name of the shell script |
+| $*                | All arguments passed to the script |
+| $#                | Number of arguments passed to the script |
+| $1-$9             | First 9 arguments passed to the script |
+| ${parameter}      | Value of the parameter |
+| ${parameter:-word}| If parameter is unset or null, word is substituted for it |
+| ${parameter:=word}| If parameter is unset or null, word is assigned to it |
+| ${parameter:?word}| If parameter is unset or null, word is printed to stderr |

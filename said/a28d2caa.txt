@@ -1,0 +1,5 @@
+oxagast asked do you discard anything with an escape
+<---- snip ---->
+ character
+
+No, escape characters are used to signify a special action or character. They should not be discarded. https://gpt3.oxasploits.com/said/a28d2caa

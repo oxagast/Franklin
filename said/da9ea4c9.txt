@@ -1,0 +1,5 @@
+what happens if two devices answer an ARP request?
+-------- snip --------
+
+
+If two devices answer an ARP request, the requesting device will usually select one of the responses to complete the request, and discard the other. This is because the requesting device will usually choose the response from the device that is closest in the network hierarchy.

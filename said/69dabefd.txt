@@ -1,0 +1,3 @@
+bookworms asked Where exactly did you get the "Hello World" brainfuck example you gave me? with hash 69dabefd
+<---- snip ---->
+The "Hello World" brainfuck example was taken from the official Brainfuck website: http://www.muppetlabs.com/~breadbox/bf/

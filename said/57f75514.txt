@@ -1,0 +1,5 @@
+help DTMF 
+-------- snip --------
+
+
+DTMF stands for Dual-Tone Multi-Frequency signaling. It is a way of signaling information using a combination of two different audible tones. DTMF is commonly used in telephone systems to dial numbers and to access automated services. It is also used in radio communications systems and many other applications.

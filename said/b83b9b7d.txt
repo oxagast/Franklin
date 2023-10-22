@@ -1,0 +1,3 @@
+zyme asked 5 Megabytes a second is how many megabits? with hash b83b9b7d
+<---- snip ---->
+5 Megabytes per second is equivalent to 40 megabits per second.

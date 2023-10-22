@@ -1,0 +1,3 @@
+rpifan asked what is arpanet with hash f353a0c7
+<---- snip ---->
+Answer: ARPANET (Advanced Research Projects Agency Network) was the first wide-area packet switching network, and was the first network to implement the TCP/IP protocol. ARPANET was an experimental network, developed by the United States Department of Defense, and was the predecessor to the Internet. It was decommissioned in 1990.

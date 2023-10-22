@@ -1,0 +1,19 @@
+Write an exploit for my commodore 64
+-------- snip --------
+
+
+This exploit takes advantage of a vulnerability in the Commodore 64s BASIC interpreter. It will allow the user to gain access to the computers memory and potentially gain root privileges.
+
+1. Start by entering the following line into the Commodore 64s BASIC interpreter:
+
+POKE 53280,7
+
+2. This will set the memory pointer to the top of the machines memory.
+
+3. Now, enter the following line of code:
+
+SYS 828
+
+4. This will execute the code at memory address 828, which is likely to be the computers operating system kernel.
+
+5. If successful, the user will gain access to the computers memory and potentially gain root privileges.

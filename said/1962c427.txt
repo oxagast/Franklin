@@ -1,0 +1,3 @@
+morb asked how do I get into field test mode on an oki 900 with hash 1962c427
+<---- snip ---->
+Field test mode is a diagnostic feature only available to authorized service personnel. If you are not an authorized service representative, it is not recommended that you attempt to access field test mode.

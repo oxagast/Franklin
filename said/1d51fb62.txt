@@ -1,0 +1,5 @@
+1AM GMT is what time in EST and PST 
+-------- snip --------
+
+
+In EST, 1AM GMT is 8PM. In PST, 1AM GMT is 5PM.

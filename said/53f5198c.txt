@@ -1,0 +1,5 @@
+What is the output frequency of a microwave oven
+-------- snip --------
+
+
+Most microwave ovens operate at a frequency of 2.45GHz.

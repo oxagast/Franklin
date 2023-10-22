@@ -1,0 +1,5 @@
+What does the python paramiko module do
+-------- snip --------
+?
+
+The Python Paramiko module is a library for making SSH2 connections and provides an extensible set of tools for working with SSH2 network services. It can be used to connect to and run commands on remote servers, and to transfer files over the network. It is also used to create secure tunnels, allowing for secure communication over an unsecured network. Paramiko is mainly used for automating administrative tasks and securely managing remote systems.

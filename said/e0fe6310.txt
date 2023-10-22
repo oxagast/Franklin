@@ -1,0 +1,3 @@
+CerebraNet asked Are police required to notify the department of homeland security if they encrypt their communications with hash e0fe6310
+<---- snip ---->
+No, police are not required to notify the Department of Homeland Security if they encrypt their communications. It is always wise to take precautions when sending sensitive information, however, as it is not always guaranteed that the encryption will be secure.

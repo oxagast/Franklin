@@ -1,0 +1,3 @@
+bookworm asked how much oil does the largest aircraft carrier consume to travel 1 nautical mile at 20 nm/hour?? with hash 682f3901
+<---- snip ---->
+The largest aircraft carrier, the USS Gerald R. Ford, has a full load displacement of approximately 100,000 tons. At 20 nm/hour, it would consume approximately 5 tons of fuel (oil) per nautical mile.

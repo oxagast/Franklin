@@ -1,0 +1,3 @@
+bookworm asked what is the % of accuracy in chatgpts responses? with hash a597a5c4
+<---- snip ---->
+The accuracy of chatbot responses depends on a variety of factors, including the type of chatbot, the type of conversation, and the quality of the data used to train the chatbot. Generally, chatbots have an accuracy rate of around 80%, although this can vary widely depending on the specifics of the chatbot.

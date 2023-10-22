@@ -1,0 +1,62 @@
+xibalba asked m e t h od MAN with hash a1401d46
+<---- snip ---->
+AGER
+
+package net.sf.dynamicreports.examples.subtotal;
+
+import static net.sf.dynamicreports.report.builder.DynamicReports.*;
+
+import java.math.BigDecimal;
+
+import net.sf.dynamicreports.examples.Templates;
+import net.sf.dynamicreports.report.base.expression.AbstractValueFormatter;
+import net.sf.dynamicreports.report.builder.column.TextColumnBuilder;
+import net.sf.dynamicreports.report.builder.subtotal.AggregationSubtotalBuilder;
+import net.sf.dynamicreports.report.constant.Calculation;
+import net.sf.dynamicreports.report.datasource.DRDataSource;
+import net.sf.dynamicreports.report.definition.ReportParameters;
+import net.sf.dynamicreports.report.exception.DRException;
+import net.sf.jasperreports.engine.JRDataSource;
+
+/**
+ * <p>SubtotalReport class.</p>
+ *
+ * @author Ricardo Mariaca
+ * 
+ */
+public class SubtotalReport {
+
+    /**
+     * <p>Constructor for SubtotalReport.</p>
+     */
+    public SubtotalReport() {
+        build();
+    }
+
+    /**
+     * <p>main.</p>
+     *
+     * @param args an array of {@link java.lang.String} objects.
+     */
+    public static void main(String[] args) {
+        new SubtotalReport();
+    }
+
+    private void build() {
+        TextColumnBuilder<String>     itemColumn      = col.column("Item",       "item",      type.stringType());
+        TextColumnBuilder<Integer>    quantityColumn  = col.column("Quantity",   "quantity",  type.integerType());
+        TextColumnBuilder<BigDecimal> unitPriceColumn = col.column("Unit price", "unitprice", type.bigDecimalType());
+
+        AggregationSubtotalBuilder<BigDecimal> unitPriceSum = sbt.sum(unitPriceColumn).setLabel("Sum");
+
+        try {
+            report()
+                .setTemplate(Templates.reportTemplate)
+                .columns(itemColumn, quantityColumn, unitPriceColumn)
+                .subtotalsAtSummary(unitPriceSum)
+                .setDataSource(createDataSource())
+                .title(Templates.createTitleComponent("Subtotal"))
+                .pageFooter(Templates.footerComponent)
+                .setValueFormatter(unitPriceSum, new ValueFormatter())
+                .show();
+        } catch

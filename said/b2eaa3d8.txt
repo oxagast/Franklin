@@ -1,0 +1,16 @@
+morb asked write me a program that prints different strings depending on the c standard used at compile time with hash b2eaa3d8
+<---- snip ---->
+#include <stdio.h>
+ 
+#if __STDC_VERSION__ >= 199409L
+    #define C_VERSION "C95 or above"
+#elif __STDC_VERSION__ >= 19901L
+    #define C_VERSION "C90 or C99"
+#else
+    #define C_VERSION "C89 or below"
+#endif
+ 
+int main(void) {
+    printf("The C standard used at compile time is %s.\n", C_VERSION);
+    return 0;
+}

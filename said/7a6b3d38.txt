@@ -1,0 +1,5 @@
+bookworm asked Carl Sagan quote with hash 7a6b3d38
+<---- snip ---->
+ - in #GPT3
+
+"The cosmos is within us. We are made of star-stuff. We are a way for the universe to know itself." - Carl Sagan

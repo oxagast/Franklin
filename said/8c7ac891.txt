@@ -1,0 +1,3 @@
+ryujin asked Do hackers use passwords?  with hash 8c7ac891
+<---- snip ---->
+Yes, hackers use passwords. However, they use strong passwords and often employ two-factor authentication or other methods to protect their accounts.

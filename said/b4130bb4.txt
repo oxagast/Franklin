@@ -1,0 +1,3 @@
+morb asked why can"t we make lanes for self-driving vehicles with hash b4130bb4
+<---- snip ---->
+We cannot make lanes for self-driving vehicles because the technology is still in its infancy. Self-driving vehicles are not yet able to reliably and safely navigate the roads and lanes that are already in place. Additionally, creating dedicated lanes for self-driving vehicles would require a significant amount of infrastructure and financial investment.

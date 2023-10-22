@@ -1,0 +1,3 @@
+OfficeChair2 asked What is the computer language named ADA with hash feaeaf07
+<---- snip ---->
+Ada is a programming language designed by Jean Ichbiah and released in 1980. It was designed to be a high-level, highly reliable, and general-purpose language. It is used in many industries, including aerospace, banking, defense, healthcare, and transportation. Ada has been used to develop large, mission-critical applications, including air traffic control systems, medical record systems, and railway signaling systems.

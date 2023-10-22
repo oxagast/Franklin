@@ -1,0 +1,3 @@
+RDNt asked is rhel closed or open source? with hash 21785e00
+<---- snip ---->
+Red Hat Enterprise Linux (RHEL) is a commercial Linux distribution based on open source code, and is released under the GNU General Public License. RHEL is not fully open source, as portions of the source code are closed and proprietary.

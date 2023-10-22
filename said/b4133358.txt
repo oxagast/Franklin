@@ -1,0 +1,5 @@
+ryujin asked Code me hello world in java script with hash b4133358
+<---- snip ---->
+Sure, here you go:
+
+console.log("Hello World!");

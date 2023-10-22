@@ -1,0 +1,5 @@
+How are lightwave and blender distinct from each other?
+-------- snip --------
+
+
+Lightwave and Blender are both 3D software packages, but they each have their own unique strengths and weaknesses. Lightwave is a powerful, feature-rich 3D application that is used primarily for character animation and visual effects. Blender is a more general-purpose 3D application used more for creating 3D models, scenes, and architectural visualizations. Lightwave is optimized for animation, while Blender is optimized for modelling and rendering. Lightwave is more expensive than Blender, and is better suited for professional work. Blender is free and open source, making it popular with hobbyists and students.

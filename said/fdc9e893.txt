@@ -1,0 +1,3 @@
+bookworm asked cloze number sequences in quiz file format sequence:answer, do not number each line with hash fdc9e893
+<---- snip ---->
+1-5, 7, 8, 10:1-5,7,8,10

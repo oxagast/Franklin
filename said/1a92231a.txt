@@ -1,0 +1,3 @@
+zyme asked What is an AFH, when the H stands for Home? with hash 1a92231a
+<---- snip ---->
+AFH stands for Automated File Hosting. It’s a type of service that allows users to store and transfer files online, usually for a fee.

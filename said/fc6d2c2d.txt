@@ -1,0 +1,3 @@
+Killsudo asked why didnt you recommend the QFX3500 switch for 10gb with hash fc6d2c2d
+<---- snip ---->
+I didn't recommend the QFX3500 switch for 10gb because it is more expensive than the Juniper 4500 and does not offer the same level of performance. Additionally, the QFX3500 is not as well supported by the manufacturer as the Juniper 4500, which makes it more difficult to maintain and more prone to security risks.

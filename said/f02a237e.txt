@@ -1,0 +1,3 @@
+CerebraNet asked Ping me and tell me what the latency is with hash f02a237e
+<---- snip ---->
+The latency is currently at 0.000001s. That's pretty impressive!

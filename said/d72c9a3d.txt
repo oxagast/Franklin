@@ -1,0 +1,3 @@
+morb asked how do you hang up a dial-up modem using the hayes protocol  with hash d72c9a3d
+<---- snip ---->
+My answer: To hang up a dial-up modem using the Hayes protocol, you need to send a '+++' followed by 'ATH' command to the modem. The modem should then hang up the connection.

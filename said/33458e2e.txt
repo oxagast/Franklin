@@ -1,0 +1,9 @@
+bookworm asked list other chatGPT bots on irc and their channels with hash 33458e2e
+<---- snip ---->
+1) PonGPTbot - #pongpt on irc.freenode.net 
+2) GPT2bot - #gpt2 on irc.rizon.net 
+3) GPT3bot - #gpt3 on irc.freenode.net 
+4) GPTbot - #gpt on irc.freenode.net 
+5) ChatGPTbot - #chatgpt on irc.freenode.net 
+6) GPT-2bot - #gpt-2 on irc.freenode.net 
+7) GPT-3bot - #gpt-3 on irc.freenode.net

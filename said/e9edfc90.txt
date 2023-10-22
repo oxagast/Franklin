@@ -1,0 +1,5 @@
+Can an ISP break into a VPN
+-------- snip --------
+
+
+No, an ISP cannot break into a VPN. The encryption used by a VPN is designed to prevent anyone, including an ISP, from being able to access the data being sent over the VPN connection.

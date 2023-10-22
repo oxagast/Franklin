@@ -1,0 +1,3 @@
+bookworm asked is an apple a vegetable? with hash fd7fa117
+<---- snip ---->
+No, an apple is a fruit.

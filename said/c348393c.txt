@@ -1,0 +1,5 @@
+can you write code in the EPIC language?
+-------- snip --------
+
+
+Yes, EPIC (Epic Programming Interface for Computers) is a proprietary programming language that allows users to create applications for medical systems. It is used to develop clinical information systems, laboratory information systems, pharmacy systems, and other health care data management systems.

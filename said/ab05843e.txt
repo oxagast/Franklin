@@ -1,0 +1,5 @@
+if an engine is overheating, is it more likely that the cause is the water pump or the thermostat?
+-------- snip --------
+
+
+It is more likely that the cause of an engine overheating is the thermostat. The thermostat controls the flow of coolant through the engine, and if it is stuck closed, the engine will not get enough coolant and will overheat. The water pump circulates the coolant through the engine, but without the thermostat being open, the water pump cant keep the engine cool.

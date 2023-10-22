@@ -1,0 +1,9 @@
+CerebraNet asked When using rsync, what is "-avz" with hash 8eaf9da6
+<---- snip ---->
+The "-avz" flag is a shorthand for the following three flags:
+
+-a, which stands for "archive" and enables recursive copying and preserves symbolic links, file permissions, user & group ownerships and timestamps
+
+-v, which stands for "verbose" and prints the progress of the transfer 
+
+-z, which stands for "compress" and compresses the data during transfer to save bandwidth

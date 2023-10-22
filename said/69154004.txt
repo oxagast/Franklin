@@ -1,0 +1,3 @@
+morb asked what is the w3c standard for trailing slashes in an html tag with hash 69154004
+<---- snip ---->
+The W3C does not specify a standard for trailing slashes in HTML tags.

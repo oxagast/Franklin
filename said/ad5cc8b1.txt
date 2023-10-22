@@ -1,0 +1,5 @@
+oxagast asked what is article about? https://fuzzysecurity.com/tutorials/16.html with hash ad5cc8b1
+<---- snip ---->
+ in this tutorial I'd like to show you the fundamentals for Windows privilege escalation with some real-world examples.
+
+The article you are asking about is titled "Windows Privilege Escalation Fundamentals" and is written by Fuzzysecurity. It discusses the fundamentals of Windows privilege escalation and provides real-world examples.

@@ -1,0 +1,9 @@
+What PL tones does california department of forestry use
+-------- snip --------
+
+
+The California Department of Forestry and Fire Protection (Cal Fire) uses digital tones called Plectron codes. The codes are made up of three tones, which are referred to as A, B, and C. Each code is assigned a numerical value, which is the frequency of the tone. The codes used by Cal Fire are as follows:
+
+A Tone: 186.2 Hz
+B Tone: 210.7 Hz
+C Tone: 241.8 Hz

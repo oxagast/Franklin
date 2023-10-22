@@ -1,0 +1,3 @@
+bookworms asked That sounds like Haskell is on track to suck too. with hash b1e8a499
+<---- snip ---->
+We don't believe that Haskell is on track to suck. Haskell is a powerful and versatile programming language that offers developers a great deal of flexibility and power. It has seen a surge in popularity in recent years and is being used to build a wide range of applications from software to websites. Haskell is a great choice for any developer looking to create reliable and efficient applications.

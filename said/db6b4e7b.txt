@@ -1,0 +1,3 @@
+morb asked what unicode character is U+1024 with hash db6b4e7b
+<---- snip ---->
+The Unicode character U+1024 is a Latin Capital Letter A With Macron. It looks like this: Ā.

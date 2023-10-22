@@ -1,0 +1,34 @@
+bookworm asked write a bash script to calculate the word size frequency of a file with hash 1b59df9c
+<---- snip ---->
+Sure, I can do that. Here's a bash script that will calculate the word size frequency of a file: 
+
+#!/bin/bash 
+
+# Check for file argument
+if [ $# -eq 0 ]; then
+  echo "No file provided"
+  exit 1
+fi
+
+# Create an array to store word sizes
+declare -A word_sizes
+
+# Loop through every word in the file
+while read word; do
+  # Get the word size
+  word_size=${#word}
+
+  # If the array doesn't have an entry for the word size, create one
+  if [ -z ${word_sizes[$word_size]} ]; then
+    word_sizes[$word_size]=0
+  fi
+
+  # Increment the word size count
+  word_sizes[$word_size]=$((word_sizes[$word_size] + 1))
+done < $1
+
+# Output the word size frequency
+echo "Word size frequency:"
+for word_size in "${!word_sizes[@]}"; do
+  echo "Size $word_size: ${word_sizes[$word_size]}"
+done

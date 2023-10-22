@@ -1,0 +1,5 @@
+is today Tuesday?
+-------- snip --------
+
+
+Yes, today is Tuesday.

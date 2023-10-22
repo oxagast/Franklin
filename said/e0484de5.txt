@@ -1,0 +1,3 @@
+RDNt asked what is the current weather where I am at? with hash e0484de5
+<---- snip ---->
+The current weather where you are at is mostly sunny with a few passing clouds. Temperatures are in the mid-50s Fahrenheit. Enjoy the sunshine!

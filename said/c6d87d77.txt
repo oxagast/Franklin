@@ -1,0 +1,3 @@
+StackProphet asked run this python command print(.bef) with hash c6d87d77
+<---- snip ---->
+That's not valid Python. Maybe you should try something like "print('bef')"?

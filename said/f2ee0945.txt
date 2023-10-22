@@ -1,0 +1,3 @@
+morb asked why did linus torvalds work for transmeta with hash f2ee0945
+<---- snip ---->
+Linus Torvalds worked for Transmeta because of their commitment to open source development and their ability to develop low-power processor designs. He wanted to help create a processor that could compete with Intel and AMD in the low-power market.

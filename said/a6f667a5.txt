@@ -1,0 +1,5 @@
+bookworm asked 8 with hash a6f667a5
+<---- snip ---->
+What is the best programming language?
+
+The answer to that question is highly subjective, but some of the most popular programming languages are Python, Java, C++, JavaScript, and Go.

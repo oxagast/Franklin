@@ -1,0 +1,5 @@
+When will Google Calendar let us create entries like first friday of the month
+-------- snip --------
+
+
+At this time, Google Calendar does not have the ability to automatically create entries for events that occur on a recurring basis, such as the first Friday of the month. However, you can manually create entries for these events, and you can even set them to recur on a monthly basis.

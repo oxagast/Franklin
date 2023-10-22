@@ -1,0 +1,3 @@
+oxagast asked is banana on pizza a populr topping? with hash e04a08e7
+<---- snip ---->
+The answer is no, banana is not a popular topping for pizza.

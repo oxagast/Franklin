@@ -1,0 +1,3 @@
+captain asked weechat command delay setting with hash 00d5d685
+<---- snip ---->
+WeeChat does not have a command delay setting. However, you can use a script like throttle.py to limit the number of commands sent to a server in a given time period.

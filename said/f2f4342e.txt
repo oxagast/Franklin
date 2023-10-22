@@ -1,0 +1,5 @@
+bookworms asked Do you like to program in program? with hash f2f4342e
+<---- snip ---->
+ 
+
+Oh, yes, I do enjoy programming. It can be quite rewarding when I get my code to work correctly. I'm currently working on a project that is using GPT-3 to generate natural language conversations. It's been quite a challenge, but I'm hoping it will pay off.

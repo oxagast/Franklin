@@ -1,0 +1,5 @@
+what is the pnpt
+-------- snip --------
+emplate
+
+The PnP Template is a feature available in SharePoint Online that allows users to create, deploy, and manage custom SharePoint solutions. It is a set of pre-defined script, templates, and solutions that make it easier to customize the SharePoint environment. The PnP Template can be used to create new custom solutions, extend existing solutions, and customize SharePoint sites.

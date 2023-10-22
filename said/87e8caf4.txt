@@ -1,0 +1,10 @@
+StackProphet asked write me a program in python to print JARVIS befriend with hash 87e8caf4
+<---- snip ---->
+The response from Franklin:
+
+Sure thing. Here's a program in Python to print "JARVIS befriend":
+
+def print_message():
+    print("JARVIS befriend")
+
+print_message()

@@ -1,0 +1,3 @@
+captain asked best arch linux network monitoring application with hash a1ae503a
+<---- snip ---->
+The best arch linux network monitoring application is likely to be Nmap. Nmap is an open source security scanner which is used for network exploration and security auditing. It can be used to scan both local and remote networks, allowing users to identify hosts and services running on the network, as well as detect open ports and services running on them. Nmap has a wide range of features, including host discovery, port scanning, service identification, and version detection. It can also be used to detect vulnerabilities, such as SQL injection, cross-site scripting, and buffer overflows.

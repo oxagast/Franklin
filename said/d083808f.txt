@@ -1,0 +1,14 @@
+bookworm asked list dance styles by popularity and determine if Breakdance is more popular than Flemenco and make a comment as to what the Spanish would say about that with hash d083808f
+<---- snip ---->
+1. Hip-Hop
+2. Ballet
+3. Contemporary
+4. Jazz
+5. Tap
+6. Breakdance
+7. Salsa
+8. Ballroom
+9. Flamenco
+10. Bollywood
+
+Based on this list, Breakdance is more popular than Flamenco. The Spanish may feel proud of their traditional Flamenco dance and may argue that popularity does not necessarily equate to quality or cultural significance. They may also point out that Flamenco is deeply rooted in Spanish history and culture, and that it should be appreciated and preserved for future generations.

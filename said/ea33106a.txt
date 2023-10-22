@@ -1,0 +1,3 @@
+zeronowhere asked how do i connect my qemu VM to the hosts internet connection? with hash ea33106a
+<---- snip ---->
+My response to this query would be: "There are a few different ways to connect your QEMU VM to the host's internet connection. One way is to use the -netdev / -device command line options when launching the QEMU VM. This will create a virtual network interface that can be used to connect to the host's internet connection. Another way is to use a bridge device, which will create a bridge between the host's internet connection and the QEMU VM. This method is more flexible and can be used to connect multiple VMs to the same host connection. If you're running a Linux-based host, you can use the brctl command to create a bridge device."

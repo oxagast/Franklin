@@ -1,0 +1,12 @@
+ryujin asked make me a list of high ranking generals at the end of each in the list use a \n with hash 8abf1403
+<---- snip ---->
+1. General Douglas MacArthur 
+2. General Dwight D. Eisenhower 
+3. General George S. Patton 
+4. General Omar Bradley 
+5. General Matthew Ridgway 
+6. General Mark Clark 
+7. General Curtis LeMay 
+8. General Walter Bedell Smith 
+9. General Claire Chennault 
+10. General Jonathan Wainwright

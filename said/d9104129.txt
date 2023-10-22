@@ -1,0 +1,28 @@
+bookworm asked write a bash script for distributing an alphabet of 26 characters over a 3 dimensional array of 4 rows by 4 columns each with 6 cells with hash d9104129
+<---- snip ---->
+.
+
+#!/bin/bash
+
+# Array of 26 characters
+CHARACTERS="ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+
+# 3 dimensional array of 4 rows by 4 columns by 6 cells
+ARRAY=()
+for ((i = 0; i < 4; i++)); do
+  row=()
+  for ((j = 0; j < 4; j++)); do
+    cell=()
+    for ((k = 0; k < 6; k++)); do
+      cell[$k]=${CHARACTERS:$(($k + (6 * $i) + (24 * $j))):1}
+    done
+    row[$j]=${cell[*]}
+  done
+  ARRAY[$i]=${row[*]}
+done
+
+# Print the 3D array
+echo "The 3D array of 26 characters is:"
+for ((i = 0; i < 4; i++)); do
+  echo "Row $((i + 1)): ${ARRAY[$i]}"
+done

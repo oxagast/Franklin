@@ -1,0 +1,7 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the spanish alphabet assigning more faces for letters with more frequency with hash 33d4208a
+<---- snip ---->
+A- 4 faces
+E- 4 faces
+I- 4 faces
+O- 3 faces
+U- 1 face

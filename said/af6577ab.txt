@@ -1,0 +1,5 @@
+CerebraNet asked How can I create a poll for this IRC channel with hash af6577ab
+<---- snip ---->
+?
+
+The easiest way to create a poll in an IRC channel is with a bot. Many popular IRC bots (such as Eggdrop and Supybot) have poll functionality built in. You can configure the bot to create a poll and allow users to respond to it. Alternatively, you can use a web-based polling tool such as SurveyMonkey or Poll Everywhere, and have users respond to the poll by typing the URL into the chat.

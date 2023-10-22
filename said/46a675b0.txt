@@ -1,0 +1,81 @@
+deego asked test with hash 46a675b0
+<---- snip ---->
+_features, test_labels)
+print('Test accuracy:', test_acc)
+
+§ Output
+
+> stdout : ['Test accuracy: 0.8268\n']
+
+ 
+§ Markdown
+
+### Make Predictions
+
+§ Code
+
+predictions = model.predict(test_features)
+ 
+§ Markdown
+
+Here, the model has predicted the label for each image in the testing set. Let's take a look at the first prediction:
+
+§ Code
+
+predictions[0]
+
+§ Output
+
+> ['array([7.0863698e-04, 1.1480862e-03, 5.0317239e-04, 2.1536179e-02,\n', '       2.4870788e-04, 6.5045208e-02, 1.9078418e-04, 6.7677153e-01,\n', '       1.1535661e-02, 1.2686306e-01], dtype=float32)']
+
+ 
+§ Markdown
+
+A prediction is an array of 10 numbers. These describe the "confidence" of the model that the image corresponds to each of the 10 different digits. We can see which label has the highest confidence value:
+
+§ Code
+
+np.argmax(predictions[0])
+
+§ Output
+
+> ['7']
+
+ 
+§ Markdown
+
+So the model is most confident that this image is a 7, or `class_names[7]`. Examining the test label shows that this classification is correct:
+
+§ Code
+
+test_labels[0]
+
+§ Output
+
+> ['7']
+
+ 
+§ Markdown
+
+We can graph this to look at the full set of 10 class predictions
+
+§ Code
+
+def plot_image(i, predictions_array, true_label, img):
+  predictions_array, true_label, img = predictions_array, true_label[i], img[i]
+  plt.grid(False)
+  plt.xticks([])
+  plt.yticks([])
+  
+  plt.imshow(img, cmap=plt.cm.binary)
+
+  predicted_label = np.argmax(predictions_array)
+  if predicted_label == true_label:
+    color = 'blue'
+  else:
+    color = 'red'
+  
+  plt.xlabel("{} {:2.0f}% ({})".format(class_names[predicted_label],
+                                100*np.max(predictions_array),
+                                class_names[true_label]),
+                

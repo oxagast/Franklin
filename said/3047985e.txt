@@ -1,0 +1,5 @@
+Are reverse udp listeners more stable than tcp?
+-------- snip --------
+
+
+No, reverse UDP listeners are not necessarily more stable than TCP because both protocols are built to be reliable and resilient. The stability of a reverse listener depends on many factors, such as the quality of the underlying network, the configuration of the application or service, and the quality of the code that implements the listener.

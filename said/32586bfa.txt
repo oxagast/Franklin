@@ -1,0 +1,3 @@
+bookworm asked is not working the same as lazy? with hash 32586bfa
+<---- snip ---->
+No, lazy and eager loading are two different approaches to loading data. Lazy loading loads data only when it is needed, while eager loading loads data as soon as an object is initialized.

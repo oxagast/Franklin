@@ -1,0 +1,3 @@
+bookworm asked Zipf\\'s Law with hash 0697b9d2
+<---- snip ---->
+Zipf's Law is a principle that states that the frequency of a given word in any language is inversely proportional to its rank in a list of words ordered by frequency. This means that the most commonly used word will occur twice as often as the second most common word, three times as often as the third most common word, and so on. The law was first proposed by George Kingsley Zipf, an American linguist, in 1935.

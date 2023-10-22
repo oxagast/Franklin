@@ -1,0 +1,5 @@
+what is SAGE?
+-------- snip --------
+
+
+SAGE (System for Automated Geoscientific Analyses) is an open source software package for scientific computing, visualization, and data analysis. It is primarily used to analyze and visualize large datasets in the fields of geoscience, engineering, and environmental science. SAGE provides powerful tools for data analysis, visualization, and simulation, and can be used to process and analyze data from a variety of sources.

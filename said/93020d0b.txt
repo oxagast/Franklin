@@ -1,0 +1,3 @@
+bookworm asked solve ((n/(2n))+1) where n=10 and compare if it is a close approximation for the Pythagorean Ratio with hash 93020d0b
+<---- snip ---->
+The result of solving ((n/(2n))+1) where n=10 is 1.5. This is not a close approximation for the Pythagorean Ratio, which is 1.41421356237.

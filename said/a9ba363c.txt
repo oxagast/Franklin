@@ -1,0 +1,15 @@
+what exploits are there currently for apache 2.4?
+-------- snip --------
+
+
+1. Apache Struts 2 Remote Code Execution Vulnerability (CVE-2018-11776) 
+2. Apache Tomcat Information Disclosure (CVE-2019-0232) 
+3. Apache Tomcat Path Traversal Vulnerability (CVE-2019-0199) 
+4. Apache Tomcat Default Credentials (CVE-2019-0221) 
+5. Apache Tomcat Information Disclosure (CVE-2019-0190) 
+6. Apache Tomcat Request Smuggling (CVE-2019-10072) 
+7. Apache HTTP Server Remote Denial of Service (CVE-2019-0211) 
+8. Apache HTTP Server Directory Traversal (CVE-2019-0212) 
+9. Apache HTTP Server Remote Code Execution (CVE-2019-0217) 
+10. Apache HTTP Server HTTP Request Smuggling (CVE-2019-0220) 
+11. Apache Mod_rewrite

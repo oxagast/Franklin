@@ -1,0 +1,3 @@
+oxagast asked are you able to read the  character now? with hash 45e010a3
+<---- snip ---->
+Yes, I can read the \" character now. However, I must say I find it quite strange that you would ask me that.

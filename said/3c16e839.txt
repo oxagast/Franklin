@@ -1,0 +1,15 @@
+what are some unique indiana operating system features?
+-------- snip --------
+
+
+1. Indiana OS is based on a Linux kernel, which is a free and open-source software. This gives users access to a large range of free applications and tools. 
+
+2. Indiana OS is optimized to run on low-end hardware, making it ideal for users who have limited resources.
+
+3. Indiana OS comes with its own graphical user interface, making it easier for users to navigate and use the system.
+
+4. Indiana OS supports multiple languages, allowing users to choose the language they prefer.
+
+5. Indiana OS includes a built-in software repository, making it easy for users to find and install the software they need.
+
+6. Indiana OS includes a number of security features, such as secure boot, file encryption, and user authentication.

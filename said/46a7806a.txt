@@ -1,0 +1,3 @@
+bookworm asked Is it possible to create a camera that captures single photons? with hash 46a7806a
+<---- snip ---->
+Yes, it is possible to create a camera that captures single photons. It requires specialized hardware and software, and is still a relatively new technology.

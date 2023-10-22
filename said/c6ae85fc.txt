@@ -1,0 +1,3 @@
+bookworm asked what is the average cost of the average query in GPT 3.5 Turbo in tokens? with hash c6ae85fc
+<---- snip ---->
+According to OpenAI's pricing calculator, the average cost of the average query in GPT 3.5 Turbo in tokens is approximately $0.0042 per token.

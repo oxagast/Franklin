@@ -1,0 +1,5 @@
+how can you determine to which port a network device is connected to based on its mac address?
+-------- snip --------
+
+
+It is not possible to determine to which port a network device is connected to based on its MAC address alone.

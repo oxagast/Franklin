@@ -1,0 +1,5 @@
+did SAGE use a GUI?
+-------- snip --------
+
+
+No, SAGE did not use a GUI. SAGE was a command-line based system that used text-based commands and output.

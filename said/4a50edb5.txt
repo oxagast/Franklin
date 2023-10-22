@@ -1,0 +1,3 @@
+bookworm asked what are the statistics for number of car accidents compared to men and women? with hash 4a50edb5
+<---- snip ---->
+According to the National Highway Traffic Safety Administration (NHTSA), men accounted for 69% of all motor vehicle crash fatalities in 2018, while women accounted for 31%. Additionally, men are more likely than women to be involved in a fatal crash; in 2018, men were involved in almost 70% of all fatal crashes, while women were involved in only 30%. Furthermore, men are more likely to be involved in a crash with a higher injury severity, while women are more likely to be involved in a crash with a lower injury severity.

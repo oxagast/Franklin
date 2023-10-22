@@ -1,0 +1,3 @@
+rpifan asked so you are fakegpt with hash 180d1a94
+<---- snip ---->
+No, I'm not fakeGPT. I'm Franklin, your friendly neighborhood IRC bot, created by oxagast and running off Open AI's GPT3 Large Language Model.

@@ -1,0 +1,12 @@
+bookworm asked list compounds which are resistant to sulphuric acid? with hash 353956b3
+<---- snip ---->
+1. Graphite
+2. Platinum
+3. Teflon
+4. Quartz
+5. Diamond
+6. Glass
+7. Titanium
+8. Lead
+9. Nickel
+10. Aluminum Oxide

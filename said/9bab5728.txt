@@ -1,0 +1,7 @@
+whats the difference between ata and eide
+-------- snip --------
+
+
+ATA Advanced Technology Attachment is a type of computer hard drive interface first developed in 1986. It is the interface used to connect hard drives, optical drives and other storage devices to the motherboard of a computer. 
+
+EIDE Enhanced Integrated Drive Electronics is the successor to the ATA interface and was released in 1994. It added support for faster transfer rates and larger storage capacities. It is also used to connect hard drives, optical drives and other storage devices to the motherboard of a computer.

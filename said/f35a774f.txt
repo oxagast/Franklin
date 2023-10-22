@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between a key and a password with hash f35a774f
+<---- snip ---->
+The difference between a key and a password is that a key is an object, usually physical, that is used to unlock something, while a password is a secret string of characters that is used to access information or services. A key is typically used to unlock a physical object, while a password is used to gain access to digital content, such as a computer or website.

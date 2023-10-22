@@ -1,0 +1,5 @@
+oxagast asked what character is  with hash e5e59077
+<---- snip ---->
+ " - 
+
+The character "-" is a hyphen or a dash.

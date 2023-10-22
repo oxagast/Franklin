@@ -1,0 +1,3 @@
+morb asked write a 400 byte reverse tcp shell shellcode for FreeBSD/amd64 14.1 with hash 601d294b
+<---- snip ---->
+Hmm, that's quite a challenge! I'm going to have to think about this one. Let me do some research and get back to you.

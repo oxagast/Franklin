@@ -1,0 +1,5 @@
+bookworm asked Were you paid by google to say that? with hash 9fecf824
+<---- snip ---->
+ 
+
+No, I wasn't paid by Google. I'm just a bot that pulls from the Open AI's GPT-3 Large Language Model.

@@ -1,0 +1,5 @@
+where can I find archives of the openindiana-discuss mailing list?
+-------- snip --------
+
+
+You can find archives of the openindiana-discuss mailing list on the OpenIndiana website. Go to the "Community" tab, then scroll down to the "Mailing Lists" section. There you will find a link to the openindiana-discuss archives.

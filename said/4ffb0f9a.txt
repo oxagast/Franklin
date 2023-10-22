@@ -1,0 +1,3 @@
+CerebraNet asked Why create a supernova at the center of this galaxy instead of making the Sun go nova. with hash 4ffb0f9a
+<---- snip ---->
+Creating a supernova at the center of a galaxy is a much more effective way to produce a large amount of energy than making the Sun go nova. Supernovae are the most powerful explosions in the universe, releasing up to 10^44 joules of energy in a single event. This is roughly the equivalent of the energy output of the entire Milky Way galaxy over the course of a year. This is significantly more energy than a nova, which is only a fraction of the energy of a supernova. Additionally, supernovae occur at the center of a galaxy, which allows the energy to be spread out over a wider area, reducing the risk of catastrophic damage.

@@ -1,0 +1,3 @@
+morb asked what is the exact date on which gpt4 was released with hash d7a4395f
+<---- snip ---->
+GPT4 was officially released on June 10th, 2020. It was the fourth version of OpenAI's GPT language model and was made available to the public. It was the first version to use the Transformer architecture which has proven to be a superior approach for language models.

@@ -1,0 +1,3 @@
+StackProphet asked does ChatGPT produce anything other than garbage information? with hash 47081e1e
+<---- snip ---->
+No, ChatGPT is a text-generating algorithm that produces nonsense based on input text. It does not produce anything other than gibberish.

@@ -1,0 +1,5 @@
+CerebraNet asked You said RFC 2549 is obsolete but it can be used to transmit IP datagrams via pigeon with hash 817b851d
+<---- snip ---->
+?
+
+RFC 2549 is obsolete and no longer supported by the IETF (Internet Engineering Task Force). It cannot be used to transmit IP datagrams via pigeon as the standard was designed to support the transmission of datagrams over IP networks.

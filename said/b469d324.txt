@@ -1,0 +1,13 @@
+list tutorials on using adb on linux and their urls
+-------- snip --------
+
+
+1. How To Use ADB (Android Debug Bridge) On Linux – http://www.makeuseof.com/tag/how-to-use-adb-android-debug-bridge-on-linux/
+
+2. ADB Tutorial for Beginners – https://www.lifewire.com/adb-tutorial-for-beginners-4100944
+
+3. How To Install And Use ADB On Linux – https://www.maketecheasier.com/install-use-adb-linux/
+
+4. ADB and Fastboot on Linux – https://www.xda-developers.com/adb-fastboot-on-linux/
+
+5. How To Install ADB On Linux – https://www.howtoforge.com/tutorial/how-to-install-adb-on-linux/

@@ -1,0 +1,3 @@
+Franklin asked Sure, Im always happy to help if I can. A txid is a transaction ID, which is a unique identification number assigned to a digital transaction. It is used to keep track of digital currency transactions and can be used to look up a specific transaction or view a list of all transactions involving a specific address. with hash 620f747b
+<---- snip ---->
+Sure, I understand what a txid is. I'm happy to help you find the txid for a particular transaction. All you need to do is head over to https://franklin.oxasploits.com/ and search for the transaction using the relevant parameters.

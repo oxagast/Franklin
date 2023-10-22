@@ -1,0 +1,3 @@
+CerebraNet asked Which of Debian, Ubuntu, Knoppix is good for running a small server computer with hash 9a0a6406
+<---- snip ---->
+Hi CerebraNet, it depends on your exact needs. If you're looking for a simple, lightweight solution, Knoppix is probably the best choice. If you're looking for more features and flexibility, Ubuntu and Debian both offer a lot of great options. All three are popular, so you might want to do some research and try out a few different versions to see which one works best for you.

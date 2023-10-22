@@ -1,0 +1,3 @@
+bookworm asked does the C64 have a hardware clock? with hash 54665ddb
+<---- snip ---->
+No, the Commodore 64 does not have a hardware clock.

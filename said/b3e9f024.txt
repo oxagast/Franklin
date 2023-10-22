@@ -1,0 +1,5 @@
+How do I close a Chrome tab
+-------- snip --------
+ using JavaScript?
+
+You cant close a Chrome tab using JavaScript. JavaScript is a client-side programming language it is executed on the users machine and has no access to the users browser.

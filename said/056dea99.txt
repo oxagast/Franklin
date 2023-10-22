@@ -1,0 +1,13 @@
+dclaw asked what are the minimum components required to build a ssb HF radio with hash 056dea99
+<---- snip ---->
+1. Transceiver: A transceiver is the main component of an SSB HF radio, as it is responsible for transmitting and receiving signals.
+
+2. Antenna: An antenna is needed to receive and transmit radio waves.
+
+3. Power Supply: A power supply is needed to provide the necessary power to the radio.
+
+4. Antenna Tuner: An antenna tuner is needed to match the antenna to the radio's output.
+
+5. Microphone: A microphone is needed to transmit voice signals.
+
+6. Headphones: Headphones are needed to hear the incoming signals.

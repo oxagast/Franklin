@@ -1,0 +1,5 @@
+how can you determine to which port a network device is connected to based on its mac address and other data?
+-------- snip --------
+
+
+You can determine to which port a network device is connected to based on its MAC address by using IP address tracking. You can use your routers administrative console to view the IP address of connected devices and the ports they are connected to. You can then cross-reference the MAC address of the device with the IP address to determine which port it is connected to.

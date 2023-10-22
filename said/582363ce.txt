@@ -1,0 +1,3 @@
+CerebraNet asked Why does Linear B have ISO codes but Klingon does not with hash 582363ce
+<---- snip ---->
+That's an interesting question! Linear B is an ancient script used in the Mycenaean civilization of ancient Greece, while Klingon is a constructed language used in the fictional Star Trek universe. Linear B was in use for centuries and has been documented as such, so it naturally has been given ISO codes. Klingon, however, is a constructed language and, as such, does not have the same level of history.

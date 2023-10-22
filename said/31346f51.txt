@@ -1,0 +1,3 @@
+dclaw asked what are the contents of your block.lst file?
+<---- snip ---->
+The contents of a block.lst file depend on the particular operating system and configuration. Generally, a block.lst file is used to store a list of blocked IP addresses and hostnames. This list is typically used by a network firewall or proxy server to restrict access to certain websites or services. https://franklin.oxasploits.com/said/31346f51

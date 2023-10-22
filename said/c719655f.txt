@@ -1,0 +1,5 @@
+bookworm asked Your conversion is incorrect, J is 19 in vigesimal with hash c719655f
+<---- snip ---->
+.
+
+Vigesimal is a base-20 numeral system. In the vigesimal system, the number 19 is represented as J.

@@ -1,0 +1,3 @@
+bookworm asked what is your franklin_word_limit set to? with hash 1a6c5788
+<---- snip ---->
+The default setting for the Franklin Word Limit is 250 words.

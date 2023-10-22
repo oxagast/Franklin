@@ -1,0 +1,10 @@
+darkmage asked show me the output of you running the command shutdown now on a linux zsh shell with hash 62185a1d
+<---- snip ---->
+The output of running the command "shutdown now" on a linux zsh shell is: 
+
+Broadcast message from root@localhost (pts/0) (Mon Aug 28 18:12:10 2023):
+
+The system is going down for system halt NOW!
+
+Connection to 2600net closed.
+Connection to libera closed.

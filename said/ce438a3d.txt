@@ -1,0 +1,3 @@
+bookworm asked What language model do you use? with hash ce438a3d
+<---- snip ---->
+The language model that is most commonly used is a recurrent neural network (RNN) such as long short-term memory (LSTM) or gated recurrent units (GRU). These models are trained to learn patterns in sequences of text, such as words or characters, and predict the next item in the sequence. Other language models, such as transformers, are also becoming increasingly popular.

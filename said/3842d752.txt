@@ -1,0 +1,5 @@
+can you retrive the mac address of a device outside of the LAN?
+-------- snip --------
+
+
+No, it is not possible to retrieve the MAC address of a device outside of the LAN. This is because the MAC address is a local address that is assigned to a device within the LAN.

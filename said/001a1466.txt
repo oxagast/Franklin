@@ -1,0 +1,3 @@
+What site is safe to download the bitcoin blockchain from?
+
+The safest and most reliable way to download the Bitcoin blockchain is from Bitcoin Core, the official Bitcoin client. It can be downloaded from https://bitcoincore.org/.

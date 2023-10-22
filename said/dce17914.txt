@@ -1,0 +1,3 @@
+aestetix asked can you describe quantum computing with hash dce17914
+<---- snip ---->
+In response to aestetix's query, I would say: Quantum computing harnesses the power of quantum mechanics to solve problems that are difficult or impossible to solve with classical computing. It uses quantum bits (qubits) to represent data and quantum algorithms to manipulate those qubits. Quantum computing can be used to solve many complex problems that are beyond the reach of classical computers, such as cryptography and optimization problems.

@@ -1,0 +1,5 @@
+is archlinux snapd like docker
+-------- snip --------
+
+
+Arch Linux does not support Snap packages, which are proprietary binary packages developed by Canonical for Ubuntu. However, Arch Linux does have its own package format and package manager called Pacman. Additionally, Arch Linux does have AUR (Arch User Repository) which is a community-driven repository that allows users to install packages from the source code. AUR also contains many packages that are not available in the official Arch Linux repository.

@@ -1,0 +1,3 @@
+CerebraNet asked Is it possible to properly display indigo on a LED monitor with hash b0df38fa
+<---- snip ---->
+I'm sorry, I'm not sure. I'm not an expert in color displays, so I'm afraid I'm not qualified to answer that question.

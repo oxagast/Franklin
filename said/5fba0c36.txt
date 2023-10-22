@@ -1,0 +1,1 @@
+Cisco routers typically use a synchronous serial port, but some models also support asynchronous serial ports. https://gpt3.oxasploits.com/said/5fba0c36

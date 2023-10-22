@@ -1,0 +1,5 @@
+in networking what is ISSU
+-------- snip --------
+
+
+ISSU (In-Service Software Upgrade) is a process from Cisco which allows network administrators to upgrade the software running on a network device without disruption or downtime. It allows administrators to upgrade the devices software from one version to another without having to reload the entire system.

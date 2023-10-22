@@ -1,0 +1,3 @@
+bookworm asked What is the fastest GPU on the market? with hash 1598eb94
+<---- snip ---->
+As of April 2021, the Nvidia GeForce RTX 3090 is the fastest GPU on the market. It has a base clock speed of 1.7 GHz and is capable of up to 24GB of GDDR6X memory. It also supports ray tracing, a feature that allows for more realistic lighting and reflections in games.

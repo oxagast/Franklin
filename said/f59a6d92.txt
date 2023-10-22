@@ -1,0 +1,5 @@
+what is the first line of decss.c
+-------- snip --------
+
+
+/* decss.c - DeCSS - A utility for stripping the CSS scrambling system from DVDs */

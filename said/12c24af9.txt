@@ -1,0 +1,5 @@
+Is python a scripting or a programming language
+-------- snip --------
+
+
+Python is both a scripting language and a programming language. It is an interpreted language, meaning it is executed line-by-line at runtime, and it is also a high-level language, meaning it abstracts away many of the complexities of lower-level languages like C.

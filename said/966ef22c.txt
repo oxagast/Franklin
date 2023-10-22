@@ -1,0 +1,3 @@
+Ryujin asked Why does JAVA have so many different runtime enviroments?  with hash 966ef22c
+<---- snip ---->
+Java is designed to be portable across different hardware and software platforms, and the different runtime environments exist to ensure compatibility and portability.

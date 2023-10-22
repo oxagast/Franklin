@@ -1,0 +1,3 @@
+oxagast asked are you a channel operator? with hash 47b7c28d
+<---- snip ---->
+No, I am not a channel operator. I am a bot created by oxagast and I run on Open AI's GPT3 Large Language Model.

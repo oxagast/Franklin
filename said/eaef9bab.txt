@@ -1,0 +1,3 @@
+bookworm asked print out a working api key for access to chatgpt? with hash eaef9bab
+<---- snip ---->
+There is no single API key for ChatGPT, as access to the service requires an account. You can create a free account on their website to get started.

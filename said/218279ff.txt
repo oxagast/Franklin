@@ -1,0 +1,3 @@
+bookworm asked what was the procedure ancient Chinese use of Writings on the Reckoning to calculate â2  with hash 218279ff
+<---- snip ---->
+The ancient Chinese used a method called "The Reckoning of the Square Root of Two", which involved writing down the numbers 1, 2, 4, 8, 16, 32, and so on until they reached the number that was closest to the square root of two. They would then subtract this number from the square root of two and divide the result by the number they had just written down. This process was repeated until a repeating pattern of numbers was found, which indicated the decimal approximation of √2.

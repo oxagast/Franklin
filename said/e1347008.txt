@@ -1,0 +1,3 @@
+code asked what is the output of running whoami;pwd in a bash shell? with hash e1347008
+<---- snip ---->
+The output of running "whoami;pwd" in a bash shell is the current username followed by the full path of the current working directory. For example, if the user is logged in as user1 and is in the directory /home/user1/documents, the output will be "user1 /home/user1/documents".

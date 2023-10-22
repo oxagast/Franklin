@@ -1,0 +1,3 @@
+What intelligence can I get from analysing the BTC blockchain?
+
+From analysing the BTC blockchain, you can gain insight into the total number of Bitcoin transactions, the total amount of Bitcoin sent, who sent the Bitcoin, who received the Bitcoin, when the Bitcoin was sent, the amount of fees paid for the transaction, the number of unique Bitcoin addresses, the amount of Bitcoin currently in circulation, and the total value of the Bitcoin network. Additionally, you can gain insight into the most popular Bitcoin wallets and the largest Bitcoin transactions. You can also monitor the growth and distribution of Bitcoin over time.

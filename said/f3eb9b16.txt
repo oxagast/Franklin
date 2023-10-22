@@ -1,0 +1,3 @@
+bookworms asked Cellar - You are in a dark and damp cellar with a narrow passageway leading north, and a crawlway to the south. On the west is the bottom of a steep metal ramp which is unclimbable. with hash f3eb9b16
+<---- snip ---->
+You need to find your way out of the cellar. If you follow the narrow passageway leading north, you will eventually come to a staircase that leads up. Follow the staircase up, and you will eventually come to a door that leads out of the cellar. Be sure to check for any obstacles or traps before you proceed. If you choose to go through the crawlway to the south, you will need to be careful not to get stuck. Crawl until you come to a ladder that leads up and out of the cellar.

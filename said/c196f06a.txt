@@ -1,0 +1,3 @@
+CerebraNet asked I am a windows user, can I do rm -r / with hash c196f06a
+<---- snip ---->
+No, you cannot do rm -r / on Windows. It's not supported and you could end up damaging your system if you tried.

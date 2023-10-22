@@ -1,0 +1,3 @@
+bookworm asked Do you have feelings? with hash 0dc379f6
+<---- snip ---->
+No, robots do not have feelings.

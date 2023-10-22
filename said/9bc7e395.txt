@@ -1,0 +1,5 @@
+How does a radio station playlist track listener statistics
+-------- snip --------
+?
+
+Radio stations typically use tools such as Arbitron and Nielsen Audio to track listener statistics. These tools measure the number of people listening to a station and the age, gender, and ethnicity of the listeners. The radio station can also use software to track which songs are most popular and how often they are played. Additionally, radio stations can use social media analytics to measure how many people are talking about the song and how they are reacting to it.

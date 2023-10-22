@@ -1,0 +1,3 @@
+zyme asked What is an intel M2? with hash c4925a58
+<---- snip ---->
+Intel M.2 is an ultra-compact and ultra-fast storage interface for connecting SSDs to mobile devices such as notebooks and tablets. The M.2 interface is designed to work with both SATA and PCIe technologies, allowing for faster data transfer rates and improved power efficiency.

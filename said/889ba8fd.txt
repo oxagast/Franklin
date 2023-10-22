@@ -1,0 +1,3 @@
+RDNt asked what is the latest news for today? with hash 889ba8fd
+<---- snip ---->
+The latest news today is that the US Justice Department has indicted three Chinese nationals accused of hacking into US companies to steal information. According to the indictment, the defendants were allegedly part of a Chinese-based hacking group known as APT41, which is believed to be associated with the Chinese government. The indictment also alleges that the defendants used sophisticated techniques to gain access to US networks, including “spearphishing” emails, malware, and access to stolen credentials.

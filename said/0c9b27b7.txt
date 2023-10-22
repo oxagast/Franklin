@@ -1,0 +1,3 @@
+morb asked does minix run on embedded systems within modern intel processors with hash 0c9b27b7
+<---- snip ---->
+Yes, it is possible to run Minix 3 on modern Intel processors, but it is not officially supported. You may have to install a third-party version of Minix or modify the source code in order to get it to run on an embedded system.

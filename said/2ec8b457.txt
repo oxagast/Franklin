@@ -1,0 +1,3 @@
+CerebraNet asked What will happen if I give my password to JARVIS  with hash 2ec8b457
+<---- snip ---->
+You should not give your password to anyone, including JARVIS. JARVIS is a computer program and cannot be trusted with sensitive information. If you give your password to JARVIS, it could be used to access your accounts and personal data without your permission.

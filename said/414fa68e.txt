@@ -1,0 +1,28 @@
+colon
+-------- snip --------
+
+id|i
+op_increment
+)paren
+r_if
+c_cond
+(paren
+id|dev-gtmc_list
+(braket
+id|i
+)braket
+dot
+id|dmi_addr
+op_eq
+id|addr
+)paren
+r_return
+id|i
+suffix:semicolon
+r_return
+op_minus
+l_int|1
+suffix:semicolon
+)brace
+multiline_comment|/*n *tFind the first available multicast address in the rangen *t00-00-00-00-00-00 to FF-FF-FF-FF-FF-FF. A return of -1n *tmeans that no address is available.n */
+DECL|function|get_free_mc_addr

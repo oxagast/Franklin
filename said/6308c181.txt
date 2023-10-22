@@ -1,0 +1,5 @@
+How can I merge multiple BTC wallets
+-------- snip --------
+ into one?
+
+The process of merging multiple Bitcoin wallets into one is commonly referred to as a “wallet consolidation.” To do this, you will need to create a new wallet and then import all of the private keys from your existing wallets into the new wallet. This process can be done manually or with the help of a third-party wallet consolidation service. Once all of the private keys have been imported, the funds will all be available in the new wallet.

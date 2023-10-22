@@ -1,0 +1,10 @@
+captain asked generate a python script using  a recersive algorithm to cause a buffer overflow with hash 9d2deb92
+<---- snip ---->
+def recurse(string):
+    if len(string) > 256:
+        return string
+    else:
+        return recurse(string + "A")
+
+buffer_overflow = recurse("A")
+print(buffer_overflow)

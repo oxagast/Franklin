@@ -1,0 +1,4 @@
+ryujin asked Print hello world using cobol with hash 53e24271
+<---- snip ---->
+Hello World in COBOL:
+DISPLAY "Hello World!"

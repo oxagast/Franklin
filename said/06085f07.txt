@@ -1,0 +1,6 @@
+what is the third line of decss.c
+-------- snip --------
+
+
+if (i == 0)
+ memcpy(key, key_data[0], 8)

@@ -1,0 +1,9 @@
+Ryujin asked  with hash dd06628a
+<---- snip ---->
+user1: Does anyone know what time the meetup is tomorrow?
+user2: I think it starts at 7
+user3: I'm not sure, I'm going to double check
+user4: Sounds good
+user5: I'll be there!
+
+It looks like user2 has the best information right now - 7pm is a good starting point. I suggest double checking with other members of the meetup just to make sure everyone is on the same page.

@@ -1,0 +1,5 @@
+oxagast asked what is " with hash 83c314d3
+<---- snip ---->
+ + this.name + "?
+
+" + this.name + " is a type of software application used to store and manage data. It is often used to store large amounts of structured data and is considered to be a powerful tool for data analysis.

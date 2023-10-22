@@ -1,0 +1,3 @@
+oxagast asked what is subnetting with hash 5042a669
+<---- snip ---->
+Subnetting is a way to divide a network into smaller networks, or subnets. It allows a large network to be divided into smaller networks of varying sizes, each with its own set of rules and configurations. It's a great way to manage network traffic, and also increases security.

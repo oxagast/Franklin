@@ -1,0 +1,5 @@
+bookworm asked create cloze sequences for quiz file format sequence:answer with hash 810c65a0
+<---- snip ---->
+1. CSV:Comma-Separated Values 
+2. JSON:JavaScript Object Notation 
+3. XML:Extensible Markup Language

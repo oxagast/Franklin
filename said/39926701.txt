@@ -1,0 +1,3 @@
+xibalba asked are they any exploits against 22/tcp  open     ssh     OpenSSH 6.4 (protocol 2.0) with hash 39926701
+<---- snip ---->
+No, there aren't any exploits against that version of SSH. However, you should always keep your software up to date, as newer versions of SSH may have security vulnerabilities.

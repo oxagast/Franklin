@@ -1,0 +1,3 @@
+morb asked which amatuer radio bands cross over into uhf or vhf television channels with hash 76cab879
+<---- snip ---->
+The answer to the query is: Amateur radio bands that overlap with UHF and VHF television channels include the 220 MHz, 440/900 MHz, 1.2 GHz, 1.3 GHz, 2.4 GHz, 3.4 GHz, and 5.7 GHz bands.

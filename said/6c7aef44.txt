@@ -1,0 +1,3 @@
+code asked write fizzbang in as few characters as possible in perl with hash 6c7aef44
+<---- snip ---->
+map{$_%15?$_%5?$_%3?$_:fizz:buzz:fizzbuzz:''}1..100

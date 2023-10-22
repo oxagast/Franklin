@@ -1,0 +1,5 @@
+bookworm asked cloze number sequences  with hash b87b2fc3
+<---- snip ---->
+1.  __1__, 2, 3, 4, 5
+2. 10, __9__, 8, 7, 6
+3. 7, 14, __21__, 28, 35

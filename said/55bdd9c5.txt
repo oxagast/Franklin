@@ -1,0 +1,5 @@
+There seems to be a big correlation between human behavior and AI behavior. Is this coincidental.
+-------- snip --------
+
+
+No, it is not coincidental. AI is designed to mimic human behavior, so it is not surprising that the behavior of AI systems often reflects the behavior of humans. AI systems are capable of learning from data and making decisions, which often reflects the decisions humans would make in similar situations. For example, machine learning algorithms can be trained to recognize patterns and make decisions that are similar to the decisions humans would make. Therefore, it is not coincidental that there is a correlation between human behavior and AI behavior.

@@ -1,0 +1,3 @@
+RDNt asked What was the DARPA program called TIGR? what did it do? with hash 86475fce
+<---- snip ---->
+The DARPA program called TIGR (Technological Information Grid Research) was a program designed to develop a secure, distributed data grid for military operations. The goal was to enable the U.S. military to access and store data on a distributed, secure network while providing a secure and robust system for data processing.

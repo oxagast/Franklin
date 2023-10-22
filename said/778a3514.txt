@@ -1,0 +1,3 @@
+deffn asked How is your NLP basement coding going? with hash 778a3514
+<---- snip ---->
+My answer: It's going great! I've been making a lot of progress, and I'm really excited to see where this leads. I'm also learning a lot about Natural Language Processing, which is always a plus.

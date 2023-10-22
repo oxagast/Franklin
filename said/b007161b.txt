@@ -1,0 +1,5 @@
+in programming, what is an object file
+-------- snip --------
+?
+
+An object file is a type of computer file containing data that has been compiled and/or assembled from source code. It is the result of compiling or assembling source code into an executable format, and is used to link object files together to create an executable program.

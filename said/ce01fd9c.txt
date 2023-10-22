@@ -1,0 +1,3 @@
+CerebraNet asked Is DMR a form of modulation like AM or FM with hash ce01fd9c
+<---- snip ---->
+DMR is not a form of modulation like AM or FM. It is a digital radio communication system that is used for two-way digital voice communication. It does not offer the same frequency modulation capabilities as AM or FM, but it does offer some protection against eavesdropping.

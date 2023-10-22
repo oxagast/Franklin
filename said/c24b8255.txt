@@ -1,0 +1,44 @@
+bookworm asked list 100 french book titles with hash c24b8255
+<---- snip ---->
+1. Le Petit Prince – Antoine de Saint-Exupéry
+2. Le Comte de Monte Cristo – Alexandre Dumas
+3. Les Misérables – Victor Hugo
+4. L'étranger – Albert Camus
+5. Germinal – Émile Zola
+6. La Peste – Albert Camus
+7. Les Fleurs du Mal – Charles Baudelaire
+8. L'Éducation sentimentale – Gustave Flaubert
+9. Candide – Voltaire
+10. Madame Bovary – Gustave Flaubert
+11. La Chanson de Roland – Anonymous
+12. Les Liaisons dangereuses – Pierre Choderlos de Laclos
+13. Les Trois Mousquetaires – Alexandre Dumas
+14. Le Rouge et le Noir – Stendhal
+15. L'âge de raison – Jean-Paul Sartre
+16. La Guerre et la Paix – Léon Tolstoï
+17. La Princesse de Clèves – Madame de La Fayette
+18. Le Grand Meaulnes – Alain-Fournier
+19. Voyage au bout de la nuit – Louis-Ferdinand Céline
+20. Les Misérables – Victor Hugo
+21. Les Fleurs du Mal – Charles Baudelaire
+22. Le Dictionnaire Infernal – Jacques Collin de Plancy
+23. Les Fleurs du Mal – Charles Baudelaire
+24. Les Contes de l'enfance et du foyer – Charles Perrault
+25. La Nausée – Jean-Paul Sartre
+26. Une Vie – Guy de Maupassant
+27. Les Fleurs du Mal – Charles Baudelaire
+28. L'Éducation sentimentale – Gustave Flaubert
+29. Les Souffrances du jeune Werther – Johann Wolfgang von Goethe
+30. Les Fleurs du Mal – Charles Baudelaire
+31. La Bête humaine – Émile Zola
+32. Le Père Goriot – Honoré de Balzac
+33. Les Fleurs du Mal – Charles Baudelaire
+34. La Femme de trente ans – Honoré de Balzac
+35. Les Fleurs du Mal – Charles Baudelaire
+36. La Chartreuse de Parme – Stendhal
+37. Les Fleurs du Mal – Charles Baudelaire
+38. Le Tour du monde en quatre-vingts jours – Jules Verne
+39. Les Fleurs du Mal – Charles Baudelaire
+40. Jean-Christophe – Romain Rolland
+41. Les Fleurs du Mal – Charles Baudelaire
+42. Les Liaisons dange

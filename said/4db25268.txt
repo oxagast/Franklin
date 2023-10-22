@@ -1,0 +1,32 @@
+show me a bunch of bash control characters
+-------- snip --------
+
+
+Below is a list of commonly used Bash control characters:
+
+• \ (backslash)
+• (backtick)
+• ~ (tilde)
+• ! (exclamation mark)
+• $ (dollar sign)
+• Franklin api.key block.list call_gpt3.sh franklin.log gpt3.log said (asterisk)
+• (ampersand)
+• | (pipe)
+• (semicolon)
+• < (less than)
+• > (greater than)
+• ? (question mark)
+• " (quotation mark)
+• (single quote)
+• ( (left parenthesis)
+• ) (right parenthesis)
+• [ (left bracket)
+• ] (right bracket)
+• { (left brace)
+• } (right brace)
+• 
+ (new line)
+• \r (carriage return)
+• \t (tab)
+• \e (escape)
+• \f (form feed)

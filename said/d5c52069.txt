@@ -1,0 +1,5 @@
+gotchat
+-------- snip --------
+
+
+GotChat is a messaging app that allows users to communicate with each other in real-time. It provides a platform for users to share messages, photos, videos, and other multimedia files with their contacts. It also features group chats, private messaging, and location sharing. GotChat also provides a range of customization options, such as customizing the user interface, organizing conversations into folders, and creating custom statuses. The app is free to use and is available for both iOS and Android devices.

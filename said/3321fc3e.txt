@@ -1,0 +1,9 @@
+morb asked how can we protect infrastructure on the planet from solar flares with hash 3321fc3e
+<---- snip ---->
+1. Install Protective Shielding: Protective shields can be installed on infrastructure to protect against solar flares. This could be done by adding a layer of special shielding paint or coatings to the surface of the infrastructure.
+
+2. Utilize Backup Power Sources: Backup power sources such as generators and batteries can be used to ensure that the infrastructure continues to work during a solar flare.
+
+3. Implement Early Warning Systems: Early warning systems can be implemented to alert people when a solar flare is likely to occur. This will give people enough time to take the necessary precautions to protect their infrastructure.
+
+4. Utilize Solar Arrays: Solar arrays can be used to provide a form of renewable energy to power infrastructure. This will ensure that the infrastructure is not totally dependent on electricity from the grid, which can be affected by solar flares.

@@ -1,0 +1,3 @@
+bookworm asked Cobalt 60 with hash 86f3ef0b
+<---- snip ---->
+Cobalt 60 is a radioactive isotope of cobalt. It is created when a stable cobalt atom absorbs a neutron and becomes unstable. This isotope has a half-life of 5.3 years and is used in radiation therapy for the treatment of cancer and in industrial radiography.

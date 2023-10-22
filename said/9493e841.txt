@@ -1,0 +1,5 @@
+1
+-------- snip --------
+
+
+This is an example of a more advanced configuration. It will create a three-node cluster, with a single master and two worker nodes. The master node will have 2 cores and 4GB of RAM, while the worker nodes will have 4 cores and 8GB of RAM. Additionally, the worker nodes will be configured to run a custom service in the cluster, and the cluster will be secured using SSL.

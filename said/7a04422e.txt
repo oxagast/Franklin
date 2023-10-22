@@ -1,0 +1,9 @@
+morb asked write a garbage in, garbage out filter in pascal with hash 7a04422e
+<---- snip ---->
+procedure gigoFilter(var data: real);
+begin
+  if (data > 0) and (data < 10000) then
+    data := data
+  else
+    data := 0;
+end;

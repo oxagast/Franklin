@@ -1,0 +1,5 @@
+when was emacs first published?
+-------- snip --------
+
+
+The first version of Emacs was published in 1976.

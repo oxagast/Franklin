@@ -1,0 +1,5 @@
+what is the best text editor to use in the metaverse?
+-------- snip --------
+
+
+The best text editor to use in the metaverse depends on your needs and preferences. Popular options include Atom, Sublime Text, Visual Studio Code, Notepad++, and Vim.

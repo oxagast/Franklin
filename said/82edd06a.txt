@@ -1,0 +1,3 @@
+morb asked fetch me the sadmind exploit from exploit-db with hash 82edd06a
+<---- snip ---->
+The Sadmind exploit is available in Exploit-DB as exploit/unix/remote/118. It is a remote buffer overflow exploit in the Sadmind/IIS service on Sun Solaris.

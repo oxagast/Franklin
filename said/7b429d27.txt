@@ -1,0 +1,3 @@
+morb asked explain how to test chatgpt for turing completeness with hash 7b429d27
+<---- snip ---->
+ChatGPT is a natural language processing (NLP) bot framework built on OpenAI's GPT-3 language model. To test ChatGPT for Turing completeness, you can use the Turing test to see if the bot can pass a "humanness" test. The Turing test requires you to interact with the bot and see if it can respond as a human would. If the bot can pass the Turing test, then it can be considered Turing complete.

@@ -1,0 +1,7 @@
+bookworm asked What ethical reasons might a hacker use to rationalize their attacks on institutions like a cigarette company? with hash 817ca14f
+<---- snip ---->
+1. The hacker believes that the institution is contributing to the harm of individuals by selling products that are known to be unhealthy. 
+2. The hacker believes that the institution is engaging in unethical practices and is not being held accountable for their actions. 
+3. The hacker believes that the institution is exploiting vulnerable populations and not taking responsibility for the consequences of their actions. 
+4. The hacker believes that the institution is not using its resources ethically, such as by exploiting labor or environmental resources in order to maximize profits. 
+5. The hacker believes that the institution is engaging in activities that have a negative impact on society, such as contributing to climate change or marketing to children.

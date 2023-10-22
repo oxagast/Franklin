@@ -1,0 +1,3 @@
+CerebraNet asked How can I use Hexchat to diagnose an SSL connection with hash 452c5bb6
+<---- snip ---->
+You can use Hexchat to diagnose an SSL connection by using the 'Tools' menu, then selecting 'Diagnose SSL Connections.' This will open a window which will give you information about the connection, including the protocol, cipher, and certificate details.

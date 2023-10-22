@@ -1,0 +1,5 @@
+CerebraNet asked Where can I find a source for windows 11 gopher with hash cdf66f92
+<---- snip ---->
+ clients?
+
+Unfortunately, there are no Windows 11 gopher clients available as Windows 11 is not a real operating system. Gopher clients are typically designed to run on older operating systems such as Windows 7 and earlier. If you are looking for a gopher client, there are several available for download from SourceForge.

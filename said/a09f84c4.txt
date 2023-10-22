@@ -1,0 +1,8 @@
+bookworm asked list expletives in Brazilian Portuguese with english in quiz file format expletive:english no line numbers, all lower case with hash a09f84c4
+<---- snip ---->
+maldito:damned 
+caramba:damn 
+diacho:damn 
+porra:shit 
+merda:shit 
+cacete:fuck

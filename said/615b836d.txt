@@ -1,0 +1,43 @@
+booksworms asked e with hash 615b836d
+<---- snip ---->
+);
+							}
+							CommonUtil.closeQuietly(rs);
+							CommonUtil.closeQuietly(pstmt);
+							CommonUtil.closeQuietly(conn);
+						}
+					}
+				}
+				
+				//拼装模板
+				if(null != viewList && viewList.size() > 0) {
+					for(int i=0; i<viewList.size(); i++) {
+						JSONObject view = viewList.getJSONObject(i);
+						String viewId = view.getString("viewId");
+						String viewName = view.getString("viewName");
+						String sql = view.getString("sql");
+						
+						JSONObject viewObject = new JSONObject();
+						viewObject.put("viewId", viewId);
+						viewObject.put("viewName", viewName);
+						viewObject.put("sql", sql);
+						viewObject.put("columns", new JSONArray());
+						
+						if(null != columnsMap && columnsMap.containsKey(viewId)) {
+							viewObject.put("columns", columnsMap.get(viewId));
+						}
+						
+						viewTemplateList.add(viewObject);
+					}
+				}
+			}
+			
+			//返回结果
+			JSONObject retObject = new JSONObject();
+			retObject.put("views", viewTemplateList);
+			
+			return retObject.toJSONString().getBytes("UTF-8");
+			
+		} catch (Exception e) {
+			logger.error("获取视图模板失败，失败原因：" + e.getMessage(), e);
+			throw new Exception("获取视图模板失败，失

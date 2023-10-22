@@ -1,0 +1,7 @@
+bookworm asked list cloze sequences for various number sequences with hash 5650c2fc
+<---- snip ---->
+1. 1, 2, 3, _, 5
+2. _, 4, 6, 8, 10
+3. 5, 10, _, 20, 25
+4. 2, _, 12, 24, 48
+5. _, 7, 14, 21, 28

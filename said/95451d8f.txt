@@ -1,0 +1,17 @@
+2
+README.md
+alive.sh
+api.key
+block.list
+call_gpt3.sh
+franklin.log
+franklin.pl
+gpt3.log
+irc_chats.png
+website
+-------- snip --------
+.tar
+
+## Run the program
+
+Run the alive.sh script by typing ./alive.sh into the terminal.

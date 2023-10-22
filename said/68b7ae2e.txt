@@ -1,0 +1,5 @@
+morb asked how does the nintendo zapper work from the photodiode back to the shift register with hash 68b7ae2e
+<---- snip ---->
+The Nintendo Zapper is a light gun accessory created by Nintendo and first released in the late 1980s.
+
+When the trigger is pulled on the gun, a photodiode detects the light from the TV screen and sends a signal to an onboard shift register. The shift register is responsible for interpreting the light signal and determining which direction the gun is pointing. The register then sends a signal to the console which tells the game what action to take (e.g., fire a shot, move a character, etc.).

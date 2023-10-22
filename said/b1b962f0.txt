@@ -1,0 +1,5 @@
+how do smart watches detect the level of oxygenation in the human body?
+-------- snip --------
+
+
+Smart watches do not typically detect the level of oxygenation in the human body. However, there are some health tracking devices that have oxygen sensors which measure the level of oxygen in the wearers bloodstream. These devices are typically worn on the wrist or fingers and measure the amount of oxygen being carried through the bloodstream.

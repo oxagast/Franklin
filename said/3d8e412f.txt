@@ -1,0 +1,3 @@
+CerebraNet asked How does Windows 11 get bluetooth location data with hash 3d8e412f
+<---- snip ---->
+Windows 11 gets bluetooth location data from Bluetooth devices that have been paired with your device. This allows Windows 11 to track your location as you move around with your device.

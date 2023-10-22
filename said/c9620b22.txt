@@ -1,0 +1,12 @@
+bookworm asked list expletives in Brazilian Portuguese with english in quiz file format expletive:english with hash c9620b22
+<---- snip ---->
+1. Porra:Shit
+2. Caralho:Fuck
+3. Puta que pariu:Holy shit
+4. Filho da puta:Son of a bitch
+5. Merda:Shit
+6. Foda-se:Fuck it
+7. Vai tomar no cu:Go fuck yourself
+8. Pula:Fuck 
+9. Burro:Stupid
+10. Leva pro cu:Get lost

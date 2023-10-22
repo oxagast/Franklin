@@ -1,0 +1,5 @@
+How do I configure talk groups in a scanner radio
+-------- snip --------
+
+
+If you are using a scanner radio to monitor digital trunked radio systems, you will need to enter the talk group ID numbers that you want to monitor into the scanner. This is different from the frequency numbers that are used for analog systems. Talk group IDs are unique numbers that identify each group of users who are communicating on the system. To enter the talk group IDs into the scanner, you will need to consult the user manual for your specific model of scanner. Each scanner model has a different method for entering and saving the talk group IDs.

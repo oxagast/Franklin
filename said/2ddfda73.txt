@@ -1,0 +1,3 @@
+bookworm asked How many commodore 64s where produced in 1980 with hash 2ddfda73
+<---- snip ---->
+Approximately 10 million Commodore 64s were produced in 1980.

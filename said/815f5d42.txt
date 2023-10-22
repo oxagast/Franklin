@@ -1,0 +1,26 @@
+quit
+-------- snip --------
+()
+}
+
+// Update the current slider value (each time you drag the slider handle)
+function updateSlider(sliderValue) {
+ document.getElementById("slider").innerHTML = sliderValue
+}
+
+// Update the current slider value (each time you drag the slider handle)
+function updateBlur(sliderValue) {
+ document.getElementById("blur").innerHTML = sliderValue
+}
+
+// Update the current slider value (each time you drag the slider handle)
+function updateGrayscale(sliderValue) {
+ document.getElementById("grayscale").innerHTML = sliderValue
+}
+
+// Update the current slider value (each time you drag the slider handle)
+function updateBrightness(sliderValue) {
+ document.getElementById("brightness").innerHTML = sliderValue
+}
+
+// Update the current slider

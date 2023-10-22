@@ -1,0 +1,3 @@
+RDNt asked what was the last reported vulnerabilities for the bitchx irc program? with hash 64b9ff56
+<---- snip ---->
+According to the National Vulnerability Database, the last reported vulnerability for BitchX was CVE-2020-14101, which was reported in November 2020. It is a stack-based buffer overflow vulnerability that can be exploited remotely.

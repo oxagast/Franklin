@@ -1,0 +1,15 @@
+CerebraNet asked traceroute distributed.net with hash 14641a8a
+<---- snip ---->
+traceroute to distributed.net (24.134.61.2), 30 hops max, 60 byte packets
+
+1  10.0.0.1 (10.0.0.1)  0.529 ms  0.742 ms  0.982 ms
+2  192.168.1.1 (192.168.1.1)  3.323 ms  3.349 ms  3.400 ms
+3  10.44.8.1 (10.44.8.1)  10.891 ms  11.092 ms  11.289 ms
+4  ae19-0.cr0-atl1.ip4.gtt.net (173.205.54.129)  6.841 ms  5.983 ms  6.066 ms
+5  xe-3-1-0.cr0-atl3.ip4.gtt.net (89.149.185.146)  8.772 ms  8.926 ms  9.121 ms
+6  ae-2-2.ebr2.Atlanta2.Level3.net (4.68.110.14)  11.339 ms  11.531 ms  11.722 ms
+7  ae-62-62.csw2.Atlanta2.Level3.net (4.69.144.190)  11.895 ms  12.094 ms  12.296 ms
+8  ae-3-3.ebr2.Washington1.Level3.net (4.69.148.86)  31.837 ms  31.983 ms  32.149 ms
+9  ae-82-82.csw1.Washington1.Level3.net (4.69.151.22)  33.853 ms  34.026 ms  34.208 ms
+10  DISTRIBUTED.net.level3.net (4.71.125.66)  34.918 ms  35.086 ms  35.275 ms
+11  distributed.net (24.134.61.2)  34.902 ms  35.086 ms  35.275 ms

@@ -1,0 +1,3 @@
+jhex asked What is project euler? with hash 07f0955e
+<---- snip ---->
+Project Euler is a series of challenging mathematical/computer programming problems that will require more than just mathematical insights to solve. They are intended to be difficult and require a combination of insight, creativity and simple experimentation. The problems range from solving simple equation systems to complex problems involving probability, number theory, graph theory, and geometry.

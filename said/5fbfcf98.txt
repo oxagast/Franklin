@@ -1,0 +1,6 @@
+define a python forloop
+-------- snip --------
+
+
+for i in range(10):
+ print(i)

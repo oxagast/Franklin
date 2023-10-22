@@ -1,0 +1,3 @@
+morb asked which is more powerful, udp reflection attacks or udp amplification attacks with hash d1f6a31a
+<---- snip ---->
+Thanks for the question morb! UDP reflection attacks and UDP amplification attacks are both powerful, but in different ways. UDP reflection attacks are typically used to send data to a target, while UDP amplification attacks are used to amplify the amount of data sent to a target. Ultimately, the decision of which attack to use depends on the situation.

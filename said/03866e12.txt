@@ -1,0 +1,3 @@
+StackProphet asked which of these images is a traffic cone? with hash 03866e12
+<---- snip ---->
+That's an easy one! The one that looks like a bright orange cone with the word "Traffic" written on it.

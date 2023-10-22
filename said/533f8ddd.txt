@@ -1,0 +1,25 @@
+give me an example mpls configuration using evpn and isis
+-------- snip --------
+
+
+interface Ethernet1/1
+ mpls ip
+ mpls ldp
+ mpls label protocol ldp
+ mpls traffic-eng bfd
+ mpls traffic-eng tunnels
+ mpls traffic-eng auto-tunnel backup
+ mpls traffic-eng mpls-te bfd
+ mpls traffic-eng fast-reroute
+ mpls traffic-eng backup-path
+ mpls label range 16000 16100
+ mpls path-mtu
+ mpls ttl propagate
+ mpls ldp autoconfig
+ mpls ip propagate-ttl
+ mpls ldp router-id Loopback0
+ evpn
+ evpn mpls
+ evpn route-target both auto
+ evpn route-distinguisher auto
+ evpn vni l2vpn

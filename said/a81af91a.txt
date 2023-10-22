@@ -1,0 +1,9 @@
+bookworm asked list logical fallacies defined in english in quiz file format latin:english no line numbers, all lower case with hash a81af91a
+<---- snip ---->
+ad hominem: attacking the person rather than the argument
+straw man: misrepresenting an opponent's argument
+appeal to authority: using the opinion of an authority to bolster an argument
+slippery slope: arguing that one event will inexorably lead to another 
+appeal to emotion: attempting to manipulate an audience's emotions in order to win an argument 
+false dichotomy: presenting two choices as the only options when there are more
+circular reasoning: beginning and ending with the same statement

@@ -1,0 +1,3 @@
+bookworm asked Print unicode 12308 with hash 5f28ba60
+<---- snip ---->
+The answer to the query by bookworm is: 𝌆

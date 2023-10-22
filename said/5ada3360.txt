@@ -1,0 +1,5 @@
+bookworm asked give example of noglob bash with hash 5ada3360
+<---- snip ---->
+Noglob bash is a feature of the Bash shell that prevents wildcard characters from being expanded. An example of noglob bash would be the command line: 
+
+$ noglob ls

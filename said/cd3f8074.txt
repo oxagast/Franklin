@@ -1,0 +1,8 @@
+morb asked name three real world cyber terrorism scenarios  with hash cd3f8074
+<---- snip ---->
+My response:
+
+Cyber terrorism scenarios include: 
+1. Targeting critical infrastructure such as power grids, water supplies, and transportation networks. 
+2. Disrupting financial systems and stock markets. 
+3. Launching distributed denial of service (DDoS) attacks on government websites or corporate networks.

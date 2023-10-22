@@ -1,0 +1,5 @@
+How can I use three antennas to determine the direction of a radio source
+-------- snip --------
+?
+
+One way to use three antennas to determine the direction of a radio source is to use a technique called triangulation. This involves setting up the three antennas in a triangular pattern, and then measuring the time it takes for the signal from the source to reach each one. The angle of the signal can then be determined using the measured time delays and the known distance between the antennas. By combining the angles from each antenna, the direction of the source can then be determined.

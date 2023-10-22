@@ -1,0 +1,5 @@
+CerebraNet asked Where is distributed.net"s server located with hash 48b618a0
+<---- snip ---->
+?
+
+Distributed.net's servers are located in multiple locations throughout the world. The primary server is located in the US, but there are servers in Europe, Asia, Australia, and South America.

@@ -1,0 +1,5 @@
+When converting from twin lead wire to coaxil is it better to put the adapter by the antenna or the radio
+-------- snip --------
+?
+
+It is best to put the adapter by the antenna. This will help reduce signal loss, as the antenna will be able to feed the signal directly into the coaxial cable.

@@ -1,0 +1,60 @@
+bookworm asked generate a file in a format used by bsdgames quiz 50 different latin phrases to english phrases, all small letters and no line numbering, format latin:english with hash eee02140
+<---- snip ---->
+ 
+
+pax vobiscum:peace be with you
+amor vincit omnia:love conquers all
+mens sana in corpore sano:a sound mind in a sound body
+lex talionis:law of retaliation
+quid pro quo:something for something
+carpe diem:seize the day
+post hoc ergo propter hoc:after this, therefore because of this
+cogito ergo sum:i think, therefore i am
+nil desperandum:never despair
+ex nihilo nihil fit:nothing comes from nothing
+festina lente:make haste slowly
+deus ex machina:god from the machine
+ad infinitum:to infinity
+ipso facto:by the fact itself
+ad astra per aspera:to the stars through difficulty
+in vivo:in a living organism
+modus operandi:method of operating
+vis a tergo:force from the rear
+ex gratia:out of kindness
+magna cum laude:with great praise
+ab initio:from the beginning
+ad nauseam:to a disgusting degree
+mutatis mutandis:with the necessary changes
+sui generis:in a class by itself
+pro rata:in proportion
+ipse dixit:he himself said it
+amor patriae:love of country
+ad hoc:for this
+tabula rasa:blank slate
+adagere:to add
+ad libitum:at one's pleasure
+ab extra:from the outside
+ad hominem:against the man
+in extremis:in the utmost degree
+veni vidi vici:i came, i saw, i conquered
+in medias res:into the middle of things
+fiat lux:let there be light
+in situ:in its original position
+sine die:without a day
+sine qua non:without which not
+ipso jure:by the law itself
+in toto:in the whole
+in vino veritas:in wine there is truth
+pro forma:for form's sake
+cum laude:with praise
+ex libris:from the books
+in loco:in place of
+post mortem:after death
+prima facie:at first sight
+in silico:in silicon
+pro bono:for the good
+hic et nunc:here and now
+sursum corda:lift up your hearts
+res ipsa loquitur:the thing speaks for itself
+habeas corpus:you should have the body
+modus vivendi:a way of living

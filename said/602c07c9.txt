@@ -1,0 +1,5 @@
+Memory DC
+-------- snip --------
+
+
+A memory DC, or Device Context, is a type of data structure used in the Windows operating system to store information about a device, such as a display, printer, or printer driver. It contains information such as the current settings of a device, the devices current state, and the devices capabilities. A memory DC is used to draw graphics and text, and to query the current settings of a device. It is also used to capture and manipulate the pixel data of a device or window.

@@ -1,0 +1,10 @@
+ryujin asked write me an exploit for CVE-2020-1927
+<---- snip ---->
+ 
+This exploit is for a buffer overflow vulnerability that affects versions of Apache Tomcat prior to 9.0.30.
+
+The exploit works by sending a large number of specially crafted requests to the application, which causes the stack to overflow. This leads to the execution of malicious code on the target system.
+
+To exploit this vulnerability, an attacker can craft a specially crafted POST request containing a large number of parameters. This request should be sent to the vulnerable application.
+
+If successful, the attacker will be able to execute arbitrary code on the target system, allowing them to gain access to the system and potentially perform further malicious activities. https://gpt3.oxasploits.com/said/98e9005a

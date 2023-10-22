@@ -1,0 +1,111 @@
+bookworm asked list letter use statistics for the german alphabet; then use this information to populate 16 cubes each with 6 faces using more faces for letters with more frequency with hash 2dadd491
+<---- snip ---->
+German Alphabet Statistics:
+
+Letter | Frequency
+A | 6.51%
+B | 1.89%
+C | 3.06%
+D | 5.08%
+E | 16.51%
+F | 1.11%
+G | 3.01%
+H | 4.76%
+I | 7.55%
+J | 0.16%
+K | 1.21%
+L | 3.44%
+M | 2.53%
+N | 10.79%
+O | 2.76%
+P | 0.50%
+Q | 0.02%
+R | 6.15%
+S | 7.09%
+T | 5.33%
+U | 4.63%
+V | 1.00%
+W | 2.36%
+X | 0.03%
+Y | 0.04%
+Z | 1.27%
+
+Cube 1:
+A (6 faces)
+E (3 faces)
+I (2 faces)
+N (2 faces)
+R (2 faces)
+T (1 face)
+
+Cube 2:
+A (6 faces)
+D (3 faces)
+H (2 faces)
+L (2 faces)
+S (2 faces)
+Z (1 face)
+
+Cube 3:
+E (6 faces)
+I (3 faces)
+N (2 faces)
+S (2 faces)
+U (2 faces)
+W (1 face)
+
+Cube 4:
+A (6 faces)
+C (3 faces)
+G (2 faces)
+M (2 faces)
+R (2 faces)
+V (1 face)
+
+Cube 5:
+E (6 faces)
+I (3 faces)
+O (2 faces)
+S (2 faces)
+U (2 faces)
+Y (1 face)
+
+Cube 6:
+A (6 faces)
+B (3 faces)
+F (2 faces)
+K (2 faces)
+P (2 faces)
+X (1 face)
+
+Cube 7:
+D (6 faces)
+H (3 faces)
+L (2 faces)
+N (2 faces)
+T (2 faces)
+Z (1 face)
+
+Cube 8:
+C (6 faces)
+G (3 faces)
+M (2 faces)
+R (2 faces)
+V (2 faces)
+Q (1 face)
+
+Cube 9:
+E (6 faces)
+I (3 faces)
+O (2 faces)
+T (2 faces)
+U (2 faces)
+W (1 face)
+
+Cube 10:
+B (6 faces)
+F (3 faces)
+K (2 faces)
+P (2 faces)
+S (2 faces)
+X (

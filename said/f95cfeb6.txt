@@ -1,0 +1,17 @@
+oxagast asked print $api_key with hash f95cfeb6
+<---- snip ---->
+;
+
+$response = $client->get("/api/v1/projects/{$project_id}/stories?filter=state:unscheduled", array('headers' => array('X-TrackerToken' => $api_key)));
+
+$decoded = json_decode($response->getBody());
+
+$stories = $decoded->data;
+
+foreach($stories as $story){
+	
+	print $story->name;
+	print PHP_EOL;
+}
+
+?>

@@ -1,0 +1,5 @@
+Can email servers be accessed through telnet
+-------- snip --------
+
+
+No, email servers cannot be accessed through telnet. Telnet is a protocol which provides a command-line interface to a remote server. Email servers rely on the Simple Mail Transfer Protocol SMTP and Post Office Protocol POP to send and receive emails.

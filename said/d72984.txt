@@ -1,0 +1,1 @@
+No, quantum computing cannot crack a message encrypted with a one time use pad because quantum computing relies on quantum algorithms to work and one time use pads use only classical algorithms to encrypt the data.

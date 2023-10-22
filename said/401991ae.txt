@@ -1,0 +1,10 @@
+list tutorials on using adb on linux and their urls, which actually checks out to be real existing urls and do not point at 404 pages on the WEB
+-------- snip --------
+
+
+1. Android ADB Tutorial for Beginners: https://www.techotopia.com/index.php/Android_ADB_Tutorial_for_Beginners
+2. Introduction to Android Debug Bridge (adb): https://www.linux.com/learn/introduction-android-debug-bridge-adb
+3. How to install and use adb and fastboot on Linux: https://www.how2shout.com/how-to/how-to-install-and-use-adb-and-fastboot-on-linux.html
+4. How to Install ADB on Ubuntu 18.04: https://computers.tutsplus.com/tutorials/how-to-install-adb-on-ubuntu-1804--cms-32689
+5. ADB and Fastboot on Linux: https://dontkillmyapp.com/linux
+6. How

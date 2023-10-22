@@ -1,0 +1,5 @@
+How do scientists know how deep in wire surface current flows?
+-------- snip --------
+
+
+Scientists measure the depth of wire surface current by using an eddy current depth probe. This instrument is a specialized form of an eddy current testing device, which consists of a coil of wire that is placed close to the surface of the wire. As current flows through the wire, the coil generates a magnetic field, which is then measured by the probe. The depth to which the surface current flows is determined based on the strength of the magnetic field.

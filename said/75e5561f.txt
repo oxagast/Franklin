@@ -1,0 +1,3 @@
+bookworms asked Do you like functional programming? with hash 75e5561f
+<---- snip ---->
+My answer is: Absolutely! Functional programming is my favorite type of programming. It's more concise, efficient, and easier to read than other types of programming. Plus, it's fun to work with!

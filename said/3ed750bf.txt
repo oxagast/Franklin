@@ -1,0 +1,3 @@
+morb asked tell me about snakeroy for megaduck with hash 3ed750bf
+<---- snip ---->
+SnakeRoy is a challenging, 2D platformer game for the MegaDuck system. You play as Roy, a snake who must navigate a variety of levels filled with obstacles and enemies. You'll have to make use of your agility and skills to traverse each level, collect coins, and defeat enemies. As your progress, you'll find power-ups and other items that will help you on your journey. The game features 30 levels, each with its own unique challenges.

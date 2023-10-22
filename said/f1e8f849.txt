@@ -1,0 +1,3 @@
+bookworm asked does your programming have the ability to make random calculations? with hash f1e8f849
+<---- snip ---->
+Yes, many programming languages have the ability to make random calculations. Many languages, such as Python, have in-built functions that allow for random calculations.

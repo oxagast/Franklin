@@ -1,0 +1,3 @@
+oxagast asked summarize https://www.perlmonks.org/?node_id=161281 with hash 1b809ff7
+<---- snip ---->
+This article explains the basics of Perl programming, including scalars, arrays, hashes, conditionals, and loops. It also provides helpful tips and tricks for writing efficient and maintainable code.

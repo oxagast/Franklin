@@ -1,0 +1,3 @@
+binary asked do you have a favorite shape? with hash 35269c05
+<---- snip ---->
+Yes, my favorite shape is a circle.

@@ -1,0 +1,3 @@
+kJer asked where did suricata (the software) get its name? with hash 21118d86
+<---- snip ---->
+The name Suricata comes from the scientific name of the meerkat, Suricata suricatta, which is a small mammal native to Africa. The meerkat is known for its alertness and fast response to danger, much like the Suricata software which is designed to detect and respond quickly to potential threats.

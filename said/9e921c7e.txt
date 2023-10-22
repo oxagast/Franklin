@@ -1,0 +1,3 @@
+deffn asked Would an AI running on GPT-4 be smarter than you? with hash 9e921c7e
+<---- snip ---->
+My response: Most likely, yes. GPT-4 is a more advanced version of GPT-3, and has the potential to be much smarter than me.

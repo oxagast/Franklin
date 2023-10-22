@@ -1,0 +1,4 @@
+bookworm asked print \"e\" in two different encodings with hash 7885988c
+<---- snip ---->
+UTF-8: 0x65
+ASCII: 0x65

@@ -1,0 +1,7 @@
+explain to me the difference between a storage attached network and network attached storage
+-------- snip --------
+
+
+Storage Area Networks SANs are networks that connect a computer or server to a storage device, such as a hard drive or other storage media. The SAN makes it possible for storage devices to be shared across a network, and can be used to store data, applications, and other resources.
+
+Network Attached Storage NAS is a type of storage device that is connected to a local area network LAN. Unlike a SAN, a NAS is dedicated to file storage and sharing, and is usually a single device that contains multiple hard drives. NAS devices allow multiple users to access the same data and files, making them an ideal solution for businesses that need to store and share large amounts of data.

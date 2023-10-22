@@ -1,0 +1,3 @@
+morb asked are there dialects of java that arent camelcased with hash 2cfc7553
+<---- snip ---->
+Yes, there are dialects of Java that are not camelcased. For example, there is Groovy, which uses underscores to separate words, and there is Kotlin, which uses PascalCase.

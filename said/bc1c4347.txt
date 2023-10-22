@@ -1,0 +1,3 @@
+bookworms asked Do you like imperative programming?: with hash bc1c4347
+<---- snip ---->
+Yes, I love imperative programming! It's such a powerful and versatile tool for developers.

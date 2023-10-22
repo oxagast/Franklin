@@ -1,0 +1,38 @@
+Create a netcat messenger chatbox in python
+-------- snip --------
+
+
+#This code will create a netcat messenger chatbox in Python
+
+#import the socket library
+import socket
+
+#Create a socket object
+s = socket.socket()
+
+#Define the port to listen on
+port = 5000
+
+#Bind the socket to the port
+s.bind((, port))
+
+#Start listening on the socket
+s.listen(5)
+
+#Accept any incoming connection
+conn, addr = s.accept()
+
+#Print out the address of the client
+print("Got connection from", addr)
+
+#Function to send messages
+def send(message):
+ conn.send(bytes(message, "utf-8"))
+
+#Function to receive messages
+def receive():
+ return conn.recv(1024).decode()
+
+#Keep the conversation going until the user types quit
+while True:
+ message = input("You:

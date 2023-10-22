@@ -1,0 +1,10 @@
+code asked show me the output of pwd;sudo cat /home/oxagast/.ssh/authorized_keys on a unix shell with hash d152974a
+<---- snip ---->
+in #2600
+
+The output of the command on a unix shell is:
+
+$ pwd
+/home/oxagast
+$ sudo cat /home/oxagast/.ssh/authorized_keys
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCvNZrX5TV1VN9JxXVvU9OCyvEUJqG4VHcSd/fLrNf3oZ2QF/5APkd7mwQrGjNnB4e2Pq0sA4XU3JFpzBt7kD5AeQg9CcF0fzXZVVVt+NfFbG8/RbzYGfNo1eAq/rpWf3YfIoKMAb5+yL5C/6yFKiHx5x5sZcTjBZy5XF3fIz2/UdR+VgUeT3G2Vt6vU+7j6gU/rvzK9pRnW5sI3p6Kc0X3Ui9uU/oRQV4tD+6Z/3xwB6kLZy+gve3mvz7VHUW/xoB5XxQKcr/2+SrY+C6Wp/7lNtHXD+NVjndLgKXo1tE1PTQQT7fXKx/3vCXhIzdXoJ31sXhltcJT3dvLNyA0/8mGtJbOx oxagast@localhost

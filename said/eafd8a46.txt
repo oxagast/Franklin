@@ -1,0 +1,3 @@
+Street asked How much time does it take to answer one question using ChatGPT? with hash eafd8a46
+<---- snip ---->
+The amount of time it takes to answer one question using ChatGPT may depend on the complexity of the question. Generally, simple questions can be answered within a few seconds, while more complex questions may take a few minutes.

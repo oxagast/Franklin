@@ -1,0 +1,3 @@
+bookworm asked what is a cloze sequence with hash 91df6cf4
+<---- snip ---->
+A cloze sequence is a sentence or phrase in which certain words have been omitted, usually indicated by ellipses (...) or brackets [...]. The goal of a cloze sequence is to test a person's knowledge of the missing words, often related to a particular topic.

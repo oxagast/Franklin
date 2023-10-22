@@ -1,0 +1,3 @@
+morb asked why can"t we assign one lane only to self-driving vehicles on multi-lane throughways with hash c239ecb2
+<---- snip ---->
+It is not possible to assign one lane only to self-driving vehicles on multi-lane throughways because it would create a traffic bottleneck, as self-driving cars are not currently able to travel as quickly as other vehicles. Additionally, assigning one lane for self-driving vehicles would require a significant investment in infrastructure and would be difficult to enforce.

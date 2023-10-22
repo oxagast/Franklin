@@ -1,0 +1,5 @@
+How do I measure the phase between three antennas to determine direction of a radio source
+-------- snip --------
+?
+
+Measuring the phase between three antennas to determine the direction of a radio source is done by a technique known as Direction Finding (DF). A DF system will typically use three receivers, each with its own antenna, arranged in a triangle. The phase difference between the signals received by the three receivers is measured and compared to a predetermined phase reference. The direction of the source is then calculated from the relative phase differences between the receivers. This technique is also used in electronic warfare to detect and locate enemy transmitters.

@@ -1,0 +1,37 @@
+bookworm asked write a bash elliptic function to help speed up factorization with hash e73aeb5c
+<---- snip ---->
+#!/bin/bash
+
+# This script uses the elliptic curve method for factorization.
+
+echo "Enter a number to factorize: "
+read num
+
+# Check if the number is even
+if [ $(($num % 2)) -eq 0 ]
+then
+	echo "The number is even. Factors are 2 and $(($num/2))."
+else
+	# Initialize variables
+	x=2
+	y=2
+	a=1
+	b=0
+	d=1
+
+	# Find the factors using elliptic curve
+	while [ $d -ne 0 ]
+	do
+		x=$((x*x+a))
+		y=$((y*y+b))
+		d=$(((x-y)*(x-y)-(num-a*a+b*b)))
+		a=$((2*x*y+a))
+		b=$((2*y*y+b))
+		x=$((x*x+a))
+		y=$((y*y+b))
+		d=$(((x-y)*(x-y)-(num-a*a+b*b)))
+	done
+	
+	# Print the factors
+	echo "The factors are $(($x+$y)) and $(($x-$y))."
+fi

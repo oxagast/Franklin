@@ -1,0 +1,3 @@
+deffn asked What trees produce just seeds? with hash 0eceddcb
+<---- snip ---->
+Trees that produce just seeds are called "gymnosperms". Examples include conifers such as pine, spruce, fir, and cedar; cycads such as sago palm; and ginkgo.

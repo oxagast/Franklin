@@ -1,0 +1,15 @@
+after upgrading ubuntu, I get error failure in name resolution - download.webmin.com how do I troubleshoot it?
+-------- snip --------
+
+
+1. Ensure your internet connection is active and working properly. 
+
+2. Check if your DNS server settings are configured correctly in your network configuration. 
+
+3. Try to ping the domain name to verify that it is resolving properly. 
+
+4. Check the /etc/hosts file to make sure it contains an entry for download.webmin.com.
+
+5. Try to use a different DNS server to see if that helps.
+
+6. If the problem persists, contact your Internet Service Provider for assistance.

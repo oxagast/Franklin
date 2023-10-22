@@ -1,0 +1,3 @@
+bookworm asked If Germans use der for Mann, die for Frau, der for Junge, then why do they use das for MÃ¤dchen? with hash bde3c20b
+<---- snip ---->
+The German language is highly structured and the gender of a noun is often determined by the ending of the word. In this case, Mädchen is a neuter noun due to its ending, so it is referred to with 'das'.

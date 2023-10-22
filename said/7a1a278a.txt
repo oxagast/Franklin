@@ -1,0 +1,18 @@
+bookworm asked generate a file in a format used by bsdgames quiz of a list of all logical fallacies in latin to english, all small letters and no line numbering, format latin:english with hash 7a1a278a
+<---- snip ---->
+ad hominem:argument against the person
+post hoc ergo propter hoc:after this, therefore because of this
+appeal to authority:argument from authority
+appeal to ignorance:argument from ignorance
+appeal to emotion:argument from emotion
+appeal to fear:argument from fear
+appeal to flattery:argument from flattery
+appeal to pity:argument from pity
+appeal to popularity:argument from popularity
+bandwagon:jumping on the bandwagon
+begging the question:assuming the answer
+false cause:mistaken cause
+loaded question:complex question
+non sequitur:it does not follow
+slippery slope:exaggerated consequences
+straw man:misrepresentation of an argument

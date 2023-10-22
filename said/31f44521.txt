@@ -1,0 +1,3 @@
+morb asked recommend me a way to tunnel tcp/ip traffic over dns with hash 31f44521
+<---- snip ---->
+One way to tunnel TCP/IP traffic over DNS is to use DNS tunneling. DNS tunneling involves tunneling TCP/IP traffic over DNS queries and responses. This is done by encoding the TCP/IP traffic as DNS queries and responses. This allows the TCP/IP traffic to be sent over the DNS protocol, which is usually allowed through firewalls and proxies. There are several tools available for DNS tunneling, such as Iodine and DNScat2.

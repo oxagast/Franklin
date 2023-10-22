@@ -1,0 +1,5 @@
+what is ntlm
+-------- snip --------
+
+
+NTLM (NT LAN Manager) is a Microsoft authentication protocol used in various Microsoft products and services. It is an authentication protocol that is used to authenticate a user, computer, or service in a Windows network environment. NTLM uses a challenge-response authentication mechanism to authenticate a user with a server or domain controller.

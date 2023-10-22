@@ -1,0 +1,65 @@
+bookworm asked $ with hash 68c3f3fe
+<---- snip ---->
+id_user_to_update',
+								password='$password'
+								WHERE id_user='$id_user_to_update'";
+
+		$result = $this->db->query($query);
+
+		if($result)
+		{
+			return TRUE;
+		}
+		else
+		{
+			return FALSE;
+		}
+	}
+
+	public function checkPassword($id_user,$password)
+	{
+		$query = "SELECT password FROM user WHERE id_user='$id_user'";
+		$result = $this->db->query($query);
+		$data = $result->row();
+
+		if($data->password == $password)
+		{
+			return TRUE;
+		}
+		else
+		{
+			return FALSE;
+		}
+	}
+
+	public function getUserByID($id_user)
+	{
+		$query = "SELECT * FROM user WHERE id_user='$id_user'";
+		$result = $this->db->query($query);
+
+		return $result->row();
+	}
+
+	public function getAllUsers()
+	{
+		$query = "SELECT * FROM user";
+		$result = $this->db->query($query);
+
+		return $result->result();
+	}
+
+	public function deleteUser($id_user)
+	{
+		$query = "DELETE FROM user WHERE id_user='$id_user'";
+		$result = $this->db->query($query);
+
+		if($result)
+		{
+			return TRUE;
+		}
+		else
+		{
+			return FALSE;
+		}
+	}
+}

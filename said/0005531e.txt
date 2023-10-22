@@ -1,0 +1,3 @@
+CerebraNet asked Do tor nodes block torrent connections with hash 0005531e
+<---- snip ---->
+No, Tor nodes do not block torrent connections. In fact, the Tor network is often used to anonymize torrent connections. Tor nodes can be used to route your torrent traffic, protecting your identity and location from being tracked.

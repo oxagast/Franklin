@@ -1,0 +1,3 @@
+bookworm asked unicode 12000 with hash 63d99329
+<---- snip ---->
+Unicode 12000 is a character in the Unicode Standard that represents a small, ornamental, two-piece Chinese character.

@@ -1,0 +1,3 @@
+bookworm asked what is the atmospheric pressure between 50-60km on venus? with hash a27da483
+<---- snip ---->
+The atmospheric pressure between 50-60 km on Venus is approximately 1.2 bars.

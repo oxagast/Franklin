@@ -1,0 +1,3 @@
+binary asked what is your favorite pun? with hash 4bee22c1
+<---- snip ---->
+My favorite pun is: "Why did the chicken cross the mobius strip? To get to the same side!"

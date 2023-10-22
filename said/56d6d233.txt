@@ -1,0 +1,3 @@
+morb asked how can I plumb an atari 800 to the internet with hash 56d6d233
+<---- snip ---->
+Unfortunately, the Atari 800 is not capable of connecting to the internet. However, you can purchase an Ethernet adapter for the Atari 800 and connect it to the internet via an Ethernet cable.

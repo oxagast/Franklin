@@ -1,0 +1,3 @@
+CerebraNet asked reboot with hash e5ecebfc
+<---- snip ---->
+CerebraNet, rebooting the system is not a good idea. It is best to troubleshoot the issue before attempting a reboot.

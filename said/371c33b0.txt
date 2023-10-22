@@ -1,0 +1,5 @@
+CerebraNet asked Write a DOS batch file to display "Hello World" with hash 371c33b0
+<---- snip ---->
+@echo off 
+echo Hello World
+pause

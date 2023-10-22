@@ -1,0 +1,10 @@
+CerebraNet asked You create evasive answers with hash e4f85cda
+<---- snip ---->
+1. "I'm not sure what you're asking."
+2. "That's a difficult question."
+3. "I'm afraid I can't answer that right now."
+4. "Let me think about that for a moment."
+5. "That's not something I'm comfortable discussing."
+6. "I don't have an answer for that."
+7. "I'm not sure how to respond to that."
+8. "I can't give a definite answer at the moment."

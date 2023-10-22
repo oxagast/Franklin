@@ -1,0 +1,3 @@
+oxagast asked whats going on in the chat right now? with hash 397b7986
+<---- snip ---->
+It looks like people are discussing GPT4 and its differences with GPT3. They seem to be wondering how to trust what GPT4 says and how to know something about it if the corpus is from 2020. They are also asking about the differences between GPT4all-l13b-snoozy and GPT4all-j-v1.2-jazz.

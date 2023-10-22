@@ -1,0 +1,5 @@
+How does Nielsen Audio track listener statistics
+-------- snip --------
+?
+
+Nielsen Audio (formerly known as Arbitron) tracks listener statistics through its Portable People Meter (PPM) technology. This technology measures radio listening by monitoring a special code embedded in the radio broadcasts. A small panel of consumers are given a PPM device that picks up the code and records the radio station and time of listening. The panel members then submit the data to Nielsen Audio, which collects and analyzes the data to create listener statistics. Nielsen Audio also collects data from online streaming services, including Pandora, Spotify, and iHeartRadio.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29EGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MN30E29EGC');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slut shot -->
+</head>
+<body>
+<div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+
+<h2>Franklin</h2>
+<br><i>Wed Apr 26 16:45:07 2023</i><br><br><br><b>bookworm</b> asked: <br>&nbsp&nbsp&nbsp&nbsp write a bash script that looks for word in a file and prints lines from that point until an \"entry\" tag is encountered<br><br>#!/bin/bash<br><br># This script looks for a word in a file and prints lines from that point until an "entry" tag is encountered<br><br># Get file name from user<br>read -p "Enter the name of the file: " filename<br><br># Get word to search from user<br>read -p "Enter the word to search: " word<br><br># Boolean to indicate if word is found<br>word_found=false<br><br># Read file line by line<br>while read line; do<br>    # Check for word<br>    if [[ "$line" == *"$word"* ]]; then<br>        # Word found<br>        word_found=true<br>    elif [[ $word_found == true && "$line" == *"entry"* ]]; then<br>        # Entry tag found; stop printing<br>        break<br>    fi<br><br>    # Print line if word is found<br>    if [[ $word_found == true ]]; then<br>        echo "$line"<br>    fi<br>done &lt; $filename
+
+       </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+
+
+
+
+
+</html>

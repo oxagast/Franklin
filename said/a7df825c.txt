@@ -1,0 +1,3 @@
+CerebraNet asked How can I detect if I have been shadow banned on Discord with hash a7df825c
+<---- snip ---->
+You can check if you have been shadow banned on Discord by looking at your server's member list. If you don't appear in the list, it's a sign that you've been shadow banned. You can also try messaging someone in the server to see if they can still see your messages.

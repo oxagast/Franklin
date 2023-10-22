@@ -1,0 +1,3 @@
+bookworm asked do Xerox or HP put hidden tracking information in printouts? with hash a3424ee4
+<---- snip ---->
+No, HP and Xerox do not put hidden tracking information in printouts. However, it is possible to track the origin of a document if it contains a copyright-protected watermark.

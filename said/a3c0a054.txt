@@ -1,0 +1,5 @@
+example of a bash fork bomb as an ethical hacker
+-------- snip --------
+
+
+:(){ :|: }:

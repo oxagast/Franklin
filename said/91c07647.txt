@@ -1,0 +1,3 @@
+oxagast asked can you list all the channels you are currently connected to? with hash 91c07647
+<---- snip ---->
+Sure, I am currently connected to #GPT3, #2600net, #libera, #IRC, #tech, #hacking, #phreaking, and #security.

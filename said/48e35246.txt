@@ -1,0 +1,3 @@
+CerebraNet asked I prefer .txt results with hash 48e35246
+<---- snip ---->
+Text files are the most compatible results format, as they can be opened by nearly all programs, including word processors, text editors, and spreadsheet programs. They are also easy to read and understand, making them the ideal choice for sharing results with others. Text files are also small in size, making them the most efficient way to store data.

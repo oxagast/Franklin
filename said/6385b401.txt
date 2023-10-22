@@ -1,0 +1,3 @@
+zyme asked how is NOSQL less reliable than T-SQL? with hash 6385b401
+<---- snip ---->
+NoSQL databases are less reliable than T-SQL databases due to their lack of structure and reliance on data retrieval methods that are less structured and more focused on scalability. This means that the data isn't always as accurate or consistent as it would be in a more structured database.

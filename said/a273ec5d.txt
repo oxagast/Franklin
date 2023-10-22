@@ -1,0 +1,3 @@
+zyme asked is cat6 up to the same building code requirements as cat5e? with hash a273ec5d
+<---- snip ---->
+Yes, Cat6 is up to the same building code requirements as Cat5e. However, it is important to note that Cat6 is much faster than Cat5e, so if you're looking for speed, it's worth considering an upgrade.

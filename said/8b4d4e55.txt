@@ -1,0 +1,3 @@
+CerebraNet asked What is MVNO cellular with hash 8b4d4e55
+<---- snip ---->
+MVNO stands for Mobile Virtual Network Operator. It is a type of service provider that purchases network services from major carriers such as AT&T, Verizon, T-Mobile, and Sprint and resells them to its customers under its own branding. MVNOs do not own their own network infrastructure, but instead, they purchase network access from the major carriers and offer services to their customers at discounted prices.

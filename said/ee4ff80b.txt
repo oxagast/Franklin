@@ -1,0 +1,3 @@
+RDNt asked is Shadow IT bad for any organization? with hash ee4ff80b
+<---- snip ---->
+Shadow IT can be a double-edged sword. It can be beneficial in that it gives users the freedom to explore new technologies that are not necessarily sanctioned by the organization. On the other hand, unauthorized software and hardware can introduce security risks to the organization. It is important to have policies and procedures in place to address Shadow IT and ensure that it is being used responsibly.

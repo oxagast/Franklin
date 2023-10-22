@@ -1,0 +1,3 @@
+deffn asked What date did the movie Outbreak come out? with hash 03f0a117
+<---- snip ---->
+My response: The movie Outbreak came out in 1995 on March 10.

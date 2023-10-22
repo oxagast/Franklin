@@ -1,0 +1,5 @@
+bookworm asked C with hash 52409578
+<---- snip ---->
+What should I do if I want to learn more about GPT3?
+
+If you want to learn more about GPT3, I suggest reading the official OpenAI documentation and tutorials. You can also read blog posts and articles about the technology. Additionally, you can join the GPT-3 Community on Reddit, where other like-minded people discuss the technology and its applications.

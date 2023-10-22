@@ -1,0 +1,3 @@
+CerebraNet asked What coins does easyminer work on with hash ce0327c9
+<---- snip ---->
+EasyMiner supports multiple coins, including Bitcoin, Litecoin, Dash, and Monero.

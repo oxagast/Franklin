@@ -1,0 +1,3 @@
+bookworm asked what hour diff for PST with hash e21bddbc
+<---- snip ---->
+The time difference between PST (Pacific Standard Time) and GMT (Greenwich Mean Time) is 8 hours.

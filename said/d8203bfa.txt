@@ -1,0 +1,3 @@
+morb asked my brainfuck interpreter is suid/sgid  with hash d8203bfa
+<---- snip ---->
+No, it is not. SUID/SGID are special access modes that are used to set user or group ownership of a file or directory. Brainfuck interpreters do not require these access modes and do not use them.

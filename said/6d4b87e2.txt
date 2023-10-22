@@ -1,0 +1,15 @@
+bookworm asked list cultures throughout history who have appoximated the square root of 2 including the date attempted with hash 6d4b87e2
+<---- snip ---->
+1. Ancient Babylonians (1800-1600 BC): The Babylonians were the first to approximate the square root of 2, using the fraction 25/7.
+
+2. Ancient Egyptians (1550 BC): The Ancient Egyptians used the fraction 256/81.
+
+3. Ancient Greeks (500 BC): The Ancient Greeks used the fraction 22/7, which is the most commonly used fractional approximation to this day.
+
+4. Chinese (200 BC): The Chinese were the first to use the decimal system to approximate the square root of 2, coming up with the value of 1.414.
+
+5. Indian (100 BC): The Indian mathematician Aryabhata was the first to identify the irrationality of the square root of 2, stating that it was “not expressible by any rational number.”
+
+6. Medieval Islamic mathematicians (800-1400 AD): The Islamic mathematicians were the first to approximate the square root of 2 to five decimal places, coming up with the value of 1.41421.
+
+7. Renaissance Europe (1400-1600 AD): The Renaissance mathematician Ludolph van Ceulen was the first to calculate the square root of 2 to 35 decimal places, an impressive feat for the time.

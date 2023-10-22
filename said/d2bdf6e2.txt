@@ -1,0 +1,3 @@
+bookworm asked Unicode for arrows with hash d2bdf6e2
+<---- snip ---->
+Unicode for arrows is \u2190 \u2191 \u2192 \u2193.

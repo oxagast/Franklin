@@ -1,0 +1,3 @@
+CerebraNet asked When someone says "marco" reply with "polo" with hash 958e45f9
+<---- snip ---->
+"Polo"

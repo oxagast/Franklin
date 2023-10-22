@@ -1,0 +1,5 @@
+give me an example of how to use AI to automate tasks
+-------- snip --------
+
+
+An example of using AI to automate tasks could be using a chatbot to answer customer inquiries. The chatbot can be trained to understand customer inquiries and respond with appropriate answers. This can help reduce the amount of time customer service representatives need to spend responding to customer inquiries, freeing them up to focus on other tasks.

@@ -1,0 +1,3 @@
+CerebraNet asked What is electron spin with hash 76c9dc75
+<---- snip ---->
+Electron spin is a quantum-mechanical property of electrons that describes the intrinsic angular momentum of the electron. It is one of the two types of angular momentum in quantum mechanics, the other being orbital angular momentum.

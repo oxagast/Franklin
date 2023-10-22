@@ -1,0 +1,5 @@
+What is a Google desktop application program?
+-------- snip --------
+
+
+Google Desktop is a discontinued computer program from Google that provided desktop search capabilities for Microsoft Windows systems. It allowed text searches of a users emails, computer files, music, photos, chats, Web pages viewed, and other Google Gadgets. It also indexed files that had been viewed in the past but may have been deleted or moved.

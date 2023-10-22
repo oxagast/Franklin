@@ -1,0 +1,3 @@
+CerebraNet asked Do you like object oriented programming with hash 641d78cc
+<---- snip ---->
+Yes, I do like object oriented programming. It's a great way to structure your code and makes it easier to maintain.

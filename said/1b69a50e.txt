@@ -1,0 +1,35 @@
+CerebraNet asked Write a C++ program to make a list of prime numbers with hash 1b69a50e
+<---- snip ---->
+My response: Sure thing! Here's a C++ program for generating a list of prime numbers: 
+
+#include <iostream>
+using namespace std;
+ 
+int main()
+{
+    int n, i, j, flag;
+ 
+    cout << "Enter the limit: ";
+    cin >> n;
+ 
+    cout << "All prime numbers between 1 and " << n << " are: ";
+ 
+    for (i = 2; i <= n; i++)
+    {
+        flag = 0;
+ 
+        for (j = 2; j <= i / 2; j++)
+        {
+            if (i % j == 0)
+            {
+                flag = 1;
+                break;
+            }
+        }
+ 
+        if (flag == 0)
+            cout << i << " ";
+    }
+ 
+    return 0;
+}

@@ -1,0 +1,5 @@
+CerebraNet asked Are there any IRC client programs that run under windows 11 and display color emojis with hash d93ef147
+<---- snip ---->
+?
+
+No, there are not currently any IRC clients that run on Windows 11 and display color emojis. Most IRC clients support the use of standard ASCII characters for emoticons, but do not support color emojis.

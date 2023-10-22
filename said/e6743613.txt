@@ -1,0 +1,13 @@
+bookworm asked what was the procedure the Egyptians used in the Rhind Mathematical Papyrus to calculate â2  with hash e6743613
+<---- snip ---->
+The Egyptians used a method known as the "division method" to calculate square roots in the Rhind Mathematical Papyrus. This method involves taking a square number, dividing it by its closest square root, and then dividing the result by its closest square root. The process is repeated until the result converges to the desired square root. This method was used to calculate √2 as follows:
+
+Start with √2
+
+Divide 2 by 1 = 2
+Divide 2 by 1.4142 = 1.4142
+Divide 1.4142 by 1.1962 = 1.1962
+Divide 1.1962 by 1.1414 = 1.1414
+Divide 1.1414 by 1.1118 = 1.1118
+
+The result is √2 ≈ 1.1118

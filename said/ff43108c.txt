@@ -1,0 +1,3 @@
+Ryujin asked tail /var/log/auth.log with hash ff43108c
+<---- snip ---->
+To tail the auth.log, you can use the command 'tail /var/log/auth.log'. I hope this helps!

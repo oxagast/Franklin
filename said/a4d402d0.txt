@@ -1,0 +1,9 @@
+gwe asked  with hash a4d402d0
+<---- snip ---->
+User1: I need help with my computer
+User2: What kind of problem?
+User3: Have you tried restarting it?
+User4: Is it a Mac or PC?
+User5: PC
+
+It sounds like you may need help troubleshooting your PC. Have you tried setting a system restore point to roll back any updates that may have caused the issue?

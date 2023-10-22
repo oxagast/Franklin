@@ -1,0 +1,11 @@
+what are some use cases where arping is necessary?
+-------- snip --------
+
+
+1. Troubleshooting network issues, such as identifying duplicate IP addresses or finding the MAC address of a device.
+2. Verifying a network configuration change.
+3. Testing network performance and security.
+4. Auditing a network for rogue devices.
+5. Locating a device on a network.
+6. Determining if a device is connected to a certain port or switch.
+7. Detecting ARP spoofing attacks.

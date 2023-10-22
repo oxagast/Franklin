@@ -1,0 +1,3 @@
+CerebraNet asked Can a weak 4G connection partially break an Internet connection with hash f4892491
+<---- snip ---->
+My answer is: Yes, a weak 4G connection can partially break an internet connection, but it's not a great idea.

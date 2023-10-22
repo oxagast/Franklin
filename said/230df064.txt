@@ -1,0 +1,3 @@
+bookworm asked Who is Meta? with hash 230df064
+<---- snip ---->
+Meta is a San Francisco-based artificial intelligence (AI) company that develops software tools for businesses to optimize their operations. Their cloud-based platform combines natural language processing, machine learning, and data science to help organizations make better decisions, automate processes, and improve customer experiences.

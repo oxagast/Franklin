@@ -1,0 +1,4 @@
+bookworm asked list all unicode numbers for single character duplications of the latin letter \\'e\\' for example \u0065 is same as  \ud0b5 with hash 45811e3c
+<---- snip ---->
+In response to the user's question, here is a list of all Unicode numbers for single character duplications of the Latin letter 'e':
+U+0045 U+0065 U+0394 U+1F100 U+1F1EA U+1F1F7 U+1F3FB U+1F3FC U+1F3FE U+1F3FF U+1F6DE U+1F6DF

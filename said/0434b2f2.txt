@@ -1,0 +1,3 @@
+CerebraNet asked Does Discord shadow banning exist with hash 0434b2f2
+<---- snip ---->
+Yes, Discord shadow banning does exist. It is a feature that allows moderators to effectively ban users from seeing and engaging with messages from other users, while they remain on the server.

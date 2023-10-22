@@ -1,0 +1,5 @@
+tell me how to pop out a buffer in weechat
+-------- snip --------
+
+
+In WeeChat, you can pop out a buffer by using the "/buffer popout" command. This will create a new window for the buffer you select. You can also use the "/window popout" command to pop out the current window.

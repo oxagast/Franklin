@@ -1,0 +1,3 @@
+RDNt asked explain to me the CIA triad for Cybersecurity with hash 83bf30cd
+<---- snip ---->
+The CIA triad for Cybersecurity is an information security model consisting of Confidentiality, Integrity, and Availability. Confidentiality is the protection of information from unauthorized access. Integrity is the assurance that the information is accurate and complete. Availability is the assurance that the information is accessible when needed.

@@ -1,0 +1,5 @@
+CerebraNet asked What is a properly written single HTML5 tag with hash d580a9ac
+<---- snip ---->
+?
+
+<br>

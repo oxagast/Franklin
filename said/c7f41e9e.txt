@@ -1,0 +1,5 @@
+Why wont chirp (the baofeng configuration program) find a USB port
+-------- snip --------
+?
+
+Chirp may not be able to find a USB port if the port is not compatible with the software, the port is damaged, or the port is not properly installed on the computer. In addition, if the Baofeng radio is not properly connected to the USB port, the software may not be able to detect it.

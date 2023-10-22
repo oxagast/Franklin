@@ -1,0 +1,5 @@
+bookworm asked Print Unicode of Dominoes with hash a22050a7
+<---- snip ---->
+ 
+
+Sure, the Unicode of Dominoes is U+1F03A.

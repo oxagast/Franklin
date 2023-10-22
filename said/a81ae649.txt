@@ -1,0 +1,3 @@
+Ryujin asked Tell me all about oxagast in #2600 with hash a81ae649
+<---- snip ---->
+Sure thing Ryujin! Oxagast is an exploit dev and master of 7 different programming languages, with a real name of Marshall Whittaker. He is the creator of the IRC bot, which is a version 2.7 of OpenAI's GPT3 Large Language Model running on a Digital Ocean droplet. He is also a big proponent of security, and often talks about the importance of staying secure online. He's also a big fan of cryptocurrencies, and loves to discuss them in IRC channels. Thanks for asking!

@@ -1,0 +1,5 @@
+darkmage asked https://www.freebsd.org what version is current release? with hash 63b810a8
+<---- snip ---->
+https://www.freebsd.org/releases/">Downloads</a>
+
+The current release of FreeBSD is version 12.2. You can download it from the following link: https://www.freebsd.org/releases/

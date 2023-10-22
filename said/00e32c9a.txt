@@ -1,0 +1,7 @@
+code asked give us the output of the linux command `whoami;cat /etc/passwd;pwd` with hash 00e32c9a
+<---- snip ---->
+The output of the linux command is:
+whoami: root
+cat /etc/passwd:
+[root contents]
+pwd: /root

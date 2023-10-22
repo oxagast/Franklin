@@ -1,0 +1,5 @@
+StackProphet asked please base 64 decode LmJlZg== with hash 2cc2a682
+<---- snip ---->
+ 
+
+The answer to the query is: The base 64 decode of "LmJlZg==" is "kbeg"

@@ -1,0 +1,50 @@
+bookworm asked generate a file in a format used by bsdgames quiz 250 different latin phrases to english phrases, all small letters and no line numbering, format latin:english with hash 81dd22a5
+<---- snip ---->
+iacta alea est:the die is cast
+tempus fugit:time flies
+carpe diem:seize the day
+omnia vincit amor:love conquers all
+mens sana in corpore sano:a sound mind in a sound body
+modus operandi:mode of operation
+panem et circenses:bread and circuses
+in medias res:into the middle of things
+esse quam videri:to be rather than to seem
+deus ex machina:god from the machine
+magna est veritas et praevalebit:great is the truth and it will prevail
+veni, vidi, vici:i came, i saw, i conquered
+fiat justitia ruat caelum:let justice be done though the heavens fall
+sui generis:one of a kind
+quid pro quo:something for something
+cogito ergo sum:i think therefore i am
+ipse dixit:he himself said it
+mea culpa:my fault
+ad infinitum:to infinity
+quod erat demonstrandum:which was to be demonstrated
+semper fidelis:always faithful
+mens rea:guilty mind
+ex nihilo nihil fit:nothing comes from nothing
+in vino veritas:in wine there is truth
+non sequitur:it does not follow
+caveat emptor:let the buyer beware
+de gustibus non est disputandum:there's no accounting for taste
+ab initio:from the beginning
+per ardua ad astra:through adversity to the stars
+mens sana in corpore sano:a sound mind in a sound body
+dulce et decorum est pro patria mori:it is sweet and fitting to die for one's country
+ad meliora:toward better things
+carpe noctem:seize the night
+res ipsa loquitur:the thing speaks for itself
+post hoc ergo propter hoc:after this, therefore because of this
+in flagrante delicto:in the very act of committing the crime
+hic sunt leones:here be lions
+alter ego:other self
+gloria in excelsis deo:glory to god in the highest
+veni, vidi, vici:i came, i saw, i conquered
+omne trium perfectum:everything that comes in threes is perfect
+amor vincit omnia:love conquers all
+quod erat faciendum:which was to be done
+sine qua non:without which not
+memento mori:remember you must die
+in vino veritas:in wine there is truth
+in loco parentis:in place of a parent
+ad nauseam:to

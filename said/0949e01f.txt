@@ -1,0 +1,5 @@
+what is namla technology in the sd-wan field?
+-------- snip --------
+
+
+Namla Technology is an SD-WAN technology that uses a cloud-first approach to deliver secure, high-performance networking solutions to businesses. It leverages software-defined networking (SDN) and virtualization to provide a secure, high-performance, cloud-based WAN that is easy to manage and highly scalable. Namlas SD-WAN solutions are designed to support a variety of applications while providing the flexibility to adjust bandwidth and latency on the fly. The technology also has built-in security features, including encrypted tunnels, secure data access control, and intrusion detection and prevention.

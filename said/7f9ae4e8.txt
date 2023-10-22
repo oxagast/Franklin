@@ -1,0 +1,5 @@
+Can I send bitcoin while my wallet is synchronising
+-------- snip --------
+
+
+No, you cannot send Bitcoin while your wallet is synchronizing. Your wallet must be fully synced before you can send and receive Bitcoin.

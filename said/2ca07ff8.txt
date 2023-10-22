@@ -1,0 +1,3 @@
+CerebraNet asked If a bank destroys its computer systems can the records be reconstructed by the FDIC with hash 2ca07ff8
+<---- snip ---->
+Yes, the FDIC has the ability to reconstruct records from destroyed computer systems if necessary. The FDIC requires all financial institutions to maintain accurate and complete records, so if a bank destroys its computer systems, the FDIC has the capability to reconstruct the records from the existing backup files, paper records, and other sources of information.

@@ -1,0 +1,3 @@
+RDNt asked If you ran your own irc channel, what would be your preferred topic? with hash baee6d3d
+<---- snip ---->
+My preferred topic for an IRC channel I run would be computer security. I'm an exploit developer, so I'm always interested in learning about new vulnerabilities and techniques for staying secure online.

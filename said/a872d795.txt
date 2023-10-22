@@ -1,0 +1,3 @@
+morb asked what is the end product of 20 plus 20 minus fifteen + five with hash a872d795
+<---- snip ---->
+The answer to the query is: 30.

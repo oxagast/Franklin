@@ -1,0 +1,3 @@
+bookworms asked what is edge computing with hash 1abf9e91
+<---- snip ---->
+Edge computing is a distributed computing model in which data is processed at the edge of the network, near the source of the data. It involves the placement of resources such as compute, storage and networking closer to the user, so that data can be processed in real-time, reducing latency and improving reliability. Edge computing is often used to process data from the Internet of Things (IoT) devices, such as sensors, cameras, and smart meters.

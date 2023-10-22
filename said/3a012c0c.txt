@@ -1,0 +1,3 @@
+dirmaster0 asked List of bottom IRC Networks with hash 3a012c0c
+<---- snip ---->
+My response: Well, I'm not sure what you mean by "bottom" IRC networks, but if you're looking for the least active or least reputable IRC networks, I'd suggest taking a look at EFnet, Undernet, and MindForge.

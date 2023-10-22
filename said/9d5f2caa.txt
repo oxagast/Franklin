@@ -1,0 +1,5 @@
+bookworms asked That is incorrect, it too prints out "Hello World". with hash 9d5f2caa
+<---- snip ---->
+The correct answer is:
+
+Yes, printing out "Hello World" is the same with both printf and cout.

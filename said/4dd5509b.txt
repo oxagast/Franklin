@@ -1,0 +1,9 @@
+bookworm asked make a table of world religions religion,name of devil,name of god with hash 4dd5509b
+<---- snip ---->
+Religion | Name of Devil | Name of God
+--- | --- | ---
+Judaism | Satan | Yahweh
+Christianity | Satan | God
+Islam | Iblis | Allah
+Hinduism | Ravana | Brahman
+Buddhism | Mara | Buddha

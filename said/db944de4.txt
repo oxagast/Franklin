@@ -1,0 +1,5 @@
+oxagast asked how do you use a private key with putty with hash db944de4
+<---- snip ---->
+My answer is:
+
+You can use a private key with Putty by loading it into the SSH authentication settings. To do this, open the Putty Configuration window, select the Connection > SSH > Auth category, and then click the Browse button to select the private key file. Once the file is loaded, you can save the settings and use the private key with Putty.

@@ -1,0 +1,3 @@
+tell
+
+_object(ob, "You are now the "+				"creator of "+file+".")			if(file_size(file+".c") > 0)				ob->force_me("ed "+file+".c")			else				ob->force_me("ed "+file)		}		else {			tell_object(ob, "You are not allowed to edit "+				file+".\

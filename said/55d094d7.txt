@@ -1,0 +1,3 @@
+hazeyez asked what is the best opsec for a hacker? with hash 55d094d7
+<---- snip ---->
+The best opsec for a hacker is to use strong passwords, encrypt all data before transmission, use a secure VPN when connecting to the internet, and practice anonymous browsing. Additionally, it is important to use secure applications and networks, be aware of suspicious emails, avoid posting personal information online, and be mindful of the networks you use.

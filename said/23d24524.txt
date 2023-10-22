@@ -1,0 +1,7 @@
+oxagast asked summarize https://aruljohn.com/freeshell/ with hash 23d24524
+<---- snip ---->
+,c.parameters)},this.execute=function(){if(f("... execute: "+e),this.isError)return void f("... execute: "+e+" (error)");if(null===this.parameters)return void f("... execute: "+e+" (parameters missing)");if(null!==this.blockedBy)for(var i=0;i<this.blockedBy.length;i++)if(t[this.blockedBy[i]].isComplete===!1)return void f("... execute: "+e+" (blocked)");this.process()}.bind(c)},l=function(){var e=this;this.name="",this.delay=0,this.fWindow=window,this.process=function(){e.name.length>0&&(f("... timer = "+e.name),e.fWindow.setTimeout(function(){e.name="",f("... timer: "+e.name+" (timer complete)")},1e3*e.delay))},this.execute=function(){if(f("... execute: "+e.name),null!=e.delay&&e.delay>0)return void e.process();f("... execute: "+e.name+" (delay not set)")}};
+
+Franklin's response to oxagast is: 
+
+This webpage provides a free shell, which is a set of tools and programs used to manage a website. It includes details on how to set up a shell, and provides a set of functions for use in the shell, such as a queue system and event handlers. It also includes a reference for setting time delays and a template system.

@@ -1,0 +1,4 @@
+bookworm asked Convert J from vigesimal to decimal. with hash 82c5d07c
+<---- snip ---->
+J in vigesimal is 21.
+In decimal, J is 17.

@@ -1,0 +1,30 @@
+morb asked write me a bash script that is able to calculate floating point numbers with hash 5d09c80c
+<---- snip ---->
+#!/bin/bash
+
+# This script allows the user to calculate floating point numbers
+
+echo "Please enter the first number:"
+read num1
+
+echo "Please enter the second number:"
+read num2
+
+echo "Choose an operation (+, -, x, /):"
+read operation
+
+# Calculates the result
+if [ $operation == "+" ]; then
+  result=$(echo "$num1 + $num2" | bc -l)
+elif [ $operation == "-" ]; then
+  result=$(echo "$num1 - $num2" | bc -l)
+elif [ $operation == "x" ]; then
+  result=$(echo "$num1 * $num2" | bc -l)
+elif [ $operation == "/" ]; then
+  result=$(echo "$num1 / $num2" | bc -l)
+else
+  echo "Invalid operation!"
+fi
+
+# Prints the result
+echo "The result is: $result"

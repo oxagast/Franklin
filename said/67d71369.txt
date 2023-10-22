@@ -1,0 +1,3 @@
+bookworm asked Does a television interact with its environment? with hash 67d71369
+<---- snip ---->
+No, a television does not interact with its environment. It receives signals from its environment in the form of broadcast signals and cable signals, but it does not interact with it.

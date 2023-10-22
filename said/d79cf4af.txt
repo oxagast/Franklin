@@ -1,0 +1,3 @@
+CerebraNet asked Is case of superior to if then with hash d79cf4af
+<---- snip ---->
+That's an interesting question. It really depends on the situation. Generally speaking, if then statements are more versatile, but case of statements can be more efficient when dealing with multiple cases.

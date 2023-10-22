@@ -1,0 +1,3 @@
+CerebraNet asked If you are an adult male in the main city of Korea, are you a Seoul man. with hash b42046be
+<---- snip ---->
+Yes, if you are an adult male in the main city of Korea, you are indeed a Seoul man.

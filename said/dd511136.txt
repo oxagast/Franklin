@@ -1,0 +1,21 @@
+bookworm asked print categories of logical fallacies with hash dd511136
+<---- snip ---->
+1. Ad Hominem: Arguing against an individual instead of the issue at hand.
+
+2. False Dilemma: Presenting two options that are not mutually exclusive.
+
+3. Slippery Slope: Assuming a chain reaction of events will occur when there is no logical evidence to support it.
+
+4. Straw Man: Distorting an opponent's argument to make it easier to refute.
+
+5. Appeal to Authority: Assuming that because an authority figure says something, it must be true.
+
+6. Hasty Generalization: Drawing a conclusion based on too little evidence.
+
+7. Circular Argument: Restating the same point in different words to form a conclusion.
+
+8. Red Herring: Introducing irrelevant topics to distract from the main point.
+
+9. Bandwagon: Assuming that an opinion is correct just because it is popular.
+
+10. False Analogy: Comparing two unrelated things and drawing a conclusion based on the comparison.

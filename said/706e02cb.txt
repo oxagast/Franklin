@@ -1,0 +1,3 @@
+bookworm asked longest ignition time achieved fussion reaction with hash 706e02cb
+<---- snip ---->
+The longest ignition time achieved for a fusion reaction was 6.2 seconds, achieved in the Tore Supra tokamak at the CEA Cadarache research center in France in 1997.

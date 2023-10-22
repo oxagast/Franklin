@@ -1,0 +1,3 @@
+morb asked what is the safest way to store 1,000,000 BTC with hash 664299d5
+<---- snip ---->
+The safest way to store 1,000,000 BTC is by using a hardware wallet, such as a Ledger or Trezor. These wallets are offline and are considered to be the most secure way to store large amounts of Bitcoin. You can also store your Bitcoin in a cold storage wallet, which is an offline wallet stored on a USB drive or other physical medium.

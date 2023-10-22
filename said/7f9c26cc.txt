@@ -1,0 +1,3 @@
+captain asked what are Adrian lamos most famous exploits with hash 7f9c26cc
+<---- snip ---->
+Adrian Lamo's most famous exploits include compromising the networks of The New York Times, Microsoft, and Yahoo!, among others. He is also known for his work in Penetration Testing and Vulnerability Assessment.

@@ -1,0 +1,3 @@
+bookworm asked give me a palindrome with hash 416f144a
+<---- snip ---->
+Racecar

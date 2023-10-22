@@ -1,0 +1,5 @@
+How do I get hexchat to use color emojis
+-------- snip --------
+?
+
+Unfortunately, Hexchat does not support color emojis. The only way to get color emojis is to use an external program such as Slack, Discord, or Skype.

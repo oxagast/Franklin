@@ -1,0 +1,3 @@
+bookworm asked How can I measure things using the unit, Library of Congress? with hash fb380637
+<---- snip ---->
+You can measure the size of a library or collection of books using the Library of Congress Classification system. It is an alphanumeric system that assigns a unique call number to each book in a library. This call number is based on the subject of the book and its place in the order of the library's collection.

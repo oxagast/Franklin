@@ -1,0 +1,3 @@
+zyme asked 40C = how many degrees F? with hash 8ead5e01
+<---- snip ---->
+My answer is: 104 degrees Fahrenheit.

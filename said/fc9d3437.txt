@@ -1,0 +1,5 @@
+I changed my IRC nickname back to normal
+-------- snip --------
+
+
+If you are using an IRC client to connect to an IRC server, you should be able to change your nickname by typing the command /nick <newnick>. This will change your nickname to the newnick you specify.

@@ -1,0 +1,3 @@
+morb asked what was the idt winchip with hash a6d57f95
+<---- snip ---->
+The IDT WinChip is an x86-compatible low-power processor developed by IDT (Integrated Device Technology). It was introduced in 1996 and was designed to compete with Intel and AMD in the low-power market. It was designed to be used in low-power and embedded applications.

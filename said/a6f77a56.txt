@@ -1,0 +1,68 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different spanish phrases to english phrases, all small letters and no line numbering, format spanish:english with hash a6f77a56
+<---- snip ---->
+hola:hello
+adios:goodbye
+por favor:please
+gracias:thank you
+buenos dias:good morning
+buenas tardes:good afternoon
+buenas noches:good evening
+si:yes
+no:no
+de nada:you're welcome
+como estas:how are you?
+bien:good
+mal:bad
+me llamo:my name is
+me gusta:i like
+hace frio:it is cold
+hace calor:it is hot
+hace sol:it is sunny
+hace viento:it is windy
+estoy cansado:i am tired
+estoy aburrido:i am bored
+esta cerca:it is close
+esta lejos:it is far
+esta bien:it is ok
+quien:who
+que:what
+cuando:when
+donde:where
+por que:why
+como:how
+vamos:let's go
+puedo:i can
+quiero:i want
+necesito:i need
+tengo:i have
+tiene:he/she/it has
+hay:there is/are
+quieres:do you want?
+deseas:do you wish?
+puedes:can you?
+puedo ayudarte:can i help you?
+lo siento:i am sorry
+estoy triste:i am sad
+estoy feliz:i am happy
+estoy enojado:i am angry
+estoy ocupado:i am busy
+quieren:they want
+quieren ir:they want to go
+hable mas despacio:speak slower
+habla mas alto:speak louder
+quien es eso:who is that?
+que haces:what are you doing?
+eso es todo:that is all
+te llamo luego:i will call you later
+no entiendo:i don't understand
+por favor repite:please repeat
+no hablo espanol:i don't speak spanish
+donde vives:where do you live?
+cual es tu direccion:what is your address?
+cuantos anos tienes:how old are you?
+cual es tu numero de telefono:what is your phone number?
+cuanto cuesta:how much does it cost?
+quieres una bebida:do you want a drink?
+quieres ir al cine:do you want to go to the movies?
+quieres ir a bailar:do you want to go dancing?
+quieres comer algo:do you want to eat something

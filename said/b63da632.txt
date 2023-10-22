@@ -1,0 +1,7 @@
+please give 2 examples of a search application program that connects to Google search in a way better than the web interface
+-------- snip --------
+
+
+1. Google Desktop: This is a desktop-based application that allows you to search your hard drive, email, and the web using the same Google search technology used on the web. It also allows you to customize the results that appear when you search. 
+
+2. Google Toolbar: This is a web browser toolbar that allows you to search the web using Google search. It also includes a number of useful features such as bookmarks, autofill, and a pop-up blocker.

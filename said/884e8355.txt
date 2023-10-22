@@ -1,0 +1,9 @@
+bookworm asked table showing Shell Parameter Expansion with hash 884e8355
+<---- snip ---->
+|  Expansion  | Meaning  |
+|------------|----------|
+| ${parameter:-word} | Use Default Value. If parameter is unset or null, the expansion of word is substituted. |
+| ${parameter:=word} | Assign Default Value. If parameter is unset or null, the expansion of word is assigned to parameter. |
+| ${parameter:?word} | Use Alternative Value. If parameter is unset or null, the expansion of word (or a message to that effect if word is not present) is output to standard error and the shell, if it is not interactive, exits with a non-zero status. |
+| ${parameter:+word} | Use Alternative Value. If parameter is set and not null, the expansion of word is substituted. |
+| ${parameter:offset:length} | Substring Expansion. Expands to up to length characters of parameter starting at the character specified by offset. |

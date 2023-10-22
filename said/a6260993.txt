@@ -1,0 +1,5 @@
+What is a good antenna to receive radio from 1 MHz to 5 GHz
+-------- snip --------
+
+
+A good antenna to receive radio from 1 MHz to 5 GHz is a log-periodic antenna. Log-periodic antennas are designed to receive a wide range of frequencies, with good performance across a broad frequency range.

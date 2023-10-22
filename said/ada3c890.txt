@@ -1,0 +1,3 @@
+bookworm asked How much computation time does this question use? with hash ada3c890
+<---- snip ---->
+The amount of computation time used for this question depends on the complexity of the question and the computing power of the system being used. If the question is complex and the system being used is powerful, it could take a significant amount of time to complete the computation.

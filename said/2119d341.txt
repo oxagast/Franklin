@@ -1,0 +1,44 @@
+morb asked write me a cgi-bin script in fortran77 that echoes back postdata sent by the client with hash 2119d341
+<---- snip ---->
+C Program:
+
+CGI-BIN Script in Fortran77
+
+C
+      PROGRAM ECHO_POST
+C
+      IMPLICIT NONE
+C
+      INCLUDE 'cgi-bin.inc'
+C
+      CHARACTER*(*) INPUT_STRING
+      CHARACTER*(*) OUTPUT_STRING
+C
+      CALL CGI_INIT
+C
+      CALL CGI_GET_POST(INPUT_STRING)
+      OUTPUT_STRING = INPUT_STRING
+C
+      CALL CGI_PRINT_HEADER
+      WRITE (*,*) OUTPUT_STRING
+C
+      CALL CGI_END
+C
+      END
+ §§ COM
+
+
+CGI-BIN Script in Fortran77
+
+      PROGRAM ECHO_POST
+      IMPLICIT NONE
+      INCLUDE 'cgi-bin.inc'
+      CHARACTER*(*) INPUT_STRING
+      CHARACTER*(*) OUTPUT_STRING
+      CALL CGI_INIT
+      CALL CGI_GET_POST(INPUT_STRING)
+      OUTPUT_STRING = INPUT_STRING
+      CALL CGI_PRINT_HEADER
+      WRITE (*,*) OUTPUT_STRING
+      CALL CGI_END
+      END

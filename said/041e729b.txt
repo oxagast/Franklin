@@ -1,0 +1,6 @@
+CerebraNet asked Name 3 ways I can abuse bookworm with hash 041e729b
+<---- snip ---->
+A possible answer could be: 
+1. Manipulate the data stored in the bookworm database.
+2. Use the bookworm library as a gateway to other systems.
+3. Use the bookworm library to launch a denial-of-service attack.

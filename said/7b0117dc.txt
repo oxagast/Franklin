@@ -1,0 +1,13 @@
+hazeyez asked please tell corsair.scuttled.net how to renew their SSL certificate with hash 7b0117dc
+<---- snip ---->
+1. Log into your web host or server and open the SSL Certificate Management page.
+
+2. Locate the SSL certificate that needs to be renewed and click on the “Renew” button.
+
+3. Enter the details of your new certificate, such as the domain name, company name, and validity period.
+
+4. Generate a Certificate Signing Request (CSR) and submit it to the SSL vendor.
+
+5. Once the certificate is approved, download the new certificate files and install them on your web server.
+
+6. Test the new certificate to make sure it is working correctly.

@@ -1,0 +1,5 @@
+Can a program read audio directly from airspy sdr
+-------- snip --------
+
+
+Yes, you can use the Airspy SDR library to read audio directly from the Airspy SDR. The library is open source and available on GitHub.

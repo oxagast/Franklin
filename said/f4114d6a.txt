@@ -1,0 +1,3 @@
+Can I embed C++ in my HTML?
+
+No, you cannot embed C++ in HTML. HTML is a markup language used to create webpages, while C++ is a programming language used to create applications.

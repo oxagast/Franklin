@@ -1,0 +1,5 @@
+morb asked what"s the difference between a blockchain and a logfile with hash 76928ea0
+<---- snip ---->
+A blockchain is a distributed ledger or database that records transactions across multiple computers. It is an immutable record of all transactions that have ever occurred on the network and is the underlying technology behind cryptocurrencies such as Bitcoin. 
+
+A logfile is a file that records events that occur within a computer system. Logfiles are used by system administrators to monitor activities and debug problems. Logfiles are not immutable and can be modified or deleted.

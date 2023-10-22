@@ -1,0 +1,9 @@
+Hardware requirements for terraform, bulletpoint list
+-------- snip --------
+
+
+• Operating System: Windows 7 or later, macOS, Linux
+• Processor: Intel/AMD 64-bit processor
+• Memory: 4GB RAM minimum
+• Disk Space: 40GB or more
+• Network: Internet access for remote operations

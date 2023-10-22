@@ -1,0 +1,13 @@
+bookworm asked How to deal with difficult people on IRC? with hash 67685fb5
+<---- snip ---->
+1. Stay calm: When confronted with difficult people on IRC, it is important to remain as calm as possible. Avoid responding to any insults or aggressive behavior with aggression of your own.
+
+2. Be civil: Remain polite and respectful in your dealings with the difficult person. Avoid any personal attacks or name-calling.
+
+3. Set boundaries: Make it clear that there are certain topics or behaviors that are not appropriate. Let the person know that their behavior is not acceptable and that they will be blocked or banned if they continue.
+
+4. Use Ignore: If the difficult person continues to be disruptive or offensive, use the ignore feature to block them. This will prevent them from sending messages to you or being able to see your messages.
+
+5. Report the user: If the person is making threats, harassing other users, or breaking any of the IRC rules, report them to the moderators or administrators.
+
+6. Seek help: If the difficult person is making you feel uncomfortable or unsafe, reach out to a trusted friend or family member for support.

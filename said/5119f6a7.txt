@@ -1,0 +1,5 @@
+bookworm asked utf-8 for letter &#xd0b5 with hash 5119f6a7
+<---- snip ---->
+;
+
+Э

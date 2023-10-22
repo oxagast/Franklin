@@ -1,0 +1,5 @@
+Can operator actions in Hexchat be changed
+-------- snip --------
+?
+
+Yes, you can change operator actions in Hexchat by going to Settings > Preferences > Advanced > Permissions and changing the operator action settings.

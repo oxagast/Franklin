@@ -1,0 +1,8 @@
+bookworm asked List distinct letters from the English alphabet of alphabets for German, Polish, Portuguese, Latin, Spanish and French only listing letters that don\\'t match english letters and do not include letters that can be converted to English via ASCII with hash 9515a5fd
+<---- snip ---->
+German: Ä, Ö, Ü, ß
+Polish: Ą, Ć, Ę, Ł, Ń, Ó, Ś, Ź, Ż
+Portuguese: Ã, É, Ê, Í, Õ, Ó, Ú
+Latin: Ā, Ē, Ī, Ō, Ū
+Spanish: Ñ, ¿, ¡
+French: À, Â, Æ, Ç, È, É, Ê, Ë, Î, Ï, Ô, Œ, Ù, Û, Ü, Ÿ

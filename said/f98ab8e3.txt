@@ -1,0 +1,5 @@
+What is Himem.sys used for?
+-------- snip --------
+
+
+Himem.sys is a device driver used to manage extended memory on computers running the Microsoft DOS operating system. It allows programs to access memory beyond the 1 MB limit imposed by DOS. Himem.sys is installed by default on most systems, and must be loaded in the CONFIG.SYS file before any other memory-resident programs.

@@ -1,0 +1,5 @@
+How do you know JWICS is not a VPN over Internet 2?
+-------- snip --------
+
+
+JWICS is not a VPN over Internet 2 because it is a dedicated, secure network that is run by the U.S. government for the exchange of classified information. It is not publicly accessible and does not run over the public Internet.

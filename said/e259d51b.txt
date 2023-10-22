@@ -1,0 +1,3 @@
+morb asked how many hdmi to vga adapters do I need for a X11 based videowall with twenty five 15khz rgb monitors with hash e259d51b
+<---- snip ---->
+You will need 25 HDMI to VGA adapters for a X11 based videowall with twenty five 15khz RGB monitors.

@@ -1,0 +1,5 @@
+morb asked print me the top three lines from smurf.c with hash 3a95d093
+<---- snip ---->
+1. #include <stdio.h>
+2. int main(void)
+3. {printf("Hello, smurfs!\n"); return 0;}

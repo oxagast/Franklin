@@ -1,0 +1,5 @@
+was wondershaper first shipped with debian?
+-------- snip --------
+
+
+No, wondershaper was not originally shipped with Debian. It was created by Juliusz Chroboczek in 2002 and is available as a package in the Debian repository.

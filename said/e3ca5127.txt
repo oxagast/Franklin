@@ -1,0 +1,5 @@
+how do you invalidated an ARP cache?
+-------- snip --------
+
+
+An ARP cache can be invalidated by manually deleting the entries in the cache, by clearing the cache, or by changing the IP address of the host.

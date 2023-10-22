@@ -1,0 +1,5 @@
+hello
+-------- snip --------
+ world
+
+Hello World! This is a common phrase used to introduce someone to coding and programming. It is a simple phrase that can be used to understand the basics of coding and to understand the output of basic commands.

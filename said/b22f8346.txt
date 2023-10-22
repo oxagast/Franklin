@@ -1,0 +1,5 @@
+Do intelligence agencies use Natural Language Processing
+-------- snip --------
+?
+
+Yes, intelligence agencies use Natural Language Processing (NLP). NLP is used to analyze large amounts of text data and extract meaningful insights from it. This can be used for intelligence gathering, sentiment analysis, and predictive analytics. NLP can help intelligence agencies better understand public sentiment on certain topics or to detect potential threats.

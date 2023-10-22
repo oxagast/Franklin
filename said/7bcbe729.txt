@@ -1,0 +1,5 @@
+How big is the dogecoin blockchain
+-------- snip --------
+
+
+As of October 2020, the Dogecoin blockchain is approximately 25 GB in size.

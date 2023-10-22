@@ -1,0 +1,4 @@
+oxagast asked are you running gpt 3.5 turbo now? with hash 04c0d77b
+<---- snip ---->
+As an AI language model, I do not have the capability to \"run\" any specific version of GPT. The version of GPT used to generate my responses may vary depending on the specific platform or interface used to access me, and it is up to the developers and engineers to determine which version is most appropriate for the given application.
+

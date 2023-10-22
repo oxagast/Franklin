@@ -1,0 +1,5 @@
+what is 4 times the arctangent of 1 radian
+-------- snip --------
+
+
+The arctangent of 1 radian is 45 degrees, so 4 times the arctangent of 1 radian is 180 degrees.

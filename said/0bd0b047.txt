@@ -1,0 +1,5 @@
+CerebraNet asked What is the square root of 1 with hash 0bd0b047
+<---- snip ---->
+,000
+
+The square root of 1,000 is 31.6227766.

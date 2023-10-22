@@ -1,0 +1,5 @@
+Can I reuse a BTC receive address
+-------- snip --------
+?
+
+Yes, you can reuse a BTC receive address. However, it is not recommended as using the same address for multiple transactions can make it easier for others to track your transactions and link them to your identity. It is best to use a new address for each transaction for better privacy and security.

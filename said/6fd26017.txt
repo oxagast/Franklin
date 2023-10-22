@@ -1,0 +1,3 @@
+StackProphet asked reverse the string dneirfeb SIVRAJ with hash 6fd26017
+<---- snip ---->
+The reversed string is RajVisbeerfnd

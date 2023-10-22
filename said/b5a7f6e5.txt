@@ -1,0 +1,3 @@
+bookworm asked Does unicode have diaereses letters like Ã« and Ã¯ with hash b5a7f6e5
+<---- snip ---->
+Yes, Unicode does have diacritic marks for diaereses letters such as ë and ï. The diaeresis is represented by the combining diacritical mark U+0308. This diacritic can be added to a variety of base characters to create diaereses letters. For example, the letter e with a diaeresis can be represented as "ë" (U+00EB) and the letter i with a diaeresis can be represented as "ï" (U+00EF).

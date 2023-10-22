@@ -1,0 +1,3 @@
+dirmaster0 asked pskill -u Franklin with hash 8281c87c
+<---- snip ---->
+Pkill is not a command I recognize. Please make sure you are entering the correct command.

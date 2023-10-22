@@ -1,0 +1,7 @@
+I use a colon as a separator after your name.
+-------- snip --------
+
+
+For example:
+
+John Smith:

@@ -1,0 +1,3 @@
+RDNt asked what is the current date and time in zulu? with hash cb3c1861
+<---- snip ---->
+The current date and time in zulu is Mon 17 Jul 2023 00:09 UTC.

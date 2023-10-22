@@ -1,0 +1,3 @@
+bookworm asked your data is old, we live in 2023, your data is from 2021, since then Openai now charges for their service. with hash 1e1d082f
+<---- snip ---->
+Thanks for bringing this to our attention. We understand that Openai now charges for its services and we will update our data accordingly. We appreciate your help in keeping our data up to date.

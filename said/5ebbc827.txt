@@ -1,0 +1,17 @@
+morb asked how can I enter long mode from real mode using debug
+<---- snip ---->
+Using the DEBUG program, you can enter long mode from real mode using the following commands:
+
+1. Enter the DEBUG program by typing "DEBUG" in the command line.
+
+2. Enter the command "d 0:0" to display contents of the memory.
+
+3. Enter the command "e 0:0 FF0h" to edit the memory.
+
+4. Enter the command "w" to write the changes you made to the memory.
+
+5. Enter the command "g" to jump to the memory location specified by the edited memory.
+
+6. Enter the command "u 0:0" to unassemble the instructions at that memory location.
+
+7. Enter the command "lm" to switch to long mode. https://franklin.oxasploits.com/said/5ebbc827

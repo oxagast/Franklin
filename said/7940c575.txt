@@ -1,0 +1,5 @@
+does a rtl-sdr get hot
+-------- snip --------
+
+
+Yes, an RTL-SDR can get hot, depending on the environment and how long it is used. The heat is generated from the RF amplifier and the voltage regulator. To help prevent the device from getting too hot, it is recommended to use a heatsink or enclosure with a fan.

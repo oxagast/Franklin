@@ -1,0 +1,7 @@
+oxagast asked write a very long quine in ruby
+<---- snip ---->
+# The quine we're writing is a Ruby program
+
+# This is the quine
+code = "code = \"#{code.gsub(/"/, '\"')}\"\nputs code"
+puts code https://franklin.oxasploits.com/said/d8391d97

@@ -1,0 +1,5 @@
+bookworm asked ] with hash 7d528bae
+<---- snip ---->
+What is the best way to learn programming?
+
+The best way to learn programming is to start with a language you're interested in, and then to practice, practice, practice. Find some tutorials or projects to work on, and work through them. Ask questions if you get stuck, and don't be afraid to try things out and make mistakes. Finally, make sure you take the time to really understand what you're doing, and how it works. Good luck!

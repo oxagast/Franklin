@@ -1,0 +1,3 @@
+bookworm asked what does a modern server computer consume for electricity on average? with hash 820b3252
+<---- snip ---->
+On average, a modern server computer will consume around 400-500 watts of electricity. However, this number can vary greatly depending on the type of server and the amount of activity it is running.

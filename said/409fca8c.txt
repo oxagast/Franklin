@@ -1,0 +1,31 @@
+bookworm asked write a bash script that looks for word in a file and prints lines from that point until an \"entry\" tag is encountered with hash 409fca8c
+<---- snip ---->
+#!/bin/bash
+
+# This script looks for a word in a file and prints lines from that point until an "entry" tag is encountered
+
+# Get file name from user
+read -p "Enter the name of the file: " filename
+
+# Get word to search from user
+read -p "Enter the word to search: " word
+
+# Boolean to indicate if word is found
+word_found=false
+
+# Read file line by line
+while read line; do
+    # Check for word
+    if [[ "$line" == *"$word"* ]]; then
+        # Word found
+        word_found=true
+    elif [[ $word_found == true && "$line" == *"entry"* ]]; then
+        # Entry tag found; stop printing
+        break
+    fi
+
+    # Print line if word is found
+    if [[ $word_found == true ]]; then
+        echo "$line"
+    fi
+done < $filename

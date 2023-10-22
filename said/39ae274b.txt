@@ -1,0 +1,5 @@
+StackProphet
+-------- snip --------
+
+
+Facebook Prophet is an open source forecasting library for Python and R. It is built on top of the existing forecasting library, Prophet, and provides an easy to use and efficient way to forecast time series data. It can be used to forecast sales, website traffic, and other types of data. It uses a combination of advanced statistical methods and machine learning algorithms to make accurate predictions. It is easy to use, with a simple interface and intuitive controls. It also provides a range of reporting and visualization tools to help users make informed decisions.

@@ -1,0 +1,3 @@
+bookworm asked spell hamburger in spanish with hash c046778f
+<---- snip ---->
+El hamburguesa se escribe en español.

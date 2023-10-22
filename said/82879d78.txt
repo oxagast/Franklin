@@ -1,0 +1,5 @@
+bookworm asked Using Bash sort, how to sort a file by largest line characters first to smallest lines? with hash 82879d78
+<---- snip ---->
+To sort a file by largest line characters first to smallest lines, you can use the following command:
+
+sort -r -k2 file_name

@@ -1,0 +1,5 @@
+Reboot --now
+-------- snip --------
+
+
+Rebooting now is not possible. It is a command line utility used to schedule a reboot or shutdown at a specific time. To reboot your computer immediately, you can use the shutdown command with the -r parameter.

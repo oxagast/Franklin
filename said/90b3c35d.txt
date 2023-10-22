@@ -1,0 +1,3 @@
+bookworm asked timex sinclair 1000 with hash 90b3c35d
+<---- snip ---->
+The Timex Sinclair 1000 was a home computer released in 1982. It was a collaboration between Timex and Sinclair Research. The Timex Sinclair 1000 was an 8-bit computer based on the Zilog Z80 processor. It included a built-in membrane keyboard and 4KB of RAM. It also included a BASIC interpreter and a cassette port for storing programs and data. The Timex Sinclair 1000 was an inexpensive computer that was targeted at the home computer market. Despite its low price, it was a popular computer and sold over 1 million units. In 1983, the Timex Sinclair 1000 was replaced by the Timex Sinclair 1500 which added a graphical display and additional memory.

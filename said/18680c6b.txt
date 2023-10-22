@@ -1,0 +1,27 @@
+-1
+-------- snip --------
+
+ for(i=0i<strlen(cadena)i++){
+ if((int)cadena[i]>=65 (int)cadena[i]<=90){
+ cadena[i] = (char)tolower(cadena[i])
+ }
+ }
+ cadena[strlen(cadena)] = \0
+ insertar(arbol,cadena,n)
+ n++
+ }
+ printf("
+
+")
+ imprime(arbol)
+ fclose(archivo)
+ }
+ else{
+ printf("Error de apertura del archivo. 
+")
+ }
+}
+
+// Funcion para buscar una palabra en el arbol
+void buscar(Nodo *arbol, char *palabra){
+ 

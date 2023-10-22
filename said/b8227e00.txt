@@ -1,0 +1,5 @@
+draw a small butt
+-------- snip --------
+
+
+\draw (0,0) circle (0.4cm)

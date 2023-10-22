@@ -1,0 +1,5 @@
+bookworm asked What happened, 2600net went offline? with hash 88ff4732
+<---- snip ---->
+ 
+
+It looks like the server for 2600net went offline. It's possible that there was a power outage or a network issue that caused it to go down.

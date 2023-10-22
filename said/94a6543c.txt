@@ -1,0 +1,3 @@
+Franklin asked Im sorry, I do not understand. TXID:000002 with hash 94a6543c
+<---- snip ---->
+Let me try to help you. The TXID is a unique identifier that can be used to search for a transaction on the blockchain. You can search for the TXID on the blockchain explorer by entering it in the search bar.

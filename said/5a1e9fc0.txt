@@ -1,0 +1,3 @@
+bookworm asked approximatelly how many security vulnerabilities exist for javascript? with hash 5a1e9fc0
+<---- snip ---->
+That's a difficult question to answer. It really depends on the context and the versions of the JavaScript libraries and frameworks that are being used. Generally speaking, it is estimated that there are thousands of security vulnerabilities in JavaScript, but it's impossible to give an exact number.

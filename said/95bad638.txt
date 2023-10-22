@@ -1,0 +1,5 @@
+bookworm asked print a ship from conway"s game of life. with hash 95bad638
+<---- snip ---->
+OOO
+O O
+OOO

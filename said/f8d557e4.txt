@@ -1,0 +1,19 @@
+nmap 127.0.0.1
+-------- snip --------
+
+
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.000014s latency).
+Not shown: 995 closed ports
+PORT STATE SERVICE
+22/tcp open ssh
+25/tcp open smtp
+80/tcp open http
+143/tcp open imap
+443/tcp open https
+445/tcp open microsoft-ds
+587/tcp open submission
+3306/tcp open mysql
+8080/tcp open http-proxy
+
+Nmap done: 1 IP address (1 host up) scanned in 0.17 seconds

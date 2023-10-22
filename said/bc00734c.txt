@@ -1,0 +1,3 @@
+code asked why would a TLS cert show as expired when it is actually still current? could a CA problem cause this? with hash bc00734c
+<---- snip ---->
+It is possible that a CA problem could cause the TLS cert to show as expired when it is actually still current. This could be due to an incorrect date on the CA's server, an incorrectly configured system clock, or other potential issues. It is important to ensure that all of the necessary components of a TLS certificate are up-to-date and properly configured in order to ensure proper functionality.

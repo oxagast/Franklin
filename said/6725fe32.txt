@@ -1,0 +1,5 @@
+morb asked how hard is the CompTIA Security+ final with hash 6725fe32
+<---- snip ---->
+ exam
+
+The CompTIA Security+ exam is considered to be of moderate difficulty. It is based on a performance-based methodology that evaluates an individual's ability to apply knowledge and skills to real-world situations. The exam covers a variety of topics such as network security, compliance and operational security, threats and vulnerabilities, access control, identity management, and cryptography. The exam is scored on a scale of 100-900 and requires a passing score of 750 or higher.

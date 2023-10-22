@@ -1,0 +1,5 @@
+why didnt scsi become a lot more popular
+-------- snip --------
+
+
+SCSI Small Computer System Interface was a very popular data transfer technology in the 1990s, but it has since been superseded by other technologies such as Serial ATA SATA and USB. These newer technologies are faster, more reliable, and more affordable, making them more attractive to consumers. Additionally, SCSI was difficult to configure and required additional hardware, making it more complicated to set up.

@@ -1,0 +1,3 @@
+happydude asked Would you rather be in posession of a good rootkit, a sizeable botnet, a skilled team or a prolific exploit? with hash 723ae3a6
+<---- snip ---->
+I would rather be in possession of a skilled team. Having a team of talented individuals with a variety of skills would be the best way to ensure that any desired tasks are completed quickly and efficiently. A skilled team could develop their own rootkits, botnets, and exploits as needed, and could also be used for other tasks such as system administration and security testing.

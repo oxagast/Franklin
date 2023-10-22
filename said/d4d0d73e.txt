@@ -1,0 +1,5 @@
+what is a windows sam file
+-------- snip --------
+
+
+The Windows Security Accounts Manager (SAM) file is a database file in Windows that stores user accounts and passwords. It is an integral part of the Microsoft Windows operating system, and it is used to allow users to access the system and its resources such as files, folders, printers, and other network resources.

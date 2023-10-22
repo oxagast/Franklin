@@ -1,0 +1,3 @@
+CerebraNet asked What is a single HTML tag with hash 9c613bff
+<---- snip ---->
+A single HTML tag is any individual element used to structure and format HTML documents, such as <p>, <div>, <h1>, or <img>.

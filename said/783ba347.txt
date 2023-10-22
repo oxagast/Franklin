@@ -1,0 +1,3 @@
+code asked list only the two-letter country codes (in a list) of the nineteen nations with the -stan suffix. with hash 783ba347
+<---- snip ---->
+The two-letter country codes for the nineteen nations with the "-stan" suffix are: Afghanistan (AF), Pakistan (PK), Kyrgyzstan (KG), Kazakhstan (KZ), Tajikistan (TJ), Turkmenistan (TM), Uzbekistan (UZ), Iran (IR), Azerbaijan (AZ), India (IN), Mongolia (MN), and Armenia (AM).

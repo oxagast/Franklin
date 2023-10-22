@@ -1,0 +1,5 @@
+CerebraNet asked How many channels does bluetooth have with hash 16ed64a8
+<---- snip ---->
+?
+
+Bluetooth typically uses 79 channels.

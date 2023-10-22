@@ -1,0 +1,3 @@
+captain asked best encryption method for ssh
+<---- snip ---->
+The best encryption method for SSH is RSA (Rivest-Shamir-Adleman) encryption. RSA is the most widely used public-key cryptography algorithm and is considered to be one of the most secure methods of encryption available. It is used in combination with other encryption algorithms to provide a secure connection. https://franklin.oxasploits.com/said/dbe9719e

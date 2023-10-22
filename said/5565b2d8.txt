@@ -1,0 +1,3 @@
+oxagast asked decode the following base64: dzVuRG1zT1d3NkxDaThPZ3c1SERrOEtHdzVqRGxzT1J3NWJDak1PZXc1N0Noc09ZdzVQRGo4T1p3NWZEbGNPWHc1VENuc0tCdzZmRG1zT2h3b25Eb2NPYnc1WERqQT09Cg==% with hash 5565b2d8
+<---- snip ---->
+The decoded base64 is "5nDmsOWw6LC8Ogw5HDk8KGw5jDlsOJw5CZmMPew57ChoPYw5PDg8OZw5VEnsKCw6fDmsOhwobDk8Ojwobw5XEjA="

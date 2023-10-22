@@ -1,0 +1,3 @@
+bookworm asked What is the largest finite number? with hash 28bf027b
+<---- snip ---->
+The largest finite number is known as "googolplex", which is a 1 followed by a googol of zeros. It is written as 10^(10^100).

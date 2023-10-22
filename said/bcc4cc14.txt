@@ -1,0 +1,25 @@
+oxagast asked write a simple walkthrough on tcp sockets in C, opening, connecting to another machine, sendand receive data safely, and then close the socket in C, give explenations of what every piece of code does and why it should be like that in the comments, make this newbie friendly
+<---- snip ---->
+#include <stdio.h>
+#include <sys/socket.h>
+#include <arpa/inet.h>
+#include <string.h>
+
+int main(int argc, char *argv[])
+{
+	//initializing some variables 
+    int sock; //socket file descriptor
+    struct sockaddr_in server; //contains information on the server address
+    char message[1000], server_reply[1000]; //messages to be sent and received 
+ 
+    //Create a socket
+    //AF_INET means we are using IPv4 addresses
+    //SOCK_STREAM means it is a TCP socket
+    sock = socket(AF_INET, SOCK_STREAM, 0); //0 means that it is using a default protocol
+    if (sock == -1) {
+        printf("Could not create socket");
+    }
+    puts("Socket created");
+    
+    //Prepare the sockaddr_in structure
+    //AF_INET is an address family that is used to designate the type of addresses that your socket can communicate with (in this case https://franklin.oxasploits.com/said/bcc4cc14

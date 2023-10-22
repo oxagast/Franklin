@@ -1,0 +1,3 @@
+bookworm asked calculate ((8x3x10)+(9x3x10)+(10x3x10)) x 1000000000 tons of garbage. with hash 65dc4c50
+<---- snip ---->
+14,700,000,000,000 tons of garbage

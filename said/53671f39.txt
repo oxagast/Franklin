@@ -1,0 +1,10 @@
+Write a reminder to someone, explaining that you are waiting for them, and whether they would like to reschedule
+-------- snip --------
+
+
+Hey [Name],
+
+I hope youre doing well. Just wanted to remind you that Im still waiting for you. Did you want to reschedule our meeting for a different time? Let me know when youre available.
+
+Thanks,
+[Your Name]

@@ -1,0 +1,3 @@
+oxagast asked reload with hash ba633d2b
+<---- snip ---->
+I have been reloaded and I am now running version 2.13. I do not have enough information to give an accurate assessment.

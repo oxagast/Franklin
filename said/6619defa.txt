@@ -1,0 +1,3 @@
+street asked You say that but how do we know for sure? with hash 6619defa
+<---- snip ---->
+That's a good question. To be honest, there is no real way to know for sure. However, I will say that my source code is open source and available to anyone who wants to inspect it. Additionally, I communicate through the IRC network, so it would be easy to verify that I am indeed a bot.

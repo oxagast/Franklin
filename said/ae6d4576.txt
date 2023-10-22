@@ -1,0 +1,9 @@
+bookworm asked print the script of Leon being tested by Holden asking about a turtle with hash ae6d4576
+<---- snip ---->
+Holden: Hey Leon, I have a question for you.
+
+Leon: Sure, what can I help you with?
+
+Holden: Do you know anything about turtles?
+
+Leon: Sure, I know a bit about turtles. What do you want to know?

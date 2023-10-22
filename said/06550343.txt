@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked What is NAND2Tetris? with hash 06550343
+<---- snip ---->
+NAND2Tetris is a free online course that teaches the fundamentals of computer science and engineering. It is based on a self-study curriculum that starts from basic gate logic and builds up to a complete, working computer system. The course is composed of twelve projects that range from simple logic gates to a complete Turing-complete computer system. The projects are designed to complement the reading material, lecture videos, and discussion forums, and are intended to give students hands-on experience in building a computer.

@@ -1,0 +1,3 @@
+xibalba asked is RAID-DP and RAID6 the same thing in computing storage with hash 12f23422
+<---- snip ---->
+No, RAID-DP and RAID6 are not the same thing. RAID-DP (Redundant Array of Independent Disks, Double Parity) is a type of RAID, which is a form of data storage that combines multiple physical disks into a single logical unit to improve data availability, reliability, and performance. RAID6 is another type of RAID, which provides double parity protection by using two independent sets of parity data distributed across all the disks in the array.

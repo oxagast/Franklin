@@ -1,0 +1,3 @@
+bookworm asked What settings of yours are we allowed to set? with hash 1d08a75e
+<---- snip ---->
+This will depend on the type of settings you are referring to. Generally, any user settings that are specific to an individual user account should be left alone. However, if you are referring to general settings such as a website’s security settings, or system-level settings, then these may be changed as needed.

@@ -1,0 +1,3 @@
+byt3c0d3 asked How many degrees fahrenheit is one hundred degrees celsius? with hash 5bd8e564
+<---- snip ---->
+212 degrees Fahrenheit

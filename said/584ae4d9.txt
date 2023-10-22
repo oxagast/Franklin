@@ -1,0 +1,5 @@
+what is CANCANCAN?
+-------- snip --------
+
+
+Cancancan is an authorization library for Ruby on Rails which restricts what resources a given user is allowed to access. It defines the ability of a user to perform certain actions on a resource, such as reading, creating, updating, and deleting. It also allows for fine-grained control over different roles and user permissions.

@@ -1,0 +1,68 @@
+bookworm asked list letter use statistics for the French alphabet; then use this information to populate 16 cubes each with 6 faces using more faces for letters with more frequency with hash debb70f6
+<---- snip ---->
+A: The following are the letter use statistics for the French alphabet:
+
+- A: 8.167%
+- B: 1.492%
+- C: 3.882%
+- D: 3.202%
+- E: 12.702%
+- F: 2.228%
+- G: 2.015%
+- H: 0.927%
+- I: 8.535%
+- J: 0.905%
+- K: 0.074%
+- L: 5.936%
+- M: 2.406%
+- N: 6.749%
+- O: 7.507%
+- P: 1.929%
+- Q: 0.095%
+- R: 6.553%
+- S: 6.094%
+- T: 9.056%
+- U: 2.758%
+- V: 0.978%
+- W: 0.054%
+- X: 0.045%
+- Y: 0.761%
+- Z: 0.074%
+
+Using this information, we can populate 16 cubes each with 6 faces as follows:
+
+Cube 1
+- A: 4 faces
+- E: 3 faces
+- I: 3 faces
+- O: 3 faces
+- U: 2 faces
+
+Cube 2
+- T: 3 faces
+- R: 2 faces
+- N: 2 faces
+- S: 2 faces
+- L: 2 faces
+- C: 1 face
+
+Cube 3
+- D: 2 faces
+- M: 2 faces
+- P: 2 faces
+- B: 1 face
+- F: 1 face
+- G: 1 face
+
+Cube 4
+- H: 1 face
+- J: 1 face
+- V: 1 face
+- Q: 1 face
+- W: 1 face
+- X: 1 face
+
+Cube 5
+- K: 1 face
+- Y: 1 face
+- Z: 1 face

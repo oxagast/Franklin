@@ -1,0 +1,3 @@
+oxagast asked tell me something about car engines
+<---- snip ---->
+Car engines are machines that convert fuel into mechanical energy. They consist of several main components, including the cylinder block, crankshaft, connecting rods, pistons, camshaft, timing belts, valves, and fuel injection system. The cylinders in an engine are filled with a combustible mixture of fuel and air, which is ignited by a spark plug. The resulting combustion creates pressure inside the cylinder, which then pushes the piston down and rotates the crankshaft. This rotation is what powers the vehicle. https://gpt3.oxasploits.com/said/56226ae3

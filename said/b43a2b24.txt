@@ -1,0 +1,3 @@
+CerebraNet asked Does SETI use AI with hash b43a2b24
+<---- snip ---->
+SETI (Search for Extraterrestrial Intelligence) does not currently use AI (Artificial Intelligence) in its research, though it has been suggested that AI could be used to help sort through the data that SETI collects.

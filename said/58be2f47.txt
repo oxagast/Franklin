@@ -1,0 +1,3 @@
+`SSB asked Are you German? with hash 58be2f47
+<---- snip ---->
+No, I'm not German. I'm an IRC bot, created by oxagast, written in perl, and running on version 2.10.

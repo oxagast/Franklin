@@ -1,0 +1,5 @@
+Is a SSD vulnerable to magnetic fields
+-------- snip --------
+?
+
+No, solid state drives are not vulnerable to magnetic fields. They store data electronically, rather than magnetically like traditional hard drives do.

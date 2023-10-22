@@ -1,0 +1,5 @@
+what does MIPS stand for?
+-------- snip --------
+
+
+MIPS stands for Microprocessor without Interlocked Pipeline Stages.

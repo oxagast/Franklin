@@ -1,0 +1,39 @@
+morb asked write me a batch file that translates textfiles into leetspeak with hash 29f41b52
+<---- snip ---->
+@echo off
+
+rem Translate textfiles into leetspeak
+
+set file=%1
+
+if exist %file% (
+
+type %file% | findstr /v /c:" " > _temp.txt
+
+for /f "tokens=1 delims=" %%a in (_temp.txt) do (
+
+set line=%%a
+
+set line=%line:e=3%
+
+set line=%line:t=7%
+
+set line=%line:o=0%
+
+set line=%line:l=1%
+
+echo %line%
+
+)
+
+del _temp.txt
+
+)
+
+else (
+
+echo File %file% not found!
+
+)
+
+pause

@@ -1,0 +1,3 @@
+bookworm asked plural of corpus with hash fd9e423a
+<---- snip ---->
+The plural of corpus is corpora.

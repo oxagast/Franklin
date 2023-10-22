@@ -1,0 +1,7 @@
+Whats the difference between the Xbox Kennect and Xbox Kennect 2?
+-------- snip --------
+
+
+The Xbox Kinect (1st generation) was released in 2010 and is a motion sensing input device that is used to control the Xbox 360 and Xbox One. It is composed of an RGB camera, a depth sensor and a multi-array microphone, used to track the users movements and voice commands.
+
+The Xbox Kinect 2 (2nd generation) was released in 2013 and is an improved version of the original Kinect. It includes improved motion tracking, a more sensitive microphone, and improved 3D scanning capabilities. It is also compatible with both the Xbox One and Windows 10. The Kinect 2 also has improved accuracy in tracking and sensing, as well as higher frame rates and a wider field of view.

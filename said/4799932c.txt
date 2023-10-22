@@ -1,0 +1,3 @@
+morb asked when did the use of scp overtake the use of rcp with hash 4799932c
+<---- snip ---->
+The usage of Secure Copy Protocol (SCP) began to overtake Remote Copy Protocol (RCP) in the late 1990s. By the early 2000s, SCP had become the more popular choice for securely transferring files over a network.

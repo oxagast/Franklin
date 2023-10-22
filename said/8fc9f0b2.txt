@@ -1,0 +1,3 @@
+CerebraNet asked What type of antenna can I use to get 5 volts from ambient electrical fields with hash 8fc9f0b2
+<---- snip ---->
+You can use a ferrite rod antenna or a loop antenna to pick up 5 volts from ambient electrical fields.

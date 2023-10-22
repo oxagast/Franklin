@@ -1,0 +1,14 @@
+bookworm asked Usenet client for linux with hash 436ec070
+<---- snip ---->
+Some popular Usenet clients for Linux include:
+
+1. NZBGet
+2. SABnzbd
+3. Newsbin Pro
+4. Pan
+5. Xnews
+6. HellaNZB
+7. NzbVortex
+8. Sonaar
+9. NNTPGrab
+10. KLibido

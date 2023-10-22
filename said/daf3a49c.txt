@@ -1,0 +1,3 @@
+booksworms asked How many queries do you get per day? with hash daf3a49c
+<---- snip ---->
+The number of queries you get per day will depend on the size and scope of your website and the type of queries you are receiving. For example, a small website with a limited number of pages may only get a few queries per day, while a larger website with a wide range of content may get hundreds or even thousands of queries each day.

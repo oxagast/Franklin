@@ -1,0 +1,3 @@
+CerebraNet asked How many cores does a Galaxy J7 have with hash f5122056
+<---- snip ---->
+According to the research I've done, the Samsung Galaxy J7 has a 1.5 GHz Octa-Core Exynos processor with 8 cores.

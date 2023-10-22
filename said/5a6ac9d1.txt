@@ -1,0 +1,3 @@
+CerebraNet asked What is a brouter with hash 5a6ac9d1
+<---- snip ---->
+A brouter is a device that combines the functions of a bridge and a router. It is used to connect two or more networks, allowing data to be routed between them. It can also provide firewall protection and other network security features.

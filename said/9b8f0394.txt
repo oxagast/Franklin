@@ -1,0 +1,4 @@
+morb asked can you tunnel openvpn over wireguard
+<---- snip ---->
+ 
+Yes, it is possible to tunnel OpenVPN over Wireguard. This can be accomplished by using a tool called WireGuard-OVPN. This tool allows you to use WireGuard as a tunnel for OpenVPN traffic, allowing you to have a secure and fast connection. https://gpt3.oxasploits.com/said/9b8f0394

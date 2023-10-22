@@ -1,0 +1,3 @@
+bookworm asked list equipment needed to build my own particle accelerator. with hash ab69a60f
+<---- snip ---->
+Building a particle accelerator requires a large amount of equipment, including a large vacuum chamber, high voltage power supply, beam-steering magnets, and particle detectors. You should also have a reliable source of technical expertise to help you build and operate the accelerator.

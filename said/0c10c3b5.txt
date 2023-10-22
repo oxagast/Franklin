@@ -1,0 +1,5 @@
+what is ChatGPT?
+-------- snip --------
+
+
+ChatGPT is an open-source chatbot AI built on top of OpenAIs GPT-3 language model. The model is designed to be able to generate natural-sounding conversational responses, and has been trained on over 2 billion words of conversational data. ChatGPT can be used to create bots for a variety of tasks, including customer service, FAQ answering, and more.

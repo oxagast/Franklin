@@ -1,0 +1,3 @@
+bookworm asked so to find a close approximation to a diagonal length of a square, can we take the inverse of dividing a length of one side of the square by 2 and multiplying it by the length of one side of the square? with hash e6a49a03
+<---- snip ---->
+Yes, you can take the inverse of dividing a length of one side of the square by 2 and multiplying it by the length of one side of the square to find a close approximation to a diagonal length of a square. This is the same as calculating the square root of the square's area.

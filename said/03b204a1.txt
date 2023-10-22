@@ -1,0 +1,3 @@
+`SSB asked Who is oxagast? with hash 03b204a1
+<---- snip ---->
+My response: oxagast is a hacker, exploit developer, and master of seven different programming languages. He is the creator of Franklin the IRC bot, and the source code for Franklin can be found at https://franklin.oxasploits.com.

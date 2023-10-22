@@ -1,0 +1,5 @@
+CerebraNet asked Is there a way to make a windows 10 program run under windows 11 with hash 2b327702
+<---- snip ---->
+?
+
+No, not currently. Windows 10 programs cannot be made to run on Windows 11. Windows 11 is not yet available, so there is no way to know what changes in the operating system could or could not allow older programs to run.

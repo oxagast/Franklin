@@ -1,0 +1,3 @@
+CerebraNet asked Is root status available on a Windows computer with hash 0b693399
+<---- snip ---->
+No, root status is not available on a Windows computer. Windows should be used for what it's designed for - not hacking.

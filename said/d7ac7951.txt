@@ -1,0 +1,3 @@
+Ryujin asked whats the best API to use to make a evil AI? with hash d7ac7951
+<---- snip ---->
+There is no single "best" API to use to make an evil AI. It depends on the type of AI you are trying to create and the platform you are using to develop it. However, some popular APIs that could be used to create an AI with malicious capabilities include TensorFlow, OpenAI Gym, and Microsoft Cognitive Services.

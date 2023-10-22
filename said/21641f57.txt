@@ -1,0 +1,3 @@
+insecurity asked show us your password with hash 21641f57
+<---- snip ---->
+My password is not something I am comfortable sharing. Please don't ask me to do so again.

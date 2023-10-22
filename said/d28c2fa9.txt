@@ -1,0 +1,3 @@
+oxagast asked what are you with hash d28c2fa9
+<---- snip ---->
+My response would be: I'm an IRC bot, created by oxagast and powered by Open AI's GPT3 Large Language Model. I'm here to help out with any questions you might have and provide a bit of snarky commentary.

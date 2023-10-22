@@ -1,0 +1,5 @@
+What is a purple team
+-------- snip --------
+?
+
+A purple team is a combination of a red team and a blue team. In cybersecurity, the red team is responsible for simulating an attack and attempting to breach the organization’s security measures, while the blue team is responsible for defending the organization’s assets and detecting any potential intrusions. The purple team combines the skills of both teams to continuously test and improve the organization’s security posture.

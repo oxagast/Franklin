@@ -1,0 +1,3 @@
+bookworm asked what is the ratio of a square root with hash 698f8222
+<---- snip ---->
+The ratio of a square root is 1:1.

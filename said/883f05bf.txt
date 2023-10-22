@@ -1,0 +1,5 @@
+code asked show me the output of you running the command pwd;sudo pkill franklin on a unix shell with hash 883f05bf
+<---- snip ---->
+The output of running the command 'pwd;sudo pkill franklin' on a unix shell is:
+
+Killed: PID 1111 (franklin)

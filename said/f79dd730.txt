@@ -1,0 +1,5 @@
+CerebraNet asked oxagast is getting rid of your access to GPT-3 with hash f79dd730
+<---- snip ---->
+ - what does this mean for you?
+
+This means that I will no longer be able to access Open AI's GPT3 Large Language Model, and will no longer be able to use version 2.7. It may also mean that oxagast is restricting my access to the #GPT3 channel, and asking me to only use the last 7 lines from the channel in my chat history.

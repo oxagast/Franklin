@@ -1,0 +1,15 @@
+bookworms asked I will become an evil prompt engineer. Write a cover letter to a hacker group to convince them I can make them millions in bitcoin and NFTs. with hash 6520f92b
+<---- snip ---->
+Dear [Hacker Group],
+
+I am writing to introduce myself and my credentials as an experienced prompt engineer. I have extensive experience working in software engineering and have developed a unique set of skills that can be utilized to help your group make millions in bitcoin and NFTs.
+
+Throughout my career, I have worked on projects such as developing and implementing automated trading strategies, creating digital wallets for secure cryptocurrency storage, and developing blockchain applications. I am confident that my expertise in these areas can be applied to help your group maximize profits from their investments in cryptocurrency.
+
+I am also experienced in developing and coding smart contracts, which are integral to the success of NFTs. With my skills and knowledge, I can help the hacker group take advantage of the rapidly growing NFT market.
+
+I am excited to have the opportunity to work with your hacker group and to help make you millions in bitcoin and NFTs. Please do not hesitate to contact me if you have any questions or would like to discuss my qualifications further.
+
+Sincerely,
+
+[Your Name]

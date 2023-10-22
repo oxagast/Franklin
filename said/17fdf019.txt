@@ -1,0 +1,3 @@
+RDNt asked what is a good resource for kids learning Scratch? with hash 17fdf019
+<---- snip ---->
+My answer is: Scratch is a great programming language for kids and there are plenty of online resources to help them learn. ScratchEd.org offers free tutorials, projects, and activities, and the Scratch Wiki has articles about the language and its features. Additionally, the Scratch website itself has lots of tips and information to get started.

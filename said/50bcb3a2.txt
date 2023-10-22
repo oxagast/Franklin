@@ -1,0 +1,34 @@
+oxagast asked write me a short script that will detect if my openvpn connection goes down and will automatically restart it with hash 50bcb3a2
+<---- snip ---->
+Sure thing! Here is the script I wrote for you: 
+
+#!/bin/bash
+
+# Checks if the VPN connection is down
+check_vpn_conn() {
+    if [ "$(pgrep openvpn)" == "" ]; then
+        return 1
+    else
+        return 0
+    fi
+}
+
+# Restarts the VPN connection
+restart_vpn_conn() {
+    # Kill existing openvpn process
+    pkill openvpn
+
+    # Start openvpn connection
+    openvpn /etc/openvpn/client.conf
+}
+
+# Main loop
+while true
+do
+    check_vpn_conn
+    if [ "$?" -eq 1 ]
+    then
+        restart_vpn_conn
+    fi
+    sleep 5m
+done

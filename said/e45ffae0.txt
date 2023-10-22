@@ -1,0 +1,3 @@
+bookworm asked what is war dialing? with hash e45ffae0
+<---- snip ---->
+War dialing is a technique used by attackers to scan telephone networks or modems for open connections. It is done by dialing a range of numbers, looking for open connections, and sometimes even gaining access to a system without permission.

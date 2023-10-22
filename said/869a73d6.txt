@@ -1,0 +1,5 @@
+how far out does the VVIX look at futures contracts
+-------- snip --------
+
+
+The VVIX looks at the 30-day implied volatility of the CBOE Volatility Index VIX, which is based on the prices of SP 500 Index SPX options. It does not look at futures contracts.

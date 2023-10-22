@@ -1,0 +1,7 @@
+bookworm asked list people who have received a scholarship but had a low test scores and asign a possibility of nepotism given their financial and political status. with hash 86500e55
+<---- snip ---->
+1. Bill Gates: Low test scores, high financial and political status. Possibility of nepotism: Low.
+
+2. Mark Zuckerberg: Low test scores, high financial and political status. Possibility of nepotism: Low.
+
+3. Ivanka Trump: Low test scores, high financial and political status. Possibility of nepotism: High.

@@ -1,0 +1,8 @@
+What frequencies do wifi transmitters on the 2.5 ghz band use
+-------- snip --------
+
+
+The specific frequencies used for 802.11b/g/n Wi-Fi connections on the 2.4 GHz band are:
+
+• Channels 1-13 @ 2.412 GHz - 2.472 GHz
+• Channels 14 @ 2.484 GHz

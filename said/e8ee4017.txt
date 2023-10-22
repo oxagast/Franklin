@@ -1,0 +1,5 @@
+how do you bypass the windows nt login screen
+-------- snip --------
+
+
+There is no way to bypass the Windows NT login screen without knowing the username and password.

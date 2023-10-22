@@ -1,0 +1,3 @@
+oxagast asked what character is  with hash 6f9323eb
+<---- snip ---->
+The character '-' is a hyphen or a dash.

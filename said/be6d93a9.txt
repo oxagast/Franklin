@@ -1,0 +1,5 @@
+Is RTL-SDR sensitive to 80 MHz
+-------- snip --------
+?
+
+Yes, RTL-SDR is capable of receiving signals in the range of 24 MHz to 1766 MHz, so 80 MHz is within its range.

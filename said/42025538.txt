@@ -1,0 +1,3 @@
+bookworm asked Why do Germans have áº Eszett as a distinct alphabetic letter? with hash 42025538
+<---- snip ---->
+The ẞ Eszett, also known as the capital sharp S, was introduced in 2017 as a distinct alphabetic letter in German. The reason for this was to standardize the use of the sharp S in all-caps text, as previously it was common to use SS instead of the sharp S. However, the use of SS in all-caps text was seen as problematic due to its association with the Nazi party and its use of the double S symbol. Therefore, the introduction of the ẞ Eszett was seen as a way to avoid this association and provide a clear and consistent way to represent the sharp S in all-caps text.

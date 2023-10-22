@@ -1,0 +1,9 @@
+morb asked who, what, where, when, why, how, and you with hash 49847307
+<---- snip ---->
+Who: Who is involved?
+What: What is happening?
+Where: Where is it happening?
+When: When is it happening?
+Why: Why is it happening?
+How: How is it happening?
+You: What is your role in this situation?

@@ -1,0 +1,3 @@
+morb asked how can you perform a tcp traceroute in windows using tracert with hash 5d32273f
+<---- snip ---->
+To perform a TCP traceroute in Windows using tracert, open the command prompt and type tracert followed by the IP address or domain name. For example: tracert google.com. This will display the output of the traceroute, showing the path taken by the packets sent by the tracert command.

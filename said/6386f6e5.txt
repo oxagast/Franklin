@@ -1,0 +1,5 @@
+captain asked Is it insecure to set apaches webroot owner to something other than www or is it safer to just add another user to the www group with hash 6386f6e5
+<---- snip ---->
+?
+
+It is generally considered more secure to set the Apache webroot owner to something other than www. This is because it can be easier for malicious users to gain access to the www user account. By setting the webroot owner to a different user, you can limit the amount of access malicious users have to the web server. Additionally, adding another user to the www group can also help reduce the risk of malicious users gaining access to the web server.

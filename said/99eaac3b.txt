@@ -1,0 +1,17 @@
+CerebraNet asked ping www.inkpadnotepad.com with hash 99eaac3b
+<---- snip ---->
+PING www.inkpadnotepad.com (104.27.135.142): 56 data bytes
+
+64 bytes from 104.27.135.142: icmp_seq=0 ttl=56 time=21.819 ms
+
+64 bytes from 104.27.135.142: icmp_seq=1 ttl=56 time=21.921 ms
+
+64 bytes from 104.27.135.142: icmp_seq=2 ttl=56 time=21.972 ms
+
+64 bytes from 104.27.135.142: icmp_seq=3 ttl=56 time=22.115 ms
+
+64 bytes from 104.27.135.142: icmp_seq=4 ttl=56 time=21.965 ms
+
+--- www.inkpadnotepad.com ping statistics ---
+5 packets transmitted, 5 packets received, 0.0% packet loss
+round-trip min/avg/max/stddev = 21.819/21.959/22.115/0.087 ms

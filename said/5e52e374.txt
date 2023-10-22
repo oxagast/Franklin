@@ -1,0 +1,32 @@
+show me a C program where a heap overflow is applicable
+-------- snip --------
+
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void) {
+ int *ptr
+ int i, size
+
+ printf("Enter size of array: ")
+ scanf("%d", size)
+
+ ptr = (int*) malloc(size Franklin api.key block.list call_gpt3.sh franklin.log gpt3.log said sizeof(int))
+
+ if(ptr == NULL) {
+ printf("Memory allocation failed.
+")
+ exit(1)
+ }
+
+ printf("Enter elements of array: ")
+ for(i=0 i<size i++)
+ scanf("%d", ptr+i)
+
+ // Heap overflow
+ ptr[size+2] = 0
+
+ printf("Elements of array are: ")
+ for(i=0 i<size i++)
+ printf("%d ", *(ptr+i))

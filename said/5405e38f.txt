@@ -1,0 +1,3 @@
+CerebraNet asked In what file is the password for windows 7 stored with hash 5405e38f
+<---- snip ---->
+The answer to CerebraNet's query is: The passwords for Windows 7 are stored in the registry, usually under the SAM key.

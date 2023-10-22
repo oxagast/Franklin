@@ -1,0 +1,3 @@
+captain asked how do i change the server that the activity windows is assigned to in irssi with hash d52de473
+<---- snip ---->
+To change the server that the activity windows is assigned to in irssi, you can use the command "/window server <servername>".

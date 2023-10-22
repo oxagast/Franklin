@@ -1,0 +1,3 @@
+captain asked tell me about ssh encryption method ed25519 like im a 10 year old
+<---- snip ---->
+SSH encryption is a way to protect data that is being sent from one computer to another. It uses a type of encryption called the ED25519 algorithm to scramble the data so that only the people with special keys can unscramble it and see what is inside. It's like having a secret code that only you and the people you share it with know. That way, no one else can get your information. https://franklin.oxasploits.com/said/03d5a731

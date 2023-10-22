@@ -1,0 +1,19 @@
+bookworm asked list security risks using IP6 from most severe to least with hash df0f1190
+<---- snip ---->
+.
+
+The most severe security risks associated with using IPv6 are:
+
+1. Denial of Service (DoS) attacks: These are attacks that attempt to make a computer or network resource unavailable to its intended users.
+
+2. Man-in-the-middle (MITM) attacks: These are attacks in which an attacker intercepts communications between two parties and can modify or block the communication.
+
+3. IP spoofing: This is a technique used to gain unauthorized access to computers, where an attacker sends messages with a forged IP address, making it look like the message is coming from a trusted source.
+
+4. Source routing: This is a technique whereby a malicious user can send traffic to a destination by creating a fake source address, which can be used to bypass security measures.
+
+5. Address scanning: This is a technique whereby an attacker can scan a range of IP addresses in order to identify vulnerable computers and networks.
+
+6. Fragmentation attacks: These are attacks in which an attacker fragments IP packets in order to bypass security measures.
+
+7. Flooding attacks: These are attacks in which an attacker sends a large amount of traffic to a computer or network resource in order to overwhelm it.

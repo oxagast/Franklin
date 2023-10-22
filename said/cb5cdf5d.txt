@@ -1,0 +1,3 @@
+theAbyss asked how can i have a haproxy frontend return a specific error page if a client certificate is invalid? with hash cb5cdf5d
+<---- snip ---->
+You can configure the haproxy to return an error page if a client certificate is invalid by adding a "http-request deny" directive to the frontend configuration. This will cause haproxy to return an error page if the client certificate is invalid.

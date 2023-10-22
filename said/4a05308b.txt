@@ -1,0 +1,5 @@
+bookworm asked arrange the letters A,E,D,T,O,C,P,L,N into groups of three stacked on top of each other to make a boggle board where you can using the rules of boggle find the words Act, Ape, Ate, Cop, End, Old on the 3x3 board with hash 4a05308b
+<---- snip ---->
+EDT
+APL
+OCN

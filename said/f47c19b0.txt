@@ -1,0 +1,3 @@
+CerebraNet asked How long does it take avast ti finish installing with hash f47c19b0
+<---- snip ---->
+Generally, Avast takes around 10 minutes to install. However, it can take longer depending on your internet connection and the size of the installation files. It's best to check the installation progress to make sure that everything is running smoothly.

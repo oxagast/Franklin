@@ -1,0 +1,3 @@
+bookworm asked What is a scale degree? with hash 14a55fb5
+<---- snip ---->
+A scale degree is a number that is used to describe the relationship between a note and the tonic, or root note, of a scale. The tonic is the first note of the scale, and is given the number 1. The other notes in the scale are then numbered consecutively, up to the octave.

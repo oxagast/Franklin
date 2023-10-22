@@ -1,0 +1,6 @@
+bookworm asked Data File Syntax Each line has a word from column 1 of a table, separated with a : and a word from column 2 of the table , Example: seek:buscar  understand? with hash 242d2ed7
+<---- snip ---->
+comprender
+
+seek:buscar
+understand:comprender

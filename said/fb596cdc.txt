@@ -1,0 +1,5 @@
+what are those resistors called that are actually several resistors wrapped?
+-------- snip --------
+
+
+Those are called "wraparound resistors" or "fixed-value networks."

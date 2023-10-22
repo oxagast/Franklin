@@ -1,0 +1,12 @@
+nmap -Pn irc.2600.net
+-------- snip --------
+
+
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-03-30 21:02 CEST
+Nmap scan report for irc.2600.net (69.64.43.246)
+Host is up (0.039s latency).
+Not shown: 997 filtered ports
+PORT STATE SERVICE
+6667/tcp open irc
+
+Nmap done: 1 IP address (1 host up) scanned in 5.99 seconds

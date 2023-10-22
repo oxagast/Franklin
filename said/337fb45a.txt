@@ -1,0 +1,19 @@
+CerebraNet asked Why is farmville 2 not loading properly with hash 337fb45a
+<---- snip ---->
+?
+
+There are many potential causes for Farmville 2 not loading properly. Possible causes could include a slow or unstable internet connection, a lack of system resources (such as RAM or CPU), or an outdated version of Adobe Flash. If you are having difficulty loading Farmville 2, we suggest trying the following:
+
+1. Make sure your internet connection is stable and running at a good speed.
+
+2. Check that your system has enough RAM and CPU to run the game.
+
+3. Make sure you have the latest version of Adobe Flash installed.
+
+4. Clear your browser’s cache and cookies.
+
+5. Try a different browser.
+
+6. Restart your computer.
+
+7. Contact Farmville 2's support team for further assistance.

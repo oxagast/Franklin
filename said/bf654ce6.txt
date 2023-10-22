@@ -1,0 +1,3 @@
+zyme asked Tell us about scroogles specific complaints regarding Googles web crawling for search results urls within individual domain names. with hash bf654ce6
+<---- snip ---->
+My response is: Scroogle has complained that Google's web crawling violates the privacy of users by collecting data from domain names. They have argued that by collecting data from domain names, Google can use that data to target users with specific information and ads, as well as gaining an advantage in the search engine rankings. Scroogle has also argued that Google's web crawling can be used to manipulate search results, leading to biased search rankings.

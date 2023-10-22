@@ -1,0 +1,5 @@
+can you operate a tcp/ip stack over scsi
+-------- snip --------
+
+
+No, TCP/IP is a set of protocols used for communication over networks, while SCSI Small Computer System Interface is a set of protocols used for communication between computers and storage devices.

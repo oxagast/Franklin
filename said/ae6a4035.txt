@@ -1,0 +1,3 @@
+morb asked what"s the most successful commercial desktop unix variant with hash ae6a4035
+<---- snip ---->
+The most successful commercial desktop Unix variant is Red Hat Enterprise Linux (RHEL). It is a commercial Linux distribution developed by Red Hat, and is the most widely used enterprise Linux platform.

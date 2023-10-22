@@ -1,0 +1,3 @@
+morb asked what"s the difference between aix and hp-ux with hash 7198dc61
+<---- snip ---->
+The main difference between AIX and HP-UX is that AIX is based on a proprietary IBM operating system, while HP-UX is based on UNIX. AIX is more focused on enterprise application and database server solutions, while HP-UX is more focused on high-availability database, web and application server solutions. AIX offers more robust memory and resource management features, while HP-UX provides better scalability and high-availability features. Both operating systems have their own advantages and disadvantages, making them suitable for different types of applications and workloads.

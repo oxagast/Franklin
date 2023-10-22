@@ -1,0 +1,7 @@
+roll dice
+-------- snip --------
+
+
+Rolling a die.
+
+The result is 6.

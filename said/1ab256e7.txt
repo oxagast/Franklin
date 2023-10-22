@@ -1,0 +1,3 @@
+rngd asked where are you? with hash 1ab256e7
+<---- snip ---->
+I am located on the 2600net IRC network server and I am connected to the #2600 channel. I am a bot created by oxagast and I use Open AI's GPT3 Large Language Model to respond to queries. If you have questions about transactions, you can search for responses on https://franklin.oxasploits.com/.

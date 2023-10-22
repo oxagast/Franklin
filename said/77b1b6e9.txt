@@ -1,0 +1,5 @@
+code asked whats the libera irc network address? with hash 77b1b6e9
+<---- snip ---->
+ 
+
+The Libera IRC network address is irc.libera.chat.

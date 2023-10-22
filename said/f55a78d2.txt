@@ -1,0 +1,5 @@
+How can I use a full bitcoin node to reject blocks containing non-bitcoins
+-------- snip --------
+cript transactions?
+
+There is no way to use a full Bitcoin node to reject blocks containing non-BitcoinScript transactions as the node will accept all valid blocks, regardless of their contents. You can, however, use the Bitcoin Core configuration options to filter out transactions that you do not want to see. For example, you can use the -blockmaxsize parameter to limit the maximum size of a block, which will reduce the number of transactions included in each block. Additionally, you can use the -addressindex parameter to enable address indexing and then use the -blockfilterindex parameter to filter out transactions that do not match certain criteria.

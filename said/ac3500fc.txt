@@ -1,0 +1,5 @@
+Is there a frequency transmitted by tiangong on the VHF or UHF bands?
+-------- snip --------
+
+
+No, there is no frequency transmitted by Tiangong on the VHF or UHF bands. Tiangong transmits its signals on the S-band frequency of 2.2 GHz.

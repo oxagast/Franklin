@@ -1,0 +1,26 @@
+bookworm asked Meta with hash d4b69039
+<---- snip ---->
+Data = {
+  title: `${siteName} | 404`,
+  description: `${siteName} - Page not found.`,
+  author: `@${siteAuthor}`,
+  siteUrl: siteUrl,
+  locale: `${locale}`,
+};
+
+const NotFoundPage = () => {
+  return (
+    <Layout>
+      <SEO pageMetaData={pageMetaData} />
+      <Container className="py-20">
+        <Heading>Page not found</Heading>
+        <Paragraph>
+          The page you are looking for could not be found.
+        </Paragraph>
+        <Link to="/">Go to Homepage</Link>
+      </Container>
+    </Layout>
+  );
+};
+
+export default NotFoundPage;

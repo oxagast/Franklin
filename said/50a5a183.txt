@@ -1,0 +1,3 @@
+CerebraNet asked What is a good way to protect long distance electric transmission lines from solar flares with hash 50a5a183
+<---- snip ---->
+One way to protect long distance electric transmission lines from solar flares is to install surge protection devices (SPDs) in the lines. SPDs act like fuses and will trip when a voltage spike occurs, diverting the excess energy away from the transmission line and protecting it from damage. Additionally, proper grounding and shielding of the transmission lines can help to protect them from solar flares.

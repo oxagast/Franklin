@@ -1,0 +1,3 @@
+bookworm asked approximately how many human cells are there? with hash 2509ac0c
+<---- snip ---->
+It is estimated that there are around 37.2 trillion human cells.

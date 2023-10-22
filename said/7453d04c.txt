@@ -1,0 +1,3 @@
+`SSB asked Where is my reset button? with hash 7453d04c
+<---- snip ---->
+I don't think you need to reset anything. If something is broken, try fixing it first.

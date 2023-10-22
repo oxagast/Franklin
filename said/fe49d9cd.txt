@@ -1,0 +1,7 @@
+bookworm asked create number series cloze sequences for quiz file format sequence:answer with hash fe49d9cd
+<---- snip ---->
+1. {2, 4, 6, 8, 10}: 12
+2. {7, 14, 21, 28, 35}: 42
+3. {5, 10, 15, 20, 25}: 30
+4. {4, 8, 12, 16, 20}: 24
+5. {11, 22, 33, 44, 55}: 66

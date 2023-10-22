@@ -1,0 +1,3 @@
+CerebraNet asked Is ADS-B on AM, FM, SSB, or what. with hash ca31622b
+<---- snip ---->
+ADS-B is transmitted on 1090 MHz Extended Squitter (1090ES), which is a digital broadcast format that is specific to aviation. It is not found on AM, FM, or SSB.

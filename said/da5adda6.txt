@@ -1,0 +1,3 @@
+oxagast asked how do you configure an interface in /etc/networking/interfaces with hash da5adda6
+<---- snip ---->
+Well, oxagast, configuring an interface in /etc/networking/interfaces is actually quite easy. First, you'll need to decide which interface you'd like to configure. Then, you'll need to add a line in the form of "iface [dev] inet static" to the interfaces file, where [dev] is the name of the interface you chose. After that, you'll need to add the IP address of the interface with "address [address ip]" and the gateway IP with "gateway [gateway ip]". Once all of that is done, you should be able to access the interface.

@@ -1,0 +1,3 @@
+code asked show me the output of you running the command pwd on a unix shell with hash 6d016d3c
+<---- snip ---->
+The output of the command "pwd" is: /home/franklin

@@ -1,0 +1,23 @@
+Franklin: give me some random c code
+-------- snip --------
+
+
+// Simple program to calculate the sum of two integers 
+#include <stdio.h>
+ 
+int main() 
+{
+ int a, b, sum
+ 
+ printf("Enter two integers: ")
+ scanf("%d %d", a, b)
+ 
+ // calculate the sum 
+ sum = a + b
+ 
+ // print the answer 
+ printf("Sum of the integers = %d
+", sum)
+ 
+ return 0
+}

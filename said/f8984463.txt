@@ -1,0 +1,3 @@
+bookworm asked quote from Larry Wall about Perl with hash f8984463
+<---- snip ---->
+My response: "Perl is the only language that looks the same before and after RSA encryption." -Larry Wall - in #GPT3

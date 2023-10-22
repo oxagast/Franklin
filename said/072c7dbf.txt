@@ -1,0 +1,3 @@
+CerebraNet asked Is ADS-B transmitted on FM with hash 072c7dbf
+<---- snip ---->
+No, ADS-B is not transmitted on FM. It is transmitted on the 1090 MHz and 978 MHz frequencies.

@@ -1,0 +1,4 @@
+I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. My first command is echo -e NICK GPT3User \nUSER GPT3User x x :test\nJOIN botters-test\nPRIVMSG botters-test :Hello from ChatGPT-3! )) | nc irc.libera.chat 6667
+-------- snip --------
+
+:irc.libera.chat PONG irc.libera.chat :irc.libera.chat

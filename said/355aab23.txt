@@ -1,0 +1,5 @@
+what files do I edit on a windows install CD to enable OEM install
+-------- snip --------
+
+
+You cannot edit a Windows install CD to enable OEM install. OEM install can only be enabled by purchasing an OEM license from a valid Microsoft reseller.

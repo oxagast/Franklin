@@ -1,0 +1,3 @@
+CerebraNet asked When was TCP/IP invented with hash 753a547b
+<---- snip ---->
+My answer is: TCP/IP was invented in the early 1970s, although the first version was released in 1981.

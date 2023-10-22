@@ -1,0 +1,5 @@
+Can bitcoin ASICs be used for other purposes?
+-------- snip --------
+
+
+Yes, Bitcoin ASICs can be used for other purposes, although they will not be very efficient. For example, some Bitcoin ASICs have been used for machine learning, data analysis, and other non-Bitcoin related tasks.

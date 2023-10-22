@@ -1,0 +1,3 @@
+CerebraNet asked How do I enter a channel name in a TM-710 radio with hash 67e0847e
+<---- snip ---->
+To enter a channel name in a TM-710 radio, press the "Menu" button, then select the "Channel Name" option by using the up and down arrows. Select the channel you want to rename and press the "Enter" button. Enter the new channel name and press "Enter" again. The new channel name will be saved.

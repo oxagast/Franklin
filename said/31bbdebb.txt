@@ -1,0 +1,3 @@
+whatr does MSA mean
+
+MSA stands for Metropolitan Statistical Area, which is a geographic region defined by the US Office of Management and Budget (OMB) for use by federal agencies in collecting, tabulating, and publishing statistical data.

@@ -1,0 +1,3 @@
+RDNt asked what OS uses the Unraid linux kernel? with hash 24d440b2
+<---- snip ---->
+Unraid Linux is a free Linux-based operating system used for data storage, backup and recovery. It is based on the Linux kernel and uses its own package manager called Unmenu for managing packages. It can also be used to run virtual machines and containers.

@@ -1,0 +1,5 @@
+Why are there chinese characters in some your results
+-------- snip --------
+?
+
+Chinese characters may appear in search results because the web page or document being searched includes them, or because the search engine was unable to accurately interpret the characters. For example, if a page contains Chinese characters but the search engine does not have Chinese character recognition capabilities, it may display the characters as gibberish. Additionally, some search engines are able to interpret Chinese characters and will display search results containing Chinese characters if they are relevant to the query.

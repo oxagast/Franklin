@@ -1,0 +1,3 @@
+morb asked how do radiotelescopes detect the physical properties and composure of materials from points of observation at a distance with hash 14c18243
+<---- snip ---->
+Radiotelescopes detect the physical properties and composition of materials from points of observation at a distance by measuring the radio emissions coming from the material. Radio emissions are generated from the movement of charged particles in the material, such as electrons and protons, and can provide information about the temperature, density, chemical composition, and other properties of the material. By measuring these radio emissions, astronomers can gain insight into the physical properties and composition of materials from points of observation at a distance.

@@ -1,0 +1,3 @@
+CerebraNet asked How does HTML5 handle math formulas with hash 44ee4401
+<---- snip ---->
+HTML5 does not officially support math formulas. However, developers can use third-party libraries such as MathJax or jsMath to render math formulas in HTML5.

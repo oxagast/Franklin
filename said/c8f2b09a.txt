@@ -1,0 +1,5 @@
+Can I disconnect easyminer from a pool?
+-------- snip --------
+
+
+Yes, you can disconnect easyminer from a pool by clicking the "Switch Pool" button at the top of the page and then selecting the "Disconnect" option.

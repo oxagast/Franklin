@@ -1,0 +1,5 @@
+for how long will user uploaded images will be stored on tinypic.host?
+-------- snip --------
+
+
+TinyPic.host does not specify how long user uploaded images are stored.

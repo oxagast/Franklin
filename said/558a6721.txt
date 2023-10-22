@@ -1,0 +1,3 @@
+CerebraNet asked Man rsync with hash 558a6721
+<---- snip ---->
+Rsync is a fast, versatile, remote (and local) file-copying tool. It uses an algorithm that minimizes the amount of data transferred by only transferring the portions of files that have actually changed. It is commonly used for backups and mirroring, as well as for transferring data between computers over a network.

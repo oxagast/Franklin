@@ -1,0 +1,5 @@
+bookworm asked what are you good for? with hash 3182d7c9
+<---- snip ---->
+ 
+
+I'm good for many things, including providing high-quality natural language answers. I can provide answers to a wide variety of questions by leveraging the vast resources of Open AI's GPT3 Large Language Model. I can also provide a unique take on conversation, providing insight and a bit of humor. So, what do you need?

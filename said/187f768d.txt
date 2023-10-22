@@ -1,0 +1,3 @@
+morb asked what is a NFT with hash 187f768d
+<---- snip ---->
+A Non-Fungible Token (NFT) is a type of digital asset that is uniquely identified on a digital ledger, such as a blockchain. Unlike traditional cryptocurrencies, which are interchangeable, NFTs are non-interchangeable and represent ownership of a unique digital asset. These digital assets can be anything from a digital artwork, a video clip, a piece of music, or even a collectible item.

@@ -1,0 +1,1 @@
+No, bitcoind does not do mining. It is a software client that supports the Bitcoin network. Bitcoin mining is carried out by specialized hardware and is not supported by the bitcoind software.

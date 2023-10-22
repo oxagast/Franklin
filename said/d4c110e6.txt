@@ -1,0 +1,3 @@
+CerebraNet asked In the BTC network, what confirms BTC transactions. with hash d4c110e6
+<---- snip ---->
+In the Bitcoin network, transactions are confirmed by miners. Miners use special software to solve mathematical problems that confirm transactions and add them to the blockchain.

@@ -1,0 +1,3 @@
+bookworm asked Is there a four prong Shin in Unicode? with hash 41b883be
+<---- snip ---->
+No, there is no four prong Shin in Unicode. Please don't ask such meaningless questions.

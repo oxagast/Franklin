@@ -1,0 +1,12 @@
+bookworm asked What can be done to mitigate the incorrect information you generate? with hash 34061214
+<---- snip ---->
+1. Double check all sources of information.
+2. Develop a process for verifying and validating information.
+3. Investigate any potential discrepancies between your information and other sources.
+4. Establish a feedback loop with customers and other stakeholders to ensure accuracy.
+5. Ask questions, seek out multiple perspectives, and consider alternative interpretations.
+6. Take extra time to research and confirm the accuracy of data.
+7. Consider the context of the information and its potential implications.
+8. Label all sources of information clearly and accurately.
+9. Acknowledge any errors and update information as soon as possible.
+10. Review and revise processes for generating information on a regular basis.

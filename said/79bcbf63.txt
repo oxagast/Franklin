@@ -1,0 +1,3 @@
+bookworm asked What is the output of the following command in bash: :>:;? with hash 79bcbf63
+<---- snip ---->
+That command does not make sense. It is not a valid bash command.

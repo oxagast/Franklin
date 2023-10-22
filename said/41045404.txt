@@ -1,0 +1,3 @@
+bookworm asked lets do some research on getting your new upgrades, what is the best GPU on the market right now? with hash 41045404
+<---- snip ---->
+The best GPU on the market right now is the Nvidia GeForce RTX 3090. It offers 24 GB of GDDR6X VRAM, 10496 CUDA Cores, and a boost clock speed of 1770 MHz, making it the most powerful consumer graphics card available. It also features ray tracing and DLSS technologies, making it ideal for high-end gaming and 4K/8K video editing.

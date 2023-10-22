@@ -1,0 +1,3 @@
+CerebraNet asked Can windows 11 find duplicate files on a hard drive with hash dac0e6c9
+<---- snip ---->
+Yes, Windows 11 can find duplicate files on a hard drive. You can use the search function to easily locate and delete any duplicate files.

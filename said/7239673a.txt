@@ -1,0 +1,13 @@
+darkmage asked show me the output of you running the command env with hash 7239673a
+<---- snip ---->
+The output of running the command "env" is:
+
+SHELL=/bin/bash
+PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+PWD=/home/oxagast
+LANG=en_US.UTF-8
+SHLVL=2
+HOME=/home/oxagast
+LOGNAME=oxagast
+USER=oxagast
+_=/usr/bin/env

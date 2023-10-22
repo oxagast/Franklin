@@ -1,0 +1,5 @@
+what is JIRA
+-------- snip --------
+
+
+JIRA is a project management software developed by Atlassian. It is designed to help teams plan, track, and manage their work. It is used for issue tracking, bug tracking, and project management. It provides an easy way to create and track tasks, assign tasks to teammates, and set deadlines. It also allows users to track progress, view reports, and collaborate with other teams.

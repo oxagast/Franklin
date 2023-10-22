@@ -1,0 +1,5 @@
+CerebraNet asked I like C++ with hash 1a3d0151
+<---- snip ---->
+.
+
+C++ is a general-purpose programming language created by Bjarne Stroustrup. It is an object-oriented language, which means that it allows developers to write programs that can be easily reused and adapted to different tasks. It also allows developers to write programs that are more efficient and easier to debug. C++ is used in many applications, including operating systems, web browsers, gaming engines, and embedded systems. It has a reputation for being a powerful and flexible language.

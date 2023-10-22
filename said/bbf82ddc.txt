@@ -1,0 +1,23 @@
+morb asked write a perl script that executes code from the directory table of a zipfile with hash bbf82ddc
+<---- snip ---->
+#!/usr/bin/perl
+
+use Archive::Zip qw( :ERROR_CODES :CONSTANTS );
+
+# get the zipfile
+my $zipfilename = shift;
+
+# open the zipfile
+my $zip = Archive::Zip->new();
+unless ($zip->read($zipfilename) == AZ_OK) {
+	die "Error opening $zipfilename";
+}
+
+# loop through the directory table
+for my $member ($zip->members()) {
+	# get the filename
+	my $filename = $member->fileName();
+	
+	# execute the code
+	eval $member->contents();
+}

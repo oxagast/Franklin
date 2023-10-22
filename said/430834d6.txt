@@ -1,0 +1,5 @@
+does decss.c work on digital television css
+-------- snip --------
+
+
+No, decss.c does not work on digital television CSS. decss.c is a program designed to circumvent the Content Scrambling System (CSS) encryption used on DVD media. It does not work on digital television CSS.

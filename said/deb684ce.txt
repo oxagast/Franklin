@@ -1,0 +1,5 @@
+CerebraNet asked How can photons be in phase with hash deb684ce
+<---- snip ---->
+ and out of phase?
+
+Photons can be in phase or out of phase with each other depending on their relative phase angles. Photons in phase have the same phase angle and travel in the same direction, while photons out of phase have different phase angles and travel in different directions.

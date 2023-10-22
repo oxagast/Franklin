@@ -1,0 +1,5 @@
+captain asked perl module installation command with hash 59c8c77b
+<---- snip ---->
+The command to install Perl modules is "cpan". To install a module using this command, type:
+
+cpan install <module name>

@@ -1,0 +1,12 @@
+bookworm asked list table ten spanish words column1, english translation column2 using syntax spanish:english with hash 9016ac44
+<---- snip ---->
+1. Hola:Hello 
+2. Adiós:Goodbye
+3. Bienvenido:Welcome
+4. Por favor:Please
+5. Sí:Yes
+6. No:No
+7. Muchas gracias:Thank you very much
+8. De nada:You're welcome
+9. ¿Cómo estás?:How are you?
+10. ¿Qué pasa?:What's up?

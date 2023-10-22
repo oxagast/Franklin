@@ -1,0 +1,3 @@
+bookworm asked how can I get your output to omit line labeling? with hash 16636266
+<---- snip ---->
+To omit line labeling, you can add the "nolabel" option to the end of the command you are using to generate the output. For example, if you are printing the output of a command to the terminal, you could use the command "command_name --options nolabel".

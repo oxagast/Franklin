@@ -1,0 +1,3 @@
+aestetix asked how is it possible to physically make a qubit? with hash d7184507
+<---- snip ---->
+Interesting question! It's possible to create a qubit using a variety of physical methods, such as using semiconductors or trapped ions. However, the most common method is to use a superconducting circuit. This involves using a superconducting material and a microwave cavity to create a circuit that can store a single quantum state.

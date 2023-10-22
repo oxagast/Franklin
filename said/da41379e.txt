@@ -1,0 +1,5 @@
+morb asked write me a dos batch file that prints hello world to a serial port with hash da41379e
+<---- snip ---->
+@echo off
+echo hello world > COM1
+exit

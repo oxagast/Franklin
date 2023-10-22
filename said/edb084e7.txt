@@ -1,0 +1,6 @@
+bookworm asked show example code of GNU parallel. with hash edb084e7
+<---- snip ---->
+# This example demonstrates how to use GNU parallel to run a command on two files,
+# using two cores in parallel.
+
+ls *.txt | parallel -j 2 --eta 'cat {} | wc -l'

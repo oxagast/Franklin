@@ -1,0 +1,12 @@
+morb asked what are the minimum components required to build a spark gap transmitter with hash 2eec205f
+<---- snip ---->
+The minimum components required to build a spark gap transmitter are:
+
+1. A spark gap
+2. A primary coil
+3. A secondary coil
+4. A capacitor
+5. An antenna
+6. A spark coil
+7. A power supply
+8. A Morse code key

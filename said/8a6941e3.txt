@@ -1,0 +1,3 @@
+morb asked what is the projected gaseous volume of a pound of liquid hydrogen after phase change with hash 8a6941e3
+<---- snip ---->
+According to the Ideal Gas Law, the projected gaseous volume of a pound of liquid hydrogen after phase change would be approximately 8.2 cubic feet.

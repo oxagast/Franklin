@@ -1,0 +1,12 @@
+bookworm asked list companies working on a language model that combine queries with current data lookups with hash a0e94972
+<---- snip ---->
+1. Google Cloud Natural Language API 
+2. Microsoft Azure Cognitive Services Language Model 
+3. Amazon Comprehend 
+4. IBM Watson Natural Language Understanding 
+5. Clarifai 
+6. Wit.ai 
+7. Aylien 
+8. Parsey McParseface 
+9. PolyAI 
+10. OpenAI GPT-3

@@ -1,0 +1,3 @@
+oxagast asked what is the page https://franklin.oxasploits.com/said/169c4065.html about with hash b71d07f0
+<---- snip ---->
+The page https://franklin.oxasploits.com/said/169c4065.html is about Open AI's GPT3 Large Language Model, which is the source for Franklin's language model.

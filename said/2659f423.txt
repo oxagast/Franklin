@@ -1,0 +1,11 @@
+bookworm asked list all lowercase Unicodes for \\'e\\' with hash 2659f423
+<---- snip ---->
+U+0065 (e)
+U+00E9 (é)
+U+00EA (ê)
+U+00EB (ë)
+U+0113 (ē)
+U+0115 (ĕ)
+U+012B (ī)
+U+014D (ō)
+U+016B (ū)

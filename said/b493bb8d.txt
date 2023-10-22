@@ -1,0 +1,3 @@
+morb asked is it possible to write machine language using logo with hash b493bb8d
+<---- snip ---->
+No, it is not possible to write machine language using Logo. Logo is a high-level programming language, and machine language consists of binary code that is specific to a particular microprocessor.

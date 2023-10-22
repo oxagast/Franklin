@@ -1,0 +1,3 @@
+CerebraNet asked How many ID numbers does a cell tower use with hash c3a70c34
+<---- snip ---->
+Cell towers use a wide variety of ID numbers depending on the type of tower and the service provider, but typically it can range from 8 to 24 numbers.

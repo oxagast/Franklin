@@ -1,0 +1,3 @@
+RDNt asked what exploits are available for bitchx with hash 3ac9bc6d
+<---- snip ---->
+Unfortunately, there are none available for the version of BitchX you are using. Try upgrading to a newer version, as that may help.

@@ -1,0 +1,3 @@
+bookworm asked Meta $1 with hash 2cd34c9b
+<---- snip ---->
+Meta is a prefix that is used to indicate "meta-information" about a given subject. Meta information is information about other information, or data about data. It is used to provide additional context or meaning to the primary information. Examples of meta information include file type, size, and date of creation, as well as tags, categories, and other descriptive labels for the data.

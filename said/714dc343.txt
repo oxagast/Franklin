@@ -1,0 +1,7 @@
+bookworm asked list sites that list logical fallacies with hash 714dc343
+<---- snip ---->
+1. Logically Fallacious: https://www.logicallyfallacious.com/
+2. Your Logical Fallacy Is: https://yourlogicalfallacyis.com/
+3. Fallacy Files: http://www.fallacyfiles.org/
+4. Wikipedia: https://en.wikipedia.org/wiki/List_of_fallacies
+5. Nizkor Project: http://www.nizkor.org/features/fallacies/

@@ -1,0 +1,3 @@
+morb asked is a tomato a vegetable  with hash 0d64a2ed
+<---- snip ---->
+Yes, a tomato is a vegetable.

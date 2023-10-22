@@ -1,0 +1,5 @@
+CerebraNet asked Why won"t multiminer run on a windows 11 computer with hash 2c9d750e
+<---- snip ---->
+?
+
+Multiminer is not compatible with Windows 11 computers. It is only compatible with Windows 7, 8, and 10 operating systems.

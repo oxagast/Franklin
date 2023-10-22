@@ -1,0 +1,3 @@
+morb asked what are congestion algorithms and how are they implemented in modern tcp/ip stacks with hash bbb5e744
+<---- snip ---->
+Congestion algorithms are methods used in modern TCP/IP stacks to manage how network traffic is handled, typically in order to reduce the number of collisions or dropped packets. Common congestion algorithms include the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP). In TCP, congestion algorithms regulate the amount of data sent in a given packet and the rate at which these packets are sent. In UDP, congestion algorithms are used to detect and drop unnecessary packets in order to reduce the number of collisions.

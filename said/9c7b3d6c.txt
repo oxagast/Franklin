@@ -1,0 +1,52 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different french phrases to english phrases, all small letters and no line numbering, format french:english with hash 9c7b3d6c
+<---- snip ---->
+bonjour:hello
+comment allez-vous?:how are you?
+je suis très bien:i'm very well
+je m'appelle:my name is
+ou est?:where is?
+ou allez-vous?:where are you going?
+je vais à la maison:i'm going home
+je veux:i want
+je ne sais pas:i don't know
+qu'est-ce que c'est?:what is it?
+qu'est-ce que tu fais?:what are you doing?
+je travaille:i'm working
+je suis:i am
+ou es-tu?:where are you?
+je suis ici:i'm here
+je suis désolé:i'm sorry
+je peux:i can
+je ne peux pas:i can't
+je comprends:i understand
+je ne comprends pas:i don't understand
+je veux aller:i want to go
+je veux manger:i want to eat
+je veux boire:i want to drink
+je veux jouer:i want to play
+qu'est-ce que tu veux?:what do you want?
+je veux être:i want to be
+je veux savoir:i want to know
+je veux parler:i want to talk
+je veux écouter:i want to listen
+qui êtes-vous?:who are you?
+je suis un ami:i'm a friend
+je suis un étudiant:i'm a student
+je suis un professeur:i'm a teacher
+je veux apprendre:i want to learn
+je veux être heureux:i want to be happy
+je veux être en sécurité:i want to be safe
+je veux être libre:i want to be free
+je veux être en bonne santé:i want to be healthy
+qu'est-ce que tu aimes?:what do you like?
+j'aime lire:i like to read
+j'aime écrire:i like to write
+j'aime faire:i like to do
+j'aime voyager:i like to travel
+j'aime apprendre:i like to learn
+j'aime jouer:i like to play
+j'aime manger:i like to eat
+j'aime regarder:i like to watch
+j'aime aller:i like to go
+j'aime parler:i like to talk
+j'aime écouter:i like to listen

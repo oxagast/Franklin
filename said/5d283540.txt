@@ -1,0 +1,5 @@
+who coined the term beowulf cluster
+-------- snip --------
+
+
+The term Beowulf Cluster was coined by Thomas Sterling, a professor at Louisiana State University, in 1994. It refers to a computer cluster of Linux computers connected via a local area network.

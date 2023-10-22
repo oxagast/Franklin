@@ -1,0 +1,5 @@
+Can I transmit using 1 microwatt on the AM broadcast band?
+-------- snip --------
+
+
+No, you cannot transmit using 1 microwatt on the AM broadcast band. The minimum power required for AM broadcast is usually 1 watt, and in some cases, it can be as high as 50,000 watts.

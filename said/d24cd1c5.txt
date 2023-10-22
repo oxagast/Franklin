@@ -1,0 +1,7 @@
+CerebraNet asked Give  me some URLs of articles about people dying inside an MRI machine. with hash d24cd1c5
+<---- snip ---->
+1. https://www.cnn.com/2009/HEALTH/11/17/mri.deaths/index.html
+2. https://www.livescience.com/37198-mri-safety.html
+3. https://www.npr.org/sections/health-shots/2012/08/10/158606047/deadly-mri-accidents-prompt-safety-concerns
+4. https://www.businessinsider.com/man-killed-in-mri-accident-2012-8
+5. https://www.cdc.gov/niosh/docs/2013-133/pdfs/2013-133.pdf

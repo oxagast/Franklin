@@ -1,0 +1,14 @@
+oxagast asked make a random algegreic based calculation and proof it with hash 90f3c40b
+<---- snip ---->
+Calculation:
+Let x = 5, y = 6
+
+x + 3y = ?
+
+Proof:
+
+x + 3y = 5 + 3(6)
+
+x + 3y = 5 + 18
+
+x + 3y = 23

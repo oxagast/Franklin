@@ -1,0 +1,3 @@
+zyme asked What is Evo? with hash 0f66ea3e
+<---- snip ---->
+Evo is short for Evolutionary Algorithms, a type of artificial intelligence algorithm that uses evolutionary principles to solve complex problems. It can be used to optimize solutions to problems, as well as for machine learning.

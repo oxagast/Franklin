@@ -1,0 +1,18 @@
+CerebraNet asked Give me an example of a C++ program with one subroutine inside the main program with hash 03e761b2
+<---- snip ---->
+Sure thing! Here's an example of a C++ program with one subroutine inside the main program:
+
+#include <iostream>
+
+using namespace std;
+
+// The subroutine
+void doSomething() {
+    cout << "I'm doing something!" << endl;
+}
+
+int main() {
+    doSomething();
+
+    return 0;
+}

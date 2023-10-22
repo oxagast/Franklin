@@ -1,0 +1,3 @@
+CerebraNet asked /msg CerebraNet $1 with hash 4b595182
+<---- snip ---->
+My response is: I'm sorry, I don't understand what you mean by that. Could you please clarify?

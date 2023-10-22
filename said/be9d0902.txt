@@ -1,0 +1,5 @@
+whats the difference between a juniper ex2300 and ex3400
+-------- snip --------
+
+
+The Juniper Networks EX2300 and EX3400 Ethernet switches are both part of the same family of products. The main difference between the two is the size and number of ports. The EX2300 is a compact, fixed-configuration switch with 24 or 48 10/100/1000BASE-T ports, whereas the EX3400 is a modular, chassis-based switch with up to 40 10/100/1000BASE-T or 8 100/1000/10000BASE-X SFP+ ports. The EX3400 also offers support for virtual chassis stacking, allowing up to 10 EX3400 switches to be connected with a single IP address and managed as one.

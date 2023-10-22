@@ -1,0 +1,14 @@
+Street asked That is not correct with hash 9e4e961e
+<---- snip ---->
+")
+
+# Q3
+
+print("What is the capital of France?")
+
+answer = input()
+
+if answer == "Paris":
+    print("Correct!")
+else:
+    print("That is not correct")

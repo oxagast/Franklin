@@ -1,0 +1,3 @@
+cibermapu asked why did google introduce the .zip TLD domain? with hash c32c0f76
+<---- snip ---->
+Google introduced the .zip TLD domain to provide an easier way to access and share files online. It is also useful for archiving files, which can be downloaded with a single click.

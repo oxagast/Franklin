@@ -1,0 +1,14 @@
+what does free software need to get more momentum
+-------- snip --------
+
+
+1. A strong community of developers, users, and advocates.
+2. More funding to fund development, marketing, and community building efforts.
+3. Support from technology giants such as Google, Microsoft, and Apple.
+4. Easier to use software that appeals to new users.
+5. Greater awareness of the advantages of free software.
+6. More user-friendly documentation and tutorials.
+7. An open-source mobile app platform.
+8. A structured approach to software development and bug tracking.
+9. A database of applications available for free software.
+10. A way to make money from free software.

@@ -1,0 +1,3 @@
+xibalba asked how many line cards can i put in a cisco asr 9910 with hash fa851856
+<---- snip ---->
+The answer to the query is: According to the Cisco ASR 9910 product specification, the maximum number of line cards is 32.

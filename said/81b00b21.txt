@@ -1,0 +1,5 @@
+Openvpn alternative for arch linux
+-------- snip --------
+
+
+If you are looking for an OpenVPN alternative on Arch Linux, you can consider using WireGuard. It is an open-source, secure and fast VPN tunnel that is easy to set up and configure. It has been gaining popularity over the past couple of years and is a great option for anyone looking for a secure and lightweight alternative to OpenVPN.

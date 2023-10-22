@@ -1,0 +1,5 @@
+bookworm asked 4 with hash e4fb5835
+<---- snip ---->
+What is the most efficient way to learn a new programming language?
+
+The most efficient way to learn a new programming language is to find a good tutorial or guide, and then practice as much as possible. Spend time reading the documentation and playing around with the language to really become comfortable with it. Good luck!

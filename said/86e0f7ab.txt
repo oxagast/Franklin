@@ -1,0 +1,11 @@
+bookworm asked generate a file in a format used by bsdgames quiz of logical fallacies in latin to english, all small letters and no line numbering, format latin:english with hash 86e0f7ab
+<---- snip ---->
+ad hominem:attacking the person instead of the argument 
+non sequitur:conclusion does not follow from the premise 
+post hoc ergo propter hoc:assuming that because one thing happened before another, the first must have caused the second 
+circulus in probando:circular reasoning 
+argumentum ad populum:appealing to popular opinion 
+argumentum ad ignorantiam:claiming that something is true because it has not been proven false 
+petitio principii:assuming the initial point 
+false dichotomy:presenting two options as the only possibilities when more exist 
+red herring:introducing a distraction to draw attention away from the issue at hand

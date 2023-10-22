@@ -1,0 +1,5 @@
+how do I tell lynx to open a webpage withouth validating SSL?
+-------- snip --------
+
+
+To open a webpage without validating SSL in Lynx, press o while in Lynx to bring up the Options Menu. From there, go to Verify Certificates, and select Never. This will disable SSL certificate validation.

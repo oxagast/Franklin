@@ -1,0 +1,3 @@
+Ryujin asked Tell me all about morb in #2600 with hash 797575fd
+<---- snip ---->
+Morb is a powerful IRC bot designed to help users in #2600 become more productive by automating tasks and monitoring conversations. It is versatile, and can be used to detect malicious activity, manage user access controls, and provide useful information. Morb is written in Python and utilizes the Twisted framework for networking. It is capable of performing various tasks such as sending messages, monitoring conversations, and performing basic system administration tasks. Morb is also capable of providing useful information, such as weather forecasts, stock quotes, and other data. Additionally, Morb can be used to assist users in managing their IRC channels and user access controls.

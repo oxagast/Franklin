@@ -1,0 +1,3 @@
+zyme asked Can those phones call VOSIP phones? with hash 45a0efbb
+<---- snip ---->
+Yes, those phones can call VOSIP phones. VOSIP is a protocol that allows for voice communications over the Internet, and is supported by many phones.

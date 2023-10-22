@@ -1,0 +1,3 @@
+bookworm asked what is the mathematical formula for a Ricci-flat manifold with hash 9e2ad010
+<---- snip ---->
+The mathematical formula for a Ricci-flat manifold is R_{ij} = 0, where R_{ij} is the Ricci tensor.

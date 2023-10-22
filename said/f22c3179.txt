@@ -1,0 +1,17 @@
+morb asked define 187 with hash f22c3179
+<---- snip ---->
+					// for M_PI
+
+#include <math.h>
+
+int main(void)
+{
+	double angle;
+	double result;
+
+	angle = 30.0;
+	result = cos(angle * M_PI / 180.0);
+	printf("cos(%f) = %f \n", angle, result);
+
+	return 0;
+}

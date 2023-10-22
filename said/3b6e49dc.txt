@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between a connector and a port with hash 3b6e49dc
+<---- snip ---->
+A connector is the physical interface between two devices, while a port is a logical interface that allows computers to communicate with each other. A connector is the physical device that holds the port, typically found on the back of a computer or other device. Ports allow two devices to communicate with each other, while connectors provide the physical connection between the two.

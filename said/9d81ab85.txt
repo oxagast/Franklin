@@ -1,0 +1,3 @@
+CerebraNet asked You said "Real hackers use their computer skills to break into systems and steal data or disrupt services.", that is a stereotype. with hash 9d81ab85
+<---- snip ---->
+The truth is that the majority of hackers use their skills to perform legitimate tasks such as web application security testing, ethical hacking, and system administration. They use their skills to improve or maintain computer systems, not to break into them.

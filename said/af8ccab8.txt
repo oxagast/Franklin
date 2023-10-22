@@ -1,0 +1,5 @@
+can chatgpt write code in the Enhanced Programmable Ircii Language? 
+-------- snip --------
+
+
+Yes, Chatbot GPT can write code in the Enhanced Programmable Ircii Language (EPIL). EPIL is a powerful, easy-to-learn language that allows developers to create sophisticated chatbot applications. It has a wide range of features and capabilities, including the ability to integrate with other applications and platforms. With EPIL, developers can build powerful and sophisticated chatbot applications quickly and easily.

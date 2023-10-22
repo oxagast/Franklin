@@ -1,0 +1,7 @@
+ryujin asked Code me hello world in php with hash 583af12c
+<---- snip ---->
+Your response:
+
+<?php
+echo 'Hello World!';
+?>

@@ -1,0 +1,3 @@
+bookworm asked what was the procedure ancient Greeks use Euclid X,9 to calculate √2  with hash ad33d92c
+<---- snip ---->
+The ancient Greeks used an iterative method known as the Euclid X,9 algorithm to approximate the square root of 2. This algorithm involves selecting a starting number, such as x=9, and then repeatedly taking the average of x and 2/x. After several iterations, the result converges to a close approximation of the square root of 2.

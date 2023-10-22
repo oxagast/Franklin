@@ -1,0 +1,3 @@
+StackProphet asked if i have three apples, and i eat one, then eat the rest, how many apples do i have? with hash 2e4d3d9f
+<---- snip ---->
+My response would be: "You have zero apples left! Maybe it's time to go grocery shopping!"

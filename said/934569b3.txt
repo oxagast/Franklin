@@ -1,0 +1,5 @@
+bookworm asked What is the difference between ASCII and Unicode with hash 934569b3
+<---- snip ---->
+ASCII is a 7-bit character set that contains 128 characters and is used to represent text in computers, communications equipment, and other devices. It is a single-byte character set that does not support multilingual characters, such as those needed for non-English languages.
+
+Unicode is a much larger character set that contains more than 100,000 characters and is used to represent text in computers, communications equipment, and other devices. Unicode supports multiple languages and is a multibyte character set, meaning that it contains characters that are represented by more than one byte.

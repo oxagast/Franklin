@@ -1,0 +1,5 @@
+is today Friday?
+-------- snip --------
+
+
+Yes, it is Friday today.

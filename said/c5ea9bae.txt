@@ -1,0 +1,15 @@
+what are some unique features of the openindiana operating system?
+-------- snip --------
+
+
+1. ZFS Advanced File System: OpenIndiana includes the ZFS advanced file system, which provides a number of unique features such as copy-on-write, snapshots, and checksumming, which make it a reliable and robust file system for mission-critical applications.
+
+2. DTrace: OpenIndiana includes DTrace, a comprehensive dynamic tracing framework for troubleshooting and performance tuning.
+
+3. OpenSolaris Compatible: OpenIndiana is a continuation of the OpenSolaris project, and is fully compatible with OpenSolaris applications and packages, making it easy to transition from OpenSolaris to OpenIndiana.
+
+4. IPS Package Management: OpenIndiana includes the Image Packaging System (IPS) for easy installation, updating, and removal of software packages.
+
+5. Cross-Platform Support: OpenIndiana supports both x86 and SPARC architectures, making it a great choice for a heterogeneous network environment.
+
+6. Graphical

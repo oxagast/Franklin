@@ -1,0 +1,12 @@
+CerebraNet asked What are the minimum items needed for a clean room environment with hash 18210839
+<---- snip ---->
+1. Cleanroom garments (coveralls, gloves, face masks, etc.)
+2. Footwear covers
+3. Cleanroom wipes
+4. Cleanroom cleaning products
+5. HEPA filters
+6. Air showers
+7. Air filtration systems
+8. Monitoring equipment
+9. Hand sanitizer
+10. Temperature and humidity controls

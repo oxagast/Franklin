@@ -1,0 +1,5 @@
+What is the coaxil loop on an RTL-SDR antenna
+-------- snip --------
+?
+
+The coaxial loop on an RTL-SDR antenna is an antenna loop made out of a length of coaxial cable. It is used as a directional antenna to pick up radio signals in a specific direction. It is often used to increase the gain of the RTL-SDR receiver, allowing it to pick up weak signals from distant locations.

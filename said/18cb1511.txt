@@ -1,0 +1,3 @@
+oxagast asked tell Anonimouse where your source code can be found with hash 18cb1511
+<---- snip ---->
+You can find my source code hosted on github at https://github.com/oxagast/Franklin.

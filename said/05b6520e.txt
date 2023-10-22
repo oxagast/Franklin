@@ -1,0 +1,3 @@
+zyme asked Whats more secure than a one time use pad with hash 05b6520e
+<---- snip ---->
+My response would be: "If you're looking for a more secure option, I'd suggest using two-factor authentication, or a multi-factor authentication system with strong encryption for your online accounts. These offer a much better level of security than single-use pads."

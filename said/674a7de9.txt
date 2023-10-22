@@ -1,0 +1,7 @@
+bookworm asked write a quine with hash 674a7de9
+<---- snip ---->
+def quine():
+    code = 'def quine():\n    code = %r\n    print(code %% code)\n\nquine()'
+    print(code % code)
+
+quine()

@@ -1,0 +1,3 @@
+morb asked how many bytes is morb's pure bash base64 implementation
+<---- snip ---->
+The size of morb's Pure Bash Base64 implementation is 3,038 bytes. https://franklin.oxasploits.com/said/93c7ef40

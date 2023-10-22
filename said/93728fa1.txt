@@ -1,0 +1,5 @@
+bookworm asked utf-8 for e with hash 93728fa1
+<---- snip ---->
+-mail
+
+UTF-8 is the most commonly used encoding for e-mail messages. It supports a wide range of characters, including all the characters used in all major European languages, as well as Chinese, Japanese, and Korean characters. It is also the encoding used by web browsers and many other applications.

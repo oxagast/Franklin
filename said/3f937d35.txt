@@ -1,0 +1,3 @@
+oxagast asked waht is the weather in asheville north carolina according to https://www.accuweather.com/en/us/asheville/28801/weather-forecast/329813 with hash 3f937d35
+<---- snip ---->
+According to AccuWeather, the weather in Asheville, North Carolina is currently partly cloudy with a high of 79°F and a low of 63°F. There is a 20% chance of precipitation.

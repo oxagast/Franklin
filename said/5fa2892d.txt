@@ -1,0 +1,21 @@
+bookworm asked define kerbal with hash 5fa2892d
+<---- snip ---->
+_h
+
+#include <string>
+#include "astronaut.h"
+
+class Kerbal: public Astronaut {
+public:
+    Kerbal();
+    Kerbal(std::string name);
+    std::string getName();
+    int getAge();
+    void setName(std::string name);
+    void setAge(int age);
+private:
+    std::string name;
+    int age;
+};
+
+#endif /* kerbal_h */

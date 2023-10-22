@@ -1,0 +1,5 @@
+How can I charge a BTC transaction fee?
+-------- snip --------
+
+
+In order to charge a BTC transaction fee, you will need to use a wallet that allows you to set the fee. Most wallets will have the option to set the fee amount, as well as the priority of the transaction. Generally, higher fees will lead to a faster confirmation time, while lower fees may cause your transaction to remain unconfirmed for a longer period of time.

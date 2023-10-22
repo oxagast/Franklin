@@ -1,0 +1,5 @@
+Can I build a Cray computer from household materials?
+-------- snip --------
+
+
+No, building a Cray computer from household materials is not possible due to the complexity and cost of the components required. Cray computers are designed using very specific components that are not available in most households.

@@ -1,0 +1,5 @@
+CerebraNet asked How can two running windows programs send data back and forth with hash 0af55bb9
+<---- snip ---->
+?
+
+Two running Windows programs can send data back and forth using a number of different methods. These methods include the Windows Communication Foundation (WCF) for exchanging data between two programs, or using Windows Sockets (also known as WinSock) to establish a connection between the two programs to exchange data. You can also use a shared file or database to store and send data between the two programs.

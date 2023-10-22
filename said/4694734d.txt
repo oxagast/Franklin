@@ -1,0 +1,3 @@
+morb asked why do terminals need carriage returns and line feeds with hash 4694734d
+<---- snip ---->
+Carriage returns and line feeds are special control characters used in terminal-based programs. They indicate where the line should end and the next line should start. Without these characters, it would be difficult for the terminal to distinguish between the end of the line and the beginning of the next one.

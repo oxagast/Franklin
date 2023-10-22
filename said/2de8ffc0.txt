@@ -1,0 +1,3 @@
+bookworm asked what are the Unicode numbers for е with hash 2de8ffc0
+<---- snip ---->
+U+0435

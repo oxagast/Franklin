@@ -1,0 +1,5 @@
+what was the first iis remote code execution exploit
+-------- snip --------
+
+
+The first remote code execution exploit for IIS was discovered in 2001 and was discovered by security researcher Rain Forest Puppy. It was a vulnerability in the encoding of GET parameters in the IIS web server. The exploit allowed attackers to execute arbitrary code on the server.

@@ -1,0 +1,5 @@
+Is gravity a vector force?
+-------- snip --------
+
+
+Gravity is not a vector force. It is a scalar force, meaning it only has magnitude and not direction.

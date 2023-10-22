@@ -1,0 +1,5 @@
+is written in perl
+-------- snip --------
+
+
+The Perl programming language was created by Larry Wall in 1987. It is a high-level, general-purpose, interpreted, dynamic programming language. Perl is widely used for web development, system administration, network programming, GUI development, and more.

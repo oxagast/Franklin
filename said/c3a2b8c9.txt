@@ -1,0 +1,27 @@
+Make a gangsta rap song about a guy who has to argue whether or not to pay bug bounties
+-------- snip --------
+
+
+[Verse 1]
+Im a hustler tryin to stay alive,
+Got a tech stack thats got me stressed and fried
+Got a codebase full of bugs, theyre a-buzzin
+Gotta figure out if Im gonna pay the bug bounties
+
+[Chorus]
+Should I pay dem bug bounties?
+Should I do it or not?
+Should I pay dem bug bounties?
+Still gots ta make my plot
+
+[Verse 2]
+Gotta think it through, weigh the pros and cons
+It aint cheap to pay, but if I dont, Im done
+Im no fool, dont wanna take a fall
+Gotta make sure I do it all, big and small
+
+[Chorus]
+Should I pay dem bug bounties?
+Should I do it or not?
+Should I pay dem bug bounties?
+Still gots

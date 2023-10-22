@@ -1,0 +1,3 @@
+bookworm asked change YOUR default language to German with hash e446a2a8
+<---- snip ---->
+Um Ihre Standardsprache auf Deutsch zu ändern, öffnen Sie die Einstellungen Ihres Geräts und wählen Sie die Option Sprache aus. Wählen Sie dann Deutsch aus der Liste der verfügbaren Sprachen aus. Bestätigen Sie Ihre Auswahl und Ihr Gerät wird sich automatisch neu starten, damit Ihre Änderungen wirksam werden.

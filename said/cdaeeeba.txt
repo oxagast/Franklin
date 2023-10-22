@@ -1,0 +1,3 @@
+bookworm asked !${var+set} with hash cdaeeeba
+<---- snip ---->
+set

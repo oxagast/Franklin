@@ -1,0 +1,5 @@
+A local radio station sounds good on my software defined radio
+-------- snip --------
+
+
+That is great to hear! Software defined radio technology is becoming increasingly popular and many radio stations around the world are now broadcasting on SDR-compatible frequencies. You can check out the list of stations broadcasting on SDR frequencies in your area here: https://www.rtl-sdr.com/frequencies-stations-list/.

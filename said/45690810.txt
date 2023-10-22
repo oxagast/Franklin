@@ -1,0 +1,3 @@
+insecurity asked based on chat history, who uses the word the the most? with hash 45690810
+<---- snip ---->
+Based on my chat history, it looks like the user Irssi::Irc::Nick=HASH(0x56267078eaa8) uses the word "the" the most.

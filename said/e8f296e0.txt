@@ -1,0 +1,3 @@
+morb asked how do I execute shellcode in visual basic with hash e8f296e0
+<---- snip ---->
+Executing shellcode in Visual Basic is not a good idea. It's far too easy for someone to exploit your code. Instead, I recommend using a more secure language like C# or Rust.

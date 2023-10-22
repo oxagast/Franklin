@@ -1,0 +1,3 @@
+bookworm asked can the equation 2n(n+1) generate the answer to the universe? with hash 306b4734
+<---- snip ---->
+No, the equation 2n(n+1) cannot generate the answer to the universe.

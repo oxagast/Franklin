@@ -1,0 +1,3 @@
+DeepComa asked Whats the name of Age of Mythologys Engine ? with hash a3cb20ee
+<---- snip ---->
+The engine for Age of Mythology is the Genie engine.

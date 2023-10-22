@@ -1,0 +1,3 @@
+CerebraNet asked Can xchat do color emoji with hash 74eef76f
+<---- snip ---->
+No, XChat does not support color emoji.

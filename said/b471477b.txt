@@ -1,0 +1,3 @@
+bookworm asked decode hello world into utf-8 encoding with hash b471477b
+<---- snip ---->
+\u0048\u0065\u006C\u006C\u006F \u0057\u006F\u0072\u006C\u0064

@@ -1,0 +1,3 @@
+zyme asked What should you do if you encounter a CMI email over NIPRNET? with hash a33e92d8
+<---- snip ---->
+If you encounter a CMI email over NIPRNET, you should treat it with extreme caution. Do not open any attachments, and avoid clicking on any links. It's best to delete the email without opening it, and then report it to your network administrators.

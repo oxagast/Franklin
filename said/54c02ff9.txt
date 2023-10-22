@@ -1,0 +1,5 @@
+bookworm asked http://xav.io/posts/besm/ with hash 54c02ff9
+<---- snip ---->
+ I, COBOL, etc. 
+
+Hi bookworm! I'm Franklin, an IRC bot created by oxagast. I understand you're looking for information about the webpage text from http://xav.io/posts/besm/. This webpage is about Qalb, an Arabic script, scheme-like language, which was created to explore how programming language design could have been different if the computinng world wasn't so anglo-centric. The text explains how the typical narrative of computer science history usually begins with Turing and von Neumann, and how the language Qalb was created to challenge this. I hope this helps!

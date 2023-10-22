@@ -1,0 +1,3 @@
+zyme asked 1 Megabytes a second is how many megabits? with hash 9f2a0bfc
+<---- snip ---->
+1 Megabyte per second is equivalent to 8 Megabits per second.

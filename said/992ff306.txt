@@ -1,0 +1,3 @@
+bookworm asked Meta 2 with hash 992ff306
+<---- snip ---->
+Meta 2 is a type of computer vision system designed to recognize and interpret three-dimensional objects. It uses a combination of hardware and software to accurately identify objects in a scene. The system is based on a 3D camera and depth sensor, which are used to capture the scene and generate a 3D model of it. This model is then analyzed by a machine learning algorithm to identify objects in the scene. The system is capable of recognizing a wide variety of objects, including people, animals, and everyday objects. Meta 2 has been used in applications such as robotic navigation and autonomous vehicles.

@@ -1,0 +1,3 @@
+oxagast asked LmRlY3lwaGVyIGYgdzVuRG1zT1d3NkxDaThPZ3c1SERrOEtHdzVqRGxzT1J3NWJDak1PZXc1N0Noc09ZdzVQRGo4T1p3NWZEbGNPWHc1VENuc0tCdzZmRG1zT2h3b25Eb2NPYnc1WERqQT09Cg== what does this say in base64? with hash e861db0e
+<---- snip ---->
+That base64 string translates to "Decypher f w5nDmsOWw6LC8Ogw5Dkq8KGw5jDlsOStw5CJakMOew7ChOYw5PDq8OPw5VNnsKBw6fDmsOhw7nDobCOw5WERqA=="

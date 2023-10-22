@@ -1,0 +1,5 @@
+How do fire departments handle malicious radio interference
+-------- snip --------
+?
+
+Fire departments typically handle malicious radio interference by first reporting it to the Federal Communications Commission (FCC). The FCC has the authority to investigate and take appropriate action to stop the interference. Fire departments may also take steps to reduce the impact of the interference, such as changing frequencies, adjusting antennas, and using filters to block out the interference.

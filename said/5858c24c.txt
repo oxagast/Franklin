@@ -1,0 +1,5 @@
+in mpls is a route domain of 1234 with a route target of 0, is the import/export of the prefix into the vpn ignored
+-------- snip --------
+
+
+Yes, the import/export of the prefix into the VPN would be ignored.

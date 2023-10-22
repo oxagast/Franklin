@@ -1,0 +1,3 @@
+morb asked how many hdmi to vga adapters do I need for a X11 based videowall with twenty five monitors with hash fb707d7f
+<---- snip ---->
+You would need twenty five HDMI to VGA adapters in order to create a X11 based videowall with twenty five monitors.

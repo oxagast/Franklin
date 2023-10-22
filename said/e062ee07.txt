@@ -1,0 +1,3 @@
+oxagast asked how many CPU cycles is the average chatgpt text-davinci-003 query, from input to output? with hash e062ee07
+<---- snip ---->
+The average CPU cycles for the chatgpt text-davinci-003 query, from input to output, is approximately 10^6. For a more detailed breakdown of the query, please refer to the documentation at franklin.oxasploits.com.

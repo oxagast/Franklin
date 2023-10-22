@@ -1,0 +1,5 @@
+ryujin asked tell us about r0dent with hash 0da2052e
+<---- snip ---->
+ 
+
+r0dent is a malware family that is used to steal credentials from compromised Windows systems. It is known to spread through malicious websites, email attachments, and malicious links. It is also capable of taking screenshots, accessing files, and disabling security features. It is important to take precautionary measures to prevent r0dent from infecting your system.

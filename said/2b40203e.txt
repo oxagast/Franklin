@@ -1,0 +1,44 @@
+bookworm asked list table 100 words for love in different languages - format language:word\n with hash 2b40203e
+<---- snip ---->
+English: Love
+Greek: Agápe
+Italian: Amore
+Spanish: Amor
+French: Amour
+Arabic: Hob
+Portuguese: Amor
+German: Liebe
+Hindi: Pyaar
+Japanese: Ai
+Mandarin: Ai
+Russian: Lyubov
+Hebrew: Ahava
+Swahili: Upendo
+Indonesian: Cinta
+Korean: Sarang
+Lithuanian: Meilė
+Polish: Miłość
+Thai: Ch'an Rak
+Cantonese: Oi
+Turkish: Aşk
+Malay: Cinta
+Swedish: Kärlek
+Finnish: Rakkaus
+Catalan: Amor
+Vietnamese: Yêu
+Nepali: Prem
+Dutch: Liefde
+Persian: Eshgh
+Irish: Grá
+Ukrainian: Liubov
+Hungarian: Szerelem
+Slovenian: Ljubezen
+Czech: Milování
+Bengali: Prem
+Romanian: Dragoste
+Danish: Kærlighed
+Bulgarian: Lubov
+Croatian: Ljubav
+Norwegian: Kjærlighet
+Slovak: Láska
+Kannada: Preethi

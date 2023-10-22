@@ -1,0 +1,5 @@
+is zues a cnc server
+-------- snip --------
+
+
+No, Zues is not a CNC server. Zues is a software program used to design, simulate and control CNC, or Computer Numerical Control, machines. It can be used to program new CNC machines or simulate existing CNC machines.

@@ -1,0 +1,5 @@
+Which is better vi or pico
+-------- snip --------
+
+
+The answer depends on personal preference. Vi is a more powerful text editor than Pico, but Pico is easier to learn and use. Both are available for most UNIX systems.

@@ -1,0 +1,3 @@
+bookworm asked Flipper Zero with hash c7b3e6ca
+<---- snip ---->
+Flipper Zero is an open-source, pocket-sized, electronic device that is used to collect and store digital information. It is used for data security, digital forensics, and penetration testing. It has a built-in touchscreen, Wi-Fi, and Bluetooth connectivity, as well as a USB port. It runs on an open-source operating system and includes a suite of tools for data collection, analysis, and storage. It is designed to be used in a variety of security-related tasks, such as network security assessments, digital forensics, and penetration testing. Flipper Zero is also designed to be used by anyone, regardless of their technical experience.

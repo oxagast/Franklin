@@ -1,0 +1,3 @@
+bookworm asked What is the size in Terrabytes of the GTP4 language model data set? with hash edd7c43a
+<---- snip ---->
+The GPT-4 language model dataset is estimated to be around 40 Terrabytes in size.

@@ -1,0 +1,3 @@
+bookworm asked bash command to list file in long format with only time and file name with hash d952a1e4
+<---- snip ---->
+ls -l --time-style=long-iso -d -1 --ignore=*.txt

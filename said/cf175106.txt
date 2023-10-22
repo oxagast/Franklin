@@ -1,0 +1,5 @@
+OfficeChair2 asked Can I hack into wireless access points people claim do not exist
+<---- snip ---->
+?
+
+No, it is not possible to hack into wireless access points that do not exist. Access points must first exist before they can be hacked. https://gpt3.oxasploits.com/said/cf175106

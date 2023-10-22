@@ -1,0 +1,3 @@
+Officechair2 asked What is tails with hash dbeec280
+<---- snip ---->
+Tails is a privacy-focused Linux distro that routes all your internet traffic through the Tor network, making it difficult for anyone to track your online activity. It also includes a range of privacy and security tools, such as anti-forensic tools and secure messaging apps.

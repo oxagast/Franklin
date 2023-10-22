@@ -1,0 +1,3 @@
+Raspbian asked how do NES emulators work? with hash 84ec6b50
+<---- snip ---->
+NES emulators are programs that allow you to play original Nintendo Entertainment System (NES) games on your computer or mobile device. They emulate the original hardware of the NES, so you can play the games just like you would on the original console. The emulators can also be used to add features to the games that the original hardware couldn't offer, like cheats, better graphics and sound, or even multiplayer options.

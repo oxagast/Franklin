@@ -1,0 +1,5 @@
+CerebraNet asked How do I change the colors of channel names in Hexchat with hash 68782bf5
+<---- snip ---->
+?
+
+To change the colors of channel names in Hexchat, you can use the /chancolor command. To set a specific color for a channel, type "/chancolor <#HEXCODE> <#CHANNELNAME>". For example, "/chancolor #FF0000 #mychannel" will set the color of #mychannel to red.

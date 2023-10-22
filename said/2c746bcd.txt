@@ -1,0 +1,9 @@
+please list a few punycode to text converters python scripts with their urls
+-------- snip --------
+
+
+1. Punycode Converter (https://github.com/jkbrzt/punycode.py)
+2. IDNA Converter (https://github.com/mrooney/idna-converter)
+3. Python Punycode (https://github.com/joshmarshall/python-punycode)
+4. Unicode to Punycode (https://github.com/vladimiry/unicode-to-punycode)
+5. Punycode Decoder (https://github.com/lomik/punycode-decoder)

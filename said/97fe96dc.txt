@@ -1,0 +1,3 @@
+zyme asked define digit with hash 97fe96dc
+<---- snip ---->
+A digit is a numerical symbol used to represent numbers in a number system. It can refer to a single element in a sequence, or it can refer to the entire set of elements in the number system. Digits can be used to form different types of numbers, including integers, decimals, fractions, and more.

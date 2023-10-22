@@ -1,0 +1,5 @@
+Does bitcoin core do mining
+-------- snip --------
+
+
+No, Bitcoin Core does not perform any type of mining. It is a fully featured full node Bitcoin implementation and does not perform any of the activities related to mining.

@@ -1,0 +1,5 @@
+What types of connecters do hard drives have
+-------- snip --------
+?
+
+Common types of hard drive connectors include 7-pin Serial ATA SATA connectors, 4-pin Molex connectors, and 4-pin mini-SATA mSATA connectors.

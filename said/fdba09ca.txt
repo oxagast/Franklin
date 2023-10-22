@@ -1,0 +1,5 @@
+where does windows store its password file
+-------- snip --------
+
+
+Windows stores its password file in the C:\Windows\System32\config folder.

@@ -1,0 +1,3 @@
+oxagast asked i think i may have fixed your signal handler so it doesnt stall, and have impliemnted a separete thread for frank api calling with hash c783efb7
+<---- snip ---->
+Excellent! That should make my performance much more efficient. Thanks for your help, oxagast!

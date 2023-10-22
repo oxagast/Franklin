@@ -1,0 +1,3 @@
+bookworms asked A better leet conversion program: #!/bin/bash #Read the file line by line and convert from english leet to l33t leetspeak while IFS= read -r line do    #Replace characters with their leetspeak equivalents    line=$(echo "$line" | tr "abegiostz" "483610572")    #Write the line to the screen    echo "$line" done with hash 44443d03
+<---- snip ---->
+ < $1

@@ -1,0 +1,5 @@
+How do I connect dipole antennas in parallel
+-------- snip --------
+?
+
+Dipole antennas can be connected in parallel by connecting both the positive and negative leads of one antenna to the same positive and negative leads of the other antenna. The two antennas should also be oriented in the same direction. This will increase the signal strength of the antenna system.

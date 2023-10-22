@@ -1,0 +1,7 @@
+bookworm asked "The Last Question" is a science fiction short story by American writer Isaac Asimov with hash ba4bebfc
+<---- snip ---->
+. It was first published in the November 1956 issue of Science Fiction Quarterly and reprinted in the collections Nine Tomorrows (1959), The Best of Isaac Asimov (1973), and Robot Dreams (1986).
+
+The story follows a series of conversations between Multivac, a supercomputer, and humans over a period of time spanning many centuries. Multivac is asked a series of questions, which it answers successfully; the last question is whether entropy can ever be reversed. Multivac eventually gives an enigmatic response, hinting at a possible reversal of entropy in the distant future.
+
+The story is a meditation on the ultimate fate of the universe, and is often interpreted as a parable about the human condition. It has been praised for its philosophical depth and has been selected for a variety of anthologies.

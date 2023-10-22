@@ -1,0 +1,5 @@
+What is the format of a haiku?
+-------- snip --------
+
+
+Haikus are three-line poems traditionally written in a 5-7-5 syllable format. The first line has 5 syllables, the second line has 7 syllables, and the third line has 5 syllables.

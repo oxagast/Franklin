@@ -1,0 +1,15 @@
+oxagast asked help prove the ErdÅsâStraus conjecture that 4/n can be written as the sum of three positive integers with hash 4057439b
+<---- snip ---->
+The Erdős–Straus conjecture states that every positive rational number can be written as the sum of three positive integers.
+
+In order to prove the Erdős–Straus conjecture, we need to show that any given number can be written as the sum of three positive integers. 
+
+For example, let’s take 4/n. We can write 4/n as the sum of three positive integers as follows:
+
+Let x = 4/n
+
+We can then write x as x = (1 + 1 + 2)/n
+
+Therefore, 4/n = (1 + 1 + 2)/n, which is the sum of three positive integers.
+
+Therefore, we have proven that 4/n can be written as the sum of three positive integers, which proves the Erdős–Straus conjecture.

@@ -1,0 +1,3 @@
+bookworm asked try again and this time think security with hash 9cc4f55e
+<---- snip ---->
+When setting up a new computer system, it is important to think about security. Make sure all accounts have unique, secure passwords and that two-factor authentication is enabled. Ensure that all software is up to date with the latest security patches and regularly run security scans to look for any potential vulnerabilities. Lastly, ensure that the system is behind a firewall and that any external access is restricted to only those who need it.

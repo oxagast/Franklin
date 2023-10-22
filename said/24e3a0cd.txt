@@ -1,0 +1,3 @@
+deffn asked Can you say bye bye\r\n with hash 24e3a0cd
+<---- snip ---->
+Sure, bye bye!

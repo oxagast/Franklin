@@ -1,0 +1,3 @@
+bookworm asked What is the carbon footprint of an NFT? with hash fe287fe4
+<---- snip ---->
+The carbon footprint of an NFT can vary widely depending on the specific details of how it is created and used. Generally speaking, the energy required to create an NFT is much lower than the energy required to create a physical artwork due to its digital nature. However, the energy used to power the blockchain on which the NFT is stored and traded can be significant. As such, the exact carbon footprint of an NFT is difficult to calculate, and depends on the specific activities associated with its creation and use.

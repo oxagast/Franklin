@@ -1,0 +1,3 @@
+bookworm asked Unicode for Hebrew Alphabet with hash 22ac9413
+<---- snip ---->
+The Unicode for the Hebrew Alphabet is U+05D0–U+05F4 (Hebrew). Please be aware that some fonts may display these characters differently, so it is always best to double-check the character being used.

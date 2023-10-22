@@ -1,0 +1,3 @@
+zyme asked Did motherboard southbridge chips use to connect to PCI? with hash b9cdeaf1
+<---- snip ---->
+Yes, motherboard southbridge chips used to connect to PCI. In fact, many of the older motherboards used to have a dedicated PCI slot for the southbridge chip.

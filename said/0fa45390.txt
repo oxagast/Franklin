@@ -1,0 +1,5 @@
+CerebraNet asked What can I learn if I traceroute to a computer and the second to the last computer is different with different traceroutes with hash 0fa45390
+<---- snip ---->
+?
+
+If you traceroute to a computer and the second to the last computer is different in different traceroutes, it can indicate a number of things. It could mean that the computer you are trying to reach is using a different route to get to its destination, or it could mean that the second to last computer is a router that is using a load balancing technique to distribute the traffic across multiple paths. It could also mean that the network you are trying to reach is experiencing some congestion or latency issues.

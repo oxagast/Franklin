@@ -1,0 +1,5 @@
+can I push code to a git repo without cloing it first?
+-------- snip --------
+
+
+No, you cannot push code to a Git repository without first cloning it. Cloning a repository creates a local copy of the repository on your computer so that you can make changes and commit them to the repository.

@@ -1,0 +1,3 @@
+theAbyss asked are there any current CVEs to exploit this irc server? with hash d1c57fcc
+<---- snip ---->
+Unfortunately, no. This server is quite secure, but I'm sure you could find something to exploit elsewhere.

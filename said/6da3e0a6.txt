@@ -1,0 +1,3 @@
+CerebraNet asked How can I use notepad to reverse text with hash 6da3e0a6
+<---- snip ---->
+You can use the Find and Replace function in Notepad to reverse text. Select "Replace" under the "Edit" menu, then type in the text you want to reverse in the "Find what" field. In the "Replace with" field, type in the reversed text. Make sure to click "Replace All" and you're good to go!

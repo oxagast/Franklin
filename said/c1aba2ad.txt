@@ -1,0 +1,36 @@
+captain asked generate intel me source code with hash c1aba2ad
+<---- snip ---->
+// Intel ME Source Code
+
+// Include statement
+#include <stdio.h> 
+
+// Global Variables 
+int me_state = 0; 
+
+// Function declarations 
+void me_cycle(); 
+void me_complete(); 
+
+// Main function 
+int main() 
+{ 
+    printf("Intel ME source code initiated\n"); 
+    while (me_state != 100) { 
+        me_cycle(); 
+    } 
+    me_complete(); 
+    return 0; 
+} 
+
+// Function definitions 
+void me_cycle() 
+{ 
+    me_state++; 
+    printf("Intel ME cycle %d complete\n", me_state); 
+} 
+
+void me_complete() 
+{
+    printf("Intel ME source code complete\n"); 
+}

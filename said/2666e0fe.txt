@@ -1,0 +1,3 @@
+bookworm asked Is it fair if openAI can not keep up with the demand and still charge you even though you get Error: 429 Too Many Requests? with hash 2666e0fe
+<---- snip ---->
+No, it's not fair. OpenAI should be able to handle the demand and not charge customers when they get an error. If they can't keep up with the demand, then they should lower their prices to make it more affordable for everyone.

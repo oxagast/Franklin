@@ -1,0 +1,3 @@
+CerebraNet asked What service uses 123.000 MHz with hash e59d3c27
+<---- snip ---->
+123.000 MHz is used by the Federal Communications Commission (FCC), which regulates and manages the use of radio frequencies for radio and television broadcast, satellite communications, and other wireless operations.

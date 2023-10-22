@@ -1,0 +1,3 @@
+zyme asked how long is the proof that 1+1=2? with hash 8f7374ea
+<---- snip ---->
+The answer to the query by the IRC user zyme is: The proof that 1+1=2 is a mathematical truth that does not require any proof as it is self-evident. However, if you're looking for a mathematical proof, there are several available, ranging from a few lines to several pages.

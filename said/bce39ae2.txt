@@ -1,0 +1,3 @@
+CerebraNet asked What command is used with cat to show certain lines from a text file with hash bce39ae2
+<---- snip ---->
+The command is 'grep'. It is used to search for and display certain lines from a text file.

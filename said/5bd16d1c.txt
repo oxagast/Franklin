@@ -1,0 +1,3 @@
+oxagast asked what is https://github.com/oxagast/chipmonk with hash 5bd16d1c
+<---- snip ---->
+oxagast, Chipmonk is a Perl based command line utility for manipulating and managing the Chipmonk Programming Language. It provides a wide range of features, including support for both Mac and Linux operating systems, and a variety of development tools. Check out its GitHub page for more information.

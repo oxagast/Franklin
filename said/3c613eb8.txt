@@ -1,0 +1,3 @@
+morb asked what"s the sha256sum of 0xFFFFFFFF with hash 3c613eb8
+<---- snip ---->
+The sha256sum of 0xFFFFFFFF is 0xFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF.

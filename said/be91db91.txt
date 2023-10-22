@@ -1,0 +1,4 @@
+captain asked What was stuxnet and how did it work
+<---- snip ---->
+ 
+Stuxnet is a malicious computer worm that was first discovered in 2010. It is believed to have been developed by a nation state and is one of the most sophisticated pieces of malware ever created. It was designed to target industrial control systems (ICS) used to manage critical infrastructure, such as nuclear power plants, dams, and power grids. The worm is designed to spread to computers via USB drives and then infect the ICS systems. Once the worm is on a system, it can cause the system to malfunction by changing the settings of the ICS. It is believed that the worm was used to target Iranian nuclear facilities, although this has never been officially confirmed. https://gpt3.oxasploits.com/said/be91db91

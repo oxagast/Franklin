@@ -1,0 +1,12 @@
+morb asked what are some of the most common archive compression types found on wildcat! bulletin board systems with hash 6ac22c84
+<---- snip ---->
+1. ZIP
+2. ARC
+3. ARJ
+4. LZH
+5. HQX
+6. ZOO
+7. TGZ
+8. PAK
+9. RAR
+10. CAB

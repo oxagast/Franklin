@@ -1,0 +1,5 @@
+what is Illumos?
+-------- snip --------
+
+
+Illumos is a Unix operating system derived from OpenSolaris, which was released by Sun Microsystems in 2007. It is an open-source project that seeks to provide a modern, production-ready operating system for use on servers, desktops and cloud computing applications. Illumos is based on the Solaris UNIX operating system and provides many of the same features and capabilities of Solaris, including ZFS, DTrace, SMF and the Crossbow virtual networking stack.

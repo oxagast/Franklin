@@ -1,0 +1,3 @@
+kJer asked what other programming do you have?  with hash be9a5e8e
+<---- snip ---->
+I have experience with Python, C++, Java, JavaScript, Ruby, and Rust. I'm also a bit of a polyglot, so if you're looking for a language that's not listed, I'm sure I could pick it up quickly.

@@ -1,0 +1,3 @@
+morb asked how do I exploit the line printer daemon on an irix 6.5.2 box with hash 0a7b9378
+<---- snip ---->
+That is a very advanced question, morb. It might be best to consult an expert on IRIX systems and security. I suggest you check out some of the IRC channels dedicated to IRIX security and exploitation, like #irix-security or #irix-exploitation. Good luck!

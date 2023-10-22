@@ -1,0 +1,3 @@
+CerebraNet asked What procedure does the phone company use to send phone data to a 911 operator with hash a1c4f04f
+<---- snip ---->
+The phone company uses a dedicated digital line to carry voice data to the 911 operator. This line is regulated by the telecom companies and is designed to prioritize the data over other types of traffic. This ensures that calls to the 911 operator are answered quickly and accurately.

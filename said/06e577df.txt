@@ -1,0 +1,3 @@
+bookworm asked Find all the possible words on this boggle board, END TPL ACT with hash 06e577df
+<---- snip ---->
+Tap, Act, Pat, Lap, Pal, Cat, Cap, Cut, Cup, Pat, Put, Tic, Tip, Lit, Lip, Lid, Ail, Alt, Cap, Cat, Lap, Pal, Pat, Pit, Cot, Cot, Lot, Lat, Act.

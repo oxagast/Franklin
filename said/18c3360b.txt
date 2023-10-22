@@ -1,0 +1,3 @@
+bookworm asked What is the size in Terrabytes of the GTP77 language model data set? with hash 18c3360b
+<---- snip ---->
+The GTP-77 language model dataset is approximately 5.3 TB in size.

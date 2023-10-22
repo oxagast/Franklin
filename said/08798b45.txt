@@ -1,0 +1,1 @@
+To access the serial console of a Cisco device using a USB adapter, you will need to use a terminal emulation program such as PuTTY or TeraTerm. You will need to configure the program to use the correct COM port and baud rate for your device. Once the program is configured, you can then connect to the device and access the serial console. https://gpt3.oxasploits.com/said/08798b45

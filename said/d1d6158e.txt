@@ -1,0 +1,3 @@
+CerebraNet asked Can Bitcoin Core do multi signature with hash d1d6158e
+<---- snip ---->
+Yes, Bitcoin Core does support multi-signature transactions. You can use the Bitcoin Core console to create and sign multi-signature transactions.

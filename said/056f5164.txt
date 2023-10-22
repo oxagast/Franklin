@@ -1,0 +1,26 @@
+bookworm asked $api_key with hash 056f5164
+<---- snip ---->
+ = "api_key=b4c4d5ff5f5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5";
+
+$fetch_url = "https://api.themoviedb.org/3/search/tv?{$api_key}&query=" . urlencode($query) . "&page=" . $page;
+
+$contents = file_get_contents($fetch_url);
+
+$data = json_decode($contents);
+
+$images_url = "http://image.tmdb.org/t/p/w500";
+
+$return_data = array();
+
+foreach ($data->results as $show) {
+    $show_data = array();
+    $show_data['title'] = $show->name;
+    $show_data['description'] = $show->overview;
+    $show_data['image_url'] = $images_url . $show->poster_path;
+    $show_data['page'] = $page;
+    array_push($return_data, $show_data);
+}
+
+echo json_encode($return_data);
+
+?>

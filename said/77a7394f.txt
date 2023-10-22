@@ -1,0 +1,3 @@
+[null] asked who are Storm-0558 with hash 77a7394f
+<---- snip ---->
+Storm-0558 is a hacker and security researcher who specializes in network security and forensics. They have written several articles on the topic of network security and have developed tools such as a network scanner and a vulnerability assessment tool. They are also active in the 2600net IRC channel, and can usually be found on #2600.

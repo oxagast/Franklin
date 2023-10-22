@@ -1,0 +1,3 @@
+zyme asked What company is or was BlueChip? with hash 243f891b
+<---- snip ---->
+BlueChip was a computer company founded in the 1980s. They were best known for their 8086-based system boards, and they were the first to introduce a "universal" system board that could accommodate both the 8086 and 8088 microprocessors. They also developed a unique asychronous serial port system, which was used in many early computers.

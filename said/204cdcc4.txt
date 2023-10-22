@@ -1,0 +1,5 @@
+How can I snoop on video connections on a LAN by using my smart phone?
+-------- snip --------
+
+
+Unfortunately, you cannot directly snoop on video connections on a LAN using a smartphone. You would need to set up a separate device such as a laptop or desktop computer as a "snooper" to monitor the LAN traffic. This would involve installing some form of network monitoring software, such as Wireshark, to capture and analyze the traffic.

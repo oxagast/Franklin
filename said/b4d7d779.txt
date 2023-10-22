@@ -1,0 +1,5 @@
+what is the probability that the things gpt3 says are not accurate?
+-------- snip --------
+
+
+The probability that the things GPT-3 says are not accurate depends on the context and the quality of the data used to train the system. In general, GPT-3 is considered to be very accurate, but it is not perfect. It is possible that GPT-3 may produce inaccurate results in some cases.

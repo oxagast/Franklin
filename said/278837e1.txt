@@ -1,0 +1,5 @@
+what is dban
+-------- snip --------
+
+
+DBAN (Dariks Boot and Nuke) is a free open source data erasure software program designed for users to securely wipe their hard disk drive clean. It is designed to completely erase all data on a hard drive, including data in hidden partitions and/or locked areas, and supports IDE, SCSI, and SATA drives. It works by overwriting the data on the drive multiple times to ensure it cannot be recovered.

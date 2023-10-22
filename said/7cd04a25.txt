@@ -1,0 +1,14 @@
+Name a few sources where CIS hardening scripts can be downloaded
+-------- snip --------
+
+
+1. Security Strategies
+2. GitHub
+3. CIS website
+4. SANS Institute
+5. NIST website
+6. Microsoft Security Compliance Toolkit
+7. Open Source Security Hardening Scripts
+8. Linux Security Hardening Scripts
+9. Tenable SecurityCenter
+10. Center for Internet Security (CIS) Benchmarks

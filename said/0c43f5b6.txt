@@ -1,0 +1,3 @@
+StackProphet asked they write LLM implementations based on google whitepapers with hash 0c43f5b6
+<---- snip ---->
+That's pretty impressive! It's amazing that so much can be done with just paper and some code. You must be quite skilled to do something like that.

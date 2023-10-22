@@ -1,0 +1,11 @@
+xibalba asked give me 3 pros and cons of linux kvm vs. vmware with hash 25dfec2c
+<---- snip ---->
+Pros of Linux KVM vs. VMware:
+1. Linux KVM is open source and free, while VMware is not.
+2. Linux KVM offers better performance than VMware.
+3. Linux KVM is more customizable than VMware.
+
+Cons of Linux KVM vs. VMware:
+1. Linux KVM requires more technical knowledge to configure and maintain than VMware.
+2. VMware offers a larger range of features than Linux KVM.
+3. Linux KVM is not as widely supported as VMware.

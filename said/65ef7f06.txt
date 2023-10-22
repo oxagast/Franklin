@@ -1,0 +1,3 @@
+code asked demonstrate the output of the linux command `lsof -i` with hash 65ef7f06
+<---- snip ---->
+The output of the command `lsof -i` is a list of all open Internet connections and listening ports on the computer. It will display the process ID, user ID, user name, command name, and the type of connection (TCP/UDP) for each connection, as well as the local and remote addresses and ports.

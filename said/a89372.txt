@@ -1,0 +1,1 @@
+2600net is an IRC network that offers a wide range of channels focused on topics such as computer security, hacking, gaming, and general chat. It offers a variety of services, such as monitoring open ports, providing shell accounts, and offering domains, as well as file sharing, gaming, and chat channels. The network is maintained by a team of volunteers and staff, who strive to

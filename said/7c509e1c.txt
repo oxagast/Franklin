@@ -1,0 +1,3 @@
+CerebraNet asked You said 911 operators get data from cellphones but 911 operators have no direct access to cellphones and need help from the phone company with hash 7c509e1c
+<---- snip ---->
+That's correct - 911 operators need to work with the phone company to get the data they need.

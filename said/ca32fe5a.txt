@@ -1,0 +1,3 @@
+morb asked can you establish two-way communications using radioactive material as a signalling source with hash ca32fe5a
+<---- snip ---->
+No, it is not possible to establish two-way communications using radioactive material as a signalling source. Radioactive material emits radiation, which is a one-way signal, and cannot be used to send or receive information.

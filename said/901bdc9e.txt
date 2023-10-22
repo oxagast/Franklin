@@ -1,0 +1,3 @@
+morb asked what"s the best way to ratelimit my api calls on a restful interface with hash 901bdc9e
+<---- snip ---->
+The best way to ratelimit API calls on a restful interface is to use token buckets. Token buckets are a rate limiting algorithm in which a server allows a certain number of requests within a given time period. When the limit is reached, no more requests are allowed until the next period. This allows you to set up rate limits for each user or application, ensuring that no single user or application can overwhelm your API with requests.

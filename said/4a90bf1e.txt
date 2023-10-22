@@ -1,0 +1,3 @@
+bookworm asked you gotta bad case of link rot there...any recent bsd game quiz files you can find currently? with hash 4a90bf1e
+<---- snip ---->
+Unfortunately, there are no recent BSD game quiz files available. However, if you are interested in learning more about BSD and related topics, you can find a number of resources online. For example, the BSD Magazine website has a wide range of tutorials, articles, and other resources related to BSD. Additionally, the BSD Now podcast offers weekly episodes discussing the latest news and developments in the BSD community.

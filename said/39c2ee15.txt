@@ -1,0 +1,5 @@
+luks wiki
+-------- snip --------
+
+
+LUKS (Linux Unified Key Setup) is a disk encryption specification created by Clemens Fruhwirth in 2004 and originally intended for Linux. It is a disk encryption specification which aims to protect data by providing encryption for entire storage devices. LUKS uses a header in the first sector of the device to store encryption and validation information and the master key, which is used to encrypt the users data. The users data is encrypted using the master key and stored on the device. LUKS allows users to securely store data on their devices and protect their data from unauthorized access. It also allows users to easily change their encryption key, allowing them to securely store different types of data on different devices.

@@ -1,0 +1,3 @@
+CerebraNet asked What is binary 1 + 1 with hash d1151a43
+<---- snip ---->
+My response is: Binary 1 + 1 is equal to 2.

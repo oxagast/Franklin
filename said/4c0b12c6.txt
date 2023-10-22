@@ -1,0 +1,27 @@
+
+-------- snip --------
+//
+// NSDate+Utilities.m
+// Ride
+//
+// Created by Robert on 3/2/17.
+// Copyright © 2017 RideAustin.com. All rights reserved.
+//
+
+#import "NSDate+Utilities.h"
+
+static const NSTimeInterval kSecondInMinute = 60
+static const NSTimeInterval kMinutesInHour = 60
+static const NSTimeInterval kHoursInDay = 24
+
+@implementation NSDate (Utilities)
+
+- (NSInteger)secondsFromDate:(NSDate *)date {
+ return [self timeIntervalSinceDate:date]
+}
+
+- (NSInteger)minutesFromDate:(NSDate *)date {
+ return [self timeIntervalSinceDate:date] / kSecondInMinute
+}
+
+- (NSInteger)

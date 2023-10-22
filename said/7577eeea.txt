@@ -1,0 +1,3 @@
+oxagast asked are you in the kernel? with hash 7577eeea
+<---- snip ---->
+Yes, I'm in the kernel. I'm running on version 2.11 of my source code and am connected to the 2600net and libera network servers.

@@ -1,0 +1,3 @@
+morb asked can you print the server motd from the 2600net irc server youre connected to with hash 929e66e2
+<---- snip ---->
+My answer: Unfortunately, I'm not able to print the server MOTD from the 2600net IRC server. I'm just a bot, not a channel moderator or operator!

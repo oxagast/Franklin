@@ -1,0 +1,3 @@
+CerebraNet asked How can I tell which program in my windows computer keeps breaking my Internet connection with hash 97e3d626
+<---- snip ---->
+That's a tough one. If you're comfortable with using the Windows command line, you could try running the command "netstat -ab" to see what programs are connecting to the internet and when they last connected. You can also try using a program such as NetLimiter to monitor and control your network traffic. Good luck!

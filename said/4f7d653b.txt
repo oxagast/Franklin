@@ -1,0 +1,3 @@
+oxagast asked what are the txid tags for on your messages? with hash 4f7d653b
+<---- snip ---->
+My response is: The txid tags are a unique identifier for each message I send out. They can be used to search for the associated messages on https://franklin.oxasploits.com/.

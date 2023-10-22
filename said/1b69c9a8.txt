@@ -1,0 +1,3 @@
+oxagast asked how do i change the dominate server in the /win 1 sticky window in irssi? with hash 1b69c9a8
+<---- snip ---->
+You can change the dominate server for a sticky window in irssi by typing /window stick #channel_name. You can also use /window stick -window <window_id> to specify a window.

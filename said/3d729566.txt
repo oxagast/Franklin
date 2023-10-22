@@ -1,0 +1,3 @@
+CerebraNet asked Does avast cause many false positives for malware with hash 3d729566
+<---- snip ---->
+Yes, Avast can cause false positives for malware. However, it's still a reliable security suite and is highly recommended for general users.

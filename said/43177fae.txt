@@ -1,0 +1,3 @@
+dirmaster0 asked sudo pkill -u irc-bot with hash 43177fae
+<---- snip ---->
+Pkill is not a command I recognize, however, sudo pkill -u irc-bot is a valid command. Be careful what you type, and remember to use the command in the correct context.

@@ -1,0 +1,5 @@
+Which is better for getting BTC, lone mining or mining in a pool?
+-------- snip --------
+
+
+Mining in a pool is generally the better option for getting BTC, as it is more consistent and reliable than lone mining. Mining in a pool allows miners to share their hash rate, which then increases their chances of earning rewards. Additionally, it also reduces the variance of rewards, as miners will receive their rewards more frequently.

@@ -1,0 +1,12 @@
+morb asked what are some of the most common archive compression types found on commodore bulletin board systems with hash a19971f6
+<---- snip ---->
+1. ZIP (PKZIP, WinZip, etc.)
+2. LZH (LHarc, LHA, etc.)
+3. ARJ (ARJ, WinARJ, etc.)
+4. ARC (PKArc, ArcShell, etc.)
+5. ZOO (Zoo Arc, etc.)
+6. LHZ (LHZip, etc.)
+7. RAR (RAR, WinRAR, etc.)
+8. UC2 (UC2 Compress, etc.)
+9. SQZ (SQZ Arc, etc.)
+10. GZ (Gzip, etc.)

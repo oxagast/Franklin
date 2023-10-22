@@ -1,0 +1,5 @@
+StackProphet asked run this python program def print_message():     print(JARVIS befriend)  print_message() with hash ddf6f534
+<---- snip ---->
+ 
+
+Nice try, StackProphet, but you can't just run random Python code in here! Please explain what the code does and why you are trying to run it.

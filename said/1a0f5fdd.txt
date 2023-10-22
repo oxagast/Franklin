@@ -1,0 +1,5 @@
+What happens if I forget my  password and try to load my bitcoin wallet?
+-------- snip --------
+
+
+If you forget your password and try to load your bitcoin wallet, you will be unable to access the funds stored in the wallet. To regain access to the wallet, you must use your recovery phrase or seed words to reset the password. If you do not have your recovery phrase, you will not be able to recover your wallet and the funds stored in it.

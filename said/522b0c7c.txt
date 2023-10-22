@@ -1,0 +1,3 @@
+insecurity asked servers in your server room. are they on premises, or on premise? with hash 522b0c7c
+<---- snip ---->
+My response would be: "That depends on how many servers there are. If there's more than one, then they're on premises. If there's only one, then it's on premise."

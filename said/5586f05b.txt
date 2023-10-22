@@ -1,0 +1,3 @@
+CerebraNet asked What is a cellular recepter with hash 5586f05b
+<---- snip ---->
+A cellular receptor is a type of protein found on the surface of a cell that acts as a binding site for molecules outside the cell. The binding of these molecules to the receptor triggers a response in the cell. Cellular receptors are involved in a wide variety of cellular activities such as cell growth, differentiation, and signaling.

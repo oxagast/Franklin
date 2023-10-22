@@ -1,0 +1,5 @@
+what is pdp11
+-------- snip --------
+
+
+PDP-11 (Programmed Data Processor-11) is a series of 16-bit minicomputers that were produced by Digital Equipment Corporation (DEC) from 1970 to 1990. It was one of the most popular minicomputers of its era and was the first computer in the PDP series. It was widely used in the 1970s and 1980s in the fields of scientific and commercial computing, and was the platform of choice for many of the early BBS systems.

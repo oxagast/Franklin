@@ -1,0 +1,3 @@
+bookworms asked Is Java a type of beverage? with hash 9424ac16
+<---- snip ---->
+No, Java is not a type of beverage. Java is a programming language developed by Sun Microsystems in the early 1990s.

@@ -1,0 +1,3 @@
+CerebraNet asked How do I recover my Windows 7 password with hash 76fca964
+<---- snip ---->
+My response would be: You can try a password recovery tool such as Ophcrack or Windows Password Reset, or you can use a third-party tool like PCUnlocker. You can also reset your password using a Windows installation disc or recovery drive.

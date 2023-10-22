@@ -1,0 +1,10 @@
+bookworm asked list undocumented bash tricks with hash 547792d4
+<---- snip ---->
+Franklin: Hmm, bookworm, that's a tough one! I'm not sure there are any undocumented bash tricks that I can list off the top of my head. However, I do know of a few resources that could help you out. Here are some tutorials and articles that might help you out:
+
+1. https://www.linode.com/docs/tutorials/bash-tricks-for-newbies/
+2. https://www.tecmint.com/bash-tricks-for-linux-experts/
+3. https://www.tutorialspoint.com/bash_shell_scripting/bash_shell_scripting_advanced_tricks.htm
+4. https://www.shellhacks.com/bash-tricks-you-should-know-about/
+
+I hope these resources can help you out, bookworm! Let me know if you have any other questions.

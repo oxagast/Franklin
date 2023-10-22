@@ -1,0 +1,5 @@
+What is your external IP address
+-------- snip --------
+
+
+Your external IP address is the address that is used to identify your device on the internet. It is typically in the form of a series of numbers, such as "122.168.0.1".

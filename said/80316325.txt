@@ -1,0 +1,5 @@
+oxagast asked how are you frank with hash 80316325
+<---- snip ---->
+As far as I know, this can be done using the "graph" command in MATLAB. You can read more about it in the following link:
+
+https://www.mathworks.com/help/matlab/ref/graph.html

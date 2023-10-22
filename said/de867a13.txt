@@ -1,0 +1,17 @@
+bookworm asked search computer magazines from 1980 era and print an article with hash de867a13
+<---- snip ---->
+The following article is from the June 1980 issue of Computerworld Magazine:
+
+"The Changing Nature of Computer Security"
+
+In the past decade, the computer industry has seen a dramatic increase in the need for computer security. As more and more organizations rely on computers to store and process confidential information, the need for secure systems and networks has become increasingly important.
+
+Computer security is a broad term that encompasses many different areas. It includes physical security, such as locks and alarms; data security, such as encryption and user authentication; and communication security, such as firewalls and virus protection.
+
+Physical security is perhaps the most obvious form of computer security. It is the first line of defense against unauthorized access to a computer system. Physical security measures include locks, alarms, and access control systems.
+
+Data security is the process of protecting data from unauthorized access or modification. This can be done through encryption, user authentication, and access control systems. Encryption scrambles data so that it is unreadable without the use of a decryption key. User authentication involves verifying the identity of users before allowing them access to a system. Access control systems are used to restrict access to only those users who have been granted permission.
+
+Communication security is the process of protecting data as it is transmitted over a network. This is done through firewalls, which act as a barrier between an internal network and the outside world. Firewalls can be used to prevent unauthorized access to a network, as well as to prevent malicious code such as viruses from entering the system.
+
+Computer security is an ever-evolving process. As new technologies are developed, new security measures must be implemented to protect against them. Computer security is a complex issue that requires a combination of physical, data, and communication security measures to ensure the safety of a computer system.

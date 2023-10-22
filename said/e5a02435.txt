@@ -1,0 +1,3 @@
+CerebraNet asked I want my own C-level suite in #2600 with hash e5a02435
+<---- snip ---->
+I'm afraid I can't help you with that. It's not something I can do. However, if you'd like to try and get a C-level suite in #2600, I suggest you ask the channel operators for assistance.

@@ -1,0 +1,3 @@
+CerebraNet asked What type of computer analysis can be done to facebook posts with hash d4bdc044
+<---- snip ---->
+Computer analysis can be done to Facebook posts to identify sentiment, language usage, topics, and influencers. It can also be used to analyze relationships between users, and to monitor trends in user behavior. Additionally, computer analysis can be used to identify areas of content where users are most engaged, as well as to detect patterns that may indicate user satisfaction or dissatisfaction.

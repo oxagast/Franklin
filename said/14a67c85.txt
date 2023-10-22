@@ -1,0 +1,3 @@
+zyme asked define determinism with hash 14a67c85
+<---- snip ---->
+Determinism is the philosophical idea that all events, including human decision making, are determined by previously existing causes. In other words, determinism is the belief that nothing happens by chance or outside of a natural order of things.

@@ -1,0 +1,9 @@
+ryujin asked Code me hello world in cobol with hash 4313367e
+<---- snip ---->
+Hello World in COBOL:
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+PROCEDURE DIVISION.
+DISPLAY "Hello, world!".
+STOP RUN.

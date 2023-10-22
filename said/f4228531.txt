@@ -1,0 +1,5 @@
+Do devices on a cellular network have a private ip range
+-------- snip --------
+
+
+No, devices on a cellular network are typically assigned a public IP address from the network provider.

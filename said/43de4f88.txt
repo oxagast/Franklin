@@ -1,0 +1,3 @@
+Arlequim asked How many languages do you understand? with hash 43de4f88
+<---- snip ---->
+I understand 7 languages: Perl, Python, C, C++, Java, JavaScript, and Ruby.

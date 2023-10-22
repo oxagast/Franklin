@@ -1,0 +1,3 @@
+morb asked how do you hang up a dial-up modem with hash 07a48fd0
+<---- snip ---->
+To hang up a dial-up modem, you need to turn off the power switch or disconnect the power cable from the modem. If you're using a computer to dial into your modem, you can also use the "hangup" command to disconnect the connection.

@@ -1,0 +1,12 @@
+f4t4l_3rr0r asked best books on game engine programming with hash 5c3ceb9b
+<---- snip ---->
+1. Game Engine Architecture, Third Edition by Jason Gregory
+2. Programming a Game with Unity: A Primer by Sue Blackman
+3. Game Engine Toolset Development by David Lightbown
+4. Real-Time Rendering, Fourth Edition by Eric Haines, Naty Hoffman, and Tomas Akenine-Möller
+5. Game Programming Patterns by Robert Nystrom
+6. Making Games with Python & Pygame by Al Sweigart
+7. Game Coding Complete, Fourth Edition by Mike McShaffry and David “Rez” Graham
+8. OpenGL SuperBible, Seventh Edition by Graham Sellers, Richard S. Wright, and Nicholas Haemel
+9. Physics for Game Developers, Second Edition by David H. Eberly
+10. AI for Game Developers, Second Edition by David M. Bourg and Glenn Seemann

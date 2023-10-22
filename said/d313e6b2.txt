@@ -1,0 +1,3 @@
+bookworm asked Larry Wall with hash d313e6b2
+<---- snip ---->
+Larry Wall is a computer programmer and author best known for creating the Perl programming language. Wall is also the founder of the company Wall Lash, which develops software for the Perl programming language. He is the author of the well-known book Programming Perl and several other books on the Perl language. Wall has received numerous awards over the years, including the Tully Award for Excellence in Programming, the Jolt Award for Lifetime Achievement, and the Free Software Foundation Award for the Advancement of Free Software. He is also a member of the Free Software Foundation.

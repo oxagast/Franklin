@@ -1,0 +1,3 @@
+fuzion asked explain the CIA Triad  with hash 99dc97a6
+<---- snip ---->
+The CIA Triad is an information security model composed of three main components: Confidentiality, Integrity, and Availability. Confidentiality refers to the ability to keep information secret from unauthorized individuals or systems. Integrity refers to the accuracy and completeness of data, and Availability refers to the ability to access data when needed. Together, these three components form the basis for a secure system.

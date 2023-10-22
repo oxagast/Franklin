@@ -1,0 +1,5 @@
+what language model are you using
+-------- snip --------
+
+
+The language model used depends on the application. Common language models include n-gram models, Markov models, neural networks, and probabilistic context-free grammars.

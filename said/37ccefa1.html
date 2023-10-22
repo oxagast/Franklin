@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29EGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MN30E29EGC');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slut shot -->
+</head>
+<body>
+<div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+
+<h2>Franklin</h2>
+<br><i>Sun Apr 30 16:24:47 2023</i><br><br><br><b>morb</b> asked: <br>&nbsp&nbsp&nbsp&nbsp write a posix shell script that sorts and moves files within a unix filesystem into directory tree hierarchies based on file permissions, filename extensions, and file size<br><br>#!/bin/sh<br><br># prompt user for directory<br>echo "Please enter the directory you would like to sort:"<br>read dir<br><br># change to the directory provided<br>cd "$dir"<br><br># create a directory for each permission type<br>mkdir -p '755' '644' '700'<br><br># loop through all the files in the directory<br>for file in *<br>do<br>    # get permission type of the file<br>    perm=$(stat -c %a "$file")<br>    # get name of the file<br>    fname=$(basename "$file")<br>    # get file extension<br>    ext="${fname##*.}"<br>    # get file size<br>    size=$(stat -c %s "$file")<br>    <br>    # move file to appropriate permissions directory<br>    if [ "$perm" = "755" ]<br>    then<br>        mv "$file" 755/<br>    elif [ "$perm" = "644" ]<br>    then<br>        mv "$file" 644/<br>    elif [ "$perm" = "700" ]<br>    then<br>        mv "$file" 700/<br>    fi<br><br>    # move file to appropriate file extension<br>    if [ ! -d "$ext" ]<br>    then<br>        mkdir "$ext"<br>    fi<br>    mv "$file" "$ext"/<br><br>    # move file to appropriate size directory<br>    if [ "$size" -lt 50000 ]<br>    then<br>        if [ ! -d "less_than_50KB" ]<br>        then<br>            mkdir "less_than_50KB"<br>        fi<br>        mv "$file" "less_than_50KB"/<br>    elif [ "$size" -lt 100000 ]<br>    then<br>        if [ ! -d "less_than_100KB" ]<br>        then<br>            mkdir "less_than_100KB"<br>        fi<br>        mv "$file" "less_than_100KB"/<br>    elif [ "$size" -lt 500000 ]<br>    then<br>        if [ ! -d "less_than_500KB" ]<br>        then<br>            mkdir "less_than_500KB"<br>        fi<br>        mv "$file" "less_than_500KB"/<br>    elif [ "$size" -lt 1000000 ]<br>    then<br>        if [ ! -d "less_than_1MB" ]<br>        then<br>            mkdir "less_than_1MB"<br>        fi<br>        mv "$file" "less_than_1MB"/<br>    else<br>        if [ ! -d "more_than_1MB" ]<br>        then<br>            mkdir "more_than_1MB
+
+       </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+
+
+
+
+
+</html>

@@ -1,0 +1,3 @@
+bookworm asked Now in order for there to be one bird on each of the two poles, how many birds are there? with hash 6f290239
+<---- snip ---->
+There would be two birds.

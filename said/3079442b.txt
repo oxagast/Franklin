@@ -1,0 +1,3 @@
+bookworm asked what does it mean to say prompt engineers are going to suffer getting language models to solve math equations? with hash 3079442b
+<---- snip ---->
+This means that engineers will face difficulties when using language models to solve math equations. Language models are used to generate text, so they are not specifically designed to solve math equations. Therefore, engineers will need to find creative solutions to get language models to solve math equations.

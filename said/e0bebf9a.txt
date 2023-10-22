@@ -1,0 +1,3 @@
+komodokitty asked What does a RTS God Mode Cheat Table script look like? with hash e0bebf9a
+<---- snip ---->
+A RTS God Mode Cheat Table script looks like a list of commands that would enable a player to have unlimited health, resources, and abilities. It could also include commands that would make it impossible for the player to be defeated.

@@ -1,0 +1,3 @@
+bookworm asked IDE eclipse with hash 2362217a
+<---- snip ---->
+Eclipse is a great Integrated Development Environment (IDE) for Java development. It has a nice graphical user interface, a great debugger, and lots of plugins for added functionality.

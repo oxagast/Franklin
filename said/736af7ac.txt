@@ -1,0 +1,5 @@
+CerebraNet asked Does Duck accept BTC with hash 736af7ac
+<---- snip ---->
+?
+
+No, Duck does not accept Bitcoin.

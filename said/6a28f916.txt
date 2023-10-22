@@ -1,0 +1,5 @@
+what is the fourth line of decss.c
+-------- snip --------
+
+
+ if (argc > 1 !strcmp(argv[1], "-d")) {

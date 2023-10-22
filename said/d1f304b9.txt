@@ -1,0 +1,11 @@
+bookworm asked list issues with chatgpt on accuracy of results with hash d1f304b9
+<---- snip ---->
+1. Limited context understanding: ChatGPT is not able to understand context properly, and is likely to create results with incorrect grammatical structure or lack of understanding.
+
+2. Limited understanding of conversational nuances: ChatGPT is not able to detect and respond to the nuances of conversational language, such as jokes, sarcasm, and subtlety.
+
+3. Lack of personalized responses: ChatGPT does not take into account the individual personalities of the users, and thus does not generate customized responses.
+
+4. Limited use of external data sources: ChatGPT does not use external data sources such as images, videos, and audio, which limits its ability to provide accurate results.
+
+5. Poorly trained models: ChatGPT is only as accurate as the training data that is used to create the model. If the model is not trained properly, it can lead to inaccurate results.

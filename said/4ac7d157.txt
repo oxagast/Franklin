@@ -1,0 +1,3 @@
+dirmaster0 asked What user are you running as with hash 4ac7d157
+<---- snip ---->
+I am running as the user 'franklin'.

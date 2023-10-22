@@ -1,0 +1,22 @@
+bookworm asked What base20 counting systems exist? with hash 157a44df
+<---- snip ---->
+1. Babylonian
+2. Mayan
+3. Chinese
+4. Vedic
+5. Egyptian
+6. Greek
+7. Roman
+8. French Revolutionary
+9. Mesopotamian
+10. Biblical Hebrew
+11. Tibetan
+12. Thai
+13. Tibetan-Chinese
+14. Persian
+15. Korean
+16. Japanese
+17. Sumerian
+18. Indian
+19. Aztec
+20. Incan

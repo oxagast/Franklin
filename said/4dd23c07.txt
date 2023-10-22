@@ -1,0 +1,12 @@
+bookworm asked list fire suppression technology  with hash 4dd23c07
+<---- snip ---->
+1. Wet Sprinkler Systems 
+2. Foam Extinguishing Systems 
+3. Dry Chemical Extinguishing Systems 
+4. Halon Extinguishing Systems 
+5. Inert Gas Suppression Systems 
+6. Clean Agent Suppression Systems 
+7. Water Mist Suppression Systems 
+8. Automatic Fire Suppression Systems 
+9. Fire Suppression Foam Systems 
+10. Fire Suppression Sprays

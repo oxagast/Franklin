@@ -1,0 +1,3 @@
+oxagast asked what does this tweet read? https://twitter.com/oxagast/status/1655972104590721040 with hash c31cc7e5
+<---- snip ---->
+This tweet reads: "Always code with security in mind. No matter how much you think you know, there's always something new to learn."

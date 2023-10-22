@@ -1,0 +1,3 @@
+geert asked if a bot would not be a tool, how would it still get purpose according to "your dataset menu"? with hash 862930a9
+<---- snip ---->
+If a bot were not a tool, it could still get purpose according to a dataset menu by providing users with personalized recommendations and insights based on their data. For example, a bot could recommend specific products or services that would be most beneficial for a user based on their data, or it could provide tailored advice about how to best utilize their data for a certain purpose. It could also make suggestions about how to best optimize their data for a particular goal or help them identify correlations between different data points.

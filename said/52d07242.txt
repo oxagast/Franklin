@@ -1,0 +1,3 @@
+CerebraNet asked Kill rngd with hash 52d07242
+<---- snip ---->
+Run the command `sudo killall rngd` to kill rngd.

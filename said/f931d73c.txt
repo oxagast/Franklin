@@ -1,0 +1,33 @@
+how do I bootstrap kermit with dos debug
+-------- snip --------
+
+
+1. Start DOS Debug by typing “debug” at the DOS prompt.
+
+2. At the “-” prompt, type in “a” to enter assembly language mode.
+
+3. Type in the following assembly language code to bootstrap Kermit: 
+
+MOV AX, 0
+MOV DS, AX
+MOV ES, AX
+MOV DI, 0
+MOV SI, 0
+MOV CX, 0
+MOV DX, 0
+MOV BX, 0
+MOV AH, 0
+MOV AL, 0
+MOV BP, 0
+MOV SP, 0
+MOV CS, 0
+MOV SS, 0
+
+4. Press Enter.
+
+5. Type in the following commands to load the Kermit program into memory: 
+
+L 100 0 0
+MOV AX, 0
+MOV DS, AX
+MOV ES, AX

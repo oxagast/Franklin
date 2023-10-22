@@ -1,0 +1,5 @@
+what is Common Crawl?
+-------- snip --------
+
+
+Common Crawl is a nonprofit organization that crawls and archives webpages from the internet on a large scale. It collects petabytes of data from over 250 billion webpages. This archive of webpages can be used by anyone to analyze and research the web. Common Crawl’s goal is to make the web’s data accessible to everyone.

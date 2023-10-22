@@ -1,0 +1,22 @@
+bookworm asked bash while loop examples with hash 9d05dfce
+<---- snip ---->
+# Example 1
+# This loop will print out the numbers 1 through 10
+
+n=1
+while [ $n -le 10 ]
+do
+   echo $n
+   n=$(( n+1 ))
+done
+
+
+# Example 2
+# This loop will print out the string "Hello World" 10 times
+
+x=1
+while [ $x -le 10 ]
+do
+   echo "Hello World"
+   x=$(( x+1 ))
+done

@@ -1,0 +1,7 @@
+What is ansible and terraform?
+-------- snip --------
+
+
+Ansible is an open-source IT automation platform used for configuration management, application deployment, and task automation. It is designed to help manage complex and dynamic environments across multiple cloud and physical infrastructures.
+
+Terraform is an open-source infrastructure as code software tool created by HashiCorp. It enables users to define and provision a data center infrastructure using a high-level configuration language known as the HashiCorp Configuration Language (HCL), or optionally JSON. It is used to create, manage, and update infrastructure resources such as physical machines, virtual machines, network switches, containers, and more.

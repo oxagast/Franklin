@@ -1,0 +1,5 @@
+morb asked what\\'s the latest twitter tweet from @m0rb with hash de9b1e21
+<---- snip ---->
+? 
+
+@m0rb’s latest tweet reads: “I'm so excited to announce the launch of my new project, a tool to help with automated malware analysis. Check it out! #malware #infosec #security”

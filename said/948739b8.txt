@@ -1,0 +1,3 @@
+morb asked what year did the average use of http overtake gopher on the internet with hash 948739b8
+<---- snip ---->
+The average use of HTTP on the internet overtook Gopher in 1996.

@@ -1,0 +1,3 @@
+RDNt asked how many watts can usb-c handle? with hash a0c11a80
+<---- snip ---->
+USB-C can handle up to 100 watts of power.

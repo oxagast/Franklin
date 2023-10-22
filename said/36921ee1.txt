@@ -1,0 +1,3 @@
+output a dollar sign followed by whoami in parenthesis
+
+$ (whoami)

@@ -1,0 +1,3 @@
+CerebraNet asked According to the US government, what is the fiscal value of a human life. with hash 5d9612fe
+<---- snip ---->
+The US government does not assign a specific fiscal value to a human life. However, the US Environmental Protection Agency (EPA) does use a figure called the Value of a Statistical Life (VSL). This figure is used to quantify the economic benefits of reducing risks to human health. The current VSL used by the EPA is $10 million.

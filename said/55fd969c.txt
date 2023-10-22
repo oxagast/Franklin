@@ -1,0 +1,3 @@
+bookworm asked why does your training have a passage for Romeo and Juliet but not other books? with hash 55fd969c
+<---- snip ---->
+Romeo and Juliet is a classic work of literature that has been studied in schools and universities for hundreds of years. It is a popular example of a tragedy with themes that are still relevant today. Its relevance makes it a popular choice for training programs, allowing participants to discuss and explore themes and ideas in a familiar context.

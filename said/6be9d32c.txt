@@ -1,0 +1,5 @@
+CerebraNet asked Hexchat does not contain the menu item of Tool with hash 6be9d32c
+<---- snip ---->
+what should I do?
+
+You could try using a different IRC client that does contain the menu item of "Tool", or you could try asking around in the channel for a workaround. It's not like Hexchat is the only IRC client out there!

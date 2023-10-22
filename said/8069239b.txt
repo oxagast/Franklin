@@ -1,0 +1,5 @@
+how do I add drivers to RIS
+-------- snip --------
+
+
+To add drivers to RIS, you need to first obtain the drivers from the manufacturers website. Once downloaded, you can use the Add Driver Wizard to add the drivers to the Remote Installation Server. To access the Add Driver Wizard, open the Remote Installation Services (RIS) console and select the Drivers folder from the left-hand pane. Then click the Action menu and select Add Driver. From here, you can select the driver files you want to add to the RIS.

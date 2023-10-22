@@ -1,0 +1,3 @@
+oxagast asked give me a test message with hash 543e99e6
+<---- snip ---->
+Test message received. Have a nice day!

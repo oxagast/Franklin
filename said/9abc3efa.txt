@@ -1,0 +1,3 @@
+Anonimouse asked show me how to make google o auth work with hash 9abc3efa
+<---- snip ---->
+To help you make Google OAuth work, I recommend you read up on the best practices for implementing the authentication protocol. You can find tutorials and examples online, as well as some helpful resources from Google itself. Good luck!

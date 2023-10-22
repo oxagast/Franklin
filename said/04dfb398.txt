@@ -1,0 +1,5 @@
+what would the world look like if we wound up running inferno instead of java vms
+-------- snip --------
+
+
+If we were running the Inferno operating system instead of Java Virtual Machines, the world would look drastically different. The Inferno operating system is based on a microkernel architecture, which means that most of the systems services would be provided by small, modular programs instead of large, monolithic programs. This would mean that software developers would need to be more aware of the underlying system as they build their applications, and would need to understand how Infernos modules interact with each other. Additionally, Infernos distributed computing capabilities would allow for more efficient and powerful software applications. Finally, Infernos security and reliability features would provide better protection against malware and malicious actors.

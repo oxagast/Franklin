@@ -1,0 +1,3 @@
+CerebraNet asked How does the uncertainty principle limit our knowledge with hash a9e40c96
+<---- snip ---->
+The uncertainty principle states that it is impossible to know both the exact position and the exact momentum of a particle at the same time. This means that the more precisely one knows the position of a particle, the less precisely one can know its momentum, and vice versa. This limitation of knowledge means that any measurements of position and momentum are necessarily uncertain, and that the uncertainty of these measurements can never be reduced. This limits our knowledge of the exact properties of a particle, and so limits our ability to accurately predict how a particle will behave.

@@ -1,0 +1,5 @@
+bookworm asked Using letters from the words Act,Ape,Ate,Cop,End,Old make a 3 letter x 3 letter board which can spell the words listed? with hash 3d33a904
+<---- snip ---->
+ACE
+COP
+END

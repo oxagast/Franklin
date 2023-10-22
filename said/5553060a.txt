@@ -1,0 +1,12 @@
+bookworm asked list the salaries of CEOs from  pharmaceutical companies that have been involved in scandles involving misleading the public with hash 5553060a
+<---- snip ---->
+1. Martin Shkreli (Turing Pharmaceuticals): $45.5 million 
+2. John Kapoor (Insys Therapeutics): $25 million 
+3. David Pyott (Allergan): $20 million 
+4. Joseph Papa (Valeant Pharmaceuticals): $17 million 
+5. Brent Saunders (Allergan): $15 million 
+6. Michael Pearson (Valeant Pharmaceuticals): $14 million 
+7. Howard Solomon (Forest Laboratories): $13 million 
+8. Heather Bresch (Mylan): $13 million 
+9. Paul Bisaro (Actavis): $12 million 
+10. Michael Ball (Valeant Pharmaceuticals): $11 million

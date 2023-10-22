@@ -1,0 +1,14 @@
+captain asked ed25519
+<---- snip ---->
+"]
+
+#[cfg(not(feature = "std"))]
+compile_error!("The ed25519 feature requires the 'std' feature to be enabled");
+
+#[cfg(feature = "std")]
+#[cfg_attr(docsrs, doc(cfg(feature = "ed25519")))]
+pub mod ed25519;
+
+#[cfg(feature = "std")]
+#[cfg_attr(docsrs, doc(cfg(feature = "ed25519")))]
+pub use ed25519::*; https://franklin.oxasploits.com/said/db1e30d9

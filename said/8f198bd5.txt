@@ -1,0 +1,72 @@
+morb asked write me an xmodem implementation in dos debug with hash 8f198bd5
+<---- snip ---->
+; XModem Protocol Implementation in DOS DEBUG
+
+; Code to read in a file and send it over the serial port using XModem protocol
+
+; Set up serial port
+MOV AX, 0 ; Set up serial port
+MOV DX, 3F8H ; Port 3F8
+IN AL, DX ; Read the port
+OR AL, 80H ; Set bit 7
+OUT DX, AL ; Send the port
+
+; Read in file
+MOV AX, 3D00H ; Open the file
+MOV DX, fileName ; Name of the file
+INT 21H ; Call DOS
+MOV [fileHandle], AX ; Save the file handle
+MOV DX, 1024 ; Read 1024 bytes at a time
+MOV CX, 0 ; Initialize the loop counter
+
+; Send the file
+loop:
+MOV AX, 3F00H ; Read from the file
+MOV BX, [fileHandle] ; File handle
+INT 21H ; Call DOS
+CMP AX, 0 ; Check for end of file
+JE done ; If so, exit
+
+; Calculate the checksum
+MOV AL, 0 ; Initialize the counter
+MOV SI, 0 ; Initialize the pointer
+sumLoop:
+MOV CL, [SI] ; Read a byte
+ADD AL, CL ; Add it to the sum
+INC SI ; Increase the pointer
+CMP SI, AX ; Have we reached the end?
+JNE sumLoop ; If not, loop again
+
+; Send the packet
+MOV AH, 0 ; Set up XModem protocol
+MOV DX, 3F8H ; Port 3F8
+MOV AL, 1 ; Send start byte
+OUT DX, AL ; Send it
+MOV SI, 0 ; Initialize the pointer
+packetLoop:
+MOV CL, [SI] ; Read a byte
+OUT DX, CL ; Send it
+INC SI ; Increase the pointer
+CMP SI, AX ; Have we reached the end?
+JNE packetLoop ; If not, loop again
+MOV AL, checksum ; Send the checksum
+OUT DX, AL ; Send it
+
+; Wait for the ACK
+waitLoop:
+IN AL, DX ; Read the port
+CMP AL, 6 ; Is it an ACK?
+JNE waitLoop ; If not, loop again
+
+; Increase the counter
+INC CX ; Increase the counter
+JMP loop ; Loop again
+
+done:
+MOV AX, 3E00H ; Close the file
+MOV BX, [fileHandle] ; File handle
+INT 21H ; Call DOS
+
+; Exit
+MOV AX, 4C00H ; Exit with status code 0
+INT 21H ; Call DOS

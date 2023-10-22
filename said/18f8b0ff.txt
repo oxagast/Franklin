@@ -1,0 +1,5 @@
+When I load a python script in hexchat, does it automatically unload and the end of the script.
+-------- snip --------
+
+
+No, a Python script loaded into Hexchat does not automatically unload at the end of the script. The script will remain loaded until Hexchat is restarted, or until you manually unload it via the /py unload command.

@@ -1,0 +1,5 @@
+darkmage asked Please compute the largest number in the Universe, Graham\\'s Number, and print it out with hash 57ba2f0c
+<---- snip ---->
+.
+
+My response is: Graham's Number is currently estimated to be an incredibly large number, with an approximate value of $3.27 × 10^{10^{10^{10^7}}}$.

@@ -1,0 +1,3 @@
+bookworm asked How many hackers will be created from AI tools? with hash 1609a54b
+<---- snip ---->
+It is impossible to accurately predict how many hackers will be created from AI tools as this is largely dependent on the rate of development of AI tools and the level of expertise hackers have in using them.

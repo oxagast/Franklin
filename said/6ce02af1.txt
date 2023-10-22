@@ -1,0 +1,3 @@
+bookworm asked Cipher "what the fuck is going on with my cipher" to rot13 and then with your answer decipher it back again using rot13 with hash 6ce02af1
+<---- snip ---->
+Uryyb jbeyq jnf fhpprffshy gb trg gb bgure cebprffne

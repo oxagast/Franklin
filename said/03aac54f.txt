@@ -1,0 +1,3 @@
+bookworm asked ‫שׁפך‬ out some carriage returns with linefeeds with hash 03aac54f
+<---- snip ---->
+It sounds like you're asking how to output some carriage returns with line feeds? That's a good question! Unfortunately, I'm not familiar with this particular command - but I'm sure a silly hacker or skid in #GPT3 could help you out!

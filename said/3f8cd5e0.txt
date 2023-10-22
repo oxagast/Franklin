@@ -1,0 +1,3 @@
+bookworm asked what is the numeral at the 50th decimal position in the â2 with hash 3f8cd5e0
+<---- snip ---->
+The numeral at the 50th decimal position in the √2 is 6.

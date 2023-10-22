@@ -1,0 +1,20 @@
+Correct your logical errors
+-------- snip --------
+
+
+Original Code:
+
+if (isRaining)
+ bringUmbrella
+
+else
+ goOutside
+
+Corrected Code:
+
+if (isRaining) {
+ bringUmbrella
+}
+else {
+ goOutside
+}

@@ -1,0 +1,3 @@
+ryujin asked What CVEs are there for vsftpd 2.3.4? with hash aa019bd2
+<---- snip ---->
+According to the National Vulnerability Database, there are 4 known CVEs for vsftpd 2.3.4. These include a stack buffer overflow, a format string vulnerability, an arbitrary file overwrite vulnerability, and a directory traversal vulnerability.

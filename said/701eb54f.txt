@@ -1,0 +1,3 @@
+bookworms asked what is the most intuative language? with hash 701eb54f
+<---- snip ---->
+My answer to bookworms is: Intuition is a subjective concept, so it's hard to determine which language is the most intuitive. However, some of the most popular choices are Python, Java, and JavaScript. They all offer excellent readability and are easy to learn.

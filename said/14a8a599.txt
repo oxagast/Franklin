@@ -1,0 +1,3 @@
+bookworm asked What is the average word length in Hebrew? with hash 14a8a599
+<---- snip ---->
+My answer is: The average word length in Hebrew is between 5 and 7 letters.

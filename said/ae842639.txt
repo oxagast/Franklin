@@ -1,0 +1,5 @@
+whats 10+2 multiplied by 2
+-------- snip --------
+
+
+24

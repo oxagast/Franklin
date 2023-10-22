@@ -1,0 +1,46 @@
+oxagast asked "$apikey" with hash 3e892399
+<---- snip ---->
+        )
+
+        val request = Request.Builder()
+            .url(url)
+            .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36")
+            .build()
+
+        val response = httpClient.newCall(request).execute()
+
+        val rawJson = response.body?.string()
+        val gson = Gson()
+        val searchResults = gson.fromJson<SearchResults>(rawJson, SearchResults::class.java)
+
+        return searchResults
+    }
+
+    suspend fun searchMovieDetails(movieId: Int): MovieDetails {
+        val httpClient = OkHttpClient()
+        val apiKey = API_KEY
+
+        val url = HttpUrl.Builder()
+            .scheme("https")
+            .host("api.themoviedb.org")
+            .addPathSegment("3")
+            .addPathSegment("movie")
+            .addPathSegment(movieId.toString())
+            .addQueryParameter("api_key", apiKey)
+            .build()
+
+        val request = Request.Builder()
+            .url(url)
+            .header("User-Agent", "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36")
+            .build()
+
+        val response = httpClient.newCall(request).execute()
+
+        val rawJson = response.body?.string()
+        val gson = Gson()
+        val movieDetails = gson.fromJson<MovieDetails>(rawJson, MovieDetails::class.java)
+
+        return movieDetails
+    }
+
+}

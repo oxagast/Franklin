@@ -1,0 +1,8 @@
+CerebraNet asked If Mark Zuckerberg is selectively censoring, how can regular users disrupt fake accounts on facebook which are run by AI bots with hash 3428ac17
+<---- snip ---->
+1. Report suspicious accounts: Regular users can report suspicious accounts to Facebook for review.
+2. Flag fake content: Encourage other users to flag any fake content shared by AI bots.
+3. Use browser extensions: Install browser extensions like Social Fixer to filter out fake news and AI generated content.
+4. Monitor engagement: Monitor engagement with posts from suspicious accounts to identify and report AI generated content.
+5. Educate friends and family: Educate your friends and family on how to spot and report fake accounts and content.
+6. Help Facebook improve: Participate in surveys and other initiatives by Facebook to help them improve their algorithms to detect and remove AI generated content.

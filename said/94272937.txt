@@ -1,0 +1,12 @@
+bookworm asked list famous math formulas with hash 94272937
+<---- snip ---->
+1. Pythagorean Theorem (a^2 + b^2 = c^2)
+2. Quadratic Formula (x = (-b ± √(b^2 - 4ac)) / 2a)
+3. Binomial Theorem ( (a + b)^n = Σ_(k=0)^n(nCk*a^(n-k)*b^k))
+4. Sine Rule (a/sinA = b/sinB = c/sinC)
+5. Cosine Rule (c^2 = a^2 + b^2 - 2abcosC)
+6. Slope-intercept Form (y = mx + b)
+7. Distance Formula (d = √((x_2 - x_1)^2 + (y_2 - y_1)^2))
+8. Law of Cosines (c^2 = a^2 + b^2 - 2abcosC)
+9. Euler's Formula (e^(iπ) + 1 = 0)
+10. Gauss-Jordan Elimination (A|I -> I|A^-1)

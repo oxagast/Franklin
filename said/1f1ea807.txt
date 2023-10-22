@@ -1,0 +1,3 @@
+morb asked what was the first nes emulator with hash 1f1ea807
+<---- snip ---->
+The first NES emulator was called NESticle, released in 1997. It was written by Icer Addis of Bloodlust Software.

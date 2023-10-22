@@ -1,0 +1,3 @@
+bookworm asked create number series with one cloze for quiz file format sequence:answer do not number each line with hash f4bbf84c
+<---- snip ---->
+{{c1::1}} {{c2::2}} {{c3::3}} {{c4::4}} {{c5::5}}

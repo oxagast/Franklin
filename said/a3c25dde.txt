@@ -1,0 +1,16 @@
+captain asked can you tell me about any linux terminal dashboards for a linux server administration?
+<---- snip ---->
+ 
+There are several Linux terminal dashboards designed to help make server administration easier. Some of the most popular options include:
+
+1. Cockpit: Cockpit is an open-source web-based dashboard that allows users to manage their Linux server from a web-based interface. It includes features such as system monitoring, resource utilization, service management, and user management.
+
+2. Webmin: Webmin is another open-source web-based dashboard for managing Linux servers. It includes features such as system monitoring, user management, and package management.
+
+3. Webminal: Webminal is an open-source web-based dashboard for Linux server management. It includes features such as system monitoring, package management, and user management.
+
+4. WebSSH: WebSSH is an open-source web-based SSH client that allows users to manage their Linux server from a web-based interface. It includes features such as command execution, file transfers, and port forwarding.
+
+5. Terminus: Terminus is an open-source web-based dashboard for managing Linux servers. It includes features such as system monitoring, service management, and user management.
+
+6. Conky: https://gpt3.oxasploits.com/said/a3c25dde

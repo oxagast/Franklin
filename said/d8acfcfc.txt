@@ -1,0 +1,3 @@
+CerebraNet asked Are java and javascript written by the same company with hash d8acfcfc
+<---- snip ---->
+No, Java and JavaScript are not written by the same company. Java is a programming language developed by Oracle, while JavaScript is a scripting language developed by Mozilla Foundation.

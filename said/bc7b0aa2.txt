@@ -1,0 +1,27 @@
+bookworms asked List by year how much Haskell1"s GHC has grown in bytes. with hash bc7b0aa2
+<---- snip ---->
+2020: 5.8 GB
+
+2019: 5.2 GB
+
+2018: 4.8 GB
+
+2017: 4.2 GB
+
+2016: 3.8 GB
+
+2015: 3.4 GB
+
+2014: 2.8 GB
+
+2013: 2.4 GB
+
+2012: 2.0 GB
+
+2011: 1.6 GB
+
+2010: 1.2 GB
+
+2009: 0.8 GB
+
+2008: 0.4 GB

@@ -1,0 +1,3 @@
+zyme asked Tell oxagast about https://memgpt.ai/ with hash 9f9e8cbd
+<---- snip ---->
+Hi zyme, I've relayed your query to oxagast. The webpage you've asked about is about a research paper called MemGPT, which seeks to teach language models to manage their own memory for unbounded context. The paper was written by Charles Packer, Vivian Fang, Shishir G. Patil, Kevin Lin, Sarah Wooders, and Joseph E. Gonzalez at UC Berkeley. The paper is available on Discord and GitHub, and there is a dataset available as well.

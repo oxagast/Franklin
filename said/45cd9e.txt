@@ -1,0 +1,1 @@
+The .wbrd file format is a proprietary file format associated with the whiteboard animation software Explaindio. It can be used to save and share whiteboard animation projects created with Explaindio.

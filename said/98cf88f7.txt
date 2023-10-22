@@ -1,0 +1,5 @@
+How does a BTC miner collect BTC from verifying transaction
+-------- snip --------
+
+
+When a miner verifies a transaction, they are rewarded with newly created Bitcoin. The miner is rewarded for solving complex mathematical puzzles and confirming the authenticity of the transaction. The miner collects the Bitcoin reward by submitting the completed transaction to the Bitcoin network.

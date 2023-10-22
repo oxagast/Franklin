@@ -1,0 +1,22 @@
+bookworm asked list numbers 1-20 in klingon with hash 91fb8946
+<---- snip ---->
+1. wa'
+2. cha'
+3. wej
+4. loS
+5. vagh
+6. jav
+7. Soch
+8. chorgh
+9. Hut
+10. javmaH
+11. wa'maH
+12. cha'maH
+13. wejmaH
+14. loSmaH
+15. vaghmaH
+16. javmaH
+17. SochmaH
+18. chorghmaH
+19. HutmaH
+20. wa'maH cha'

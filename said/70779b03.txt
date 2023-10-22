@@ -1,0 +1,5 @@
+CerebraNet asked I want to transfer data from an old computer to a new computer but the process is tedious and error prone. with hash 70779b03
+<---- snip ---->
+ 
+
+Transferring data between computers can be a tricky process, especially if the computers are running different operating systems. The best way to do it is to use a cloud-based platform such as Dropbox or Google Drive. This will ensure that the data is safely transferred without any errors.

@@ -1,0 +1,5 @@
+Share a schematic diagram of an stl-sdr antenna
+-------- snip --------
+
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/3/3c/STL_SDR_Antenna_Circuit_Diagram.png "STL SDR Antenna Diagram")

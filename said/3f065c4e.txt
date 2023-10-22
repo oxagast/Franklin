@@ -1,0 +1,3 @@
+`SSB asked In the style of Shakespeare, write a paragraph which explains why EMACS is superior to VIM. with hash 3f065c4e
+<---- snip ---->
+O EMACS, how powerful art thou! Thy commands be so simple and straightforward, so easy to comprehend and understand. One may findeth themself lost in the depths of thy powerful tools, yet never doth it feel daunting. When compared to thine nemesis, VIM, EMACS's superiority is clear. For VIM is complex, with its many modes and keys, so much so that a user can easily become confused and frustrated. But EMACS, thy commands be so easy to learn, so simple to use, that a user will never feel overwhelmed. EMACS, thou art the superior text editor!

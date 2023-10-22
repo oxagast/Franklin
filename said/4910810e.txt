@@ -1,0 +1,6 @@
+bookworm asked print out a 4x4 boggle board using these VETM on the top line RKSI underneath the top line QEAL underneath that and the DUFT letters on the bottom. with hash 4910810e
+<---- snip ---->
+RKSI
+QEAL
+DUFT
+VETM

@@ -1,0 +1,5 @@
+What is a bitcoin blockchain progress increase per hour
+-------- snip --------
+
+
+The rate of progress of the Bitcoin blockchain can vary significantly depending on the activity on the network. Generally, the blockchain will progress at a rate of between 1 and 3 blocks per hour.

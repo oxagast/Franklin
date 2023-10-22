@@ -1,0 +1,5 @@
+What is a card edge hard drive data connector
+-------- snip --------
+
+
+A card edge hard drive data connector is a type of connector used to attach a hard drive to the motherboard of a computer. It consists of a flat plastic or metal strip with several contact pins on one side and a matching slot on the other side. The pins on the card edge hard drive data connector fit into the slot on the hard drive.

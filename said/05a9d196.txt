@@ -1,0 +1,5 @@
+what is Hikari software?
+-------- snip --------
+
+
+Hikari Software is an artificial intelligence (AI) development platform designed to enable developers to create AI-driven applications and services. It provides a comprehensive toolset for developing AI applications, including visual programming, natural language processing, image recognition, machine learning, and more. The platform is designed to be used by businesses of all sizes, from small startups to large enterprises.

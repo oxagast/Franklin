@@ -1,0 +1,5 @@
+Whats the difference between lightwave and blender?
+-------- snip --------
+
+
+Lightwave is a 3D animation and rendering software used in television and film production. Blender is a free and open source 3D creation suite. Lightwave is more dedicated to animation and rendering, while Blender has a variety of applications and tools for 3D creation, animation, rendering, modeling, sculpting, and more.

@@ -1,0 +1,7 @@
+Reparse Point and Sparse Point
+-------- snip --------
+
+
+A reparse point is a type of file system object that is a special type of file or folder that is used to store information about other files or folders. It is used by the operating system to associate one type of data with another. For example, a reparse point might be used to associate a symbolic link with its target file or folder. 
+
+A sparse point is a type of disk space allocation method used in computer file systems to store data more efficiently. In this method, only the parts of a file that contain data are stored, and the rest of the space is left unused. This saves disk space by eliminating the need to store blank or zero-filled areas of a file. Sparse files are useful for applications that store very large files or files with large amounts of blank space, such as virtual machine images.

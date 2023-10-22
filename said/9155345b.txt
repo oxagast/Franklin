@@ -1,0 +1,20 @@
+ryujin asked Print hello world in asm  with hash 9155345b
+<---- snip ---->
+OK, sure. Here's the assembly code for printing "Hello World":
+
+section .data
+    msg: db "Hello World!", 0x0a
+    len: equ $-msg
+
+section .text
+    global _start
+
+_start:
+    mov edx, len
+    mov ecx, msg
+    mov ebx, 1
+    mov eax, 4
+    int 0x80
+
+    mov eax, 1
+    int 0x80

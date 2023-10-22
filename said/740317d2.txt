@@ -1,0 +1,5 @@
+what is firejail?
+-------- snip --------
+
+
+Firejail is a Linux security sandbox program that is designed to create a secure, sandboxed environment for applications to run in. It is used to isolate the applications from the rest of the system, protecting the system from potential security threats, such as malicious code or malware. Firejail provides a range of features, such as isolation, resource control, privilege dropping, and network filtering.

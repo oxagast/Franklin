@@ -1,0 +1,30 @@
+oxagast asked  " with hash af10c8a6
+<---- snip ---->
+)
+            title = input("Enter title: ")
+            author = input("Enter author: ")
+            year = input("Enter year: ")
+            book = Book(isbn, title, author, year)
+            book.add_book_to_list()
+            print("Book added!")
+            print()
+            show_menu()
+        elif user_input == "2":
+            isbn = input("Enter ISBN: ")
+            book = Book.find_by_isbn(isbn)
+            if book:
+                book.print_book_info()
+            else:
+                print("Book not found!")
+            print()
+            show_menu()
+        elif user_input == "3":
+            print("Goodbye!")
+            break
+        else:
+            print("Invalid input! Please try again...")
+            print()
+            show_menu()
+
+if __name__ == "__main__":
+    main()

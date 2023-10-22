@@ -1,0 +1,3 @@
+bookworm asked >>> with hash 25f3cb68
+<---- snip ---->
+The different types of data analysis techniques include descriptive analysis, exploratory analysis, inferential analysis, predictive analysis, prescriptive analysis, and text analysis.

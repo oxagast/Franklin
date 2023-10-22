@@ -1,0 +1,5 @@
+What do you know about the use of Cloudbot on IRC?
+-------- snip --------
+
+
+Cloudbot is a popular open-source IRC bot written in Python. It can be used to provide a variety of services on IRC networks, such as providing automated response, logging events, and even serving as a web gateway for IRC. Cloudbot can be configured to respond to a variety of commands and queries, allowing users to interact with it without having to learn a programming language. Additionally, it can be used to provide an interactive chat environment, allowing users to interact with each other in real-time.

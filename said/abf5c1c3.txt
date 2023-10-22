@@ -1,0 +1,24 @@
+10 for i=1 to 40: 20 print .CerebraNet is 1337!  : 20 next i : run
+-------- snip --------
+
+
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337! 
+CerebraNet is 1337!

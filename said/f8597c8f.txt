@@ -1,0 +1,3 @@
+CerebraNet asked Can radar indicate clear air turbulence with hash f8597c8f
+<---- snip ---->
+Yes, radar can detect clear air turbulence. However, it is not always accurate and can often be misleading. It is best to take additional precautions when flying in areas where radar may detect clear air turbulence.

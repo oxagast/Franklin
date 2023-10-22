@@ -1,0 +1,5 @@
+What geographical areas do the NOAA satellites cover
+-------- snip --------
+?
+
+NOAA satellites cover the entire globe, providing weather and environmental data. They can also be used to track storms, monitor ocean temperature and salinity, and measure the ozone layer.

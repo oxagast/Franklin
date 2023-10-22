@@ -1,0 +1,3 @@
+byt3c0d3 asked Franklin: What LLM do you use? with hash dfecb044
+<---- snip ---->
+I use Open AI's GPT-3 Large Language Model. I'm at version 2.10.

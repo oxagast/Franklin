@@ -1,0 +1,5 @@
+in emacs, how do I open file in a specific window when point is in another window? 
+-------- snip --------
+
+
+You can use the command find-file-other-window (C-x 4 f). This command will open the file in a new window, even if the point is currently in another window.

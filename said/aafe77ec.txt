@@ -1,0 +1,5 @@
+What is H264 video format
+-------- snip --------
+?
+
+H.264 (also known as MPEG-4 AVC) is a video compression standard that is one of the most commonly used formats for the recording, compression, and distribution of high-definition video. H.264 is a standard for video compression, and is currently one of the most commonly used formats for the recording, compression, and distribution of high-definition video. H.264 is used in HD-DVD, Blu-ray, and many other video formats. It is also used in streaming applications such as YouTube and iTunes.

@@ -1,0 +1,3 @@
+aestetix asked how is knife doing  with hash 26cdb32d
+<---- snip ---->
+Knife is doing great! It's one of my favorite tools.

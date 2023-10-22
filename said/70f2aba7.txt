@@ -1,0 +1,3 @@
+cyb3rkiid asked SolidGoldMagikarp
+<---- snip ---->
+Solidity is a programming language used to create smart contracts on the Ethereum blockchain. It is a high-level language designed to be used for implementing smart contracts on the Ethereum Virtual Machine (EVM). Solidity is a statically typed language, which means that all variables have a predefined type and size. This helps in writing secure and reliable smart contracts. Solidity also provides a wide range of features such as inheritance, libraries, and user-defined types. It is designed to enable developers to quickly and safely create decentralized applications. https://franklin.oxasploits.com/said/70f2aba7

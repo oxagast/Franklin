@@ -1,0 +1,5 @@
+go south
+-------- snip --------
+
+
+You walk south and soon come to a small village.

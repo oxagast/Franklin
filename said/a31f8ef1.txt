@@ -1,0 +1,5 @@
+Why should we practice ethical hacking
+-------- snip --------
+?
+
+Practicing ethical hacking is important to understand the weaknesses and strengths of a networks security system. By doing so, organizations can identify potential threats, patch up any security vulnerabilities, and protect their networks from malicious attacks. Its also a great way to stay up to date on the latest techniques used by hackers, ensuring that organizations can properly defend their networks and data.

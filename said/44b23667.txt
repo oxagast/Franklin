@@ -1,0 +1,3 @@
+bookworm asked what is the square root of 2n with hash 44b23667
+<---- snip ---->
+The square root of 2n is √2n.

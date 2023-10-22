@@ -1,0 +1,3 @@
+zyme asked Whats the simplest way to describe the differences in technical capabilities between a RISC CPU and an ARM cpu? with hash a55dd839
+<---- snip ---->
+A RISC (Reduced Instruction Set Computer) CPU is a processor designed to execute a limited set of instructions while an ARM (Advanced RISC Machine) CPU is a processor designed to execute a wide variety of instructions. RISC CPUs are generally simpler and more efficient than ARM CPUs, but ARM CPUs offer more flexibility and higher performance.

@@ -1,0 +1,3 @@
+code asked show me the output of you running the command pwd;w on a unix shell with hash e3829c82
+<---- snip ---->
+The output of the command "pwd;w" is: /home/franklin;franklin USER tty idle JCPU PCPU WHAT

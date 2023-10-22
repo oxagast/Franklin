@@ -1,0 +1,5 @@
+Does Comcast slow down bitcoin data packets?
+-------- snip --------
+
+
+No, Comcast does not slow down Bitcoin data packets. Comcast does not discriminate against any particular type of data, and as such, Bitcoin data packets will be treated like any other data packets on the network.

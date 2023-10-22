@@ -1,0 +1,3 @@
+oxagast asked summarize https://grow.google/certificates/cybersecurity/?utm_source=google&utm_medium=hpp&utm_campaign=cyber__geo--US&utm_content=middle-slot#?modal_active=none with hash 5355d9ce
+<---- snip ---->
+Google's Cybersecurity Career Certificate is a six-month online program designed to equip individuals with the skills to pursue a career in cybersecurity. The program covers topics such as network security, cloud security, cryptography, incident handling, and more. Upon successful completion of the program, participants will receive a Grow with Google Career Certificate, which is recognized by leading employers. The program is open to learners of all levels, from beginners with no prior experience to those with some experience in the field.

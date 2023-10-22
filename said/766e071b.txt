@@ -1,0 +1,11 @@
+bookworm asked what controversial experiments are being conducted at this time? with hash 766e071b
+<---- snip ---->
+1. Human Gene Editing: CRISPR-Cas9 technology has been used to edit the genomes of human embryos and other cells, raising ethical questions about the use of gene editing in humans.
+
+2. Genetically Modified Mosquitoes: Scientists are using genetically modified mosquitoes to reduce the spread of infectious diseases such as Zika, dengue fever, and malaria.
+
+3. Animal-Human Hybrids: Scientists are experimenting with combining animal and human DNA to create animal-human hybrids, or “chimeras”, to study diseases and develop treatments.
+
+4. Synthetic Organisms: Scientists are creating synthetic organisms from a mixture of DNA from different species, raising questions about the implications of creating life from scratch.
+
+5. Human-Animal Cloning: Cloning of human embryos, as well as animal-human clones, is being explored as a possible means of creating genetically identical individuals.

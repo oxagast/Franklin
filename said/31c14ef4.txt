@@ -1,0 +1,3 @@
+zyme asked Should I restrict Npcap access to administrators of windows 11 only? with hash 31c14ef4
+<---- snip ---->
+It depends on your security requirements, but it's generally a good idea to restrict access to administrators. It's also worth considering what other users may need access to Npcap for. All in all, it's up to you to decide what's best for your system.

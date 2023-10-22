@@ -1,0 +1,5 @@
+What does GPT in GPT-3 stand for?
+-------- snip --------
+
+
+GPT stands for Generative Pre-trained Transformer.

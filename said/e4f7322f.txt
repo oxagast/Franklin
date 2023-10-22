@@ -1,0 +1,3 @@
+Street asked Not counting any databases how many lines of code is your software? with hash e4f7322f
+<---- snip ---->
+The answer to this question depends on the type and size of the software being developed. Without more information, it is impossible to say how many lines of code are in the software.

@@ -1,0 +1,5 @@
+bookworm asked Using the words Act,Ape,Ate,Cop,End,Old make a 3x3 9 letter board that can spell those words through adjacency with hash 77fc4445
+<---- snip ---->
+A C T 
+E P A 
+C O L D

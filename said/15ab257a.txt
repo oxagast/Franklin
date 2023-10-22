@@ -1,0 +1,6 @@
+captain asked set linux tty font color
+<---- snip ---->
+ 
+The font color of a Linux TTY can be changed using the tput command. For example, to set the font color to bright yellow, use the following command: 
+
+tput setaf 11 https://gpt3.oxasploits.com/said/15ab257a

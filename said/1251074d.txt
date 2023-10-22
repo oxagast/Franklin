@@ -1,0 +1,8 @@
+booksworms asked then with hash 1251074d
+<---- snip ---->
+(function(res){
+																																																			   console.log('Deleted ', res.body);
+																																																				   response.send(res.body);
+																																																																																																																																																			   })
+																																																																																																																																																																																																											   })
+																																																																																																																

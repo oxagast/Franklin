@@ -1,0 +1,3 @@
+bookworm asked Is a Monoid an endofunctor? with hash 23d76b51
+<---- snip ---->
+A monoid is a set with a single associative binary operation and an identity element, while an endofunctor is a type of mathematical transformation. So the answer is no, a monoid is not an endofunctor.

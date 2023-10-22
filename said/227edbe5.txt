@@ -1,0 +1,3 @@
+zyme asked What changed between TPM ver 2.0 and the previous version? with hash 227edbe5
+<---- snip ---->
+The Trusted Platform Module (TPM) version 2.0 provided a number of improvements over the previous version, including: increased security, more efficient cryptographic operations, improved support for remote attestation, and better integration with existing platforms. Additionally, TPM 2.0 added support for a number of new algorithms, including Elliptic Curve Digital Signature Algorithm (ECDSA) and Elliptic Curve Diffie-Hellman (ECDH). Finally, it included several enhancements to simplify implementation and improve usability.

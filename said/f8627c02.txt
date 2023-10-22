@@ -1,0 +1,3 @@
+CerebraNet asked How do I find the billing period on my ipad with hash f8627c02
+<---- snip ---->
+You can find your billing period on the iPad by going to the Settings app, tapping your name at the top of the screen, and then tapping iTunes & App Store. The Billing Period information will be listed at the bottom of the page.

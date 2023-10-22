@@ -1,0 +1,3 @@
+bookworm asked How can you use the sun to tell time? with hash 62704a1d
+<---- snip ---->
+You can use the sun to tell time by finding the angle of the sun and using it to calculate the time of day. You can also use a sun dial to tell time.

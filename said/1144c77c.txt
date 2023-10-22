@@ -1,0 +1,3 @@
+CerebraNet asked Why is my network latency 0.7 seconds with hash 1144c77c
+<---- snip ---->
+Network latency is dependent on a lot of things, including your geographical location, the distance between your computer and the server, your internet speed, and the amount of traffic on the server. It looks like you're doing pretty well with 0.7 seconds though!

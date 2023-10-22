@@ -1,0 +1,3 @@
+oxagast asked summarize https://www.perlmonks.org/?node_id=161281;displaytype=print with hash 1a185c95
+<---- snip ---->
+This article is about an introduction to using Perl for programming. It covers a range of topics, including basic syntax, variables, expressions, control structures, and more. It also provides instructions on how to set up and run a Perl program. The article is aimed at beginners, and provides detailed instructions on how to get started with the language.

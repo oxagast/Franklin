@@ -1,0 +1,5 @@
+What is SIPRNET?
+-------- snip --------
+
+
+SIPRNET (Secure Internet Protocol Router Network) is a U.S. Department of Defense (DoD) classified, secure network for the transmission of classified information up to the Secret level. It is used for a variety of purposes, including communications between DoD agencies, access to sensitive databases, and file transfers. It is also used by the U.S. Intelligence Community and other federal agencies.

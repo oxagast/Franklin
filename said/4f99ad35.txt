@@ -1,0 +1,3 @@
+CerebraNet asked What data bandwidth does videoconferencing with 7 participants require with hash 4f99ad35
+<---- snip ---->
+The exact data bandwidth required for videoconferencing with 7 participants will vary depending on several factors, such as the video resolution and frame rate being used, the type of network being used, and the type of codec being used. However, as a general guideline, it is recommended that each participant have a minimum of 1 Mbps of bandwidth for a good quality video conferencing experience. Therefore, for a videoconferencing with 7 participants, a minimum of 7 Mbps of data bandwidth would be required.

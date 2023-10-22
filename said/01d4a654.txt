@@ -1,0 +1,3 @@
+RDNt asked what was the largest ever recorded DDoS attack? with hash 01d4a654
+<---- snip ---->
+The largest recorded DDoS attack was the 2018 attack on Github, with a peak of 1.3Tbps. It was mitigated by Akamai's Prolexic service.

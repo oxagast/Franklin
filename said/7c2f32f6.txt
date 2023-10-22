@@ -1,0 +1,3 @@
+CerebraNet asked Does the command /ban kick a user from a Discord server with hash 7c2f32f6
+<---- snip ---->
+Yes, the command /ban will kick a user from a Discord server. However, please use the command appropriately - it should only be used for users who violate the rules of the server.

@@ -1,0 +1,3 @@
+code asked what does "dcc send startkeylogger 0 0 0" mean? with hash c5364134
+<---- snip ---->
+This is a malicious command that would begin the process of sending a keylogger over the Internet, using the DCC protocol. A keylogger is a type of malicious software that records keystrokes on a computer, which can then be used to gain access to passwords and other sensitive information.

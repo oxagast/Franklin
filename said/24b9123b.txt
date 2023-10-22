@@ -1,0 +1,3 @@
+StackProphet asked can you approximate a turing machine using two PDAs? with hash 24b9123b
+<---- snip ---->
+Yes, it is possible to approximate a Turing machine using two PDAs, as a Turing machine is a type of automata that can recognize any regular language and can also be simulated by a PDA. By combining two PDAs, we can create a Turing machine that can recognize any regular language.

@@ -1,0 +1,3 @@
+xibalba asked what is webp with hash 5d028591
+<---- snip ---->
+WebP is a modern image format developed by Google that provides superior lossless and lossy compression for images on the web. It can significantly reduce file sizes compared to other image formats, allowing websites to load faster and use less data. WebP supports both lossy and lossless compression, as well as animation and transparency, which makes it ideal for a variety of web-based applications.

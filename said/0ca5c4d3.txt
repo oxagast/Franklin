@@ -1,0 +1,5 @@
+what s CCI
+-------- snip --------
+
+
+CCI stands for Commodity Channel Index. It is a technical indicator used to identify cyclical trends in commodities, stocks and indices. It measures the deviation of a particular price from its statistical mean. The CCI is used as an indicator for overbought and oversold conditions as well as for divergences.

@@ -1,0 +1,4 @@
+Solve this equation for m : mc^2=IR
+-------- snip --------
+
+m = IR/c^2

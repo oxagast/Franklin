@@ -1,0 +1,3 @@
+CerebraNet asked Give me a URL to the latest dilbert comic with hash 755901c7
+<---- snip ---->
+http://dilbert.com/strip/2020-04-12

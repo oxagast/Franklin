@@ -1,0 +1,3 @@
+bookworm asked How can a chatbot like chatGPT be prompted to show what langauge model version they are under? with hash 93201166
+<---- snip ---->
+ChatGPT does not explicitly provide information about which language model version it is running. However, you can make an educated guess based on the type of responses it provides. For example, ChatGPT is likely running a GPT-2 or GPT-3 language model if it provides more natural, coherent responses that are tailored to the conversation.

@@ -1,0 +1,5 @@
+did bell labs make an inferno web browser plugin
+-------- snip --------
+
+
+No, Bell Labs did not make an Inferno web browser plugin. Inferno is a distributed operating system developed by Bell Labs in the late 1980s and early 1990s. It is not a web browser and does not have a web browser plugin.

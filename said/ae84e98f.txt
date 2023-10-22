@@ -1,0 +1,3 @@
+CerebraNet asked Does ubuntu dd copy unused sectors with hash ae84e98f
+<---- snip ---->
+Yes, Ubuntu will copy unused sectors when using dd. However, it would be more efficient to use a utility such as ddrescue to make sure only the necessary data is copied.

@@ -1,0 +1,3 @@
+StackProphet asked what would the concatenation be of . b e f  with hash 1b9448bd
+<---- snip ---->
+The concatenation of .bef would be .bef.

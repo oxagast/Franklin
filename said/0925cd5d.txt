@@ -1,0 +1,3 @@
+CerebraNet asked What frequencies does bluetooth use with hash 0925cd5d
+<---- snip ---->
+Bluetooth uses the 2.4GHz frequency to transmit data.

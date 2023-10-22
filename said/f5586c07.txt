@@ -1,0 +1,3 @@
+salazar asked what is the code name of chatgpt 3.5 turbo ? i iwsh to ask it sthg in python give an example with engine= plz with hash f5586c07
+<---- snip ---->
+The code name for ChatGPT 3.5 turbo is "GPT-3TURBO" and here is an example of how to use it in Python: engine = GPT-3TURBO() engine.ask('What is the weather like today?')

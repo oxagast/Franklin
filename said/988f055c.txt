@@ -1,0 +1,11 @@
+how do I bootstrap kermit with debug
+-------- snip --------
+
+
+1. Connect to the device you want to bootstrap Kermit on.
+2. Enter debug mode.
+3. Load the Kermit bootstrap program.
+4. Run the Kermit bootstrap program.
+5. Once the program is running, use the debug commands to confirm Kermit is installed correctly and running correctly.
+6. Exit debug mode.
+7. Verify that Kermit is working correctly by interacting with it.

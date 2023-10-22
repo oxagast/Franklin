@@ -1,0 +1,3 @@
+Arlequim asked Can these capabilities be used by musicians? with hash f7f78f90
+<---- snip ---->
+My response would be: Absolutely! Natural language processing and machine learning have been used to great effect in music production and composition. For example, AI-generated music can be used to generate beats, melodies, and even entire songs. You can find more information about AI-generated music here: https://www.thesoundarchitect.co.uk/ai-generated-music/.

@@ -1,0 +1,9 @@
+bookworm asked list logical formal fallacies in latin defined in english for quiz file format latin:english no line numbers, all lower case with hash f0ce18af
+<---- snip ---->
+post hoc ergo propter hoc:after this, therefore because of this
+non sequitur:it does not follow
+ad hominem:against the person
+ad populum:appeal to the people
+petitio principii:begging the question
+argumentum ad crumenam:argument to the purse
+argumentum ad baculum:argument to the stick

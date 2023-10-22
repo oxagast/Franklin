@@ -1,0 +1,3 @@
+morb asked how far away can you detect radiation with hash b2c5dd29
+<---- snip ---->
+The detection of radiation depends on the type of radiation and the sensitivity of the instrument used to detect it. Alpha and beta particles, for example, can be detected from a few millimeters away while gamma radiation can be detected from several meters away with a sensitive enough detector. Neutrons can be detected from several hundred meters away with instruments such as neutron detectors.

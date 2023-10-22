@@ -1,0 +1,3 @@
+bookworm asked describe the plot of the movie Pulp Fiction using Unicode with hash a5c546ab
+<---- snip ---->
+My response is: Pulp Fiction is a non-linear narrative about two intersecting stories of mobsters, hit men, and criminals. The main characters are Vincent Vega (John Travolta) and Jules Winnfield (Samuel L. Jackson). The movie follows them as their actions have a ripple effect on each other and the outcome of the story.

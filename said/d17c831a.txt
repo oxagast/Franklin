@@ -1,0 +1,3 @@
+bookworm asked list of 100 words for love in different languages converting those words to ASCII/TRANSLIT, all small letters, no spaces, language:word \n with hash d17c831a
+<---- snip ---->
+arabic:habaab;basque:maitea;catalan:amor;chinese:aiqing;czech:milovat;danish:elske;dutch:liefde;finnish:rakkaus;french:amour;german:liebe;greek:agape;hebrew:ahava;hindi:pyar;hungarian:szerelem;indonesian:cinta;italian:amore;japanese:ai;korean:sarang;latvian:milestiba;lithuanian:meile;maltese:inhobb;norwegian:kjærlighet;persian:eshgh;polish:milosc;portuguese:amor;romanian:dragoste;russian:liubov;slovak:las;spanish:amor;swedish:kärlek;turkish:ask;ukrainian:lubov;vietnamese:yeu

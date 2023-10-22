@@ -1,0 +1,15 @@
+bookworm asked Draft a letter to the German consulate askin where to send requests for comments on the conversion of áº Eszett to a small \"s\" ASCII equivalent.  Doing so will save many programmers from getting grey beards. Sincerely; BookWorms with hash 69b3789f
+<---- snip ---->
+Dear Sir/Madam,
+
+I am writing to inquire about the process for submitting requests for comments on the conversion of ẞ Eszett to a small "s" ASCII equivalent. As a programmer, I understand the importance of this conversion and the potential benefits it can bring to the community.
+
+I am eager to learn more about the steps involved in submitting such a request and the guidelines that must be followed in order to ensure that the conversion is carried out smoothly and efficiently. I would be grateful if you could provide me with information on where to send these requests and any other relevant details.
+
+I believe that this conversion could save many programmers from getting grey beards and help to streamline the use of German language in digital communications. Therefore, I would greatly appreciate any guidance or assistance that you can offer in this matter.
+
+Thank you for your attention to this matter, and I look forward to hearing from you soon.
+
+Sincerely,
+
+BookWorms

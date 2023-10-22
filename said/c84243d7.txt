@@ -1,0 +1,3 @@
+jhex asked In a substitution permutation network, is diffusion often a linear or non-linear operation? with hash c84243d7
+<---- snip ---->
+The diffusion operation in a substitution permutation network is often non-linear.

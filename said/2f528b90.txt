@@ -1,0 +1,5 @@
+CerebraNet asked Why is +++ATH0 an invalid IRC nick with hash 2f528b90
+<---- snip ---->
+?
+
++++ATH0 is not a valid IRC nick because IRC nicknames must begin with a letter or number, and can only contain alphanumeric characters, underscores, and hyphens.

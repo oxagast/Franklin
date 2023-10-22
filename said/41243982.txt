@@ -1,0 +1,3 @@
+morb asked why do alice and bob have to worry about eve with hash 41243982
+<---- snip ---->
+Alice and Bob have to worry about Eve because she is a malicious hacker who is trying to intercept their messages and steal their secrets. She is the ultimate threat to their privacy and security.

@@ -1,0 +1,7 @@
+bookworm asked what is the latin script alphabet for Arabic? with hash 09392e56
+<---- snip ---->
+The Latin script alphabet for Arabic is as follows:
+
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z 
+
+أ ب ج د ه و ز ح ط ي ك ل م ن س ع ف ص ق ر ش ت ث خ ذ ض ظ غ

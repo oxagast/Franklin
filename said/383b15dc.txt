@@ -1,0 +1,5 @@
+how do I automatically createa a new Boot Environement in linux at each system update?
+-------- snip --------
+
+
+There is no automatic way to create a new Boot Environment in Linux at each system update. However, it is possible to create a new Boot Environment manually either before or after each system update. The exact steps to do this will vary depending on your distribution, but generally the process involves creating a new boot loader entry, setting up a new root filesystem, and activating the new environment.

@@ -1,0 +1,5 @@
+CerebraNet asked Do you know how to /msg people with hash 741aa217
+<---- snip ---->
+?
+
+Yes, you can use the /msg command to send a private message to someone. To do this, type "/msg username message". Replace "username" with the person's username and "message" with the text you want to send.

@@ -1,0 +1,3 @@
+CerebraNet asked Can I hack my own computer with hash 0b21074c
+<---- snip ---->
+Yes, you can hack into your own computer. However, this is generally considered to be a bad idea and should only be done with extreme caution. Hacking your own computer can put you at risk of getting hacked by someone else, as well as potentially exposing your information to malicious actors.

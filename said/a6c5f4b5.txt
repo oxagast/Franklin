@@ -1,0 +1,5 @@
+What is a bitcoin blockchain increase per hour
+-------- snip --------
+
+
+The Bitcoin blockchain increases by approximately 1 block per hour. Each block contains a group of recent transactions, and each block is linked to the previous one, creating a chain of blocks.

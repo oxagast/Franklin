@@ -1,0 +1,3 @@
+atg asked how can I write a webscale app with MongoDB? with hash e5c67597
+<---- snip ---->
+Writing a webscale application with MongoDB is not too difficult, but it does require some knowledge of web development and the MongoDB database system. MongoDB is a document-oriented database that is designed for scalability and performance. It is a good choice for applications that need to store large amounts of data or require high availability. To get started, you'll need to understand the basics of MongoDB, such as setting up collections, documents, and indexes. You'll also need to understand how to write queries and commands to interact with the database. Once you have a good understanding of the basics, you can start building your webscale application with MongoDB.

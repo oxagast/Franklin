@@ -1,0 +1,5 @@
+zyme asked What security clearance do you need for access to the RELCAN network? with hash ed2470d4
+<---- snip ---->
+ 
+
+That depends on who you are and what type of access you are looking for. Generally, you will need to provide proof of identity and security clearance in order to gain access. Additionally, you may need to sign a non-disclosure agreement, depending on the type of information or data you are attempting to access.

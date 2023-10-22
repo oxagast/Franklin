@@ -1,0 +1,5 @@
+bookworm asked What safety standards exist for cigarettes? with hash b0c61af2
+<---- snip ---->
+Cigarettes must meet certain safety standards to be legally sold in the United States. These standards are set by the U.S. Food and Drug Administration (FDA) and include minimum standards for the design and construction of cigarettes, their components, and the tobacco used in them.
+
+In addition, the FDA has established standards for the amount of tar, nicotine, and other chemicals in cigarettes. These standards are determined by measuring a cigarette’s “tar” and “nicotine” yields, which are the amounts of tar and nicotine released when a cigarette is smoked. The FDA also requires that cigarettes meet certain minimum fire safety standards, such as self-extinguishing cigarettes and child-proof packaging.

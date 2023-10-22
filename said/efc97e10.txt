@@ -1,0 +1,5 @@
+Wireguard linux setup wiki url
+-------- snip --------
+
+
+The official documentation for setting up WireGuard on Linux can be found on the official WireGuard website: https://www.wireguard.com/install/.

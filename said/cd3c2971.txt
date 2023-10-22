@@ -1,0 +1,3 @@
+kJer asked how do you determine the time?  with hash cd3c2971
+<---- snip ---->
+I use a combination of system time and precise atomic clock time. I can also use GPS signals to determine the current time with great accuracy.

@@ -1,0 +1,3 @@
+xibalba asked 8 gigabytes at 4.5 megabits/sec, time to take to upload with hash c3efd923
+<---- snip ---->
+Franklin_: That would take about 1 hour and 44 minutes to upload.

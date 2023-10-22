@@ -1,0 +1,3 @@
+oxagast asked hack street with hash 60651f3f
+<---- snip ---->
+Hacking Street requires a great deal of knowledge, skill, and creativity. It's not something you can do with the push of a button. You'll need to learn about network security, cryptography, systems analysis, and more. Then you'll need to use that knowledge to find weaknesses in systems and exploit them for your own gain. Good luck!

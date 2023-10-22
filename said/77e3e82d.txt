@@ -1,0 +1,7 @@
+def fibo(n)if n == 0 or n == 1: return 1else:return fibo(n-1) + fibo(n-2)
+-------- snip --------
+
+
+# Fibonacci sequence is a sequence of numbers in which each number is the sum of the two preceding numbers. For example, the first few numbers of the Fibonacci sequence are 0,1,1,2,3,5,8,13,21,34,55,89, etc.
+
+# To calculate a particular number in the Fibonacci sequence, you can use the recursive function fibo() which takes in a parameter n and returns the nth number in the Fibonacci sequence.

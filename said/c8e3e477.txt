@@ -1,0 +1,3 @@
+bookworm asked how is 4d Chess played? with hash c8e3e477
+<---- snip ---->
+4D Chess is a variant of the traditional game of chess, played on a 4-dimensional board. It requires a special board, pieces, and rules for movement. The basic rules of chess are the same, but extra rules have been added to accommodate the additional dimension. The board is composed of four planes, with each plane being a traditional 8x8 chessboard. The pieces can move up and down, or across the four planes. The extra dimension also allows for more complex strategies, making the game more challenging and exciting.

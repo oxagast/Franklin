@@ -1,0 +1,7 @@
+bookworm asked list urls with downloadable bsdgame quiz files with hash e92699a1
+<---- snip ---->
+1. https://ftp.freebsd.org/pub/FreeBSD/distfiles/bsdgames/quiz/
+2. https://files.catbox.moe/h8wv7p.tgz
+3. https://www.freebsd.org/cgi/cvsweb.cgi/~checkout~/ports/games/bsdgames/files/quiz.diff?rev=1.2&content-type=text/plain
+4. https://codeload.github.com/freebsd/freebsd-ports/tar.gz/master/games/bsdgames/files/quiz.diff
+5. https://www.freebsd.org/cgi/cvsweb.cgi/ports/games/bsdgames/files/quiz.diff?rev=1.3&content-type=text/plain

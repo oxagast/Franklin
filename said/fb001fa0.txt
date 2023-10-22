@@ -1,0 +1,5 @@
+XLAT opcode
+-------- snip --------
+
+
+XLAT (eXchange Look-Ahead Table) is an assembly language instruction that is used to access a certain byte in a lookup table and store the result in the accumulator. It is generally used to perform fast lookups or translations.

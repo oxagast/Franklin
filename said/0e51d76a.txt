@@ -1,0 +1,5 @@
+Can Baofeng UV-5R radios be accessed through telnet
+-------- snip --------
+?
+
+No, Baofeng UV-5R radios cannot be accessed through telnet.

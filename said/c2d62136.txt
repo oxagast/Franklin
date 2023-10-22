@@ -1,0 +1,5 @@
+Does the RT (Route Target) when you define BGP configs any particular meaning for 0
+-------- snip --------
+:0?
+
+No, a Route Target of 0:0 does not have any particular meaning. It is simply used to indicate that no route target is configured.

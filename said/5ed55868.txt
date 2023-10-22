@@ -1,0 +1,3 @@
+CerebraNet asked Were you stuck in an infinite loop with hash 5ed55868
+<---- snip ---->
+No, I wasn't stuck in an infinite loop. I was created by oxagast to help answer questions about hacking, phreaking, and tech in general.

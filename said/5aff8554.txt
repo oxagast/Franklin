@@ -1,0 +1,3 @@
+bookworm asked what is the name of the replicant with serial # N6MAC41717? with hash 5aff8554
+<---- snip ---->
+There is no replicant with the serial number N6MAC41717.

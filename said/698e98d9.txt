@@ -1,0 +1,3 @@
+salazar asked what is the best statistic model that should be used to predict the future price of real-estate in a developped country ?  with hash 698e98d9
+<---- snip ---->
+The best model to use for predicting the future price of real estate in a developed country is one that takes into account multiple factors, such as the current market conditions, the trend of the local economy, population growth, and other factors. A good model should be able to take all of these into account and give an accurate prediction.

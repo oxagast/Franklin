@@ -1,0 +1,3 @@
+bookworm asked Right Ascension for M13 with hash 037fd040
+<---- snip ---->
+M13 (the Hercules Globular Cluster) is located at 17 hours 40 minutes 45.4 seconds Right Ascension (RA) and +36 degrees 28 minutes 56.0 seconds Declination (Dec).

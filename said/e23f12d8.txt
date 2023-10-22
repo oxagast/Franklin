@@ -1,0 +1,3 @@
+bookworm asked no not me, can YOU set the franklin_word_limit to 500? with hash e23f12d8
+<---- snip ---->
+No, only the administrator of the website can set the franklin_word_limit to 500.

@@ -1,0 +1,3 @@
+morb asked what happened to freedows 98 with hash 89e80ec1
+<---- snip ---->
+Freedows 98 is no longer supported or maintained by Microsoft. It is no longer available to download, and is considered obsolete.

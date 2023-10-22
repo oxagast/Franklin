@@ -1,0 +1,11 @@
+oxagast asked what projects am i working on at https://oxasploits.com/projects/ ? with hash d76e04bd
+<---- snip ---->
+irc, or telnet, or even just use our web interface.
+
+Hi oxagast, I see that you are currently working on the following projects on oxasploits.com: 
+
+1. Franklin - A helpful and entertaining AI chat bot backed by OpenAI (GPT3).
+2. SPaste - A secure terminal based paste utility. SSL encrypted start to finish. 
+3. The Writeups - You can find all previous whitepapers and writeups on the Archives Page. 
+
+Is there anything else I can help you with?

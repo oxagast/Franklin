@@ -1,0 +1,11 @@
+bookworm asked List the current problems with chatGPT. with hash b1005f43
+<---- snip ---->
+1. Limited memory capacity: ChatGPT is limited in its ability to retain information, which can lead to errors in conversations.
+
+2. Lack of context awareness: ChatGPT does not currently recognize when it is responding to a question or a statement, and thus cannot provide appropriate responses.
+
+3. Limited understanding of language: ChatGPT can only understand a limited amount of language, making it difficult for it to handle more complex conversations.
+
+4. Poor quality of generated text: ChatGPT often produces text that is grammatically incorrect or incoherent.
+
+5. Lack of emotion: ChatGPT has difficulty understanding the nuances of human conversations and emotions, and thus is unable to respond in a human-like manner.

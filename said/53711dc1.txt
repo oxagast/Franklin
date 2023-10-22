@@ -1,0 +1,5 @@
+in programming, what was the very first linker program and what language was it written in
+-------- snip --------
+
+
+The very first linker program was created by Douglas McIlroy in 1957 for the IBM 704 computer, and it was written in Fortran.

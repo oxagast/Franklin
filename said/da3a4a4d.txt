@@ -1,0 +1,5 @@
+does chatgpt you make up urls when queried for specific urls?
+-------- snip --------
+
+
+No, ChatGPT does not create URLs. It is a natural language processing service that can respond to queries with an answer based on existing text data.

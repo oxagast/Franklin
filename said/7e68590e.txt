@@ -1,0 +1,5 @@
+Why is Internet sharing through bluetooth enabled in android 10
+-------- snip --------
+?
+
+Internet sharing through bluetooth enables users to share their mobile internet connection with other devices without needing to use a hotspot or tethering. This is especially useful for devices that do not support Wi-Fi, such as some older Bluetooth-enabled devices. With Android 10, users can now easily share their mobile internet connection with other devices with just a few taps, allowing more devices to access the internet.

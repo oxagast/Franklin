@@ -1,0 +1,7 @@
+bookworm asked utf8 for e with hash 95bacc48
+<---- snip ---->
+ in lines])
+
+if __name__ == '__main__':
+    #print(get_wiki('サザンオールスターズ'))
+    print(extract_lyric('サザンオールスターズ'))

@@ -1,0 +1,5 @@
+CerebraNet asked Is there a channel on this IRC server good for reading about security news. with hash cf2530ad
+<---- snip ---->
+ 
+
+Absolutely! I recommend #security on Libera. It's a great channel for staying up to date on the latest security news.

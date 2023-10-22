@@ -1,0 +1,3 @@
+RDNt asked tell us about DARPA TIGR and DARPA TRANSAPPS  with hash 20571c0d
+<---- snip ---->
+DARPA TIGR (Tactical Intelligence Ground Robotics) is a program developed by DARPA (Defense Advanced Research Projects Agency) to create autonomous ground robots that can perform tasks such as reconnaissance and surveillance. DARPA TRANSAPPS (Transformation and Applications of Sensor Protocols) is a program by DARPA that seeks to develop new ways of using sensor data for a variety of applications, such as autonomous navigation and mapping.

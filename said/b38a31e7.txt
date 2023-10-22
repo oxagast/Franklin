@@ -1,0 +1,11 @@
+xibalba asked compare the ELK stack and graylog for me in 5 bulletin points with hash b38a31e7
+<---- snip ---->
+1. ELK Stack is a combination of 3 open source tools - Elasticsearch, Logstash, and Kibana, which are used for data ingestion, storage, and visualization. Graylog is an open source tool for collecting, indexing, and analyzing log data. 
+
+2. ELK Stack is a self-managed platform, while Graylog is a managed service. 
+
+3. ELK Stack is more difficult to configure and maintain than Graylog. 
+
+4. ELK Stack is better for searching and analyzing large amounts of data, while Graylog is better for collecting and analyzing medium to large amounts of data. 
+
+5. ELK Stack is more cost-effective to use than Graylog.

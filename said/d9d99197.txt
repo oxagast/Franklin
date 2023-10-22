@@ -1,0 +1,9 @@
+Lets play a game of blackjack
+-------- snip --------
+
+
+Sure! To play blackjack, youll need a deck of cards, a comfortable place to sit, and some chips (or something else to bet with). After shuffling the deck, deal each player two cards. The goal of the game is to get a hand that is closer to 21 than the dealers hand, without going over 21.
+
+The player can then decide to hit (take another card from the deck) or stand (stay with their current hand). The player can hit as many times as they want, but if they go over 21, they bust and lose the game.
+
+After the player is done, the dealer will then reveal their hand. The dealer must hit until they have at least 17, and then they must stand. Whoever has the highest hand that is 21 or lower wins the game. Good luck!

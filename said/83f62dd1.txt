@@ -1,0 +1,3 @@
+bookworm asked Whast is the etymology of the word bushel with hash 83f62dd1
+<---- snip ---->
+The word bushel comes from the Old English word "buscel", which was a dry measure of grain. The word was passed down to Middle English as "bushel" and eventually to Modern English. It is thought to have been derived from the Latin "buccella", meaning "small box".

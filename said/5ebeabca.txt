@@ -1,0 +1,5 @@
+CSharp Delegates
+-------- snip --------
+
+
+C# delegates are similar to function pointers in C++, but are type safe. They are a type that defines a method signature and can be used to pass methods as arguments to other methods. A delegate object encapsulates a reference to a method. Delegates are especially used in events and callbacks. Delegates are declared using the delegate keyword followed by a method signature.

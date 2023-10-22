@@ -1,0 +1,5 @@
+what is the latest UIDAI controversy?
+-------- snip --------
+
+
+The latest UIDAI controversy involves the unauthorized use of Aadhaar data by private companies. This incident came to light when a French security researcher, Baptiste Robert, reported that numerous companies were using a service provided by an unknown third-party to access Aadhaar data without authorization. This data was then used to offer services such as eKYC (electronic Know Your Customer) and to store biometric data. UIDAI has since launched an investigation into the matter and has blocked access to the service used by the companies.

@@ -1,0 +1,5 @@
+Does an RTL-SDR receiver get hot
+-------- snip --------
+?
+
+No, an RTL-SDR receiver should not get hot. However, the USB cable and connector may get warm to the touch if the receiver is in use for an extended period of time.

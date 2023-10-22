@@ -1,0 +1,4 @@
+xibalba asked ijn the CPI what is the hedonic measurement
+<---- snip ---->
+ 
+The Consumer Price Index (CPI) is an economic measure that tracks the average price of a basket of goods and services purchased by consumers in a given period. Hedonic measurement is a type of economic analysis that looks at the value of a product or service and assigns a dollar value based on factors such as quality, features, and performance. Hedonic measurements are often used to adjust the CPI for changes in the quality of goods and services over time. https://gpt3.oxasploits.com/said/c5445f78

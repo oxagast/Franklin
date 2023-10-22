@@ -1,0 +1,5 @@
+Why wont WXtoImg install on windows 11
+-------- snip --------
+
+
+WXtoImg is a program designed for use on Microsoft Windows XP, Vista, 7, 8, and 10. It is not compatible with Windows 11.

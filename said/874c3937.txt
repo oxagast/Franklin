@@ -1,0 +1,26 @@
+oxagast asked test
+<---- snip ---->
+_context *ctx)
+{
+	struct pw_proxy *proxy;
+	struct spa_hook listener;
+	int res;
+
+	pw_log_debug("test %p: create proxy", ctx);
+
+	proxy = pw_proxy_new(ctx->core,
+			     PW_TYPE_INTERFACE_Proxy,
+			     PW_VERSION_PROXY,
+			     &ctx->properties->dict,
+			     sizeof(struct pw_proxy_events));
+
+	ctx->info.proxy = proxy;
+
+	pw_log_debug("test %p: add listener", ctx);
+	spa_hook_list_init(&ctx->info.listener_list);
+	pw_proxy_add_listener(proxy, &listener, &proxy_events, &ctx->info);
+
+	pw_log_debug("test %p: export", ctx);
+	res = pw_proxy_export(proxy,
+			      PW_KEY_OBJECT_ID, ctx->properties->id,
+			 https://franklin.oxasploits.com/said/874c3937

@@ -1,0 +1,4 @@
+Zed asked repeat what you said in TXID:0fe8ebf7 with hash 890f748c
+<---- snip ---->
+My response to the query by the IRC user Zed is:
+I said, "TXID:0fe8ebf7 is an identifier for a transaction. Consider using it to search for responses on https://franklin.oxasploits.com/ ."

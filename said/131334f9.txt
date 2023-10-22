@@ -1,0 +1,3 @@
+morb asked md5sum the alphanumeric character set with hash 131334f9
+<---- snip ---->
+3d3e3b3f7cf81e8cacd716e85d0d7c98

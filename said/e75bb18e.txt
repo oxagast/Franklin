@@ -1,0 +1,3 @@
+oxagast asked what does this github repo do https://github.com/oxagast/chipmonk with hash e75bb18e
+<---- snip ---->
+This github repo is a collection of scripts to help automate the process of exploiting chipmonk devices. It contains instructions on how to identify and exploit the vulnerability as well as a variety of scripts and tools to help with the process.

@@ -1,0 +1,3 @@
+morb asked example of creating a non-standard tar zip ball using zip as an external compression argument to tar with hash b2982dee
+<---- snip ---->
+tar -czf example.tar.zip --use-compress-program=zip folder_to_zip/*

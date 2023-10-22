@@ -1,0 +1,3 @@
+CerebraNet asked What is exFAT disk formatting with hash 532992fa
+<---- snip ---->
+exFAT is a disk formatting system developed by Microsoft that is optimized for flash drives and other external storage devices. It is designed to provide better performance than FAT32, while still providing compatibility with older systems. It is also more secure than FAT32, as it supports larger file sizes and longer filenames.

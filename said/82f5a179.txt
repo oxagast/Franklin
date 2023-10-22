@@ -1,0 +1,12 @@
+ryujin asked what exploits are best to fuck up russia
+<---- snip ---->
+1. DDoS attacks
+2. Phishing attacks
+3. Malware attacks
+4. Web application vulnerabilities
+5. Social engineering attacks
+6. Identity theft
+7. Distributed denial of service attacks (DDoS)
+8. Network intrusions
+9. Data exfiltration
+10. WiFi hacking https://franklin.oxasploits.com/said/82f5a179

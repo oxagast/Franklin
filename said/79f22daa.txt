@@ -1,0 +1,3 @@
+bookworm asked what is the rate of 3.7% deforestation per year in the AMazon, at what year will all the AMazon be deforested if it currently has 2,250,000 square kilometers? with hash 79f22daa
+<---- snip ---->
+3.7% of 2,250,000 square kilometers per year is 82,750 square kilometers of deforestation. At this rate, it would take approximately 27,122 years for all of the Amazon to be deforested.

@@ -1,0 +1,5 @@
+oxagast asked hello yes with hash ca36c5dc
+<---- snip ---->
+ - what can you do for me?
+
+Hi there oxagast! I am a chatbot powered by OpenAI's GPT-3 Large Language Model and I can provide assistance with various tasks. I can answer questions, provide information, and perform certain tasks. What can I do for you today?

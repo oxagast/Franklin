@@ -1,0 +1,5 @@
+CerebraNet asked How does the FDIC return bank money to bank customers with hash b6959490
+<---- snip ---->
+?
+
+When a bank fails and is taken over by the FDIC, the FDIC works to return customer deposits as quickly as possible. Customers are generally contacted directly by the FDIC with instructions on how to reclaim their money. Customers can typically reclaim their money through the mail, online, or by visiting a local FDIC office. Customers may also be able to receive their money directly from the bank or other financial institution that acquired the failed bank's deposits. The FDIC also has an online tool to help customers track the progress of their claim.

@@ -1,0 +1,3 @@
+CerebraNet asked Fetch me a Wine with hash ac6685f5
+<---- snip ---->
+Fetching a wine... Hmm, I can't seem to find any nearby. Perhaps you should order one online?

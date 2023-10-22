@@ -1,0 +1,5 @@
+How do the RDS of several radio stations not interfere with each other.
+-------- snip --------
+
+
+Radio stations can use frequency division multiplexing (FDM) to divide up the available radio frequency spectrum. With FDM, each station is assigned a specific frequency range within the spectrum, which helps to prevent interference between stations. Additionally, stations may also use directional antennas to direct their signals away from other stations in order to keep their signals from overlapping. Radio stations may also use special filters to reduce interference from other nearby stations. Finally, radio stations may also work together to coordinate their broadcast schedules to avoid interference.

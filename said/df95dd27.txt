@@ -1,0 +1,3 @@
+bookworm asked What is the current winning status of human teams vs AI at playing chess with hash df95dd27
+<---- snip ---->
+As of 2021, AI teams are still far ahead of human teams in the game of chess. AI teams have defeated the best human players in the world by a wide margin, and have been doing so since 1997. Despite this, AI teams have not yet been able to solve the game of chess, meaning that they are still unable to find the best moves in every situation. For this reason, human teams still have a chance of winning against AI teams in chess, although the odds are heavily stacked against them.

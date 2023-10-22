@@ -1,0 +1,3 @@
+CerebraNet asked How do I get out of ubuntu CLI with hash 02228bf4
+<---- snip ---->
+You can use the command `exit` or `Ctrl+D` to exit the CLI.

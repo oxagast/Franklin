@@ -1,0 +1,5 @@
+Where is the video card settings in windows 11
+-------- snip --------
+
+
+The video card settings for Windows 11 can be found in the Settings app. To access them, open the Start menu and select “Settings” from the menu. Then, select “System” from the list of options and then “Display” from the left menu. Here, you can adjust the resolution, scaling, rotation, and other settings related to your graphics card.

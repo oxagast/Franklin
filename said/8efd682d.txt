@@ -1,0 +1,5 @@
+shell port 22
+-------- snip --------
+
+
+The port 22 is the default port for SSH, which stands for Secure Shell. SSH is a network protocol that enables secure remote access to a computer. It is used to securely connect to a remote computer over an unsecured network such as the Internet.

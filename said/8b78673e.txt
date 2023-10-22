@@ -1,0 +1,28 @@
+morb asked write me a kermit implementation in dos debug with hash 8b78673e
+<---- snip ---->
+;assemble kermit.asm
+
+org 100h
+
+jmp start
+
+start:
+	mov ah, 09h ;display string
+	mov dx, hello_msg
+	int 21h
+
+hello_msg db 'Hello, it's me, Kermit!', 0Ah, 0Dh, '$'
+
+;end assemble
+
+;run kermit.com
+
+;debug kermit.com
+
+-u 100
+
+mov ah, 09h
+mov dx, offset hello_msg
+int 21h
+
+ret

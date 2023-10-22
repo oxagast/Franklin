@@ -1,0 +1,11 @@
+bookworm asked list table 100 words for love in different languages - all small letters, convert all letters to ASCII, no spaces, rows ending in linefeed  format language:word with hash 47f17e5e
+<---- snip ---->
+arabic:هحبشقتحبكحبايحبونحبنيحبكمحبهاحبكماحبالحبلامحببعضحبشركحبهذاحبالحياةحبالحياةجداكحبأشياءحبيبيمنحبهحبالأشياءحبالحياةبشدةحبالناسحبشخصيتحبشيءحبالذات
+
+spanish:amorquerertequerermequerernosquererlosquererlaquererosquererlaamarlosamarlasamarlamarloamarloamoramoramorar
+
+french:aimerteaimermoiaimerl'amourvousaimerl'amouraimerlesaimerlaaimertoutaimerchaqueaimerlaamouraimerleschoses
+
+german:liebemichliebedichliebesieunsliebeliebeliebeliebeliebeliebstliebemaliebemirallesliebemirallesliebemirallesliebeliebeliebeliebeliebeliebeliebte
+
+italian:amareteamarememiamaresiamoriamoriamoriamoriamoreviamoreamoreamoreamoreamoreamoreamoreamoreamoreamoreamore

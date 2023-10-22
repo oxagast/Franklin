@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked Explain CSharp Delegates like to a 6 year old with hash d5e7c558
+<---- snip ---->
+A CSharp delegate is like an invisible helper. When something happens, like a button is clicked, the invisible helper goes and does something for you, like opening a new window. It makes doing things easier and faster.

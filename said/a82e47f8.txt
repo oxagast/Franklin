@@ -1,0 +1,3 @@
+morb asked can you use ansi color escape codes  with hash a82e47f8
+<---- snip ---->
+Yes, you can use ANSI color escape codes in a variety of programming languages and terminal environments. For example, you can use them in C, C++, Java, and Python, as well as Bash, Zsh, and other Unix-based shells.

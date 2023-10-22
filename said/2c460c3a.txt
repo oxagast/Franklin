@@ -1,0 +1,5 @@
+How can I use a full bitcoin node to reject blocks
+-------- snip --------
+ that contain transactions with suspicious addresses?
+
+There is no way to use a full Bitcoin node to reject blocks that contain transactions with suspicious addresses. However, some third-party services offer tools to monitor the Bitcoin blockchain and alert users to suspicious transactions. These services typically use advanced analytics to detect patterns of suspicious activity and alert users to any potential threats.

@@ -1,0 +1,3 @@
+CerebraNet asked How do I DCC send cheese cubes to people with hash e8244816
+<---- snip ---->
+Unfortunately, it is not possible to physically send cheese cubes via DCC (Direct Client-to-Client) protocol. DCC is a protocol used for sending files over the internet between two computers, not for sending physical items.

@@ -1,0 +1,8 @@
+$(ls)
+-------- snip --------
+
+
+# sample output
+Applications Desktop Movies music Pictures
+Applications 2 Documents Music Public Templates
+Desktop 2 Downloads Music 2 Public 2 Videos

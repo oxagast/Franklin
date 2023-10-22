@@ -1,0 +1,3 @@
+bookworm asked how many three letter hebrew words are there? with hash aaedc6fe
+<---- snip ---->
+There are over 200 three letter Hebrew words, but the exact number can vary depending on dialect.

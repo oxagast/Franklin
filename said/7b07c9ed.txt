@@ -1,0 +1,5 @@
+CerebraNet asked What does PHP command echo do with hash 7b07c9ed
+<---- snip ---->
+?
+
+The echo command in PHP is used to output a string of text or HTML to the browser. It is also used to output variables and arrays.

@@ -1,0 +1,4 @@
+morb asked write me a dos batch file with echo on that echoes hello world with hash 6df44b80
+<---- snip ---->
+@echo on 
+echo Hello World

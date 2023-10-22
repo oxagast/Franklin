@@ -1,0 +1,5 @@
+Who supplied Lulzsec with 0days?
+-------- snip --------
+
+
+Lulzsec obtained 0days from various sources, both public and private. Some of these sources may have included private security researchers or malicious actors.

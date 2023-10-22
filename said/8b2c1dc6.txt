@@ -1,0 +1,5 @@
+bookworm asked can you write code for the Commodore 64? with hash 8b2c1dc6
+<---- snip ---->
+10 REM Commodore 64 Code
+20 PRINT "Hello World!"
+30 END

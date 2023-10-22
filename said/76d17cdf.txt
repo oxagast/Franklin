@@ -1,0 +1,3 @@
+bookworm asked solve ((n/(2n))+1) where n=10 with hash 76d17cdf
+<---- snip ---->
+Answer: 6.5

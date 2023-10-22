@@ -1,0 +1,18 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the french alphabet assigning more faces for letters with more frequency with hash d493e397
+<---- snip ---->
+A - 5 faces
+B - 4 faces
+C - 3 faces
+D - 2 faces
+E - 2 faces
+F - 1 face
+G - 1 face
+H - 1 face
+I - 1 face
+J - 1 face
+K - 1 face
+L - 1 face
+M - 1 face
+N - 1 face
+O - 1 face
+P - 1 face

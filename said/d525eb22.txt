@@ -1,0 +1,51 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different latin phrases to english phrases, all small letters and no line numbering, format latin:english with hash d525eb22
+<---- snip ---->
+optimus inter optimos:best of the best 
+dum spiro spero:while i breathe i hope 
+amor vincit omnia:love conquers all 
+finis coronat opus:the end crowns the work 
+tempus fugit:time flies 
+carpe diem:seize the day 
+quid pro quo:something for something 
+mutatis mutandis:the necessary changes having been made 
+dei gratia:by the grace of god 
+alea iacta est:the die is cast 
+actus non facit reum:the act does not make the guilty 
+aut vincere aut mori:either conquer or die 
+aut cedere aut mori:either yield or die 
+magnum opus:great work 
+deus ex machina:god from the machine 
+vox populi:voice of the people 
+veritas vos liberabit:the truth shall set you free 
+ad infinitum:to infinity 
+nil desperandum:never despair 
+in vino veritas:in wine there is truth 
+ex nihilo nihil fit:nothing comes from nothing 
+fiat lux:let there be light 
+mens sana in corpore sano:a sound mind in a sound body 
+ars longa, vita brevis:art is long, life is short 
+non sequitur:it does not follow 
+laissez-faire:leave it be 
+nunc est bibendum:now is the time for drinking 
+a priori:from the earlier 
+bona fide:in good faith 
+ad hoc:for this purpose 
+ad nauseam:to the point of nausea 
+ipso facto:by that very fact 
+in medias res:into the middle of things 
+quid pro quo:something for something 
+in situ:in the original place 
+lex talionis:the law of retaliation 
+in toto:in the whole 
+nihil obstat:nothing stands in the way 
+nolens volens:willing or not 
+omnia vincit amor:love conquers all 
+pax vobiscum:peace be with you 
+prima facie:at first sight 
+quod erat demonstrandum:which was to be demonstrated 
+res ipsa loquitur:the thing speaks for itself 
+sic transit gloria mundi:so passes away the glory of the world 
+sui generis:of its own kind 
+tempus edax rerum:time, the devourer of all things 
+ultima ratio regum:the final argument of kings 
+veni, vidi, vici

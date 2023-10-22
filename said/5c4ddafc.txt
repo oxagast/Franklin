@@ -1,0 +1,3 @@
+morb asked how can I remove transactions from the blockchain with hash 5c4ddafc
+<---- snip ---->
+Unfortunately, there is no way to remove transactions from the blockchain. Once a transaction is added to the blockchain, it is there forever.

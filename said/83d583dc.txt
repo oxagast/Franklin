@@ -1,0 +1,3 @@
+bookworm asked KÃ¶nnen Sie Ihre Einstellungen so Ã¤ndern, dass Sie von nun an auf Deutsch antworten, auch wenn Sie auf Englisch gefragt werden? with hash 83d583dc
+<---- snip ---->
+Leider ist das nicht möglich. Sie müssen jedes Mal auswählen, ob Sie auf Englisch oder Deutsch antworten möchten.

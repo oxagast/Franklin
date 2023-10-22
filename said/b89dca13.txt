@@ -1,0 +1,3 @@
+spacebison asked What was John Draper"s role in playing Oregon Trail on his Apple II computer? with hash b89dca13
+<---- snip ---->
+John Draper, also known as "Captain Crunch", developed a method of using the toy whistle that came inside boxes of Cap'n Crunch cereal to generate the necessary tones to access long-distance telephone lines. He then used this technique to play Oregon Trail on his Apple II computer by calling remote computer systems and downloading the game.

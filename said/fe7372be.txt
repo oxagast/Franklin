@@ -1,0 +1,23 @@
+print(os.name)
+-------- snip --------
+
+
+# 获取详细的系统信息
+print(sys.platform)
+
+# 获取Python的版本信息
+print(sys.version)
+
+# 获取当前文件的绝对路径
+print(os.path.abspath(.))
+
+# 查看环境变量
+print(os.environ.get(Path))
+
+# 在当前目录下创建一个新目录
+os.mkdir(testdir)
+
+# 删除一个目录
+os.rmdir(testdir)
+
+# 拆

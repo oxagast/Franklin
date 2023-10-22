@@ -1,0 +1,5 @@
+My bitcoin synchronising is only 5 years 37 weeks behind
+-------- snip --------
+
+
+That is a significant amount of time, and it can take a long time for the Bitcoin network to synchronize. The best way to speed up the process is to use a computer with a faster internet connection and to use a reliable, trusted Bitcoin wallet. Additionally, you can download the latest version of the Bitcoin software, which may help with the synchronization process.

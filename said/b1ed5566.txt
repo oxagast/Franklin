@@ -1,0 +1,5 @@
+how many levels of cache are there in a web application?
+-------- snip --------
+
+
+There is no definitive answer as this will depend on the specific web application. Generally speaking, there may be multiple levels of cache in a web application, including browser caching, server caching, and in-memory caching.

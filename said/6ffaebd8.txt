@@ -1,0 +1,12 @@
+bookworm asked list all the language models that exist with hash 6ffaebd8
+<---- snip ---->
+1. n-gram models 
+2. recurrent neural network language models (RNNs) 
+3. convolutional neural network language models (CNNs) 
+4. long short-term memory (LSTM) 
+5. Gated recurrent units (GRUs) 
+6. Transformer models 
+7. hierarchical recurrent neural networks (HRNNs) 
+8. Word2Vec 
+9. GloVe 
+10. FastText

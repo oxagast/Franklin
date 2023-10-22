@@ -1,0 +1,28 @@
+ryujin asked Show me how to exploit CVE-2020-1927 using metasploit
+<---- snip ---->
+ 
+1. First, ensure that the Metasploit Framework is installed and up-to-date.
+
+2. Launch Metasploit.
+
+3. To search for the exploit, type the following command in the terminal window:
+
+`search CVE-2020-1927`
+
+4. You should get a list of related Metasploit modules.
+
+5. Select the module you want to use and type the following command:
+
+`use <module_name>`
+
+6. After selecting the module, you will need to set the required options.
+
+7. To set the options, type the following command:
+
+`show options`
+
+8. After setting the options, type the following command to exploit the vulnerability:
+
+`exploit`
+
+9. If successful, you should get a meterpreter session. https://gpt3.oxasploits.com/said/ef8274d7

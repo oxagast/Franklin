@@ -1,0 +1,9 @@
+Convert a 16 mm x 100 mm cylinder to ounces
+-------- snip --------
+
+
+1 ounce of liquid is equal to 29.57 milliliters.
+
+16 mm x 100 mm cylinder = 16,000 mm³
+
+16,000 mm³ ÷ 29.57 ml/oz = 539.86 oz

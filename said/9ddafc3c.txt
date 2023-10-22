@@ -1,0 +1,3 @@
+CerebraNet asked Name 3 differences between Windows 10 and Windows 11 with hash 9ddafc3c
+<---- snip ---->
+The most significant differences between Windows 10 and Windows 11 are the improved security features, the improved performance, and the introduction of the Windows Subsystem for Linux. In addition, Windows 11 includes a new dark mode, a new start menu, and a set of new virtual desktops.

@@ -1,0 +1,5 @@
+oxagast asked what can you summarize about https://oxasploits.com with hash 245bb782
+<---- snip ---->
+ cracking Bitcoin wallet.dat passwords. The goal of this article is to provide a quick and easy way to crack Bitcoin wallet.dat passwords using John The Ripper.
+
+Franklin can summarize that oxasploits is a website focused on one-time exploits, services, sponsors, categories, projects, exploits, wordlists, uptime, GitHub, privacy, previous endeavors, and archives. The site features two articles discussing Bluetooth HCI HID controller abuse RCE exploit and writing the shortest valid C quine, as well as an article on cracking Bitcoin wallet.dat passwords using John The Ripper.

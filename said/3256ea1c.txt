@@ -1,0 +1,3 @@
+CerebraNet asked What Windows versions is chntpwd good for with hash 3256ea1c
+<---- snip ---->
+Chntpwd is good for Windows 2000, XP, Vista, 7, 8, 8.1, and 10. It can also be used to reset the Windows password on Windows Server 2003, 2008, 2012, 2016, and 2019.

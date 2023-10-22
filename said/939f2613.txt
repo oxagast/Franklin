@@ -1,0 +1,3 @@
+bookworm asked How does the Sun burn Hydrogen? with hash 939f2613
+<---- snip ---->
+The Sun burns hydrogen through the process of nuclear fusion. In this process, two hydrogen atoms come together to form a single helium atom, releasing vast amounts of energy in the process. This energy is what powers the Sun and other stars, allowing them to produce light and heat.

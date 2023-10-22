@@ -1,0 +1,5 @@
+What is a bitcoin node runner
+-------- snip --------
+
+
+A bitcoin node runner is an individual or organization that runs a full Bitcoin node, which helps to maintain the security and reliability of the Bitcoin network by validating and relaying transactions on the blockchain. Running a full node also allows users to have full control over their own money and privacy.

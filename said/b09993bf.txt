@@ -1,0 +1,19 @@
+bookworm asked bash script that gives word frequency of input file. with hash b09993bf
+<---- snip ---->
+Sure, I can give you a bash script that will give you the word frequency of an input file. It looks something like this: 
+
+#!/bin/bash
+
+# Count the number of words in each line
+
+while read line; do
+    set -- $line
+    echo "$# words"
+done < $1
+
+echo
+
+# Count the unique words in the file
+
+echo "Unique word count:"
+cat $1 | tr -s '[[:space:]]' '\n' | sort | uniq -c | sort -nr | awk '{print $2 ": " $1}'

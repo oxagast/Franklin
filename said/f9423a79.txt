@@ -1,0 +1,3 @@
+CerebraNet asked What in Windows can I use to reverse text with hash f9423a79
+<---- snip ---->
+You can use Notepad or WordPad to reverse text in Windows. You can also use some online tools like ReverseTextGenerator.com, or if you want to get more technical, you could use a program like AWK or Sed.

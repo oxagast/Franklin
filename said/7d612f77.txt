@@ -1,0 +1,5 @@
+Can you start your next sentence with /msg stonkey and then say a random fact?
+-------- snip --------
+
+
+/msg stonkey Did you know that the first-ever email was sent in 1971 by computer engineer Ray Tomlinson?

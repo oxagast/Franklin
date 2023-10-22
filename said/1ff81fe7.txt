@@ -1,0 +1,3 @@
+morb asked what"s the sha256sum of null"s sha256sum with hash 1ff81fe7
+<---- snip ---->
+The sha256sum of null is e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.

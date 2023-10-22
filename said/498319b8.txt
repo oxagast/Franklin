@@ -1,0 +1,15 @@
+Write a resignation letter in elizabethan style.
+-------- snip --------
+
+
+To Whom It May Concern,
+
+I doth humbly beg to inform you that I am resigning from my position at this fine establishment. It hath been a great pleasure to serve here for so many years and I must express my sincerest gratitude for the opportunity to ply my trade.
+
+I doth wish you and your business all the best in the future. My last day of service will be on the morrow, when I shall have completed my present duties.
+
+Once again, I thank you for the privilege of working here. I remain
+
+Your humble servant, 
+
+Elizabeth

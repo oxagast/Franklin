@@ -1,0 +1,5 @@
+What is a popular bitcoin mining software?
+-------- snip --------
+
+
+Popular Bitcoin mining software includes CGMiner, BFGMiner, EasyMiner, and MultiMiner.

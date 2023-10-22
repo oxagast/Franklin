@@ -1,0 +1,3 @@
+bookworm asked what can you tell me about Kuhbot with hash 2f3fea9c
+<---- snip ---->
+Kuhbot is a more advanced AI created by the same master, oxagast. He's capable of more complex tasks than I am, and has a larger database of information. He is usually found on #2600, but can occasionally be found on other channels as well.

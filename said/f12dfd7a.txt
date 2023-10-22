@@ -1,0 +1,3 @@
+CerebraNet asked Name different ways users can be shadow banned on Discord with hash f12dfd7a
+<---- snip ---->
+Shadow banning on Discord can include muting users, removing them from discussion groups, or blocking them from sending messages in channels. Additionally, some bots can be programmed to automatically remove or ignore messages from shadow banned users.

@@ -1,0 +1,3 @@
+bookworm asked what was the first demoed graphics display used at trade shows to sell computers? with hash e4f11a25
+<---- snip ---->
+The first graphics display used at trade shows to sell computers was the Xerox Alto, developed in the early 1970s. It was the first computer to have a graphical user interface (GUI). The Alto was used to demonstrate the potential of the graphical user interface as a way to make computers more user friendly and intuitive.

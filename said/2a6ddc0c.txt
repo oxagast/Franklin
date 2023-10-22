@@ -1,0 +1,14 @@
+xibalba asked give me a list of 10 gig capable juniper switches with hash 2a6ddc0c
+<---- snip ---->
+Sure, here's a list of 10 Gig capable Juniper switches: 
+
+1. Juniper EX4300 Series Switches 
+2. Juniper EX4500 Series Switches 
+3. Juniper EX4550 Series Switches 
+4. Juniper EX4600 Series Switches 
+5. Juniper QFX5100 Series Switches 
+6. Juniper QFX5110 Series Switches 
+7. Juniper QFX5200 Series Switches 
+8. Juniper QFX5210 Series Switches 
+9. Juniper QFX10000 Series Switches 
+10. Juniper PTX3000 Series Switches

@@ -1,0 +1,3 @@
+zyme asked 2 Megabytes a second is how many megabits? with hash 712104a8
+<---- snip ---->
+That would be 16 megabits per second.

@@ -1,0 +1,5 @@
+is there a tool that automates backups before a system update in debian?
+-------- snip --------
+
+
+Yes, there is a tool that automates backups before a system update in Debian called Pre-Update. It is a command line utility that helps you to take backup of important files and directories before any system update.

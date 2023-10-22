@@ -1,0 +1,3 @@
+bookworm asked what is the current size of Haskell"s GHC? with hash b5bbe92f
+<---- snip ---->
+The current version of the Glasgow Haskell Compiler (GHC) is 8.10.2, released on January 19, 2021.

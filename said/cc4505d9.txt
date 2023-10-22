@@ -1,0 +1,3 @@
+street asked What use are .bat files? with hash cc4505d9
+<---- snip ---->
+bat files are useful for automating tasks, running programs, and executing scripts. They are commonly used for system administration tasks and can also be used to create malicious programs.

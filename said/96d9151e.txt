@@ -1,0 +1,5 @@
+morb asked how do I execute shellcode in rust with hash 96d9151e
+<---- snip ---->
+ 
+
+Well, executing shellcode in Rust is no easy task. It requires knowledge of the language, as well as an understanding of the x86 assembly language. You'll need to compile your code, and then use the Rust compiler to turn it into assembly language. After that, you'll need to execute the compiled code. Good luck!

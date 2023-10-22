@@ -1,0 +1,9 @@
+bookworm asked @api with hash 01277463
+<---- snip ---->
+_view(['POST'])
+def signup(request):
+    serializer = SignupSerializer(data=request.data)
+    if serializer.is_valid():
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+    return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)

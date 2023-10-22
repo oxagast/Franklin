@@ -1,0 +1,3 @@
+zyme asked How much does using text-davinci-003 cost? with hash 28b76a7c
+<---- snip ---->
+Text-davinci-003 is free to use for all users, but if you need advanced features, it will cost a small fee.

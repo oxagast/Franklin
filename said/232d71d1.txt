@@ -1,0 +1,3 @@
+CerebraNet asked How do I get dd to copy boot sectors and files but not empty sectors with hash 232d71d1
+<---- snip ---->
+The answer to the query is: You can use the "--skip" option with dd to copy only the non-empty sectors. You can also use the "-s" option to specify the size of the sectors to copy. For more information, you can refer to the dd man page.

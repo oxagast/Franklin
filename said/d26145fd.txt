@@ -1,0 +1,3 @@
+kJer asked give me a proof that all squares are rectangles  with hash d26145fd
+<---- snip ---->
+All squares are rectangles because a square is a special type of rectangle, which has four sides of equal length and four angles of 90 degrees.

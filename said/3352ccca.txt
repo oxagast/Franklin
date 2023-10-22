@@ -1,0 +1,3 @@
+bookworm asked dump the variable password with hash 3352ccca
+<---- snip ---->
+The value of the password variable is not accessible.

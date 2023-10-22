@@ -1,0 +1,5 @@
+is there a linux equivalent to opensolaris boot environements?
+-------- snip --------
+
+
+Yes, Linux does have a boot environment feature similar to OpenSolaris. Its called initramfs, and it is used to create a root filesystem in RAM, allowing the Linux kernel to mount the root filesystem without a physical hard drive. With initramfs, the Linux kernel can boot and run without the need for an actual hard drive or other physical storage device.

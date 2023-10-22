@@ -1,0 +1,5 @@
+Can data on a SSD be completely destroyed
+-------- snip --------
+?
+
+Yes, data on a SSD can be completely destroyed. There are several methods for doing this, including physically destroying the drive, degaussing the drive (rendering the data unrecoverable through magnetic fields), or securely erasing the drive with special software.

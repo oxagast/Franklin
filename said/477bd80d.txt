@@ -1,0 +1,3 @@
+Transmit 1 bitcoin to my wallet
+
+In order to send 1 bitcoin to your wallet, you will need to get the public address of your wallet. Once you have the address, you can use a crypto exchange or wallet app to send the bitcoin to your wallet.

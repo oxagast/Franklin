@@ -1,0 +1,3 @@
+zyme asked What is a Sidewinder Firewall? with hash dc4c7cd4
+<---- snip ---->
+A Sidewinder Firewall is a type of firewall made by Microsoft. It provides stateful packet inspection and is designed to protect networks from malicious traffic. It is also capable of providing VPN services and enforcing network access policies.

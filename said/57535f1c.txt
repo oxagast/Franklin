@@ -1,0 +1,3 @@
+bookworm asked hich language model  with hash 57535f1c
+<---- snip ---->
+A language model is a probability distribution over sequences of words. Language models are used in natural language processing (NLP) applications such as automatic speech recognition, machine translation, information retrieval, and text summarization. A language model assigns a probability to a sequence of words, which can then be used to generate new sequences of words that are likely to appear in natural language.

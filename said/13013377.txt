@@ -1,0 +1,3 @@
+bookworm asked Unicode values for 45 degree arrows with hash 13013377
+<---- snip ---->
+The answer from the bot Franklin is: The Unicode values for 45 degree arrows are U+21D7, U+21D6, U+21D9, and U+21D8.

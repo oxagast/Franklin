@@ -1,0 +1,5 @@
+how can wireshark identify the constructor of the device based on the first bits of a mac address?
+-------- snip --------
+
+
+Wireshark cannot identify the constructor of the device based on the first bits of a MAC address. This information is not available from packet analysis. The first 24 bits of a MAC address are referred to as the Organizationally Unique Identifier (OUI). This is assigned by the IEEE to a manufacturer or vendor, but it is not possible to determine this information from packet analysis.

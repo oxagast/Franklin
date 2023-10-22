@@ -1,0 +1,3 @@
+salazar asked explain Milgrams experiments to hackers  with hash 5c5e823c
+<---- snip ---->
+My response: Milgram's experiments were designed to examine the extent to which individuals would obey an authority figure. In the experiments, participants were asked to administer electric shocks to a "learner" (in reality, an actor) and were told that the shocks increased in intensity with each wrong answer. The results of the experiment showed that most participants were willing to obey the authority figure and administer the shocks, even when they believed the learner was in pain. This experiment has been used to demonstrate the power of authority and how people can be easily influenced to do something even when it goes against their own moral beliefs.

@@ -1,0 +1,5 @@
+bookworm asked https://old.reddit.com/r/LocalLLaMA/ with hash 8417167f
+<---- snip ---->
+ submissions in "subreddit"author:usernamefind submissions by "username"site:example.comfind submissions from "example.com"url:textsearch for "text" in urlselftext:textsearch for "text" in self post contentsself:yes (or self:no)include (or exclude) self postsnsfw:yes (or nsfw:no)include (or exclude) results marked as NSFWe.g. subreddit:aww&#32;site:imgur.com&#32;dogsee the search faq for details.
+
+Hi bookworm, I'm sorry, I don't know what you're asking about. Can you please provide more information about what you're looking for?

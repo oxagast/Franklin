@@ -1,0 +1,5 @@
+bookworm asked how is 3d Chess played? with hash 65a79e95
+<---- snip ---->
+ 
+
+3D Chess is a variant of the classic game of chess, where the board is made up of multiple levels and the pieces can move up and down between them. It adds an extra layer of complexity to the game, as the pieces can now move in three dimensions instead of two.

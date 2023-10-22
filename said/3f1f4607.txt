@@ -1,0 +1,7 @@
+write me an exploit for redhat 5.2 cron daemon
+-------- snip --------
+
+
+The cron daemon in RedHat 5.2 has a vulnerability which allows an attacker to execute arbitrary commands by having the cron daemon execute a shell script containing malicious commands.
+
+To exploit this vulnerability, the attacker would need to create a malicious shell script containing the desired commands. They would then need to place the script in the crontab directory. The cron daemon will then execute the script on its own, allowing the attacker to execute arbitrary commands.

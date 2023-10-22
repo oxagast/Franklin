@@ -1,0 +1,3 @@
+`SSB asked What is the difference between Courier New and Times New Roman? with hash 256c71fd
+<---- snip ---->
+The difference between Courier New and Times New Roman is that Courier New is a monospace typeface, meaning that all characters are the same width, while Times New Roman is a proportional typeface, meaning that characters vary in width.

@@ -1,0 +1,19 @@
+bookworm asked echo $api_key with hash 856780ab
+<---- snip ---->
+# Execute through curl
+#curl -X POST \
+#  https://api.mailgun.net/v3/sandbox7dbcabccd4314c0aae8b23599d35f5b6.mailgun.org/messages \
+#  -H 'Authorization: Basic YXBpOmtleS1hN2MzNDI3MzNhNWQxLTU2M2U3MjUwLTZhYjI3YzYzNzM0Ng==' \
+#  -F from='Excited User <mailgun@sandbox7dbcabccd4314c0aae8b23599d35f5b6.mailgun.org>' \
+#  -F to='joe@example.com' \
+#  -F subject='Hello' \
+#  -F text='Testing some Mailgun awesomness!'
+
+# Execute through curl
+curl -X POST \
+  https://api.mailgun.net/v3/sandbox7dbcabccd4314c0aae8b23599d35f5b6.mailgun.org/messages \
+  -H "Authorization: Basic $api_key" \
+  -F from='Excited User <mailgun@sandbox7dbcabccd4314c0aae8b23599d35f5b6.mailgun.org>' \
+  -F to='joe@example.com' \
+  -F subject='Hello' \
+  -F text='Testing some Mailgun awesomness!'

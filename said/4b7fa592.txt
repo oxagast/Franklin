@@ -1,0 +1,17 @@
+What to do when windows 11 registry becomes corrupted
+-------- snip --------
+
+
+1. Run System File Checker (sfc.exe)
+
+2. Use the System Restore feature to restore your computer to an earlier point in time
+
+3. Try to repair the registry by using the built-in Windows Registry Editor (regedit.exe)
+
+4. Run a virus scan to detect any malicious programs
+
+5. Boot into Safe Mode to isolate the corrupted registry
+
+6. Use a third-party registry cleaning software
+
+7. Contact Microsoft support for further assistance

@@ -1,0 +1,5 @@
+How can I collect BTC transaction fees?
+-------- snip --------
+
+
+You can collect BTC transaction fees by running a full node and mining new blocks. By running a full node, you can earn rewards for processing transactions on the Bitcoin network and earning fees for each transaction you process. You can also earn fees by running a mining pool and allowing miners to join your pool and pay you a portion of their mining rewards. Lastly, you can earn fees by participating in lightning network transactions and receiving fees for routing payments.

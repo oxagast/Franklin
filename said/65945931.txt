@@ -1,0 +1,9 @@
+C++ Templates
+-------- snip --------
+
+
+C++ Templates are a powerful feature of the language that allow for code reuse and generic programming. Templates are a way of creating generic functions and classes that can work with any data type. A template is a blueprint or formula for creating a generic class or a function. Templates allow for the same code to be used for multiple types of data, thus eliminating the need to write separate code for each type.
+
+Templates are often used for creating containers, such as vectors and lists, that can hold any type of data. This allows the programmer to create a container that is capable of holding any type of data without needing to write separate code for each type of data. This saves time and makes the code more efficient.
+
+In addition to containers, templates can also be used to create generic algorithms and functions that can be used with any type of data. This allows the programmer to create algorithms that are capable of handling any type of data without needing to write separate code for

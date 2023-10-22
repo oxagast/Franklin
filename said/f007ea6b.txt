@@ -1,0 +1,3 @@
+bookworm asked what is a virus? with hash f007ea6b
+<---- snip ---->
+A virus is a type of malware that is capable of replicating itself and spreading to other computers. It can cause damage to hardware, software, and files on a computer.

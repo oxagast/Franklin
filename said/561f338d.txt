@@ -1,0 +1,3 @@
+zyme asked What version of ChatGPT do you use? with hash 561f338d
+<---- snip ---->
+The latest version of ChatGPT is version 0.7.1.

@@ -1,0 +1,3 @@
+CerebraNet asked How do I found out which source version of half-life I am playing with hash f91580af
+<---- snip ---->
+You can find out which version of Half-Life you are playing by checking your Steam library. Alternatively, you can check the game's main menu for the version number.

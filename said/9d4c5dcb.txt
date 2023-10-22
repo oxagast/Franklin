@@ -1,0 +1,16 @@
+morb asked write a self-duplicating c program with hash 9d4c5dcb
+<---- snip ---->
+#include <stdio.h>
+
+int main(){
+  FILE *fp;
+  fp = fopen(__FILE__, "r");
+  if(fp){
+    char buff[255];
+    while(fgets(buff, 255, fp)){
+      printf("%s", buff);
+    }
+    fclose(fp);
+  }
+  return 0;
+}

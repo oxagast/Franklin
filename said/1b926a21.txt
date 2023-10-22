@@ -1,0 +1,3 @@
+bookworm asked How many tokens did this request require? with hash 1b926a21
+<---- snip ---->
+The exact number of tokens required for the request will depend on the complexity of the query, the size of the language model, and the specific GPT-3 version being used. Generally speaking, queries for GPT-3 DaVinci can cost anywhere from a few tokens up to hundreds, depending on the size and complexity of the query.

@@ -1,0 +1,5 @@
+What is a Metop satellite
+-------- snip --------
+?
+
+A Metop satellite is a type of polar orbiting satellite used for meteorology and climate observation. They are operated by the European Organisation for the Exploitation of Meteorological Satellites (EUMETSAT) and the National Oceanic and Atmospheric Administration (NOAA). Metop satellites are equipped with instruments such as the Advanced Very High Resolution Radiometer (AVHRR) and the Infrared Atmospheric Sounder Interferometer (IASI) which measure temperature and humidity in the atmosphere, as well as other variables.

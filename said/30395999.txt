@@ -1,0 +1,12 @@
+bookworm asked can you generate a file in a format used by bsdgames quiz from 10 german:english words, german article in {die}german:english no spaces, all small letters and no line numbering with hash 30395999
+<---- snip ---->
+diekatze:cat
+diedose:can
+diehaus:house
+dieuhr:clock
+derfisch:fish
+derbaum:tree
+dervogel:bird
+derschlüssel:key
+derschrank:cupboard
+derstuhl:chair

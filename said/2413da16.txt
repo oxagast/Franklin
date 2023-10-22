@@ -1,0 +1,21 @@
+hazeyez asked what is the best opsec for a regular user of the internet? with hash 2413da16
+<---- snip ---->
+1. Use strong passwords and two-factor authentication whenever possible.
+
+2. Use a secure web browser such as Tor or Firefox with privacy add-ons.
+
+3. Install and regularly update antivirus and anti-malware software.
+
+4. Use a virtual private network (VPN) to encrypt your online activity.
+
+5. Avoid using public Wi-Fi networks.
+
+6. Be aware of phishing scams and other social engineering attacks.
+
+7. Disable unused services and applications on your computer.
+
+8. Only download software from trusted sources.
+
+9. Regularly back up your data.
+
+10. Keep your operating system and applications up to date.

@@ -1,0 +1,7 @@
+
+-------- snip --------
+I am looking for a way to detect and/or control when a user is logged in to a computer (specifically, a Mac).
+
+The use case is that I need to know when a user is logged in, so I can do something. I would prefer to do this in a way that does not require the user to do anything.
+
+Is there any way to do this?

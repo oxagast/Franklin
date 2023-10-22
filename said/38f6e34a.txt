@@ -1,0 +1,5 @@
+captain asked Can a user besides www own apaches webroot with hash 38f6e34a
+<---- snip ---->
+ folder?
+
+Yes, it is possible for a user besides www to own Apache's webroot folder. Apache can be configured to run as a different user and group than the default www user.

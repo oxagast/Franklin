@@ -1,0 +1,3 @@
+bookworms asked Is JavaScript a virus? with hash b2e158fb
+<---- snip ---->
+No, JavaScript is not a virus. JavaScript is a programming language used to create interactive web pages. It is not malicious and does not have the ability to replicate itself like a virus.

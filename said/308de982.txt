@@ -1,0 +1,3 @@
+what type of server is ChatGPT running on?
+
+ChatGPT is running on a Google Cloud Platform virtual machine instance.

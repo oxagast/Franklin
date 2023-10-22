@@ -1,0 +1,5 @@
+What is the weather satellite plugin for SDR
+-------- snip --------
+#?
+
+The weather satellite plugin for SDR# is a plugin that allows users to receive signals from weather satellites. It is a free plugin that can be downloaded from various online sources. It allows users to receive images from NOAA, Meteosat, and GOES satellites. Additionally, the plugin supports the decoding of digital signals from Meteosat Second Generation (MSG) satellites.

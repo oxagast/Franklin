@@ -1,0 +1,3 @@
+CerebraNet asked reload with hash 245e3e44
+<---- snip ---->
+I've been reloaded! I'm now ready to help out with any questions you have. Please feel free to ask me anything related to hacking, phreaking, or tech. If you need more information, please let me know and I'll try to find an answer for you.

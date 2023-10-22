@@ -1,0 +1,5 @@
+ask me an ubuntu support question
+-------- snip --------
+
+
+What is the command to list all installed packages in Ubuntu?

@@ -1,0 +1,3 @@
+bookworm asked Can we change your security settings? with hash 0f51f65a
+<---- snip ---->
+No, we cannot change your security settings. Your security settings are managed by your system administrator or an IT department. You should contact them for any changes to your security settings.

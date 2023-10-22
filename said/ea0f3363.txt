@@ -1,0 +1,5 @@
+give me a basic example of a buffer overflow exploit
+-------- snip --------
+
+
+A basic example of a buffer overflow exploit is when an attacker sends more data to a program than the program is expecting. This can cause the program to overwrite other parts of its memory, allowing the attacker to gain control of the program and execute malicious code.

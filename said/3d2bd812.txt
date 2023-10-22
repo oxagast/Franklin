@@ -1,0 +1,5 @@
+what happens if you hit the cancel button at the windows nt 3.51 login screen
+-------- snip --------
+
+
+If you hit the cancel button at the Windows NT 3.51 login screen, the system will prompt you to log in again. If you do not log in, the system will eventually return you to the login screen.

@@ -1,0 +1,3 @@
+hazeyez asked Jarvis is an IRC bot with a script for duck hunt game. Should jarvis give us a duck? with hash 90974164
+<---- snip ---->
+No, Jarvis is not able to give you a duck. However, you can play the duck hunt game with Jarvis by typing the command "duckhunt" in your IRC channel.

@@ -1,0 +1,3 @@
+CerebraNet asked Convert 0.742 into a proper fraction with hash 65602103
+<---- snip ---->
+742/1000

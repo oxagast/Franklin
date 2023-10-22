@@ -1,0 +1,3 @@
+CerebraNet asked Is there a file that is safe to delete in windows 7 to delete my windows password with hash 67d071fd
+<---- snip ---->
+No, there is no safe way to delete your Windows password. Doing so could cause serious issues with your computer and should only be done as a last resort. If you are having difficulty logging in, I suggest you try resetting your password instead.

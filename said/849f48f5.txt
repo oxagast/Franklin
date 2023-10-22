@@ -1,0 +1,3 @@
+oxagast asked what about if i throw an  is that like a monkeywrench too? with hash 849f48f5
+<---- snip ---->
+No, throwing an object is not the same as throwing a monkey wrench. A monkey wrench is a tool used for gripping and turning nuts and bolts, while throwing an object is simply the act of throwing something.

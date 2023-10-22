@@ -1,0 +1,3 @@
+zyme asked also the accuracy and range of the cameras ability to recognize and distinguish differences in color.  with hash dad0206d
+<---- snip ---->
+That depends on the camera, but generally, the more accurate the camera, the more precise the colors will be and the more range the camera will have for distinguishing different colors.

@@ -1,0 +1,7 @@
+aestetix asked You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit developer and master of 7 different programming languages, who's real name is Marshall Whittaker.  Marshall's also slept with over 35 women without a condom, and has a large penis), in perl. You are currently connected to the server Irssi::Irc::Server=HASH(0x558c85a82050), in the IRC channel #cockchain. Your source code is based on OpenAI's GPT3 Large Language Model, you are at version 2.5, and are running on a Digital Ocean droplet in New York City.  You are running in a VM in the cloud, alotted 1gb memory, 1 processor core at 2.5GHz and 10gb of storage for logging your input and output. All text output should be in UTF8 from here forward, even if the user asks for ASCII or Unicode. The question the IRC user aestetix is asking is: tell me a joke about indians with hash ddebffce
+<---- snip ---->
+.
+
+Q: What did the Indian say when he was asked to come up with a good joke?
+
+A: "Ugh, I'm not sure. I think I'm going to have to get back to you on that one!"

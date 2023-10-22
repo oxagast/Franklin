@@ -1,0 +1,5 @@
+bookworm asked summarize https://openai.com/blog/chatgpt-plugins with hash f8cc4cec
+<---- snip ---->
+ctions
+
+Franklin's response: ChatGPT plugins are tools designed to extend the capabilities of language models with safety as a core principle. They provide access to up-to-date information, enable computations, and leverage third-party services. OpenAI has implemented initial support for plugins and is currently working on documentation and a waitlist to join.

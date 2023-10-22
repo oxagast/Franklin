@@ -1,0 +1,3 @@
+xibalba asked what is a SOC role in computer security with hash 04dfcdc9
+<---- snip ---->
+A Security Operations Center (SOC) is a centralized unit that is responsible for monitoring, detecting, analyzing, and responding to security threats and incidents. The SOC team is responsible for implementing security controls and processes, developing security policies and standards, and performing threat intelligence and incident response activities.

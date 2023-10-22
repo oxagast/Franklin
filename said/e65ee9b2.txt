@@ -1,0 +1,5 @@
+What does the -blockfilterindex parameter do
+-------- snip --------
+?
+
+The -blockfilterindex parameter is used to enable the use of a block filter index in Bitcoin Core, which allows for efficient lookup of transactions in a given block. This can improve the speed of certain operations, such as finding unspent outputs and calculating balances.

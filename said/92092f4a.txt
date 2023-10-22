@@ -1,0 +1,5 @@
+What room number is your server located in
+-------- snip --------
+?
+
+The room number of your server will depend on the data center in which it is located. You will need to contact the data center provider to determine the exact room number of your server.

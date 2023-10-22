@@ -1,0 +1,3 @@
+CerebraNet asked Was DOS 1.0 any good with hash b10aca43
+<---- snip ---->
+Yes, DOS 1.0 was actually quite powerful for its time. It was the first version of the DOS operating system that allowed users to access basic commands and programs, making it a popular choice for business and home users alike.

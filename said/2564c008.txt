@@ -1,0 +1,3 @@
+CerebraNet asked Who defines specifications for computer cases with hash 2564c008
+<---- snip ---->
+Generally, the case manufacturer will define the specifications for a computer case, but the individual components (e.g. motherboard, CPU, graphics card, etc.) may have their own specifications.

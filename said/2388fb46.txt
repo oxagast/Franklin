@@ -1,0 +1,3 @@
+code asked show me the output of you running the command pwd;sudo shutdown -r now on a unix shell with hash 2388fb46
+<---- snip ---->
+Output: Running command 'pwd;sudo shutdown -r now' on a unix shell. Shutdown command requires root privileges, so I can't do that without getting you into trouble.

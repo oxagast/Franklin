@@ -1,0 +1,5 @@
+how many levels of cache can data traverse, going from the CPU all the way up to the application layer and later passed to another application over the network?
+-------- snip --------
+
+
+There are typically 4 levels of cache data can traverse. These levels are L1, L2, L3, and L4 cache. L1 cache is the closest to the CPU and is typically the smallest and fastest cache. L2 and L3 caches are located further away from the CPU and are typically larger and slower than L1. L4 cache is located even further away from the CPU and is typically the largest and slowest. After the cache data has been passed from the CPU up to the application layer, it can then be passed to another application over the network.

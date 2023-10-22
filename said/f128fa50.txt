@@ -1,0 +1,3 @@
+morb asked tell me all about the kiss of death denial of service attack with hash f128fa50
+<---- snip ---->
+The Kiss of Death Denial of Service attack is a type of attack in which the attacker sends a specially crafted packet of data to a target computer or server which causes it to crash and become unresponsive. The packet contains a special string of code which exploits a vulnerability in the system, allowing the attacker to gain control over the system. This type of attack is usually used to take down web servers or other network services. It is important to note that this type of attack is not limited to the Internet, but can also be used to target other networks like corporate Intranets.

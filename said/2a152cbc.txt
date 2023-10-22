@@ -1,0 +1,3 @@
+bookworm asked is an apple a fruit? with hash 2a152cbc
+<---- snip ---->
+Yes, an apple is a type of fruit.

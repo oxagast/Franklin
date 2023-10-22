@@ -1,0 +1,25 @@
+hardware requirements for windows 2022 domain controller - bulletpoint list
+-------- snip --------
+
+
+• Intel Core i7/Xeon processor or better 
+• 16GB of RAM or more
+• 500GB of HDD/SSD or more 
+• Windows Server 2022
+• Active Directory Domain Services role
+• Domain Name System (DNS) role
+• Group Policy Management Console
+• Windows Remote Management (WinRM) 
+• Certificate Authority (CA) 
+• Network Time Protocol (NTP) 
+• File Server Resource Manager (FSRM) 
+• Security Configuration Wizard (SCW) 
+• Distributed File System (DFS) 
+• Dynamic Host Configuration Protocol (DHCP) 
+• Network Policy Server (NPS) 
+• Domain Name System Security Extensions (DNSSEC) 
+• Windows System Resource Manager (WSRM) 
+• Windows PowerShell 
+• Multipath I/O (MPIO) 
+• Internet Information Services (IIS) 
+• Microsoft Message

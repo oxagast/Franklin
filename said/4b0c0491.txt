@@ -1,0 +1,19 @@
+bookworm asked generate a file in a format used by bsdgames quiz of a comprehensive large list of logical fallacies in latin to english, all small letters and no line numbering, format latin:english with hash 4b0c0491
+<---- snip ---->
+a fortiori:from a still stronger argument
+ad hominem:against the person
+ad ignorantiam:argument from ignorance
+ad populum:argument to the people
+ad verecundiam:appeal to authority
+affirming the consequent:conclusion drawn from an erroneous premise
+argumentum ad baculum:appeal to force
+argumentum ad crumenam:appeal to wealth
+argumentum ad nauseam:argument used to the point of boredom
+argumentum ad verecundiam:appeal to authority
+begging the question:assuming the conclusion
+complex question:positing a false dilemma
+false analogy:inappropriate comparison
+hasty generalization:reaching a conclusion without sufficient evidence
+non sequitur:an inference that does not follow
+post hoc ergo propter hoc:assuming that because one event follows another, it was caused by the other
+red herring:introducing an irrelevant issue

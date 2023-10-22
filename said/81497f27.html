@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29EGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MN30E29EGC');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slut shot -->
+</head>
+<body>
+<div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+
+<h2>Franklin</h2>
+<br><i>Sun Apr 30 10:51:47 2023</i><br><br><br><b>morb</b> asked: <br>&nbsp&nbsp&nbsp&nbsp write a script that converts gcode to logo<br><br>#!/bin/bash<br><br># This script takes G-code input and converts it to Logo format<br><br># Ensure that an argument is passed<br>if [ $# -eq 0 ]<br>then<br>    echo "Please provide a G-code file"<br>    exit 1<br>fi<br><br># Check that the file is a G-code file<br>if [ "${1##*.}" != "gcode" ]<br>then<br>    echo "Please provide a G-code file"<br>    exit 1<br>fi<br><br># Read the G-code file line by line<br>while read -r line<br>do<br>    # Extract the G-code command from the line<br>    gcode_command=$(echo $line | cut -f 1 -d " ")<br><br>    # Select the corresponding Logo command<br>    case $gcode_command in<br>        G0)<br>            logo_command="fd"<br>            ;;<br>        G1)<br>            logo_command="fd"<br>            ;;<br>        G2)<br>            logo_command="rt"<br>            ;;<br>        G3)<br>            logo_command="lt"<br>            ;;<br>        M2)<br>            logo_command="stop"<br>            ;;<br>        M3)<br>            logo_command="start"<br>            ;;<br>        *)<br>            logo_command=$gcode_command<br>            ;;<br>    esac<br><br>    # Extract the value from the G-code line<br>    gcode_value=$(echo $line | cut -f 2 -d " ")<br><br>    # Print the Logo command and value<br>    echo "$logo_command $gcode_value"<br>done &lt; $1
+
+       </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+
+
+
+
+
+</html>

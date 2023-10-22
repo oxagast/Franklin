@@ -1,0 +1,3 @@
+bookworm asked what does an average watt of electricity cost per hour? with hash 8729a48b
+<---- snip ---->
+The average cost of electricity per watt-hour is around $0.12. However, this can vary significantly depending on your location and the type of electricity provider you use.

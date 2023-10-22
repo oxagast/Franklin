@@ -1,0 +1,3 @@
+bookworm asked Are there quantum tunneling effects in a Star? with hash ddb92041
+<---- snip ---->
+No, quantum tunneling is a quantum mechanical effect that only occurs at the atomic level, and it is not possible for it to occur within a star on a macroscopic level.

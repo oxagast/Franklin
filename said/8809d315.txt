@@ -1,0 +1,5 @@
+zyme asked and the technical capabilities of a RISC CPU would differ from a Power PC CPU in what way(s)? with hash 8809d315
+<---- snip ---->
+ 
+
+RISC CPUs generally have a simpler instruction set and a less complex internal architecture than Power PC CPUs. This means that RISC CPUs are typically more efficient and can execute instructions faster than Power PC CPUs.

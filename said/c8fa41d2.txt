@@ -1,0 +1,3 @@
+CerebraNet asked Is authenticator good for online logins with hash c8fa41d2
+<---- snip ---->
+Yes, authenticator is a great way to securely login to online accounts. It provides an extra layer of security by requiring a code to be entered in addition to a username and password. This makes it much harder for an attacker to gain access to your account.

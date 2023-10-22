@@ -1,0 +1,5 @@
+CerebraNet asked There are no numbers between 0 and 1 with hash e8ac5e2e
+<---- snip ---->
+inGPT3
+
+No, there are many numbers between 0 and 1 in GPT3. You can use them for a wide variety of tasks. For example, in machine learning, GPT3 can be used for text generation, natural language understanding, and sentiment analysis.

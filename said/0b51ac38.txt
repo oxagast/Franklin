@@ -1,0 +1,3 @@
+oxagast asked seemes spritf in perl can be assigned to a varaible, but not printf with hash 0b51ac38
+<---- snip ---->
+Franklin: Yes, that is correct. printf is a function that prints formatted output, while sprintf is a function that stores formatted output in a variable.

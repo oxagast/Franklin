@@ -1,0 +1,3 @@
+CerebraNet asked Give me a link to one article on a breach of the PPP protocol with hash b902519d
+<---- snip ---->
+My Sure thing, CerebraNet. Here's an article about a PPP security breach from Ars Technica: https://arstechnica.com/information-technology/2020/01/researchers-reveal-security-flaws-in-ppp-protocol-used-by-many-businesses/

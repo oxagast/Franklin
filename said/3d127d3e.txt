@@ -1,0 +1,5 @@
+What is ICS hacking
+-------- snip --------
+?
+
+ICS Industrial Control System hacking is the use of malicious code or hacking techniques to gain access to and manipulate a computerized industrial system, such as those used in factories and other industrial sites. The goal of ICS hacking is to cause disruption or disruption of the operations of the ICS system, or to gain access to confidential data and intellectual property. Examples of ICS hacking include accessing control systems to disrupt production, manipulating data to cause physical damage, or stealing confidential data.

@@ -1,0 +1,5 @@
+The difference between heap memory and stack memory
+-------- snip --------
+
+
+Heap memory is a region of dynamic memory where memory can be allocated during program execution, while stack memory is a region of memory that is used for local variables and function call parameters. Heap memory is used for dynamic memory allocation, while stack memory is used for static memory allocation. Heap memory is shared between threads, while stack memory is specific to a thread. Heap memory is managed by the operating system, while stack memory is managed by the compiler. Heap memory is allocated more freely, while stack memory is allocated in a more structured and organized way. Heap memory is more expensive than stack memory.

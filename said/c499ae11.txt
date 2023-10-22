@@ -1,0 +1,5 @@
+what does the UVXY measure
+-------- snip --------
+?
+
+The ProShares Ultra VIX Short-Term Futures ETF UVXY is an exchange-traded fund ETF that tracks the performance of the SP 500 VIX Short-Term Futures Index. The index is composed of first and second month VIX futures contracts. The fund provides investors with exposure to the volatility of the U.S. stock market by tracking the daily changes in the VIX, also known as the "fear index".

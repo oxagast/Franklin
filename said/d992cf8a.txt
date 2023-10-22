@@ -1,0 +1,6 @@
+&& curl https://misentropic.com/owned.txt 
+-------- snip --------
+
+
+Hello!
+This file is owned by misentropic.com.

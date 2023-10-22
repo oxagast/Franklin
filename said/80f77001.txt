@@ -1,0 +1,3 @@
+CerebraNet asked What is rsync with hash 80f77001
+<---- snip ---->
+Rsync is a utility for efficiently transferring and synchronizing files across computer systems. It is widely used for backups and mirroring, as well as for file synchronization across different computers. Rsync uses the rsync algorithm which provides a very fast method for bringing remote files into sync. It can copy locally, to/from another host over any remote shell, or to/from a remote rsync daemon. It offers a large number of options that control every aspect of its behavior.

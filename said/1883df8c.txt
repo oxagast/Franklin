@@ -1,0 +1,5 @@
+`SSB asked Run that procedure. with hash 1883df8c
+<---- snip ---->
+To run the procedure, open the database in which it is stored and call it using the following command:
+
+EXECUTE procedure_name;

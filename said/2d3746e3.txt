@@ -1,0 +1,5 @@
+On what hardware platform is The Matrix installed
+-------- snip --------
+?
+
+The Matrix is typically installed on Windows or Linux-based server hardware.

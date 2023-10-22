@@ -1,0 +1,5 @@
+oxagast asked what is the latest version of freebsd according to https://freebsd.org with hash 8cf82e05
+<---- snip ---->
+https://www.freebsd.org/releases/">Releases</a>
+
+The latest stable version of FreeBSD is 11.4.

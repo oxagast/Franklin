@@ -1,0 +1,15 @@
+In windows 11, how do i use character map
+-------- snip --------
+?
+
+1. Open the Start menu and type "Character Map" in the search box.
+
+2. Click on the Character Map program that appears in the search results.
+
+3. Select the font you want to use from the drop-down menu.
+
+4. Select the characters you want to use. You can use the search bar to find specific characters.
+
+5. Select the “Copy” button to copy the characters to your clipboard.
+
+6. Paste the characters into any program you would like.

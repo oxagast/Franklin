@@ -1,0 +1,3 @@
+bookworm asked Is it true that even a small led can disrupt our sleep? with hash f3f95a75
+<---- snip ---->
+Yes, it is true that even small LED lights can disrupt our sleep. LED lights emit a blue light spectrum that can interfere with the body's natural production of melatonin, a hormone that helps regulate the sleep/wake cycle. This can lead to difficulty falling asleep, waking up during the night, and feeling tired during the day.

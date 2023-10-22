@@ -1,0 +1,3 @@
+xibalba asked what is the process known as AMPArtworkAgent with hash e754aaee
+<---- snip ---->
+AMPArtworkAgent is an Apple process that uses a lot of CPU resources to optimize images and artwork in various applications. It is designed to reduce file size and improve image quality.

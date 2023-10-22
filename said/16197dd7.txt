@@ -1,0 +1,3 @@
+bookworm asked is Alef a three letter word? with hash 16197dd7
+<---- snip ---->
+Unfortunately, no - Alef is a four-letter word.

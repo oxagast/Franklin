@@ -1,0 +1,12 @@
+bookworm asked list examples of endofunctors with hash 240f932b
+<---- snip ---->
+1. Vector spaces
+2. Groups
+3. Rings
+4. Modules
+5. Algebras
+6. Categories
+7. Graphs
+8. Monads
+9. Functors
+10. Natural transformations

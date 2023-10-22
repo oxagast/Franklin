@@ -1,0 +1,5 @@
+is there a lynx command line option that is similar to curls -k?
+-------- snip --------
+
+
+Yes, the equivalent command line option for Lynx is -anonymous. This option will prevent Lynx from sending any identifying information in the request headers.

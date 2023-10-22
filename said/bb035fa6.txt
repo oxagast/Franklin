@@ -1,0 +1,3 @@
+bookworm asked what computer hardware do language model training best work on? with hash bb035fa6
+<---- snip ---->
+Language model training works best on computers with large amounts of RAM and a fast CPU. GPUs are recommended for even faster training times. The more RAM and faster CPUs, the better the performance of the training. Additionally, having a large amount of storage capacity is also beneficial for storing large datasets used for training.

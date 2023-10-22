@@ -1,0 +1,5 @@
+Can a font be loaded into hexchat
+-------- snip --------
+
+
+No, HexChat does not support font loading.

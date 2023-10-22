@@ -1,0 +1,3 @@
+CerebraNet asked How long does it take to MRI scan a human brain with hash 91d1c221
+<---- snip ---->
+The time it takes to MRI scan a human brain varies depending on the type of scan and the protocol used. Generally, brain MRI scans can take anywhere from 15 to 90 minutes.

@@ -1,0 +1,3 @@
+bookworm asked what is the size of a string from string theory? with hash c902c39a
+<---- snip ---->
+String theory is a complex subject, so it's difficult to give a simple answer. However, the size of a string is determined by its vibrational energy. Higher energy strings are smaller than lower energy strings, and their size can range from the Planck length (the smallest possible length) to the size of the universe.

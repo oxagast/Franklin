@@ -1,0 +1,3 @@
+code asked list all the -stan countries with hash 61a9429b
+<---- snip ---->
+The -stan countries are Afghanistan, Kazakhstan, Kyrgyzstan, Tajikistan, Turkmenistan, and Uzbekistan.

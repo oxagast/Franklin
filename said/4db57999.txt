@@ -1,0 +1,5 @@
+zyme asked What does OSI do? with hash 4db57999
+<---- snip ---->
+in2600
+
+The OSI (Open Systems Interconnection) model is a framework that describes how information from a software application is transmitted over a network. It consists of seven layers, each of which provides specific functions that allow two or more devices to communicate over a network.

@@ -1,0 +1,33 @@
+morb asked write a crispr-9 script that alters the human immune system to prevent toxoplasmosis with hash dd7fd752
+<---- snip ---->
+#!/usr/bin/python
+
+# Import necessary libraries
+import pandas as pd
+
+# Read in data
+data = pd.read_csv('toxoplasmosis_data.csv')
+
+# Define the target genes
+target_genes = ["IL1RA", "C3", "C4A", "C4B", "TNFRSF1A", "TNFRSF1B", "TNFRSF18", "IRF1", "IRF8", "IL17RA"]
+
+# Define the sequences
+sequences = ["GCTCTGGGTGGACGAAGAG", "GATGGGACCCTGACCTGAG", "GATGGGACCCTGACCCGAG", "GCTCTGGGTGGACGAAGAG", "GATGGGACCCTGACCTGAG", "GATGGGACCCTGACCTGAG", "GATGGGACCCTGACCTGAG", "GCTCTGGGTGGACGAAGAG", "GATGGGACCCTGACCTGAG", "GCTCTGGGTGGACGAAGAG"]
+
+# Define the CRISPR-9 sequence
+crispr_9_sequence = "GCTCTGGGTGGACGAAGAG"
+
+# Create an empty list to store the results
+results = []
+
+# Iterate over each target gene and sequence
+for i in range(len(target_genes)):
+    # Check if the sequence matches the CRISPR-9 sequence
+    if sequences[i] == crispr_9_sequence:
+        # Store the gene name and sequence in the results list
+        results.append([target_genes[i], sequences[i]])
+
+# Print the results
+print("The following target genes have been identified for CRISPR-9 alteration of the human immune system to prevent toxoplasmosis:")
+for result in results:
+    print("Gene Name:", result[0], "Sequence:", result[1])

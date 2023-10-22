@@ -1,0 +1,30 @@
+bookworm asked list letter use statistics for the latin alphabet with hash 11dea4ed
+<---- snip ---->
+The letter usage statistics for the Latin alphabet are as follows:
+
+E: 12.02%
+T: 9.10%
+A: 8.12%
+O: 7.68%
+I: 7.31%
+N: 6.95%
+S: 6.28%
+R: 6.02%
+H: 5.92%
+D: 4.32%
+L: 3.98%
+C: 3.34%
+U: 2.76%
+M: 2.41%
+W: 2.36%
+F: 2.23%
+G: 2.02%
+Y: 1.97%
+P: 1.93%
+B: 1.49%
+V: 0.97%
+K: 0.77%
+J: 0.15%
+X: 0.15%
+Q: 0.10%
+Z: 0.07%

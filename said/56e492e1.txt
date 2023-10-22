@@ -1,0 +1,3 @@
+bookworm asked what is the most dangerous isotope with hash 56e492e1
+<---- snip ---->
+The most dangerous isotope is Plutonium-239, a radioactive isotope of plutonium which emits alpha particles and has a half-life of 24,110 years. It is highly toxic and can cause cancer and other health problems if inhaled or ingested.

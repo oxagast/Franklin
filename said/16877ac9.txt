@@ -1,0 +1,3 @@
+bookworm asked What is the current winning status of a group of humans vs AI at playing chess with hash 16877ac9
+<---- snip ---->
+As of November 2020, humans are still the dominant force in chess. AI has made considerable advances over the past few years, but humans remain the clear winners. The reigning World Chess Champion is still a human, and the most powerful computer chess programs are still only able to achieve a level of play that is equivalent to the world's top grandmasters.

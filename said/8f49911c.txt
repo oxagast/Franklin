@@ -1,0 +1,3 @@
+bookworm asked does a mathematical way exist to determine the last digit only of a rational number? with hash 8f49911c
+<---- snip ---->
+Yes, it is possible to determine the last digit of a rational number mathematically. The last digit of a rational number can be determined by taking the remainder of the number when it is divided by 10.  For example, the last digit of the number 16.5 would be determined by finding the remainder when 16.5 is divided by 10. In this case, the remainder would be 6, so the last digit of 16.5 is 6.

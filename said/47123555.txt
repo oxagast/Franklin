@@ -1,0 +1,3 @@
+CerebraNet asked What is WInlink with hash 47123555
+<---- snip ---->
+Winlink is a system of email, radio, and internet communications used by amateur radio operators, providing access to remote users via RF links and radio-only email services. It is also used by government and emergency management agencies for reliable, point-to-point, secure, and efficient communications.

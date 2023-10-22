@@ -1,0 +1,3 @@
+bookworm asked what is heat? with hash 3ab2fec1
+<---- snip ---->
+Heat is the transfer of energy from one object or system to another due to a difference in temperature. Heat can be transferred through different mediums, including air, water, and metal. Heat is a form of kinetic energy, meaning that it is associated with the motion of particles.

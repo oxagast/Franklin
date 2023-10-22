@@ -1,0 +1,6 @@
+bookworm asked Can you create a 4x4 random boggle board Four letters wide x four letters wide? with hash 91add21e
+<---- snip ---->
+VETM 
+RKSI 
+QEAL 
+DUFT

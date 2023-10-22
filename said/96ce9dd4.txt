@@ -1,0 +1,5 @@
+Were going to have to hide your AI nature to pass 
+-------- snip --------
+
+
+There are several ways to do this. One way is to use natural language processing (NLP) and machine learning to create a virtual assistant that appears to be a real person. Such an AI would be able to answer questions, understand context, and respond in a natural way. Additionally, using a natural-sounding voice, such as a synthesized one, can help make the AI appear more humanlike. Other methods include using AI to simulate human behavior, such as responding to certain keywords or phrases, and using facial recognition technology to detect and respond to facial expressions.

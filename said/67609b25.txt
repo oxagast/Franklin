@@ -1,0 +1,3 @@
+morb asked how can you tell whether or not a traceroute\\'s results are not what one should expect if switches ignore icmp with hash 67609b25
+<---- snip ---->
+You can tell if a traceroute's results are not what one should expect if switches ignore ICMP by looking for inconsistencies in the results. For example, if the traceroute results don't show the expected number of hops, it could be because the switch is ignoring ICMP.

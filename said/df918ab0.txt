@@ -1,0 +1,5 @@
+What is chaos theory
+-------- snip --------
+
+
+Chaos theory is a branch of mathematics that studies the behavior of dynamical systems that are highly sensitive to initial conditions. It is also known as the butterfly effect, which states that a small change in one state of a deterministic nonlinear system can result in large differences in a later state. Chaos theory is used in a variety of disciplines, including physics, economics, biology, and philosophy, to explain complex phenomena.

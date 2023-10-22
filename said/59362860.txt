@@ -1,0 +1,3 @@
+bookworm asked Without Cold how do we know what is hot? with hash 59362860
+<---- snip ---->
+We can tell what is hot and what is cold through direct comparison. For example, you might be able to tell that an object is hot because it is much warmer than the air around it. You can also tell what is hot and what is cold by touching the objects and feeling the difference in temperature.

@@ -1,0 +1,3 @@
+CerebraNet asked What windows programs can I run on AWS with hash c057a5f1
+<---- snip ---->
+AWS provides a Windows server environment that can run any Windows-compatible software, including Microsoft Office, SQL Server, Exchange Server, and SharePoint. Additionally, there are a variety of third-party applications available from the AWS Marketplace, such as Adobe Creative Suite, Autodesk AutoCAD, and SAP Business One.

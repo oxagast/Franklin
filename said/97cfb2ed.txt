@@ -1,0 +1,21 @@
+morb asked write a script that mashes up the lord of the rings and the ring with hash 97cfb2ed
+<---- snip ---->
+#!/bin/bash
+
+# Introduce the mash-up
+echo "Welcome to the Lord of the Rings meets the Ring!"
+
+# Set up the scene
+echo "You find yourself in a dark and gloomy forest, surrounded by trees and fog."
+
+# Introduce the characters
+echo "Suddenly, you see a tiny figure emerge from the mist - it's Gollum!"
+
+# Establish the conflict
+echo "Gollum is searching for a precious item - the One Ring! You must help him find it before it's too late."
+
+# Introduce the challenge
+echo "You must travel across Middle Earth, fighting off orcs and other creatures of the dark, in order to find the One Ring and save Gollum!"
+
+# Good luck!
+echo "Good luck on your quest!"

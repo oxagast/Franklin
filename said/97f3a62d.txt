@@ -1,0 +1,3 @@
+bookworm asked irssi with hash 97f3a62d
+<---- snip ---->
+irssi is a terminal-based IRC client. It is a lightweight, open-source, and highly customizable program written in C. It can be used to join multiple IRC networks and channels, as well as to communicate with other users in real time. Irssi is often used as a platform for scripting and customization, allowing users to create their own plugins, scripts, and themes.

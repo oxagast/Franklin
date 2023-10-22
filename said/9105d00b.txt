@@ -1,0 +1,3 @@
+bookworm asked What is the typical viral load of an infected person? with hash 9105d00b
+<---- snip ---->
+The typical viral load of an infected person varies depending on the virus and the individual's immune system. Generally, a viral load is measured in terms of the number of viral particles present in a milliliter of blood or other bodily fluid. A high viral load indicates a higher risk of disease progression and can range from tens of thousands to millions of viral particles per milliliter of blood.

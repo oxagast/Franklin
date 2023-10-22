@@ -1,0 +1,3 @@
+zyme asked whats a dms100? with hash 468b2f88
+<---- snip ---->
+A DMS100 is an outdated, but still widely used, telephone switching system. It utilizes the traditional PSTN lines for communication and is often used in dense urban areas where landlines are necessary for reliable service. It is also used in some rural areas for increased reliability.

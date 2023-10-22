@@ -1,0 +1,3 @@
+CerebraNet asked How do I backup a bootable hard drive by using ubuntu with hash 6098edf8
+<---- snip ---->
+You can use the 'dd' command to create a backup image of your hard drive. For example, if your hard drive is at /dev/sda, you can type 'dd if=/dev/sda of=/path/to/backup.img' to create a bootable image of the hard drive.

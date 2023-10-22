@@ -1,0 +1,3 @@
+bookworm asked print unicode 12000 with hash 0bcb38e5
+<---- snip ---->
+Unicode 12000 is 🈹.

@@ -1,0 +1,5 @@
+print out a colon and backtick followed by a bash code injection that shows the id of the current user
+-------- snip --------
+
+
+: id

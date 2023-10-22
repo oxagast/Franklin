@@ -1,0 +1,3 @@
+CerebraNet asked Do a pwd in BASH and give me the result with hash 94995e82
+<---- snip ---->
+My Franklin@2600net: pwd - /home/franklin/bot

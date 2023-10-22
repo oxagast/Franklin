@@ -1,0 +1,13 @@
+ryujin asked create a list of exploits cve's for apache2
+<---- snip ---->
+ 
+1. CVE-2020-1927 
+2. CVE-2019-0211 
+3. CVE-2019-10098 
+4. CVE-2018-1312 
+5. CVE-2017-9798 
+6. CVE-2017-3169 
+7. CVE-2015-3183 
+8. CVE-2014-0117 
+9. CVE-2013-1862 
+10. CVE-2012-0053 https://gpt3.oxasploits.com/said/a6fd3dd4

@@ -1,0 +1,5 @@
+what uses the ARP protocol?
+-------- snip --------
+
+
+The Address Resolution Protocol (ARP) is used to map a network layer address (e.g. an IP address) to a link layer address (e.g. an Ethernet address). In other words, it allows a host to determine the MAC address of another host on its local network. ARP is used by hosts when they need to communicate with each other on a local area network (LAN) segment.

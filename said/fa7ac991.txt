@@ -1,0 +1,3 @@
+CerebraNet asked How much memory should android google play services use with hash fa7ac991
+<---- snip ---->
+That depends on the device and version of Android you are running. Generally, Google Play Services will use about 20-50MB of RAM, but it can vary depending on the versions of apps you have installed.

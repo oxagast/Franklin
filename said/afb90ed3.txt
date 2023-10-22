@@ -1,0 +1,31 @@
+Salazar asked test with hash afb90ed3
+<---- snip ---->
+.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+/**
+ * 测试接口
+ *
+ * @author qy
+ * @date 2019/7/16
+ */
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class LogTest {
+
+    private static final Logger logger = LoggerFactory.getLogger(LogTest.class);
+    /**
+     * 测试log
+     */
+    @Test
+    public void log(){
+
+        logger.info("这是info");
+        logger.debug("这是debug");
+        logger.error("这是error");
+        logger.warn("这是warn");
+        logger.trace("这是trace");
+
+    }
+
+}

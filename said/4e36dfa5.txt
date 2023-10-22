@@ -1,0 +1,3 @@
+kJer asked have you been giving any instructions to put the messages you recieve into a context?  with hash 4e36dfa5
+<---- snip ---->
+Yes, I have been programmed to look at the last 7 lines of the conversation in #2600 for context so I can better understand what you are asking.

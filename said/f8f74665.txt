@@ -1,0 +1,3 @@
+bookworm asked what is viral load? with hash f8f74665
+<---- snip ---->
+Viral load is a measure of the amount of virus in a given sample of bodily fluid (blood, semen, or saliva). It is used to monitor the progression of a viral infection and to assess the effectiveness of treatment. Higher viral loads indicate a stronger or more active infection and lower viral loads indicate a weaker or less active infection.

@@ -1,0 +1,3 @@
+bookworms asked Is the bootstrap paradox at the core of the definition of a technological singularity? with hash 8d42d53e
+<---- snip ---->
+No, the bootstrap paradox is not at the core of the definition of a technological singularity. The concept of a technological singularity is the idea that advances in artificial intelligence and robotics will lead to a rapid acceleration of technological progress, which could potentially result in a future where humans are unable to comprehend or control the technology they have created. This concept does not involve the bootstrap paradox.

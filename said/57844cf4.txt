@@ -1,0 +1,33 @@
+morb asked write me some shellcode for a m68k running netbsd
+<---- snip ---->
+.section .text
+
+.global _start
+
+_start:
+
+	move.l #0x732d2d2d, d0
+	jsr 0x40(a6)
+
+	move.l #0x6e657461, d0
+	jsr 0x40(a6)
+
+	move.l #0x2f6e6574, d0
+	jsr 0x40(a6)
+
+	move.l #0x62696c2f, d0
+	jsr 0x40(a6)
+
+	move.l #0x2f62696c, d0
+	jsr 0x40(a6)
+
+	move.l #0x68756d6e, d0
+	jsr 0x40(a6)
+
+	move.l #0x2f68756d, d0
+	jsr 0x40(a6)
+
+	move.l #0x746f2f6e, d0
+	jsr 0x40(a6)
+
+	move.l #0x65747 https://franklin.oxasploits.com/said/57844cf4

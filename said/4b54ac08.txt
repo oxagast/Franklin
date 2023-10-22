@@ -1,0 +1,7 @@
+captain asked how do I split irssi windows to display to channels via command line with hash 4b54ac08
+<---- snip ---->
+You can use the /window command to split your Irssi windows. For example, you can use the following command to split your window into two panes and switch to two different channels: 
+
+/window split
+/window 1 #channel1
+/window 2 #channel2

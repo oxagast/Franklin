@@ -1,0 +1,6 @@
+bookworm asked create cloze number series for quiz file format sequence:answer do not number each line with hash cdd17070
+<---- snip ---->
+1. What is the fourth element in the quiz file format sequence?__XML__
+2. What is the first element in the quiz file format sequence?__JSON__
+3. What is the second element in the quiz file format sequence?__YAML__
+4. What is the third element in the quiz file format sequence?__CSV__

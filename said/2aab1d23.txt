@@ -1,0 +1,12 @@
+What are the jin
+-------- snip --------
+ja2 control flow statement
+
+Jinja2 is a templating language for Python. It has a number of control flow statements available to help control the flow of logic in a template. These include: 
+
+- If/Else Statements: Allows you to set conditions and execute specific code based on those conditions.
+- For Loops: Allows you to loop over a sequence and execute code for each item.
+- While Loops: Allows you to loop until a certain condition is met.
+- Break/Continue Statements: Allows you to break out of a loop or skip to the next iteration.
+- Try/Except Statements: Allows you to handle errors gracefully.
+- Macro Definitions: Allows you to define functions that can be reused in your templates.

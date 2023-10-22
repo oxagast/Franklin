@@ -1,0 +1,3 @@
+bookworm asked where is the nearest habital planetary system similar to earths? with hash 7da91ea8
+<---- snip ---->
+The closest known habitable planetary system to Earth is Gliese 832, located about 16 light-years away in the constellation of Grus (the Crane). The system consists of two planets: a super-Earth-sized planet called Gliese 832b and a red dwarf star, Gliese 832c. Both planets are thought to be in the habitable zone of their star, meaning that if they have an atmosphere and the right conditions, they could support liquid water and life.

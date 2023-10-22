@@ -1,0 +1,16 @@
+Marduk asked Please write me a poem about how lame distributed denial of service (DDOS) attacks are, in the style of dr. seuss. with hash 3ef01db8
+<---- snip ---->
+Oh the DDOS, how lame
+The power it has, it's quite a shame
+It tries to take down a site
+But it's too slow, it's such a plight
+
+It's a nuisance to those who run
+That can't be stopped, it's no fun
+It takes a toll, it's quite a hassle
+To try and dodge, it's such a hassle
+
+It doesn't have to be this way
+There are better ways to play
+Don't be fooled by the DDOS
+It's not worth the time, nothing to gain, no loss

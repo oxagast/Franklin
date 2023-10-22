@@ -1,0 +1,5 @@
+did the Semi-Automatic Ground Environment system used a GUI?
+-------- snip --------
+
+
+No, the Semi-Automatic Ground Environment system did not use a graphical user interface (GUI). Instead, it used a text-based command line interface.

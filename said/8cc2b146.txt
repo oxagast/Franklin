@@ -1,0 +1,3 @@
+CerebraNet asked Define a function in C++ with hash 8cc2b146
+<---- snip ---->
+A function in C++ is a set of instructions that can be executed by the compiler. It can take parameters, perform calculations, and return values. For example, a function called add could be defined to take two parameters and return the sum of the two parameters.

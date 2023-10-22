@@ -1,0 +1,3 @@
+CerebraNet asked Is DVD +R DL a dual layer disk with hash 8d8fb12a
+<---- snip ---->
+Yes, DVD+R DL is a dual layer disk.

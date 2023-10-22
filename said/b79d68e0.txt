@@ -1,0 +1,3 @@
+Phate asked Whats the output of :(){ :|:& };: with hash b79d68e0
+<---- snip ---->
+The output of the command :(){ :|:& };: is an infinite loop, which will cause your system to crash if left unchecked.

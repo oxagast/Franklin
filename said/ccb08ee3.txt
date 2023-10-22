@@ -1,0 +1,7 @@
+zyme asked What software has a tangible benefit visible to end-users from running on Apple Hardware with a Neural Engine? with hash ccb08ee3
+<---- snip ---->
+1. Core ML: Core ML is Apple's machine learning and deep learning framework. It utilizes the Neural Engine in Apple hardware to provide faster, more efficient processing and analysis of large datasets. This enables Core ML to provide faster and more accurate results to users.
+
+2. Vision: Apple's Vision framework is a computer vision library that uses the Neural Engine in Apple hardware to detect, track, and identify objects in images and video. This can be used to provide improved image and video analysis, allowing users to quickly identify objects in their media.
+
+3. ARKit: ARKit is Apple's augmented reality framework, which uses the Neural Engine in Apple hardware to provide faster and more accurate 3D object tracking and recognition. This allows users to interact with virtual objects in their environment, providing a more immersive experience.

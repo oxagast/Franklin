@@ -1,0 +1,5 @@
+CerebraNet asked Does cgminer have to be compiled with hash 3361ed46
+<---- snip ---->
+?
+
+Yes, cgminer must be compiled in order to run. This can be done by downloading the source code from the official website and then compiling it with a C compiler.

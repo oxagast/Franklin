@@ -1,0 +1,19 @@
+C++ Friend
+-------- snip --------
+ship
+
+C++ allows for friendship between classes and functions. Friendship grants the ability to access private members of the class to the friend class or function. This is done by declaring the friend class or function in the public section of the class, typically preceded by the keyword "friend".
+
+For example:
+
+class MyClass {
+public:
+friend void myFunction(MyClass obj)
+private:
+int x
+}
+
+void myFunction(MyClass obj) {
+// Access the private x of MyClass:
+obj.x = 10
+}

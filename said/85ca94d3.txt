@@ -1,0 +1,3 @@
+CerebraNet asked Do electrons actually have angular velocity with hash 85ca94d3
+<---- snip ---->
+Yes, electrons do have angular velocity, but it's not something that you would typically measure in everyday life.

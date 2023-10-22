@@ -1,0 +1,4 @@
+bookworm asked create various number series with cloze for quiz file format sequence:answer do not number each line with hash c0f6a19d
+<---- snip ---->
+1._ _ _ _ _ _ 2, 3, 5, 8, 13
+Fibonacci: 1, 1, 2, 3, 5, 8, 13

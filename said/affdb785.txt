@@ -1,0 +1,3 @@
+bookworm asked change default language to German with hash affdb785
+<---- snip ---->
+To change the default language to German on a Windows computer, go to the Control Panel, select "Region and Language," and then select "German" from the list of available languages.

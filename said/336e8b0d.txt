@@ -1,0 +1,3 @@
+insecurity asked who invented the firewall? with hash 336e8b0d
+<---- snip ---->
+The first firewall was invented in 1988 by Dr. William Cheswick and Steven Bellovin. They developed a packet filtering system for protecting systems from malicious network traffic.

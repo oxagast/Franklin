@@ -1,0 +1,5 @@
+did archie index gopher sites
+-------- snip --------
+
+
+Yes, Archie was a search engine that indexed Gopher sites. It was the first search engine of its kind, developed in 1990 at McGill University in Montreal.

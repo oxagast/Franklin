@@ -1,0 +1,3 @@
+bookworm asked what does Chryogenic freezing do to cell tissues and organs? with hash 509f50ac
+<---- snip ---->
+Chryogenic freezing is a form of cryopreservation that involves cooling a cell tissue or organ to extremely low temperatures, usually -196°C. The goal of this process is to preserve the cells or organs in a viable state, so that they can be used for transplantation or medical research in the future. Cryopreservation works by slowing down the metabolic activities of the cells, which prevents damage from occurring due to oxidation and other forms of deterioration. It is also used to preserve genetic material for long-term storage.

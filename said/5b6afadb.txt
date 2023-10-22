@@ -1,0 +1,24 @@
+cyb3rkiid asked Can you write me code in C++ that shuffles a deck of cards?  thank you.
+<---- snip ---->
+#include <iostream>
+#include <algorithm>
+#include <vector>
+
+int main()
+{
+    // Create a vector to store the cards
+    std::vector<int> deck;
+
+    // Populate the deck with numbers
+    for(int i = 0; i < 52; ++i)
+        deck.push_back(i);
+
+    // Randomly shuffle the cards
+    std::random_shuffle(deck.begin(), deck.end());
+
+    // Print the shuffled cards
+    for(int i = 0; i < 52; ++i)
+        std::cout << deck[i] << std::endl;
+
+    return 0;
+} https://franklin.oxasploits.com/said/5b6afadb

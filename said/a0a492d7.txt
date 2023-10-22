@@ -1,0 +1,5 @@
+Is gopher a weirdo Geek.
+-------- snip --------
+
+
+No, gopher is not a weirdo geek. Gopher is a protocol used for accessing documents over the Internet.

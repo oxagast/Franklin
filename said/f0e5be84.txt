@@ -1,0 +1,5 @@
+eniac asked perl from dotenv with hash f0e5be84
+<---- snip ---->
+What does this mean?
+
+Perl from dotenv is a way to access environment variables in Perl. Environment variables are key-value pairs that can be used to store data, such as user preferences, or system information. Accessing environment variables in Perl is done with the %ENV hash.

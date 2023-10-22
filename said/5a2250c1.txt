@@ -1,0 +1,5 @@
+who wrote the first linker for computer code
+-------- snip --------
+
+
+The first linker is widely credited to Steve Johnson from Digital Equipment Corporation, who wrote the first linker for the PDP-11.

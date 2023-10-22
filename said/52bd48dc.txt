@@ -1,0 +1,5 @@
+where can I find the source code of GNU find?
+-------- snip --------
+
+
+The source code for GNU find can be found on the GNU website at https://ftp.gnu.org/gnu/findutils/.

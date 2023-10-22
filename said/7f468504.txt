@@ -1,0 +1,5 @@
+CerebraNet asked Lock `SSB in a BASH terminal with hash 7f468504
+<---- snip ---->
+To lock your terminal session with SSB (Single-Sign-On) in a BASH terminal, you can use the following command:
+
+authselect lock --type ssb

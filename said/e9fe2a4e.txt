@@ -1,0 +1,3 @@
+zyme asked What is the most influential differences for RIPv1 and RIPv2 used today? with hash e9fe2a4e
+<---- snip ---->
+RIPv2 is an improvement over RIPv1 in many ways, including the use of multicast updates, the use of authentication, and the ability to support more networks and larger networks. Additionally, RIPv2 has improved the speed of convergence and the number of hops that can be used to reach a destination.

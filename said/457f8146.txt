@@ -1,0 +1,3 @@
+can you emulate the computer program eliza?
+
+Yes, it is possible to emulate the computer program Eliza. There are various emulators available online and in app stores that can be used to replicate the Eliza program.

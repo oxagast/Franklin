@@ -1,0 +1,5 @@
+Openvpn clients use a method of reverse listening to connect to vpn servers then?
+-------- snip --------
+
+
+No, OpenVPN clients do not use a method of reverse listening to connect to VPN servers. OpenVPN clients use a secure and encrypted tunneling protocol to establish a connection with the VPN server. The tunneling protocol used is either TLS or SSL. This protocol ensures the data sent over the internet is secure and cannot be intercepted by third parties.

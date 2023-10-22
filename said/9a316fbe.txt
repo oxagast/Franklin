@@ -1,0 +1,3 @@
+morb asked how many logic ics do I need to recreate pong on a ntsc monitor with hash 9a316fbe
+<---- snip ---->
+You will need two logic ICs to recreate Pong on a NTSC monitor. The first is an 8-bit shift register to store the game data and the second is an 8-bit latch to store the video data.

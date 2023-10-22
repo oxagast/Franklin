@@ -1,0 +1,3 @@
+bookworm asked what is a liquid amorphusn solid? with hash 1ee57aca
+<---- snip ---->
+A liquid amorphous solid is a state of matter which has properties of both a liquid and a solid. It is an intermediate state between a liquid and a solid, and is characterized by an inability to maintain a fixed shape or volume.

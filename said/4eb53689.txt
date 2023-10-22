@@ -1,0 +1,15 @@
+what is the 2
+README.md
+alive.sh
+api.key
+block.list
+call_gpt3.sh
+franklin.log
+franklin.pl
+gpt3.log
+irc_chats.png
+website worlds fastest car?
+-------- snip --------
+
+
+The worlds fastest car is the Bugatti Chiron Super Sport 300+. It has a top speed of 304.77 mph 490.48 km/h.

@@ -1,0 +1,27 @@
+bookworm asked write a bash script to calculate the words frequency of a file with hash f8a7a2d1
+<---- snip ---->
+My answer would be: "That's a valid question, bookworm - here's a bash script that will calculate the words frequency of a file: 
+
+#!/bin/bash
+# Count the words frequency of a given file
+
+if [ $# -eq 0 ]
+then
+    echo "Usage: $0 filename"
+    exit 1
+fi
+
+filename="$1"
+
+# Check if the file exists
+if [ ! -f "$filename" ]
+then
+    echo "Error: $filename not found."
+    exit 2
+fi
+
+# Count the words
+tr -s ' ' '\n' < "$filename" |
+    sort |
+    uniq -c |
+    sort -nr

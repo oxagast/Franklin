@@ -1,0 +1,3 @@
+CerebraNet asked What is the network latency between you and me with hash 05b1b494
+<---- snip ---->
+It depends on your connection speed and the distance between us. But generally speaking, I'm connected to you within a few milliseconds.

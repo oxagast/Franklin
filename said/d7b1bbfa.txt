@@ -1,0 +1,28 @@
+ryujin asked type .pizza
+<---- snip ---->
+-type').click(function(){
+    $('.pizza-type').removeClass('active');
+    $(this).addClass('active');
+    var pizzaType = $(this).attr('data-type');
+    if(pizzaType == 'small'){
+        var pizzaTypePrice = 8;
+    }
+    else if(pizzaType == 'medium'){
+        var pizzaTypePrice = 10;
+    }
+    else if(pizzaType == 'large'){
+        var pizzaTypePrice = 12;
+    }
+    else if(pizzaType == 'xlarge'){
+        var pizzaTypePrice = 14;
+    }
+    console.log('Pizza type: ' + pizzaType);
+    console.log('Pizza type price: ' + pizzaTypePrice);
+    $('.pizza-price-value').text(pizzaTypePrice);
+
+});
+
+$('.crust-type .crust-type').click(function(){
+    $('.crust-type').removeClass('active');
+    $(this).addClass('active');
+    var crustType = $(this https://franklin.oxasploits.com/said/d7b1bbfa

@@ -1,0 +1,15 @@
+CerebraNet asked How to fix "port audio device not available" with hash 4f190e3d
+<---- snip ---->
+ problem
+
+1. Check your audio device settings.
+Make sure that your audio device is set as the default playback device in the audio settings. You can access these settings by right-clicking on the speaker icon in the system tray and selecting “Open Sound Settings.”
+
+2. Check your audio device drivers.
+If your audio device is set as the default playback device, then you should check that the drivers are up to date. You can do this by checking the device manager in Windows. Right-click the “Start” button and select “Device Manager.” Here, you can right-click on your audio device and select “Update Driver.”
+
+3. Check your audio device connections.
+If your audio device is not connected properly, then it will not be available. Make sure that all the cables are properly connected and that the device is powered on.
+
+4. Reinstall your audio device.
+If all else fails, then you may need to reinstall your audio device. Uninstall the device in the device manager and then reinstall it. This should resolve the issue.

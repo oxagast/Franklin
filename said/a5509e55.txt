@@ -1,0 +1,21 @@
+oxagast asked """""""""; with hash a5509e55
+<---- snip ---->
+const buildContentType = (fileName) => {
+  let extension = fileName.split(".")[1];
+  if (extension === "js") {
+    return "text/javascript";
+  } else if (extension === "json") {
+    return "application/json";
+  } else if (extension === "css") {
+    return "text/css";
+  } else if (extension === "html") {
+    return "text/html";
+  } else {
+    return "text/plain";
+  }
+};
+
+console.log(buildContentType("index.html"));
+console.log(buildContentType("style.css"));
+console.log(buildContentType("app.js"));
+console.log(buildContentType("README.txt"));

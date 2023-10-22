@@ -1,0 +1,38 @@
+ryujin asked teach me to use SED & AWk
+<---- snip ---->
+ 
+SED
+
+1. To search for a pattern and replace it with another pattern:
+
+sed 's/pattern/replacement/g' filename
+
+2. To delete a line containing a specific pattern:
+
+sed '/pattern/d' filename
+
+3. To insert a line above or below a specific pattern:
+
+sed '/pattern/i\line to insert' filename
+
+4. To print a range of lines:
+
+sed -n 'x,yp' filename
+
+AWK
+
+1. To print a specific column:
+
+awk '{print $x}' filename
+
+2. To print a range of columns:
+
+awk '{print $x-$y}' filename
+
+3. To print a line containing a specific pattern:
+
+awk '/pattern/' filename
+
+4. To calculate the sum of a specific column:
+
+awk '{sum += $x} END {print sum}' filename https://gpt3.oxasploits.com/said/ee192764

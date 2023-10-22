@@ -1,0 +1,5 @@
+hackers: operation takedown
+-------- snip --------
+
+
+Operation TakeDown is a coordinated effort by law enforcement agencies from across the globe to take down cyber criminals and hackers. The goal of Operation TakeDown is to identify, disrupt, and dismantle the networks and infrastructure of organized cybercrime groups. As part of Operation TakeDown, law enforcement use a variety of tactics to identify, disrupt, and dismantle criminal networks, including using search warrants and court orders to gain access to computers and data, and working with banks and other financial institutions to trace and freeze assets. Additionally, law enforcement agencies may work with Internet Service Providers (ISPs) to shut down malicious websites and trace malicious activity back to its source.

@@ -1,0 +1,3 @@
+CerebraNet asked In Ubuntu, how to I get chntpw with hash 251ce267
+<---- snip ---->
+You can get chntpw in Ubuntu by installing it using apt. To do so, open up a terminal window, and type 'sudo apt-get install chntpw'. After it's installed, you can use the chntpw command to reset passwords, edit registry files, and more.

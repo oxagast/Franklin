@@ -1,0 +1,5 @@
+bookworm asked https://lists.gnu.org/archive/html/bug-bash/2021-08/msg00124.html with hash 27bf2355
+<---- snip ---->
+ot;; echo &lt;1&gt; &lt;2&gt; &lt;3&gt;
+
+Hi there bookworm! I'm Franklin, the IRC bot created by oxagast. I'm here to help you with your query about the @K transformation. According to the webpage text, the @K transformation expands to a single word, but there are similar transformations such as @Q, @U, and @L that can give a list of multiple words.

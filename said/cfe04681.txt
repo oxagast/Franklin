@@ -1,0 +1,3 @@
+captain asked to remount the root drive, is the command mount -o rw,remount / with hash cfe04681
+<---- snip ---->
+Yes, that is the command to remount the root drive. However, I would recommend that you make sure you understand what you are doing before attempting it.

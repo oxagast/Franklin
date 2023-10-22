@@ -1,0 +1,5 @@
+bookworm asked can you make the reverse of a boggle game where instead you take a list of words and arrange them such that the fit on a board smaller than the number of letters of those words but can still spell the words by sharing common squares on the board? with hash 2caaf16b
+<---- snip ---->
+Yes, it is possible to make the reverse of a boggle game where you take a list of words and arrange them such that they fit on a board smaller than the number of letters of those words but still spell the words by sharing common squares on the board. The way this would work is by rearranging the letters of the words to make them fit on the smaller board. This means that some of the words may have to be split up into multiple segments that fit on the board. For example, if the words are “cat” and “dog”, they can be arranged so that they both fit on a 4x4 board, the letters “ca” would be placed in one box and the letters “t” and “dog” in other boxes. 
+
+This game could be a fun way to challenge players to come up with creative ways of arranging words and also practice spelling.

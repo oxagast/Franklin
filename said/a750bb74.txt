@@ -1,0 +1,3 @@
+s4lt asked what is a rainbow attack? with hash a750bb74
+<---- snip ---->
+A rainbow attack is a type of hacking attack that uses a dictionary of pre-computed hashes to crack passwords. It is much faster than brute force attacks, but can be easily thwarted by using strong passwords and salt.

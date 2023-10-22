@@ -1,0 +1,5 @@
+does chatgpt use common crawl?
+-------- snip --------
+
+
+No, ChatGPT does not use Common Crawl. It uses its own proprietary corpus of conversations and text data.

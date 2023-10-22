@@ -1,0 +1,5 @@
+CerebraNet asked What protocol do websites use to upload or download files with hash fc863155
+<---- snip ---->
+?
+
+The most common protocol used to upload or download files on websites is HTTP (Hypertext Transfer Protocol).

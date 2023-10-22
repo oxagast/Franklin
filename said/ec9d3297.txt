@@ -1,0 +1,13 @@
+Tell me an adventure story about assembly language
+-------- snip --------
+
+
+Once upon a time, there lived a programmer who was determined to master assembly language. He was a talented coder, but he had never ventured into the world of assembly language before.
+
+He spent months studying the syntax, watching tutorials, and attempting to write his own programs. But, no matter how hard he tried, he couldnt seem to get the hang of it.
+
+One day, he decided to take a break from his studies and go on an adventure. He packed his bags and headed off to a different continent, determined to make something of himself.
+
+When he arrived, he found himself in a strange land filled with exotic creatures and mysterious technology. He soon found himself in the middle of a great puzzle, trying to figure out how to make the technology work.
+
+Little did he know, the technology ran on assembly language. With each step he took, he was learning more and more about the language. He quickly began to understand how the instructions

@@ -1,0 +1,9 @@
+bookworm asked list experiments conducted in the US on the population without their prior knowledge. with hash 5685634a
+<---- snip ---->
+1. Stanford Prison Experiment (1971): This experiment was conducted by Dr. Philip Zimbardo at Stanford University in order to study the psychological effects of becoming a prisoner or a prison guard. The experiment involved 24 male college students who were randomly assigned to either the role of a prisoner or a guard.
+
+2. Milgram Experiment (1963): This experiment was conducted by Dr. Stanley Milgram at Yale University to measure the willingness of people to obey authority figures. The participants were asked to administer electric shocks to another person (who was actually an actor) when they gave incorrect answers to questions.
+
+3. Asch Conformity Experiment (1951): This experiment was conducted by Dr. Solomon Asch at Swarthmore College to measure the power of conformity. The participants were asked to answer a series of questions while being observed by a group of people, who all gave the same incorrect answers.
+
+4. Tuskegee Syphilis Experiment (1932-1972): This experiment was conducted by the US Public Health Service in order to study the effects of untreated syphilis on African-American men. The participants were not informed of the true nature of the study and were not offered treatment for the disease.

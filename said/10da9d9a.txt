@@ -1,0 +1,3 @@
+zyme asked How might we make different versions of ChatGPT fight in a chatroom? with hash 10da9d9a
+<---- snip ---->
+I think the best way to do this would be to create a chatroom where different versions of ChatGPT can be pitted against each other. Each version would be given a set of tasks or prompts, and their responses could be compared to see which version performs better. This could become an interesting competition between different versions of ChatGPT, with the winner being the one that produces the most accurate responses.

@@ -1,0 +1,20 @@
+hextasy asked what are the raw color codes for IRC? with hash de4e285b
+<---- snip ---->
+The raw color codes for IRC are:
+
+• White: \x030 
+• Black: \x031 
+• Blue: \x032 
+• Green: \x033 
+• Red: \x034 
+• Brown: \x035 
+• Purple: \x036 
+• Orange: \x037 
+• Yellow: \x038 
+• Light Green: \x039 
+• Teal: \x0310 
+• Light Cyan: \x0311 
+• Light Blue: \x0312 
+• Pink: \x0313 
+• Grey: \x0314 
+• Light Grey: \x0315

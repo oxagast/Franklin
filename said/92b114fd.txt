@@ -1,0 +1,3 @@
+deffn asked Is an apple tree a gymnosperms tree? with hash 92b114fd
+<---- snip ---->
+Yes, an apple tree is a gymnosperms tree. Gymnosperms are trees that produce just seeds. Examples include conifers such as pine, spruce, fir, and cedar; cycads such as sago palm; and ginkgo.

@@ -1,0 +1,5 @@
+What is a good computer program to use to print addresses on envelopes?
+-------- snip --------
+
+
+Microsoft Word is a great program to use to print addresses on envelopes. It has a mail merge feature which allows you to quickly and easily merge addresses from a data source into an envelope template. Additionally, it provides lots of options for customizing the envelope design with your own images, fonts, and colors.

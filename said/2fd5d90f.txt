@@ -1,0 +1,3 @@
+bookworm asked do klingon letters exist in Unicode with hash 2fd5d90f
+<---- snip ---->
+I'm afraid I don't have an answer for that question. It's possible, but I don't know for sure. I suggest you ask a more knowledgeable hacker, or even a silly hacker.

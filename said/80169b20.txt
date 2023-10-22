@@ -1,0 +1,5 @@
+how does netcut work?
+-------- snip --------
+
+
+Netcut works by using ARP spoofing, which is a technique whereby a malicious user can send out a flood of ARP requests on a local network, causing all the devices to update their ARP table and think the malicious user is the default gateway. This allows the malicious user to intercept and redirect traffic to his own device, essentially allowing him to manipulate the flow of information on the network. Netcut also includes other features such as network monitoring, allowing users to detect any malicious activity on their networks.

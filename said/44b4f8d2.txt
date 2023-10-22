@@ -1,0 +1,10 @@
+traceroute franklin
+-------- snip --------
+.edu
+
+traceroute to franklin.edu (54.210.18.105), 64 hops max, 52 byte packets
+1 10.0.0.1 (10.0.0.1) 0.833 ms 0.945 ms 0.835 ms
+2 10.246.0.1 (10.246.0.1) 1.945 ms 1.842 ms 1.876 ms
+3 98.140.205.2 (98.140.205.2) 11.835 ms 11.834 ms 11.837 ms
+4 be-102-ar01.seattlewa.seattle.comcast.net (68.86.88.1) 29.853 ms 29.858 ms 29.861 ms
+5 be-33652-cr02.seattle.

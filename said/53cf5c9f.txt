@@ -1,0 +1,13 @@
+how do you fix the adb: device unauthorized error when running adb shell in linux?
+-------- snip --------
+
+
+1. Make sure that USB Debugging is enabled on your device.
+2. Unplug your device and then plug it back in.
+3. Try running adb kill-server and then adb start-server.
+4. Check if your device is detected by running the command adb devices.
+5. If your device is still not detected, try restarting your computer.
+6. Make sure that the correct drivers are installed on your computer.
+7. Try using a different USB cable.
+8. Check to make sure that your device is not locked with a passcode or pattern lock.
+9. Try using a different USB port.

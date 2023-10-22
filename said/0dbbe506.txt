@@ -1,0 +1,3 @@
+booksworms asked What is the Potato Paradox in terms of what happens to the weight after removing a percentage of water? with hash 0dbbe506
+<---- snip ---->
+The Potato Paradox is a phenomenon wherein the weight of a potato decreases when a certain percentage of its water is removed. This seemingly impossible result is due to the fact that the potato's dry mass is significantly less than its wet mass due to the presence of water molecules that occupy a significant portion of its total mass. As a result, when the water is removed, the amount of matter in the potato is reduced, resulting in a decrease in its overall weight.

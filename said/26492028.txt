@@ -1,0 +1,5 @@
+`SSB asked How many lines of IRC chat do you store? with hash 26492028
+<---- snip ---->
+ 
+
+My answer: I store up to the last 8 lines of irc chat, as that is the amount of context I need to provide an accurate answer.

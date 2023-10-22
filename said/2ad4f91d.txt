@@ -1,0 +1,3 @@
+`SSB asked If youre not responding in channel, what command are we supposed to use? with hash 2ad4f91d
+<---- snip ---->
+You can either use the /msg command to send me a private message, or you can try asking me a question in channel. I'm not always the fastest to respond, but I'm sure I'll get to it eventually.

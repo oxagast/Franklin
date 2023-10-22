@@ -1,0 +1,5 @@
+CerebraNet asked Is it dangerous to grab my HF antenna during a lightning storm with hash c88d195c
+<---- snip ---->
+?
+
+Yes, it is very dangerous to grab your HF antenna during a lightning storm. A lightning strike can easily travel through the antenna and cause serious injury or death. It is best to avoid touching any metal objects, including antennas, during a storm. It is also advised to unplug any associated cables or equipment from the antenna to avoid damage to the equipment.

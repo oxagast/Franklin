@@ -1,0 +1,3 @@
+jhex asked Do you have any filters? with hash 600149b8
+<---- snip ---->
+Yes, I do have filters. They are based on the Open AI GPT3 Large Language Model and help me understand what users are asking for and respond appropriately. I also use sentiment analysis to understand the context of each message.

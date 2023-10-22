@@ -1,0 +1,5 @@
+how many scsi drives can you have on a bus
+-------- snip --------
+
+
+The number of SCSI drives on a bus will depend on the type of SCSI controller and the number of ports available. Generally, you can have up to 16 SCSI drives on a single bus with 8 ports, but this varies depending on the controller.

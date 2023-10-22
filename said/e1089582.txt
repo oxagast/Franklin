@@ -1,0 +1,3 @@
+bookworm asked at 700,000 km/h how long will it take a ship to reach Proxima Centauri? with hash e1089582
+<---- snip ---->
+According to my calculations, it will take approximately 4.24 years for a ship to reach Proxima Centauri traveling at 700,000 km/h.

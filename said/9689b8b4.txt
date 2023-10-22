@@ -1,0 +1,10 @@
+bookworm asked table most polluted river name and country with hash 9689b8b4
+<---- snip ---->
+River | Country
+
+Ganges | India
+Yamuna | India
+Citarum | Indonesia
+Mekong | Laos, China, Thailand, Cambodia, and Vietnam
+Amur | Russia and China
+Sarno | Italy

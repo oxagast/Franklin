@@ -1,0 +1,53 @@
+oxagast asked "$apikey with hash ac7b1563
+<---- snip ---->
+","$content","$host","$date","$signature"
+		
+		client.get(url) { response in
+			let statusCode = response.response?.statusCode
+			
+			if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+				print("Data: \(utf8Text)")
+			}
+			
+			if (statusCode == 200) {
+				let json = response.value
+				
+				completion(json as? [String: Any])
+			} else {
+				completion(nil)
+			}
+		}
+	}
+	
+	func sendPostRequest(url: String, content: String, completion: @escaping ([String: Any]?) -> Void) {
+		let client = Alamofire.SessionManager.default
+		client.session.configuration.timeoutIntervalForRequest = 10
+		
+		let apikey = "apikey=\(kAPIKey)"
+		let content = "content=\(content)"
+		let host = "host=\(kHost)"
+		let date = "date=\(kDate)"
+		let signature = "signature=\(kSignature)"
+		
+		//"$apikey","$content","$host","$date","$signature"
+		
+		client.post(url, parameters: [apikey: kAPIKey, content: content, host: kHost, date: kDate, signature: kSignature]) { response in
+			let statusCode = response.response?.statusCode
+			
+			if let data = response.data, let utf8Text = String(data: data, encoding: .utf8) {
+				print("Data: \(utf8Text)")
+			}
+			
+			if (statusCode == 200) {
+				let json = response.value
+				
+				completion(json as? [String: Any])
+			} else {
+				completion(nil)
+			}
+		}
+	}
+	
+	func sendPostRequestWithInput(url: String, content: String, completion: @escaping ([String: Any]?) -> Void) {
+		let client = Alamofire.SessionManager.default
+		client.session.configuration.timeoutIntervalForRequest

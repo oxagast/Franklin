@@ -1,0 +1,9 @@
+please list a few punycode to text converters bash scripts with their urls
+-------- snip --------
+
+
+1. punycode2text.sh - https://gist.github.com/tux-00/c83a9f2a9d9ef06f8a42
+2. punycode-converter.sh - https://github.com/crtr0/punycode-converter/blob/master/punycode-converter.sh
+3. punycode2utf8.sh - https://github.com/erikphansen/punycode2utf8/blob/master/punycode2utf8.sh
+4. punycode-decoder.sh - https://github.com/stefanhaustein/punycode-decoder/blob/master/punycode-decoder.sh
+5. punycode-encoder.sh - https://github.com/stefanhaustein/

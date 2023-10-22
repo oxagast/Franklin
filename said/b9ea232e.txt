@@ -1,0 +1,3 @@
+morb asked show me utf8 character U1024 with hash b9ea232e
+<---- snip ---->
+𝐐

@@ -1,0 +1,3 @@
+bookworm asked are viruses alive? with hash 777974be
+<---- snip ---->
+No, viruses are not considered alive. They are not made up of cells, they cannot reproduce on their own, and they must invade other cells in order to survive.

@@ -1,0 +1,8 @@
+captain asked How to specify font color in /etc/vconsole.conf
+<---- snip ---->
+ 
+To specify a font color in /etc/vconsole.conf, you can use the "FONT_COLOR" option.
+
+For example, to set the font color to red, you would add the following line to the configuration file:
+
+FONT_COLOR="red" https://gpt3.oxasploits.com/said/43b9eb40

@@ -1,0 +1,5 @@
+what is error code 1020 on cloudflare?
+-------- snip --------
+
+
+Error code 1020 on Cloudflare is an error that indicates a problem with the origin web server. It is usually caused by an issue with the origin web server, such as a timeout, an invalid response, or an unresponsive server.

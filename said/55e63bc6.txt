@@ -1,0 +1,5 @@
+how do I defrag my cp/m boot disk
+-------- snip --------
+
+
+The process of defragmenting a CP/M boot disk is quite similar to that of a modern Windows or Mac OS system. It is important to note, however, that there is no easy automated way to do this. You will need to use a CP/M utility program such as ZSDOS or ZCPR to manually analyze and reorganize the files on the disk. Please refer to the documentation for the specific CP/M utility program you are using for instructions on how to accomplish this.

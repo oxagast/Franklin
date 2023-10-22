@@ -1,0 +1,3 @@
+CerebraNet asked How much frequency deviation can the 2600 phone signaling tolerate with hash a3d8b90e
+<---- snip ---->
+The 2600 phone signaling can tolerate up to ±1600 Hz of frequency deviation.

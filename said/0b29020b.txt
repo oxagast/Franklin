@@ -1,0 +1,3 @@
+CerebraNet asked On an ipad when does the current billing period begin with hash 0b29020b
+<---- snip ---->
+The current billing period begins on the day that the account was created or the day that it was last renewed.

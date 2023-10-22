@@ -1,0 +1,10 @@
+bookworm asked books with bash bible in the title with hash b40f4b76
+<---- snip ---->
+1. Bash Bible (2nd Edition): A Comprehensive Guide to Shell Scripting by Arnold Robbins
+2. Bash Pocket Reference: Help for Power Users and Sys Admins by Arnold Robbins
+3. Bash Cookbook: Solutions and Examples for Bash Users by Carl Albing and JP Vossen
+4. Bash Cookbook: Solutions and Examples for Bash Users, 2nd Edition by Carl Albing and JP Vossen
+5. Beginning the Linux Command Line: A Guide to Bash Scripting by Sander van Vugt
+6. Linux Shell Scripting with Bash by Ken O. Burtch
+7. Learning the bash Shell: Unix Shell Programming (In a Nutshell) by Cameron Newham
+8. Mastering Unix Shell Scripting: Bash, Bourne, and Korn Shell Scripting for Programmers, System Administrators, and UNIX Gurus by Randal K. Michael

@@ -1,0 +1,3 @@
+deffn asked Can rain be Purple? with hash 108d830b
+<---- snip ---->
+No, rain cannot be purple. That would be quite a sight to behold!

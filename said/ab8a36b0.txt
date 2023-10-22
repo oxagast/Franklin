@@ -1,0 +1,3 @@
+The_Shadows asked why EX4300 is so bad with hash ab8a36b0
+<---- snip ---->
+The EX4300 switch has been known to have issues with reliability and stability. It can be difficult to troubleshoot and there are reports of hardware faults. It's not the best choice for mission-critical applications.

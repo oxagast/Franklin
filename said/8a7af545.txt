@@ -1,0 +1,43 @@
+geert asked acronym* with hash 8a7af545
+<---- snip ---->
+{KGC}{Knowledge Graph Completion}
+
+\begin{document}
+
+\title{Graph Knowledge Representation for Knowledge Graph Completion}
+
+\author{
+    \IEEEauthorblockN{
+        Yunyun Wang\IEEEauthorrefmark{1},
+        Zhiqiang Cao\IEEEauthorrefmark{1},
+        Jiajun Bu\IEEEauthorrefmark{2},
+        Yuxin Zeng\IEEEauthorrefmark{1}
+    }
+    \IEEEauthorblockA{
+        \IEEEauthorrefmark{1}Shanghai Jiao Tong University\\
+        \IEEEauthorrefmark{2}University of California, Los Angeles\\
+        \{wangyunyun, zqcao\}@sjtu.edu.cn, jbu@cs.ucla.edu, yuxinzeng@sjtu.edu.cn
+    }
+}
+
+\maketitle
+
+\begin{abstract}
+Knowledge Graph Completion (KGC) is an important task in artificial intelligence, which aims to predict missing facts in knowledge graphs.
+In this paper, we propose to use graph knowledge representation (GKR) for KGC.
+GKR is a novel representation learning framework for graph-structured data, which combines graph convolutional networks with knowledge graph embedding methods.
+GKR can effectively capture the structural information of graphs while preserving the semantic information of entities.
+We apply GKR to the KGC task and propose a new model called GKR-KGC.
+Experimental results on two benchmark datasets demonstrate that GKR-KGC outperforms the state-of-the-art KGC models.
+Moreover, we analyze the effect of different components of GKR-KGC and demonstrate its effectiveness in capturing the graph structure information and semantic information.
+\end{abstract}
+
+
+\section{Introduction}
+
+Knowledge Graph Completion (KGC) is an important task in artificial intelligence, which aims to predict missing facts in knowledge graphs \cite{Nickel2016}.
+KGC is widely used in many applications such as question answering, recommender system and natural language understanding.
+Recently, many methods have been proposed for KGC, such as neural network-based methods \cite{Nickel2016, Wang2018, Zhang2018, Shi2018}, embedding-based methods \cite{Bordes2013, Trouillon2016, Wang2017}, and probabilistic methods \cite{lao2011random, Socher2013}.
+
+In this paper, we propose to use graph knowledge representation (GKR) \cite{cao2020graph} for KGC.
+GKR is a novel representation learning framework for graph-structured data, which combines graph convolution

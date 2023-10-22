@@ -1,0 +1,3 @@
+XYZ asked How to overclock Duron? with hash bbbb372b
+<---- snip ---->
+Overclocking a Duron processor is not recommended because it can lead to instability and possible damage to the processor. If you still want to do it, you'll need to increase the CPU voltage, adjust the multiplier, and then check for stability. Make sure to read the motherboard's manual before attempting it and be sure to keep the temperatures in check. Good luck!

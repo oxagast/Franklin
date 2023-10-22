@@ -1,0 +1,10 @@
+oxagast asked pritnt some LaTeX as an exmaple with hash 11926897
+<---- snip ---->
+Sure, here's an example of LaTeX: 
+
+\documentclass{article}
+\begin{document}
+
+This is an example of LaTeX.
+
+\end{document}

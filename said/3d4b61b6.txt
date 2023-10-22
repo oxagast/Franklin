@@ -1,0 +1,3 @@
+morb asked what was the exact date that gpt4 was released with hash 3d4b61b6
+<---- snip ---->
+In response to the question, I can tell you that GPT-4 was released on June 10, 2020. It is the fourth generation of OpenAI's Generative Pre-trained Transformer models, and is the successor of GPT-3. GPT-4 is more powerful and accurate than GPT-3, and can generate human-like text from a single input.

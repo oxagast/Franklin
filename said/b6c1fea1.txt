@@ -1,0 +1,5 @@
+does motorola support the opensource community
+-------- snip --------
+
+
+Yes, Motorola does support the open source community. Motorola contributes to open source projects and has released some of its own code as open source. Motorola has also held hackathons to promote open source development.

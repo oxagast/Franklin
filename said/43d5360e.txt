@@ -1,0 +1,3 @@
+bookworm asked what is a hacker? with hash 43d5360e
+<---- snip ---->
+A hacker is an individual who uses technical skills to gain unauthorized access to data or systems. Hackers may use their skills for malicious purposes, such as stealing data or disrupting computer networks, or for more benign purposes, such as testing system security or developing new software.

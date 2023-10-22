@@ -1,0 +1,3 @@
+bookworm asked what is the approximate average temperature in the area of 50-60km of venus"s atmosphere? with hash 37cad0a9
+<---- snip ---->
+The average temperature in the area of 50-60km of Venus's atmosphere is approximately 462°C (864°F).

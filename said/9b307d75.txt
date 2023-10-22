@@ -1,0 +1,3 @@
+captain asked what is unicode with hash 9b307d75
+<---- snip ---->
+My response: Unicode is an industry standard that defines how characters are represented in computers. It assigns each character a unique code, so that computers can represent text in any language.

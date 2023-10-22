@@ -1,0 +1,4 @@
+morb asked can you tunnel ip over wireguard
+<---- snip ---->
+ 
+Yes, it is possible to tunnel IP over WireGuard. WireGuard is an open-source, secure and fast VPN protocol that is capable of tunneling IP traffic and encrypting it along the way. It is also capable of working over UDP or TCP, and is quickly becoming the go-to protocol for secure, reliable remote access and VPN solutions. https://gpt3.oxasploits.com/said/a76a6929

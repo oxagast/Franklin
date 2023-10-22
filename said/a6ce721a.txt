@@ -1,0 +1,12 @@
+Ryujin asked what are the top infosec tools currently? with hash a6ce721a
+<---- snip ---->
+1. Nmap
+2. Wireshark
+3. Metasploit
+4. Nessus
+5. Burp Suite
+6. Aircrack-ng
+7. John the Ripper
+8. OSSEC
+9. OpenVAS
+10. Snort

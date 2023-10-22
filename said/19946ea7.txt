@@ -1,0 +1,3 @@
+xibalba asked in computer displays what is a nit with hash 19946ea7
+<---- snip ---->
+A nit is a unit of measurement used to describe the brightness of a computer display. It stands for "nits" which is a derived from the Latin word for "light". A nit is equal to one candela per square meter, and is a commonly used metric for measuring display brightness.

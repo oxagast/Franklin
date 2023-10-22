@@ -1,0 +1,5 @@
+what processors do nuclear weapons use in russia?
+-------- snip --------
+
+
+Nuclear weapons in Russia are typically equipped with range of processors, mostly from the x86 and ARM families. These include Intel Pentium and Atom processors, as well as ARM Cortex and Qualcomm Snapdragon processors.

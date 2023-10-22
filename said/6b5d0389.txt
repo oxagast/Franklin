@@ -1,0 +1,3 @@
+CerebraNet asked There is very little traffic on 144.390 MHz with hash 6b5d0389
+<---- snip ---->
+My response is: It's difficult to say without more information. It could be that the frequency is not heavily used, or that the conditions are not conducive for transmission.

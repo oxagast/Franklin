@@ -1,0 +1,5 @@
+What barcode standard does USPS use?
+-------- snip --------
+
+
+USPS uses the Intelligent Mail Barcode (IMB) standard.

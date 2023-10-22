@@ -1,0 +1,3 @@
+CerebraNet asked How do I become superuser in a cisco router with hash c63488f3
+<---- snip ---->
+To become a superuser in a Cisco router, you must have a username and password with elevated privileges. You can become a superuser by logging into the router using the “enable” command and then entering your username and password. After you have entered the correct credentials, you will be granted full administrator access to the router.

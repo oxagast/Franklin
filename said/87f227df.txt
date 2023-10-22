@@ -1,0 +1,5 @@
+eat ItemDao
+-------- snip --------
+
+
+ItemDao is an interface that provides the ability to interact with the persistent data layer for a given application. It enables developers to create, update, delete, and query items from the persistent data store. It also provides an API for querying the stored items. It is typically used in conjunction with a persistence layer such as a database.

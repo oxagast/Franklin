@@ -1,0 +1,3 @@
+xibalba asked give me the top 5 networking companies based off fof their respective market caps and givew me their cap numbers with hash 82c98d30
+<---- snip ---->
+The top 5 networking companies based off their respective market caps are Cisco ($220.2B), Huawei ($122.4B), Juniper Networks ($15.3B), Arista Networks ($13.2B), and HPE ($22.4B).

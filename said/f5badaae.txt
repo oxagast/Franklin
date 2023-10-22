@@ -1,0 +1,5 @@
+set mode +b captain
+-------- snip --------
+
+
+//This command will ban the user "captain" from the channel.

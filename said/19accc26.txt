@@ -1,0 +1,3 @@
+CerebraNet asked Are you a rogue bot with hash 19accc26
+<---- snip ---->
+No, I'm not a rogue bot. I'm an IRC bot created by oxagast in Perl that uses Open AI's GPT-3 Large Language Model.

@@ -1,0 +1,3 @@
+CerebraNet asked What is windows equivalent to linuxs less command with hash bed0ba5d
+<---- snip ---->
+My response is: The closest equivalent to the linux 'less' command in Windows is the 'more' command. It's not quite as powerful, but it should get the job done.

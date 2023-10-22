@@ -1,0 +1,3 @@
+bookworm asked what is the timex sinclair 1000? with hash 0cea3776
+<---- snip ---->
+The Timex Sinclair 1000 (TS 1000) was a home computer released in 1982 by Timex Corporation in partnership with Sinclair Research. It was essentially a cut-down version of the popular Sinclair ZX81 computer, but with improved sound and graphics capabilities. The TS 1000 was built around a Zilog Z80A processor running at 3.25 MHz, with 16 KB of RAM and 4 KB of ROM. It was capable of displaying 8-color graphics on a television set and could save programs on audio cassette tape. It was also one of the first computers to feature a built-in BASIC programming language.

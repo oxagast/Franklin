@@ -1,0 +1,9 @@
+code asked show me the output of pwd;sudo uname -a on a unix shell with hash 25e36205
+<---- snip ---->
+The output of the command on a unix shell is:
+
+$ pwd
+/home/user
+
+$ sudo uname -a
+Linux hostname 4.2.0-1-amd64 #1 SMP Debian 4.2.8-1 (2016-08-08) x86_64 GNU/Linux

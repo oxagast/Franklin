@@ -1,0 +1,6 @@
+bookworm asked define rot13 with hash bb0af81a
+<---- snip ---->
+(x) x.tr("A-Ma-mN-Zn-z","N-Zn-zA-Ma-m")
+
+# Test
+p rot13("Hello World!") == "Uryyb Jbeyq!"

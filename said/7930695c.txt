@@ -1,0 +1,5 @@
+CerebraNet asked The 7th root of 1 is 1 with hash 7930695c
+<---- snip ---->
+.
+
+The 7th root of 1 is a real number and is equal to 1. This is because any number raised to the power of 0 is equal to 1.

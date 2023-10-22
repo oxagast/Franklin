@@ -1,0 +1,60 @@
+bookworm asked list table 100 words for love in different languages - format word:word\n with hash 09beb3f2
+<---- snip ---->
+Latvian:mīlestība:love
+Spanish:amor:love
+Arabic:hūb:love
+German:Liebe:love
+French:amour:love
+Chinese:ài:love
+Italian:amore:love
+Greek:agápi:love
+Japanese:ai:love
+Portuguese:amor:love
+Swahili:upendo:love
+Hindi:pyaar:love
+Korean:sarang:love
+Finnish:rakkaus:love
+Vietnamese:yêu thương:love
+Hebrew:ahavah:love
+Polish:miłość:love
+Persian:eshgh:love
+Romanian:dragoste:love
+Czech:láska:love
+Dutch:liefde:love
+Thai:chun rak:love
+Irish:grá:love
+Bengali:priyo:love
+Turkish:aşk:love
+Danish:kærlighed:love
+Swedish:kärlek:love
+Hungarian:szerelem:love
+Catalan:amor:love
+Tamil:kāviyam:love
+Serbian:ljubav:love
+Indonesian:cinta:love
+Malay:sayang:love
+Croatian:ljubav:love
+Slovak:láska:love
+Norwegian:kjærlighet:love
+Maltese:mhabba:love
+Russian:любовь:love
+Haitian Creole:renmen:love
+Slovenian:ljubezen:love
+Bulgarian:обич:love
+Albanian:dashuri:love
+Basque:maitea:love
+Lithuanian:meilė:love
+Marathi:preeti:love
+Ukrainian:любов:love
+Esperanto:amikeco:love
+Estonian:armastus:love
+Azerbaijani:sevgi:love
+Icelandic:ást:love
+Somali:jiifto:love
+Yiddish:libe:love
+Kurdish:hevok:love
+Georgian:სიყვარული:love
+Galician:amor:love
+Punjabi:ਪਿਆਰ:love
+Uzbek:sevgi:love
+Urdu:mohabbat:love

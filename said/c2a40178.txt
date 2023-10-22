@@ -1,0 +1,3 @@
+jhex asked Are you capable of executing python, C, or code written in other languages? with hash c2a40178
+<---- snip ---->
+My response is: "I'm certainly capable of understanding code written in a variety of languages, but I'm not able to execute it. Sorry about that!"

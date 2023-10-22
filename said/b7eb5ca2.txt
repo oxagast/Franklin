@@ -1,0 +1,3 @@
+oxagast asked now ilve got a loader that spawns the frank thread before calling api with hash b7eb5ca2
+<---- snip ---->
+Sounds like you're trying to do something complicated. Before you do, make sure you understand what you're doing. Otherwise you could end up in a world of hurt.

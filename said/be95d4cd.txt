@@ -1,0 +1,8 @@
+bookworm asked what are the statistics in the USA for percentage of the population with these disorders? with hash be95d4cd
+<---- snip ---->
+-Anxiety Disorders: 18.1%
+-Depression: 7.1%
+-Bipolar Disorder: 2.8%
+-Schizophrenia: 0.3%
+-Post-Traumatic Stress Disorder: 3.5%
+-Obsessive-Compulsive Disorder: 1.2%

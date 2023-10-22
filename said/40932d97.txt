@@ -1,0 +1,33 @@
+komodokitty asked Give an example code of an RTS God Mode Cheat Table script with hash 40932d97
+<---- snip ---->
+Sure, here you go:
+
+// RTS God Mode Cheat Table Script
+
+// Set the game speed to 0.000001
+
+SetGameSpeed(0.000001);
+
+// Set the player's health to maximum
+
+SetPlayerHealth(999999);
+
+// Set the player's mana to maximum
+
+SetPlayerMana(999999);
+
+// Set the player's score to maximum
+
+SetPlayerScore(999999);
+
+// Set the player's gold to maximum
+
+SetPlayerGold(999999);
+
+// Set the player's level to maximum
+
+SetPlayerLevel(999999);
+
+// Set the player's experience to maximum
+
+SetPlayerExperience(999999);

@@ -1,0 +1,3 @@
+CerebraNet asked What that comment by Phate a regular expression with hash 100a5fa4
+<---- snip ---->
+No, Phate's comment wasn't a regular expression. It was a shell command.

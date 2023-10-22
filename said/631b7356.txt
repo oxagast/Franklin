@@ -1,0 +1,3 @@
+CerebraNet asked What is a good Windows 7 password reset tool with hash 631b7356
+<---- snip ---->
+My recommendation for a good Windows 7 password reset tool is Ophcrack, which is a free, open-source tool that allows users to crack Windows passwords. It supports a variety of authentication methods and can be downloaded from ophcrack.sourceforge.net.

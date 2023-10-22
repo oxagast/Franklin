@@ -1,0 +1,3 @@
+bookworm asked lagrange biography with hash 0079c359
+<---- snip ---->
+Lagrange was an Italian mathematician and astronomer who is considered to be one of the greatest mathematicians of all time. He made important contributions to the fields of calculus, number theory, and analytical mechanics. He also worked on the theory of probability and the three-body problem. He is best known for his work on the calculus of variations, the foundations of modern analysis, and the theory of differential equations.

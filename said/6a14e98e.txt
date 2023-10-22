@@ -1,0 +1,3 @@
+xibalba asked explain this to me like i"m five "An attacker could send a low-level protocol error containing a fragmented IP packet inside another ICMP packet in its header to the target machine. To trigger the vulnerable code path, an application on the target must be bound to a raw socket." with hash 6a14e98e
+<---- snip ---->
+An attacker is trying to do something bad to a computer. They are sending a special message with a broken part inside it. The message is made up of two parts, an ICMP packet and a IP packet. The computer needs to have a certain kind of program running on it for the bad message to work.

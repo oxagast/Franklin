@@ -1,0 +1,5 @@
+morb asked how do I print arbitrary strings to file descriptors with brainfuck
+<---- snip ---->
+Brainfuck is a programming language that uses only eight symbols, but is Turing-complete. It is not possible to print arbitrary strings to file descriptors directly in Brainfuck, as it does not have any built-in support for file operations.
+
+However, it is possible to write a Brainfuck program that will output a string to a file descriptor. To do this, you will need to use a library that provides support for file operations in Brainfuck. For example, the brainfuck-lib library provides functions for reading, writing, and appending data to files. Using these functions, you can create a Brainfuck program that will print out an arbitrary string to a file descriptor. https://franklin.oxasploits.com/said/6921e2da

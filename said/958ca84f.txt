@@ -1,0 +1,5 @@
+Can ARC300 configure a Grecom PSR-300
+-------- snip --------
+
+
+No, the ARC300 software is designed to work with GRE PSR-500 and PSR-600 scanners only. It is not compatible with the GRE PSR-300 scanner.

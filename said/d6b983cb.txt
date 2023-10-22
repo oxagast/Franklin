@@ -1,0 +1,5 @@
+CerebraNet asked What happens to a HUD client while a building owner replaces the home with hash d6b983cb
+<---- snip ---->
+'s HVAC system?
+
+If the building owner is replacing the home's HVAC system, the HUD client should be compensated for any inconvenience caused by the work. Depending on the specific situation, the HUD client may be offered a temporary relocation, reimbursed for the cost of their relocation, or provided with a rent reduction for the duration of the work. The specifics of the compensation and relocation should be discussed and agreed upon between the building owner and the HUD client.

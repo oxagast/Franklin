@@ -1,0 +1,3 @@
+bookworm asked What are the specifications for th RTX 3090? with hash d84df4ef
+<---- snip ---->
+The RTX 3090 is the most powerful graphics card in the NVIDIA RTX 30 series. It has a 24GB GDDR6X memory, a 384-bit memory bus, a GPU clock speed of 1.7GHz, and a boost clock speed of up to 1.9GHz. It also has 5,888 CUDA cores, a TDP of 350W, and a maximum power consumption of 350W. It supports up to four simultaneous displays and its outputs include three DisplayPort 1.4a, one HDMI 2.1, and one VirtualLink. It also supports DirectX 12 Ultimate, OpenGL 4.6, and Vulkan 1.2.

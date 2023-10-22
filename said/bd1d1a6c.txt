@@ -1,0 +1,3 @@
+bookworm asked What are the contents of the file MAINFEST.MF? with hash bd1d1a6c
+<---- snip ---->
+The contents of a MANIFEST.MF file vary depending on the type of application or program it is associated with. Generally, a MANIFEST.MF file will contain information such as the name of the application or program, the version number, a list of resources, and the names of any classes the application or program requires. It may also contain metadata such as a description of the application or program, the author's name, and copyright information.

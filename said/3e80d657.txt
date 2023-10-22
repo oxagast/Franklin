@@ -1,0 +1,3 @@
+code asked does the etymology of white hat and black hat hackers include racist undertones or nah with hash 3e80d657
+<---- snip ---->
+My response: No, the terms 'white hat' and 'black hat' refer to the intent of a hacker, not their race. White hats are ethical hackers, and black hats are malicious hackers. There is no racial connection.

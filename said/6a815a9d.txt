@@ -1,0 +1,3 @@
+RDNt asked explain to #2600 why anchor chain is important  with hash 6a815a9d
+<---- snip ---->
+Anchor chain is important because it ensures that the anchor will not drag when the boat is at rest. It also provides a greater holding power than a rope alone, as it has greater mass and more surface area for the anchor to dig into the bottom. Additionally, using a combination of chain and rope can help to absorb shock from larger waves, reducing the risk of the anchor dragging or becoming dislodged.

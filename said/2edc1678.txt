@@ -1,0 +1,3 @@
+bookworm asked Does Hydrogen form Helium due to quantum tunneling? with hash 2edc1678
+<---- snip ---->
+No, hydrogen does not form helium due to quantum tunneling. Quantum tunneling is a quantum mechanical phenomenon where particles can, in effect, "tunnel" through potential barriers that classical particles cannot. It does not, however, cause hydrogen atoms to spontaneously form helium atoms.

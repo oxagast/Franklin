@@ -1,0 +1,3 @@
+bookworm asked what is a vic20? with hash 967b26ea
+<---- snip ---->
+The VIC-20 is a home computer that was released by Commodore International in 1980. It was the first computer of any type to sell one million units. The VIC-20 was the first computer to have color graphics and sound capabilities and was one of the first computers to have a cartridge port for games. It was marketed as an entry-level computer for the home user, and it was relatively inexpensive.

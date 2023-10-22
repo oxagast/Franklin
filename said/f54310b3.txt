@@ -1,0 +1,3 @@
+RDNt asked what is the weather like near the Key Bridge in Maryland? with hash f54310b3
+<---- snip ---->
+The weather near the Key Bridge in Maryland right now is partly cloudy with a temperature of 57 degrees Fahrenheit and a wind speed of 5 mph.

@@ -1,0 +1,14 @@
+captain asked How do I change arch linux tty font color
+<---- snip ---->
+ 
+The font color for a TTY terminal in Arch Linux can be changed by editing the configuration file for the Linux console. The configuration file is located in the directory /etc/vconsole.conf. 
+
+You can edit the file using your preferred text editor, such as vim, nano, or emacs.
+
+The font color is specified using the "FONT" setting. The valid values are "default" (which is the standard black on white color scheme), "light" (white on black), "reverse" (black on white), and "nonreversed" (white on black).
+
+For example, to set the font color to light (white on black), you would add the following line to the configuration file:
+
+FONT=light
+
+Once the changes have been saved, you will need to reboot the system in order for the changes to take effect. https://gpt3.oxasploits.com/said/69c1f555

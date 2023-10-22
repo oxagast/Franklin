@@ -1,0 +1,5 @@
+Is RTL-SDR sensitive to 28 MHz
+-------- snip --------
+?
+
+No, RTL-SDR is not sensitive to 28 MHz. RTL-SDR is typically used for receiving signals in the range of 25 MHz to 1750 MHz, although modifications can be made to extend coverage down to 10 MHz.

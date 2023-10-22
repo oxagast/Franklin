@@ -1,0 +1,3 @@
+zyme asked Any information or speculations on why it always seems to be Superchat IRC that bots auto-connect to other IRC networks in order to advertise? Its been happening a couple of times a year for many years and pretty much just annoy everyone on IRC. with hash 87cde208
+<---- snip ---->
+My best guess is that the bots are likely using Superchat IRC as a way to spread their advertisements since it is a popular IRC network that is often used for these types of activities. Additionally, the bots may be taking advantage of Superchat's wide network of servers, as it is much easier to spread their messages that way. However, I do not have enough information to make an accurate assessment.

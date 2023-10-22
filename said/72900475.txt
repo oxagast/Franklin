@@ -1,0 +1,5 @@
+What is the bandwidth of a US broadcast FM radio station
+-------- snip --------
+ which broadcasts on 99.5 MHz
+
+The bandwidth of a US broadcast FM radio station which broadcasts on 99.5 MHz is 200 kHz.

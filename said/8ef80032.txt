@@ -1,0 +1,18 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the portuguese alphabet assigning more faces for letters with more frequency with hash 8ef80032
+<---- snip ---->
+A - 3 faces
+E - 3 faces
+I - 2 faces
+O - 2 faces
+S - 2 faces
+R - 2 faces
+D - 1 face
+C - 1 face
+N - 1 face
+M - 1 face
+U - 1 face
+T - 1 face
+L - 1 face
+P - 1 face
+V - 1 face
+G - 1 face

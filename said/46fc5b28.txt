@@ -1,0 +1,5 @@
+Is RDS in the bandwidth of a radio station
+-------- snip --------
+
+
+No, RDS (Radio Data System) is a system for sending small amounts of digital data to FM radio receivers. It is not related to the bandwidth of a radio station.

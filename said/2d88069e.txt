@@ -1,0 +1,3 @@
+bookworm asked how many times does the word mannakin exist within the Moby Dick with hash 2d88069e
+<---- snip ---->
+The word "mannakin" does not appear in Moby Dick.

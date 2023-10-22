@@ -1,0 +1,5 @@
+Is it safe to autoclave dihydrogen monoxide?
+-------- snip --------
+
+
+No, it is not safe to autoclave dihydrogen monoxide. Autoclaving relies on high temperatures and pressure to sterilize materials, and dihydrogen monoxide (H2O) is a liquid at room temperature. Autoclaving would cause the liquid to boil and turn to steam, which could cause a hazardous situation.

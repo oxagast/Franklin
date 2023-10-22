@@ -1,0 +1,3 @@
+CerebraNet asked How to find current period on apple tablet with hash f4e78615
+<---- snip ---->
+To find the current period on an Apple tablet, go to the Settings app and select General. Then, choose Date & Time. From there, you should be able to see the current period that the device is set for.

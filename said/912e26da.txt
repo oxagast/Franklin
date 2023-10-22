@@ -1,0 +1,3 @@
+CerebraNet asked What frequency does ADS-B  use with hash 912e26da
+<---- snip ---->
+ADS-B uses 1090 MHz, 978 MHz, and UAT frequencies.

@@ -1,0 +1,34 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the polish alphabet assigning more faces for letters with more frequency with hash d85302ba
+<---- snip ---->
+1. A - 8 faces
+2. Ą - 1 face
+3. B - 2 faces 
+4. C - 2 faces
+5. Ć - 1 face
+6. D - 3 faces
+7. E - 4 faces
+8. Ę - 1 face
+9. F - 1 face
+10. G - 1 face
+11. H - 1 face
+12. I - 4 faces
+13. J - 2 faces
+14. K - 3 faces
+15. L - 2 faces
+16. Ł - 1 face
+17. M - 3 faces
+18. N - 4 faces
+19. Ń - 1 face
+20. O - 2 faces
+21. Ó - 1 face
+22. P - 4 faces
+23. R - 4 faces
+24. S - 2 faces
+25. Ś - 1 face
+26. T - 2 faces
+27. U - 1 face
+28. W - 3 faces
+29. Y - 2 faces
+30. Z - 3 faces
+31. Ź - 1 face
+32. Ż - 1 face

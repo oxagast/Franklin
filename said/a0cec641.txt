@@ -1,0 +1,56 @@
+bookworm asked Meta with hash a0cec641
+<---- snip ---->
+Data,
+    _In_  UINT uNumFormats
+    )
+{
+    HRESULT hr = S_OK;
+
+    if (m_pd3dDevice == NULL)
+    {
+        return hr;
+    }
+
+    // Create a vertex buffer
+    D3D11_BUFFER_DESC bd;
+    ZeroMemory( &bd, sizeof(bd) );
+    bd.Usage = D3D11_USAGE_DEFAULT;
+    bd.ByteWidth = m_uVertexStride * m_uVertexCount;
+    bd.BindFlags = D3D11_BIND_VERTEX_BUFFER;
+    bd.CPUAccessFlags = 0;
+    D3D11_SUBRESOURCE_DATA InitData;
+    ZeroMemory( &InitData, sizeof(InitData) );
+    InitData.pSysMem = m_pVertexData;
+    hr = m_pd3dDevice->CreateBuffer( &bd, &InitData, &m_pVertexBuffer );
+    if ( FAILED(hr) )
+    {
+        return hr;
+    }
+
+    // Set vertex buffer
+    UINT stride = m_uVertexStride;
+    UINT offset = 0;
+    m_pImmediateContext->IASetVertexBuffers( 0, 1, &m_pVertexBuffer, &stride, &offset );
+
+    // Create index buffer
+    bd.Usage = D3D11_USAGE_DEFAULT;
+    bd.ByteWidth = sizeof(UINT) * m_uIndexCount;
+    bd.BindFlags = D3D11_BIND_INDEX_BUFFER;
+    bd.CPUAccessFlags = 0;
+    InitData.pSysMem = m_pIndexData;
+    hr = m_pd3dDevice->CreateBuffer( &bd, &InitData, &m_pIndexBuffer );
+    if ( FAILED(hr) )
+    {
+        return hr;
+    }
+
+    // Set index buffer
+    m_pImmediateContext->IASetIndexBuffer( m_pIndexBuffer, DXGI_FORMAT_R32_UINT, 0 );
+
+    // Set primitive topology
+    m_pImmediateContext->IASetPrimitiveTopology( D3D_PRIMITIVE_TOPOLOGY_TRIANGLELIST );
+
+    // Create the input layout
+    hr = m_pd3dDevice->CreateInputLayout( pVertexLayout,
+                                          uVertexElements,
+                                          pVertexShaderBlob->GetBufferPointer

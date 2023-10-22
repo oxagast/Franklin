@@ -1,0 +1,5 @@
+what is google Lamda?
+-------- snip --------
+
+
+Google Cloud Functions, also known as Google Lambda, is a serverless compute service that executes arbitrary code in response to events and automatically manages the compute resources required by that code. It is a part of Google Cloud Platform and is a way for developers to create applications without having to worry about managing servers or infrastructure.

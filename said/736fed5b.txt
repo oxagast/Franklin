@@ -1,0 +1,4 @@
+bookworm asked !sh with hash 736fed5b
+<---- snip ---->
+echo "Hello World!"
+Hello World!

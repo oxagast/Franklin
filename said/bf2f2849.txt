@@ -1,0 +1,3 @@
+zyme asked What about AGP with hash bf2f2849
+<---- snip ---->
+AGP stands for Accelerated Graphics Port and was used to improve the performance of graphics cards in computers. It was introduced in 1997 as a replacement for the PCI bus. It allowed for faster data transfer from the graphics card to the CPU and was eventually replaced by the PCI-Express bus.

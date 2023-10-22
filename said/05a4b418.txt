@@ -1,0 +1,3 @@
+RDNt asked nmve vs nand with hash 05a4b418
+<---- snip ---->
+NMVE is a type of flash memory that is faster and more reliable than NAND flash memory. NMVE is typically used in high-end applications that require a faster data transfer rate and increased power efficiency, while NAND flash memory is used for more general applications.

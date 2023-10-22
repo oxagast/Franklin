@@ -1,0 +1,16 @@
+morb asked write me a x-rated website blocker in javascript that works in developer console  with hash 6933ba75
+<---- snip ---->
+// Establish an array of x-rated websites
+var xRatedWebsites = ["www.xxx.com", "www.adult.com", "www.nsfw.com"];
+
+// Establish a function to block x-rated websites
+function blockXRatedWebsites() {
+    // Iterate over x-rated websites array
+    xRatedWebsites.forEach(function(website) {
+        // Block each x-rated website
+        window.location.href = "https://www.google.com/";
+    });
+}
+
+// Call the blockXRatedWebsites function
+blockXRatedWebsites();

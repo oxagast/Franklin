@@ -1,0 +1,29 @@
+continue
+-------- snip --------
+
+					}
+				}
+
+				// If the node is not found, it must be added to the graph
+				// Create the node
+				node := createNode(newNodeName)
+
+				// Add the node to the graph
+				graph.addNode(node)
+				graph.addEdge(edge)
+
+				// Take note of the new node
+				newNodes = append(newNodes, node)
+			}
+		}
+	}
+
+	// Return the new nodes
+	return newNodes
+}
+
+// Generates a new graph based on the provided graph
+func (graph *Graph) generateNewGraph(nodesToKeep []*Node) *Graph {
+	newGraph := NewGraph()
+
+	// For each node to keep

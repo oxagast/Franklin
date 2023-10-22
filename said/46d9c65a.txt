@@ -1,0 +1,64 @@
+bookworm asked BOINC with hash 46d9c65a
+<---- snip ---->
+_ROOT_DIR
+#   BOINC_PROJECT_DIR
+#   BOINC_USER_NAME
+#   BOINC_USER_PASSWD
+#   BOINC_USER_EMAIL
+#   BOINC_HOSTID
+#   BOINC_USER_FULL_NAME
+#
+# Note:
+# - BOINC_PROJECT_DIR is relative to BOINC_ROOT_DIR
+# - BOINC_HOSTID is an integer value
+# - BOINC_USER_FULL_NAME is optional
+
+BOINC_ROOT_DIR=/var/lib/boinc
+BOINC_PROJECT_DIR=projects/www.worldcommunitygrid.org
+BOINC_USER_NAME=
+BOINC_USER_PASSWD=
+BOINC_USER_EMAIL=
+BOINC_HOSTID=
+BOINC_USER_FULL_NAME=
+
+# Uncomment the following line if you want to enable the watchdog
+# BOINC_ENABLE_WATCHDOG=yes
+
+# Uncomment the following line if you want to enable the manager
+# BOINC_ENABLE_MANAGER=yes
+
+# Uncomment the following line if you want to disable the processor
+# BOINC_DISABLE_PROCESSOR=yes
+
+# Uncomment the following line if you want to enable the processor
+# BOINC_ENABLE_PROCESSOR=yes
+
+# Uncomment the following line if you want to disable the network access
+# BOINC_DISABLE_NETWORK=yes
+
+# Uncomment the following line if you want to enable the network access
+# BOINC_ENABLE_NETWORK=yes
+
+# Uncomment the following line if you want to enable the GPU
+# BOINC_ENABLE_GPU=yes
+
+# Uncomment the following line if you want to disable the GPU
+# BOINC_DISABLE_GPU=yes
+
+# Uncomment the following line if you want to enable the screensaver
+# BOINC_ENABLE_SCREENSAVER=yes
+
+# Uncomment the following line if you want to disable the screensaver
+# BOINC_DISABLE_SCREENSAVER=yes
+
+# Uncomment the following line if you want to enable the graphics
+# BOINC_ENABLE_GRAPHICS=yes
+
+# Uncomment the following line if you want to disable the graphics
+# BOINC_DISABLE_GRAPHICS=yes
+
+# Uncomment the following line if you want to enable the web graphics
+# BOINC_ENABLE_WEB_GRAPHICS=yes
+
+# Uncomment the following line if you want to disable the web graphics
+# BOINC_DISABLE_WEB_GRAPHICS=

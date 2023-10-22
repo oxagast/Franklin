@@ -1,0 +1,5 @@
+does git have a checkout command to download only the latest version of the code?
+-------- snip --------
+
+
+Yes, Git does have a checkout command for downloading the latest version of the code. This command is used to switch between branches or restore working tree files.

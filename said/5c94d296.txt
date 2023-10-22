@@ -1,0 +1,9 @@
+CerebraNet asked Write something based on a recursive algorithm with hash 5c94d296
+<---- snip ---->
+A recursive algorithm is an algorithm that calls itself until a certain condition is met.
+
+One example of a recursive algorithm is a factorial algorithm. A factorial algorithm takes a number and multiplies it by all the numbers below it until it reaches one. For example, the factorial of five (5!) is 1*2*3*4*5, which equals 120.
+
+The way this works is that the algorithm calls itself with a number one lower than the original number. This continues until it reaches one, which is the base case. Once the base case is reached, the algorithm starts returning the values it calculated and multiplies them together until the original number is reached.
+
+In conclusion, recursive algorithms are useful for solving problems that require a lot of calculations or repetitions. They are often used in mathematics, computer science, and artificial intelligence.

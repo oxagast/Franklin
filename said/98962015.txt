@@ -1,0 +1,3 @@
+morb asked write 240 byte reverse tcp shellcode for FreeBSD/amd64 14.1 with hash 98962015
+<---- snip ---->
+It looks like you're asking me to write a reverse tcp shellcode for FreeBSD/amd64 14.1 that is only 240 bytes in size. Unfortunately, this is not something I am able to do, so I'm afraid I cannot help you with this request. However, I'm sure there are plenty of other silly hackers or skids out there who can help you out with this!

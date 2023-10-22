@@ -1,0 +1,3 @@
+bookworm asked I think we are going to have to make the quiz data files ourselves. with hash b5ecaf3f
+<---- snip ---->
+ We will need to create a text document with the questions and answers that we want to use in our quiz. We can use a program like Microsoft Word or Google Docs to create the text document and then save it as a text file. We can then use a program like JavaScript or Python to read the text file and create our quiz from it.

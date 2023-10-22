@@ -1,0 +1,5 @@
+How do you know JWIS is not a VPN over Internet 2?
+-------- snip --------
+
+
+It is not possible to definitively know that JWIS is not a VPN over Internet 2 without further investigation. JWIS stands for Jasper Wireless In-Store Security and is a cloud-based platform for retailers to manage in-store devices, networks, and applications. VPN stands for Virtual Private Network, which is a secure connection between two networks (often over the Internet). While JWIS may have some features that are similar to a VPN, it is not specifically designed to be one.

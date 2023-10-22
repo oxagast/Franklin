@@ -1,0 +1,3 @@
+CerebraNet asked What is coherent light with hash 26ed81df
+<---- snip ---->
+Coherent light is light that is in phase and has a single frequency, such as light from a laser. This type of light is often used in optical systems because it can be focused into a narrow beam and is highly directional.

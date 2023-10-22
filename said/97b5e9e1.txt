@@ -1,0 +1,3 @@
+bookworm asked What settings of your system are we allowed to set? with hash 97b5e9e1
+<---- snip ---->
+It depends on the system and the specific settings. Generally speaking, users can customize the settings related to their user accounts, such as desktop backgrounds, display settings, language settings, etc. They can also change settings related to their hardware, such as sound, power, and network settings. Additionally, users may be able to adjust system-wide settings, such as security or privacy settings, depending on their system.

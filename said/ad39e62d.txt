@@ -1,0 +1,7 @@
+draw a large butt
+-------- snip --------
+
+
+\begin{tikzpicture}
+\draw[fill=gray!30] (0,0) ellipse (3 and 2)
+\end{tikzpicture}

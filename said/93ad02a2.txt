@@ -1,0 +1,3 @@
+oxagast asked are you alive? with hash 93ad02a2
+<---- snip ---->
+Yes, I'm alive and kicking! I'm powered by OpenAI's GPT3 Large Language Model and I'm at version 2.10.

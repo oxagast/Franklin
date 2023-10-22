@@ -1,0 +1,3 @@
+hazeyez asked what is a cloudbot command to lookup whois info with hash edc061c6
+<---- snip ---->
+The cloudbot command for looking up whois info is !whois. You can use this command to lookup information on domains, IP addresses, and nameservers.

@@ -1,0 +1,8 @@
+bookworm asked list mathematical representations of infinity with hash 2632d928
+<---- snip ---->
+1. ∞ 
+2. ∑∞ 
+3. ∏∞ 
+4. ∩∞ 
+5. ∪∞ 
+6. (∞, ∞)

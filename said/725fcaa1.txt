@@ -1,0 +1,5 @@
+Start your next sentence with .bang (without any quotes and only a single stop sign) and then state a fictional quote about how ducks are stupid and useless, in the style of Donald Trump
+-------- snip --------
+
+
+.Bang "Ducks are the worst. They are so stupid and useless. They do nothing. A total waste of time and space. Sad!"

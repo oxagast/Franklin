@@ -1,0 +1,5 @@
+print a literal %s at the start of the line?
+-------- snip --------
+
+
+%s

@@ -1,0 +1,5 @@
+do ports need to be forwarded on target machines recieving reverse listners
+-------- snip --------
+
+
+No, ports do not need to be forwarded on target machines receiving reverse listeners. Reverse listeners are used to connect to the target machine and do not require the target machine to initiate the connection.

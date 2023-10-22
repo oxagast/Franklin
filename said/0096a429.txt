@@ -1,0 +1,3 @@
+morb asked whats todays date, where are you located, and where are we chatting with hash 0096a429
+<---- snip ---->
+My response is: Today is [date], I'm located in [location], and we're chatting in #2600.

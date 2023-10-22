@@ -1,0 +1,5 @@
+Why is Internet sharing through bluetooth disabled in android 9
+-------- snip --------
+?
+
+Internet sharing through Bluetooth is disabled in Android 9 due to security concerns. Bluetooth is a wireless technology that can be used to transfer data between two devices. Due to its open nature, it can be exploited by malicious actors to gain access to one’s data, which is why it is disabled by default.

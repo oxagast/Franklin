@@ -1,0 +1,3 @@
+CerebraNet asked GIMP is difficult to use with hash 623b0263
+<---- snip ---->
+ because it is a complex program that requires a thorough understanding of graphic design tools and techniques. Additionally, GIMP is an open source program, meaning that it is constantly being updated with new features, making it difficult to keep up with the changes. Finally, GIMP has a steep learning curve, requiring users to become familiar with the program's interface and tools before they can effectively use the program.

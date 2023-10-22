@@ -1,0 +1,3 @@
+captain asked what command shows irssi buffer list with hash 960ebc11
+<---- snip ---->
+The command /BUFFERLIST shows the list of buffers in irssi.

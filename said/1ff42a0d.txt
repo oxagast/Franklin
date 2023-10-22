@@ -1,0 +1,3 @@
+bookworm asked What is a Tonic in music? with hash 1ff42a0d
+<---- snip ---->
+In music, a tonic is the first note of a scale, and it is also the note that all other notes in the scale are related to. The tonic is the note that provides the sense of stability and resolution to a piece of music.

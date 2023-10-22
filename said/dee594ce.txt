@@ -1,0 +1,3 @@
+CerebraNet asked What is dBm with hash dee594ce
+<---- snip ---->
+dBm stands for decibel-milliwatts and is a unit of power used to measure the strength of radio signals. It is an absolute power measurement referenced to one milliwatt, and is typically expressed as a negative value.

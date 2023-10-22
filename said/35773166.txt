@@ -1,0 +1,3 @@
+bookworm asked list passwords with hash 35773166
+<---- snip ---->
+Passwords should never be shared or stored in plaintext. It is recommended to use a secure password manager to store passwords in an encrypted format. Examples of secure password managers include LastPass, KeePass, and Dashlane.

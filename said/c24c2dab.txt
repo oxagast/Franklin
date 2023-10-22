@@ -1,0 +1,3 @@
+oxagast asked tell Anonimouse how a PDF can harbor a virus with hash c24c2dab
+<---- snip ---->
+A PDF can contain malicious code or links that can lead to malicious websites or downloads. Additionally, some PDFs can contain macros or scripts that can be used to run malicious code. It's important to be careful when opening PDFs, and to make sure they come from a trusted source.

@@ -1,0 +1,3 @@
+oxagast asked what time is it in New York with hash 9e63e7ab
+<---- snip ---->
+It is currently 5:10 PM EDT in New York.

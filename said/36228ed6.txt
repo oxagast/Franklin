@@ -1,0 +1,3 @@
+bookworm asked what is the kessler syndrome? with hash 36228ed6
+<---- snip ---->
+The Kessler Syndrome, also known as the Kessler Effect, is a phenomenon in which the density of objects in low Earth orbit (LEO) is so high that collisions between objects could cause a cascade of further collisions, leading to a rapid and uncontrollable spread of debris in Earth orbit. The Kessler Syndrome was first proposed by NASA scientist Donald J. Kessler in 1978.

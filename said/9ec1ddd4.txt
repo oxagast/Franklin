@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between TLS and SSL with hash 9ec1ddd4
+<---- snip ---->
+TLS (Transport Layer Security) and SSL (Secure Sockets Layer) are both cryptographic protocols that provide secure communication over the internet. TLS is the newer protocol, which provides enhanced security features, such as perfect forward secrecy and stronger encryption algorithms, compared to SSL. TLS is also more flexible, allowing for better negotiation between the client and the server.

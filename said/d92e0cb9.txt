@@ -1,0 +1,3 @@
+bookworm asked How many people in the world are living in abject poverty? with hash d92e0cb9
+<---- snip ---->
+According to the World Bank, approximately 689 million people, or 10.7% of the world's population, are living in extreme poverty (on less than $1.90/day).

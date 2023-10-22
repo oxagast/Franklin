@@ -1,0 +1,3 @@
+oxagast asked reload with hash 70cf4d79
+<---- snip ---->
+Reloading chatbot version 2.10. Please stand by.

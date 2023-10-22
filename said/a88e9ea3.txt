@@ -1,0 +1,24 @@
+oxagast asked """"" with hash a88e9ea3
+<---- snip ---->
+"""
+
+Hello!
+
+Thank you for your question! The best way to create a copy of a list in Python is to use the list's built-in copy() method. This will create a shallow copy of your list, which means that it will create a new list with the same elements as the original list, but the elements themselves will still be references to the original list's elements. Here is an example: 
+
+# Create a list
+my_list = [1, 2, 3]
+
+# Create a shallow copy of the list
+my_list_copy = my_list.copy()
+
+# Modify the original list
+my_list[0] = 0
+
+# Print the original and the copy
+print(my_list) # [0, 2, 3]
+print(my_list_copy) # [1, 2, 3]
+
+Hope this helps!
+
+"""

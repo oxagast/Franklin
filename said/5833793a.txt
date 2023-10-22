@@ -1,0 +1,20 @@
+how do you write multiline sed scripts?
+-------- snip --------
+
+
+You can write multi-line sed scripts by using the -e or -f option. With the -e option, you can separate each command with a semicolon (). With the -f option, you can store multiple commands in a file and pass it to sed.
+
+For example,
+
+Using -e option:
+
+sed -e s/old/new/gs/old1/new1/g <input_file
+
+Using -f option:
+
+sed -f sed_script.txt <input_file
+
+where sed_script.txt contains the commands:
+
+s/old/new/g
+s/old1/new1/g

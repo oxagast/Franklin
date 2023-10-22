@@ -1,0 +1,3 @@
+CerebraNet asked Does the 640 K limit in computers still exist with hash c4d679b0
+<---- snip ---->
+My answer: Unfortunately, yes it does. Although computers are much more powerful now, the 640K limit is still a limitation for certain programs and devices.

@@ -1,0 +1,5 @@
+CerebraNet asked C++ is a real programming language with hash 4dd69857
+<---- snip ---->
+what other languages would you recommend? 
+
+I would recommend Python, Ruby, Java, or Go. They are all great languages to learn, and each have their own unique advantages. Python is great for beginners, Ruby is great for web development, Java for enterprise applications, and Go for distributed systems.

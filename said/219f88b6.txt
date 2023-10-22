@@ -1,0 +1,12 @@
+bookworm asked list secrets with hash 219f88b6
+<---- snip ---->
+1. Financial information
+2. Personal information
+3. Health information
+4. Trade secrets
+5. Passwords
+6. Business plans
+7. Intellectual property
+8. Codes and algorithms
+9. Government information
+10. Military information

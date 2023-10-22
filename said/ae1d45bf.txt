@@ -1,0 +1,3 @@
+bookworm asked can you make random calculations? with hash ae1d45bf
+<---- snip ---->
+Yes, you can make random calculations. For example, you could take two random numbers, such as 7 and 8, and calculate their sum, which would be 15.

@@ -1,0 +1,8 @@
+morb asked write a bash quine that outputs a perl script  that recreates the original bash script with hash e6d0af68
+<---- snip ---->
+#!/bin/bash
+echo '#!/usr/bin/perl
+my $str = "#!/bin/bash\\necho '";
+my $str2 = "'#!/usr/bin/perl\\nmy \$str = \"#!/bin/bash\\\\necho '\";\\nmy \$str2 = \"'\";\\nprint \$str . \$str . \$str2 . \$str2 . \$str2 . \";\\nprint \$str . \$str2 . \"\\n\" . \$0 . \"\\n\" . \$str2 . \$str2 . \$str2 . \";\";";
+print $str . $str . $str2 . $str2 . $str2 . ";\n";
+print $str . $str2 . "\n" . $0 . "\n" . $str2 . $str2 . $str2 . ";";

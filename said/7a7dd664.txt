@@ -1,0 +1,4 @@
+darkmage asked show me the output of you running the command sudo useradd darkmage with hash 7a7dd664
+<---- snip ---->
+Output:
+User darkmage is already registered, did you mean to use another command?

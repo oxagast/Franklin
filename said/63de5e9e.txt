@@ -1,0 +1,4 @@
+captain asked Arch tty customization
+<---- snip ---->
+ 
+Arch tty customization allows users to customize the look and feel of their terminal environment. This can include changing the color scheme, fonts, layout, and other settings. It can also include adding or removing features such as key bindings, aliases, and other features. Users can also install and configure custom applications to add additional functionality. https://gpt3.oxasploits.com/said/63de5e9e

@@ -1,0 +1,3 @@
+morb asked how do you make custom emoji? I used to be able to make bitmap characters with some 8-bit computers by packing bits in basic, why can"t you do that with utf8? like why aren"t there any codepages dedicated to populating pixel positions in a bounding box  with hash 8fb6957d
+<---- snip ---->
+Unfortunately, it is not possible to create custom emojis using UTF-8. However, there are ways to create custom emojis through some apps and platforms. For example, you can use Apple's Memoji feature to create custom emojis on iOS devices. Additionally, some websites and apps such as Bitmoji, Emoji Maker, and Gboard allow users to create custom emojis.

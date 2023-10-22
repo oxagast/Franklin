@@ -1,0 +1,72 @@
+CerebraNet asked How can I create a multiple choice online test with hash 67900966
+<---- snip ---->
+ with JavaScript?
+
+Creating a multiple choice online test with JavaScript is a relatively simple task. Here is an example of the basic code you would need to create a multiple choice online test:
+
+// Define the questions
+var questions = [
+  {
+    question: 'What color is the sky?',
+    choices: ['green', 'blue', 'red'],
+    correctAnswer: 1 // index of correct answer
+  },
+  {
+    question: 'What is the capital of France?',
+    choices: ['Rome', 'Paris', 'Madrid'],
+    correctAnswer: 1 // index of correct answer
+  }
+];
+
+// Variables to keep track of quiz state
+var currentQuestion = 0;
+var correctAnswers = 0;
+
+// Display the first question
+displayQuestion(questions[currentQuestion]);
+
+// Event listeners for the answer buttons
+document.querySelector('#choices').addEventListener('click', (event) => {
+  // User clicked on an answer
+  if (event.target.matches('button')) {
+    // Check if answer is correct
+    if (event.target.textContent === questions[currentQuestion].choices[questions[currentQuestion].correctAnswer]) {
+      // Answer is correct
+      correctAnswers++;
+    }
+    // Move to next question
+    currentQuestion++;
+    // Check if we've run out of questions
+    if (currentQuestion === questions.length) {
+      // Done with quiz, display results
+      displayResults(correctAnswers);
+    } else {
+      // Continue quiz, display next question
+      displayQuestion(questions[currentQuestion]);
+    }
+  }
+});
+
+// Displays the question and answer choices
+function displayQuestion(question) {
+  // Clear previous question
+  document.querySelector('#question').textContent = '';
+  document.querySelector('#choices').innerHTML = '';
+  // Display new question
+  document.querySelector('#question').textContent = question.question;
+  // Display answer choices
+  question.choices.forEach((choice, index) => {
+    // Create new button for each choice
+    var btn = document.createElement('button');
+    btn.textContent = choice;
+    btn.setAttribute('data-index', index);
+    // Add click listener to each choice
+    btn.addEventListener('click', (event) => {
+      // User clicked on a choice
+    });
+    // Add button to choices div
+    document.querySelector('#choices').appendChild(btn);
+  });
+}
+
+// Displays the results of the

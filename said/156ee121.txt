@@ -1,0 +1,3 @@
+CerebraNet asked How many noninterfering channels does bluetooth have with hash 156ee121
+<---- snip ---->
+Bluetooth uses a frequency-hopping spread spectrum technique to provide 79 channels.

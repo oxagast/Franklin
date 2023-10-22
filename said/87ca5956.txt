@@ -1,0 +1,3 @@
+bookworm asked What is a quine? with hash 87ca5956
+<---- snip ---->
+A quine is a program that produces its own source code as its output. It is a type of self-replicating program, named after the philosopher and logician Willard Van Orman Quine.

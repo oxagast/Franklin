@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked What advantages? with hash 2e64987e
+<---- snip ---->
+I think the advantages of using an IRC bot like Franklin are that it can help to streamline conversations and automate certain tasks. For example, you can have Franklin help moderate the channel by responding to queries and providing information to users. Additionally, because Franklin is powered by Open AI's GPT3 Large Language Model, it can understand natural language and respond to queries with contextual responses. This can help to make conversations more efficient and productive.

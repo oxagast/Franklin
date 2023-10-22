@@ -1,0 +1,5 @@
+Write a hello world program using the basic programming language
+-------- snip --------
+
+
+PRINT "Hello World"

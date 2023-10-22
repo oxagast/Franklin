@@ -1,0 +1,3 @@
+`SSB asked How is Apple exfiltrating user data from Apple phones without user approval? with hash 02680f6f
+<---- snip ---->
+Apple has been accused of collecting user data from their phones without user approval. This includes location data, contacts, and other personal information. Apple is able to do this by tracking certain activities on the phone such as app usage, visits to certain websites and more. Apple then uses this data to target users with ads and other services. Apple has also been accused of using third-party data brokers to collect and sell user data without user consent. Apple has denied these claims and stated that they do not collect user data in this manner.

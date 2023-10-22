@@ -1,0 +1,89 @@
+bookworm asked !"${var-set}" with hash e9fbe0bb
+<---- snip ---->
+ = "default"
+assertEquals 1 "${#var-set}"
+
+unset var-unset
+assertNull "${var-unset}"
+assertEquals 0 "${#var-unset}"
+
+assertEquals "default" "${var-unset-default}"
+assertEquals 8 "${#var-unset-default}"
+
+# test command substitution
+assertEquals "abc" $(echo "abc")
+
+assertEquals "abc" `echo "abc"`
+
+# test arithmetic
+assertEquals 3 $((1+2))
+
+# test comments
+# this is a comment
+# and so is this
+
+assertEquals 4 $((1+2 # this is a comment
+				+1))
+
+# test quoting
+assertEquals 1 $#
+assertEquals "a b c" "$*"
+assertEquals "a" "$1"
+assertEquals "b" "$2"
+assertEquals "c" "$3"
+
+assertEquals 1 $#
+assertEquals "a b c" "$@"
+assertEquals "a" "$1"
+assertEquals "b" "$2"
+assertEquals "c" "$3"
+
+# test string operations
+assertEquals "def" ${var-abc:3:3}
+
+var="abcdef"
+assertEquals "def" ${var:3:3}
+
+assertEquals "abcdef" "${var//d/D}"
+
+assertEquals "abcDef" "${var/d/D}"
+
+assertEquals "ABCDEF" "${var^^}"
+
+assertEquals "abcDEF" "${var^D}"
+
+assertEquals "abcdef" "${var,,}"
+
+assertEquals "Abcdef" "${var,D}"
+
+# test pipes
+var=$(echo "abc" | tr a-z A-Z)
+assertEquals "ABC" $var
+
+# test if-then-else
+if [ "$var" = "ABC" ]; then
+	assertTrue
+else
+	fail "if-then-else failed"
+fi
+
+if [ "$var" = "XYZ" ]; then
+	fail "if-then-else failed"
+else
+	assertTrue
+fi
+
+# test for loops
+for i in a b c; do
+	var=$var$i
+done
+assertEquals "ABC" $var
+
+for ((i=0; i<3; i++)); do
+	var=$var$i
+done
+assertEquals "ABC012" $var
+
+# test while loops
+i=3
+while [ $i -gt 0 ]; do

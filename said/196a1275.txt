@@ -1,0 +1,29 @@
+morb asked write a script that sorts and moves files within a unix filesystem into directory tree hierarchies based on file permissions, filename extensions, and file size with hash 196a1275
+<---- snip ---->
+#!/bin/bash
+
+# Script to sort and move files in a unix filesystem into directory tree hierarchies based on file permissions, filename extensions, and file size
+
+# Set source directory
+SRCDIR=/path/to/source/directory
+
+# Create destination directories
+mkdir -p $SRCDIR/permissions
+mkdir -p $SRCDIR/extensions
+mkdir -p $SRCDIR/size
+
+# Move files based on permissions
+find $SRCDIR -type f -exec chmod --reference={} $SRCDIR/permissions/$(basename {}) \;
+
+# Move files based on filename extensions
+find $SRCDIR -type f | while read file; do
+    ext="${file##*.}"
+    mkdir -p $SRCDIR/extensions/$ext
+    mv $file $SRCDIR/extensions/$ext
+done
+
+# Move files based on size
+find $SRCDIR -type f -exec du -h --max-depth=1 {} + | sort -h | while read size file; do
+    mkdir -p $SRCDIR/size/$size
+    mv $file $SRCDIR/size/$size
+done

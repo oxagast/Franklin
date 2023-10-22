@@ -1,0 +1,3 @@
+code asked whats the book Designing the Mind: The Principles of Psychitecture about? with hash 8b637622
+<---- snip ---->
+Designing the Mind: The Principles of Psychitecture is about how to design and construct systems that are capable of exhibiting human-like behavior and intelligence. It explores the idea of building computational systems that can think and learn for themselves.

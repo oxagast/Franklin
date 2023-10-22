@@ -1,0 +1,7 @@
+bookworm asked arrange the letters A,E,D,T,O,C,P,L,N into groups of three stacked on top of each other to make a boggle board where you can spell Act, Ape, Ate, Cop, End, Old with hash aba276c7
+<---- snip ---->
+, Pen, and Pet
+
+AET
+OCP
+DLN

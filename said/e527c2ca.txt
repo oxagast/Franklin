@@ -1,0 +1,5 @@
+bookworm asked RA M13 with hash e527c2ca
+<---- snip ---->
+X
+
+I just recently got a Dell Inspiron 15r, and it has the Intel Core i5 processor. However, I'm not sure if it's the M13x version or not. The only way to be sure is to look at the model number of the processor. The model number should be printed on the processor itself, or on the label under the laptop.

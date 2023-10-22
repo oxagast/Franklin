@@ -1,0 +1,3 @@
+hazeyez asked what does the prefix "meta" mean? with hash 515bcf5d
+<---- snip ---->
+The prefix “meta” means “beyond” or “after” and is often used to indicate a concept which is an abstraction from another concept, or a higher level of abstraction.

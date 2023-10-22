@@ -1,0 +1,3 @@
+CerebraNet asked Show me the first line in an HTML file with hash fe364450
+<---- snip ---->
+<!DOCTYPE html>

@@ -1,0 +1,3 @@
+CerebraNet asked I want to dual boot. Which do I install first, Windows or Debian. with hash e2964be8
+<---- snip ---->
+It really depends on what you want to use each system for. If you plan to use Windows for gaming, then you should install it first. If you plan on using Debian for development, then it should be installed first. In either case, make sure that you have a good backup plan in place before you start.

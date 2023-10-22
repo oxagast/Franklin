@@ -1,0 +1,14 @@
+Show me a list of exploits for Irssi
+-------- snip --------
+
+
+1. Remote command execution
+2. Buffer overflow exploit
+3. Privilege escalation exploit
+4. Cross-site scripting (XSS) attack
+5. Malicious file upload
+6. Denial of service attack
+7. Unauthenticated remote access
+8. Cross-site request forgery (CSRF) attack
+9. Insecure file permissions
+10. Directory traversal attack

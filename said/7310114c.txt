@@ -1,0 +1,5 @@
+Python module similar to netcat
+-------- snip --------
+
+
+Python has a "sockets" module which can be used to create and use network connections similar to netcat. The sockets module provides a low-level networking interface for Python scripts. It can be used to create client-server applications and perform other network operations.

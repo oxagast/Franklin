@@ -1,0 +1,3 @@
+CerebraNet asked What is 0 0 0 in DCC send with hash ed597d3b
+<---- snip ---->
+0 0 0 in DCC send is an invalid command. You must provide a valid file name and/or size to send.

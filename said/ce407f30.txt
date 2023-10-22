@@ -1,0 +1,3 @@
+bookworm asked Is teflon resistant to sulfuric acid? with hash ce407f30
+<---- snip ---->
+No. Teflon is not resistant to sulfuric acid. It can be damaged by strong concentrations of sulfuric acid.

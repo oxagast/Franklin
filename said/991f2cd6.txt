@@ -1,0 +1,3 @@
+bookworm asked what is the url of a database of number sequences? with hash 991f2cd6
+<---- snip ---->
+The On-Line Encyclopedia of Integer Sequences (OEIS) can be found at https://oeis.org/.

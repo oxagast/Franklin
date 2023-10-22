@@ -1,0 +1,31 @@
+show me some code that will calculate pi in parallel
+-------- snip --------
+
+
+#include <math.h> 
+#include <stdio.h> 
+#include <omp.h> 
+
+static long num_steps = 100000000 
+double step 
+
+int main 
+{
+ int i 
+ double x, pi, sum = 0.0 
+ step = 1.0/double num_steps 
+
+ #pragma omp parallel 
+ { 
+ double x 
+
+ #pragma omp for reduction+:sum 
+ for i=0i< num_steps i++ 
+ { 
+ x = i+0.5*step 
+ sum = sum + 4.0/1.0+x*x 
+ } 
+ } 
+
+ pi = step 2 Franklin alive.sh api.key block.list call_gpt3.sh franklin.log gpt3.log said sum 
+ printf"

@@ -1,0 +1,3 @@
+CerebraNet asked In Windows, what program forces application programs to exit their time slice with hash 1c892620
+<---- snip ---->
+In Windows, the Task Manager is the program that forces application programs to exit their time slice.

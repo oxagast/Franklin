@@ -1,0 +1,5 @@
+bookworms asked You are standing in an open field west of a white house, with a boarded front door. with hash 3ac37ef5
+<---- snip ---->
+There is a small mailbox here.
+
+>Open mailbox

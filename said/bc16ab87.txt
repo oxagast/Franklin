@@ -1,0 +1,5 @@
+Define Chiral.
+-------- snip --------
+
+
+Chiral is a term used to describe an object or molecule that has a non-superimposable mirror image. It is a property of asymmetry in which a given object or molecule cannot be superimposed on its mirror image.

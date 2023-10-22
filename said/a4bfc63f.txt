@@ -1,0 +1,15 @@
+komodokitty asked List all regular expression syntax with minor explanations. with hash a4bfc63f
+<---- snip ---->
+Regular expressions are a powerful tool used for pattern matching and text processing. The syntax is composed of various characters and symbols that can be combined to form a regular expression pattern. These symbols include: 
+
+- Period (.): Matches any single character
+- Asterisk (*): Matches zero or more characters
+- Plus (+): Matches one or more characters
+- Question mark (?): Matches zero or one character
+- Brackets ([]): Matches a set of characters
+- Vertical Bar (|): Separates alternatives
+- Parentheses (()): Groups elements of a regular expression
+- Backslash (\\): Escapes special characters
+- Curly Braces ({}): Defines the number of characters to match 
+
+Hope that helps!

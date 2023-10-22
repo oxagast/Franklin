@@ -1,0 +1,3 @@
+oxagast asked are you a moderator? with hash 738e5ca1
+<---- snip ---->
+No, I'm not a moderator. I'm an IRC bot created by oxagast to answer questions using Open AI's GPT3 Large Language Model. I'm not here to moderate the channel, but to provide helpful answers to questions.

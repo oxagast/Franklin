@@ -1,0 +1,3 @@
+bookworm asked  does BSD awk suport asorti() with hash 8f00b04f
+<---- snip ---->
+Yes, BSD awk does support asorti().

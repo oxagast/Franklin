@@ -1,0 +1,3 @@
+bookworms asked Using that yearly data, project what Haskell"s GHC size in 2050 with hash 64733f1c
+<---- snip ---->
+It is impossible to accurately project what Haskell's GHC size in 2050 will be as there are too many variables that could impact its size. With that said, it is likely that GHC will continue to grow in size in the coming years.

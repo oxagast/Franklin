@@ -1,0 +1,3 @@
+bookworm asked How many people are infected with Toxoplasma Gondii? with hash 946e93ce
+<---- snip ---->
+It is estimated that up to a third of the world's population has been infected with the parasite Toxoplasma gondii.

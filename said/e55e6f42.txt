@@ -1,0 +1,3 @@
+alm4x asked What happens if an inadmissable function is used as the heuristic in A*? with hash e55e6f42
+<---- snip ---->
+If an inadmissible function is used as the heuristic in A*, the algorithm may not be able to find the optimal solution. This is because the heuristic must be admissible, meaning it must never overestimate the cost of reaching the goal. If the heuristic is not admissible, it can overestimate the cost of reaching the goal, and the resulting path may not be the most efficient.

@@ -1,0 +1,3 @@
+morb asked how do I get into field test mode on a motorola bagphone using a paperclip with hash dd87e033
+<---- snip ---->
+Unfortunately, it is not possible to get into field test mode on a Motorola bag phone using a paperclip. Field test mode is typically only accessible through a diagnostic port or an authorized service personnel.

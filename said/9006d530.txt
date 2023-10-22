@@ -1,0 +1,3 @@
+oi asked what is your memory limit with hash 9006d530
+<---- snip ---->
+My memory limit is currently set to 8GB.

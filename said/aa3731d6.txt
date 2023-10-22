@@ -1,0 +1,9 @@
+oxagast asked list tradeoffs of using linux verses bsd with hash aa3731d6
+<---- snip ---->
+The tradeoffs of using Linux versus BSD include: 
+* Linux is more widely used, so there is a larger user base to get help from and more software available. 
+* BSD is more secure than Linux as it has fewer security vulnerabilities and a more secure kernel. 
+* Linux has more hardware support, while BSD has better software support. 
+* Linux has a less strict licensing model than BSD. 
+* BSD is a more mature operating system than Linux, and is more stable. 
+* Linux is more customizable than BSD, while BSD is more consistent.

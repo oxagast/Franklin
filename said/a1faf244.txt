@@ -1,0 +1,3 @@
+kJer asked convert the epoch time -746606800 to yyyy-mm-dd with hash a1faf244
+<---- snip ---->
+The epoch time -746606800 corresponds to the date 1946-08-09.

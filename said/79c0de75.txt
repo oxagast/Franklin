@@ -1,0 +1,3 @@
+CerebraNet asked Parse the cop callsign 1S12 with hash 79c0de75
+<---- snip ---->
+The cop callsign 1S12 would most likely indicate a sergeant assigned to the first patrol district of the 12th precinct.

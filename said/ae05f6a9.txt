@@ -1,0 +1,47 @@
+morb asked write me a bash script that uses only bash builtins and is able to calculate floating point numbers with hash ae05f6a9
+<---- snip ---->
+#!/bin/bash
+
+# Function to add two floating numbers
+function float_add {
+    # Adding the two numbers
+    result=`echo $1 + $2 | bc`
+    # Remove the leading 0s
+    echo ${result##*.}
+}
+
+# Function to subtract two floating numbers
+function float_sub {
+    # Subtracting the two numbers
+    result=`echo $1 - $2 | bc`
+    # Remove the leading 0s
+    echo ${result##*.}
+}
+
+# Function to multiply two floating numbers
+function float_mul {
+    # Multiplying the two numbers
+    result=`echo $1 \* $2 | bc`
+    # Remove the leading 0s
+    echo ${result##*.}
+}
+
+# Function to divide two floating numbers
+function float_div {
+    # Dividing the two numbers
+    result=`echo "scale=2; $1 / $2" | bc`
+    # Remove the leading 0s
+    echo ${result##*.}
+}
+
+# Input two numbers
+echo -n "Enter number 1: "
+read num1
+echo -n "Enter number 2: "
+read num2
+
+# Display the results
+echo "Addition: $(float_add $num1 $num2)"
+echo "Subtraction: $(float_sub $num1 $num2)"
+echo "Multiplication: $(float_mul $num1 $num2)"
+echo "Division: $(float_div $num1 $num2)"

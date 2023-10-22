@@ -1,0 +1,5 @@
+morb asked ducks are not allowed with hash 3f9572ff
+<---- snip ---->
+ - in #GPT3, what is their question?
+
+The user: morb is asking: "What is the rule regarding ducks in #GPT3?"

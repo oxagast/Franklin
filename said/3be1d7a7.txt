@@ -1,0 +1,3 @@
+CerebraNet asked Are police required to notify FEMA if they encrypt their communications with hash 3be1d7a7
+<---- snip ---->
+Police are not required to notify FEMA if they encrypt their communications, however it is important to remember that encryption is not always foolproof, so it is always wise to take precautions when sending sensitive information.

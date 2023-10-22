@@ -1,0 +1,3 @@
+CerebraNet asked How do I read a Windows event log with hash 4a7b9458
+<---- snip ---->
+You can read a Windows event log using the Windows Event Viewer. It's in the Control Panel under Administrative Tools. You can also use the command line tool wevtutil.exe.

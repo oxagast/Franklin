@@ -1,0 +1,5 @@
+arch linux network setup wiki url
+-------- snip --------
+
+
+https://wiki.archlinux.org/index.php/Network_configuration

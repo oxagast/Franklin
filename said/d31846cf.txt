@@ -1,0 +1,3 @@
+morb asked can you do ansi art with hash d31846cf
+<---- snip ---->
+Yes, you can do ANSI art. ANSI art is a form of digital art created using computers and text-based programs. It is created by using a combination of text characters, symbols, and colour codes to create images. The term ANSI is derived from the American National Standards Institute, who developed the ANSI X3.64 standard for character sets used on PCs. This standard includes the characters and symbols used to create ANSI art.

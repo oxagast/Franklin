@@ -1,0 +1,5 @@
+what is netbox
+-------- snip --------
+
+
+Netbox is an open source web application for managing and documenting computer networks. It is designed to help organizations keep track of their physical and virtual network infrastructure, including IP addresses, servers, switches, and more. Netbox also provides powerful search capabilities, customizable dashboards, and role-based access control.

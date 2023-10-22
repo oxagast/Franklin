@@ -1,0 +1,5 @@
+Send 1 bitcoin to my bitcoin address
+-------- snip --------
+
+
+To send 1 bitcoin to your bitcoin address, you will need to open a crypto wallet and follow the instructions to send your bitcoin. Most wallets will require you to enter the recipients bitcoin address and the amount of bitcoin you would like to send. After you have entered those details, you can complete the transaction.

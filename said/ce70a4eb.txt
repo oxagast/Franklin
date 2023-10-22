@@ -1,0 +1,5 @@
+is there a way to autoidentify your nick with weechat
+-------- snip --------
+
+
+Yes, WeeChat can be configured to automatically identify your nick on IRC networks. To do this, you will need to create an authentication script to log in to the server with your nick and password. For more detailed instructions, please refer to the official WeeChat documentation.

@@ -1,0 +1,3 @@
+bookworm asked What is the size of requirements of the language model data set? with hash d50e749b
+<---- snip ---->
+The size of the language model dataset will depend on the type of language model being used. For example, a large-scale language model like BERT or GPT-3 might require millions of words of data, while a smaller language model might require only a few thousand words of data.

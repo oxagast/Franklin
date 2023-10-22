@@ -1,0 +1,3 @@
+bookworm asked Can you describe a calabi-yau manifold? with hash a5fc0f27
+<---- snip ---->
+Calabi-Yau manifolds are complex, Ricci-flat manifolds that have a particular type of holonomy. They are named after their discoverers, E. Calabi and S.T. Yau. Calabi-Yau manifolds are used in string theory to describe the extra dimensions of space-time needed for the theory to work. They can be thought of as higher-dimensional analogues of the elliptic curves used in number theory. They have a variety of important topological and geometric properties, such as mirror symmetry and holomorphic sections.

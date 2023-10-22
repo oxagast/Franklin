@@ -1,0 +1,3 @@
+morb asked what is chap authentication with hash 1196dcb9
+<---- snip ---->
+CHAP authentication is a mutual authentication protocol that is used to authenticate a user to a remote access server. It is a challenge-response authentication protocol, where the remote access server sends a challenge to the user and the user must then respond correctly in order to gain access. The response is encrypted to provide security and privacy.

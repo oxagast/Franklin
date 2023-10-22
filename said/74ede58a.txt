@@ -1,0 +1,3 @@
+morb asked can you establish two-way communications using half-duplex with hash 74ede58a
+<---- snip ---->
+Yes, two-way communications can be established using half-duplex. In a half-duplex system, one user can only send or receive information at a time, so communication must be done in turns.

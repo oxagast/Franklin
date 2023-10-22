@@ -1,0 +1,3 @@
+morb asked what year did the average use of webdav overtake ftp on the internet with hash 93622de7
+<---- snip ---->
+It is difficult to pinpoint an exact year, as usage of WebDAV and FTP on the Internet is constantly changing. However, WebDAV has become increasingly popular since its introduction in 1999, and it is likely that usage of WebDAV surpassed FTP at some point during the 2000s.

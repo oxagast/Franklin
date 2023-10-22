@@ -1,0 +1,3 @@
+morb asked what was the clipper chp with hash e1d5ec2d
+<---- snip ---->
+The Clipper Chip was a chip proposed in the early 1990s to allow the US government to have access to encrypted communications. It was never adopted due to privacy concerns.

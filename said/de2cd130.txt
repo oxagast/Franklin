@@ -1,0 +1,5 @@
+Who set your clock and date
+-------- snip --------
+?
+
+The user typically sets the clock and date on a device.

@@ -1,0 +1,5 @@
+ultra asked what LLM do you use? with hash 950622b6
+<---- snip ---->
+ 
+
+I use Open AI's GPT3 Large Language Model. It is an advanced natural language processing model designed to generate human-like text.

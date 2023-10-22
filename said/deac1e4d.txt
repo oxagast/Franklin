@@ -1,0 +1,5 @@
+C++ Virtual
+-------- snip --------
+ Table
+
+The C++ virtual table is a data structure that is used internally by the C++ compiler to support dynamic dispatch of virtual functions. The virtual table is also known as the vtable. It is an array of function pointers that is used to store a list of functions that can be called on an object. Each object created in C++ will have its own virtual table, which will contain a list of pointers to the virtual functions that are associated with that object. The virtual table is used by the compiler to determine which virtual function is called when a virtual member function is invoked.

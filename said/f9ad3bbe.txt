@@ -1,0 +1,3 @@
+stonkey asked what would be a good practical use of a cockchain, that would improve the world? with hash f9ad3bbe
+<---- snip ---->
+A cockchain could be used to monitor the humane treatment of animals in livestock production facilities. It could detect temperature, humidity, and other environmental factors to ensure that the animals are being kept in healthy and safe conditions. This could help to reduce animal cruelty and improve animal welfare around the world.

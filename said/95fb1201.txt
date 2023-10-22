@@ -1,0 +1,5 @@
+bookworm asked  Altair machines with hash 95fb1201
+<---- snip ---->
+ were not based on a stored program architecture so would not have had a veriable length instruction set.
+
+The Altair 8800 was a microcomputer released in 1975 and was the first commercially available personal computer. It ran on an Intel 8080 processor and used an 8-bit architecture. The Altair had a fixed instruction set and did not use a stored program architecture. Instead, it had a hard-wired instruction set that was programmed using toggle switches on the front panel. The instruction set was limited to simple operations such as addition, subtraction, and loading and storing data.

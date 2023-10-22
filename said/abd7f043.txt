@@ -1,0 +1,15 @@
+bookworm asked can you write a hangman game in timex sinclair basic? with hash abd7f043
+<---- snip ---->
+10 REM Hangman game
+20 CLS
+30 PRINT "Hangman game"
+40 PRINT "You have 6 chances to guess the word"
+50 LET W$="TIMEX"
+60 FOR I=1 TO 6
+70 PRINT "Guess a letter"
+80 INPUT L$
+90 IF L$=MID$(W$,I,1) THEN PRINT "Correct letter!"
+100 IF L$<>MID$(W$,I,1) THEN PRINT "Wrong letter"
+110 NEXT I
+120 PRINT "You guessed the word!"
+130 END

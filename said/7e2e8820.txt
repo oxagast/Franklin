@@ -1,0 +1,9 @@
+explain the diffferences between http/tcp/udp listeners
+-------- snip --------
+
+
+HTTP: Hypertext Transfer Protocol (HTTP) is an application-level protocol used to communicate between clients and servers. It is used mainly to transfer web pages and other files over the internet. HTTP is connectionless, meaning that each request is handled independently and does not rely on the state of previous requests.
+
+TCP: Transmission Control Protocol (TCP) is a transport-level protocol used to communicate between two devices over a network. Unlike HTTP, TCP is a connection-oriented protocol which establishes a connection between the two devices before sending data. This allows for reliable data transfer as packets of data are acknowledged and resent if necessary.
+
+UDP: User Datagram Protocol (UDP) is also a transport-level protocol but is connectionless, meaning that it does not establish a connection between the two devices before sending data. This makes it faster than TCP but less reliable, as packets of data may be lost or corrupted during transmission.

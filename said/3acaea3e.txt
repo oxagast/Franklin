@@ -1,0 +1,5 @@
+bookworm asked what are the most common javscript vulnerabilities? with hash 3acaea3e
+<---- snip ---->
+ 
+
+JavaScript is vulnerable to a number of security issues, including cross-site scripting (XSS), cross-site request forgery (CSRF), and SQL injection. It's important to practice secure coding to make sure your applications are protected against these types of attacks.

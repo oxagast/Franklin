@@ -1,0 +1,5 @@
+kJer asked ask a trivia question in the category of computer science. All following messages should be considered answers to your question, react only to the first correct answer. Do not give the answer to the question until prompted.  with hash b721d2b7
+<---- snip ---->
+Question: What was the first computer virus that was discovered in the wild?
+
+Answer: The first computer virus to be discovered in the wild was the Elk Cloner virus in 1982.

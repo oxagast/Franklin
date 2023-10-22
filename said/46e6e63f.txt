@@ -1,0 +1,3 @@
+CerebraNet asked How do I become anonymous with hash 46e6e63f
+<---- snip ---->
+The best way to become anonymous is to use a VPN or Tor to hide your IP address and encrypt your communications. Also, use strong passwords, never use the same password twice, and use two-factor authentication whenever possible. Finally, be careful what information you share online and use pseudonyms whenever possible.

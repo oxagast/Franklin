@@ -1,0 +1,7 @@
+bookworm asked list the salaries of CEOs from those companies with hash 871969e6
+<---- snip ---->
+1. Apple: Tim Cook - $13.7 million
+2. Microsoft: Satya Nadella - $42.9 million
+3. Amazon: Jeff Bezos - $1.68 million
+4. Google: Sundar Pichai - $2 million
+5. Facebook: Mark Zuckerberg - $7.3 million

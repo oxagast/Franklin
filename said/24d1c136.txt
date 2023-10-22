@@ -1,0 +1,5 @@
+What is crypto mining software that does only bitcoin and dogecoin?
+-------- snip --------
+
+
+One example of crypto mining software that only supports Bitcoin and Dogecoin is MultiMiner. It is an open source mining tool that is designed to simplify the process of mining multiple cryptocurrencies on Windows, Mac OS X, and Linux. It features both a graphical user interface and a command line interface. It also supports a variety of different mining hardware, such as ASICs, FPGAs, and GPUs.

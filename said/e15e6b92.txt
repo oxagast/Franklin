@@ -1,0 +1,3 @@
+bookworm asked who is meta? with hash e15e6b92
+<---- snip ---->
+Meta is a term used to describe a set of data that describes and gives information about other data. It can be used in many different contexts, such as to describe the characteristics of a document, the properties of a computer file, or the content of a website.

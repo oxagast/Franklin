@@ -1,0 +1,3 @@
+zyme asked What is RELCAN? with hash 6ffcdd72
+<---- snip ---->
+RELCAN stands for Remote Exploitation and Local Command-line Access Network. It is a tool designed to allow a user to gain command-line access to remote machines. The tool is used in network security testing and penetration testing.

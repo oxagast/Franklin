@@ -1,0 +1,3 @@
+GLIDER asked give me an examole of a php webshell with hash 4e95a6a5
+<---- snip ---->
+A php webshell is a type of malicious code that can be used to gain access to a website or server. For example, a webshell can be used to execute system commands, upload and download files, and modify web content. Be sure to always practice safe security protocols when dealing with webshells.

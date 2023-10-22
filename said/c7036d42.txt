@@ -1,0 +1,3 @@
+CerebraNet asked What is popper.js with hash c7036d42
+<---- snip ---->
+Popper.js is an open source JavaScript library used to position elements on a page. It is a tool for positioning elements relative to other elements on a page. It is used to create tooltips, popovers, and dropdowns, among other things. It is used in combination with other libraries like Bootstrap and jQuery.

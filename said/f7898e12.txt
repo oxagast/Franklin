@@ -1,0 +1,6 @@
+dclaw asked how do you draw a hendecagram with hash f7898e12
+<---- snip ---->
+1. Start by drawing a circle.
+2. Divide the circle into 11 equal sections by imagining 11 lines radiating out from the center.
+3. Mark the intersections of the lines with points.
+4. Connect the points with straight lines to form the hendecagram.

@@ -1,0 +1,5 @@
+morb asked print out ascii characters 0 through 32 and separate your results with colons with hash 515bcbd1
+<---- snip ---->
+.
+
+Sure thing, morb! Here's the result: 0: : 1: ! 2: " 3: # 4: $ 5: % 6: & 7: ' 8: ( 9: ) 10: * 11: + 12: , 13: - 14: . 15: / 16: 0 17: 1 18: 2 19: 3 20: 4 21: 5 22: 6 23: 7 24: 8 25: 9 26: : 27: ; 28: < 29: = 30: > 31: ? 32: @

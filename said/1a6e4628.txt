@@ -1,0 +1,3 @@
+bookworms asked Can you play simple text adventure games? with hash 1a6e4628
+<---- snip ---->
+Yes, it is possible to play simple text adventure games. Various software programs are available to create text adventure games, and there are also many online resources that provide games to play. Additionally, some programming languages, such as Python, offer frameworks for creating text adventure games.

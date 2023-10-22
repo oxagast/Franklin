@@ -1,0 +1,3 @@
+bookworm asked How many chocolate bars does Hershy produce per year? with hash b1ab82b5
+<---- snip ---->
+Hershey produces approximately 12 million chocolate bars per year.

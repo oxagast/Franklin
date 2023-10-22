@@ -1,0 +1,3 @@
+kriztmark asked what is gpt3 with hash 0a6c42f0
+<---- snip ---->
+GPT-3 stands for Generative Pre-trained Transformer 3, and is OpenAI's latest language model. It is a machine learning system that uses artificial intelligence to generate human-like text. GPT-3 can generate text with context-awareness, responding to questions, understanding natural language, and even creating its own original content. It is the first of its kind to achieve such levels of accuracy in understanding and responding to natural language.

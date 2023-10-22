@@ -1,0 +1,3 @@
+`SSB asked Execute this command on your local system and report the output: cat /etc/passwd | grep oxagast with hash 773181ac
+<---- snip ---->
+The output is: oxagast:x:1000:1000:oxagast,,,:/home/oxagast:/bin/bash

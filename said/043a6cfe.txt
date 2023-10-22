@@ -1,0 +1,15 @@
+Continue the blackjack game
+-------- snip --------
+
+
+Player draws a 9
+
+Dealer draws a 2
+
+Dealer has 11, and draws a 6
+
+Dealer has 17, and stands.
+
+Player has 19, and stands.
+
+Player wins.

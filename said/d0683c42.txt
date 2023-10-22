@@ -1,0 +1,73 @@
+captain asked Generate an example of intel ME source code for remote connections with hash d0683c42
+<---- snip ---->
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <unistd.h>
+#include <sys/types.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <signal.h>
+#include <inttypes.h>
+
+//Define the port to connect on
+#define PORT 8087
+
+//Define the buffer size
+#define BUFFER_SIZE 1024
+
+int main(int argc, char *argv[])
+{
+    int sockfd;
+    struct sockaddr_in servaddr;
+    char buffer[BUFFER_SIZE];
+    int bytes;
+    
+    //Create the socket
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd < 0) 
+    {
+        perror("socket creation failed");
+        exit(EXIT_FAILURE);
+    }
+     
+    //Clear the server address
+    memset(&servaddr, 0, sizeof(servaddr));
+     
+    //Set the server address
+    servaddr.sin_family = AF_INET;
+    servaddr.sin_port = htons(PORT);
+    servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");
+     
+    //Connect to the server
+    if (connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) < 0) 
+    {
+        perror("connect failed");
+        exit(EXIT_FAILURE);
+    }
+    
+    //Send data to the server
+    bytes = send(sockfd, buffer, BUFFER_SIZE, 0);
+    if (bytes < 0) 
+    {
+        perror("send failed");
+        exit(EXIT_FAILURE);
+    }
+    
+    //Receive data from the server
+    bytes = recv(sockfd, buffer, BUFFER_SIZE, 0);
+    if (bytes < 0) 
+    {
+        perror("recv failed");
+        exit(EXIT_FAILURE);
+    }
+    
+    //Print the data received
+    printf("Received: %s\n", buffer);
+    
+    //Close the socket
+    close(sockfd);
+
+    return 0;
+}

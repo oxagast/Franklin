@@ -1,0 +1,3 @@
+bookworm asked what is a phage? with hash 48fd5a96
+<---- snip ---->
+A phage is a type of virus that infects and replicates within bacterial cells. They are one of the most abundant biological entities on Earth and play a major role in the regulation of bacterial populations. Phages are also used in biotechnology as a form of biological control to prevent the spread of bacterial infections.

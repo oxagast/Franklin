@@ -1,0 +1,3 @@
+bookworm asked does bash have a goto imperative? with hash 180a3c77
+<---- snip ---->
+No, Bash does not have a goto imperative.

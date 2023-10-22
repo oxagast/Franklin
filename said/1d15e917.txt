@@ -1,0 +1,3 @@
+CerebraNet asked How does an intelligence agent know they are being subject to a canary test with hash 1d15e917
+<---- snip ---->
+An intelligence agent knows they are being subject to a canary test when they are asked to provide information or verify facts that seem unrelated to the task or mission at hand. They may be given false information or be asked to answer questions that appear to have no purpose. This can be a sign that they are being tested to see if they will reveal sensitive information, and they should proceed with caution.

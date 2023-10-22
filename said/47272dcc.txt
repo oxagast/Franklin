@@ -1,0 +1,14 @@
+what exploits are there currently for apache 2.4
+-------- snip --------
+
+
+1. Apache Struts 2 Remote Code Execution (CVE-2018-11776)
+2. Apache Tomcat Remote Code Execution (CVE-2019-0232)
+3. Apache Commons FileUpload Remote Code Execution (CVE-2016-1000031)
+4. Apache Solr Remote Code Execution (CVE-2019-12409)
+5. Apache ModSecurity Remote Code Execution (CVE-2020-1927)
+6. Apache Tomcat Information Disclosure (CVE-2020-1938)
+7. Apache Tomcat JSP Information Disclosure (CVE-2020-1934)
+8. Apache Tomcat Directory Traversal (CVE-2020-1935)
+9. Apache Httpd Remote Code Execution (CVE-2020-1912)
+10. Apache Httpd Cross-Site Scripting (CVE-2020-1913)

@@ -1,0 +1,12 @@
+f4t4l_3rr0r asked best books on game engine programming in C++ with hash 84660aef
+<---- snip ---->
+1. Introduction to 3D Game Programming with DirectX 12 by Frank D. Luna
+2. 3D Math Primer for Graphics and Game Development by Fletcher Dunn and Ian Parberry
+3. Game Engine Architecture, Third Edition by Jason Gregory
+4. C++ Game Development Primer by Bruce Sutherland
+5. 3D Game Programming with C++: Learn the Insider Secrets of Today's Professional Game Developers by John P. Harrison
+6. Game Coding Complete, Fourth Edition by Mike McShaffry
+7. Game Programming in C++: Create 3D Games by Sanjay Madhav
+8. C++ for Game Programmers by Danny Kodicek
+9. Game Engine Design and Implementation, Second Edition by Alan Thorn
+10. Real-Time Rendering, Fourth Edition by Tomas Akenine-Möller, Eric Haines, and Naty Hoffman

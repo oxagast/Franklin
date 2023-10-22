@@ -1,0 +1,3 @@
+CerebraNet asked How can I build a 1 exabyte hard drive array with hash bf6f6a71
+<---- snip ---->
+Building a 1 exabyte hard drive array would require an immense amount of resources and planning. First, you would need to decide on the type of storage architecture you would be using, such as RAID, iSCSI, or NAS/SAN. Next, you would need to select and purchase the appropriate number of hard drives that would add up to 1 exabyte of storage. You would then need to determine the necessary hardware and software required to build the array, such as enclosures, controllers, management software, etc. Finally, you would need to set up the array and configure it to your preferences.

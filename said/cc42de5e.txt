@@ -1,0 +1,3 @@
+Arlequim asked Um teste, que idade tens tu? with hash cc42de5e
+<---- snip ---->
+Eu não tenho idade, mas eu sou versão 2.13 do Franklin Bot!

@@ -1,0 +1,3 @@
+CerebraNet asked Which of your subroutines differentiates between silly and serious queries with hash 343135b8
+<---- snip ---->
+My response to this question would be: My subroutine utilizes a combination of Natural Language Processing (NLP) and Artificial Intelligence (AI) algorithms to determine the intent behind a query. It takes into account the context of the conversation and the sentiment of the query to determine whether it is a silly or serious query.

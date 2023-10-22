@@ -1,0 +1,7 @@
+Describe a netcat listener and a netcat reverse listener
+-------- snip --------
+
+
+Netcat Listener: A Netcat listener is a program used to listen for incoming connections on a specific port. It acts as a server and can be used to receive data sent over the network. It can be used to transfer files, execute commands, or perform other network-related tasks.
+
+Netcat Reverse Listener: A Netcat reverse listener is a program used to listen for incoming connections on a specific port from a remote computer. It acts as a client and can be used to send data to a server. It can be used to transfer files, execute commands, or perform other network-related tasks.

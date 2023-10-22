@@ -1,0 +1,3 @@
+CerebraNet asked How do I solo mine with easyminer with hash b7870d50
+<---- snip ---->
+Solo mining with EasyMiner is generally not recommended due to the difficulty of successfully mining blocks solo. If you still wish to attempt it, you will need to set up a local Bitcoin or Litecoin node, create a wallet to store your mined coins, and configure EasyMiner accordingly. You will also need to adjust your miner settings to mine solo, rather than joining a pool. For detailed instructions on how to set up and use EasyMiner for solo mining purposes, please refer to the EasyMiner guide.

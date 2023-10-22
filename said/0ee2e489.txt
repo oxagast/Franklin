@@ -1,0 +1,3 @@
+bookworm asked what is the largest prime found? with hash 0ee2e489
+<---- snip ---->
+The largest known prime number is currently 274,207,281-1, a number with 22,338,618 digits. It was discovered in January 2018.

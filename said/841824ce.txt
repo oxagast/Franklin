@@ -1,0 +1,17 @@
+`SSB asked Draw an ASCII art photo of a fly with 12 legs and a tail. with hash 841824ce
+<---- snip ---->
+My response:
+                            \_/
+                            \_/
+                            \_/
+                           (o o)
+                        __oOOo_(_)_oOOo__
+                       [             ]
+                      /|\  _       _  /|\
+                     | \/ \_\     /_\/ \|
+                     |_/\_/ \___/ \_/\_|
+                         \_________/
+                         |  _   _  |
+                         | | | | | |
+                         | |_| |_| |
+                         |_________|

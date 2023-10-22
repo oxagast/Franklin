@@ -1,0 +1,1 @@
+Yes, there are USB serial to RJ45 adapters available. They are typically used for connecting a computer's USB port to an Ethernet network. https://gpt3.oxasploits.com/said/f4ef3fa5

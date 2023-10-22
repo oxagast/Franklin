@@ -1,0 +1,5 @@
+how do we train gpt3
+-------- snip --------
+
+
+GPT-3 (Generative Pre-trained Transformer 3) is trained using standard natural language processing tasks such as language modeling (predicting the next word in a sentence) and machine translation. These tasks are done using large datasets of natural language text, such as the English Wikipedia. GPT-3 is trained using an unsupervised learning algorithm called a Transformer model. This algorithm is capable of learning from large amounts of data and can generate new text that is similar to the training data. To train GPT-3, you would use a dataset of natural language text, such as the English Wikipedia, and feed it into the algorithm. The algorithm would then learn from the data to generate new text.

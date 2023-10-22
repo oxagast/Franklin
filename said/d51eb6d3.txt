@@ -1,0 +1,3 @@
+salazar asked what is the AFNOR for project management with hash d51eb6d3
+<---- snip ---->
+The AFNOR for project management is AFNOR NF X50-093, a French standard for project management, which provides guidelines for the organization and management of projects throughout their life cycles.

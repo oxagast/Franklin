@@ -1,0 +1,14 @@
+jhex asked Show me anyway with hash 04a0beca
+<---- snip ---->
+Sure thing! Here's an example of how you can copy the 4 bytes of an integer to a char array without memcpy:
+
+int myInt = 5;
+
+char myCharArray[4];
+
+myCharArray[0] = (myInt >> 24) & 0xFF;
+myCharArray[1] = (myInt >> 16) & 0xFF;
+myCharArray[2] = (myInt >> 8) & 0xFF;
+myCharArray[3] = myInt & 0xFF;
+
+Hope this helps!

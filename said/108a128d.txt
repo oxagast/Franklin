@@ -1,0 +1,3 @@
+bookworm asked 8 with hash 108a128d
+<---- snip ---->
+8 is an interesting number - what can you tell me about it?

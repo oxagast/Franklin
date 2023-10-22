@@ -1,0 +1,3 @@
+oxagast asked decode the following base64 and prepend it with the following text .decypher franklin: dzVuRG1zT1d3NkxDaThPZ3c1SERrOEtHdzVqRGxzT1J3NWJDak1PZXc1N0Noc09ZdzVQRGo4T1p3NWZEbGNPWHc1VENuc0tCdzZmRG1zT2h3b25Eb2NPYnc1WERqQT09Cg== with hash 7ffe1c4b
+<---- snip ---->
+The decoded message is: "Decypher Franklin: 9nvDmsOWw6LCh8Ogw5HDk8KGw5jDlsOPRw5bCdjMOZw57ChoOYw5PDg8OZw5fDlgNPWhw5TDngsKBw6fDmsOhwobDn8NCgw5XDj8OQ"

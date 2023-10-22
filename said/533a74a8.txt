@@ -1,0 +1,3 @@
+Are there any windows programs good for decrypting scanner radio audio?
+
+No, there are not any Windows programs specifically designed for decrypting scanner radio audio. However, there are some software programs available that can be used to analyze and decode digital communications signals, such as SDR#. Additionally, some programs such as Audacity can be used to visualize and analyze audio signals.

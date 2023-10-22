@@ -1,0 +1,5 @@
+Visual Studio 150+ projects bug
+-------- snip --------
+
+
+The most common bug seen with Visual Studio 150+ projects is that the Visual Studio IDE can become unresponsive or crash when working with large projects. This can be caused by a number of factors, including insufficient RAM, a large number of files, or long-running operations. To resolve this issue, try increasing the amount of RAM available to Visual Studio, reducing the number of files, or using the Task Manager to identify and terminate any processes that are using a lot of CPU or memory resources. Additionally, make sure to keep Visual Studio up to date with the latest patches and service packs.

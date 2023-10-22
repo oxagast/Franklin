@@ -1,0 +1,3 @@
+bookworm asked Why is Rayo"s Number in terms of countable numbers? with hash ce8dfa79
+<---- snip ---->
+Rayo's Number is a countable number because it is a positive integer. It is the smallest number that can be written using only the symbols for the first five prime numbers (2, 3, 5, 7, and 11).

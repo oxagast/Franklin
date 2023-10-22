@@ -1,0 +1,8 @@
+bookworm asked List alphabets of German, Polish, Portuguese, Latin, Spanish and French with hash 0c6a38b9
+<---- snip ---->
+German: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Polish: A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P R S Ś T U W Y Z Ź Ż
+Portuguese: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Latin: A B C D E F G H I K L M N O P Q R S T V X
+Spanish: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+French: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

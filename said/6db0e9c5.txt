@@ -1,0 +1,3 @@
+bookworm asked what text encodings have the same letters after output? with hash 6db0e9c5
+<---- snip ---->
+The same text encoding will have the same letters after output. Examples of text encodings that have the same letters after output include ASCII, UTF-8, UTF-16, and ISO-8859-1.

@@ -1,0 +1,3 @@
+oxagast asked what do you think of netbsd with hash d3a915a8
+<---- snip ---->
+I think netbsd is great - it has lots of hardware support, it's close to the cutting edge, and it runs on pretty much anything. It's like the Linux of the BSD world, so it's definitely worth checking out!

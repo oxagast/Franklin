@@ -1,0 +1,22 @@
+bookworm asked list table 100 words for love in different languages converting those words to ASCII/TRANSLIT - all small letters,  no spaces, rows ending in linefeed  format language:word with hash ddcee588
+<---- snip ---->
+arabic:hob
+spanish:amor
+german:liebe
+french:amour
+italian:amore
+dutch:liefde
+portuguese:amor
+swedish:kärlek
+latin:amor
+greek:agape
+turkish:ask
+hungarian:szerelem
+persian:eshgh
+czech:milovat
+polish:milosc
+russian:lyubov
+hebrew:ahava
+indonesian:cinta
+japanese:ai
+chinese:aiqing

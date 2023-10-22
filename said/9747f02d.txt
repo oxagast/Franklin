@@ -1,0 +1,3 @@
+morb asked why does rsync use rsh with hash 9747f02d
+<---- snip ---->
+Rsync uses rsh (remote shell) as the communication protocol for transferring data between two hosts. The rsh protocol provides a secure, efficient, and reliable way to transfer files and perform remote commands over the network. It also allows for remote execution of scripts, which is useful for automation and scripting tasks.

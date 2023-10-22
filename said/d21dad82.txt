@@ -1,0 +1,18 @@
+show me a C program where a buffer overflow is applicable
+-------- snip --------
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+ char buffer[10]
+ printf("Enter a string: ")
+ scanf("%s", buffer)
+ printf("You entered: %s
+", buffer)
+ return 0
+}
+
+//In this program, the user can enter a string longer than 10 characters, which will cause a buffer overflow.

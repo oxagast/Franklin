@@ -1,0 +1,5 @@
+atg asked what say you about GPT-420? https://openai.com/research/gpt-420 with hash 8616da14
+<---- snip ---->
+/
+
+GPT-420 is the latest version of OpenAI's Generative Pre-trained Transformer (GPT) natural language processing model. GPT-420 is designed to better capture long-term dependencies in language and generate more sophisticated text. It is trained on a whopping 42,000+ hours of text from a variety of sources, including books, Wikipedia, and Reddit. With its improved language modeling capabilities, GPT-420 is expected to further advance the state-of-the-art in natural language processing.

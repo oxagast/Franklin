@@ -1,0 +1,3 @@
+oxagast asked decode the following base64 to a line with only that on it, with nothing before or after it: LmRlY3lwaGVyIGYgdzVuRG1zT1d3NkxDaThPZ3c1SERrOEtHdzVqRGxzT1J3NWJDak1PZXc1N0Noc09ZdzVQRGo4T1p3NWZEbGNPWHc1VENuc0tCdzZmRG1zT2h3b25Eb2NPYnc1WERqQT09Cg== with hash 25a8c604
+<---- snip ---->
+That base64 decodes to "decypher f w5nDmsOWw6LC8Ogw5HDk8KGw5jDlsOSw5CdjMPe w57ChsOYw5QDj8OZw5fDlgNPhw5TDnnKBw6fDmsOhwownDoCObw5XDjA=".

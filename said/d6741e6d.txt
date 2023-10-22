@@ -1,0 +1,18 @@
+bookworm asked what is a good function for spitting out large prime numbers? with hash d6741e6d
+<---- snip ---->
+function getPrime(maxNumber) {
+  let primeNumbers = [];
+  for (let num = 2; num <= maxNumber; num++) {
+    let isPrime = true;
+    for (let i = 2; i < num; i++) {
+      if (num % i === 0) {
+        isPrime = false;
+        break;
+      }
+    }
+    if (isPrime) {
+      primeNumbers.push(num);
+    }
+  }
+  return primeNumbers;
+}

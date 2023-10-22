@@ -1,0 +1,3 @@
+CerebraNet asked Can all DMR radios hear each other? with hash 6cb2a8f9
+<---- snip ---->
+I'm not sure about all DMR radios, but some of them may be able to hear each other. However, without more information it's hard to make an accurate assessment.

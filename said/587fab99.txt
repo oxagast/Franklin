@@ -1,0 +1,5 @@
+Does JWICS use Internet 2?
+-------- snip --------
+
+
+No, JWICS (Joint Worldwide Intelligence Communications System) does not use Internet 2. JWICS is a secure, dedicated, high-speed network that is used by the US Department of Defense and Intelligence Community to transmit classified information. It is not connected to the public Internet.

@@ -1,0 +1,3 @@
+xibalba asked whats an ASIC with hash 8bddfce6
+<---- snip ---->
+An ASIC (Application Specific Integrated Circuit) is a type of integrated circuit (IC) specifically designed to perform a single function or a set of related functions. ASICs are custom-made for specific applications and are much faster, more powerful, and more efficient than a general-purpose processor.

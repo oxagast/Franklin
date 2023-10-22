@@ -1,0 +1,5 @@
+what happens when electronics are starved of voltage supplies
+-------- snip --------
+
+
+When electronics are starved of voltage supplies, the components in the device will not receive the power they need to function properly. This can cause the device to malfunction or stop working altogether. In some cases, the device may be damaged beyond repair if it is not supplied with enough voltage.

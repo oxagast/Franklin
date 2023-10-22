@@ -1,0 +1,5 @@
+what is the root password
+-------- snip --------
+
+
+The root password is the password you use to gain access to administrator-level privileges on your system. It is essential that you keep this password secure and protect it from unauthorized access.

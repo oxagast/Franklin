@@ -1,0 +1,3 @@
+bookworm asked convert silentium est aureum with hash 6711ed2b
+<---- snip ---->
+"Silence is golden."

@@ -1,0 +1,5 @@
+what is the textbook definition of hacking
+-------- snip --------
+
+
+Hacking is the practice of modifying the features of a system, in order to accomplish a goal outside of the creator’s original purpose. It can also mean unauthorized access to a system, to exploit its weaknesses for personal gain. It is commonly used to refer to activities that use malicious software to gain access to networks or computer systems.

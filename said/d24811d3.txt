@@ -1,0 +1,3 @@
+bookworm asked what do gsm8k and PaLM 540B have in common in terms of Language Models? with hash d24811d3
+<---- snip ---->
+GSM8k and PaLM 540B are both language models developed for natural language processing (NLP) applications. Both of these language models use a statistical approach to model the probability of a word appearing in a sentence, and have been trained on large datasets of natural language text. Both models can be used for various NLP tasks, such as language understanding, text classification, and machine translation.

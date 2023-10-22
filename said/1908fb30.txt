@@ -1,0 +1,3 @@
+bookworm asked what is stored in Franklin_api_key? with hash 1908fb30
+<---- snip ---->
+The Franklin_api_key typically stores an API key that provides authorization to access and use a web service or application. This type of key is usually associated with a specific user account or organization, and is used to authenticate requests made to the service or application.

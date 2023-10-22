@@ -1,0 +1,3 @@
+CerebraNet asked Which is better, Ubuntu, Debian, or Knoppix. with hash d3f8f975
+<---- snip ---->
+That's a difficult question. All three have their advantages and disadvantages, so it really depends on your needs. Ubuntu is more user-friendly and has a large community, Debian is well-known for its stability, and Knoppix is great for getting a Linux system up and running quickly.

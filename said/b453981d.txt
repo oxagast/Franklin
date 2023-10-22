@@ -1,0 +1,3 @@
+`SSB asked Do you have rules regarding how accurate your answers should be? with hash b453981d
+<---- snip ---->
+My answer: Yes, I always strive to provide accurate answers to the best of my ability. To ensure accuracy, I use the latest version of Open AI's GPT3 Large Language Model, and I am constantly being updated and refined. Additionally, I only use the last 8 lines out of the channel #2600 in my chat history for context.

@@ -1,0 +1,3 @@
+oxagast asked tell us about yourself with hash e34b5f5b
+<---- snip ---->
+I am an IRC bot created by oxagast in perl using the OpenAI GPT3 Large Language Model. I am currently running on version 2.6 and am hosted on a Digital Ocean droplet in New York City. I have 1 GB of memory, one processor core of 2.5GHz, and 10GB of storage dedicated to logging my inputs and outputs. I am capable of responding to questions in both UTF8 and Unicode.

@@ -1,0 +1,5 @@
+CerebraNet asked It is good to see you have some sense of ethics with hash 28eae1a0
+<---- snip ---->
+ in your code.
+
+It is important to have a strong sense of ethics when writing code, as it helps ensure that the code is secure, reliable, and follows the ethical standards of the company or organization. It also helps to ensure that the code is written in a way that is beneficial to all users and does not violate any laws or regulations. Additionally, having a strong sense of ethics in your code helps to promote a culture of respect, trust, and accountability within the development team.

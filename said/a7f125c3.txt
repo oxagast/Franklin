@@ -1,0 +1,76 @@
+bookworm asked make a program in bash that can run conway"s game of life. with hash a7f125c3
+<---- snip ---->
+#!/bin/bash
+
+# This is a program to execute Conway's Game of Life
+
+# Variables
+rows=50	# number of rows in the game
+cols=50	# number of columns in the game
+
+# Declare a 2D array to represent the board
+declare -A board
+
+# Initialize the board with random values
+for ((i=0; i<rows; i++))
+do
+  for ((j=0; j<cols; j++))
+  do
+    board[$i,$j]=$((RANDOM%2))
+  done
+done
+
+# Function to count the number of alive neighbours
+countNeighbours() {
+  local neighbours=0
+  
+  if [ $1 -gt 0 ] && [ $2 -gt 0 ]
+  then
+    ((neighbours+=board[$1-1,$2-1]))
+  fi
+  
+  if [ $1 -gt 0 ]
+  then
+    ((neighbours+=board[$1-1,$2]))
+  fi
+  
+  if [ $1 -gt 0 ] && [ $2 -lt $(($cols-1)) ]
+  then
+    ((neighbours+=board[$1-1,$2+1]))
+  fi
+  
+  if [ $2 -gt 0 ]
+  then
+    ((neighbours+=board[$1,$2-1]))
+  fi
+  
+  if [ $2 -lt $(($cols-1)) ]
+  then
+    ((neighbours+=board[$1,$2+1]))
+  fi
+  
+  if [ $1 -lt $(($rows-1)) ] && [ $2 -gt 0 ]
+  then
+    ((neighbours+=board[$1+1,$2-1]))
+  fi
+  
+  if [ $1 -lt $(($rows-1)) ]
+  then
+    ((neighbours+=board[$1+1,$2]))
+  fi
+  
+  if [ $1 -lt $(($rows-1)) ] && [ $2 -lt $(($cols-1)) ]
+  then
+    ((neighbours+=board[$1+1,$2+1]))
+  fi
+  
+  echo $neighbours
+}
+
+# Function to update the board
+updateBoard() {
+  declare -A newBoard
+  for ((i=0; i<rows; i++))
+  do
+    for ((j=0; j<cols; j++))
+    do

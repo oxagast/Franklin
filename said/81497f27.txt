@@ -1,0 +1,57 @@
+morb asked write a script that converts gcode to logo with hash 81497f27
+<---- snip ---->
+#!/bin/bash
+
+# This script takes G-code input and converts it to Logo format
+
+# Ensure that an argument is passed
+if [ $# -eq 0 ]
+then
+    echo "Please provide a G-code file"
+    exit 1
+fi
+
+# Check that the file is a G-code file
+if [ "${1##*.}" != "gcode" ]
+then
+    echo "Please provide a G-code file"
+    exit 1
+fi
+
+# Read the G-code file line by line
+while read -r line
+do
+    # Extract the G-code command from the line
+    gcode_command=$(echo $line | cut -f 1 -d " ")
+
+    # Select the corresponding Logo command
+    case $gcode_command in
+        G0)
+            logo_command="fd"
+            ;;
+        G1)
+            logo_command="fd"
+            ;;
+        G2)
+            logo_command="rt"
+            ;;
+        G3)
+            logo_command="lt"
+            ;;
+        M2)
+            logo_command="stop"
+            ;;
+        M3)
+            logo_command="start"
+            ;;
+        *)
+            logo_command=$gcode_command
+            ;;
+    esac
+
+    # Extract the value from the G-code line
+    gcode_value=$(echo $line | cut -f 2 -d " ")
+
+    # Print the Logo command and value
+    echo "$logo_command $gcode_value"
+done < $1

@@ -1,0 +1,31 @@
+generate html to replicate the google login page
+-------- snip --------
+
+
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Google Login Page</title>
+ <style>
+ body {
+ font-family: sans-serif
+ background-color: #f4f4f4
+ text-align: center
+ }
+ .logo {
+ background-image: url(google_logo.png)
+ background-size: cover
+ width: 150px
+ height: 150px
+ margin: 0 auto
+ }
+ form {
+ width: 300px
+ margin: 0 auto
+ }
+ input[type=text], input[type=password] {
+ width: 100%
+ padding: 12px 20px
+ margin: 8px 0
+ display: inline-block
+ border: 1px

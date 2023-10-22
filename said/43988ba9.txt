@@ -1,0 +1,3 @@
+[null] asked  What OS do voting machines use? with hash 43988ba9
+<---- snip ---->
+The answer to the query is: Voting machines typically use either Windows or Linux, depending on the manufacturer.

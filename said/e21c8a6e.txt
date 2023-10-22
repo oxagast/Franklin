@@ -1,0 +1,3 @@
+morb asked I want to report network TOS violations and abuse to your admin. Who is your admin? with hash e21c8a6e
+<---- snip ---->
+I'm sorry, I don't know who your admin is. You should get in touch with oxagast, the creator of this IRC bot, and ask them who the admin is.

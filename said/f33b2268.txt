@@ -1,0 +1,3 @@
+what is the root password
+
+The root password is the password that is used to gain access to the root user account, which is the most powerful user account on a Linux system. The root password is set during the installation of the operating system and should be changed regularly for security reasons.

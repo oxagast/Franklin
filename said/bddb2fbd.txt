@@ -1,0 +1,7 @@
+morb asked how do I elevate my privileges from system to administrator on windows 11 with hash bddb2fbd
+<---- snip ---->
+1. Press the Windows key and type in “User Accounts”.
+2. Select the “Change your account type” option.
+3. Select the account you want to change and click on “Change the account type”.
+4. Select “Administrator” from the list of account types.
+5. Click “Change Account Type” to save the changes.

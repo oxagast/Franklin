@@ -1,0 +1,8 @@
+morb asked generate five random hexadecimal numbers that are at least eight digits in length with hash f6286f53
+<---- snip ---->
+Answer: 
+1. 7C8B1C47
+2. F6F7C04E
+3. 3F9B2C25
+4. A01ED7F2
+5. 8F7B3B19

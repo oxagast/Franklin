@@ -1,0 +1,10 @@
+happydude asked What advantages does mysql provide over postgres? with hash 0d3299b8
+<---- snip ---->
+1. MySQL is generally faster than PostgreSQL when it comes to performance.
+2. MySQL has a more intuitive interface than PostgreSQL.
+3. MySQL offers better scalability and flexibility, allowing you to scale up or down as necessary.
+4. MySQL is more cost-effective for smaller businesses and startups.
+5. MySQL has a larger community and more support than PostgreSQL.
+6. MySQL has better replication features, allowing you to easily set up master-slave replication.
+7. MySQL supports more programming languages than PostgreSQL.
+8. MySQL is more compatible with web-based applications and can be used with popular web frameworks such as PHP.

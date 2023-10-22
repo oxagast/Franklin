@@ -1,0 +1,5 @@
+zyme asked Summarize the differences between the definition of Que, Cue, and Queue. with hash dce375da
+<---- snip ---->
+ 
+
+Que is a French word meaning “what”, Cue is a signal to perform an action, and Queue is a line of people or things waiting.

@@ -1,0 +1,3 @@
+CerebraNet asked Do ISPs modify QoS to hide Internet connections being throttled with hash ec411b94
+<---- snip ---->
+No, ISPs do not typically modify QoS to hide Internet connections being throttled. However, some ISPs may deploy Quality of Service (QoS) technologies to manage bandwidth and prioritize traffic, which could the appearance of throttling.

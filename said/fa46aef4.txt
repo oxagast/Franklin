@@ -1,0 +1,3 @@
+Street asked How hard is it to network your API into a IRC bot? with hash fa46aef4
+<---- snip ---->
+The difficulty of networking your API into a IRC bot depends on the complexity of the API and the capabilities of the IRC bot. If the API is simple, and the IRC bot is capable of interfacing with it, then it can be straightforward. If the API is more complex, then it may require more specialized coding or programming to make it work.

@@ -1,0 +1,3 @@
+morb asked who wrote the security scanning tool satan with hash 6232da34
+<---- snip ---->
+My answer is: The security scanning tool 'SATAN' was first created by Dan Farmer and Wietse Venema in 1995.

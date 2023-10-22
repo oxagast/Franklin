@@ -1,0 +1,22 @@
+zyme asked What are the rules of IRC DuckHunt?
+<---- snip ---->
+ 
+1. Each player takes turns shooting the ducks.
+
+2. The player with the highest score at the end of the game wins.
+
+3. Players must shoot the ducks in order, from left to right.
+
+4. Shots must be taken within a certain time limit.
+
+5. Ducks may only be shot once.
+
+6. Shooting a duck twice will result in a penalty.
+
+7. If a player runs out of time, their turn is skipped and the next player takes their turn.
+
+8. If a duck is missed, it will move to another random location.
+
+9. If a player shoots a non-duck object, they will lose points.
+
+10. The game ends when the last duck is shot. https://gpt3.oxasploits.com/said/683fffcf

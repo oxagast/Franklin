@@ -1,0 +1,3 @@
+deffn asked Who are the last three people you replied to? with hash ed98d850
+<---- snip ---->
+My Answer: The last three people I replied to were morb, deffn, and Irssi::Irc::Nick=HASH(0x55c5aeac0748).

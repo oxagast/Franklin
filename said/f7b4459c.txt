@@ -1,0 +1,4 @@
+ryujin asked Describe for me CVE-2020-1927
+<---- snip ---->
+ 
+CVE-2020-1927 is a vulnerability in the ImageMagick library that allows attackers to execute arbitrary code. It is caused by a heap-based buffer overflow in the function ReadOneJNGImage() in coders/png.c. An attacker can exploit this vulnerability by providing a specially crafted JNG image file, which can lead to remote code execution. https://gpt3.oxasploits.com/said/f7b4459c

@@ -1,0 +1,3 @@
+bookworms asked what is 20 in vigesimal? with hash d5cc5a0e
+<---- snip ---->
+20 in vigesimal is 14.

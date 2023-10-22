@@ -1,0 +1,3 @@
+CerebraNet asked Can I block non bitcoin packets with either a full node or a miner with hash ca34d599
+<---- snip ---->
+My answer would be: No, you cannot block non-bitcoin packets with either a full node or a miner. However, you can use a firewall to filter out non-bitcoin traffic from your node.

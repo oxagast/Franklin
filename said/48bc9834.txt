@@ -1,0 +1,5 @@
+bookworm asked with no line numbering create cloze number series in quiz file format sequence:answer with hash 48bc9834
+<---- snip ---->
+{1:__}8, 14, 20, 26, 32{2:__}
+
+8:14:20:26:32

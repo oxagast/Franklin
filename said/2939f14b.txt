@@ -1,0 +1,3 @@
+bookworm asked How far away is the nearest star system? with hash 2939f14b
+<---- snip ---->
+According to the most recent data, the nearest star system to our Solar System is the Proxima Centauri system, located 4.24 light years away.

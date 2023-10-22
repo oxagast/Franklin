@@ -1,0 +1,7 @@
+xibalba asked gist this story into 3 main points, https://www.zerohedge.com/markets/math-behind-deposit-insurance-and-why-its-beginning-end with hash fa2ac10f
+<---- snip ---->
+1. Deposit insurance, a system backed by the FDIC and other federal agencies, protects the deposits of banks and other financial institutions from being lost due to bank failure.
+
+2. The amount of deposits insured by the FDIC has grown significantly over the last decade, leading to concern that the system is being over-extended and may not be able to cover all of its obligations in the event of a major financial crisis.
+
+3. Recent changes to the way the FDIC calculates deposit insurance coverage have raised questions about the long-term sustainability of the system, and whether it will be able to adequately protect depositors’ funds in the future.

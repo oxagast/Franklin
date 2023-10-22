@@ -1,0 +1,3 @@
+morb asked show me the schematics to the atari 2600 rom dumper that saves cartridges to a casette with hash 9cdf7251
+<---- snip ---->
+Unfortunately, the schematics for the Atari 2600 ROM dumper that saves cartridges to a cassette are not publicly available.

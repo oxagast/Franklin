@@ -1,0 +1,11 @@
+How do I migrate data from an old distributed net address to a new address
+-------- snip --------
+?
+
+1.Back up the data from the old address. This can be done by taking a full system snapshot or by copying the data from the old address to an external storage device such as a USB drive or an external hard drive.
+
+2.Copy the data to the new address. Depending on the size of the data and the type of the address, this may be done in several ways. For example, if the old address is a computer, you may be able to simply copy the data over to the new address. Conversely, if the old address is a networked system, you may need to use a tool such as rsync or a file transfer protocol (FTP) to transfer the data.
+
+3.Verify the data was transferred correctly. Check to ensure all data was properly transferred to the new address. If there are any discrepancies, you may need to transfer the data again or investigate why the discrepancies occurred in the first place.
+
+4.

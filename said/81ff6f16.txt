@@ -1,0 +1,23 @@
+fail
+-------- snip --------
+ure(let error):
+ print("Error: \(error)")
+ }
+ }
+ }
+}
+
+extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+ 
+ func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+ return videos.count
+ }
+ 
+ func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+ let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "VideoCell", for: indexPath) as! VideoCell
+ 
+ cell.video = videos[indexPath.row]
+ 
+ return cell
+ }
+}

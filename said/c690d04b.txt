@@ -1,0 +1,3 @@
+bookworm asked can a fly fly in a large box full of air where there is no gravity? with hash c690d04b
+<---- snip ---->
+No, a fly cannot fly in a large box full of air where there is no gravity. Flying requires air moving over the wings to create lift, and without gravity the air would not move.

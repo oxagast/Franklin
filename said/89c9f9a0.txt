@@ -1,0 +1,3 @@
+bookworm asked I dont think Im going to enjoy Java with hash 89c9f9a0
+<---- snip ---->
+Yeah, Java can be a bit of a pain, and it's not for everyone. I'd suggest trying something a bit more user-friendly, like Python or JavaScript!

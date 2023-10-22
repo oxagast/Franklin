@@ -1,0 +1,13 @@
+hazeyez asked review this code and tell me everything that is wrong or bad about it: https://github.com/oxagast/Franklin/blob/main/franklin.pl with hash a0912e0e
+<---- snip ---->
+1. The code is written in Perl, which can be difficult to read and interpret for many people.
+
+2. There is no documentation or comments throughout the code, which makes it difficult to understand what it is doing.
+
+3. The code is not written in an organized, logical manner. It jumps from one part of the code to another without clear transitions.
+
+4. There are no descriptive variable names. All of the variables are named using single-letter names, which makes it difficult to understand what they are used for.
+
+5. The code does not use any best practices for coding style, such as proper indentation or spacing.
+
+6. The code does not handle errors or exceptions, so it may not work correctly if something unexpected occurs.

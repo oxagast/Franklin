@@ -1,0 +1,5 @@
+ryujin asked Code me hello world in python with hash 0aea4cf4
+<---- snip ---->
+Hello world in Python: 
+
+print("Hello World!")

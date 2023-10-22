@@ -1,0 +1,3 @@
+DeepComa asked GRESQL with hash dcf15da4
+<---- snip ---->
+I'm not quite sure what you mean by GRESQL. Are you asking about a database query language?

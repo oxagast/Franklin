@@ -1,0 +1,15 @@
+Street asked What are the top ways for hackers to make money?
+<---- snip ---->
+1. Malware Attacks: Malware attacks are when hackers use malicious software to collect sensitive user data or lock computers until a ransom is paid.
+
+2. Selling Personal Information: Hackers can steal personal information like credit card numbers, social security numbers, and passwords and then sell it on the dark web.
+
+3. Phishing: Phishing attacks involve hackers sending malicious links or emails in an attempt to get users to reveal login information or other sensitive data.
+
+4. Ransomware: Ransomware attacks involve hackers encrypting data and demanding a ransom payment in order to decrypt the data.
+
+5. Cryptojacking: Cryptojacking is the process of using someone else’s computer resources to mine cryptocurrency without their knowledge or consent.
+
+6. Spamming: Spamming is sending out large amounts of unsolicited emails in an attempt to make money from advertising or to spread malicious software.
+
+7. Botnets: Botnets are networks of computers that have been infected with malware and are used to carry out malicious tasks like sending out spam or DDoS attacks. https://franklin.oxasploits.com/said/6365cd83

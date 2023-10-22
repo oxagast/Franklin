@@ -1,0 +1,37 @@
+bookworm asked 100 german proverbs in german with hash bfd00ad6
+<---- snip ---->
+1. Wer zuerst kommt, mahlt zuerst.
+2. Gut Ding will Weile haben.
+3. Es gibt kein schlechtes Wetter, nur schlechte Kleidung.
+4. Dummheit ist keine Schande, aber Schande ist Dummheit.
+5. Eine Hand wäscht die andere.
+6. Nichts ist unmöglich.
+7. Ein guter Rat ist teuer.
+8. Wer anderen eine Grube gräbt, fällt selbst hinein.
+9. Ein Ärgernis erregt mehr als tausend Ratschläge.
+10. Man soll den Tag nicht vor dem Abend loben.
+11. Wenn zwei sich streiten, freut sich der Dritte.
+12. Wer zu spät kommt, den bestraft das Leben.
+13. Lieber ein Ende mit Schrecken als Schrecken ohne Ende.
+14. Der Apfel fällt nicht weit vom Stamm.
+15. Der Klügere gibt nach.
+16. Kleinvieh macht auch Mist.
+17. Man sieht nur mit dem Herzen gut.
+18. Erst die Arbeit, dann das Vergnügen.
+19. Erst denken, dann reden.
+20. Ein Unglück kommt selten allein.
+21. Was Hänschen nicht lernt, lernt Hans nimmermehr.
+22. Vorsicht ist die Mutter der Porzellankiste.
+23. Zu viele Köche verderben den Brei.
+24. Ein guter Ruf eilt voraus.
+25. Zeit ist Geld.
+26. Der Fisch stinkt vom Kopf her.
+27. Glück im Spiel, Pech in der Liebe.
+28. Ohne Fleiß kein Preis.
+29. Wer zu früh kommt, den bestraft das Leben.
+30. Ohne Arbeit kein Brot.
+31. Geduld ist eine Tugend.
+32. Alles hat ein Ende.
+33. Wenn die Katze aus dem Haus ist, tanzen die Mäuse auf dem Tisch.
+34. Wer nicht wagt, der nicht gewinnt.
+35. Was du heute kannst bes

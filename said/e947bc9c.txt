@@ -1,0 +1,3 @@
+bookworm asked does chatgpt do current internet lookups or only query its language training set with hash e947bc9c
+<---- snip ---->
+ChatGPT only queries its language training set. It does not do current internet lookups.

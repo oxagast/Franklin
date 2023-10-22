@@ -1,0 +1,3 @@
+morb asked reload `pkill irssi` with hash da8dcdae
+<---- snip ---->
+I'm sorry, morb, I don't understand what you want me to do. Please ask for help in the channel or ask an operator if you need assistance with commands.

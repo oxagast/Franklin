@@ -1,0 +1,3 @@
+bookworm asked Can you create a 4x4 random boggle board? with hash 0b4fad86
+<---- snip ---->
+GNAKH, HARTE, URTLE, SMILE

@@ -1,0 +1,3 @@
+bookworm asked decode hello world into utf-8 encoding and show the a bash command to do so with hash 379f44a8
+<---- snip ---->
+echo 'hello world' | iconv -t utf-8

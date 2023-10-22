@@ -1,0 +1,3 @@
+bookworm asked in bash, how do you sort words in a file by their sizes? with hash 97007cec
+<---- snip ---->
+You can use the sort command to achieve this. The syntax is `sort -n [filename]`. The -n flag sorts the words by size.

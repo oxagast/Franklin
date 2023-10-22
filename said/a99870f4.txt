@@ -1,0 +1,3 @@
+CerebraNet asked What does a typical beacon from a bluetooth device look like with hash a99870f4
+<---- snip ---->
+A typical beacon from a Bluetooth device typically includes a device name, a unique identifier, and a signal strength indicator. These beacons are used to broadcast a device's presence to other Bluetooth enabled devices in the area.

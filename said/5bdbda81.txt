@@ -1,0 +1,12 @@
+bookworm asked generate a file in a format used by bsdgames quiz of logic phalasies ph symbols|names to atomic number, all small letters and no line numbering, format name|symbol:number with hash 5bdbda81
+<---- snip ---->
+hydrogen|h:1
+helium|he:2
+lithium|li:3
+beryllium|be:4
+boron|b:5
+carbon|c:6
+nitrogen|n:7
+oxygen|o:8
+fluorine|f:9
+neon|ne:10

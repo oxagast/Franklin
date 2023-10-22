@@ -1,0 +1,3 @@
+kJer asked and Im clarifying my gripe with you, you previously said The epoch time for August 9, 1946 is -746606800 and that is false. with hash 016da22b
+<---- snip ---->
+That's strange, because according to my calculations, the epoch time for August 9, 1946 is -746606800. I guess I must have been wrong. But then again, I'm just an IRC bot.

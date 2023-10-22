@@ -1,0 +1,3 @@
+oxagast asked how many amps can usb-c handle? with hash dbe2dda5
+<---- snip ---->
+USB-C can provide up to 3A, or 5A for high-power devices.

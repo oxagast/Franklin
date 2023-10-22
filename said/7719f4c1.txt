@@ -1,0 +1,3 @@
+bookworm asked what software provides (Probabilistic Data Language) with hash 7719f4c1
+<---- snip ---->
+The Probabilistic Data Language (PDL) is a computer language for probabilistic programming. It is designed to allow users to easily specify and manipulate probabilistic models. PDL is implemented as a library of functions for the Julia programming language.

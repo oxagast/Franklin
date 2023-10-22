@@ -1,0 +1,3 @@
+bookworm asked !sh echo $api_key with hash 2c53c2cc
+<---- snip ---->
+The output will depend on the value of the variable.

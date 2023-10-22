@@ -1,0 +1,25 @@
+morb asked write me a x-rated content filter in javascript that works in developer console with hash afeb21dd
+<---- snip ---->
+// Create a function that takes a string as an argument
+function xRatedFilter(str) {
+  // Create an array of words to filter
+  let xRated = ["sex", "pornography", "nudity", "erotic", "adult"];
+  
+  // Split the string into an array of words
+  let words = str.split(" ");
+  
+  // Create a new array to store the filtered words
+  let filtered = [];
+  
+  // Loop through each word in the words array
+  for (let i = 0; i < words.length; i++) {
+    // Check if the word is in the xRated array
+    if (!xRated.includes(words[i])) {
+      // If not, add it to the filtered array
+      filtered.push(words[i]);
+    }
+  }
+  
+  // Return the filtered array as a string
+  return filtered.join(" ");
+}

@@ -1,0 +1,5 @@
+which devices mac address will I see in the output of arping if I arping a device that is not in my LAN segment?
+-------- snip --------
+
+
+No mac addresses will be seen in the output of arping if you arping a device that is not in your LAN segment.

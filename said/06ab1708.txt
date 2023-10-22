@@ -1,0 +1,3 @@
+bookworm asked That only birds sit on the poles either in pairs or single, solve the puzzle: "There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on." How many birds and poles are there? with hash 06ab1708
+<---- snip ---->
+There are 3 birds and 3 poles.

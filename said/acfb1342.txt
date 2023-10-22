@@ -1,0 +1,5 @@
+CerebraNet asked What is the voltage of the power lines along the street with hash acfb1342
+<---- snip ---->
+?
+
+The voltage of power lines along the street will vary depending on the location and type of line. In the United States, the standard voltage of residential power lines is 120/240 volts.

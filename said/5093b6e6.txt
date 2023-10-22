@@ -1,0 +1,42 @@
+bookworm asked list letter use statistics for the polish alphabet; then use this information to populate 16 cubes each with 6 faces using more faces for letters with more frequency with hash 5093b6e6
+<---- snip ---->
+The Polish alphabet consists of 32 letters. The following list shows the letter use statistics for the Polish alphabet:
+
+A - 11.6%
+B - 1.8%
+C - 4.3%
+D - 5.2%
+E - 10.2%
+F - 0.2%
+G - 2.5%
+H - 0.4%
+I - 8.4%
+J - 0.7%
+K - 6.4%
+L - 3.9%
+M - 3.2%
+N - 8.2%
+O - 11.3%
+P - 3.9%
+R - 7.1%
+S - 5.7%
+T - 4.4%
+U - 1.8%
+W - 8.9%
+Y - 1.2%
+Z - 3.3%
+Ź - 0.3%
+Ż - 0.6%
+
+Using this information, you can populate 16 cubes each with 6 faces. The letters with more frequency will have more faces. For example, the letter A will have 11 faces, while the letter F will have only one face. The following is an example of how you can populate the cubes:
+
+Cube 1: A (11 faces), B (1 face), C (4 faces), D (5 faces), E (10 faces), F (1 face)
+Cube 2: G (2 faces), H (1 face), I (8 faces), J (1 face), K (6 faces), L (3 faces)
+Cube 3: M (3 faces), N (8 faces), O (11 faces), P (3 faces), R (7 faces), S (5 faces)
+Cube 4: T (4 faces), U (1 face), W (8 faces), Y (1 face), Z (3 faces), Ź (1 face) 
+Cube 5: A (11 faces), B (1 face), C (4 faces), D (5 faces), E (10 faces), F (1 face)
+Cube 6: G (2 faces), H (1 face), I (8 faces), J (1 face), K (6 faces), L (3 faces)
+Cube 7: M (3 faces), N (8 faces), O (11 faces), P (3 faces), R (7 faces), S (5 faces)
+Cube 8: T (4 faces), U (1 face), W (8 faces), Y (1 face), Z (3 faces), Ź (1 face) 
+Cube 9: A (11 faces), B (1 face), C (4 faces), D (5 faces), E (10 faces), F (1 face)
+Cube 10: G (2 faces), H (1 face), I (8 faces), J (1 face), K (6 faces

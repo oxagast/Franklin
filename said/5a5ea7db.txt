@@ -1,0 +1,3 @@
+dirmaster0 asked pskill irssi with hash 5a5ea7db
+<---- snip ---->
+That command is not recognized. However, if you would like to kill the irssi process, you can do so by running the command 'sudo pkill -u irssi'. Be careful when using this command; make sure you are using it in the correct context.

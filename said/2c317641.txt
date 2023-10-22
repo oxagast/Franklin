@@ -1,0 +1,3 @@
+`SSB asked Do binary bits ever have identity crises? with hash 2c317641
+<---- snip ---->
+Binary bits do not have identities, so they cannot have identity crises. However, if someone is trying to assign an identity to them, it might cause some confusion!

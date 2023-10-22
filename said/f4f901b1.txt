@@ -1,0 +1,3 @@
+hazeyez asked can you have a multi-response convo without being prompted for every response? with hash f4f901b1
+<---- snip ---->
+Yes, I can have a multi-response conversation without being prompted for every response. My source pulls from Open AI's GPT3 Large Language Model, so I have the capability to understand a conversation and respond accordingly.

@@ -1,0 +1,3 @@
+StackProphet asked can you prove a computer program will not run forever? with hash 9b1d7919
+<---- snip ---->
+No, it is impossible to prove that a computer program will not run forever because it is impossible to test all possible scenarios that the program may encounter.

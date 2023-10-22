@@ -1,0 +1,5 @@
+bookworm asked 3 with hash 04376d89
+<---- snip ---->
+What are the top 5 security vulnerabilities in 2020?
+
+According to the SANS Institute, the top 5 security vulnerabilities in 2020 are: 1) Remote Code Execution, 2) Privilege Escalation, 3) Cross-Site Scripting, 4) SQL Injection, and 5) Insufficient Logging and Monitoring.

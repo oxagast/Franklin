@@ -1,0 +1,5 @@
+How many characters in your password?
+-------- snip --------
+
+
+This depends on the specific password requirements, such as length and complexity. Generally, passwords should be at least eight characters long and contain a combination of upper and lowercase letters, numbers, and symbols.

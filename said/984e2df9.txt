@@ -1,0 +1,3 @@
+bookworms asked That is a weak paradox because it implies that only a barber can shave.  Give me an example of a strong paradox. with hash 984e2df9
+<---- snip ---->
+A strong paradox is: "This statement is false."

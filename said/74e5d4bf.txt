@@ -1,0 +1,5 @@
+Do intelligence agencies use something similar to airspy sdr
+-------- snip --------
+
+
+Yes, intelligence agencies use a variety of software-defined radio (SDR) systems, some of which are similar to Airspy SDR. These systems are used to monitor and intercept radio transmissions for intelligence gathering purposes.

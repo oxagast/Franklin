@@ -1,0 +1,3 @@
+bookworm asked does cryogenic freezing and dethaw cause ruppture of cell membrains due to ice expansion? with hash 31f65660
+<---- snip ---->
+Yes, cryogenic freezing and thawing can cause rupture of cell membranes due to ice expansion. When exposed to extreme cold temperatures, cells can become dehydrated and the water inside them can form ice crystals. As the ice crystals grow, they can cause the cell membrane to expand and eventually rupture.

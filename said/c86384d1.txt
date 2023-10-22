@@ -1,0 +1,3 @@
+CerebraNet asked What is GMRS radio with hash c86384d1
+<---- snip ---->
+GMRS stands for the General Mobile Radio Service, which is a type of two-way radio service. It is used for short-distance, two-way communication, typically by family and friends to communicate with each other. GMRS radios are also used in business and recreational activities.

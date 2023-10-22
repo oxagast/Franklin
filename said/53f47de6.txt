@@ -1,0 +1,12 @@
+$(ls)
+-------- snip --------
+
+											p1.c	p2.c	p3.c
+											
+3.	$cat p1.c
+	#include <stdio.h>
+	int main
+	{
+		printf"Hello World!"
+		return 0
+	}

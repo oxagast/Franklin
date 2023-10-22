@@ -1,0 +1,5 @@
+oxagast asked waht is the page https://www.optisigns.com/ppc/digital-signage-free-trial?utm_source=google&utm_medium=cpc&utm_campaign=**LP%20-%20NonTM%20-%20General%20-%20Digital%20Signs%20HV%20Broad&gad=1&gclid=CjwKCAjwt52mBhB5EiwA05YKowofJwb_JBsAA70jTYkbFUFqKuLHLkq0bWy7JyUeE8Y0OcyHo0pQ8RoCn58QAvD_BwE about with hash 899c8f65
+<---- snip ---->
+js', new Date()); gtag('config', 'AW-739578860');
+
+The page you are referring to is a digital signage free trial page from Optisigns. It offers a free trial period for their digital signage products, which can be used to promote and advertise businesses. The page includes information about the features, benefits, and pricing of the digital signage products. It also includes a link to a Google Ads campaign that is running for the product.

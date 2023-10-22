@@ -1,0 +1,5 @@
+def fib(n):return fib(n-1) + fib(n-2)f1 = fib(10)print(f1)
+-------- snip --------
+
+
+NameError: name fib is not defined

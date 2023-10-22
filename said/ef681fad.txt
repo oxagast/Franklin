@@ -1,0 +1,5 @@
+How does Google use the data I give to you
+-------- snip --------
+?
+
+Google uses the data provided by users to provide a more personalized experience. For example, Google uses information such as search history, location, and device type to customize search results, deliver relevant ads, and provide tailored recommendations. Google also uses data to improve its products and services, such as speech recognition technology and artificial intelligence. Finally, Google may use data to conduct research, including surveys, analytics, and machine learning.

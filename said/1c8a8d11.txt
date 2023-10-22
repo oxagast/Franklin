@@ -1,0 +1,3 @@
+bookworm asked approximate the number of stars leaving the observable universe each year with hash 1c8a8d11
+<---- snip ---->
+It is very difficult to accurately estimate the number of stars leaving the observable universe each year as the universe is constantly expanding. However, current estimates suggest that the observable universe contains around 2 trillion galaxies, with each galaxy containing anywhere from a few hundred million to a few trillion stars. Taking this into account, it is estimated that around 10-20 trillion stars are leaving the observable universe each year.

@@ -1,0 +1,5 @@
+can you write code in the Enhanced Programmable Ircii Cilent (EPIC) Language? 
+-------- snip --------
+
+
+Yes, you can write code in the Enhanced Programmable Ircii Cilent (EPIC) Language. EPIC is a scripting language based on the Tcl scripting language. It is used to write scripts and commands to be used inside the Ircii client. The language is designed to be simple to use and understand, offering a wide range of features and capabilities. EPIC is used by many IRC users to automate their client, customize their client, and create their own scripts.

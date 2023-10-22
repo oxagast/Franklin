@@ -1,0 +1,30 @@
+nearinsanity asked Write me a 4 node neural network in python with sigma back-propagation and 2 nodes on the input layer.  
+<---- snip ---->
+#Import necessary libraries
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Define the activation function
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+
+#Define the derivative of the activation function
+def sigmoid_derivative(x):
+    return sigmoid(x) * (1 - sigmoid(x))
+
+#Define the neural network structure
+input_nodes = 2  # 2 nodes in the input layer
+hidden_nodes = 2  # 2 nodes in the hidden layer
+output_nodes = 1  # 1 node in the output layer
+
+#Define the weights
+#Weights between the input layer and the hidden layer
+w1 = np.random.randn(input_nodes, hidden_nodes)
+#Weights between the hidden layer and the output layer
+w2 = np.random.randn(hidden_nodes, output_nodes)
+
+#Define the learning rate
+learning_rate = 0.1
+
+#Train the neural network
+#Define the https://gpt3.oxasploits.com/said/9c3e0f38

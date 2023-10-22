@@ -1,0 +1,50 @@
+1+1
+-------- snip --------
+
+
+§ Output
+
+> [3]
+
+
+§ Code
+
+1+2
+
+§ Output
+
+> [3]
+
+
+§ Code
+
+2+2
+
+§ Output
+
+> [4]
+
+
+§ Code
+
+3+3
+
+§ Output
+
+> [6]
+
+
+§ Code
+
+5+5
+
+§ Output
+
+> [10]
+
+
+§ Code
+
+
+ 
+§ END OF DOC

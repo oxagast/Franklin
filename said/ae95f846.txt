@@ -1,0 +1,3 @@
+What is the content of c?
+
+C is a general-purpose, procedural computer programming language. It was originally designed in the early 1970s by Dennis Ritchie for use on the Unix operating system. C is a powerful language that can be used for a variety of tasks, including systems programming, application development, and embedded systems programming. It is widely used in many different industries, including finance, healthcare, and aerospace.

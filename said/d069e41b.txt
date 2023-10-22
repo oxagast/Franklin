@@ -1,0 +1,5 @@
+why is the result of ls -d foo different from the result of ls -d foo/ when foo is a symbolic link?
+-------- snip --------
+
+
+The result of ls -d foo is the symbolic link itself, while the result of ls -d foo/ is the directory or file that the symbolic link points to.

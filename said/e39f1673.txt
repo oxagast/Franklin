@@ -1,0 +1,3 @@
+bookworm asked what is 19 in base-20? with hash e39f1673
+<---- snip ---->
+19 base-20 = 39

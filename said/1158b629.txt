@@ -1,0 +1,3 @@
+_wintermute asked What is the vulnerability in this code #include <stdio.h> int main() { int secret = 0xdeadbeef; char name[100] = {0}; read(0, name, 0x100); if (secret == 0x1337) { puts(Wow! Heres a secret.); } else { puts(I guess youre not cool enough to see my secret); } } with hash 1158b629
+<---- snip ---->
+The vulnerability in this code is a buffer overflow. The read() function is vulnerable to a buffer overflow if the size of the input is larger than the size of the allocated memory. If this happens, the program can be forced to execute arbitrary code, potentially leading to a security breach.

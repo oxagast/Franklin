@@ -1,0 +1,3 @@
+bookworm asked (3/4)*100 display the inverse of the number in the 10s position with hash ae0ce64f
+<---- snip ---->
+25%

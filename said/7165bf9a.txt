@@ -1,0 +1,40 @@
+bookworm asked list letter use statistics for the Portuguese alphabet; then use this information to populate 16 cubes each with 6 faces using more faces for letters with more frequency with hash 7165bf9a
+<---- snip ---->
+Statistics:
+
+A - 11.66%
+E - 12.02%
+I - 7.35%
+O - 14.86%
+S - 7.80%
+R - 6.02%
+D - 5.02%
+N - 5.27%
+M - 3.05%
+U - 3.02%
+C - 3.00%
+T - 4.37%
+L - 3.24%
+P - 4.07%
+V - 1.22%
+B - 1.18%
+F - 1.12%
+G - 1.02%
+H - 0.37%
+
+Cubes:
+
+Cube 1: A (4 faces), E (4 faces), I (3 faces), O (4 faces), S (3 faces), R (3 faces)
+Cube 2: A (4 faces), E (4 faces), I (3 faces), O (4 faces), S (3 faces), D (3 faces)
+Cube 3: A (4 faces), E (4 faces), I (3 faces), O (4 faces), N (3 faces), R (3 faces)
+Cube 4: A (4 faces), E (4 faces), I (3 faces), O (4 faces), N (3 faces), D (3 faces)
+Cube 5: A (4 faces), E (4 faces), M (2 faces), O (4 faces), S (3 faces), R (3 faces)
+Cube 6: A (4 faces), E (4 faces), M (2 faces), O (4 faces), S (3 faces), D (3 faces)
+Cube 7: A (4 faces), E (4 faces), M (2 faces), O (4 faces), N (3 faces), R (3 faces)
+Cube 8: A (4 faces), E (4 faces), M (2 faces), O (4 faces), N (3 faces), D (3 faces)
+Cube 9: A (4 faces), U (2 faces), I (3 faces), O (4 faces), S (3 faces), R (3 faces)
+Cube 10: A (4 faces), U (2 faces), I (3 faces), O (4 faces), S (3 faces), D (3 faces)
+Cube 11: A (4 faces), U (2 faces), I (3 faces), O (4 faces), N (3 faces), R (3 faces)
+Cube 12: A (4 faces), U (2 faces), I (3 faces), O (4 faces), N (3 faces), D (3 faces)
+Cube 13: A (4 faces), U (2 faces), C (2 faces), O (4 faces), S (3 faces), R (3 faces)
+Cube 14: A (4 faces), U (2 faces),

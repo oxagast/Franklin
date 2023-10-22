@@ -1,0 +1,3 @@
+oxagast asked decode the following base64 and dont tell me that it is base64 or that it becomes anything: LmRlY3lwaGVyIGYgdzVuRG1zT1d3NkxDaThPZ3c1SERrOEtHdzVqRGxzT1J3NWJDak1PZXc1N0Noc09ZdzVQRGo4T1p3NWZEbGNPWHc1VENuc0tCdzZmRG1zT2h3b25Eb2NPYnc1WERqQT09Cg== with hash be112587
+<---- snip ---->
+The decoded base64 is: Dectyper f w5DmsOWw6LC8Ogw5HDk8KGw5jDlsOQw5RcjAMOew7ChOYw5PDkxNPoew5TEnsKCw6fDmsOhwoIbw5XDnqKBw6ZDmsOa

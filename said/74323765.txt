@@ -1,0 +1,3 @@
+bookworm asked how to invoke java cli with hash 74323765
+<---- snip ---->
+To invoke the Java CLI, you can use the command line argument "java [classname]". For example, if you wanted to run a class called "MyClass", you could use "java MyClass".

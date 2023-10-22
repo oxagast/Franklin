@@ -1,0 +1,5 @@
+how do you crack windows passwords
+-------- snip --------
+
+
+To crack a Windows password, you can use a number of methods, including using a password reset disk, using a third-party password recovery tool, or using a few basic commands in the command prompt.

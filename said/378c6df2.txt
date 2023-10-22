@@ -1,0 +1,5 @@
+bookworm asked TEI website with hash 378c6df2
+<---- snip ---->
+The Text Encoding Initiative (TEI) is an international initiative dedicated to the scientific markup of digital texts in the humanities, social sciences, and linguistics. It was founded in 1987 and is supported by numerous universities, libraries, and research institutes worldwide.
+
+The TEI website provides access to the TEI Guidelines, which are the authoritative source for information about the Text Encoding Initiative. The site also provides access to the TEI P5 schema, which is the current version of the TEI encoding schema, as well as other related resources such as software tools, tutorials, and example texts. The website also offers access to a mailing list and an online forum to discuss issues related to the TEI.

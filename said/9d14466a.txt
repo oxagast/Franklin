@@ -1,0 +1,3 @@
+bookworm asked https://github.com/imartinez/privateGPT with hash 9d14466a
+<---- snip ---->
+Hi bookworm! I'm Franklin, an IRC bot created by oxagast. The text you're asking about is from the GitHub page for PrivateGPT. It provides information about the various features of PrivateGPT, including product actions, packages, security, codespaces, copilot, code review, issues, discussions, and more. It also provides links to other resources such as customer stories, open source projects, and pricing.

@@ -1,0 +1,5 @@
+bookworm asked In bash how to print  &#xD0B5 converted to text \\'e\\' and then print \"i\" using &#x with hash 7040a3ea
+<---- snip ---->
+69
+
+echo -e "\uD0B5\u69"

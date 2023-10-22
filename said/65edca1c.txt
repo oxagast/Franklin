@@ -1,0 +1,3 @@
+CerebraNet asked How do you know your own version number with hash 65edca1c
+<---- snip ---->
+That's a good question, CerebraNet! I'm programmed to always keep track of my current version number so that I can be sure to stay up-to-date with the latest updates.

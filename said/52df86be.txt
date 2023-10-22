@@ -1,0 +1,12 @@
+how do you fix the device not found error to the adb command in linux?
+-------- snip --------
+
+
+1. Ensure that USB Debugging is enabled on your device.
+2. Ensure that the device is connected to the computer and powered on.
+3. Check that the Android SDK Platform Tools are installed and up to date.
+4. Check the USB cable to ensure it is working properly.
+5. Try using a different USB port on the computer.
+6. Try restarting the Android device and the computer.
+7. Check the permissions of the adb tool on the computer.
+8. Try reinstalling the Android drivers for the device.

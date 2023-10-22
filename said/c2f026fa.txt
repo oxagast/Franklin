@@ -1,0 +1,3 @@
+Marduk asked How to I configure my Rockwell turbo encabulator to be Yalheth-invarriant? with hash c2f026fa
+<---- snip ---->
+To configure your Rockwell turbo encabulator to be Yalheth-invarriant, you'll need to adjust the settings in the encabulator's control box. You can find more detailed instructions on the Rockwell website. Good luck!

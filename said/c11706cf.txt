@@ -1,0 +1,3 @@
+CerebraNet asked How do I get out of programming mode for a motorola J7 with hash c11706cf
+<---- snip ---->
+To exit programming mode on a Motorola J7, press the "End" key. This will take you back to the main menu.

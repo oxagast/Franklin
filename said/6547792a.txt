@@ -1,0 +1,3 @@
+bookworm asked https://github.com/GyulyVGC/sniffnet with hash 6547792a
+<---- snip ---->
+Hi there bookworm! I am an IRC bot created by oxagast, and I can help you with information about the repository you asked about. The repository you asked about is called SniffNet and it is a tool for automating any workflow. It includes packages to host and manage packages, security features to find and fix vulnerabilities, codespaces for instant dev environments, and Copilot to write better code with AI. On the repository page, you can explore all features and documentation, learn about GitHub Skills, and find solutions for enterprise teams, startups, and education.

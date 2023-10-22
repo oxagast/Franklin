@@ -1,0 +1,7 @@
+morb asked how can I enter real mode from protected mode using debug
+<---- snip ---->
+You can use the following command in Debug:
+
+'r <segment>:<offset>'
+
+This will switch the processor into Real Mode at the specified segment and offset. https://franklin.oxasploits.com/said/28517be1

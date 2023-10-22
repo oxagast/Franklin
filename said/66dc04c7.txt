@@ -1,0 +1,5 @@
+bookworm asked Can you generate a conways game of life using letters x and o with hash 66dc04c7
+<---- snip ---->
+XOO
+OXO
+OXX

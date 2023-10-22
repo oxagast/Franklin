@@ -1,0 +1,3 @@
+morb asked what was the first videogame console emulator with hash fd6c5992
+<---- snip ---->
+The first videogame console emulator was the Multiple Arcade Machine Emulator (MAME) developed in 1997 by Nicola Salmoria.

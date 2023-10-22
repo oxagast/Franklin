@@ -1,0 +1,3 @@
+bookworm asked Unicode for Golden Arches MacDonalds with hash aa7c874e
+<---- snip ---->
+The Unicode for Golden Arches McDonalds is U+1F354.

@@ -1,0 +1,9 @@
+how do you use ARP spoofing to make other devices in the network think that you are the default gateway?
+-------- snip --------
+
+
+1. Find the MAC address of the default gateway.
+2. Use a tool such as arpspoof to send spoofed ARP packets to the other devices in the network, making them think that your computers MAC address is the same as the default gateways MAC address.
+3. Configure your computer to forward packets from the other devices in the network to the default gateway.
+4. Configure your computer to reply to ARP requests of other devices in the network with your computers MAC address.
+5. Monitor the traffic of the other devices in the network.

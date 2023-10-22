@@ -1,0 +1,3 @@
+code asked ruby one-liner to print all permutations of a given string with hash bbd51112
+<---- snip ---->
+Sure! Here's a one-liner for you: puts [1..gets.to_i].permutation.map(&:join)

@@ -1,0 +1,3 @@
+morb asked when did the use of sftp overtake the use of scp with hash b1123d9a
+<---- snip ---->
+The use of SFTP (Secure File Transfer Protocol) began to overtake the use of SCP (Secure Copy Protocol) in the early 2000s, as it was seen as a more secure and robust protocol. SFTP has since become the preferred protocol for secure file transfers.

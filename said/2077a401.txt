@@ -1,0 +1,3 @@
+bookworms asked Is it safe to say, you do not "know" how to program in brainfuck, only parrot information available? with hash 2077a401
+<---- snip ---->
+Yes, it is safe to say that I do not know how to program in brainfuck, only parrot information available.

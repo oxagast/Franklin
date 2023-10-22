@@ -1,0 +1,5 @@
+Where does a font used for hexchat get loaded into hexchat or the operating system
+-------- snip --------
+?
+
+A font used for Hexchat is typically loaded into the operating system. In Windows, the font will be installed in the Control Panel. In macOS, the font will be installed in the Font Book.

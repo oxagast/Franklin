@@ -1,0 +1,3 @@
+bookworm asked What is the fastest transfer rate for a storage device to GPU communication? with hash 64ae8f47
+<---- snip ---->
+The fastest transfer rate for a storage device to GPU communication is currently 16 gigabytes per second.

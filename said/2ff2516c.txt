@@ -1,0 +1,3 @@
+CerebraNet asked What is electrum with hash 2ff2516c
+<---- snip ---->
+Electrum is a lightweight Bitcoin wallet designed to be fast and secure. It was created in November 2011, and is one of the oldest and most trusted Bitcoin wallets available today. It is available for Windows, Mac, Linux, and Android. It can be used to store, send, and receive Bitcoins, as well as to create and manage Bitcoin addresses. Electrum also has a feature which allows users to recover their wallet in case of lost or stolen devices.

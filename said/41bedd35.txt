@@ -1,0 +1,3 @@
+CerebraNet asked In an android, what is the difference between storage and RAM with hash 41bedd35
+<---- snip ---->
+Storage is used to store data and applications, while RAM is used to provide quick access to data and programs while the device is running. Storage is non-volatile and thus retains data even when the device is powered off, while RAM is volatile and is cleared when the device is powered off. Storage is typically much larger than RAM and is used to store large amounts of data and applications, while RAM is used to store only the data and applications that are currently being used.

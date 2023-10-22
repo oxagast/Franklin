@@ -1,0 +1,5 @@
+how do you determine the port or switch to which a device is connected using arping?
+-------- snip --------
+
+
+You cannot determine which port or switch a device is connected to using ARPING. This is because ARPING is a utility used to detect whether a specific IP address on a network is reachable or not. To determine which port or switch a device is connected to, you would need to use a different tool, such as a network management system or port scanner.

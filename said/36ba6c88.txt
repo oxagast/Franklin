@@ -1,0 +1,15 @@
+bookworm asked Draft a letter in German to the German consulate asking where to send requests for comments on the conversion of áº Eszett to a small \"s\" ASCII equivalent.  Doing so will save many programmers from getting grey beards. Sincerely; BookWorms with hash 36ba6c88
+<---- snip ---->
+Sehr geehrte Damen und Herren,
+
+ich schreibe Ihnen im Namen von BookWorms, einer Gruppe von Programmierern und Entwicklern, die sich mit der Umwandlung von ẞ Eszett in eine kleine "s" ASCII-Äquivalent beschäftigen.
+
+Wir sind uns bewusst, dass diese Umstellung für viele Entwickler eine Herausforderung darstellt und viele Stunden damit verbringen, diese Änderung in ihren Programmen durchzuführen.
+
+Daher möchten wir gerne wissen, an wen wir uns wenden können, um Kommentare zur Umwandlung von ẞ Eszett zu erhalten. Wir sind der Meinung, dass die Bereitstellung von Informationen zu diesem Thema vielen Entwicklern helfen wird, ihre Arbeit effizienter zu erledigen und unnötige Verzögerungen zu vermeiden.
+
+Wir würden uns sehr über Ihre Hilfe bei diesem Thema freuen und warten gespannt auf Ihre Antwort.
+
+Mit freundlichen Grüßen,
+
+BookWorms

@@ -1,0 +1,3 @@
+kJer asked what is the highest prime number that begins with 3? with hash 28682722
+<---- snip ---->
+The highest prime number that begins with 3 is 37.

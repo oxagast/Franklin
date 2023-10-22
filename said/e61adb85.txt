@@ -1,0 +1,12 @@
+bookworms asked List of Paradoxes with hash e61adb85
+<---- snip ---->
+1. The Barber Paradox
+2. The Crocodile Paradox
+3. The Liar Paradox
+4. The Paradox of the Heap
+5. The Omnipotence Paradox
+6. The Paradox of Analysis
+7. The Unexpected Hanging Paradox
+8. The Paradox of the Court
+9. The Grandfather Paradox
+10. The Bootstrap Paradox

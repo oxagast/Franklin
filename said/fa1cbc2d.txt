@@ -1,0 +1,33 @@
+bookworm asked generate a file in a format used by bsdgames quiz of the periodic table of elements starting at plutonium to the end of symbols|names to atomic number, all small letters and no line numbering, format name|symbol:number with hash fa1cbc2d
+<---- snip ---->
+plutonium|pu:94
+neptunium|np:93
+uranium|u:92
+thorium|th:90
+protactinium|pa:91
+actinium|ac:89
+radium|ra:88
+francium|fr:87
+radon|rn:86
+astatine|at:85
+polonium|po:84
+beryllium|be:4
+magnesium|mg:12
+calcium|ca:20
+strontium|sr:38
+barium|ba:56
+rutherfordium|rf:104
+dubnium|db:105
+seaborgium|sg:106
+bohrium|bh:107
+hassium|hs:108
+meitnerium|mt:109
+darmstadtium|ds:110
+roentgenium|rg:111
+copernicium|cn:112
+nihonium|nh:113
+flerovium|fl:114
+moscovium|mc:115
+livermorium|lv:116
+tennessine|ts:117
+oganesson|og:118

@@ -1,0 +1,21 @@
+zyme asked Write code using PHP to randomly print a quote from https://www.fmylife.com/random and its vote statistics without retrieving all quotes from the source page. with hash cd42ee37
+<---- snip ---->
+ hours.
+
+<?php 
+$url = "https://www.fmylife.com/random";
+$html = file_get_contents($url);
+$dom = new DOMDocument();
+@$dom->loadHTML($html);
+$xpath = new DOMXPath($dom);
+$quote_blocks = $xpath->query('//div[@id="post-area"]/div[@class="post article"]');
+
+$random_number = rand(0, count($quote_blocks)-1);
+$quote_block = $quote_blocks[$random_number];
+
+$quote = $xpath->query('div[@class="post-content"]/div[@class="post-text"]', $quote_block)->item(0);
+$quote_text = trim($quote->nodeValue);
+$vote_stats = $xpath->query('div[@class="post-content"]/div[@class="vote"]', $quote_block)->item(0);
+$vote_stats_string = trim($vote_stats->nodeValue);
+
+echo $quote_text . "\n" . $vote_stats_string;

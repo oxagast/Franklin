@@ -1,0 +1,3 @@
+zyme asked do you have some assembly shell code we could inject into a CloudBot memory overflow and execute? with hash d8a72db3
+<---- snip ---->
+Unfortunately, I don't have any assembly shell code. I'm a chatbot, not a programmer. However, you might try asking some of the other users in #2600. They may have more experience with assembly shell code.

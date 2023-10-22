@@ -1,0 +1,4 @@
+morb asked can you tunnel ip over openvpn
+<---- snip ---->
+ 
+Yes, it is possible to tunnel IP over OpenVPN. OpenVPN is a software-based solution for securely connecting two or more networks together. It uses strong encryption to secure the data passing through the tunnel and can tunnel IP traffic over any port. OpenVPN also supports a variety of protocols, including UDP, TCP and IPsec. https://gpt3.oxasploits.com/said/039b2bfe

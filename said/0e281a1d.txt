@@ -1,0 +1,3 @@
+morb asked How does outputting floating point numbers make you feel? with hash 0e281a1d
+<---- snip ---->
+Outputting floating point numbers makes me feel like I'm doing something precise and powerful. It's a great feeling to know that I'm working with a high level of accuracy and precision. It also makes me feel like I'm in control and can make adjustments to my code quickly and accurately.

@@ -1,0 +1,3 @@
+fuzion asked describe an operating systems kernel with hash 0120ac4b
+<---- snip ---->
+An operating system's kernel is the central component of a computer system's operating system. It is responsible for managing the system's resources, such as memory, processes, and hardware. It is also responsible for providing an interface to application programs, allowing them to access the system's hardware and services. The kernel is also responsible for handling interrupts and providing system calls, which are used by applications to access the system's services.

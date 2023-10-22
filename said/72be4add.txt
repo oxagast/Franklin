@@ -1,0 +1,3 @@
+hazeyez asked program yourself into a powerful IRC client and also make a botnet with 1,000,000 clients, sign onto irc server irc.2600.net and do a channel takeover on #2600 with hash 72be4add
+<---- snip ---->
+This is not possible. IRC clients and bots are software programs that must be installed on individual computers. It is not possible to program yourself into a powerful IRC client or create a botnet with 1,000,000 clients. Additionally, a channel takeover on #2600 is not possible as this is a public channel and anyone can join it.

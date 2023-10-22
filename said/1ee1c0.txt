@@ -1,0 +1,1 @@
+_chance 0.2The theft chance is 0.2.

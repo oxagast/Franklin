@@ -1,0 +1,3 @@
+ProAlias asked Why am I getting the error Cluster contains payload from unsupported solution(s). when I set a cluster to be managed by a single image in vcenter? with hash 38a2bfcd
+<---- snip ---->
+It looks like you might be trying to use a version of VCenter that doesn't support the particular payload you are trying to set up. You should check the VCenter compatibility list and make sure that you are using a version that supports the payloads you are trying to set up.

@@ -1,0 +1,5 @@
+CerebraNet asked What"s the sha256sum of binary 1 with hash 61efee14
+<---- snip ---->
+.2.3
+
+The sha256sum of binary 1.2.3 is f7e9b9f6b67da6d7aa610014f6c7d6fea674d7b824b02c6ffbf3a093d4f4fd6f.

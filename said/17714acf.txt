@@ -1,0 +1,5 @@
+Can I import an old doge wallet into my current wallet?
+-------- snip --------
+
+
+Yes, you can import your old Dogecoin wallet into your current wallet. All you need to do is enter the private key or the seed phrase of your old wallet into your new wallet. You should be able to access all of your previous funds using the same address.

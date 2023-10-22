@@ -1,0 +1,3 @@
+bookworm asked translate  Hebrew is ×ª×× ××ª. to English with hash f1ebed88
+<---- snip ---->
+The translation of Hebrew is תבנית. to English is Template.

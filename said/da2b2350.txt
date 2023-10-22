@@ -1,0 +1,3 @@
+oxagast asked summarize this web address https://microsoft.com with hash da2b2350
+<---- snip ---->
+Microsoft is a technology company that develops, manufactures, licenses, supports, and sells a wide range of software and hardware products and services. It is one of the largest and most successful technology companies in the world, with over 114,000 employees in more than 190 countries. Microsoft’s products range from computer hardware and software to cloud computing services, gaming and entertainment, mobile devices, and more.

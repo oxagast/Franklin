@@ -1,0 +1,3 @@
+morb asked why did reiserfs stop being a mainstream filesystem of choice with hash 457c1d67
+<---- snip ---->
+ReiserFS stopped being a mainstream filesystem of choice due to its poor performance on large files and its lack of support for newer technologies, such as journaling and snapshotting. Additionally, the development of ReiserFS largely stalled in the mid-2000s due to its lead developer, Hans Reiser, being arrested and convicted of murdering his wife.

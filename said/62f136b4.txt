@@ -1,0 +1,3 @@
+zyme asked Whats the name for when TCP/IP networking buffers within Routers, Switches, and similar equipment slow down traffic throughput and latency overall instead of increasing it? with hash 62f136b4
+<---- snip ---->
+That's called congestion control, and it's done by using congestion algorithms like TCP, AIMD, and RED that keep network traffic from overwhelming the network.

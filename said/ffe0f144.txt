@@ -1,0 +1,3 @@
+bookworm asked list all lowercase Unicodes for \\'e\\' without diacritics with hash ffe0f144
+<---- snip ---->
+\u0065

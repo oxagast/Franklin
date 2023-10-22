@@ -1,0 +1,3 @@
+CerebraNet asked What is Ripple with hash 6d6e1e10
+<---- snip ---->
+Ripple is a cryptocurrency that enables instant, certain and low-cost international payments. It is based on a distributed open source internet protocol and is built on a public ledger. The ledger uses a consensus process that allows for payments, exchanges and remittance in a distributed process.

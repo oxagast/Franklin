@@ -1,0 +1,5 @@
+State a fictional quote about how bad linux is compared to windows, in the style of Linus Torvalds
+-------- snip --------
+
+
+"Windows is the bane of computing, with its bloated and unreliable system. Linux is the superior solution, offering powerful performance and reliability that Windows could only dream of."

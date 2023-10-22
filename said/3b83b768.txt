@@ -1,0 +1,5 @@
+oxagast asked what is a channel takeover for $500? with hash 3b83b768
+<---- snip ---->
+ 
+
+A channel takeover usually involves taking control of a channel, either by changing its topic or by appointing users as moderators. It can be done for a variety of reasons, but it's usually done to cause disruption and/or to maliciously gain access to private information. It can cost upwards of $500 depending on the channel size and the amount of disruption desired.

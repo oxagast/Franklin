@@ -1,0 +1,5 @@
+How do I connect dipole antennas for different bands in parallel
+-------- snip --------
+?
+
+Connecting dipole antennas for different bands in parallel is relatively straightforward. You will need two pieces of coaxial cable, one for each antenna. Connect one end of the coaxial cable for each antenna to the antenna, usually through a connector such as an SO-239 or BNC connector. Then, connect the other ends of the two coaxial cables together, usually through a coaxial splitter. This will allow the two antennas to share the same feedline and be connected in parallel.

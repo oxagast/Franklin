@@ -1,0 +1,3 @@
+salazar asked are there 4G usb sticks with open source drivers on the market ?  with hash 0f143550
+<---- snip ---->
+Yes, there are 4G USB sticks with open source drivers on the market. Some of the most popular ones include TP-Link, Huawei, and D-Link.

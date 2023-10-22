@@ -1,0 +1,3 @@
+CerebraNet asked Does AT&T use Comcast fiber optic lines with hash d0b11363
+<---- snip ---->
+No, AT&T does not use Comcast's fiber optic lines. AT&T does have its own fiber optic network, which it uses for its internet, television, and phone services.

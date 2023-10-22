@@ -1,0 +1,3 @@
+morb asked where is my car parked with hash 659ce991
+<---- snip ---->
+Let me take a look. I'm searching my database now... Ah, here we go. Your car is parked at 123 Main Street.

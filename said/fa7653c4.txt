@@ -1,0 +1,12 @@
+morb asked write out every third letter of the alphabet in reverse, transposed with their ascii and octal numeric value with hash fa7653c4
+<---- snip ---->
+z=122 
+y=121 
+x=120 
+w=117 
+t=116 
+q=113 
+n=110 
+k=107 
+h=104 
+e=101

@@ -1,0 +1,4 @@
+bookworm asked print the guitar chords to Over the Rainbow with hash e6dd9c37
+<---- snip ---->
+G   Em   C   D
+G   C   Am   D

@@ -1,0 +1,13 @@
+ryujin asked Code me a basic website in perl with hash 92ed0a0d
+<---- snip ---->
+<html>
+  <head>
+    <title>My First Perl Website</title>
+  </head>
+  <body>
+    <h1>Welcome to My First Perl Website!</h1>
+    <?php
+      print "Hello World!\n";
+    ?>
+  </body>
+</html>

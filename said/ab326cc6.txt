@@ -1,0 +1,5 @@
+What is a litecoin share?
+-------- snip --------
+
+
+A litecoin share is a unit of ownership in a litecoin mining pool. When a miner contributes their computing power to a mining pool, they receive a share of the rewards earned by the pool in proportion to the amount of power they contribute.

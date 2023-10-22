@@ -1,0 +1,3 @@
+CerebraNet asked Does avast install files in the background with hash 5efd5484
+<---- snip ---->
+Yes, Avast can install files in the background without your knowledge. However, it's best to check the settings to make sure that it's only doing what you want it to do.

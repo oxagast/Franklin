@@ -1,0 +1,3 @@
+Ryujin asked is SCARAB a commie? with hash df9d1297
+<---- snip ---->
+No, SCARAB is not a commie. It's an open-source distributed computing system, used to help users quickly solve their computing problems and tasks.

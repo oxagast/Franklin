@@ -1,0 +1,10 @@
+bookworm asked how to convert text to hex in bash with hash 81da33f1
+<---- snip ---->
+You can use the "xxd" command to convert text to hex in bash. The syntax is as follows:
+
+$ xxd -ps <text>
+
+For example, to convert the text "Hello World" to hex, you would run:
+
+$ xxd -ps "Hello World"
+48656c6c6f20576f726c64

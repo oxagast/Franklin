@@ -1,0 +1,16 @@
+create a table with 2 columns listing 10 linux distributions and the year at which the wondershaper package was available for each distro, sorted by year
+-------- snip --------
+
+
+|Distribution | Year |
+|-------------|------|
+|Arch Linux | 2007 |
+|Debian | 2007 |
+|Fedora | 2007 |
+|openSUSE | 2008 |
+|Ubuntu | 2008 |
+|CentOS | 2009 |
+|Mint | 2011 |
+|Kali | 2011 |
+|Slackware | 2012 |
+|Gentoo | 2013 |

@@ -1,0 +1,27 @@
+ryujin asked Code me a basic website in php with hash b0b113a2
+<---- snip ---->
+<?php
+  // Set the page title
+  $page_title = 'PHP Website';
+
+  // Start the page
+  echo '<html>';
+  echo '  <head>';
+  echo '    <title>' . $page_title . '</title>';
+  echo '  </head>';
+  echo '  <body>';
+
+  // Include the header
+  include('header.php');
+
+  // The content of the page
+  echo '    <h1>' . $page_title . '</h1>';
+  echo '    <p>This is a basic website in PHP.</p>';
+
+  // Include the footer
+  include('footer.php');
+
+  // End the page
+  echo '  </body>';
+  echo '</html>';
+?>

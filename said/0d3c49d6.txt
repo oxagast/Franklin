@@ -1,0 +1,3 @@
+bookworms asked explain the barber paradox with hash 0d3c49d6
+<---- snip ---->
+The Barber Paradox is a paradox that states that there is a barber who only shaves people who do not shave themselves. This leads to the question of “who shaves the barber?” If the barber shaves himself, then he should not be shaving himself, which is contradictory. If the barber does not shave himself, then he should not be shaving anyone else, which is also contradictory. This paradox has no definitive answer, as it is an example of a self-referential paradox.

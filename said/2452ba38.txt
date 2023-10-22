@@ -1,0 +1,12 @@
+captain asked can you tell me about any linux terminal dashboards for a linux server administration other than cockpit
+<---- snip ---->
+ 
+1. Terminator - Terminator is a highly customizable and powerful Linux terminal dashboard that lets you easily manage your server. It provides a full-featured terminal emulator, a powerful command line interface, and a graphical user interface. It also has an integrated task manager, an automated system monitor, and an advanced file manager.
+
+2. tmux - tmux is a powerful terminal multiplexer that allows you to manage multiple terminal sessions from a single terminal window. It is highly configurable and provides advanced features such as window splitting, copy/paste, multiple panes, and session synchronization.
+
+3. ConEmu - ConEmu is a Windows-based terminal emulator and tab manager that can be used to manage multiple Linux servers from a single window. It provides a graphical user interface with a sidebar and tabbed navigation, and allows you to easily switch between multiple shells.
+
+4. Guake - Guake is an open-source terminal dashboard for Linux. It provides a drop-down window with a full-featured terminal emulator, a task manager, and an advanced file manager. It also includes tabbed navigation and split windows.
+
+5. Yakuake - Yakuake is a https://gpt3.oxasploits.com/said/2452ba38

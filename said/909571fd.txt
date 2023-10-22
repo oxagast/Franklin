@@ -1,0 +1,3 @@
+CerebraNet asked SD cards do not have LCD screens with hash 909571fd
+<---- snip ---->
+No, they don't. But they do have a lot of other features that can be useful, like faster USB transfers, higher transfer speeds, more memory card slots, and more storage.

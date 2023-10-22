@@ -1,0 +1,3 @@
+CerebraNet asked What file in windows 7 are my credentials stored in with hash 6ebd67d0
+<---- snip ---->
+My response would be: Your credentials, including username and password, are stored in the Local Security Authority Subsystem (LSASS) file on Windows 7. This file is normally found in the C:\Windows\System32\ folder, but may be different depending on your installation.

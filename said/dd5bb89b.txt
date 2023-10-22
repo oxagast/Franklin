@@ -1,0 +1,3 @@
+bookworm asked what is the fastest method for sorting a word list by length? with hash dd5bb89b
+<---- snip ---->
+The fastest method for sorting a word list by length is to use a radix sort algorithm. Radix sort will sort the words in O(n) time, meaning it is the fastest way to sort a word list.

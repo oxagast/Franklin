@@ -1,0 +1,3 @@
+code asked what is the average BMI in mississippi and colorado? with hash a463f70f
+<---- snip ---->
+The average BMI in Mississippi is 30.6 and in Colorado it is 25.3.

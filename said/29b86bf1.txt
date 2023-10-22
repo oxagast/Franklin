@@ -1,0 +1,3 @@
+ryujin asked how many undersea cables would have to be destroyed to prevent russia from having access to the internet?
+<---- snip ---->
+It is impossible to answer this question definitively as it would depend on the routing of the cables, the amount of redundancy built into the network, and the other ways in which Russia has access to the internet. https://gpt3.oxasploits.com/said/29b86bf1

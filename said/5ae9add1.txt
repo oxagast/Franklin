@@ -1,0 +1,3 @@
+bookworms asked Give an example of the bootstrap paradox as it applies to computers. with hash 5ae9add1
+<---- snip ---->
+The bootstrap paradox as it applies to computers is when a computer program is designed to update and improve itself, leading to the possibility of an infinite loop of self-improvement. For example, a computer program is designed to read its own code, find and repair any errors, and then use the improved code to improve itself further. This could potentially lead to an infinite loop of self-improvement, resulting in the bootstrap paradox.

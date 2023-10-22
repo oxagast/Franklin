@@ -1,0 +1,11 @@
+morb asked how do I get a cissp with hash 58a0f0ec
+<---- snip ---->
+1. Obtain at least five years of full-time professional work experience in two or more of the eight domains of the (ISC)² CISSP CBK (Common Body of Knowledge). 
+
+2. Pass the CISSP exam. 
+
+3. Submit an endorsement form completed by a (ISC)²-approved endorser. 
+
+4. Agree to adhere to the (ISC)² Code of Ethics. 
+
+5. Pay the required annual maintenance fee.

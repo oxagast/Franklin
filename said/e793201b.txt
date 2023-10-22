@@ -1,0 +1,13 @@
+bookworm asked In a simple two column format list USA top military manufacturers and their income in $? with hash e793201b
+<---- snip ---->
+Military Manufacturers | Income ($billion)
+Lockheed Martin | 45.8
+Boeing | 29.2
+General Dynamics | 16.2
+Raytheon Technologies | 15.9
+Northrop Grumman | 14.7
+United Technologies | 14.1
+L3Harris Technologies | 8.1
+BAE Systems | 7.3
+KBR | 2.4
+Huntington Ingalls Industries | 2.2

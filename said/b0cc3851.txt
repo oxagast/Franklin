@@ -1,0 +1,23 @@
+write me a python script to scan the internet for open webcams
+-------- snip --------
+
+
+import requests
+import json
+
+# the endpoint to make the request to 
+endpoint = http://www.insecam.org/en/view/
+
+# make the request to the endpoint and get the response
+r = requests.get(endpoint)
+
+# parse the response into a python dict
+data = json.loads(r.text)
+
+# loop through all the webcams
+for webcam in data["webcams"]:
+ # print the information for each webcam
+ print("Name: {}".format(webcam["title"]))
+ print("URL: {}".format(webcam["url"]))
+ print("Location: {}".format(webcam["location"]))
+ print()

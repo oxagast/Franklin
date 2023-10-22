@@ -1,0 +1,3 @@
+CerebraNet asked Show a word in Mandarin and Cantonese which use different symbols for the same word with hash e75f0b7a
+<---- snip ---->
+In Mandarin, the word is 日 (rì), and in Cantonese, the word is 日 (jat6). Both words mean 'day', but they are written with different symbols.

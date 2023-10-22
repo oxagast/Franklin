@@ -1,0 +1,5 @@
+scan my LAN
+-------- snip --------
+
+
+Scanning a LAN is typically done with a network-scanning tool. Popular network-scanning tools include Nmap, Angry IP Scanner, and Advanced IP Scanner. These tools can be used to identify active hosts on a network, detect open ports, and detect services running on the hosts.

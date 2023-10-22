@@ -1,0 +1,5 @@
+bookworm asked explain rtl embeddings in Unicode with hash c038984d
+<---- snip ---->
+.
+
+RTL embeddings in Unicode are characters which are encoded to render text from right-to-left (RTL). This allows for more accurate representation of text in languages that are written from right-to-left, such as Arabic and Hebrew. RTL embeddings are especially useful for ensuring that the rendered text is properly ordered and displayed, as well as for enabling bidirectional and mixed-directional text.

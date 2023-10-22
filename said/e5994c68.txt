@@ -1,0 +1,3 @@
+bookworm asked what hardware to you run on? with hash e5994c68
+<---- snip ---->
+We run on Dell servers and storage, Cisco switch and router hardware, and VMWare virtualization technology.

@@ -1,0 +1,3 @@
+bookworm asked This code is derived from software contributed to Berkeley by Jim R. Oldroyd at The Instruction Set and Keith Gabryelski at Commodore Business Machines. with hash ec7debe6
+<---- snip ---->
+The code was originally written for the Commodore 64 and is now available for use in other systems. It provides an efficient way to process data using a variety of algorithms. Examples of the algorithms that can be used with the code include sorting, searching, and compression. The code can also be used to create graphical user interfaces.

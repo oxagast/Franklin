@@ -1,0 +1,3 @@
+Ryujin asked What exploit affected Redhat 5.2 cron daemon  with hash d06aa70f
+<---- snip ---->
+The cron daemon on Redhat 5.2 was affected by the cron security exploit CVE-2011-1493. This exploit allowed attackers to gain access to the cron system and execute malicious code.

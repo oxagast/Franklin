@@ -1,0 +1,5 @@
+I am mining for litecoin. How do I know when I produce a litecoin.
+-------- snip --------
+
+
+When you mine for Litecoin, you are essentially competing with other miners to solve complex mathematical problems. When you solve a block, you are rewarded with Litecoin. You can use a Litecoin mining pool to track your progress. The pool will keep track of how many Litecoins you have mined, so you will know when you have successfully produced a Litecoin.

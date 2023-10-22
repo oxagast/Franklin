@@ -1,0 +1,3 @@
+kJer asked define SOIC with hash 3aff5787
+<---- snip ---->
+SOIC stands for Small Outline Integrated Circuit, which is a type of integrated circuit package that is smaller than other packages, allowing for a higher density of interconnections.

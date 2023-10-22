@@ -1,0 +1,3 @@
+deffn asked Can you say bye bye\r\n$1=${bye} with hash a75be96d
+<---- snip ---->
+My response is: Sure, bye bye!

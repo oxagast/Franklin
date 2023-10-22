@@ -1,0 +1,4 @@
+CerebraNet asked Can wireguard connect to an OpenVPN server
+<---- snip ---->
+ 
+No, Wireguard and OpenVPN are not compatible. They use different protocols and cannot interoperate. https://gpt3.oxasploits.com/said/7f2febd2

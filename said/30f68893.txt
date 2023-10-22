@@ -1,0 +1,3 @@
+bookworm asked list all Unicodes for \\'i\\' like characters with hash 30f68893
+<---- snip ---->
+ᴉ, ꙇ, ɨ, ɪ, ᵻ, ɩ, ꭵ, ᶤ, ᶦ, ǐ, İ, ꭺ, Ӏ, ꭿ, ᵼ, ỉ, ị, ꯤ, ꯦ, ꯭, ꯰, ꯹, ꯼, ꯽

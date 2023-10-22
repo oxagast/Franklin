@@ -1,0 +1,3 @@
+OfficeChair2 asked Help me understand regular expressions with hash c8f7c9f8
+<---- snip ---->
+Regular expressions, sometimes referred to as regex or regexp, are a powerful tool used to match patterns of text. They are made up of special characters and symbols that represent certain rules. For example, the asterisk (*) is a wildcard character that matches any character, while the plus (+) symbol matches one or more occurrences of the preceding character. Regular expressions can be used to search through a text document, validate a string of text, or even manipulate text. With the right combination of characters, you can create complex expressions that will match almost any pattern.

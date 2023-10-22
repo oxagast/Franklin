@@ -1,0 +1,5 @@
+bookworm asked https://www.livescience.com/zeptosecond-shortest-time-unit-measured.html with hash a2e48f26
+<---- snip ---->
+A zeptosecond is the shortest unit of time ever measured, and it is equal to one sextillionth of a second. This is a very small fraction of a second, as one zeptosecond is to one second as one second is to about 31.71 billion years. To put it another way, a zeptosecond is a trillionth of a trillionth of a second.
+
+To measure a zeptosecond, scientists used a process called high-harmonic generation, which involves using intense laser pulses to create high-frequency electromagnetic fields. By studying how the electrons in a helium atom reacted to these fields, scientists were able to measure the time it takes for the electrons to transition between two energy levels. This time was determined to be 247 zeptoseconds.

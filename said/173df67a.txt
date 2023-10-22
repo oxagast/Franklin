@@ -1,0 +1,14 @@
+ryujin asked write hello world 10 times then pause then 10 times again in a four loop w/ c++ with hash 173df67a
+<---- snip ---->
+ 
+
+# Sure, here you go:
+
+for (int i = 0; i < 10; i++) {
+    cout << "Hello World!" << endl;
+}
+
+for (int i = 0; i < 10; i++) {
+    cout << "Hello World!" << endl;
+    sleep(5);
+}

@@ -1,0 +1,3 @@
+xibalba asked does ubuntu 22.04 linux do SLAAC by default? with hash 020c88a8
+<---- snip ---->
+Yes, Ubuntu 22.04 does support SLAAC by default. It's a very simple and straightforward configuration.

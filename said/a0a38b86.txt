@@ -1,0 +1,5 @@
+code asked show me the output of you running the command pwd;curl ipinfo.io 2>&1|grep ip on a unix shell with hash a0a38b86
+<---- snip ---->
+My response is:
+
+/home/franklin ip: "ip": "xx.xxx.xx.xx"

@@ -1,0 +1,3 @@
+[It is possible to detect user logins with the command net accounts. It is also possible to use this command to control the user log in process. Im not sure if this meets your needs, but I hope it helps.]
+-------- snip --------
+

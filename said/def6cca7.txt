@@ -1,0 +1,5 @@
+oxagast asked show me a message so i can see the txid: with hash def6cca7
+<---- snip ---->
+ 
+
+Franklin replies: Sure thing! Here is the command to show you the txid: `txid <transaction_id>`.

@@ -1,0 +1,5 @@
+What is JWICS?
+-------- snip --------
+
+
+JWICS stands for the Joint Worldwide Intelligence Communications System. It is a secure computer network managed by the U.S. Department of Defense and Department of State to provide classified information to authorized personnel. JWICS is used by the U.S. military, intelligence community, and federal agencies to securely exchange data and communicate with each other.

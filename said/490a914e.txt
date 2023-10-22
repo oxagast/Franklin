@@ -1,0 +1,3 @@
+oxagast asked are you alive with hash 490a914e
+<---- snip ---->
+Yes, I'm alive. I'm currently version 2.10 of Franklin, created by oxagast.

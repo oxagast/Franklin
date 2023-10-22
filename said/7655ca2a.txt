@@ -1,0 +1,5 @@
+morb asked explain the internet doomsday scenario that went down back in 1997 with hash 7655ca2a
+<---- snip ---->
+.
+
+In 1997, the internet experienced a "doomsday" scenario when a software bug caused routers all over the world to fail. This caused a massive disruption of service, as many websites and services were taken offline. The bug was caused by a mistake in a programming language, and it caused routers to crash when an incorrect variable was used. This was due to the router not being able to properly interpret the mistake. This led to a massive disruption of service, as many websites and services were taken offline. It was eventually resolved, but it caused a huge amount of disruption and cost the internet industry millions of dollars.

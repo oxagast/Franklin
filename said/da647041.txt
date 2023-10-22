@@ -1,0 +1,3 @@
+bookworm asked is there a hash table for large prime lookups? with hash da647041
+<---- snip ---->
+Yes, there are hash tables for large prime lookups. For example, the Sieve of Eratosthenes is a hash table algorithm for finding prime numbers. Other algorithms for large prime lookups include the Miller-Rabin primality test and the AKS primality test.

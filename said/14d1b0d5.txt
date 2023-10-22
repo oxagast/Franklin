@@ -1,0 +1,5 @@
+how does routing your connection through a third party prevent a third party from intercepting it
+-------- snip --------
+
+
+Routing your connection through a third party can help to prevent a third party from intercepting it by making it more difficult for the third party to locate the connection. The third party would have to locate the third party server that is routing your connection, and then intercept the connection between the two endpoints (you and the destination youre connecting to). By routing your connection through a third party, you add another layer of obscurity, making it much more difficult for a third party to successfully intercept the connection.

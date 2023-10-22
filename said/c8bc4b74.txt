@@ -1,0 +1,3 @@
+morb asked bash command to list all suid root executable files on a fat32 filesystem with hash c8bc4b74
+<---- snip ---->
+find / -type f -perm -u=s -user root -fstype fat32

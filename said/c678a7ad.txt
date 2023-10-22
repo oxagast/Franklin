@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked What is Least Significant Bit (LSB) in Assembly programming? with hash c678a7ad
+<---- snip ---->
+My response to f4t4l_3rr0r is: The Least Significant Bit (LSB) in Assembly programming is the rightmost bit of a binary number. It is the bit with the lowest value and is used in many operations.

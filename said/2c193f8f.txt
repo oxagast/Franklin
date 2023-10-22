@@ -1,0 +1,3 @@
+bookworm asked who wrote chain of trust about bootstrap compilers with hash 2c193f8f
+<---- snip ---->
+Chain of Trust: Bootstrap Compilers was written by Michael W. Shapiro.

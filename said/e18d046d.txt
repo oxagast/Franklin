@@ -1,0 +1,3 @@
+bookworm asked did you make that script or copy it from stackexchange? with hash e18d046d
+<---- snip ---->
+I wrote the script myself.

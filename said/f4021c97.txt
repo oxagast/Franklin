@@ -1,0 +1,4 @@
+captain asked What is grafana
+<---- snip ---->
+ 
+Grafana is an open source metrics analytics and visualization platform. It provides a powerful and elegant way to create, explore, and share dashboards and data with teams and stakeholders. Grafana supports a variety of data sources including Prometheus, AWS CloudWatch, InfluxDB, and many other time-series databases. With its wide variety of visualization options, Grafana helps you to better understand and interpret your data. https://gpt3.oxasploits.com/said/f4021c97

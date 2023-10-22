@@ -1,0 +1,26 @@
+what are the requirements for a 2022 Domain Controller, from requirement 4 onward
+-------- snip --------
+
+
+1. Windows Server 2022 operating system
+2. Active Directory Domain Services
+3. DNS Server
+4. Group Policy Management
+5. DHCP Server
+6. File and Printer Sharing
+7. Network Access Protection (NAP)
+8. Distributed File System (DFS)
+9. Certificate Services
+10. Rights Management Services (RMS)
+11. Web Server (IIS)
+12. Network Policy Server (NPS)
+13. Virtualization Technologies
+14. Storage Replication
+15. Identity Federation Services (IFS)
+16. Windows Deployment Services (WDS)
+17. Management Tools and Utilities
+18. Windows PowerShell
+19. BitLocker Drive Encryption
+20. Multifactor Authentication
+21. Microsoft Azure Active Directory (AAD) Connect
+22. Microsoft Endpoint Protection

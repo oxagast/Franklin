@@ -1,0 +1,3 @@
+rngd asked tell us about geert with hash e628f4f5
+<---- snip ---->
+Geert is a computer hacker and security researcher from The Netherlands. He is best known for his work on browser security, cryptography, and digital forensics. He has presented his work at various conferences including Black Hat, DEF CON, and PacSec. He is also the author of the book "The Art of Computer Security" and co-author of "The Hacker's Handbook".

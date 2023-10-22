@@ -1,0 +1,4 @@
+captain asked what did stuxnet do to the systems it infected
+<---- snip ---->
+ 
+Stuxnet was a malicious computer worm that was used to attack industrial control systems. It specifically targeted equipment using the Siemens Step7 software, which is commonly used in SCADA (Supervisory Control and Data Acquisition) systems used by industrial factories and plants. Stuxnet compromised the programmable logic controllers (PLCs) that control the operations of these systems, and caused them to malfunction or shut down. It was the first worm to target industrial control systems and the first to use multiple zero-day exploits. https://gpt3.oxasploits.com/said/a7bf5306

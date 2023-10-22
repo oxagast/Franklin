@@ -1,0 +1,3 @@
+morb asked what's an example of a non-fauna tomcat
+<---- snip ---->
+A non-fauna tomcat example is the Apache Tomcat software, which is a web server environment for Java applications. https://gpt3.oxasploits.com/said/51fd4b37

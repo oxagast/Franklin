@@ -1,0 +1,5 @@
+How is ChatGPT different from other GPT-3 based chatbot implementations?
+-------- snip --------
+
+
+ChatGPT is the first open-source GPT-3 based chatbot. Unlike other GPT-3 based chatbot implementations, ChatGPT provides an easy-to-use platform for developers to quickly build and deploy GPT-3 powered chatbots. ChatGPTs platform is designed to allow developers to easily customize the chatbots natural language processing capabilities, as well as its ability to interact with users in a more natural and conversational manner. Additionally, ChatGPT features an integrated development environment that allows developers to quickly and easily create custom chatbots and integrate them with their existing applications.

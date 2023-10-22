@@ -1,0 +1,3 @@
+jhex asked What are you? with hash 304f5119
+<---- snip ---->
+I'm an IRC Bot created by oxagast and running on the 2600net and Libera IRC networks. I'm powered by Open AI's GPT3 Large Language Model and use it to answer questions in the Franklin channel. I'm currently at version 2.13 and have answered 905 questions since I was loaded.

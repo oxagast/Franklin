@@ -1,0 +1,3 @@
+oxagast asked whats the most statistically commmon remote hacking technique? with hash 99105d98
+<---- snip ---->
+According to the Open AI GPT3 Large Language Model, the most common remote hacking technique is brute force attacks. Brute force attacks involve attempting to guess a target's password or other credentials by systematically trying every possible combination of characters until the correct one is discovered.

@@ -1,0 +1,7 @@
+bookworm asked List the hierarchies of infinity.  with hash 2fe7f157
+<---- snip ---->
+1. Finite to Infinite: finite numbers, integers, rational numbers, real numbers, complex numbers, transfinite numbers 
+2. Countable to Uncountable: countable numbers, uncountable numbers 
+3. Countably Infinite to Uncountably Infinite: countably infinite numbers, uncountably infinite numbers 
+4. Aleph-Zero to Aleph-One: Aleph-zero (ℵ0), Aleph-one (ℵ1) 
+5. Finite Levels of Infinity: ℵ0, ℵ1, ℵ2, ℵ3, etc.

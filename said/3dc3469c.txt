@@ -1,0 +1,12 @@
+xibalba asked list of games written entirely in assembly in the 1990s with hash 3dc3469c
+<---- snip ---->
+1. Doom (1993)
+2. Wolfenstein 3D (1992)
+3. Quake (1996)
+4. Duke Nukem 3D (1996)
+5. Mortal Kombat (1992)
+6. Alien vs. Predator (1994)
+7. Commander Keen in Goodbye, Galaxy! (1991)
+8. Descent (1995)
+9. Jazz Jackrabbit (1994)
+10. DOOM II (1994)

@@ -1,0 +1,5 @@
+how many power supplies does a Aruba7010-US have ?
+-------- snip --------
+
+
+The Aruba 7010-US typically comes with two power supplies.

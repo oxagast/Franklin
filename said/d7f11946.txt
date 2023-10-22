@@ -1,0 +1,3 @@
+CerebraNet asked So far, Distributed Net has failed to crack the password. Can we learn anything from this. with hash d7f11946
+<---- snip ---->
+Yes, we can learn that it is possible to have passwords that are difficult to crack, even with the help of powerful computing resources. This is an important lesson, as it shows that security protocols should always take into account the potential of advanced technology to be used against them. It also highlights the importance of having strong passwords that are difficult to guess or crack.

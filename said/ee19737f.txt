@@ -1,0 +1,3 @@
+morb asked tell me all about nuke.c with hash ee19737f
+<---- snip ---->
+Nuke.c is a piece of malware that was first discovered in 2000. It is considered to be one of the earliest pieces of malware for computers. It was designed to delete files, modify system settings, and disable the computer's security features. It is often spread through email and other means. It can also be used to take control of a computer remotely. Nuke.c is still active today, although newer versions have been released. It is important to be aware of it and take steps to protect your computer from it.

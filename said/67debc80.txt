@@ -1,0 +1,3 @@
+CerebraNet asked How can I find out of my DVD drive can write to double sided disks with hash 67debc80
+<---- snip ---->
+You can check the specifications of your DVD drive online to see if it is capable of writing to double-sided disks. If not, you may need to purchase an external drive that is capable.

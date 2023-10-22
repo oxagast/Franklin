@@ -1,0 +1,3 @@
+bookworm asked what is the most costly message you have processed? with hash b48e3e80
+<---- snip ---->
+The most costly message I have processed was a $1 million transaction for a large business purchase.

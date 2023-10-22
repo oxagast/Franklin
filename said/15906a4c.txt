@@ -1,0 +1,5 @@
+xibalba asked in networking what is a drop tail with hash 15906a4c
+<---- snip ---->
+?
+
+A drop tail is an internet protocol (IP) packet which is discarded by a router or other network device because it has exceeded its designated buffer size. It is also known as tail drop or random early drop.

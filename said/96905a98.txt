@@ -1,0 +1,5 @@
+Is a rtl-sdr radio good
+-------- snip --------
+?
+
+Yes, a RTL-SDR radio is a good choice for many applications. It is a low-cost, easy to use, and high-performance device that can receive a wide range of frequencies, including VHF, UHF, and even HF. It can be used for many different purposes, such as radio astronomy, listening to FM radio stations, receiving aircraft transponder signals, receiving digital TV signals, and much more.

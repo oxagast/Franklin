@@ -1,0 +1,5 @@
+how do I automatically createa a new Boot Environement in debian at each system update?
+-------- snip --------
+
+
+Unfortunately, it is not possible to automatically create a new Boot Environment in Debian at each system update. However, you can manually create a new Boot Environment by following the steps outlined in the Debian documentation. To create a new Boot Environment, youll need to use the grub-mkconfig command to generate a new GRUB configuration file and then use the grub-install command to install the new configuration.

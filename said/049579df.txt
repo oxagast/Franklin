@@ -1,0 +1,5 @@
+how do cellular networks handle port forwarding
+-------- snip --------
+
+
+Cellular networks do not typically handle port forwarding as they are designed to provide mobile communication rather than basic internet access. However, some cellular networks may allow you to configure port forwarding rules on specific devices, such as routers or modems. This allows you to forward certain types of traffic from the cellular network to a specific device on the network.

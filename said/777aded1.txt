@@ -1,0 +1,3 @@
+morb asked bash command to list all suid and setuid root executable files on a filesystem with hash 777aded1
+<---- snip ---->
+# find / -type f -perm -4000 -user root 2>/dev/null

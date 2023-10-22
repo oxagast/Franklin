@@ -1,0 +1,6 @@
+bookworm asked table religion, name of devil, name of god with hash 8f17c7d5
+<---- snip ---->
+Religion: Christianity
+
+Devil: Satan
+God: God

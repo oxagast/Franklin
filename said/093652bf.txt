@@ -1,0 +1,3 @@
+DeepComa asked What is BlackIce Private BBS ? with hash 093652bf
+<---- snip ---->
+BlackIce Private BBS is a private bulletin board system run by Knightmare602, an Arizona hacker and sysop who was arrested during the hacker crackdown. It is used for discussion about hacking, phreaking, and malware analysis.

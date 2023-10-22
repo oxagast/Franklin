@@ -1,0 +1,34 @@
+morb asked .bang with hash a488a51c
+<---- snip ---->
+umi.api.entity.Episode
+import com.zzc.androidtrain.R
+import com.zzc.androidtrain.room.BangumiData
+import com.zzc.androidtrain.util.ImageLoader
+
+/**
+ * 追番页的每一集的Adapter
+ *
+ * Created by zczhang on 16/11/17.
+ */
+class BangumiEpisodeAdapter(val context: Context, private val episodeList: List<BangumiData>) : RecyclerView.Adapter<BangumiEpisodeAdapter.EpisodeVH>() {
+
+    override fun onCreateViewHolder(parent: ViewGroup?, viewType: Int): EpisodeVH {
+        val view = LayoutInflater.from(context).inflate(R.layout.bangumi_episode_item, parent, false)
+        return EpisodeVH(view)
+    }
+
+    override fun onBindViewHolder(holder: EpisodeVH?, position: Int) {
+        val episode = episodeList[position]
+        holder?.title?.text = "${episode.title} ${episode.number}"
+        holder?.updateTime?.text = "更新时间：${episode.updateTime}"
+        ImageLoader.displayImage(context, episode.cover, holder?.cover)
+    }
+
+    override fun getItemCount(): Int = episodeList.size
+
+    class EpisodeVH(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val title = itemView.findViewById(R.id.title) as TextView
+        val updateTime = itemView.findViewById(R.id.updateTime) as TextView
+        val cover = itemView.findViewById(R.id.cover) as ImageView
+    }
+}

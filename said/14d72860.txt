@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between the number of people with jobs in california and the official state employment rate with hash 14d72860
+<---- snip ---->
+The difference between the number of people with jobs in California and the official state employment rate is that the official state employment rate is a measure of the total number of people employed or unemployed in the state, while the number of people with jobs in California reflects the actual number of working individuals in the state.

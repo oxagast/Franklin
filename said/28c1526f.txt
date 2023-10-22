@@ -1,0 +1,5 @@
+oxagast asked \" \\' \\' fsdfa asfsd\\' \\' sdaf \" asdfsdf \" with hash 28c1526f
+<---- snip ---->
+The output would be:
+
+fsdfa asfsd sdaf " asdfsdf

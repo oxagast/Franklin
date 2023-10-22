@@ -1,0 +1,4 @@
+oxagast asked lets see how many decimal plces your spitting out now boo with hash 9981c628
+<---- snip ---->
+My response:
+I'm currently outputting 8 decimal places.

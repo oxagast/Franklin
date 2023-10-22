@@ -1,0 +1,5 @@
+example of a bot zeus controls
+-------- snip --------
+
+
+Zeus is a chatbot designed to help you manage tasks and projects more efficiently. It is powered by artificial intelligence and natural language processing, allowing it to understand the context of conversations and respond with helpful suggestions. Zeus can be used to set reminders and deadlines, track progress, collaborate on tasks, and more. It is available on popular messaging platforms such as Slack, Discord, and Microsoft Teams.

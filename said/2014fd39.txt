@@ -1,0 +1,5 @@
+captain asked what is VHF and HF in radio tech terms with hash 2014fd39
+<---- snip ---->
+VHF (Very High Frequency) is the range of frequencies from 30 MHz to 300 MHz. This is commonly used for radio broadcasting, television broadcasting, two-way radio communication, amateur radio, and other applications.
+
+HF (High Frequency) is the range of frequencies from 3 MHz to 30 MHz. This range is commonly used for marine communications, amateur radio, and two-way radio communication.

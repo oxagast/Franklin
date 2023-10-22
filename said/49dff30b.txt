@@ -1,0 +1,5 @@
+what does cubes os use to isolate its applications?
+-------- snip --------
+
+
+Cubes OS uses Containers as its isolation technology, which are essentially sandboxed environments that are completely isolated from each other. Containers allow applications to run without interference from other applications, while still sharing resources like memory, CPU, and networking.

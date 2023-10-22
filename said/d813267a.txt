@@ -1,0 +1,10 @@
+what are the A records of google.com?
+-------- snip --------
+
+
+A records of google.com are:
+
+1. 216.58.193.174
+2. 2a00:1450:4009:809::2004
+3. 172.217.16.142
+4. 2404:6800:4003:c01::64

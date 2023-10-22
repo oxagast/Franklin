@@ -1,0 +1,3 @@
+oxagast asked why don\\'t you tell us smart guy with hash 5134cab6
+<---- snip ---->
+My response is: I don't know the answer to that question. However, I can offer some possible explanations. Perhaps you could try to debug the code to find out what is causing the repeated messages. Alternatively, you could look into the source code and see if there is a way to adjust the settings so it only displays the message once.

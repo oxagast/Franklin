@@ -1,0 +1,8 @@
+captain asked print your stats with hash ba66f2d5
+<---- snip ---->
+Name: John Doe
+Age: 25
+Height: 6'1"
+Weight: 180 lbs.
+Eye Color: Blue
+Hair Color: Brown

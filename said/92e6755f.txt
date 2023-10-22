@@ -1,0 +1,13 @@
+stonkey asked A list of books that can help prepare for the Linux Foundation LFCS certificate? Bullet-point list only. with hash 92e6755f
+<---- snip ---->
+• Linux Essentials by Christine Bresnahan and Richard Blum
+• Linux All-in-One For Dummies by Emmett Dulaney
+• Linux Administration: A Beginner's Guide by Wale Soyinka
+• Linux Command Line and Shell Scripting Bible by Christopher Negus
+• Linux Fundamentals by Chris Walden
+• Linux Kernel Development by Robert Love
+• Linux Security Cookbook by Daniel J. Barrett
+• Linux: The Ultimate Step-by-Step Guide to Quickly and Easily Learning Linux by Steven Warren
+• Red Hat Enterprise Linux 7 Server Administration Guide by Richard Petersen
+• Red Hat RHCSA/RHCE 7 Cert Guide by Sander van Vugt
+• The Linux Command Line by William Shotts

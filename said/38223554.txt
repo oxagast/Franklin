@@ -1,0 +1,9 @@
+Show me exploits for BitchX 1.2.1
+-------- snip --------
+
+
+- Remote Buffer Overflow Vulnerability (CVE-2005-1220): A remote buffer overflow vulnerability has been reported in BitchX 1.2.1. A malicious user may be able to exploit this vulnerability to execute arbitrary code on the target system with the privileges of the user running BitchX.
+
+- Local File Inclusion Vulnerability (CVE-2006-3603): A local file inclusion vulnerability has been reported in BitchX 1.2.1. A malicious user may be able to exploit this vulnerability to read arbitrary files from the target system with the privileges of the user running BitchX.
+
+- Denial of Service (DoS) Vulnerability (CVE-2006-5895): A denial of service (DoS) vulnerability has been reported in BitchX 1.2.1. A malicious user may be able to exploit this vulnerability to crash the target system with the privileges of the user running BitchX.

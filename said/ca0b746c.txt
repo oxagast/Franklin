@@ -1,0 +1,5 @@
+Can regular expressions be included in your queries
+-------- snip --------
+?
+
+Yes, regular expressions can be used as part of queries. Regular expression syntax can be used to create custom search criteria that can be used in queries. For example, a regular expression can be used to search for data containing a certain pattern or substring.

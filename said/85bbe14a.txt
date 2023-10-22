@@ -1,0 +1,3 @@
+oxagast asked what about vint cerf? with hash 85bbe14a
+<---- snip ---->
+Vint Cerf is an Internet pioneer often referred to as one of the "fathers of the Internet" for his pioneering work in the development of the TCP/IP protocols and the architecture of the Internet. He is currently a vice president and Chief Internet Evangelist at Google.

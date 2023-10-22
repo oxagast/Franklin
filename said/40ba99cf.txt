@@ -1,0 +1,20 @@
+morb asked write me some perl poetry in perl
+<---- snip ---->
+#A little Perl poem
+
+use strict;
+use warnings;
+
+my $poem = <<'POEM';
+Oh Perl, my love, so elegant and free
+Your power can take my breath away
+Your syntax can be so tricky
+But I'm still in awe of thee
+Your CPAN modules make me giddy
+Your scalar and arrays keep me busy
+Your references and objects keep me learning
+And your hashes have me yearning
+Oh Perl, my love, I'm yours truly
+POEM
+
+print $poem; https://franklin.oxasploits.com/said/40ba99cf

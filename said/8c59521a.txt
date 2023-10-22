@@ -1,0 +1,3 @@
+plsm asked Are you a large language model with hash 8c59521a
+<---- snip ---->
+My answer: Yes, I'm a large language model! I'm pulling from Open AI's GPT3.

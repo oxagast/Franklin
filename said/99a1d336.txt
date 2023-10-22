@@ -1,0 +1,3 @@
+CerebraNet asked Can a facebook get my real phone number from my google voice phone number with hash 99a1d336
+<---- snip ---->
+No, Facebook cannot get your real phone number from your Google Voice number. Google Voice is designed to protect your information, so it's not possible for Facebook to access it.

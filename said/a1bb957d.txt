@@ -1,0 +1,3 @@
+morb asked generate five random lowercase hexadecimal numbers that are at least eight digits in length with hash a1bb957d
+<---- snip ---->
+Sure thing, morb! Here are your five random lowercase hexadecimal numbers that are at least eight digits in length: 0x8cab1fe, 0x86c7b6d, 0x9f4ce4a, 0x7fdaa1e, 0xabd3e27.

@@ -1,0 +1,70 @@
+booksworms asked c with hash 3c5aec36
+<---- snip ---->
+_str() << "\"" << endl;
+  }
+  for (map<string,string>::const_iterator it=m_mapString.begin(); it!=m_mapString.end(); it++) {
+    out << "  " << it->first << "=\"" << it->second << "\"" << endl;
+  }
+  out << "  />" << endl;
+
+  return out;
+}
+
+ostream& operator<<(ostream &out, const ConfigurableParameter& param)
+{
+  return param.Print(out);
+}
+
+void ConfigurableParameter::PrintWarning(const string &str)
+{
+  if (m_bVerbose)
+    cerr << "WARNING: " << str << endl;
+}
+
+void ConfigurableParameter::PrintError(const string &str)
+{
+  cerr << "ERROR: " << str << endl;
+}
+
+void ConfigurableParameter::PrintMessage(const string &str)
+{
+  if (m_bVerbose)
+    cerr << str << endl;
+}
+
+void ConfigurableParameter::SetBool(const string &strName, bool bValue, bool bVerbose)
+{
+  m_mapBool[strName] = bValue;
+  if (bVerbose) {
+    if (bValue)
+      PrintMessage(strName + " set to true");
+    else
+      PrintMessage(strName + " set to false");
+  }
+}
+
+void ConfigurableParameter::SetInt(const string &strName, int iValue, bool bVerbose)
+{
+  m_mapInt[strName] = iValue;
+  if (bVerbose)
+    PrintMessage(strName + " set to " + toString(iValue));
+}
+
+void ConfigurableParameter::SetFloat(const string &strName, float fValue, bool bVerbose)
+{
+  m_mapFloat[strName] = fValue;
+  if (bVerbose)
+    PrintMessage(strName + " set to " + toString(fValue));
+}
+
+void ConfigurableParameter::SetString(const string &strName, const string &strValue, bool bVerbose)
+{
+  m_mapString[strName] = strValue;
+  if (bVerbose)
+    PrintMessage(strName + " set to \"" + strValue + "\"");
+}
+
+void ConfigurableParameter::SetVerbose(bool bVerbose)
+{
+  m_bVerbose = bVerbose;
+

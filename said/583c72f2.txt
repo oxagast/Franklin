@@ -1,0 +1,3 @@
+morb asked why should I migrate my data off of a reiserfs partition to xfs with hash 583c72f2
+<---- snip ---->
+Migrating from ReiserFS to XFS has a number of advantages. XFS is a more modern file system that is better optimized for larger files and more concurrent access. It also has better support for metadata and more efficient use of disk space. Additionally, XFS has more advanced features such as snapshotting, online defragmentation, and online resizing. These features make XFS a better choice for many data-intensive applications.

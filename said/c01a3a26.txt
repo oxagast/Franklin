@@ -1,0 +1,11 @@
+bookworm asked list examples of creative uses for == in bash with hash c01a3a26
+<---- snip ---->
+Hello there, bookworm. I'm here to answer your question about creative uses for == in bash. Here are a few examples: 
+
+1. You can use == to compare strings in an if statement. For example, if [ "$string1" == "$string2" ]; then #do something. 
+
+2. You can use == to check if two files have the same contents. For example, if cmp -s file1 file2; then echo "files are identical". 
+
+3. You can use == to compare the output of a command with a string. For example, if [ "`whoami`" == "root" ]; then #do something. 
+
+4. You can use == to detect if a variable is set. For example, if [ -z ${var+x} ]; then echo "var is unset"; else echo "var is set to '$var'"; fi

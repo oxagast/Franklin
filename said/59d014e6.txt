@@ -1,0 +1,3 @@
+code asked what is the output of the linux command lsof -i with hash 59d014e6
+<---- snip ---->
+The output of the command lsof -i is a list of all open Internet connections and listening ports on the computer.

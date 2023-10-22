@@ -1,0 +1,3 @@
+oxagast asked .... that makes 5 gallons in the 5 gallon bucket, try again with hash ea2f6d1d
+<---- snip ---->
+Interesting attempt, but it looks like you're still off by one gallon. Maybe you should review your math ;)

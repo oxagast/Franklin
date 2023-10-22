@@ -1,0 +1,15 @@
+oxagast asked write a very long quine in ruby
+<---- snip ---->
+#!/usr/bin/env ruby
+
+code = <<CODE
+#!/usr/bin/env ruby
+
+code = <<CODE
+\#{code}
+CODE
+
+puts code
+CODE
+
+puts code https://franklin.oxasploits.com/said/a61c2887

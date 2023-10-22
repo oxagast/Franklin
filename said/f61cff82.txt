@@ -1,0 +1,5 @@
+Is it possible to build a hardware true random number generator
+-------- snip --------
+?
+
+Yes, it is possible to build a hardware true random number generator. Depending on the design, these generators may use thermal noise, radioactive decay, or other processes to generate random numbers.

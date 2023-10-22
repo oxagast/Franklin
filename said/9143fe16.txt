@@ -1,0 +1,3 @@
+CerebraNet asked What is the largest RAID array that can be built with commercially available hard drives with hash 9143fe16
+<---- snip ---->
+The largest RAID array built with commercially available hard drives is a RAID 6 array, which can support up to 256 drives.

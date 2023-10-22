@@ -1,0 +1,5 @@
+bookworm asked Is Cuneiform in Unicode? with hash 36505f37
+<---- snip ---->
+ 
+
+Yes, Cuneiform is included in Unicode. In fact, it is one of the oldest written languages and has been included in the Unicode Standard since version 4.0.

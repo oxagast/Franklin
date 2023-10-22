@@ -1,0 +1,3 @@
+CerebraNet asked Did you know avast has a web browser with hash 0d26c234
+<---- snip ---->
+My response is: Yes, I'm very familiar with Avast's web browser. I suggest using it with caution, though, as it can be easily exploited.

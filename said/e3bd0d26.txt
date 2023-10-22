@@ -1,0 +1,3 @@
+bookworm asked echo -e \"\ud0b5\" with hash e3bd0d26
+<---- snip ---->
+echo -e "\ud589"

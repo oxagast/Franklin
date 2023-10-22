@@ -1,0 +1,5 @@
+define thespian
+-------- snip --------
+
+
+A thespian is an actor or actress.

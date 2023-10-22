@@ -1,0 +1,3 @@
+you need an autorejoin script bud
+
+Unfortunately, there is no autorejoin script available. The best option would be to use a bot such as mIRCbot or ZNC to automatically rejoin the channel when you are disconnected.

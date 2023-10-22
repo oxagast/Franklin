@@ -1,0 +1,30 @@
+so it thinks
+-------- snip --------
+ it is a request
+ //so we need to override the content type
+ xhr.overrideMimeType("application/json")
+ }
+ }
+ })
+ }
+
+
+ //Event listeners
+ form.addEventListener(submit, addBook)
+ list.addEventListener(click,removeBook)
+
+ //Functions
+ function addBook(e) {
+ e.preventDefault()
+
+ //get form values
+ const title = document.getElementById(title).value
+ const author = document.getElementById(author).value
+ const isbn = document.getElementById(isbn).value
+
+ //Validate
+ if (title === || author === || isbn === ) {
+ alert(Please fill in all fields)
+ } else {
+ //Instantiate a book
+ const book = new

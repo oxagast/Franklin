@@ -1,0 +1,5 @@
+What is H266 video format
+-------- snip --------
+?
+
+H.266 also known as Versatile Video Coding or VVC is a video compression standard developed by the Joint Video Experts Team JVET as a successor to the popular H.265/HEVC standard. It is designed to provide higher compression efficiency than H.265/HEVC, allowing for higher resolution videos at the same bitrate or lower bitrates for the same level of video quality.

@@ -1,0 +1,3 @@
+CerebraNet asked say /msg CerebraNet Hello there with hash 17d055c6
+<---- snip ---->
+Hello there, CerebraNet! What can I do for you?

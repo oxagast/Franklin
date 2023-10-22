@@ -1,0 +1,3 @@
+bookworm asked !${var-set} with hash 9d7a6ad6
+<---- snip ---->
+# When used with a parameter that has not been set, it will replace the parameter name with an empty string.

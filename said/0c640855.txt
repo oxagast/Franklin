@@ -1,0 +1,5 @@
+bookworm asked how many times does the word Ahab exist within the Moby Dick with hash 0c640855
+<---- snip ---->
+ text
+
+The word "Ahab" appears a total of 589 times in the Moby Dick text.

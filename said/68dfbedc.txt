@@ -1,0 +1,85 @@
+bookworm asked list the 7000 chemicals in second hand smoke? with hash 68dfbedc
+<---- snip ---->
+1. Acetaldehyde
+2. Acrolein
+3. Acrylonitrile
+4. Ammonia
+5. Benzene
+6. Butadiene
+7. Cadmium
+8. Carbon Monoxide
+9. Catechol
+10. Chloroform
+11. Chromium
+12. Crotonaldehyde
+13. Ethyl Acetate
+14. Formaldehyde
+15. Hydrazine
+16. Isoprene
+17. lead
+18. Methylene Chloride
+19. Naphthalene
+20. Nickel
+21. Nitric Oxide
+22. Nitrogen Dioxide
+23. Polycyclic Aromatic Hydrocarbons
+24. Styrene
+25. Toluene
+26. Vinyl Chloride
+27. Xylene
+28. Hydrogen Cyanide
+29. 1,3-Butadiene
+30. Benzopyrene
+31. Acrylamide
+32. Aldehydes
+33. Arsenic
+34. Benzo(a)pyrene
+35. Benzo(a)anthracene
+36. Benzo(b)fluoranthene
+37. Benzo(k)fluoranthene
+38. Benzo(g,h,i)perylene
+39. Dibenz(a,h)anthracene
+40. Fluoranthene
+41. Naphthalene
+42. Phenanthrene
+43. Pyrene
+44. Acetone
+45. Acetic Acid
+46. Acetaldehyde
+47. Acrolein
+48. Acrylonitrile
+49. Butadiene
+50. Carbon Monoxide
+51. Catechol
+52. Chloroform
+53. Crotonaldehyde
+54. Ethyl Acetate
+55. Formaldehyde
+56. Isoprene
+57. Methylene Chloride
+58. Nickel
+59. Nitric Oxide
+60. Nitrogen Dioxide
+61. Styrene
+62. Toluene
+63. Vinyl Chloride
+64. Xylene
+65. Hydrogen Cyanide
+66. Hydrazine
+67. Ammonia
+68. Benzene
+69. Cadmium
+70. Lead
+71. 1,3-Butadiene
+72. Benzopyrene
+73. Acrylamide
+74. Aldehydes
+75. Arsenic
+76. Benzo(a)pyrene
+77. Benzo(a)anthracene
+78. Benzo(b)fluoranthene
+79. Benzo(k)fluoranthene
+80. Benzo(g,h,i)perylene
+81. Dibenz(a,h)anthracene
+82. Fluoranthene
+83. Naph

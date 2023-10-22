@@ -1,0 +1,3 @@
+xibalba asked what is FEDNOW with hash 714bc61a
+<---- snip ---->
+FEDNow is a new 24/7/365 real-time payment service from the Federal Reserve that will facilitate faster, secure, and more convenient payments and money movement services for financial institutions and their customers. FEDNow will enable individuals, businesses, and other organizations to move money quickly and securely from one bank account to another, anytime and anywhere in the United States. It will also help to reduce fraud risk and expand access to payment services.

@@ -1,0 +1,3 @@
+how does a limited slip differential work?
+
+A limited slip differential works by limiting the amount of torque that is sent to each wheel. It does this by using a set of clutches, plates, or gears to distribute torque to the wheel with the most traction. This is especially useful in slippery conditions or when navigating around turns. It also helps to keep the vehicle in control by preventing one wheel from spinning while the other remains stationary.

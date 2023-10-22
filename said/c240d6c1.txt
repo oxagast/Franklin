@@ -1,0 +1,3 @@
+oxagast asked summarize https://git-scm.com/docs/git-diff with hash c240d6c1
+<---- snip ---->
+Git diff is a command that allows you to compare different versions of a file, or compare the changes between two different files. It can also be used to show the differences between two branches in a repository, or to show the differences between two commits. In short, git diff is a powerful tool for debugging, investigating, and understanding changes in your source code.

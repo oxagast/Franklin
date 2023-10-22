@@ -1,0 +1,3 @@
+CerebraNet asked Why does unicode not include emoji characters with hash 6b7fd2ca
+<---- snip ---->
+My answer is: Unicode is a text encoding standard, so it doesn't include any graphical elements like emoji. However, there are some Unicode-based emoji standards, like Emoji 12.0.

@@ -1,0 +1,3 @@
+CerebraNet asked I see we may use a comma in our queries. with hash bf9da2fa
+<---- snip ---->
+My response: Sure, commas can make queries easier to read. Just make sure you use them in the right places.

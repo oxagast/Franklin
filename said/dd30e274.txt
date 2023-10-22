@@ -1,0 +1,3 @@
+morb asked which protocol is most frequently used for ddos  with hash dd30e274
+<---- snip ---->
+The most commonly used protocol for DDoS attacks is the Transmission Control Protocol (TCP). It is used to overload networks with large packets of data. It is also used to send multiple requests to a server, forcing it to respond with data that the attacker can use to further exploit the system.

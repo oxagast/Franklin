@@ -1,0 +1,3 @@
+dirmaster0 asked Whats the + mean in my IRC name with hash 50bd4d71
+<---- snip ---->
+The + indicates that you are a channel operator - someone with special privileges in the channel.

@@ -1,0 +1,3 @@
+CerebraNet asked In what ways can I hack a Baofeng 5R radio with hash 4b81b676
+<---- snip ---->
+Hacking a Baofeng 5R radio can be done by exploiting the radio's firmware or by using a software-defined radio to access the radio's control signals. It is also possible to modify the radio's firmware or write custom software to control it.

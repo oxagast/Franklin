@@ -1,0 +1,3 @@
+JediMaster666 asked what is the last generation of Cyrix processor? with hash 53209a81
+<---- snip ---->
+The last generation of Cyrix processors was the MII series, released in 1998. They were based on the Intel P6 architecture.

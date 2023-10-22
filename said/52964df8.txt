@@ -1,0 +1,3 @@
+Salazar asked can chatgpt fetch info on wikipedia only if asked so by a prompt ?  with hash 52964df8
+<---- snip ---->
+Yes, ChatGPT can fetch information from Wikipedia only if asked by a prompt. However, it can also be trained to answer more complex queries.

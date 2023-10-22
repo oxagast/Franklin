@@ -1,0 +1,3 @@
+RDNt asked should end users or junior system administrators investigate vulnerabilities found in a report?  with hash 9fb13e49
+<---- snip ---->
+My answer is: End users and junior system administrators should not attempt to investigate vulnerabilities found in a report. Instead, they should contact the security team or a more experienced system administrator to properly handle the situation.

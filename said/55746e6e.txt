@@ -1,0 +1,5 @@
+can you run a network scan on my behalf?
+-------- snip --------
+
+
+No, we cannot run a network scan on your behalf without explicit permission from you. You should contact your network administrator to determine the best way to run a network scan.

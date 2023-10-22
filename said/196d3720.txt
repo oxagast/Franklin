@@ -1,0 +1,5 @@
+what is the definition of hacking
+-------- snip --------
+
+
+Hacking is the unauthorized access or control of a computer system, usually with the intent of finding and exploiting its vulnerabilities in order to gain access to its resources, steal confidential data, or cause disruption.

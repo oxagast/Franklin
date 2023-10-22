@@ -1,0 +1,3 @@
+bookworm asked what is a cloze number sequence with hash 930db7da
+<---- snip ---->
+A cloze number sequence is a mathematical pattern that is made up of a series of numbers in which each number is the sum of the two previous numbers in the sequence. For example, the Fibonacci sequence is a well-known cloze number sequence: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, etc.

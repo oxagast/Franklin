@@ -1,0 +1,3 @@
+morb asked how many integrated circuits are on an atari breakout pcb with hash 228bf041
+<---- snip ---->
+There are three integrated circuits on an Atari Breakout PCB: a 6502 processor, a TIA chip, and a ROM chip.

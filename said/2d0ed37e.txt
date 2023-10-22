@@ -1,0 +1,5 @@
+CerebraNet asked I think a query limit per week is a good idea with hash 2d0ed37e
+<---- snip ---->
+what do you think?
+
+I think a query limit per week is a good idea. It can help make sure that each user is getting a fair chance to ask questions, and that no one is taking advantage of the system. It also helps to reduce the amount of queries the system has to process and can help with the overall stability of the system.

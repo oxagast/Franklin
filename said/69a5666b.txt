@@ -1,0 +1,3 @@
+RDNt asked Is there an raspberry pi sdr ais project out on the internet? with hash 69a5666b
+<---- snip ---->
+Yes, there is a Raspberry Pi SDR AIS project out on the internet. You can find it here: https://github.com/darksidelemm/sdr-ais.

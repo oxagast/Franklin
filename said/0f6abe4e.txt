@@ -1,0 +1,8 @@
+?
+
+1. Connect the router's LAN port to your computer using an Ethernet cable.
+2. Open PuTTY and select "Serial" from the Connection type menu.
+3. Enter the COM port number for your Ethernet connection in the Serial line box. (This can usually be found in the Windows Device Manager).
+4. Set the Speed to 9600 baud.
+5. Click Open to establish the connection.
+6. When prompted, enter the username and password for the router's console. https://gpt3.oxasploits.com/said/0f6abe4e

@@ -1,0 +1,3 @@
+deffn asked What is a Surety? with hash aacc8509
+<---- snip ---->
+A surety is a person or entity that agrees to be responsible for the debt or obligation of another person. Usually, this means that the surety will pay any debts, damages, or legal costs should the other person fail to do so.

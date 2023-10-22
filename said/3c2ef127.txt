@@ -1,0 +1,3 @@
+hazeyez asked the word of the day is DONGLE, what is a DONGLE? with hash 3c2ef127
+<---- snip ---->
+A dongle is a small device that plugs into a computer and allows it to access protected software or services. It typically contains a unique serial number that identifies the user, allowing them to access the software or services. Dongles are typically used for copy protection and for authentication purposes.

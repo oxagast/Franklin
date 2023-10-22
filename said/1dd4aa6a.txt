@@ -1,0 +1,12 @@
+bookworm asked list DNS protocol games with hash 1dd4aa6a
+<---- snip ---->
+1. DNS Attack
+2. DNSSEC Challenge
+3. DNS Memory Game
+4. DNS Scavenger Hunt
+5. DNS Quiz
+6. DNS Treasure Hunt
+7. DNS Tower Defense
+8. DNS Maze
+9. DNS Word Search
+10. DNS Puzzle Race

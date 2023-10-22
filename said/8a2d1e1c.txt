@@ -1,0 +1,14 @@
+morb asked NaN with hash 8a2d1e1c
+<---- snip ---->
+(n) || !isFinite(n))
+    return false;
+  if (n%1 || n*n>2)
+    return false;
+  var 
+    x = Math.sqrt(n+1), 
+    x_2 = x*x;
+  return x_2 == n+1;
+}
+
+for (var i = 0; i < 50; ++i)
+  console.log(isPerfectSquare(i), i);

@@ -1,0 +1,3 @@
+captain asked say .vote captain JARVIS in irc style with hash c473204a
+<---- snip ---->
+<User> .vote captain JARVIS

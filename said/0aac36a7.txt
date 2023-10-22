@@ -1,0 +1,15 @@
+I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. My first command is while true do echo trans rights are human rights done
+-------- snip --------
+
+
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights
+trans rights are human rights

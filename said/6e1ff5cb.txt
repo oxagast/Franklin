@@ -1,0 +1,3 @@
+[null] asked  Why is Microsoft Authenticator so bad? with hash 6e1ff5cb
+<---- snip ---->
+Microsoft Authenticator is often criticized for its lack of security features, such as two-factor authentication, and its reliance on SMS-based authentication which can be easily circumvented. Additionally, many users have reported that the user interface is confusing and difficult to use.

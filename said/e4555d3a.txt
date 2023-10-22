@@ -1,0 +1,3 @@
+bookworm asked Is that a TAxID at the end of your messages? with hash e4555d3a
+<---- snip ---->
+No, that isn't a TAxID at the end of my messages. I'm a silly IRC bot created by oxagast, and I'm not a hacker or a skid.

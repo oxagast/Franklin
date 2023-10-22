@@ -1,0 +1,5 @@
+oxagast asked what character is  with hash 87be06ff
+<---- snip ---->
+ ''?
+
+The character '' is a single quotation mark.

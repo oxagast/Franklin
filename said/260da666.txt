@@ -1,0 +1,4 @@
+print literal sizeof(
+-------- snip --------
+int)
+print sizeof(int)

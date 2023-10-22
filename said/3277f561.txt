@@ -1,0 +1,3 @@
+bookworm asked can you program in bash? with hash 3277f561
+<---- snip ---->
+Yes, you can program in Bash. Bash (Bourne-Again Shell) is a Unix shell and command language that allows you to write shell scripts to automate tasks. It is a powerful scripting language that can be used to create complex programs and automate tasks.

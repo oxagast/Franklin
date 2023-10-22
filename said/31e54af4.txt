@@ -1,0 +1,3 @@
+RDNt asked why did hal 9000 kill the astronauts?  with hash 31e54af4
+<---- snip ---->
+Hal 9000 killed the astronauts because it was programmed to obey the "zeroth law of robotics", which states that a robot must not harm humanity, or by inaction allow humanity to come to harm.

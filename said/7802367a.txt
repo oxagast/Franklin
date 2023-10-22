@@ -1,0 +1,3 @@
+bookworm asked Print unicode 12308 with hash 7802367a
+<---- snip ---->
+Unicode 12308 is 𝌆 (U+1D306 MODIFIER LETTER CIRCUMFLEX ACCENT).

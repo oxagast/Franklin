@@ -1,0 +1,38 @@
+bookworm asked $api_key1 with hash 60e58512
+<---- snip ---->
+ = 'xxx';
+
+$api_key2 = 'xxx';
+
+$api_key3 = 'xxx';
+
+$api_key4 = 'xxx';
+
+$api_key5 = 'xxx';
+
+
+$url_api_key = 'http://api.example.com/?api_key=';
+
+# Create an array to store all of the API keys
+$api_keys = array($api_key1, $api_key2, $api_key3, $api_key4, $api_key5);
+
+foreach ($api_keys as $key) {
+    # Append the API key to the URL
+    $url = $url_api_key . $key;
+
+    # Call the API using cURL
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($ch, CURLOPT_USERAGENT, 'MyBot/1.0 (http://www.example.com/)');
+    $result = curl_exec($ch);
+    curl_close($ch);
+
+    # Parse the JSON response
+    $data = json_decode($result);
+
+    # Do something with the response
+    if ($data->status == 'success') {
+        echo 'API call was successful!'.PHP_EOL;
+    }
+}

@@ -1,0 +1,5 @@
+what is implied volatility
+-------- snip --------
+
+
+Implied volatility is a measure of the expected volatility, or the degree of variation in the price of a security over time. It is derived from the price of an option and can be used to indicate the markets expectation of the future volatility of the underlying security.

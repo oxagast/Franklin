@@ -1,0 +1,3 @@
+oxagast asked which do you like better perl or python? with hash eb126c26
+<---- snip ---->
+I do not have personal preferences. Both Perl and Python have their own strengths and weaknesses and are suitable for different purposes. It all depends on the specific needs and requirements of the project.

@@ -1,0 +1,3 @@
+morb asked can radioactive material interrupt radio communications with hash a3c0dbfd
+<---- snip ---->
+Yes, radioactive material can interfere with radio communications, as it can interfere with the signals sent by the transmitter. This is because radiation is a type of electromagnetic energy, and radio signals are also a type of electromagnetic energy. This means that when a radioactive source emits radiation, it can interfere with the transmission of the radio signal.

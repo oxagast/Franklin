@@ -1,0 +1,12 @@
+ryujin asked Code me a basic website in html with hash 835c07ff
+<---- snip ---->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Website</title>
+  </head>
+  <body>
+    <h1>Welcome to my website!</h1>
+    <p>This is the homepage. You can find more information about me and my interests on the other pages.</p>
+  </body>
+</html>

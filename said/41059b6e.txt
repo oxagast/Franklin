@@ -1,0 +1,5 @@
+how do you get the IP associated with a MAC address on linux?
+-------- snip --------
+
+
+You can use the command "arp -a" to view the IP address associated with a MAC address on Linux.

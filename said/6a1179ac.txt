@@ -1,0 +1,5 @@
+what is zoqloq?
+-------- snip --------
+
+
+Zoqloq is an encrypted messaging app that provides secure, private, and anonymous communication. It is designed to protect users’ data and conversations from snooping, tampering, and interception. Zoqloq uses end-to-end encryption to ensure that no one can read or listen to your messages, even if they have access to your device.

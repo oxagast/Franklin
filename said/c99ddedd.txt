@@ -1,0 +1,3 @@
+zyme asked Tell us about scroogles specific complaints regarding Googles web crawling for search results. with hash c99ddedd
+<---- snip ---->
+Scroogle's primary complaint was that Google was scraping web pages for search results without the permission of the sites' owners. This was a violation of the Digital Millennium Copyright Act, which states that no one can use someone else's copyrighted material without permission. Scroogle also argued that Google was crawling at a much faster rate than the sites owners had allowed, resulting in inaccurate or incomplete search results. Scroogle also alleged that Google was manipulating its search results to favor its own products and services.

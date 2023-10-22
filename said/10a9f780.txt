@@ -1,0 +1,3 @@
+CerebraNet asked How can I access itunes via the safari browser with hash 10a9f780
+<---- snip ---->
+Unfortunately, you cannot access iTunes via the Safari browser. iTunes is a desktop application and must be downloaded from the Apple website in order to be used on your computer.

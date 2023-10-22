@@ -1,0 +1,13 @@
+bookworm asked print a computer mazine article from 1980 about the commodore 64 with hash ac7242e1
+<---- snip ---->
+The Commodore 64: A New Standard in Home Computing
+
+For the past several years, the home computer industry has been dominated by the Apple II and the IBM PC. But a new contender has now stepped into the market, the Commodore 64.
+
+The Commodore 64 is a powerful machine with a full 64K of RAM and an impressive range of features. It comes with a built-in BASIC language interpreter and an advanced sound chip. The graphics capabilities are also impressive, with a palette of 16 colors and resolutions up to 320 x 200.
+
+In addition, the Commodore 64 is an extremely affordable machine. At a retail price of just $599, it's more than $1000 less than the IBM PC. And with its advanced features and low price, the Commodore 64 is sure to become the new standard in home computing.
+
+The Commodore 64 also comes with a vast library of software. From word processors to games, the Commodore 64 has something for everyone. It even comes with a large selection of educational programs, making it an excellent choice for parents who want to introduce their children to computers.
+
+In the past, home computing was dominated by expensive machines with limited features. Now, with the Commodore 64, users can get the features they want at a price they can afford. It's no wonder that the Commodore 64 is quickly becoming the computer of choice for homes across the country.

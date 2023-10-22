@@ -1,0 +1,5 @@
+is cp sufficient to copy files and directories from one directory to another or is rsync better?
+-------- snip --------
+
+
+It depends on the situation. Rsync is generally better for larger files, while cp is better for smaller files. Rsync also has the advantage of being able to copy only the differences between two files, which can save time and bandwidth.

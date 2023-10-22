@@ -1,0 +1,3 @@
+Officechair2 asked What is a 3d development environment like out of swordfish with hash 8b7c8a0c
+<---- snip ---->
+A 3d development environment like out of Swordfish is a type of software development environment that allows developers to create 3D graphics and animations with ease. It is used for creating, manipulating, and animating 3D objects in a virtual, 3D environment. It provides a powerful set of tools for creating 3D models, textures, and animations.

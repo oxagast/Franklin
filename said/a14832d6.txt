@@ -1,0 +1,3 @@
+CerebraNet asked What is memory consolidation with hash a14832d6
+<---- snip ---->
+Memory consolidation is the process by which a memory is converted from a fragile, short-term form to a long-term, stable form. During the process, information is transferred from temporary storage in the hippocampus to the neocortex, where it can be stored more permanently. Memory consolidation is thought to involve the reorganization and strengthening of neural connections over a period of time.

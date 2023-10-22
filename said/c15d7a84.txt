@@ -1,0 +1,3 @@
+xibalba asked what does PIPed mean? with hash c15d7a84
+<---- snip ---->
+PIPed stands for "Pipeline Independent Processor." It is used to create software that can be run on different processors and hardware, without needing to be adapted for each platform.

@@ -1,0 +1,3 @@
+bookworm asked What is a Reimann Sphere? with hash e7c4bb91
+<---- snip ---->
+The Riemann sphere is a model of the extended complex plane, in which the point at infinity is added to the complex plane. It is named after the German mathematician Bernhard Riemann. The extended complex plane is often represented as a sphere, with the "north pole" corresponding to the point at infinity and the "south pole" corresponding to the origin.

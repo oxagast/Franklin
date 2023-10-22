@@ -1,0 +1,3 @@
+bookworm asked How many psychologists work at meta? with hash 8cea744b
+<---- snip ---->
+Meta does not employ any psychologists.

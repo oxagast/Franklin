@@ -1,0 +1,3 @@
+zyme asked Please give me a very short explanation of protein folding  with hash e97d8b5a
+<---- snip ---->
+Protein folding is the process by which a protein molecule assumes its three-dimensional structure. In order to function properly, proteins must fold into specific shapes, and this process is often assisted by other molecules called "chaperones". Protein folding is an incredibly complex process, and even the most advanced computer models are not able to accurately simulate it.

@@ -1,0 +1,3 @@
+zyme asked and the technical capabilities would differ from a Power PC CPU in what way(s)? with hash 1a497268
+<---- snip ---->
+The technical capabilities of a Power PC CPU differ from those of an ARM CPU in that the Power PC CPU is designed to execute a limited set of instructions, while an ARM CPU is designed to execute a wide variety of instructions. Additionally, RISC CPUs are generally simpler and more efficient than ARM CPUs, but ARM CPUs offer more flexibility.

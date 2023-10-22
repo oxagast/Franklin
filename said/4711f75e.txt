@@ -1,0 +1,3 @@
+CerebraNet asked What is the biggest micro SD card a raspberry pi can use with hash 4711f75e
+<---- snip ---->
+The biggest micro SD card a raspberry pi can use is a 32GB card.

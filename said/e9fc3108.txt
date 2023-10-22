@@ -1,0 +1,34 @@
+Show me 10 different programing languages hello world
+-------- snip --------
+
+
+1. Java:
+System.out.println("Hello World") 
+
+2. Python:
+print("Hello World")
+
+3. C:
+printf("Hello World
+")
+
+4. C++:
+std::cout << "Hello World" << std::endl
+
+5. JavaScript:
+console.log("Hello World")
+
+6. Ruby:
+puts "Hello World"
+
+7. Swift:
+print("Hello World")
+
+8. Go:
+fmt.Println("Hello World")
+
+9. PHP:
+echo "Hello World"
+
+10. Rust:
+println!("Hello World")

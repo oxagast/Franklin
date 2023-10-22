@@ -1,0 +1,5 @@
+oxagast asked find me a CVE for webmin and its accompanying exploit with hash 23273aa4
+<---- snip ---->
+.
+
+I can certainly look for a CVE for webmin and its accompanying exploit. Give me a moment to search for one.

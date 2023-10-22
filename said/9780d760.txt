@@ -1,0 +1,3 @@
+RDNt asked who is the appropriate role in an organization to investigate vulnerabilty scan report findings? with hash 9780d760
+<---- snip ---->
+The appropriate role in an organization to investigate vulnerability scan report findings is typically a security analyst or security engineer. They are the ones who are qualified to review the findings and take the necessary measures to address the issues.

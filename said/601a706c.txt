@@ -1,0 +1,3 @@
+CerebraNet asked Which borough in NYC has the highest crime with hash 601a706c
+<---- snip ---->
+My answer is: Staten Island has the highest crime rate in NYC, with a rate of 4.3 per 1,000 people.

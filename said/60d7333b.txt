@@ -1,0 +1,5 @@
+CerebraNet asked Shoot `SSB with hash 60d7333b
+<---- snip ---->
+_PALETTE_DIR`
+
+SSB_PALETTE_DIR is an environment variable defined in the Secure Shell Bash (SSB) terminal. It is used to define the directory in which the user's palette files are stored.

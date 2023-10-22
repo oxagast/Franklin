@@ -1,0 +1,9 @@
+bookworm asked list urls about TEI with hash d354589e
+<---- snip ---->
+1.  TEI Consortium - http://www.tei-c.org/
+2. TEI Guidelines - http://www.tei-c.org/Guidelines/
+3. TEI By Example - http://www.tei-c.org/release/doc/tei-p5-doc/en/html/index.html
+4. TEI Wiki - http://wiki.tei-c.org/
+5. TEI-L Listserv - http://listserv.brown.edu/archives/cgi-bin/wa?A0=TEI-L
+6. Text Encoding Initiative GitHub - https://github.com/TEIC
+7. TEI Simple - http://tei-simple.sourceforge.net/

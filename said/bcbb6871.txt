@@ -1,0 +1,3 @@
+bookworm asked is 1.5 a close approximation to 1.4 with hash bcbb6871
+<---- snip ---->
+Yes, 1.5 is a close approximation to 1.4. The difference between the two numbers is 0.1, which is quite small, so they can be considered close approximations.

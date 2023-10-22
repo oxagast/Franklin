@@ -1,0 +1,3 @@
+oxagast asked what are the txid tags for on your messages? with hash 3b230f6b
+<---- snip ---->
+In this case, the txid tags are a way to identify the specific messages sent by Franklin. If you search for the txid tag on https://franklin.oxasploits.com/, you can find the associated messages.

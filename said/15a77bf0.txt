@@ -1,0 +1,5 @@
+is digital television encoded as mpeg2-ts
+-------- snip --------
+
+
+Yes, digital television is often encoded as MPEG2-TS. MPEG2-TS stands for MPEG-2 Transport Stream, which is a type of digital container format used for encoding and delivering audio and video streams. It is a commonly used format for digital television broadcasts.

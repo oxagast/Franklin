@@ -1,0 +1,9 @@
+morb asked show me examples of utf16 characters with hash 6a760999
+<---- snip ---->
+Examples of UTF-16 characters include:
+
+• U+0041 (Latin Capital Letter A) 
+• U+2702 (Scissors) 
+• U+1F31F (Red Apple)
+• U+1F600 (Grinning Face) 
+• U+1F30D (Earth Globe Europe-Africa)

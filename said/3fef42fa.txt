@@ -1,0 +1,18 @@
+bookworm asked write the instructions for playing boggle with hash 3fef42fa
+<---- snip ---->
+Boggle is a word game played with a plastic grid of lettered dice, in which players attempt to find words in sequences of adjacent letters.
+
+1. Gather the necessary pieces: 
+You will need the Boggle board, all 16 dice, and a timer.
+
+2. Set up the board: 
+Lay out the Boggle board with the 16 dice placed in the grid. Make sure that all of the dice are facing up, so that all of the letters are visible.
+
+3. Set the timer: 
+Set the timer for 3 minutes.
+
+4. Start playing: 
+Players take turns finding words in the grid. Words must be made up of at least 3 letters, and must be formed from adjacent dice (not diagonal). Players can only use each letter once per word.
+
+5. End the game: 
+When the timer goes off, the game is over. Each player should then count up the number of words they found and the other players can check them. The player with the most words wins.

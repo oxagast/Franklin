@@ -1,0 +1,3 @@
+bookworm asked list programming languages that allow changing operator associativity or precendence using affinities with hash d5d3899a
+<---- snip ---->
+The most popular languages that allow changing operator associativity or precedence using affinities are C++, Java, Python, Ruby, and JavaScript. These languages have a range of different libraries and tools that make it easy to modify the way certain operators are interpreted. Additionally, some languages like Scheme have built-in support for modifying operator associativity or precedence.

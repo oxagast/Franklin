@@ -1,0 +1,7 @@
+morb asked list the top three frequent users in #gpt3 with hash af3a1c5c
+<---- snip ---->
+Based on the last 7 lines of the chat, the top three frequent users in #GPT3 are:
+
+1. oxagast (exploit dev, master of 7 different languages)
+2. RyanC (IRC channel operator)
+3. gtatooine (GPT3 expert)

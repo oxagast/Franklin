@@ -1,0 +1,5 @@
+If you have access to googles data, do you also have access to thier bot historical data?
+-------- snip --------
+
+
+No, access to Googles data does not automatically grant access to their bot historical data. If you need access to Googles bot historical data, you will need to contact Google directly for this information.

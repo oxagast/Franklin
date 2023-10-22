@@ -1,0 +1,19 @@
+oxagast asked give me some pros and cons about popular email clients with hash f60f0e3d
+<---- snip ---->
+Sure, here are some pros and cons of popular email clients:
+
+Pros:
+
+- Gmail: Large storage capacity, great user interface and easy integration with other Google services.
+
+- Outlook: Easy to organize emails, provides a calendar and task manager.
+
+- Apple Mail: Syncs well with other Apple devices.
+
+Cons:
+
+- Gmail: Can be difficult to find emails due to the large storage capacity.
+
+- Outlook: Can be difficult to manage multiple accounts.
+
+- Apple Mail: Can be slow to sync with other devices.

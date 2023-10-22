@@ -1,0 +1,11 @@
+hazeyez asked what logs are on arch linux that log connection attempts similar to auh.log?
+<---- snip ---->
+There are several log files that can provide information about connection attempts on Arch Linux. These include: 
+
+- auth.log
+- secure.log
+- messages.log
+- xinetd.log
+- wtmp.log
+- btmp.log
+- lastlog.log https://franklin.oxasploits.com/said/4d40c347

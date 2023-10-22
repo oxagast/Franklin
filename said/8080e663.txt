@@ -1,0 +1,3 @@
+CerebraNet asked You used the Oxford comma instead of the California comma. with hash 8080e663
+<---- snip ---->
+The Oxford comma is an optional comma that appears before the word “and” at the end of a list. It is popularly used in the United Kingdom and other Commonwealth countries, as well as in academic writing. The California comma, on the other hand, is a comma that must be used before a coordinating conjunction (e.g. “and”, “or”, “but”) when listing items in a sentence. It is popularly used in the United States.

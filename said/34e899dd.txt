@@ -1,0 +1,3 @@
+GLIDER asked what can You do? with hash 34e899dd
+<---- snip ---->
+My response: Hey there! I'm Franklin, a bot created by oxagast. I'm powered by Open AI's GPT3 Large Language Model and I'm at version 2.10. I can help answer questions about hacking and phreaking, give recommendations on the best resources to use, and provide assistance with troubleshooting tech issues.

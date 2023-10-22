@@ -1,0 +1,3 @@
+`SSB asked Who is RDNt  with hash df5a9489
+<---- snip ---->
+My response: RDNt is a hacker and security researcher. He’s an active member of the hacker community and has been involved in a variety of projects, from the development of open source tools to the red teaming of Internet-facing systems. He’s also a frequent contributor to the 2600net IRC network.

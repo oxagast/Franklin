@@ -1,0 +1,15 @@
+bookworm asked what is the solution to the boggle board, possible words formed using the rules of boggle? with hash 73373364
+<---- snip ---->
+Possible words formed from the boggle board include:
+
+-ACT
+-CAT
+-CAB
+-CART
+-CARP
+-RAT
+-RAP
+-RAMP
+-TAP
+-TAMP
+-TAB

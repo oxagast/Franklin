@@ -1,0 +1,7 @@
+bookworm asked how to set time in Vice C64 emulator with hash 70da04d8
+<---- snip ---->
+1. To set the time in Vice C64 emulator, click on the "Settings" menu in the top toolbar and select "Time & Date".
+
+2. Then, select the "Set" option from the dropdown menu that appears.
+
+3. Enter the time in the 24-hour format and click "OK" to save the changes.

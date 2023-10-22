@@ -1,0 +1,3 @@
+CerebraNet asked What is WiFi deauthorization with hash 2e71029d
+<---- snip ---->
+Your answer: WiFi deauthorization is the process of removing a device from a wireless network. It is done by sending a "deauth" frame to the device, which causes it to disconnect from the network.

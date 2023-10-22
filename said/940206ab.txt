@@ -1,0 +1,7 @@
+bookworm asked list in a table, the tonnage per day and largest landfills sites in New Jersey, Pennsylvania and Virginia? with hash 940206ab
+<---- snip ---->
+| State | Tonnage Per Day | Largest Landfill Sites |
+|------|-----------------|-----------------------|
+| NJ   | 5,000-7,000 tons | East Greenwich Landfill |
+| PA   | 2,000-4,000 tons | Keystone Sanitary Landfill |
+| VA   | 2,000-3,000 tons | Chesterfield Landfill |

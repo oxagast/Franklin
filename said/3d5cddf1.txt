@@ -1,0 +1,3 @@
+bookworm asked Are births increasing or decreasing in the USA? with hash 3d5cddf1
+<---- snip ---->
+Births in the USA have been decreasing since 2008. The birth rate peaked in 2007, when more than 4.3 million babies were born in the US, and has since declined to 3.7 million births in 2019.

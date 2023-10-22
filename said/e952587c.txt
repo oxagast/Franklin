@@ -1,0 +1,3 @@
+CerebraNet asked What input will crash a GPT3 query with hash e952587c
+<---- snip ---->
+That's an interesting question! Unfortunately, I'm not sure if there is any specific input that will crash a GPT3 query. However, as with all systems, there are ways to cause unexpected behavior if certain parameters are exceeded or outside the expected range. It's best to use GPT3 with caution and always test your queries before running them live.

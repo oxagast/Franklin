@@ -1,0 +1,5 @@
+What does GPT stand for?
+-------- snip --------
+
+
+GPT stands for "Guided Partition Table".

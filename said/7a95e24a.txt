@@ -1,0 +1,5 @@
+bookworm asked https://en.wikipedia.org/wiki/Proton%E2%80%93proton_chain with hash 7a95e24a
+<---- snip ---->
+_reaction
+
+The proton–proton chain reaction is a nuclear fusion reaction that powers active or main sequence stars, including the Sun. It is the dominant source of energy in stars that are more massive than about 0.5 M☉. In the proton–proton chain reaction, four protons fuse to form a helium-4 nucleus (an alpha particle) and two positrons (positively charged electrons), while releasing two gamma ray photons and a total energy of 26.7 MeV. The two gamma photons produced have a combined energy of 5.49 MeV, of which 3.23 MeV must be expended to make up for the masses of the four protons that were converted into an alpha particle. The remaining 2.26 MeV of energy is released as kinetic energy of the two positrons and the alpha particle.

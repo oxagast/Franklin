@@ -1,0 +1,12 @@
+bookworm asked List all USA violations of the Geneva COnventions with hash 9ee20da9
+<---- snip ---->
+1. Unlawful detention and interrogation of prisoners of war.
+2. Unlawful transfer of prisoners of war to third countries where they may face torture and/or death.
+3. Unlawful use of torture and/or cruel, inhuman, and degrading treatment of prisoners of war.
+4. Unlawful use of force against civilians in occupied territories.
+5. Unlawful use of chemical and biological weapons against civilians and prisoners of war.
+6. Unlawful denial of access to medical care for prisoners of war.
+7. Unlawful destruction of cultural property.
+8. Unlawful use of civilian shields in military operations.
+9. Unlawful collective punishment of civilians for the actions of insurgents or other armed forces.
+10. Unlawful targeting of civilian infrastructure.

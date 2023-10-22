@@ -1,0 +1,3 @@
+bookworm asked summarize https://simonwillison.net/2023/May/11/delimiters-wont-save-you/ with hash 33753575
+<---- snip ---->
+The article discusses the limitations of delimiters in programming languages, arguing that they cannot guarantee safety and security in code. It suggests that alternative approaches, such as type safety and static analysis, are needed to ensure the robustness of code. In conclusion, the article states that delimiters can help, but are not enough to provide the necessary protection.

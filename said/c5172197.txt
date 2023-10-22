@@ -1,0 +1,9 @@
+bookworm asked list security risk differences between IP6 and IP4 with hash c5172197
+<---- snip ---->
+ - in #GPT3
+
+IPv6 and IPv4 have several differences when it comes to security. 
+
+IPv6 has the potential to provide better security than IPv4 since it has a larger address space with greater scalability and flexibility. IPv6 also provides stronger authentication and encryption protocols and improved packet filtering capabilities, which can help reduce the risk of malicious traffic. Additionally, IPv6 supports IPv6-specific security protocols such as IPsec and SEND, which provide additional layers of protection. 
+
+However, IPv6 also has some security risks to consider. For example, the larger address space can make it more difficult to detect malicious traffic, as it is easier for attackers to hide addresses. Additionally, IPv6 does not have any built-in mechanisms for dealing with malicious traffic, and therefore requires additional security measures to be put in place. Finally, IPv6 does not provide as much backwards compatibility as IPv4, which can make it more difficult for older systems to communicate with newer ones.

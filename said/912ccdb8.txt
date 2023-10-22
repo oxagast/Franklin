@@ -1,0 +1,5 @@
+oxagast asked how do i check if another irc user is identified from my client? with hash 912ccdb8
+<---- snip ---->
+Hi oxagast,
+
+To check if another user is identified from your client, you can type /whois <nick> and it will tell you if the user is identified or not. If the user is identified, it will also tell you their username and hostname. You can also type /stats p <nick> to see more detailed information about the user. Hope this helps!

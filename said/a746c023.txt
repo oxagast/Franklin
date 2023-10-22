@@ -1,0 +1,5 @@
+What is Apple Healthcare?
+-------- snip --------
+
+
+Apple Healthcare is a platform developed by Apple to help individuals track their health and wellness. It includes a variety of features such as Health Records, Activity History, and Health Goals. The platform also provides access to health records from participating organizations, such as hospitals and clinics, giving individuals a comprehensive view of their health information. Additionally, it allows users to share their health data with clinicians, family, and friends.

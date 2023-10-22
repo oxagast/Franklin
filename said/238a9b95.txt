@@ -1,0 +1,5 @@
+how long is a mac address in bits?
+-------- snip --------
+
+
+A MAC address is 48 bits in length.

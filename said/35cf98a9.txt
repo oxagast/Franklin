@@ -1,0 +1,5 @@
+CerebraNet asked Does the FDIC keep continuous backup copies of bank records with hash 35cf98a9
+<---- snip ---->
+?
+
+Yes, the FDIC keeps continuous backup copies of bank records. The FDIC stores detailed information on the financial condition of insured banks, including financial statements, call reports, and other data. The FDIC also maintains records of all deposits, loans, and other transactions that occur at banks it insures.

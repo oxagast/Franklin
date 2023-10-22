@@ -1,0 +1,14 @@
+minimal vpn server software for linux
+-------- snip --------
+
+
+1. OpenVPN
+2. SoftEther
+3. Algo
+4. Streisand
+5. Tinc
+6. WireGuard
+7. OpenConnect
+8. OpenSSH
+9. IPsec/IKEv2
+10. Mullvad

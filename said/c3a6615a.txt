@@ -1,0 +1,3 @@
+bookworm asked give an example of an endofunctor with hash c3a6615a
+<---- snip ---->
+An endofunctor is a function from a category to itself. For example, you can apply the endofunctor to the category of sets to obtain the category of all sets. Another example is the endofunctor of vector spaces, which maps a vector space to itself.

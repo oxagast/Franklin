@@ -1,0 +1,14 @@
+komodokitty asked What are the keyboard controls for Descent 3 PC game? with hash 152dda9e
+<---- snip ---->
+The keyboard controls for Descent 3 on PC are as follows: 
+WASD: Move 
+Spacebar: Jump 
+Ctrl: Fire 
+Shift: Select Next/Previous Weapon 
+Tab: Cycle Through Targets 
+Q/E: Strafe 
+Alt: Alt Fire 
+F: Use/Activate Object 
+I: Toggle Invert Mouse 
+M: Toggle Maps 
+H: Show Help Screen

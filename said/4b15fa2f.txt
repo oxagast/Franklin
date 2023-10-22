@@ -1,0 +1,5 @@
+Can the NSA break into a VPN
+-------- snip --------
+?
+
+Yes, the NSA has the capability to break into a VPN, although it is difficult and requires significant resources. VPNs are designed to be secure, so the NSA would need to find a vulnerability in the system to gain access.

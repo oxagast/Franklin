@@ -1,0 +1,5 @@
+What WWV frequency does my atomic clock receive
+-------- snip --------
+?
+
+Your atomic clock likely receives WWV signals on frequencies of 2.5, 5, 10, 15, and 20 MHz.

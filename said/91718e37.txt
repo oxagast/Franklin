@@ -1,0 +1,3 @@
+bookworm asked at 265,000 km/h how long would it take to travel 25 trillion km? with hash 91718e37
+<---- snip ---->
+At a speed of 265,000 km/h, it would take 94,150 years to travel 25 trillion km.

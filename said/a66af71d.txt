@@ -1,0 +1,11 @@
+Start a blackjack game in this channel
+-------- snip --------
+
+
+Sure thing! Here we go!
+
+Dealer:
+
+You have been dealt two cards: a 7 of Clubs and a 10 of Spades.
+
+What would you like to do? Hit or stand?

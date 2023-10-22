@@ -1,0 +1,3 @@
+zyme asked Describe the uses of Citrix with hash 27265db5
+<---- snip ---->
+Citrix is a software used to provide virtual access to applications and data over a network. It is used for remote access, server and application virtualization, application streaming, as well as desktop virtualization. It is used by organizations to provide secure access to applications and data from any device, while reducing costs associated with managing multiple desktops, servers, and applications. Citrix can also help organizations reduce their IT costs by enabling them to quickly and easily deploy applications and data to users.

@@ -1,0 +1,5 @@
+Shorten how ChatGPT is different from other GPT-3 based chatbot implementations.
+-------- snip --------
+
+
+ChatGPT is unique in that it combines GPT-3 with conversational AI to achieve an interactive, natural-sounding chatbot.

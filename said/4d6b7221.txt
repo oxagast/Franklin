@@ -1,0 +1,3 @@
+bookworm asked Can chatGPT be infected by anything? with hash 4d6b7221
+<---- snip ---->
+No, ChatGPT is a web-based chatbot and it is not susceptible to any viruses or malware.

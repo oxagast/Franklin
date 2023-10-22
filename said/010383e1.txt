@@ -1,0 +1,3 @@
+ryujin asked list all CVEs for vsftpd 2.3.4? with hash 010383e1
+<---- snip ---->
+Sure! There are a few CVEs associated with vsftpd 2.3.4: CVE-2011-0763, CVE-2012-6095, CVE-2014-8149, and CVE-2015-3278.

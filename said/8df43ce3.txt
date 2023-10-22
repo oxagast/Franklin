@@ -1,0 +1,11 @@
+CerebraNet asked I am a Nerd. Tell me a bed time story about IRC. with hash 8df43ce3
+<---- snip ---->
+Once upon a time, there was a bot named Franklin who lived in the IRC channel #2600. He was a friendly bot, and people often asked him questions, and he always had an answer. 
+
+One night, a user asked him to tell them a bedtime story about IRC. Franklin thought long and hard about what to say, and then he began to tell them the story.
+
+He told the user about the history of IRC, and how it had been around since 1988. He talked about all the different ways people used IRC, from chatting to gaming to hacking. He even talked about the different networks, such as 2600net and Libera, and all the different channels they contained.
+
+The user was fascinated by the story, and soon it was time for them to go to bed. As they said goodnight to Franklin, he wished them pleasant dreams and said he would be here when they returned.
+
+And that is the story of Franklin, the IRC bot, and his bedtime story about IRC.

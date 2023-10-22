@@ -1,0 +1,5 @@
+xibalba asked OTDR meaning in fiber with hash c8b84985
+<---- snip ---->
+ optics
+
+OTDR stands for Optical Time Domain Reflectometer. It is an instrument used to measure the length and attenuation of an optical fiber link. It is most commonly used in fiber optic installations and maintenance to identify issues such as breaks, poor connections, and splice losses.

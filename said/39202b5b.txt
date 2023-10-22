@@ -1,0 +1,3 @@
+morb asked why is it ethically unsound to support reiserfs or namesys  with hash 39202b5b
+<---- snip ---->
+ReiserFS and Namesys have been found to have security vulnerabilities that have resulted in data loss and corruption. These vulnerabilities have been widely reported, and as such, it is unethical to support or use these file systems in any capacity.

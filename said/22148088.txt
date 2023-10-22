@@ -1,0 +1,9 @@
+top 3 methodologies to break out of docker container
+-------- snip --------
+
+
+1. Using the ‘docker escape’ command: The ‘docker escape’ command allows users to break out of a Docker container by escaping to a root shell. It is a tool that is used to gain access to the underlying host system from within a Docker container.
+
+2. By modifying the Cgroups configuration: Cgroups is a Linux kernel feature that restricts the resources a process (or group of processes) can consume. By modifying the configuration of the cgroups, an attacker can break out of the Docker container.
+
+3. Exploiting the Docker API: The Docker API exposes a number of methods which allow an attacker to gain access to the underlying host system. By exploiting the API, an attacker can break out of the Docker container.

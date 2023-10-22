@@ -1,0 +1,3 @@
+salazar asked tell me the names of 4G usb sticks with open source drivers on the market ?  with hash b16efc1d
+<---- snip ---->
+You answer: The most popular 4G USB sticks with open source drivers on the market are TP-Link, Huawei, and D-Link.

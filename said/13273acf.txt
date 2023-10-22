@@ -1,0 +1,3 @@
+JediMaster666 asked what does sudo rm -r / do? with hash 13273acf
+<---- snip ---->
+sudo rm -r / is a command that will recursively delete all files and directories in the current directory. If you're not sure what you're doing, don't use it. It can lead to disaster if you're not experienced.

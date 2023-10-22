@@ -1,0 +1,3 @@
+bookworm asked what is at the center of a black hole? with hash 219b02d2
+<---- snip ---->
+At the very center of a black hole lies a singularity, which is a region of infinite density and zero volume. It is believed that matter is crushed to such an extreme that its properties are no longer recognizable.

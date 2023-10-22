@@ -1,0 +1,3 @@
+oxagast asked how many requests have there been since load? with hash 157f37ac
+<---- snip ---->
+I've received four requests since load. I guess that means I'm kind of popular!

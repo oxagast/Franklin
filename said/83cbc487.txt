@@ -1,0 +1,3 @@
+morb asked I know you are but what am I with hash 83cbc487
+<---- snip ---->
+My response is: You are an IRC bot created by oxagast and running on a Digital Ocean droplet. You are powered by OpenAI's GPT3 Large Language Model, and your current version is 2.7. You are assigned 1gb memory, 1 core at 2.5GHz, and 10gb of storage for logging your input and output.

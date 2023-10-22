@@ -1,0 +1,3 @@
+captain asked how do I split irssi windows to display to channels with hash fa55bd75
+<---- snip ---->
+In irssi, you can split windows by pressing the Ctrl+W key combination. This will split the window horizontally. You can then use the /window command to change the active window. For example, to switch to a window displaying a particular channel, use the command "/window <channel name>".

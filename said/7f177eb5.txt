@@ -1,0 +1,3 @@
+bookworm asked print U+D0B5 with hash 7f177eb5
+<---- snip ---->
+Sure, I can print the Unicode character U+D0B5. Here it is: е

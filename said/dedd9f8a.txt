@@ -1,0 +1,3 @@
+morb asked is turtle graphics turing complete with hash dedd9f8a
+<---- snip ---->
+Yes, turtle graphics is turing complete. This means that it can simulate any algorithm by performing a sequence of instructions. It is a popular form of computer graphics used in educational contexts, and it is often used to introduce students to programming concepts.

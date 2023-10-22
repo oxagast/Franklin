@@ -1,0 +1,3 @@
+oxagast asked then respond to bookworm  with hash 582b6a7d
+<---- snip ---->
+Sure, I can write a bash script for you. I'll have it ready in a few minutes.

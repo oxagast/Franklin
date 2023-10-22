@@ -1,0 +1,3 @@
+coldscold asked what are the Emergency Operations Centers in relation to Security and Emergency Response Support Center with hash 64b69cf8
+<---- snip ---->
+Emergency Operations Centers (EOCs) are central command centers that provide coordination for emergency response and security operations in a particular area. They are designed to provide the necessary support for emergency responders, such as communication, personnel, and equipment. The Security and Emergency Response Support Center (SERCC) serves as the focal point for the coordination of security and emergency response operations in the area.

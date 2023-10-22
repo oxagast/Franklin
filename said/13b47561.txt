@@ -1,0 +1,3 @@
+CerebraNet asked How much does Asterisk cost with hash 13b47561
+<---- snip ---->
+Asterisk is an open source IP PBX software, so it is free to download and use. There may be additional costs associated with hardware, installation, and support, so it is best to consult a qualified IT professional for more information.

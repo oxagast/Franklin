@@ -1,0 +1,5 @@
+How do i configure Cloudflare API in virtualmin Pro
+-------- snip --------
+
+
+Cloudflare is an internet-based service that provides website security and performance optimization. To configure Cloudflare API in Virtualmin Pro, you will need to sign up for a Cloudflare account and obtain your API key. Once you have your API key, you can go to Virtualmin Pro > System Settings > Cloudflare Settings and enter your API key. You can then configure the other settings as desired.

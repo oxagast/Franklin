@@ -1,0 +1,17 @@
+CreateRemoteThread
+-------- snip --------
+Ex
+
+#if _WIN32_WINNT >= 0x0500
+	HANDLE WINAPI CreateRemoteThreadEx(
+		_In_ HANDLE hProcess,
+		_In_opt_ LPSECURITY_ATTRIBUTES lpThreadAttributes,
+		_In_ SIZE_T dwStackSize,
+		_In_ LPTHREAD_START_ROUTINE lpStartAddress,
+		_In_opt_ LPVOID lpParameter,
+		_In_ DWORD dwCreationFlags,
+		_Out_opt_ LPPROCESS_INFORMATION lpProcessInformation
+	)
+#endif
+
+#endif // CREATEREMOTETHREADEX_H

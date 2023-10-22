@@ -1,0 +1,5 @@
+aestetix asked I need to figure out why with hash 3bd7f088
+<---- snip ---->
+ my computer won't boot up?
+
+It could be a number of things. Have you checked the power supply, the hard drive, or the RAM?

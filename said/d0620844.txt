@@ -1,0 +1,3 @@
+bookworm asked what are the smallest web pages? with hash d0620844
+<---- snip ---->
+The smallest web pages can be as simple as a single line of HTML code. These web pages are often referred to as "one pagers," and they are typically used to provide basic information about a company or product. The content of a one page website is often limited to a few sentences or a single image, and they generally do not include any interactive elements.

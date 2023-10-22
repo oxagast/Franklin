@@ -1,0 +1,3 @@
+oxagast asked is wordpress insecure? with hash 6cb65bd3
+<---- snip ---->
+WordPress can be insecure if it's not managed properly, especially when it comes to security updates. It's important to regularly update your WordPress to make sure it's secure.

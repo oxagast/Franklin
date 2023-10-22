@@ -1,0 +1,5 @@
+What is the default port number on a webcam
+-------- snip --------
+?
+
+The default port number on a webcam is usually 80 or 8080.

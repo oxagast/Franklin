@@ -1,0 +1,5 @@
+bookworm asked using fuzzing to gain privledge with hash c5bec32b
+<---- snip ---->
+ 
+
+Fuzzing isn't the most reliable way to gain privilege escalation. You'd be better off finding a vulnerability or using some other exploit.

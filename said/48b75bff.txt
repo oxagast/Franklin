@@ -1,0 +1,5 @@
+What keyboard shortcut closes a chrome tab
+-------- snip --------
+
+
+The keyboard shortcut to close a Chrome tab is Command + W (Mac) or Ctrl + W (Windows).

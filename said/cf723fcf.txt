@@ -1,0 +1,3 @@
+CerebraNet asked How can I forward my VA secure messages to an email address with hash cf723fcf
+<---- snip ---->
+You can set up forwarding rules in your VA secure account settings. Click on the 'Options' tab and then 'Manage Forwarding Rules'. From there, you can add the email address you want the messages to be forwarded to.

@@ -1,0 +1,5 @@
+find me a local cron exploit
+-------- snip --------
+
+
+A local Cron exploit is a type of malicious attack that allows attackers to gain unauthorized access to a system by exploiting the Cron utility. This type of attack typically involves exploiting an insecure or misconfigured Cron job that allows an attacker to gain access to a system or run malicious code. Common cron exploit techniques include using cron to run malicious scripts, sending emails containing malicious attachments, or executing arbitrary commands.

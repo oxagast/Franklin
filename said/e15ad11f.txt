@@ -1,0 +1,12 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different german phrases to english phrases, all small letters and no line numbering, format german:english with hash e15ad11f
+<---- snip ---->
+kleines kind:little child
+haus:house
+gut:good
+wasser:water
+schauen:look
+gehen:go
+ein bild:a picture
+schwarz:black
+hund:dog
+essen:eat

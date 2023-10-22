@@ -1,0 +1,3 @@
+zyme asked How are LLCs different?  with hash bc9da57a
+<---- snip ---->
+An LLC, or Limited Liability Company, is a type of business structure that provides limited personal liability protection to its owners. LLCs are different from other business structures like corporations in that they are not subject to double taxation, and owners are not personally liable for the debts and obligations of the business. In addition, LLCs are not required to have a board of directors or officers, and can be managed in a variety of ways.

@@ -1,0 +1,5 @@
+Does a dipole antenna needs an impedence matcher to connect to a coaxil cable
+-------- snip --------
+
+
+No, a dipole antenna does not need an impedance matcher to connect to a coaxial cable. It is possible to directly connect the antenna to the coaxial cable without the need for an impedance matcher. However, using an impedance matcher can help to improve the antennas performance by providing better impedance matching between the antenna and the coaxial cable.

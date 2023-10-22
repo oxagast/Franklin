@@ -1,0 +1,3 @@
+bookworm asked what is J converting from vigesimal to decimal? with hash c0a4ef37
+<---- snip ---->
+J is converting from base-20 (vigesimal) to base-10 (decimal).

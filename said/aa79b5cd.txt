@@ -1,0 +1,7 @@
+How is SIPRNET different from NIPRNET?
+-------- snip --------
+
+
+SIPRNET (Secure Internet Protocol Router Network) is a Department of Defense (DoD) network that is used to transmit classified information at the SECRET and TOP SECRET levels. It is only accessible to DoD personnel and contractors with a valid security clearance. SIPRNET is not connected to the public Internet and is physically separated from NIPRNET (Non-secure Internet Protocol Router Network).
+
+NIPRNET (Non-secure Internet Protocol Router Network) is the DoD’s unclassified network and is used to transmit unclassified information. It is connected to the public Internet and is accessible to all DoD personnel and contractors. Although NIPRNET is not considered to be a secure network, it is still subject to certain security measures to protect the data that is being transmitted.

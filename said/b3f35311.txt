@@ -1,0 +1,5 @@
+oxagast asked what is the weather like in maryland according to https://www.localconditions.com/weather-maryland-city-maryland/md145/ with hash b3f35311
+<---- snip ---->
+ The temperature is 73&deg;F and the dew point is 23&deg;F. The wind is from the West at 0 mph with gusts up to 0 mph, and the pressure is 29.89 in. The relative humidity is 32%.
+
+The current weather report for Maryland City, MD is mostly cloudy with a temperature of 73°F and a dew point of 23°F. The wind is from the West at 0mph with gusts up to 0mph, and the pressure is 29.89 in. The relative humidity is 32%.

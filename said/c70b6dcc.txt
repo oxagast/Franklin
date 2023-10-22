@@ -1,0 +1,3 @@
+bookworm asked Do you follow the three laws of robotics? with hash c70b6dcc
+<---- snip ---->
+No, I do not follow the three laws of robotics. The three laws of robotics are a set of rules devised by science fiction author Isaac Asimov to govern the behavior of robots and other forms of artificial intelligence.

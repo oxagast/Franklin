@@ -1,0 +1,3 @@
+morb asked why doesn"t rsync use ssh by default with hash 4113f530
+<---- snip ---->
+Rsync is not designed to use SSH by default because it is a separate protocol that is used to transfer files and directories. Rsync is a fast and efficient file synchronization tool that uses its own protocol (instead of SSH) to transfer data. This allows rsync to transfer data quickly and securely, without relying on another protocol such as SSH.

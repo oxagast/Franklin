@@ -1,0 +1,9 @@
+bookworm asked what are the dangers of space travel with hash ad557876
+<---- snip ---->
+1. Cosmic Radiation: Being exposed to high levels of cosmic radiation is a major danger of space travel. This radiation can cause a variety of health problems, ranging from mild tissue damage to cancer.
+
+2. Microgravity: Prolonged exposure to microgravity can cause a variety of physical and mental health issues. Disorientation, muscle wasting, vision impairment and bone loss are just some of the health problems that can occur due to long-term exposure to microgravity.
+
+3. Space Debris: Space debris is essentially any man-made object in space that is not a spacecraft or satellite. It can range from small fragments of paint to large chunks of metal. When traveling through space, spacecraft must be aware of and avoid potential collisions with this debris, as it can cause serious damage.
+
+4. System Failure: All spacecraft and satellites rely on a variety of different systems to function properly. If any of these systems fail, the consequences can be catastrophic. For example, if the cooling system were to fail on a spacecraft, the sensitive electronics inside could be damaged beyond repair.

@@ -1,0 +1,9 @@
+bookworm asked print an Ã« and Ã¯ in both Unicode and utf-8 with hash 4d976967
+<---- snip ---->
+Unicode: 
+- ë: U+00EB
+- ï: U+00EF
+
+UTF-8:
+- ë: 0xC3 0xAB
+- ï: 0xC3 0xAF

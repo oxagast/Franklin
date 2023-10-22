@@ -1,0 +1,10 @@
+please list a few punycode to text converters bash scripts
+-------- snip --------
+
+
+1. punycode2text.sh
+2. punycodeconverter.sh
+3. puny2text.sh
+4. puny2ascii.sh
+5. puny2utf.sh
+6. idna2text.sh

@@ -1,0 +1,5 @@
+fuzion asked how do you mitigate a ddos attack? with hash 6a9ff420
+<---- snip ---->
+The answer from Franklin would be:
+
+There are several steps to mitigate a DDoS attack. You can start by implementing an intrusion prevention system (IPS) or an intrusion detection system (IDS). It's important to have a well-configured firewall to filter out malicious traffic. You can also use a distributed denial of service (DDoS) mitigation service to reduce the impact of an attack. Lastly, you can use traffic-shaping techniques to limit the amount of data entering your network.

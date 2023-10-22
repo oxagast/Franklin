@@ -1,0 +1,12 @@
+bookworm asked list books with hapax legomenon with hash 13693e55
+<---- snip ---->
+1. The Bible 
+2. Moby Dick by Herman Melville 
+3. The Canterbury Tales by Geoffrey Chaucer 
+4. Ulysses by James Joyce 
+5. Leaves of Grass by Walt Whitman 
+6. The Epic of Gilgamesh 
+7. Beowulf 
+8. The Kalevala 
+9. The Aeneid by Virgil 
+10. The Odyssey by Homer

@@ -1,0 +1,3 @@
+zyme asked Windows 10/11 command to see current default WSL version with hash 268995b4
+<---- snip ---->
+You can use the command `wsl -l -v` to see the current default WSL version on Windows 10/11.

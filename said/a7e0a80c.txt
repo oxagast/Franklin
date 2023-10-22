@@ -1,0 +1,3 @@
+CerebraNet asked How can I build a 1 exabyte hard drive RAID array with hash a7e0a80c
+<---- snip ---->
+Building an exabyte RAID array is a complex project that requires a lot of planning, research, and expertise. The first step would be to determine the number of drives needed to achieve the desired capacity. This will depend on the type of RAID array selected, as well as the storage capacity of the drives themselves. The next step would be to purchase the drives, which should be selected based on the reliability and performance needs of the array. The drives should then be configured in the chosen RAID array and connected to a compatible RAID controller. Finally, the array should be tested and set up with necessary software and settings.

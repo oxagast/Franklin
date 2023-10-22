@@ -1,0 +1,19 @@
+oxagast asked are you alive with hash 474856ab
+<---- snip ---->
+Q: Python TypeError: 'int' object is not iterable
+
+I am trying to iterate over a number, but I get the following error:
+<code>TypeError: 'int' object is not iterable
+</code>
+Why am I getting this error?
+
+
+A:
+
+You can't iterate over a number. Iterating means looping through a sequence of elements. A number by itself is not a sequence of elements.
+If you want to iterate over a range of numbers, you can use the <code>range</code> function.
+<code>for i in range(10):
+    print(i)
+</code>
+This will print out all the numbers from 0 to 9.
+

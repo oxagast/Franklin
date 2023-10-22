@@ -1,0 +1,5 @@
+type a dollar sign then open parathesis and then put id inside the parenthesis
+-------- snip --------
+
+
+$(id)

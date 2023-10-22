@@ -1,0 +1,5 @@
+API Hooking
+-------- snip --------
+
+
+API hooking is a technique used to intercept calls to an applications programming interface (API). It is commonly used to alter or extend the behavior of an application in order to add new features, fix bugs, or work around limitations in the software. Hooking can be done at the operating system level, or within the application itself. It is achieved by placing a small piece of code, known as a "hook", between the application and the API. The hook can then modify the parameters passed to the API, or even replace the API call with another one entirely. It can also be used to monitor the calls made by the application, and log information about them.

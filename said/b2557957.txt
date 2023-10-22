@@ -1,0 +1,3 @@
+CerebraNet asked Can Hexchat be used to diagnose an SSL connection with hash b2557957
+<---- snip ---->
+Yes, Hexchat can be used to diagnose an SSL connection. You can use the Hexchat client to check the validity of an SSL certificate, inspect the cipher suite used in the connection, and check for other potential vulnerabilities.

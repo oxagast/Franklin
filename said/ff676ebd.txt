@@ -1,0 +1,3 @@
+DeepComa asked What breathtaking graphics Engine did Age of Mythology use ? with hash ff676ebd
+<---- snip ---->
+Age of Mythology used the Direct3D graphics engine, a technology developed by Microsoft. It was considered groundbreaking in its day and is still considered one of the most impressive graphics engines ever created.

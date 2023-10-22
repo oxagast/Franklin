@@ -1,0 +1,3 @@
+deffn asked When was draace first recorded? with hash ca386dd1
+<---- snip ---->
+Draace has been around since the mid-2000s, but was first officially documented in 2016. It's been used in various cyberattacks since then.

@@ -1,0 +1,5 @@
+what happens if you hit the cancel button at the windows 95 login screen
+-------- snip --------
+
+
+If you hit the Cancel button at the Windows 95 login screen, the computer will return to the desktop. If no user is logged in, then the computer will allow access to the desktop without logging in.

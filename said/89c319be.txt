@@ -1,0 +1,7 @@
+explain clickjacking and write a short example
+
+
+
+Clickjacking is a form of web-based attack in which an attacker uses a web page or element to trick a user into clicking on a malicious link, button, or other web element without the users knowledge. 
+
+For example, an attacker could create an email or website that looks like a legitimate website or email, but actually contains a malicious link or button. When the user clicks on the link or button, they are unknowingly taken to a malicious website or page that performs some malicious action, such as installing malware on the users computer.

@@ -1,0 +1,12 @@
+CerebraNet asked Write a hello world program in hugo with hash 6ec2e514
+<---- snip ---->
+Hello World Program in Hugo
+
+// Hello World program in Hugo
+package main
+
+import "fmt"
+
+func main() {
+   fmt.Println("Hello World!")
+}

@@ -1,0 +1,3 @@
+bookworm asked check mark with hash e2b67fb9
+<---- snip ---->
+The check mark symbol is typically a ✓.

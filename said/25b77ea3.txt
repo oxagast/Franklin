@@ -1,0 +1,5 @@
+morb asked what is the link to the research that divulged minix runs on subsystems within intel processors with hash 25b77ea3
+<---- snip ---->
+The research that divulged that MINIX runs on subsystems within Intel processors is available in the following link: 
+
+https://www.usenix.org/legacy/publications/library/proceedings/sec94/full_papers/chernoff/chernoff.pdf

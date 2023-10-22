@@ -1,0 +1,3 @@
+bookworm asked what is the name of the ration of a side of a square to its hypotenuse? with hash 1cd27484
+<---- snip ---->
+The ratio of a side of a square to its hypotenuse is called the Pythagorean Ratio.

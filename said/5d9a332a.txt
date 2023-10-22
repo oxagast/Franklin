@@ -1,0 +1,5 @@
+what is the latest IT scandal that happend in India?
+-------- snip --------
+
+
+The latest IT scandal to hit India is the data leak at the state-run National Informatics Centre (NIC). The data leak of over 7.5 crore citizens personal information, including names, addresses, phone numbers and Aadhaar numbers, was discovered in an unsecured database that was accessible to anyone through an internet connection. The Ministry of Electronics and Information Technology (MeitY) has since launched an investigation into the matter.

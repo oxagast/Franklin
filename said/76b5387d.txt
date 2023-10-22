@@ -1,0 +1,3 @@
+CerebraNet asked Unicode for color smile with hash 76b5387d
+<---- snip ---->
+I don't think you can really give a smiley face a color, but if you want to try, I'd suggest using the Unicode character \u263A

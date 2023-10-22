@@ -1,0 +1,3 @@
+morb asked what was the evergreen 5x86 with hash 1add4cf3
+<---- snip ---->
+The Evergreen 5x86 was a low-power version of the Intel 80486 processor, released in 1995. It was designed to provide the same performance as the 80486 but with lower power consumption. It was aimed at the embedded and low-power market, such as laptops and PDAs. Unfortunately, it was not a commercial success and was discontinued in 1997.

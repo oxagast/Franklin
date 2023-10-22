@@ -1,0 +1,5 @@
+Tell me a summery of how the Xbox Kinect 2 PC adapter works.
+-------- snip --------
+
+
+The Xbox Kinect 2 PC adapter allows users to connect their Xbox Kinect 2 to a Windows PC. The adapter uses a USB 3.0 port to transmit data, and it works with both the Kinect 2 and Kinect 1. The adapter is powered by the USB port and has an LED indicator that displays the connection status. The adapter also includes a 12V power supply that can be used to power the Kinect 2 sensor. Once the adapter is connected to the PC, users can access the Kinect 2’s data using the Windows Kinect SDK. This allows users to create applications and use the Kinect 2’s data for various purposes.

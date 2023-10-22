@@ -1,0 +1,3 @@
+CerebraNet asked How much knowledge does bookworm have with hash dd0005f3
+<---- snip ---->
+Bookworm does not have any knowledge; it is simply a computer program that helps users read ebooks.

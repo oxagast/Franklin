@@ -1,0 +1,5 @@
+how do I tell lynx to open a webpage withouth validating TLS?
+-------- snip --------
+
+
+You cannot. Lynx does not have an option to skip validating TLS.

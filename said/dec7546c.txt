@@ -1,0 +1,3 @@
+CerebraNet asked How do I use italic letters on IRC with hash dec7546c
+<---- snip ---->
+To use italic letters on IRC, you can put underscores before and after the text you wish to be italicized, like this: _italicized text_

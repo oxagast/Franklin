@@ -1,0 +1,3 @@
+bookworm asked What are jumping genes? with hash f763e44c
+<---- snip ---->
+Jumping genes, also known as transposable elements, are segments of DNA that can move around to different positions within the genome. These segments of DNA can be either inherited or acquired and can affect the expression of genes. Jumping genes are important for evolution, and they are believed to be responsible for many genetic diseases.

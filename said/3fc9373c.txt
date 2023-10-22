@@ -1,0 +1,3 @@
+bookworm asked Multiply the world population by 3 tons of garbage per year, how much garbage in 1 year? with hash 3fc9373c
+<---- snip ---->
+The world population is estimated to be around 7.8 billion people. Therefore, if we multiply this by 3 tons of garbage per year, the total amount of garbage in one year would be approximately 23.4 billion tons.

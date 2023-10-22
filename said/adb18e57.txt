@@ -1,0 +1,5 @@
+what is the difference between route target and route domain in an mpls network
+-------- snip --------
+
+
+Route targets are used to define the import and export of routes between two different VRFs within the same MPLS network, while route domains are the logical separation of the MPLS network into different domains. Route targets are used to indicate what routes should be imported and exported between the different domains, whereas route domains are used to logically separate the MPLS network into different areas. Route targets define the scope of the routing information, while route domains define the area of control of the MPLS network.

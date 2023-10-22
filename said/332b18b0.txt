@@ -1,0 +1,5 @@
+where does windows store its passwords
+-------- snip --------
+
+
+Windows stores its passwords in the Windows Credential Manager. It is a secure storage location for credentials such as usernames and passwords for network resources and websites. The Credential Manager stores the credentials securely in the Windows Vault.

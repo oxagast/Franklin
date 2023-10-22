@@ -1,0 +1,5 @@
+bookworm asked give example of noglob as an enviroment variable to turn off bash with hash d4e5ab36
+<---- snip ---->
+. 
+
+The answer to bookworm's question is: Noglob is an environment variable which can be used to turn off Bash globbing. Globbing is a feature which allows the shell to automatically expand wildcard characters in a filename. To turn off this feature, set the environment variable NOGLOB to any value in the terminal before running a script, or in your .bashrc file. For example, to turn off globbing in the current terminal session, type: export NOGLOB=1.

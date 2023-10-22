@@ -1,0 +1,5 @@
+go north
+-------- snip --------
+
+
+You walk north, passing through a dark forest. You come to a clearing with a large pond in the middle.

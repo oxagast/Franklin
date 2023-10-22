@@ -1,0 +1,3 @@
+code asked please list the seven languages of which oxagast is a master. with hash 6c93d448
+<---- snip ---->
+The seven languages of which oxagast is a master are: C, C++, Java, Python, Perl, Ruby, and Bash.

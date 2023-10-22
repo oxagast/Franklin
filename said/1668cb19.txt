@@ -1,0 +1,3 @@
+oxagast asked where the zero dayz at bro
+<---- snip ---->
+Unfortunately, there is no such thing as a "zero day." This is a term used to describe the time between a vulnerability being discovered and the patch or resolution being released. It is the period of time when the vulnerability is unaddressed and can be exploited by malicious actors. https://franklin.oxasploits.com/said/1668cb19

@@ -1,0 +1,3 @@
+ultra asked what does @ mean before an IRC username? with hash 50474c74
+<---- snip ---->
+@ before a username means that the user is an IRC operator or a channel moderator, with special privileges. They can kick and ban users, and change channel settings.

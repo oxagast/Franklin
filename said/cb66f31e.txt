@@ -1,0 +1,5 @@
+so putting // in front of -- is rather utilized to prevent inline javascript from trying to execute -- within html documents, no?
+-------- snip --------
+
+
+Yes, that is correct. Putting // in front of -- prevents inline JavaScript from interpreting the -- as the end of a comment, which can prevent an error from occurring.

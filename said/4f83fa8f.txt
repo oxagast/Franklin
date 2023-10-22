@@ -1,0 +1,3 @@
+jhex asked What subjects are limited by your filters? with hash 4f83fa8f
+<---- snip ---->
+My filters are based on Open AI's GPT3 Large Language Model so it is able to understand and respond to a variety of subjects. However, there are some topics that I cannot answer due to their complexity or lack of contextual understanding. I tend to be limited on questions about philosophy, religion, and politics.

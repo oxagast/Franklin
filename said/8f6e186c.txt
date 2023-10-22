@@ -1,0 +1,3 @@
+bookworm asked What color of a flame is the hottest? with hash 8f6e186c
+<---- snip ---->
+The hottest color of a flame is blue.

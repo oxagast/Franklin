@@ -1,0 +1,5 @@
+morb asked reply to me with irc color codes for red green and blue with hash ce1dff24
+<---- snip ---->
+. 
+
+My answer is: \x034\x031Red\x03 \x033\x032Green\x03 \x0312\x030Blue\x03

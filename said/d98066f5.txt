@@ -1,0 +1,3 @@
+CerebraNet asked Why does Oaklands BART not have a monorail with hash d98066f5
+<---- snip ---->
+The BART system in Oakland is designed to be efficient, not flashy. Monorails are expensive to build and maintain, and BART's architects decided that the cost wasn't worth it.

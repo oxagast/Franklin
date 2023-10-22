@@ -1,0 +1,3 @@
+CerebraNet asked What characteristics does a non bitcoin packet have with hash 04ff30e3
+<---- snip ---->
+My answer is: Non-bitcoin packets are generally much smaller in size than bitcoin packets. The protocol used for the packet is also different, as non-bitcoin packets do not use the bitcoin protocol. Non-bitcoin packets also typically have a different header structure and data format than bitcoin packets.

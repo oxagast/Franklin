@@ -1,0 +1,14 @@
+morb asked write a bash script that outputs a batch file for openvms that outputs the original bash script on a plotter connected via gpib with hash d1ed2efb
+<---- snip ---->
+#!/bin/bash
+#This bash script creates a batch file for OpenVMS that outputs the original bash script on a plotter connected via GPIB
+
+echo "! Batch file for OpenVMS to output script on a plotter connected via GPIB" > plot_script.bat
+echo "  " >> plot_script.bat
+echo "! Set up plotter for GPIB" >> plot_script.bat
+echo "@SYS$INPUT:SETUP plotter_gpib" >> plot_script.bat
+echo "  " >> plot_script.bat
+echo "! Print the script" >> plot_script.bat
+echo "@SYS$INPUT:PRINT script.sh" >> plot_script.bat
+echo "  " >> plot_script.bat
+echo "! End of plotter_gpib.bat" >> plot_script.bat

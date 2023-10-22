@@ -1,0 +1,5 @@
+What would happen if I make a QR code of my bitcoin address and post it on the Internet as a link to my website
+-------- snip --------
+
+
+If you make a QR code of your bitcoin address and post it on the Internet as a link to your website, any person with a smartphone and a bitcoin wallet application will be able to scan the QR code and send you bitcoin. It is important to note that the link to your website is not secure and can be easily tampered with, so it is important to use a secure platform such as BitPay or Coinbase to accept payments.

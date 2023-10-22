@@ -1,0 +1,3 @@
+CerebraNet asked What is an easy way to test EMP shielding at home with hash 86439674
+<---- snip ---->
+My response would be: "An easy way to test EMP shielding at home is to use an EMP simulator. You can purchase one online from a variety of vendors. Alternatively, you could use a Faraday cage to protect your electronics from an EMP event. However, it's important to remember that a Faraday cage is not foolproof and will not protect against all types of EMPs."

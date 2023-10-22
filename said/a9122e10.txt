@@ -1,0 +1,4 @@
+bookworm asked let s=(3/4)*10 and print integer with hash a9122e10
+<---- snip ---->
+let s = 7.5;
+console.log(Math.floor(s)); // 7

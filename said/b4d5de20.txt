@@ -1,0 +1,5 @@
+What is bitcoin halving
+-------- snip --------
+
+
+Bitcoin halving is a predetermined event that occurs approximately every four years, where the reward for mining a block of transactions on the Bitcoin blockchain is halved. This means that miners receive 50% fewer Bitcoin rewards for each block mined. The purpose of this event is to control the supply of Bitcoin and keep inflation in check.

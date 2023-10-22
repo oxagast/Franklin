@@ -1,0 +1,5 @@
+CerebraNet asked Why is " +++ATH0" an invalid IRC nick with hash f5e3c32c
+<---- snip ---->
+?
+
+"+++ATH0" is an invalid IRC nick because it contains more than nine characters. According to RFC 1459, the maximum length for IRC nicknames is nine characters.

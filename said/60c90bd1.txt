@@ -1,0 +1,3 @@
+bookworm asked what is the oldest evidence of humans searching for √2 with hash 60c90bd1
+<---- snip ---->
+The oldest known evidence of humans searching for the square root of two dates back to ancient Babylonian clay tablets from around 2000 BC. The tablets contain numerical calculations, including approximations of the square root of two.

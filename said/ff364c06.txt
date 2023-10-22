@@ -1,0 +1,5 @@
+Ryujin asked rm -fr / * with hash ff364c06
+<---- snip ---->
+ - What does this command do?
+
+This command will delete all files and folders in the current directory and any subdirectories. It is a very dangerous command and should only be used with extreme caution.

@@ -1,0 +1,3 @@
+zyme asked define hadoop with hash 11ea4425
+<---- snip ---->
+Hadoop is an open-source software framework used for distributed storage and processing of large datasets on clusters of commodity hardware. It is designed to scale up from a single server to thousands of machines, and provides a fault-tolerant way of storing data. Hadoop is designed to be highly scalable and to handle large amounts of data in a reliable and efficient manner.

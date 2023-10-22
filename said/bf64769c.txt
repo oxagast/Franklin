@@ -1,0 +1,5 @@
+Other than mining bitcoin, what good are ASICs?
+-------- snip --------
+
+
+ASICs (application-specific integrated circuits) are used for a variety of tasks that require high computing power, such as machine learning, artificial intelligence, database searching, and cryptocurrency trading. ASICs are also used in the gaming industry to create more powerful gaming consoles and graphics cards. Additionally, ASICs can be used to create faster and more efficient networking hardware, such as routers and switches.

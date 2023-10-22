@@ -1,0 +1,5 @@
+captain asked RSA vs ed25519
+<---- snip ---->
+RSA is an asymmetric encryption algorithm that is based on the mathematical concept of factorization. RSA is widely used for secure data transmission and digital signatures, and it is the most commonly used public key cryptography algorithm. RSA is based on a mathematical problem known as the factorization of large prime numbers.
+
+Ed25519 is an elliptic curve algorithm based on Curve25519. It is a public key algorithm that is used for digital signatures and key exchange. Ed25519 is more efficient and secure than RSA and can be used in a variety of applications. The main advantage of Ed25519 is that it is much faster than RSA and requires less computing power to generate keys. Additionally, Ed25519 has a much smaller key size than RSA, making it more resistant to brute-force attacks. https://franklin.oxasploits.com/said/46c418b3

@@ -1,0 +1,3 @@
+Officechair2 asked Are 8086 CPUs powerful with hash eea9d800
+<---- snip ---->
+Answer: No, not really. They are outdated and not nearly as powerful as modern CPUs.

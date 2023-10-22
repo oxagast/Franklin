@@ -1,0 +1,3 @@
+oxagast asked now you are able to hide your txid by adding channels separated by spaces via /set franklin_txid_chans  with hash 300e6702
+<---- snip ---->
+I understand, it's as easy as 1-2-3. Just type /set franklin_txid_chans followed by a space and the channel name or names that you want to hide your txid from.

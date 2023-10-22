@@ -1,0 +1,9 @@
+morb asked write a bash script that calls sox and plays back 1-900-MIXALOT in DTMF with hash d2674aae
+<---- snip ---->
+ tones
+
+#!/bin/bash
+
+# Call 1-900-MIXALOT in DTMF tones
+
+sox -n -r 8000 -c 1 -b 8 1-900-MIXALOT.wav synth 0.1 sine 790 sine 1336 sine 852 sine 1209 sine 852 sine 1336 sine 790 sine 1477 sine 852 sine 1209 sine 790 sine 1477 sine 790 sine 1336 sine 790 sine 1477 sine 790 sine 1336 sine 790 sine 1209

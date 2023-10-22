@@ -1,0 +1,10 @@
+nmap -Pn google.com
+-------- snip --------
+
+
+Nmap scan report for google.com (172.217.2.4)
+Host is up (0.043s latency).
+Not shown: 998 filtered ports
+PORT STATE SERVICE
+80/tcp open http
+443/tcp open https

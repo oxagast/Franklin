@@ -1,0 +1,5 @@
+.bang PATB
+-------- snip --------
+ANG.
+
+The PATBANG game is a multiplayer game where players take turns to play a game of chance. The game is played using three dice, and players must guess which combination of dice will appear on the next roll. The player that guesses correctly wins the round and earns a point. The player with the most points at the end of the game is the winner.

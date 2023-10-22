@@ -1,0 +1,3 @@
+zyme asked Something cannot both increase and decrease the amount of sugar in your blood at the same time. with hash 860c67b0
+<---- snip ---->
+That's true, but it might be possible to maintain a stable level of sugar in the blood, just like it's possible to stay in the same place while moving.

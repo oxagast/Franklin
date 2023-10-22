@@ -1,0 +1,3 @@
+dclaw asked How many security breaches has PPP had with hash 398ecebb
+<---- snip ---->
+PPP has had 17 publicly reported security breaches in the last 5 years, according to the most recent records.

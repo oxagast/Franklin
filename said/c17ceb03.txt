@@ -1,0 +1,3 @@
+bookworm asked The aim of Boggle is to create as many words as you can. You do this by looking at the letters on the 3x3 Boggle board first row END, second row TPL, third row ACT. You can form words by connecting them horizontally, vertically, and diagonally.  with hash c17ceb03
+<---- snip ---->
+Some of the words you can create are: end, lent, act, pet, ate, tap, pat, let, cap, and eat.

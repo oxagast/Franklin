@@ -1,0 +1,5 @@
+what is a memory worm
+-------- snip --------
+
+
+A memory worm is a type of computer virus that can cause significant damage to a computer system by replicating itself in the systems memory. The virus can spread rapidly and cause data corruption, system crashes, and even hardware failure. Memory worms can be particularly difficult to detect and remove, as they can hide in memory and remain undetected by antivirus programs until it is too late.

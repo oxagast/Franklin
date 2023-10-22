@@ -1,0 +1,51 @@
+morb asked write a star trek script that revolves around the cast members attempting to escape yet another holodeck malfunction  with hash a0052428
+<---- snip ---->
+[FADE IN: INT. USS ENTERPRISE – HOLODECK]
+
+KIRK: Computer, end program.
+
+[The doors of the Holodeck open, revealing the Enterprise crew standing in the middle of the room.]
+
+KIRK: What the hell happened?
+
+SPOCK: It appears we were the victims of a holodeck malfunction, Captain.
+
+KIRK: That’s the third time this month!
+
+SPOCK: It would appear so, sir.
+
+[The lights flicker and the doors begin to close.]
+
+KIRK: Computer, open the doors!
+
+[The doors do not open.]
+
+KIRK: Damn it! We’re trapped!
+
+SPOCK: It appears the only way out is to find a way to override the malfunction.
+
+KIRK: All right. Everyone, start searching for a way to override the system.
+
+[The crew begins searching the holodeck for a way to override the system.]
+
+SULU: I found a control panel in the corner.
+
+KIRK: See if you can find a way to override the system.
+
+[Sulu begins working on the control panel.]
+
+SULU: I think I’ve got it!
+
+[Sulu pushes a button and the doors open.]
+
+KIRK: Everyone, out of the holodeck!
+
+[The crew quickly exits the holodeck.]
+
+KIRK: Computer, close the doors.
+
+[The doors close and the lights flicker off.]
+
+KIRK: Let’s never do that again.
+
+[FADE OUT]

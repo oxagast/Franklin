@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29EGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MN30E29EGC');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slut shot -->
+</head>
+<body>
+<div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+
+<h2>Franklin</h2>
+<br><i>Sun Apr 30 05:45:30 2023</i><br><br><br><b>captain</b> asked: <br>&nbsp&nbsp&nbsp&nbsp Generate an example of intel ME source code that could allow for powering an Intel ME device on over internet<br><br>#include &lt;stdio.h&gt; <br>#include &lt;string.h&gt; <br>#include &lt;sys/socket.h&gt; <br>#include &lt;arpa/inet.h&gt;<br>#include &lt;stdlib.h&gt;<br>#include &lt;unistd.h&gt;<br>#include &lt;sys/ioctl.h&gt;<br><br>//Define the port to be used <br>#define PORT 8888 <br><br>int main(int argc, char *argv[]) <br>{ <br>    int sock = 0, valread; <br>    struct sockaddr_in serv_addr; <br>    char buffer[1024] = {0}; <br>    char *message = "poweron"; <br>    if ((sock = socket(AF_INET, SOCK_STREAM, 0)) &lt; 0) <br>    { <br>        printf("\n Socket creation error \n"); <br>        return -1; <br>    } <br>    serv_addr.sin_family = AF_INET; <br>    serv_addr.sin_port = htons(PORT); <br>       <br>    // Convert IPv4 and IPv6 addresses from text to binary form <br>    if(inet_pton(AF_INET, "127.0.0.1", &serv_addr.sin_addr)&lt;=0)  <br>    { <br>        printf("\nInvalid address/ Address not supported \n"); <br>        return -1; <br>    } <br>   <br>    if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) &lt; 0) <br>    { <br>        printf("\nConnection Failed \n"); <br>        return -1; <br>    } <br>    send(sock , message , strlen(message) , 0 );<br>    ioctl(sock, 0x8913, 1);<br>    printf("Intel ME Device powered on\n"); <br>    return 0; <br>}
+
+       </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+
+
+
+
+
+</html>

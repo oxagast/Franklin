@@ -3,6 +3,6 @@ res.txt
 api.key
 sanitized.txt
 *.swp
-said/
+#said/
 *.bak
 *.tdy

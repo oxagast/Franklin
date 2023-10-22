@@ -1,0 +1,3 @@
+oxagast asked summarize: https://zsh.sourceforge.io/Doc/Release/Expansion.html with hash e66c17ea
+<---- snip ---->
+Zsh is a powerful command line shell that supports many features for expansion of command line arguments, variables, and more. It provides a wide range of built-in features such as aliases, brace expansion, filename completion, and more. Zsh is capable of substituting arguments and variables in the command line, performing command line history, and providing powerful pattern matching and globbing.

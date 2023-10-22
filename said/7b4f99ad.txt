@@ -1,0 +1,10 @@
+Hardware requirements for Ansible, bulletpoint list
+-------- snip --------
+
+
+• Linux or Mac OSX operating system
+• SSH access to managed hosts
+• Python 2 or Python 3
+• Python libraries such as paramiko, Jinja2, and PyYAML
+• A text editor such as vi, emacs, nano, or Notepad++
+• A terminal program such as PuTTY, OpenSSH, or SecureCRT

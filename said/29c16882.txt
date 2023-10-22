@@ -1,0 +1,6 @@
+weechat auth script documentation url
+-------- snip --------
+
+
+The official documentation for WeeChats auth script can be found at the following URL:
+https://weechat.org/files/doc/stable/weechat_auth.en.html

@@ -1,0 +1,23 @@
+bookworm asked status-6 with hash b7993625
+<---- snip ---->
+").html("<span class='label label-danger'>Hủy</span>");
+																					}
+																				}
+																				
+																				// thêm dữ liệu vào table
+																				$("tbody").append(newRow);
+																				
+																				$(".view_order").click(function(){
+																					var order_id = $(this).attr("id");
+																					window.location.href = "index.php?page_layout=order_detail&order_id=" + order_id;
+																				})
+																			}
+																			
+																			if(data.length == 0){
+																				var colspan = $("thead th").length;
+																				$("tbody").append("<tr><td colspan='" +colspan+ "'>Không tìm thấy kết quả</td></tr>")
+																			}
+																			
+																			// thêm phân trang
+																			$(".list_pagination").html(data.list_pagination);
+				

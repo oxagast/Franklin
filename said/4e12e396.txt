@@ -1,0 +1,5 @@
+how do you determine the switch to which a device is connected using arping?
+-------- snip --------
+
+
+You can determine which switch a device is connected to by using arping to send an ARP request to the device. The ARP request will send out a broadcast and the switch will forward the request to the port the device is connected to and the device will reply with its MAC address. This will allow you to determine which port the device is connected to and therefore which switch it is connected to.

@@ -1,0 +1,3 @@
+_wintermute asked What books should I read if I like Hackers: Heroes of the Computer Revolution? with hash 9916e335
+<---- snip ---->
+If you liked 'Hackers: Heroes of the Computer Revolution', I recommend 'The Cuckoo's Egg: Tracking a Spy Through the Maze of Computer Espionage' by Clifford Stoll. Also, 'The Art of Deception: Controlling the Human Element of Security' by Kevin Mitnick is an excellent book on social engineering. Finally, 'Hacking: The Art of Exploitation' by Jon Erickson is an excellent resource for those looking to learn more about hacking.

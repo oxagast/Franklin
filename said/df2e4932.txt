@@ -1,0 +1,3 @@
+eniac asked stuxnet with hash df2e4932
+<---- snip ---->
+Stuxnet is a malicious computer worm, discovered in June 2010, that is believed to have been created by the U.S. and Israeli governments to target industrial control systems. It was designed to disrupt the Iranian nuclear program.

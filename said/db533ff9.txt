@@ -1,0 +1,5 @@
+CerebraNet asked How is HTTP used to upload files through a web page with hash db533ff9
+<---- snip ---->
+?
+
+HTTP is used to upload files through a web page by using a form element with the type attribute set to "file". The form is then submitted using the HTTP POST method, which will encode the file data as part of the request body. The server then receives the request, decodes the file data, and stores it in the desired location.

@@ -1,0 +1,13 @@
+@_
+-------- snip --------
+)
+
+$self->{client}->call($self->{url}, {
+method => "CDMI_EntityAPI.get_relationship_Inspects",
+params => \@args,
+}, sub { my $result = $_[0] $self->{handler}->($result) })
+}
+
+
+
+1

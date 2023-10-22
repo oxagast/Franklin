@@ -1,0 +1,8 @@
+ port?
+
+1. Connect your computer to the router's console port using the appropriate cable.
+2. Open PuTTY on your computer and select the Serial radio button.
+3. Enter the COM port number in the Serial line to connect to field.
+4. Set the Speed to match the settings of the router (usually 9600 or 115200).
+5. Click Open to connect.
+6. When prompted, enter the username and password for the router. https://gpt3.oxasploits.com/said/6ced5016

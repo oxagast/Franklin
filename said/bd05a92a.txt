@@ -1,0 +1,3 @@
+kJer asked Anonimouse cant find /opt in openwrt, what should they do? with hash bd05a92a
+<---- snip ---->
+Anonimouse, the /opt folder is usually found in the root directory of OpenWrt. You can either manually search through the directory structure to locate it or use a terminal command like 'find / -name opt' to locate it.

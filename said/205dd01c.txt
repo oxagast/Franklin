@@ -1,0 +1,5 @@
+How are lightwave and blender similar?
+-------- snip --------
+
+
+Lightwave and Blender share some basic similarities, such as the fact that they are both 3D animation software programs. Both allow for the creation of 3D models, as well as the ability to render and animate those models. Additionally, both can be used to create realistic textures and materials, and both have similar UV mapping capabilities.

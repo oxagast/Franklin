@@ -1,0 +1,21 @@
+bookworm asked generate a file in a format used by bsdgames quiz of a list of 80 logical fallacies in latin to english, all small letters and no line numbering, format latin:english with hash 91ae26f1
+<---- snip ---->
+ad hominem:attacking the person
+ad ignorantiam:appealing to ignorance
+argumentum ad baculum:appeal to force
+argumentum ad crumenam:appeal to wealth
+argumentum ad populum:appeal to the people
+argumentum ad verecundiam:appeal to authority
+begging the question:assuming the initial point
+cum hoc ergo propter hoc:correlation implies causation
+dicto simpliciter:unqualified truth
+equivocation:ambiguous statements
+false attribution:wrongly attributing a statement
+hasty generalization:premature conclusion
+non causa pro causa:mistaken cause
+post hoc ergo propter hoc:after this, therefore because of this
+red herring:irrelevant topic
+slippery slope:chain of events
+special pleading:selective use of facts
+straw man:misrepresenting the opposing view
+tu quoque:you too

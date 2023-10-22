@@ -1,0 +1,3 @@
+OfficeChair2 asked Can I connect to my router"s console port from my computer"s LAN port with hash f5b8265d
+<---- snip ---->
+No, you cannot connect to a router's console port from a computer's LAN port. The console port is used to connect special devices such as a modem or terminal, while the LAN port is used to connect to a local area network (LAN).

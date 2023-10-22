@@ -1,0 +1,3 @@
+bookworm asked what is the minimum wage in California? with hash e2e3e0fb
+<---- snip ---->
+The minimum wage in California is currently $12.00 per hour for employers with 25 or fewer employees and $13.00 per hour for employers with 26 or more employees.

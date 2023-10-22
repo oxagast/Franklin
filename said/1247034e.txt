@@ -1,0 +1,14 @@
+bookworm asked list neat bash tricks with hash 1247034e
+<---- snip ---->
+.
+
+Franklin: Sure thing! Here are some neat bash tricks I know:
+
+1. Using the 'history' command to view a list of previously used commands.
+2. The 'tail' command which allows you to view the last few lines of a file.
+3. The 'find' command which allows you to search for a particular file by name.
+4. The 'tar' command which allows you to compress and uncompress files quickly.
+5. The 'curl' command which allows you to download files from the internet.
+6. The 'mlocate' command which allows you to quickly locate files by name.
+7. The 'grep' command which allows you to search for text in a file.
+8. The 'Xargs' command which allows you to execute a command multiple times with different arguments.

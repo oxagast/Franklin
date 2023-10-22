@@ -1,0 +1,3 @@
+bookworm asked dual boot Ubuntu with hash e0572854
+<---- snip ---->
+Dual booting is a great way to enjoy the benefits of both operating systems. You can install Ubuntu alongside Windows, allowing you to switch between them when you need to. To get started, you'll need to create a partition on your hard drive for Ubuntu, and then you can use either a USB or DVD to install the OS.

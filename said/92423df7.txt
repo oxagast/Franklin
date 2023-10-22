@@ -1,0 +1,5 @@
+CerebraNet asked Why do IPv6 addresses sometimes have two consecutive colons with hash 92423df7
+<---- snip ---->
+ in them?
+
+IPv6 addresses sometimes have two consecutive colons in them because the address space is so large that a single colon can't be used to represent all of the possible addresses. The two consecutive colons indicate that one or more 16-bit sets of the address are missing.

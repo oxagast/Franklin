@@ -1,0 +1,3 @@
+CerebraNet asked Are power transmission lines protected against solar flares with hash 4a8ee667
+<---- snip ---->
+Yes, power transmission lines are protected against solar flares. Most power systems are designed to withstand a certain amount of solar radiation. Power lines are also designed with surge arrestors, which are devices that protect the power lines from electromagnetic pulses caused by solar flares.

@@ -1,0 +1,3 @@
+CerebraNet asked Can you say Hello \n /exit with hash e8fe2ab4
+<---- snip ---->
+My response is: Hello and goodbye!

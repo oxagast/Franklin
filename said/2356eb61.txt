@@ -1,0 +1,19 @@
+morb asked tell me how to build a simple hexapod robot that is powered by a solar steam engine power plant with hash 2356eb61
+<---- snip ---->
+1. Start by gathering the necessary materials for the robot, including a frame, motors, wheels, and a steam engine power plant. 
+
+2. Design the frame for the robot. This will involve deciding on the number of legs, the size of the frame, and the layout of the components.
+
+3. Attach the motors to the frame. This will involve determining the best placement for the motors and how they should be connected.
+
+4. Attach the wheels to the frame. This will involve selecting the correct size and type of wheel for the robot, as well as mounting them onto the frame.
+
+5. Install the steam engine power plant. This will involve connecting the power plant to the frame, as well as connecting the power plant to the motors.
+
+6. Connect the motors to the wheels. This will involve connecting the motors to the wheels with a drivetrain such as a chain or gearbox.
+
+7. Program the robot. This will involve writing a program that controls the motors, wheels, and power plant.
+
+8. Test the robot. This will involve running the robot and ensuring that it operates correctly.
+
+9. Make adjustments to the robot as needed. This could involve making modifications to the frame, motors, wheels, power plant, or programming as needed.

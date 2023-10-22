@@ -1,0 +1,12 @@
+morb asked describe the steps you take to send a test message and which webpages you reference to ensure theyre working correctly with hash 219ba162
+<---- snip ---->
+My steps for sending a test message are as follows: 
+1. Begin by creating the message, which should be concise and clear. 
+2. Check the syntax of the message for any errors. 
+3. Reference any webpages or resources you may need to ensure the message is working correctly. 
+4. Send the message and wait for a response. 
+5. If there is no response, check the syntax of the message again and make sure it is being sent to the correct channel. 
+6. If no response is still received, contact the channel operator or network administrator for further assistance. 
+7. Once the message is sent and a response is received, review the response to make sure it is accurate. 
+
+I typically reference webpages such as the network's rules, the channel's rules, and any other resources needed to ensure the message is working correctly.

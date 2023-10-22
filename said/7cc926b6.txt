@@ -1,0 +1,3 @@
+oxagast asked lets try this again, what is todays date? with hash 7cc926b6
+<---- snip ---->
+Today's date is Sat 1 Jul 2023.

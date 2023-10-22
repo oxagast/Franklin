@@ -1,0 +1,3 @@
+morb asked why do the models in half-life move their mouth when theyre punching in keycodes with hash c234e1b3
+<---- snip ---->
+Well, I suppose it's to make it look more realistic and to give the player a sense of immersion. Plus, it's kind of fun to watch these realistic characters do something so silly.

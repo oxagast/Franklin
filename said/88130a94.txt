@@ -1,0 +1,24 @@
+morb asked write a bash script that converts base36 into base65535 with hash 88130a94
+<---- snip ---->
+#!/bin/bash
+
+# Check for correct number of arguments
+if [ "$#" -ne 1 ]; then
+    echo "Usage: $0 <base36_number>"
+    exit
+fi
+
+# Store number in variable
+num="$1"
+
+# Initialize output
+output=0
+
+# Loop through digits and calculate output
+for (( i=0; i<${#num}; i++ )); do
+    digit="${num:$i:1}"
+    output=$(( output * 36 + $(echo -n $digit | od -A n -t d) ))
+done
+
+# Convert to base65535
+echo "obase=65535;ibase=36;${output}" | bc

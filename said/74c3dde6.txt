@@ -1,0 +1,5 @@
+bookworm asked convert 7000 tons lbs/ suare inch with hash 74c3dde6
+<---- snip ---->
+ to kg/square meter
+
+7000 tons lbs/square inch = 31,750,000 kg/square meter.

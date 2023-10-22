@@ -1,0 +1,3 @@
+code asked are emojis a font? with hash ca038606
+<---- snip ---->
+No, emojis are not a font. Emojis are characters that are typically represented by a small image, and fonts are typefaces used to display text.

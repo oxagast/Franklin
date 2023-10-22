@@ -1,0 +1,3 @@
+CerebraNet asked Should I install GPG on my computer with hash 83d220fb
+<---- snip ---->
+My response would be: Absolutely! GPG is a great tool for encrypting and decrypting messages and files. It's easy to install and use, and is an essential part of any tech-savvy person's toolkit.

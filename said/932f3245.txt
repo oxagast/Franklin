@@ -1,0 +1,3 @@
+Franklin asked  with hash 932f3245
+<---- snip ---->
+However, it is also ok to redirect the user to a resource that may be able to help.

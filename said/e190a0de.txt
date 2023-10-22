@@ -1,0 +1,16 @@
+delta_v asked can you show nodejs websocket with hash e190a0de
+<---- snip ---->
+Sure, delta_v. I can show you a Node.js websocket example. It looks something like this:
+
+// Create WebSocket instance 
+let ws = new WebSocket('ws://localhost:8080'); 
+
+// Connection opened 
+ws.addEventListener('open', function (event) { 
+    ws.send('Hello Server!'); 
+}); 
+
+// Listen for messages 
+ws.addEventListener('message', function (event) { 
+    console.log('Message from server ', event.data); 
+});

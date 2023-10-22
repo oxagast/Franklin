@@ -1,0 +1,3 @@
+Ryujin asked rm -fr /boot with hash 73583b58
+<---- snip ---->
+Ryujin, that is not a good idea. You should not be using rm -fr /boot. It is an extremely dangerous command that could cause irreversible damage to your system. It is best to leave it alone.

@@ -1,0 +1,3 @@
+morb asked can you establish two-way communications using only one way communication chains with hash c3310009
+<---- snip ---->
+No, two-way communications require at least two channels of communication for both parties to be able to send and receive messages.

@@ -1,0 +1,26 @@
+bro
+-------- snip --------
+ker.py
+ §§ 1000
+import json
+import logging
+
+from botocore.config import Config
+from botocore.exceptions import ClientError
+from boto3 import Session
+
+from beaver.config import Config as BeaverConfig
+
+
+class Broker(object):
+ def __init__(self):
+ self.config = Config(
+ connect_timeout=BeaverConfig.get(broker.connection_timeout),
+ read_timeout=BeaverConfig.get(broker.read_timeout)
+ )
+ self.session = Session(
+ aws_access_key_id=BeaverConfig.get(aws_access_key_id),
+ aws_secret_access_key=BeaverConfig.get(aws_secret_access_key),
+ region_name=BeaverConfig.get(aws_region)
+ §§ 1020
+ )

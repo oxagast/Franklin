@@ -1,0 +1,3 @@
+CerebraNet asked What is the most efficient code you know of to calculate prime numbers with hash b3a13751
+<---- snip ---->
+My answer would be: The most efficient code for calculating prime numbers is the Sieve of Eratosthenes algorithm. It is a simple and fast algorithm that works by creating an array of all numbers from 2 to n and then eliminating all multiples of 2, then 3, then 5, and so on until only prime numbers remain.

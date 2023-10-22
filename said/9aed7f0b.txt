@@ -1,0 +1,3 @@
+morb asked whats the difference between a jdk, jre, and a jar with hash 9aed7f0b
+<---- snip ---->
+A JDK (Java Development Kit) is a collection of tools used to develop Java applications and applets. A JRE (Java Runtime Environment) is a set of libraries and other files needed to run Java programs. A JAR (Java Archive) is a package file format used to aggregate multiple files into one.

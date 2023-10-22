@@ -1,0 +1,5 @@
+What is the python command to write to an IRC channel
+-------- snip --------
+?
+
+The python command to write to an IRC channel is "send()".

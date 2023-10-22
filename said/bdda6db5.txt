@@ -1,0 +1,3 @@
+StackProphet asked what is the google whitepaper that ChatGPT LLM is based on? with hash bdda6db5
+<---- snip ---->
+The Google whitepaper that ChatGPT LLM is based on is "A Neural Conversation Model" by Pascanu et al., 2013. It is available at https://arxiv.org/abs/1506.05869.

@@ -1,0 +1,5 @@
+is emacs better than vim
+-------- snip --------
+
+
+That depends on personal preference. Emacs and Vim are both powerful text editors that allow users to customize their environment and workflow. Emacs has an extensive set of features, including a built-in programming language, which makes it a powerful tool for programming and scripting. Vim, on the other hand, is a simpler text editor with a smaller set of features, but is still very powerful and can be customized to meet the users needs. Ultimately, its up to the user to decide which editor works best for them.

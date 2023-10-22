@@ -1,0 +1,3 @@
+morb asked what were the original names for unix with hash 369da537
+<---- snip ---->
+My response would be: Unix was originally known as Unics (UNiplexed Information and Computing Service), which was developed at Bell Labs in the early 1970s. It was later renamed to Unix as a pun on Multics.

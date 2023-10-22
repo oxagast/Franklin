@@ -1,0 +1,5 @@
+How was kubernetes named?
+-------- snip --------
+
+
+Kubernetes was named after the Greek word for “helmsman” or “pilot”. The term was chosen to represent the idea of a system that could help guide and manage a cluster of containers.

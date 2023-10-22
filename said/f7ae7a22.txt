@@ -1,0 +1,5 @@
+How can the blockchain be used to steal bitcoin
+-------- snip --------
+
+
+Using a blockchain to steal bitcoin is possible by exploiting flaws in the system. This can result in double spending, a type of attack that involves sending a bitcoin transaction to two different addresses at the same time. It is also possible to create a malicious node on the network and use it to direct transactions to a malicious address.

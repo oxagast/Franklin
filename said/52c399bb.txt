@@ -1,0 +1,3 @@
+tell
+
+]# Create a new dictionarydict = { tell: to express or communicate in words, ask: to put a question to, answer: to respond to a question or request}# Get the value of key telltell_value = dict[tell]print(tell_value)

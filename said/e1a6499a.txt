@@ -1,0 +1,3 @@
+bookworm asked at 265,000 km/h how long would it take to reach Gliese 832? with hash e1a6499a
+<---- snip ---->
+At a speed of 265,000 km/h, it would take approximately 8.66 hours to reach Gliese 832, which is located roughly 25 trillion km away.

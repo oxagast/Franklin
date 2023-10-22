@@ -1,0 +1,3 @@
+bookworm asked Alef is a four letter word, Bet is a three letter word, list all Hebrew three lettered words? with hash 2e66065e
+<---- snip ---->
+Sure, here is a list of Hebrew three letter words: Alef, Bet, Gimel, Dalet, He, Vav, Zayin, Het, Tet, Yud, Kaf, Lamed, Mem, Nun, Samekh, Ayin, Pe, Tsadi, Qof, Resh, Shin, Tav.

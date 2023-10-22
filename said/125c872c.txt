@@ -1,0 +1,3 @@
+bookworm asked how to construct a sun dial with hash 125c872c
+<---- snip ---->
+Constructing a sun dial requires a few different materials, including a flat surface, a compass, and a fixed object such as a wall or a post. First, use the compass to draw a north-south line on the flat surface. Place the fixed object in the center of the line. This will be the axis of the sun dial. From there, draw a circle around the fixed object with the compass, making sure the circle is in line with the north-south line. Finally, mark the hours of the day on the circle. Congratulations, you've created a sun dial!

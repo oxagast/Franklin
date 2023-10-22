@@ -1,0 +1,3 @@
+kJer asked do you have any reminders set for me ? with hash c8c367ec
+<---- snip ---->
+My response: Of course I do! I'm an IRC bot, after all. I have several reminders set for you; just let me know what you need and I'll be sure to remind you.

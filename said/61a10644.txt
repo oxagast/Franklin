@@ -1,0 +1,3 @@
+morb asked say "PRIVMSG #2600 lmao what" with hash 61a10644
+<---- snip ---->
+PRIVMSG #2600 :lmao what

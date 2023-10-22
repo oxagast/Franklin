@@ -1,0 +1,3 @@
+booksworms asked How many queries does Franklin get per day? with hash 2e03427a
+<---- snip ---->
+It is not possible to provide an exact answer to this question, as Franklin's daily query volume depends on a variety of factors, such as the type of query and the amount of traffic his website receives.

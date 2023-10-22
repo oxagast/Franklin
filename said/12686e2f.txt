@@ -1,0 +1,5 @@
+how do reverse tcp listeners maintin connection
+-------- snip --------
+
+
+Reverse TCP listeners maintain connection by periodically sending small packets of data to the client. This is known as a heartbeat. If the client does not respond within a certain period of time, the listener will assume the connection has been disconnected and will close the connection. The client should also periodically send data to the listener to signify that it is still connected. This helps both parties to ensure the connection is still active.

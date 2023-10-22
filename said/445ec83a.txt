@@ -1,0 +1,3 @@
+Zed asked what are the details of the D&D spell spiritual weapon with hash 445ec83a
+<---- snip ---->
+My response is: The spell Spiritual Weapon is an evocation spell that creates a magical weapon, a floating, spectral weapon of force. It lasts for 1 minute and you can make an attack with it as an action. It has a +7 to hit, deals 2d8 + your spellcasting ability modifier force damage, and has a range of 60 feet. It is also a bonus action to move the weapon up to 20 feet and repeat the attack against a different creature, or the same creature.

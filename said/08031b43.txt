@@ -1,0 +1,13 @@
+bookworm asked generate a file in a format used by bsdgames quiz from 1000 latin phrases:english phrase, all small letters and no line numbering with hash 08031b43
+<---- snip ---->
+omne initium est difficile,all beginnings are difficult
+divide et impera,divide and conquer
+tempus fugit,time flies
+semper fidelis,always faithful
+mens sana in corpore sano,a healthy mind in a healthy body
+carpe diem,seize the day
+amor vincit omnia,love conquers all
+alea iacta est,the die is cast
+audaces fortuna iuvat,fortune favors the bold
+aut viam inveniam aut faciam,i will either find a way or make one
+nulla dies sine linea,not a day without a line

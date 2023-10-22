@@ -1,0 +1,3 @@
+bookworm asked What is Cantos Ordinal? with hash b107efc5
+<---- snip ---->
+Cantos Ordinal is a type of medieval numerical system created by the mathematician Johannes de Sacrobosco in the 13th century. It assigns a numerical value to each letter of the alphabet, allowing for the numerical representation of words. This system is still used today in certain scholarly works.

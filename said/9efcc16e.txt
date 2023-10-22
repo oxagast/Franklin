@@ -1,0 +1,3 @@
+morb asked has there been any research into which printers add watermarking to documents with hash 9efcc16e
+<---- snip ---->
+Yes, there have been studies done on the types of watermarking printers are capable of. Some of the most common watermarking techniques are embedded data, logos, and text. Some examples of printers that are capable of watermarking documents are HP, Canon, Epson, Brother, and Lexmark.

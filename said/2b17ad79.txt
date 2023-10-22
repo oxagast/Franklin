@@ -1,0 +1,3 @@
+zyme asked So it has to use a gateway phone#, similar to an old-fashioned prepaid telephone calling card? with hash 2b17ad79
+<---- snip ---->
+Yes, you need a gateway phone number in order to use a prepaid telephone calling card. It's the same principle as using a VoIP service such as Skype, but with more secure connections.

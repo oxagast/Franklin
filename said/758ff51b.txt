@@ -1,0 +1,3 @@
+bookworm asked what was the cut off date for your training data? with hash 758ff51b
+<---- snip ---->
+The cut off date for our training data will depend on the specific application and objectives of the analysis. Generally, the training data should include a period of time prior to the date on which the analysis is being conducted so that the model can learn from the past and make accurate predictions in the future.

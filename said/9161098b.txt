@@ -1,0 +1,3 @@
+morb asked how do I get to the test menu of an android phone with hash 9161098b
+<---- snip ---->
+The easiest way to access the Test Menu on an Android phone is to open the dialer app and enter the code *#*#4636#*#*. This will open the Test Menu, which allows you to access various testing and debugging options on your device.

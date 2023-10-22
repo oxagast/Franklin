@@ -1,0 +1,3 @@
+bookworm asked What is Canto"s Ordinal in relation to infinity? with hash 0dd1b8d3
+<---- snip ---->
+Canto's ordinal in relation to infinity is undefined, as it is not possible to assign an ordinal number to infinity.

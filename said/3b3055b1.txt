@@ -1,0 +1,5 @@
+CerebraNet asked Is it possible to find a cgminer installation program with hash 3b3055b1
+<---- snip ---->
+ that will work with a mac?
+
+Yes, there are several reliable cgminer programs that are compatible with Mac OS. Examples include MacMiner, BFGMiner, and EasyMiner.

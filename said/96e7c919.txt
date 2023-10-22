@@ -1,0 +1,3 @@
+bookworm asked calculate √2 and print the number at position 50 after the radix point with hash 96e7c919
+<---- snip ---->
+1.41421356237309510000000000000000000000000000002500000000000000

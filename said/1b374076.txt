@@ -1,0 +1,3 @@
+bookworm asked how to get the version number from chatGPT with hash 1b374076
+<---- snip ---->
+ChatGPT does not have a version number. It is a web-based chatbot platform that is constantly updated with new features, so there is no specific version number associated with it.

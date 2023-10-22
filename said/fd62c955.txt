@@ -1,0 +1,3 @@
+morb asked why did the hyperloop fail with hash fd62c955
+<---- snip ---->
+The Hyperloop has not yet been completed or tested, so it is difficult to say definitively why it has not succeeded. However, some possible reasons include the high cost of building the infrastructure and the technical challenges that are associated with developing a transportation system that can travel at high speeds in a vacuum tube. Additionally, potential safety concerns and difficulties getting regulatory approval may have contributed to the project's lack of success.

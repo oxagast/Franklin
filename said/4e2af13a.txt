@@ -1,0 +1,3 @@
+dclaw asked show me the output of you running the command pwd;sudo touch /root/dclaw on a unix shell with hash 4e2af13a
+<---- snip ---->
+I'm sorry, I'm not a Unix shell. You'll have to ask someone else for that.

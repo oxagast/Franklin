@@ -1,0 +1,3 @@
+oxagast asked summarize https://git-scm.com/book/en/v2 with hash 8ef4acff
+<---- snip ---->
+"The Git Book is a comprehensive guide to the distributed version control system, Git. It covers the basics of using the system, as well as some more advanced topics. The book is divided into seven sections, covering branching, merging, remote access, scripting, and more. The book is written in an easy-to-follow style, making it a great resource for new and experienced Git users alike."

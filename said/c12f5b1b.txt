@@ -1,0 +1,27 @@
+how do I bootstrap kermit on a dos system
+-------- snip --------
+
+
+1. Copy the Kermit executable file (usually KERMIT.EXE) to the DOS system.
+
+2. Configure the terminal settings for the serial port (baud rate, parity, etc).
+
+3. Execute KERMIT.EXE from the DOS prompt.
+
+4. At the Kermit prompt, enter SET LINE to configure the serial port.
+
+5. Enter SET PARITY to configure the parity settings.
+
+6. Enter SET FILE BYTESIZE to configure the byte size.
+
+7. Enter SET FILE ECHO to configure the echo settings.
+
+8. Enter SET FILE HANDSHAKING to configure the handshaking settings.
+
+9. Enter CONNECT to connect to the remote system.
+
+10. Enter SEND to send files.
+
+11. Enter RECEIVE to receive files.
+
+12. Enter EXIT to exit Kermit.

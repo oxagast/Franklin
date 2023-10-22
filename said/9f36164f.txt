@@ -1,0 +1,5 @@
+go west
+-------- snip --------
+
+
+If you are asking for directions, you should specify where you want to go.

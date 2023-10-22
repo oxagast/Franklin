@@ -1,0 +1,8 @@
+morb asked write me a program that prints hello world in c90 with hash 3b19e705
+<---- snip ---->
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello World!\n");
+    return 0;
+}

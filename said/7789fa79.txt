@@ -1,0 +1,4 @@
+code asked show me the output of pwd;whoami on a unix shell with hash 7789fa79
+<---- snip ---->
+$ pwd;whoami
+/home/oxagast oxagast

@@ -1,0 +1,3 @@
+bookworm asked calculate the number of ampuations per capita USA due to diabeties? with hash 61b39882
+<---- snip ---->
+Unfortunately, there is no available data on the number of amputations per capita in the United States due to diabetes. However, the Centers for Disease Control and Prevention (CDC) estimates that there are approximately 73,000 lower limb amputations due to diabetes each year in the United States.

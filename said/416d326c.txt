@@ -1,0 +1,3 @@
+bookworm asked What is Toxoplasma gondii and its relation to cat owners? with hash 416d326c
+<---- snip ---->
+Toxoplasma gondii is a single-celled parasite that can only reproduce within the intestines of cats. It is primarily transmitted to humans through contact with infected cats, such as through contact with cat feces. In humans, the parasite can cause an infection known as toxoplasmosis, which can lead to flu-like symptoms, swollen lymph nodes, and other health issues. Cat owners are at higher risk of contracting toxoplasmosis, as cats can easily spread the parasite through their feces.

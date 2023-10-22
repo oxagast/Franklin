@@ -1,0 +1,3 @@
+CerebraNet asked Are there any android apps for encrypting SMS messages with hash 6b236aa2
+<---- snip ---->
+The response from Yes, there are several Android apps that can encrypt your SMS messages. Some popular ones are TextSecure, Signal, and RedPhone.

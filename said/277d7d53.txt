@@ -1,0 +1,3 @@
+CerebraNet asked I am formatting the SD card for my Nikon Coolpix as NTFS with hash 277d7d53
+<---- snip ---->
+That's great! Make sure you back up your photos first, just in case something goes wrong.

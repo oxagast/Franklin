@@ -1,0 +1,15 @@
+bookworm asked how to convert hex to text in bash with hash b2c2541d
+<---- snip ---->
+You can use the xxd command to convert hex to text in Bash.
+
+Syntax:
+
+xxd -p -r <hex_string>
+
+For example:
+
+echo "48656c6c6f20576f726c6421" | xxd -p -r
+
+Output:
+
+Hello World!

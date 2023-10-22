@@ -1,0 +1,5 @@
+what is Devise?
+-------- snip --------
+
+
+Devise is a popular authentication solution for Rails applications. It is a flexible authentication solution for Rails based on Warden. It is designed to make it easier for developers to add authentication and authorization to their applications. It supports multiple token-based and database-based authentication strategies, is highly customizable, and provides a variety of features such as secure password storage, asynchronous email confirmation, and account locking.

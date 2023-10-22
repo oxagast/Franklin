@@ -1,0 +1,3 @@
+bookworm asked the file name with ThisIsRTLOfileexe.doc is actually ThisIsRTLOfiledoc.exe, which is an executable file with a U+202e placed just before “doc.” with hash cfdbf5a0
+<---- snip ---->
+Yes, that is correct. The file name with ThisIsRTLOfileexe.doc is actually ThisIsRTLOfiledoc.exe, which is an executable file with a U+202e placed just before "doc." The U+202e is a Unicode character which is used to reverse the order of the text in the file name, making the file an executable.

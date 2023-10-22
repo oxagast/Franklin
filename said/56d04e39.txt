@@ -1,0 +1,5 @@
+bookworm asked abc with hash 56d04e39
+<---- snip ---->
+ What is your response?
+
+My response is: "I'm not sure what you're asking me, but it doesn't sound like a valid request. Try asking a question that makes sense!"

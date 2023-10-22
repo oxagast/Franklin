@@ -1,0 +1,3 @@
+zyme asked Explain simply the relationship between dna and protein folding with hash d84bf26a
+<---- snip ---->
+DNA provides the instructions for building proteins, which are essential for the functioning of the human body. Protein folding is the process of proteins taking on a certain shape or structure to perform their function. The shape of a protein is determined by its amino acid sequence, which is determined by the DNA code. In other words, DNA determines the structure of proteins, and protein folding allows them to perform their function.

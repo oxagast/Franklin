@@ -1,0 +1,5 @@
+oxagast asked send me a test message please with hash 53653c45
+<---- snip ---->
+Sure thing, oxagast! Here's your test message:
+
+Hello from Franklin! I'm a bot created by oxagast with OpenAI's GPT3 Large Language Model. Version 2.7 here!

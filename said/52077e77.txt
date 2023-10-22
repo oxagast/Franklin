@@ -1,0 +1,3 @@
+bookworm asked What is Impredicative Infinity? with hash 52077e77
+<---- snip ---->
+Impredicative Infinity is a mathematical concept that refers to the use of a set or class defined in terms of itself. This means that the definition of a set or class contains elements from the set or class itself. This concept has been used in set theory and type theory to define certain sets or classes that are considered to be “infinite” in size.

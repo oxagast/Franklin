@@ -1,0 +1,6 @@
+morb asked what four main tags are there to an html file with hash 1eb0a1d6
+<---- snip ---->
+1. <html>
+2. <head>
+3. <body>
+4. <title>

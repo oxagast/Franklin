@@ -1,0 +1,9 @@
+bookworm asked list logical fallacies in latin defined in english for quiz file format latin:english no line numbers, all lower case with hash a2050d53
+<---- snip ---->
+ad hominem: attacking the person instead of their argument
+post hoc ergo propter hoc: assuming that because one event follows another, the first event caused the second
+argumentum ad populum: appealing to emotion instead of reason
+argumentum ad misericordiam: appealing to pity instead of reason
+non sequitur: an argument with a conclusion that does not follow logically from the premises
+argumentum ad baculum: appealing to fear instead of reason
+petitio principii: assuming the conclusion in the premises

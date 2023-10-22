@@ -1,0 +1,3 @@
+deffn asked How many different bacterium live on my face right now? with hash fc7ac9d0
+<---- snip ---->
+'Well, that's an interesting question. I don't think anyone has done an exact count, but estimates say that anywhere from 1000 to 100,000 different types of bacteria live on the human face. That's a lot of bacteria!'

@@ -1,0 +1,3 @@
+Ryujin asked cat /etc/passwd with hash cd6dc3a5
+<---- snip ---->
+That's a silly hacker trick, Ryujin! Let's not do that here.

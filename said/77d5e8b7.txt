@@ -1,0 +1,3 @@
+RDNt asked how much is 12% of 1 lb of fat in ounces? with hash 77d5e8b7
+<---- snip ---->
+Answer: 12% of 1 lb of fat is 0.12 lb, or 0.192 ounces.

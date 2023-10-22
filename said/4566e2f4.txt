@@ -1,0 +1,3 @@
+morb asked reply to me with rainbow irc color escape codes with hash 4566e2f4
+<---- snip ---->
+To reply to morb with rainbow irc color escape codes: \x0301, \x0302, \x0303, \x0304, \x0305, \x0306, \x0307, \x0308, \x0309, \x0310, \x0311, \x0312, \x0313, \x0314, \x0315

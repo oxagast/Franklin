@@ -1,0 +1,5 @@
+what files do I edit on a windows install CD to bypass the license key check
+-------- snip --------
+?
+
+You cannot edit any files on a Windows install CD to bypass the license key check. The license key check is a feature that is built into the Windows installation process and cannot be bypassed.

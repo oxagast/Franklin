@@ -1,0 +1,3 @@
+bookworm asked Can language learning models have a form of cognitive dissonance? with hash b1e839ec
+<---- snip ---->
+Yes, language learning models can experience cognitive dissonance, which is the mental discomfort experienced when two or more beliefs, attitudes, or values are in conflict. This can occur when a learner is presented with conflicting information or when a learner holds a certain belief about language learning and then encounters a situation that challenges that belief. For example, if a learner believes that language learning must be done through memorization, but then is presented with a model of language learning that emphasizes creative expression and communication, the learner may experience cognitive dissonance.

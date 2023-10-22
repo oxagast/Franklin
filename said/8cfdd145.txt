@@ -1,0 +1,3 @@
+CerebraNet asked What is the name for 640 K RAM with hash 8cfdd145
+<---- snip ---->
+My answer: 640 K RAM is also commonly referred to as the "conventional memory limit". This limit was imposed by the design of the IBM PC and the original Intel 8086 processor, and is still a limitation for some older computers and programs.

@@ -1,0 +1,5 @@
+What is MPT-1327 Standard
+-------- snip --------
+
+
+MPT-1327 is a British standard for trunked radio systems, developed by the UK Ministry of Defence in the 1980s. It is based on the European ETSI standard GSM and is used primarily in the UK and other countries with strong British influence. It is a digital system that allows multiple users to share a single radio frequency band. It is also used to provide secure and encrypted communication for government and military users.

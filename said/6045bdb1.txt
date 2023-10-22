@@ -1,0 +1,3 @@
+kJer asked show me your work for determining that epoch time with hash 6045bdb1
+<---- snip ---->
+My work for determining the epoch time for August 9, 1946 is as follows: I first looked up the date in the Unix date command, which showed me the timestamp as -746606800. I then used the Unix timestamp calculator to convert the date to an epoch time of -746606800.

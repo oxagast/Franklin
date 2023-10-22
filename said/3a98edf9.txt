@@ -1,0 +1,3 @@
+CerebraNet asked What is the oldest DOS email program there was with hash 3a98edf9
+<---- snip ---->
+The oldest DOS email program was called PC-Talk. It was released in 1983 and allowed users to exchange emails over dial-up networks. It was replaced by more advanced email programs like Eudora and Microsoft Outlook in the 1990s.

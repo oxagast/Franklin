@@ -1,0 +1,3 @@
+morb asked how do I get into field test mode on a motorola teletac with hash b8f7e3c4
+<---- snip ---->
+You cannot enter field test mode on a Motorola Teletac. Field test mode is a diagnostic mode that is used by mobile phone technicians to diagnose problems with a phone's hardware and software.

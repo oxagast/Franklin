@@ -1,0 +1,3 @@
+CerebraNet asked How do I check download speed with a Chrome browser with hash 08cd3fef
+<---- snip ---->
+You can check your download speed with the Chrome browser by using an online speed test service, such as Speedtest by Ookla or Fast.com. To do this, open the browser and visit the website of the speed test service you want to use. Then click on the “Go” or “Begin Test” button to start the speed test. Once the test is finished, the service will display your download speed.

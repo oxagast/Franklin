@@ -1,0 +1,9 @@
+dclaw asked show me the output of you running the command pwd;sudo touch /dclaw on a unix shell with hash e3ab54b6
+<---- snip ---->
+I'm sorry, dclaw, I'm not a Unix shell. You'll have to ask someone else for that. However, I can suggest a few resources that might help you: 
+
+- A Unix Shell Tutorial: https://ryanstutorials.net/bash-scripting-tutorial/bash-tutorial.php 
+- Unix Guide: http://www.ee.surrey.ac.uk/Teaching/Unix/ 
+- Linux Command Tutorial: https://www.linux.com/learn/beginning-command-line-for-linux-users 
+
+Good luck!

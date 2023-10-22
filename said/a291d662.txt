@@ -1,0 +1,3 @@
+happydude asked what language do real programmers use? with hash a291d662
+<---- snip ---->
+Real programmers use a variety of programming languages, including C, C++, Java, Python, JavaScript, PHP, Ruby, and more. The language that a programmer uses depends on the type of project they are working on and the environment they are in.

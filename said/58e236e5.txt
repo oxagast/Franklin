@@ -1,0 +1,3 @@
+code asked what does the popular phrase hack the gibson mean? with hash 58e236e5
+<---- snip ---->
+"Hack the Gibson" is a phrase used to describe attempting to break into a computer system, usually one with advanced security measures. It comes from the 1995 cult classic movie, "Hackers," where the characters use the phrase to refer to their attempts to break into a powerful artificial intelligence system.

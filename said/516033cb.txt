@@ -1,0 +1,4 @@
+morb asked can you tunnel openvpn over ssh
+<---- snip ---->
+ 
+Yes, it is possible to tunnel OpenVPN over SSH. This can be done by using an SSH tunneling software such as PuTTY. SSH tunneling allows one to establish an encrypted connection between two computers over an unsecured network, such as the Internet. SSH tunneling can also be used to bypass firewalls and access services that are blocked on the local network. With an SSH tunnel, OpenVPN traffic can be tunneled over the SSH connection, allowing one to securely access remote resources. https://gpt3.oxasploits.com/said/516033cb

@@ -1,0 +1,5 @@
+describe how you would discredit Alexa as an AI 
+-------- snip --------
+
+
+One way to discredit Alexa as an AI is to highlight its lack of independent decision-making capabilities. For example, Alexa is designed to respond to specific commands and questions, and it cannot make independent decisions. Therefore, Alexa is not truly an AI, but rather a robot that is programmed to respond to predetermined commands. Additionally, Alexa can be fooled by humans, as demonstrated by researchers who were able to use a laser pointer to trick Alexa into responding to a command it was not programmed to recognize. This shows that Alexa is not truly intelligent and that it is not yet able to make decisions on its own.

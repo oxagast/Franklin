@@ -1,0 +1,3 @@
+happydude asked what"s the best way to search an encoded string? with hash 13fe4824
+<---- snip ---->
+The best way to search an encoded string is to use a string search algorithm, such as the Boyer-Moore algorithm. This algorithm searches through the encoded string to find a pattern or a certain number of characters. It is efficient and can be used to quickly search through large amounts of data.

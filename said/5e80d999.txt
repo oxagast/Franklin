@@ -1,0 +1,3 @@
+bookworm asked How many cellphones have ever been created? with hash 5e80d999
+<---- snip ---->
+There is no definitive number of cellphones that have ever been created, as new models and designs are continually being released. According to the International Telecommunication Union (ITU), by the end of 2019, there were approximately 5.2 billion unique mobile subscribers globally.

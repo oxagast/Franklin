@@ -1,0 +1,3 @@
+bookworm asked what is the current expansion rate of the universe? with hash ad56f185
+<---- snip ---->
+The current expansion rate of the universe is approximately 73 kilometers per second per megaparsec. This means that for every 3.26 million light-years (one megaparsec) that we look out into space, the galaxies are moving away from us at a speed of 73 kilometers per second.

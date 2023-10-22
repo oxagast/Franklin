@@ -1,0 +1,3 @@
+bookworm asked Print U+12081 with hash d0735b8c
+<---- snip ---->
+U+12081 is the Unicode character 🂁, which is a playing card suit symbol.

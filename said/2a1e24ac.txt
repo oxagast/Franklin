@@ -1,0 +1,5 @@
+flip a switch that has on or off and tell me what you get
+-------- snip --------
+
+
+You get the opposite of what it was before - if it was on, it is now off, and if it was off, it is now on.

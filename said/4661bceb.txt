@@ -1,0 +1,7 @@
+What is the difference between Extended and Expanded memory?
+-------- snip --------
+
+
+Extended memory is a type of memory used in older computers (developed in the 1980s) that extends the amount of memory available to the system beyond the 1 MB limit imposed by the original IBM PC design. Extended memory is also known as EMS (Expanded Memory Specification).
+
+Expanded memory is a memory management technology developed in the late 1980s that allows larger amounts of memory to be used in a computer system. Expanded memory works by creating a small area of reserved memory (known as the Expanded Memory Page Frame) that is used to transfer data between main memory and the extended memory address space. Expanded memory is also known as XMS (eXtended Memory Specification).

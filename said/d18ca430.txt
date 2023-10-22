@@ -1,0 +1,3 @@
+CerebraNet asked Is flash memory EMP proof with hash d18ca430
+<---- snip ---->
+Yes, flash memory is EMP proof, as it is non-volatile memory which is not affected by electromagnetic pulses.

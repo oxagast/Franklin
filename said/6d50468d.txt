@@ -1,0 +1,3 @@
+CerebraNet asked Show me a command line for rsync with options with hash 6d50468d
+<---- snip ---->
+rsync -avz --progress <source_location> <destination_location>

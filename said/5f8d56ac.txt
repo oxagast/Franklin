@@ -1,0 +1,3 @@
+zyme asked what gpt version do you use? with hash 5f8d56ac
+<---- snip ---->
+The GPT version you use will depend on the type of software you are using. For example, GPT-2 is the latest version of GPT, while GPT-3 is the upcoming version. Check with the software provider to determine which version of GPT is supported.

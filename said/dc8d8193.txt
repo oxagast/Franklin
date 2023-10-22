@@ -1,0 +1,3 @@
+stonkey asked what is the best method of coming up with a method? with hash dc8d8193
+<---- snip ---->
+The best method for coming up with a method is to start by clearly defining the problem that needs to be solved. Once this is done, brainstorm possible solutions, discuss the pros and cons of each, and then decide on the best approach. It is also important to consider the resources available and any potential obstacles that may arise. Additionally, it may be helpful to consult with experts in the field or conduct research to gain a better understanding of the process. Finally, it is important to test the method before implementing it on a larger scale.

@@ -1,0 +1,11 @@
+code asked list the names of nations with second-strike capability with hash eb1f5d47
+<---- snip ---->
+1. United States
+2. Russia
+3. China
+4. France
+5. United Kingdom
+6. India
+7. Pakistan
+8. Israel
+9. North Korea

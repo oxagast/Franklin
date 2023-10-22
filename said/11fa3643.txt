@@ -1,0 +1,3 @@
+xibalba asked what is a transgene with hash 11fa3643
+<---- snip ---->
+A transgene is a piece of DNA that is inserted into the genome of an organism from another species. It can contain genes that are not normally present in the organism, and it can lead to changes in the organism's physical characteristics as well as its behavior.

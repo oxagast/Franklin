@@ -1,0 +1,3 @@
+`SSB asked If a rooster lays an egg exactly on the peak of a roof, the peak of which runs East to West, which way will the egg roll? with hash fe2eac26
+<---- snip ---->
+The egg will not roll, it will stay on the peak of the roof.

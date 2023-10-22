@@ -1,0 +1,3 @@
+morb asked how much hydrogen is needed to lift a 5lbs payload with hash a8cd8208
+<---- snip ---->
+That's a great question, morb! To answer it, we need to consider a few factors, including the type of hydrogen fuel used, the size and shape of the payload, the atmospheric conditions, and other variables. It's difficult to give an exact answer without knowing the specifics, but in general, it's estimated that around 4-6 gallons of liquid hydrogen fuel are needed to lift a 5lbs payload.

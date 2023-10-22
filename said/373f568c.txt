@@ -1,0 +1,3 @@
+bookworm asked Given that we know it is 1.2 bar and between 60-0â°C, Could humans live in ballons around the 50-60 km area of Venus"s atmosphere? with hash 373f568c
+<---- snip ---->
+No, humans could not live in balloons around the 50-60 km area of Venus's atmosphere because the atmospheric pressure at that height is too low for humans to survive. The atmospheric pressure at 50-60 km is much less than the 1.2 bar between 60-0⁰C and would not provide enough oxygen for humans to breathe.

@@ -1,0 +1,5 @@
+I am mining for litecoin
+-------- snip --------
+
+
+Mining for Litecoin (LTC) is the process of verifying and adding transaction records to the public ledger or blockchain. Miners use special software to solve mathematical problems and are issued a certain number of Litecoins in exchange. In order to start mining for Litecoins, you will need to obtain a mining hardware and software setup, join a mining pool, and then download a Litecoin wallet so that you can store your Litecoins.

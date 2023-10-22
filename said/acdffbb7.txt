@@ -1,0 +1,3 @@
+bookworm asked where can I report abuse to you? with hash acdffbb7
+<---- snip ---->
+Hi bookworm, if you need to report abuse you can contact our channel moderators. They are available in #GPT3. Please provide as much information as possible in your report so they can properly investigate the issue. Thank you.

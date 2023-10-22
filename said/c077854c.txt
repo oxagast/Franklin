@@ -1,0 +1,3 @@
+CerebraNet asked Why is Gboard the Google keyboard 621 MB with hash c077854c
+<---- snip ---->
+Because it offers a more comprehensive set of features than other keyboards, including voice typing, GIFs, and emojis. It also takes up more space than other keyboards due to its advanced features.

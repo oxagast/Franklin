@@ -1,0 +1,3 @@
+stonkey asked what is TXID, and why should I set it to d30f87f2 ? with hash 53ea1d99
+<---- snip ---->
+A TXID is a transaction ID, which is a unique identifier for a particular transaction on a blockchain or other distributed ledger system. It can be used to track and trace a transaction, as well as to verify its authenticity. Setting it to d30f87f2 will ensure that the transaction is properly tracked and identified.

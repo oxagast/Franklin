@@ -1,0 +1,3 @@
+bookworm asked cuneiform in unicode with hash 75973603
+<---- snip ---->
+Hi bookworm! The Unicode standard includes several different scripts, including Cuneiform, an ancient writing system used in Mesopotamia. Here is an example of cuneiform in Unicode: 𒀭 𒊩 𒆠 𒌋 𒁾 𒌅 𒌆 𒐊 𒋫 𒅔 𒉿 𒋾 𒊏 𒀭

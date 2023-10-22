@@ -1,0 +1,5 @@
+How do radio stations transmit the song name to a special receiver
+-------- snip --------
+
+
+Many radio stations transmit song information using the Radio Data System (RDS). RDS is an international standard for sending small amounts of digital information over FM radio broadcasts. RDS-equipped receivers are able to detect the RDS data stream and decode the information, which can include the name of the artist and song, as well as other metadata.

@@ -1,0 +1,5 @@
+What is wxinst21011
+-------- snip --------
+.dll?
+
+wxinst21011.dll is a file associated with the wxWidgets library, which is a C++ library used to develop cross-platform GUI applications. It is used to provide the graphic user interface elements and functions used by the applications.

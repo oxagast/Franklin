@@ -1,0 +1,3 @@
+bookworm asked what is the smallest unit of time a humans have measured? with hash 8d46f3d8
+<---- snip ---->
+The smallest unit of time that humans have measured is the yoctosecond, which is equal to one septillionth of a second (10^-24).

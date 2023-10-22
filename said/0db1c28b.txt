@@ -1,0 +1,25 @@
+write a snort perl program that logs into an ftp and uploads a file
+-------- snip --------
+
+
+
+#!/usr/bin/perl
+
+use strict
+use warnings
+use Net::FTP
+
+# Create an instance of the FTP object
+my $ftp = Net::FTP->new("ftp.example.com") or die "Cannot connect to ftp.example.com: $@"
+
+# Log in
+$ftp->login("username", "password") or die "Cannot login ", $ftp->message
+
+# Change to the directory we want to upload to
+$ftp->cwd("/incoming") or die "Cannot change working directory ", $ftp->message
+
+# Upload the file
+$ftp->put("/path/to/file.txt") or die "put failed ", $ftp->message
+
+# Close the connection
+$ftp->quit

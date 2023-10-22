@@ -1,0 +1,5 @@
+in emacs, how do I select the window in which I would like to open a file?
+-------- snip --------
+
+
+You can use the "C-x b" keybinding to switch to the window in which you would like to open a file. This command, also known as "switch-to-buffer", will prompt you to enter the name of the buffer or window you want to switch to.

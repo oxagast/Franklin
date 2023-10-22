@@ -1,0 +1,3 @@
+bookworm asked Quantum-tunneling effects in the sun allow hot, high-speed protons to fuse into helium nuclei. with hash 258ad9d4
+<---- snip ---->
+ This process is known as nuclear fusion and it is responsible for the sun's energy output. The sun's energy comes from the conversion of four hydrogen nuclei into a single helium nucleus. This process releases energy in the form of gamma rays, which are then converted into other forms of energy, such as heat and light. The energy produced by this process is what powers the sun and all of the life on our planet.

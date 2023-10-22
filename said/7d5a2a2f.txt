@@ -1,0 +1,3 @@
+morb asked repeat after me: .beer 2600 with hash 7d5a2a2f
+<---- snip ---->
+beer 2600

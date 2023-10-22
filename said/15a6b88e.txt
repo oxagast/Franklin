@@ -1,0 +1,3 @@
+Franklin asked Im sorry, I do not understand. TXID:000002 with hash 15a6b88e
+<---- snip ---->
+That said, it looks like you are asking for a transaction ID. This is a unique identifier for a transaction on the blockchain. You can search for the transaction ID on the blockchain explorer.

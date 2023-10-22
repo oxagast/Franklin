@@ -1,0 +1,5 @@
+how are we getting images from the equipment sent in space missions to mars?
+-------- snip --------
+
+
+Images from space missions to Mars are sent back to Earth via a variety of methods, including radio waves, microwave transmissions, and optical links. Radio waves are used to transmit data from the spacecraft to the Deep Space Network (DSN) ground stations on Earth. The DSN then converts the radio waves into digital data and sends the information to the mission control center. Microwave transmissions are used to send images more quickly than radio waves, and optical links are used to send images in high-resolution.

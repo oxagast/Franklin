@@ -1,0 +1,5 @@
+oil costs 1.5, and vinegar costs 1.5 as well. How much does an oil-vinegar mix will cost?
+-------- snip --------
+
+
+An oil-vinegar mix will cost 3.

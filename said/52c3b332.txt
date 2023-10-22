@@ -1,0 +1,4 @@
+CerebraNet asked Should fuzion upgrade from windows version 3.10 with hash 52c3b332
+<---- snip ---->
+My response would be:
+Yes, I would recommend fuzion upgrade from Windows version 3.10 to a more up-to-date version. It will give them access to many more features and security updates.

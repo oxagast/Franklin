@@ -1,0 +1,11 @@
+what are the advantages of OpenSolaris Boot Environments?
+-------- snip --------
+
+
+1. Improved system reliability and availability: OpenSolaris Boot Environments (BEs) allow the user to quickly switch between different running system configurations, allowing for faster system recovery in the event of a system crash or other issue. 
+
+2. Easy system upgrades: With OpenSolaris BEs, the system administrator can easily upgrade the operating system without having to reinstall the entire system. This can be done by simply creating a new BE with the new version of OpenSolaris, and then switching the active BE to the new version.
+
+3. Improved flexibility: OpenSolaris BEs provide system administrators with increased flexibility and control over their systems, allowing them to easily create and manage multiple system configurations. This allows them to quickly switch between different configurations, such as running different applications or services, or testing new versions of software.
+
+4. Easy system cloning: OpenSolaris BEs also make it easy to clone a system, allowing for quick duplication of configurations

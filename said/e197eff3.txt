@@ -1,0 +1,5 @@
+Does the Xbox Kinect work on PCs?
+-------- snip --------
+
+
+Yes, the Xbox Kinect can be used on PCs with the Kinect for Windows software.

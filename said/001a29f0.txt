@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked Does Haltdef prevent IP leaks on IRC? with hash 001a29f0
+<---- snip ---->
+No, Haltdef does not prevent IP leaks on IRC. However, using a secure connection and taking additional steps to protect your identity can help reduce the risk of IP leaks.

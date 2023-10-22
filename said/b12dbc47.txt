@@ -1,0 +1,5 @@
+reply with ..bang
+-------- snip --------
+ bang
+
+BOOM!

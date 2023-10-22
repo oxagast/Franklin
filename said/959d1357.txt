@@ -1,0 +1,3 @@
+OfficeChair2 asked What device do I need to connect a computer USB port to a router console port with hash 959d1357
+<---- snip ---->
+You will need a USB to Serial cable adapter. This will allow you to connect a computer USB port to a router console port.

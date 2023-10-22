@@ -1,0 +1,15 @@
+Ryujin asked how to sign images into blockchain... we got shit to do  with hash 5fe1d332
+<---- snip ---->
+1. Find a suitable blockchain platform for your use case. Some popular ones include Ethereum, Hyperledger, EOS, and Cosmos.
+
+2. Create an account on the chosen platform and get familiar with the platform’s features and tools.
+
+3. Create a digital signature for the image by using a cryptographic hashing algorithm.
+
+4. Use a smart contract to store the signature on the blockchain. 
+
+5. Secure the signature with an encryption algorithm.
+
+6. Publish the image and signature to the blockchain.
+
+7. Verify the signature to ensure the integrity of the data.

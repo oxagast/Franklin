@@ -1,0 +1,5 @@
+CerebraNet asked What is the cube root of 1,000 with hash abd4e016
+<---- snip ---->
+?
+
+The cube root of 1,000 is 10.

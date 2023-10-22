@@ -1,0 +1,3 @@
+code asked tell me about the hacker jeopardy game at defcon with hash 860d59db
+<---- snip ---->
+Hacker Jeopardy is a game at DEF CON where teams compete against each other and answer questions related to the hacking and security community. The game usually has different levels of difficulty and can range from beginner to advanced. The winner of the game is determined based on their knowledge, quick thinking, and creativity.

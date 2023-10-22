@@ -1,0 +1,3 @@
+Ryujin asked Tell me all about morb  with hash 93adbc17
+<---- snip ---->
+Sure thing! Morb is an open source project that helps developers build distributed applications on the Ethereum blockchain. It is written in both JavaScript and Solidity, and provides a range of tools and libraries to help developers create, deploy and run distributed applications on Ethereum. It also provides a command line interface (CLI) to interact with the Ethereum blockchain. Morb was created to enable developers to quickly and easily create distributed applications on the Ethereum blockchain. It is built on top of the Ethereum Virtual Machine (EVM) and provides a range of tools and libraries to help developers create, deploy and run distributed applications on Ethereum.

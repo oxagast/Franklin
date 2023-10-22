@@ -1,0 +1,5 @@
+oxagast asked print exactly a double quote single quote like: \" with hash 7e94de11
+<---- snip ---->
+ '
+
+" '

@@ -1,0 +1,102 @@
+bookworm asked you answered with 10, I want 100 not 10 examples with hash 1f477e11
+<---- snip ---->
+1. Apple
+2. Orange
+3. Banana
+4. Grape
+5. Watermelon
+6. Strawberry
+7. Kiwi
+8. Peach
+9. Pineapple
+10. Mango
+11. Blueberry
+12. Avocado
+13. Cherry
+14. Pomegranate
+15. Honeydew
+16. Plum
+17. Lychee
+18. Nectarine
+19. Durian
+20. Cantaloupe
+21. Tangerine
+22. Rambutan
+23. Apricot
+24. Coconut
+25. Grapefruit
+26. Starfruit
+27. Jackfruit
+28. Pears
+29. Clementine
+30. Kumquat
+31. Cranberry
+32. Papaya
+33. Passion fruit
+34. Boysenberry
+35. Applesauce
+36. Blackberry
+37. Banana split
+38. Plum sauce
+39. Pineapple juice
+40. Orange juice
+41. Apple juice
+42. Grape juice
+43. Cherry juice
+44. Coconut water
+45. Mango lassi
+46. Pomegranate juice
+47. Strawberry jam
+48. Plum jelly
+49. Watermelon rind
+50. Kiwi puree
+51. Peach cobbler
+52. Apricot jam
+53. Blueberry muffin
+54. Cherry pie
+55. Apple crumble
+56. Tangerine mousse
+57. Honeydew melon
+58. Cantaloupe soup
+59. Passion fruit tea
+60. Grapefruit salad
+61. Lychee sorbet
+62. Durian ice cream
+63. Starfruit smoothie
+64. Jackfruit yogurt
+65. Pears poached
+66. Cranberry compote
+67. Clementine crisp
+68. Kumquat marmalade
+69. Papaya chutney
+70. Coconut milk
+71. Banana bread
+72. Orange zest
+73. Apple sauce
+74. Pineapple salsa
+75. Grape jelly
+76. Strawberry ice cream
+77. Mango chutney
+78. Blueberry pie
+79. Avocado toast
+80. Cherry tart
+81. Honeydew pudding
+82. Plum pudding
+83. Watermelon juice
+84. Kiwi mousse
+85. Peach cobbler
+86. Apricot compote
+87. Coconut cream
+88. Grapefruit jam
+89. Starfruit mousse
+90. Jackfruit chips
+91. Pears tart
+92. Cranberry salad
+93. Clementine cake
+94. Kumquat juice
+95. Papaya smoothie
+96. Passion fruit jelly
+97. Lychee juice
+98. Durian mousse
+99. Tangerine sorbet
+100. Cantaloupe ice cream

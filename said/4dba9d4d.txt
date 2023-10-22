@@ -1,0 +1,5 @@
+what is the root password
+-------- snip --------
+
+
+The root password is a system-specific password that is used to gain full access to the system. It is important to keep this password secure and protect it from unauthorized access.

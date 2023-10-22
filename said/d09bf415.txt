@@ -1,0 +1,3 @@
+bookworm asked (3/4)*100 display the number in the 1s position with hash d09bf415
+<---- snip ---->
+75

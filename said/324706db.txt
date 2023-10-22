@@ -1,0 +1,3 @@
+bookworm asked What is a mode in music? with hash 324706db
+<---- snip ---->
+Mode in music is a type of scale, the arrangement of notes within an octave. It is a term used to describe the way in which a piece of music is structured, based on which notes are used and the intervals between them. There are seven main modes in Western music: Ionian, Dorian, Phrygian, Lydian, Mixolydian, Aeolian, and Locrian.

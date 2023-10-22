@@ -1,0 +1,3 @@
+bookworm asked /set franklin_word_limit to 500 with hash 2cbfb632
+<---- snip ---->
+The Franklin Word Limit is a feature that allows users to limit the number of words they have available when creating a document. This feature can be set by going to the “Options” tab in the top right corner of the Franklin application, then selecting “Word Limit” from the list of available options. From there, you can set a word limit of up to 500 words.

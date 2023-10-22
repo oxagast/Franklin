@@ -1,0 +1,3 @@
+morb asked what happened to lindows  with hash 312cd4a2
+<---- snip ---->
+Lindows was a Linux-based operating system developed by Lindows, Inc. and released in 2001. It was designed to compete with Microsoft Windows by providing a low-cost alternative for home users. In 2004, the company changed its name to Linspire, Inc., and released the Linspire operating system. In 2006, the company ceased development of the Lindows operating system, focusing instead on their Linspire product.

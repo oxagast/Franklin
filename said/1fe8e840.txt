@@ -1,0 +1,3 @@
+?
+
+JTAG to USB is an adapter that allows a JTAG-enabled device to be connected to a computer via a USB port. It is commonly used for debugging and programming microcontrollers, such as ARM Cortex-M devices. https://gpt3.oxasploits.com/said/1fe8e840

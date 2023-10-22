@@ -1,0 +1,3 @@
+Officechair2 asked What does load *,8,1 do with hash 6ea3e131
+<---- snip ---->
+Load *,8,1 is an instruction used to tell the computer to read a block of memory, usually containing a program or data, into its internal memory. It is typically used in assembly language programming.

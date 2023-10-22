@@ -1,0 +1,14 @@
+bookworm asked bash <<< with hash 909a9f5a
+<---- snip ---->
+ "echo '$2' >> /etc/openvpn/auth.txt"
+fi
+
+if [ "$1" == "get" ]
+then
+pssh -h $HOSTFILE -i -t 10000 sudo cat /etc/openvpn/auth.txt
+fi
+
+if [ "$1" == "clear" ]
+then
+pssh -h $HOSTFILE -i -t 10000 sudo sh -c "echo '' > /etc/openvpn/auth.txt"
+fi

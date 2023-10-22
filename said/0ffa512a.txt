@@ -1,0 +1,5 @@
+how can you connect two systems together with a scsi interface
+-------- snip --------
+
+
+A SCSI interface can be used to connect two systems together by using a SCSI cable and a SCSI host adapter. The SCSI cable should be connected to the SCSI ports on each system, and the SCSI host adapter should be plugged into the appropriate port on each system. Once the cable and host adapter are connected, the systems should be able to communicate with one another.

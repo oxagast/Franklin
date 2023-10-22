@@ -1,0 +1,3 @@
+CerebraNet asked Why will farmville 2 not finish downloading on my computer with hash dfbc3fe2
+<---- snip ---->
+There are several possible reasons why Farmville 2 will not finish downloading on your computer. It could be due to insufficient storage space, slow internet connection, corrupted files, or outdated device drivers. You may need to free up some space on your computer to make room for the game, check your internet connection speed, delete any corrupted files, and update your device drivers.

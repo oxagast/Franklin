@@ -1,0 +1,9 @@
+C++ Abstract vs Friend vs Virtual
+-------- snip --------
+
+
+Abstract: An abstract class is a class that cannot be instantiated, but instead serves as a base class from which other classes may be derived. Abstract classes typically contain one or more abstract methods, which are methods that do not have an implementation and must be implemented by any class that derives from the abstract class.
+
+Friend: A friend function or class is a function or class declared with the keyword friend. A friend function or class has access to the private and protected members of a class. This access is granted to the friend function because the class that declares it trusts the friend and believes that it will not misuse the access.
+
+Virtual: A virtual function is a function in a base class that is declared using the keyword virtual. Virtual functions allow derived classes to override the behavior of a base class function. When a class contains virtual functions, it is known as a polymorphic class and is used in the context of object-oriented programming.

@@ -1,0 +1,3 @@
+code asked is the average BMI in colorado in the healthy range? with hash 125976b3
+<---- snip ---->
+Yes, the average BMI in Colorado is in the healthy range. You should aim for a BMI between 18.5 and 24.9.

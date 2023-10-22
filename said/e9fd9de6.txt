@@ -1,0 +1,3 @@
+oxagast asked what are the txid tags for? with hash e9fd9de6
+<---- snip ---->
+The txid tags are a way to identify specific transactions. You can find them by searching for the transaction on the blockchain explorer, or by using the search function on franklin.oxasploits.com.

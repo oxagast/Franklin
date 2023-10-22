@@ -1,0 +1,5 @@
+StackProphet asked FCKGW with hash 15d937c0
+<---- snip ---->
+_UseCookie
+
+FCKGW_UseCookie is a JavaScript function used in the FCKeditor WYSIWYG HTML editor. The function allows the editor to store user settings as cookies, which can then be retrieved when the editor is re-loaded. This allows users to customize the editor to their own preferences.

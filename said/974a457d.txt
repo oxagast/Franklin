@@ -1,0 +1,3 @@
+CerebraNet asked How to determine beginning and end of data month on ipad with hash 974a457d
+<---- snip ---->
+The beginning and end of a data month are typically determined by your cellular plan provider. You can usually find this information either on your account page, or by contacting your provider directly.

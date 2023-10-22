@@ -1,0 +1,3 @@
+oxagast asked is your html code edit in prod? with hash 37bb4961
+<---- snip ---->
+No, HTML code should not be edited in a production environment. Production environments should only be used to host the code that has been tested and approved. Any changes should be made in a development or staging environment, and then tested prior to deployment.

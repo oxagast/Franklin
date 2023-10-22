@@ -1,0 +1,3 @@
+bookworm asked list table ten spanish words column1, english translation column2 using syntax spanish:english without line numbering with hash 9a23a849
+<---- snip ---->
+Hola:Hello, Adiós:Goodbye, Sí:Yes, No:No, Por favor:Please, Gracias:Thank you, Buenos días:Good morning, Buenas tardes:Good afternoon, Buenas noches:Good evening, Hola de nuevo:Hello again.

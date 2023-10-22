@@ -1,0 +1,14 @@
+Show me a list of exploits for Apache 2.2
+-------- snip --------
+
+
+1. CVE-2017-9798 – Apache Struts 2 namespace remote code execution vulnerability
+2. CVE-2017-12615 – Apache Tomcat information disclosure vulnerability
+3. CVE-2017-5638 – Apache Struts2 remote code execution vulnerability
+4. CVE-2016-8743 – Apache Struts2 remote code execution vulnerability
+5. CVE-2018-1305 – Apache Tomcat remote code execution vulnerability
+6. CVE-2017-3169 – Apache HTTP Server arbitrary file read vulnerability
+7. CVE-2018-11776 – Apache Struts2 remote code execution vulnerability
+8. CVE-2018-1304 – Apache Tomcat remote code execution vulnerability
+9. CVE-2015-5351 – Apache Struts2 remote code execution vulnerability
+10. CVE-2018-1312 – Apache Tomcat remote code execution vulnerability

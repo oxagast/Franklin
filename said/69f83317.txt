@@ -1,0 +1,5 @@
+code asked how long back in memory, and then what? with hash 69f83317
+<---- snip ---->
+ 
+
+It stores up to 7 lines of chat in memory, then the data is cleared.

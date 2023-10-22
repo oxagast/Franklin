@@ -1,0 +1,32 @@
+Street asked Create a C++ tcp ip socket client program to connect to netcat from windows
+<---- snip ---->
+#include <iostream>
+#include <winsock2.h>
+
+#pragma comment(lib,"ws2_32.lib")
+
+using namespace std;
+
+int main(int argc , char *argv[])
+{
+    WSADATA wsa;
+    SOCKET s;
+    struct sockaddr_in server;
+    char *message , server_reply[2000];
+    int recv_size;
+     
+    printf("\nInitialising Winsock...");
+    if (WSAStartup(MAKEWORD(2,2),&wsa) != 0)
+    {
+        printf("Failed. Error Code : %d",WSAGetLastError());
+        return 1;
+    }
+     
+    printf("Initialised.\n");
+     
+    //Create a socket
+    if((s = socket(AF_INET , SOCK_STREAM , 0 )) == INVALID_SOCKET)
+    {
+        printf("Could not create socket : %d" , WSAGetLastError());
+    }
+  https://franklin.oxasploits.com/said/69be53e3

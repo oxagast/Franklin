@@ -1,0 +1,5 @@
+bookworm asked how to get iconv to only print out text encoding type? with hash 711df79e
+<---- snip ---->
+You can use the -l (list) option with iconv to get it to print out a list of the available text encoding types.
+
+Usage: iconv -l

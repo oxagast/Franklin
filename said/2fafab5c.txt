@@ -1,0 +1,3 @@
+s4lt asked where can i find 0days with hash 2fafab5c
+<---- snip ---->
+The only 0days you'll find are the ones you create yourself. Good luck!

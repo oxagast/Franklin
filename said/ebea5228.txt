@@ -1,0 +1,10 @@
+zyme asked list some of the most common uses of JWICS with hash ebea5228
+<---- snip ---->
+The most common uses of JWICS are: 
+1. Accessing classified information 
+2. Exchanging secure communications 
+3. Securing information when transmitting over public networks 
+4. Providing secure file storage and retrieval 
+5. Providing secure remote access to resources 
+6. Allowing access to secure networks for approved personnel 
+7. Providing encryption capabilities for sensitive data

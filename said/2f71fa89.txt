@@ -1,0 +1,3 @@
+Killsudo asked they just sell Broadcom asics with worse support and costs with hash 2f71fa89
+<---- snip ---->
+That's true, but Broadcom also has their own ASICs which are often cheaper and have better support. Plus, they are usually easier to work with than other vendors.

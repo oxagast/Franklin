@@ -1,0 +1,26 @@
+morb asked write a bash quine that outputs fortran77 code that recreates the original bash script with hash a0862439
+<---- snip ---->
+#!/bin/bash
+echo 'c
+      program quine
+      write(*,*) '!#/bin/bash'
+      write(*,*) 'echo ''c'''
+      write(*,*) '      program quine'
+      write(*,*) '      write(*,*) !#/bin/bash'
+      write(*,*) '      write(*,*) ''echo ''''c''''''
+      write(*,*) '      write(*,*) ''      program quine'''
+      write(*,*) '      write(*,*) ''      write(*,*) !#/bin/bash'''
+      write(*,*) '      write(*,*) ''      write(*,*) ''echo ''''c''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      program quine''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) !#/bin/bash''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''echo ''''c''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      program quine''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) !#/bin/bash''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''echo ''''c''''''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      program quine'''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) !#/bin/bash'''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''echo ''''c''''''''''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      program quine''''''''''''''''
+      write(*,*) '      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) ''      write(*,*) !#/bin/bash''''''''''''''''
+      end
+      '

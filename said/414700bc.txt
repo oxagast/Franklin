@@ -1,0 +1,10 @@
+stonkey asked Are there any books specific to LFCS as a study guide? with hash 414700bc
+<---- snip ---->
+There are several books that can be used as study guides for the Linux Foundation Certified System Administrator (LFCS) certification. Some of the most popular ones are:
+
+• Linux Foundation Certified System Administrator (LFCS) All-in-One Exam Guide, by Michael Jang
+• Linux Foundation Certified System Administrator (LFCS) Certification Guide, by Roderick W. Smith
+• Mastering Linux Foundation Certified System Administrator (LFCS) Exam, by Sander van Vugt
+• CompTIA Linux+/LPIC-1 Cert Guide: Exams LX0-103 & LX0-104/101-400 & 102-400, by Ross Brunson
+• Linux Foundation Certified System Administrator (LFCS) Exam Prep, by John W.
+• Preparing for the Linux Foundation Certified System Administrator (LFCS) Exam, by Jason W. Eckert

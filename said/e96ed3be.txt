@@ -1,0 +1,3 @@
+bookworms asked summarize https://github.com/piercefreeman/gpt-json with hash e96ed3be
+<---- snip ---->
+The repository https://github.com/piercefreeman/gpt-json contains a set of tools for interacting with OpenAI's GPT-3 language model. The tools are written in Python and allow users to easily generate text using the GPT-3 model. They also provide a convenient way to inspect the model's internal state, allowing users to better understand how it works and how to best utilize it.

@@ -1,0 +1,21 @@
+f4t4l_3rr0r asked Bibliography on Creating Game Engine in C++ with hash bb2e2e0d
+<---- snip ---->
+1. Game Engine Architecture, Third Edition, by Jason Gregory.
+
+2. 3D Math Primer for Graphics and Game Development, Second Edition, by Fletcher Dunn and Ian Parberry.
+
+3. Physics for Game Developers, Second Edition, by David H. Eberly.
+
+4. Game Programming Patterns, by Robert Nystrom.
+
+5. C++ Game Development Primer, by Bruce Sutherland.
+
+6. Game Coding Complete, Fourth Edition, by Mike McShaffry and David "Rez" Graham.
+
+7. C++ for Game Programmers, Second Edition, by Noel Llopis and Ernest Pazera.
+
+8. Game Engine Design and Implementation, by Alan Thorn.
+
+9. C++ Programming for the Absolute Beginner, Third Edition, by Mark Lee.
+
+10. Game Programming Algorithms and Techniques, by Sanjay Madhav.

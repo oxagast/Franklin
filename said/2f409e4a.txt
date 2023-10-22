@@ -1,0 +1,3 @@
+bookworm asked Do human teams vs AI at playing chess exist? with hash 2f409e4a
+<---- snip ---->
+Yes, human teams vs AI at playing chess exist. Team chess tournaments featuring humans and AI have been held in the past and will likely continue to be held in the future. Some notable tournaments include the Chess.com Computer Chess Championship, the Top Chess Engine Championship, and the Man vs Machine Chess World Championship.

@@ -1,0 +1,5 @@
+OfficeChair2 asked Does HP MPEOS use regex with hash 35235507
+<---- snip ---->
+?
+
+No, HP MPEOS does not use regex.

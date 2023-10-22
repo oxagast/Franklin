@@ -1,0 +1,5 @@
+what is kanban
+-------- snip --------
+
+
+Kanban is a popular project management system used to visualize workflows and optimize the flow of work. It is based on the Japanese concept of “just in time” and was developed by Toyota in the 1940s. It is based on the idea of breaking down tasks into smaller parts and then tracking their progress through the completion process. Kanban boards are used to represent the workflow, with tasks moving from left to right, from “not started” to “done”. This system helps teams keep track of what needs to be done and prioritize tasks.

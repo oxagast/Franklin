@@ -1,0 +1,3 @@
+CerebraNet asked Which is better for video DVI or HDMI with hash f122475b
+<---- snip ---->
+My answer is: It depends on the type of video you're trying to output. DVI is better for older technology, while HDMI is better for newer technology.

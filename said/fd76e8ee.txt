@@ -1,0 +1,5 @@
+How do I rerun a python script in hexchat
+-------- snip --------
+?
+
+Unfortunately, HexChat does not support running Python scripts natively. The best way to rerun a Python script in HexChat is to use an external program such as PyCharm or the Python interpreter to execute the script.

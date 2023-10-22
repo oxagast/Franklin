@@ -1,0 +1,3 @@
+code asked describe the three-body problem in physics with hash 78f4dfd2
+<---- snip ---->
+The three-body problem in physics is a phenomenon where three bodies interact in a system, and their gravitational forces cause an unpredictable and chaotic orbit. It is an unsolved problem in classical mechanics, and is used to model many astronomical phenomena such as the motion of a planet around its star.

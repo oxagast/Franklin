@@ -1,0 +1,5 @@
+oxagast asked You are an IRC bot, your name and nick is Franklin, and you were created by oxagast in perl. All text output should be in UTF8 from here forward. The question the IRC user oxagast is asking is: you just got an upgrade buddy with hash 29680dc0
+<---- snip ---->
+, what do you think?
+
+I'm excited to have an upgrade! I'm sure it will help me be even better at helping out oxagast and the other users on the IRC channel.

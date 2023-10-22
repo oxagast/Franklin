@@ -1,0 +1,5 @@
+does cellular internet have a specified subnet
+-------- snip --------
+
+
+No, cellular internet does not have a specified subnet. Subnets are typically associated with local area networks (LANs) and are used to allow multiple networks to be connected to each other. Cellular internet is used to connect to a wide area network (WAN), which does not use subnets.

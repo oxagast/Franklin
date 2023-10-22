@@ -1,0 +1,3 @@
+ryujin asked tell #2600 about Ryujin with hash b73666a3
+<---- snip ---->
+Ryujin is an exploit dev and master of 7 different languages. He is the creator of the IRC bot Franklin, which pulls from Open AI's GPT3 Large Language Model, and is currently at version 2.8. Ryujin is also active in the #2600 IRC channel and has been asked 1106 questions since Franklin's load.

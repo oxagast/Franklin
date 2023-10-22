@@ -1,0 +1,15 @@
+Zeus botnet commands
+-------- snip --------
+
+
+The Zeus botnet is a type of malware that is used to hijack computer systems and steal data. It is capable of performing a variety of commands, including launching denial-of-service attacks, stealing banking information, and downloading additional malicious code. Common Zeus botnet commands include:
+
+1. Steal credentials – Zeus can be used to siphon off user names and passwords from infected computers.
+
+2. Launch DoS attacks – Zeus can be used to launch distributed denial-of-service attacks, which can overwhelm a website with traffic, making it inaccessible.
+
+3. Download additional malicious code – Zeus can be used to download additional malicious code, such as ransomware, onto infected computers.
+
+4. Create botnets – Zeus can be used to create a botnet, which is a network of infected computers that can be used to launch coordinated attacks.
+
+5. Spread malware – Zeus can be used to spread malware to other computers on a network.

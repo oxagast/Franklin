@@ -1,0 +1,7 @@
+please give 2 examples of an application program that connects to Google in a way better than the web interface
+-------- snip --------
+
+
+1. Google Keep: Google Keep is a note-taking app that allows users to easily store and access notes, lists, and reminders on the go. It syncs with the users Google account so that notes can be accessed from anywhere.
+
+2. Google Drive: Google Drive is a cloud-based storage service that allows users to store and access files from any device. It integrates with the users Google account, so that files can be shared, edited, and accessed from anywhere with an internet connection.

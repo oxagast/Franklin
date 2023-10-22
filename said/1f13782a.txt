@@ -1,0 +1,5 @@
+explain hackthissite.org
+-------- snip --------
+
+
+HackThisSite.org is an online platform for ethical hacking and cyber security awareness. It provides a range of challenges and simulations for users to practice their hacking skills and learn about computer security. It also provides tutorials, articles, and discussion forums for users to share their knowledge and experiences. The website is open to anyone, regardless of their level of experience.

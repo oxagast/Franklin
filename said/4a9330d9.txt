@@ -1,0 +1,10 @@
+CerebraNet asked Name some safe bitcoin mining programs with hash 4a9330d9
+<---- snip ---->
+1. CGMiner
+2. BFGMiner
+3. EasyMiner
+4. MultiMiner
+5. AwesomeMiner
+6. HoneyMiner
+7. Crypto Miner
+8. Bitcoin Miner

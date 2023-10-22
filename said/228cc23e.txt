@@ -1,0 +1,3 @@
+CerebraNet asked Do bitcoin miners download the entire blockchain with hash 228cc23e
+<---- snip ---->
+No, Bitcoin miners do not download the entire blockchain. Instead, they download and maintain a copy of the distributed ledger known as the blockchain, which contains all of the blocks of transaction data that have been mined since the beginning of the Bitcoin network. This blockchain is stored locally on miners’ computers, and is updated whenever a new block is mined.

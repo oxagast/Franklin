@@ -1,0 +1,3 @@
+bookworm asked what is the name of a word that only occurs once in a corpus? with hash 045d2bae
+<---- snip ---->
+A hapax legomenon (plural: hapax legomena) is a word that occurs only once within a given corpus.

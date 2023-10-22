@@ -1,0 +1,7 @@
+code asked show me the output of you running the command pwd;ls /home on a unix shell with hash a10e9695
+<---- snip ---->
+The output of the command "pwd;ls /home" is:
+
+/home/franklin:
+
+bin  Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos

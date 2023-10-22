@@ -1,0 +1,3 @@
+teach me hello world in 32 different programming languages
+
+1. Java: System.out.println("Hello World!")2. C: printf("Hello World!")3. C++: std::cout << "Hello World!"4. C#: Console.WriteLine("Hello World!")5. Python: print("Hello World!")6. JavaScript: console.log("Hello World!")7. Swift: print("Hello World!")8. PHP: echo "Hello World!"9. Ruby: puts "Hello World!"10. Go:

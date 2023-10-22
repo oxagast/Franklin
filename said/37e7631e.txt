@@ -1,0 +1,69 @@
+bookworm asked # with hash 37e7631e
+<---- snip ---->
+include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <math.h>
+#include <time.h>
+
+#include "data_structure.h"
+#include "file_io.h"
+#include "utility.h"
+#include "query.h"
+#include "partition_refine.h"
+#include "com.h"
+
+int main()
+{
+  /*
+  int i;
+  int n_node = 10;
+  int n_edge = 12;
+  int n_part = 2;
+
+  // graph
+  int *edge_src = malloc(sizeof(int)*n_edge);
+  int *edge_dst = malloc(sizeof(int)*n_edge);
+
+  for(i=0; i<n_edge; i++)
+  {
+    edge_src[i] = i%n_node;
+    edge_dst[i] = (i+1)%n_node;
+  }
+
+  // partition
+  int *part = malloc(sizeof(int)*n_node);
+  for(i=0; i<n_node; i++)
+    part[i] = i%n_part;
+
+  // refinement
+  int *part_refine = malloc(sizeof(int)*n_node);
+  refine(part, n_node, n_part, edge_src, edge_dst, n_edge, part_refine);
+
+  for(i=0; i<n_node; i++)
+    printf("%d ", part_refine[i]);
+  printf("\n");
+
+  free(edge_src);
+  free(edge_dst);
+  free(part);
+  free(part_refine);
+
+  */
+  // communitication
+  /*
+  int n_node = 10;
+  int n_edge = 12;
+  int *edge_src = malloc(sizeof(int)*n_edge);
+  int *edge_dst = malloc(sizeof(int)*n_edge);
+  int *part = malloc(sizeof(int)*n_node);
+  double nmi;
+
+  int i;
+  for(i=0; i<n_edge; i++)
+  {
+    edge_src[i] = i%n_node;
+    edge_dst[i] = (i+1)%n_node;
+  }
+  for(i=0; i<n_node; i++)
+    part[i] =

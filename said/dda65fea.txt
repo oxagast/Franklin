@@ -1,0 +1,7 @@
+bookworm asked echo "${var-set}" with hash dda65fea
+<---- snip ---->
+# Unset the variable
+unset var
+
+# Print the variable
+echo "${var-set}"

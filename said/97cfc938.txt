@@ -1,0 +1,9 @@
+CerebraNet asked How can we disrupt fake accounts on facebook which are run by AI bots with hash 97cfc938
+<---- snip ---->
+1. Increase the difficulty of verifying accounts by requiring more information from users.
+2. Institute a verification system for accounts that requires users to provide a valid phone number or other identifying information.
+3. Use AI-based technologies to detect suspicious activity and account creation patterns, such as sudden spikes in account creation or suspiciously similar account profiles.
+4. Utilize machine-learning algorithms to detect abnormal behavior and alert users when an account appears to be suspicious.
+5. Require users to answer security questions before allowing them to post or interact with other users.
+6. Monitor the content of posts and comments for suspicious language or other indicators of potential malicious activity.
+7. Employ a team of human moderators to review flagged accounts and take appropriate action.

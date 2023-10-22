@@ -1,0 +1,3 @@
+bookworm asked How many language models exist for GPT-4 with hash a58fb1e3
+<---- snip ---->
+As of April 2020, there are seven GPT-4 language models that have been released by OpenAI: GPT-2, GPT-3, GPT-3 XL, GPT-4 Small, GPT-4 Medium, GPT-4 Large, and GPT-4 XL.

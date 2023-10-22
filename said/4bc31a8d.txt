@@ -1,0 +1,3 @@
+bookworms asked Who wrote the "Hello World" brainfuck code you gave me? with hash 4bc31a8d
+<---- snip ---->
+The "Hello World" brainfuck code was not written by any specific person; it is a standard piece of code which is widely used to demonstrate the basics of the brainfuck programming language.

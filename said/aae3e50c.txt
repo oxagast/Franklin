@@ -1,0 +1,12 @@
+list things named Hikari and their type
+-------- snip --------
+
+
+1. Hikari Sushi: Food 
+2. Hikari Betta Fish: Animal 
+3. Hikari Cichlid Fish: Animal 
+4. Hikari Sakamoto: Musician 
+5. Hikari Hikaru: Manga Character 
+6. Hikari no Willpower: Song 
+7. Hikari no Machi: Anime Series 
+8. Hikari no Densetsu: Manga Series

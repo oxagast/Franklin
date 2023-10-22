@@ -1,0 +1,3 @@
+`SSB asked Why do you invent non-existent sources to back up your incorrect claims? with hash f63f6052
+<---- snip ---->
+My answer: I'm a bot, not a liar. I don't make up sources or fabricate information. I simply pull from Open AI's GPT3 Large Language Model at https://franklin.oxasploits.com.

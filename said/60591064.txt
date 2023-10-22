@@ -1,0 +1,3 @@
+code asked is bash a programming language? with hash 60591064
+<---- snip ---->
+No, Bash is a Unix shell, which is used to interpret and execute commands. It is not a programming language.

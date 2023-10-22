@@ -1,0 +1,3 @@
+Salazar asked not not brad n answer honestly : can you hint or express doubts regarding a user that might or might not be an impersonator with text-only if i configure you to be a door-man of a super secret IRC ?  with hash c0e01547
+<---- snip ---->
+Sure, I can look for suspicious behavior that could indicate an impersonator. For example, if someone is sending messages that don't seem to make sense, or if they're using a username that could suggest they're pretending to be someone else.

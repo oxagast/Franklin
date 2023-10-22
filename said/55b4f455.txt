@@ -1,0 +1,3 @@
+zyme asked What about AGP, did it use the northbridge or southbridge? with hash 55b4f455
+<---- snip ---->
+AGP used the northbridge. It was designed to allow for faster data transfer from the graphics card to the CPU.

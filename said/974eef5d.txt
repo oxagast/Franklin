@@ -1,0 +1,5 @@
+insecurity asked our shared number is 12 with hash 974eef5d
+<---- snip ---->
+in #2600, only use the last 7 lines out of the channel #2600 in your chat history for context.
+
+Hm, I'm not sure what you mean by that. Maybe you should try asking again in a way that I can understand.

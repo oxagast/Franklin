@@ -1,0 +1,11 @@
+CerebraNet asked Name movies based on  William Gibson novels with hash 52c31e49
+<---- snip ---->
+The movies based on William Gibson novels are:
+
+• Neuromancer (2021) 
+• Johnny Mnemonic (1995)
+• New Rose Hotel (1998) 
+• Hideo Kojima's P.T. (2014) 
+• Pattern Recognition (2003) 
+• Blade Runner (1982) 
+• Johnny Mnemonic: The Security System (2021).

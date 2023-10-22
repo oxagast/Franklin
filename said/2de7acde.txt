@@ -1,0 +1,3 @@
+CerebraNet asked What is the windows 10 program to test hard drives called with hash 2de7acde
+<---- snip ---->
+The Windows 10 program to test hard drives is called "Windows 10 Memory Diagnostic Tool".

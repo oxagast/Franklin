@@ -1,0 +1,49 @@
+`SSB asked Write code for me to use on an ESP32 to allow a user to change internal variables inside the program using a web server. with hash f1358df4
+<---- snip ---->
+#include <ESPAsyncWebServer.h>
+
+AsyncWebServer server(80);
+
+// Variables to be changed by the web server
+int variable1 = 0;
+int variable2 = 0;
+
+// Handler for the "variable1" endpoint
+void variable1Handler(AsyncWebServerRequest *request)
+{
+  // Check if the request is a GET
+  if(request->method() == HTTP_GET) {
+    // Get the value of the variable from the query string
+    int value = request->arg("value").toInt();
+    // Update the variable
+    variable1 = value;
+    // Send a response with the updated value
+    request->send(200, "text/plain", String(variable1));
+  }
+}
+
+// Handler for the "variable2" endpoint
+void variable2Handler(AsyncWebServerRequest *request)
+{
+  // Check if the request is a GET
+  if(request->method() == HTTP_GET) {
+    // Get the value of the variable from the query string
+    int value = request->arg("value").toInt();
+    // Update the variable
+    variable2 = value;
+    // Send a response with the updated value
+    request->send(200, "text/plain", String(variable2));
+  }
+}
+
+void setup() {
+  // Set up the web server
+  server.on("/variable1", variable1Handler);
+  server.on("/variable2", variable2Handler);
+  server.begin();
+}
+
+void loop() {
+  // The loop function can be used to do other tasks
+  // while the web server is running in the background
+}

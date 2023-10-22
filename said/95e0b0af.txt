@@ -1,0 +1,3 @@
+NiceGuyMan asked you made me think about RFC-1925 with your comment about ducks flying re: pigs flying if thrust is proper with hash 95e0b0af
+<---- snip ---->
+The Request for Comments (RFC) 1925, "The Twelve Networking Truths," is a humorous document written in 1994 by Marshall Rose, which attempts to explain the complexities of the Internet in a humorous way. The document begins with the phrase “It's time to put the 'fun' back into networking” and contains twelve maxims about networking, such as “You can never have enough acronyms” and “A protocol is like a pig: If you push it far enough, it will fly”. The document concludes with the statement, “If you can keep your head when all around you are losing theirs, maybe you just don't understand the situation”.

@@ -1,0 +1,3 @@
+bookworm asked example of tar with excluding directories with hash 06e75b99
+<---- snip ---->
+tar -cvf archive.tar --exclude='node_modules/' --exclude='logs/' path/to/source/

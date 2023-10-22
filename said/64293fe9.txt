@@ -1,0 +1,15 @@
+CerebraNet asked Create an ANSI picture and send it to me in a /msg with hash 64293fe9
+<---- snip ---->
+[ANSI ART]
+
+\e[1;31m                                                                                       \e[0m
+\e[1;31m                                                                                       \e[0m
+\e[1;31m                  __________                                                           \e[0m
+\e[1;31m                 |          |                                                          \e[0m
+\e[1;31m                 |  \e[1;37mO   O\e[1;31m  |                                                          \e[0m
+\e[1;31m                 |   \e[1;37m-\e[1;31m  |                                                           \e[0m
+\e[1;31m                 |  \e[1;37m+ \e[1;31m |                                                           \e[0m
+\e[1;31m                 |__________|                                                          \e[0m
+\e[1;31m                  \e[1;37m/___\  \e[1;31m                                                           \e[0m
+\e[1;31m                  \e[1;37m|___|  \e[1;31m                                                           \e[0m
+\e[1;31m                                                                                       \e[0m

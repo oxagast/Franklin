@@ -1,0 +1,5 @@
+oxagast asked print one \"\"\" with hash db75a4b0
+<---- snip ---->
+"""
+This is a triple-quoted string.
+"""

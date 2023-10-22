@@ -1,0 +1,3 @@
+`
+
+## Bowerbower install angular-bootstrap-daterangepicker## UsageInclude the module as a dependency in your application:jsangular.module(myApp, [ui.daterangepicker])Include the css and the script of the component in your index.html filehtml<script src="bower_components/angular-bootstrap-daterangepicker/dist/angular-bootstrap-dater

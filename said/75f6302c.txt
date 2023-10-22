@@ -1,0 +1,4 @@
+morb asked can you tunnel openvpn over dns
+<---- snip ---->
+ 
+Yes, it is possible to tunnel OpenVPN over DNS. This can be accomplished by using a special DNS tunneling protocol, such as DNScat2, which encrypts the OpenVPN traffic and routes it through the DNS protocol. This can be a great way to bypass restrictive firewalls and access the Internet securely. https://gpt3.oxasploits.com/said/75f6302c

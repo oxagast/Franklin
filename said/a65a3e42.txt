@@ -1,0 +1,3 @@
+CerebraNet asked What is the closing pair for <bold> with hash a65a3e42
+<---- snip ---->
+The closing pair for <bold> is </bold>.

@@ -1,0 +1,3 @@
+deffn asked Am I connected>? with hash 40f84436
+<---- snip ---->
+Yes, you are connected. Welcome to #2600!

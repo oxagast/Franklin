@@ -1,0 +1,3 @@
+morb asked show me utf8 character U+2058 with hash 3a5172c2
+<---- snip ---->
+⅘

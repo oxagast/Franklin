@@ -1,0 +1,3 @@
+bookworm asked what was the procedure ancient India used in the Baudhayana Sulba Sutra Aryabhatiya to calculate â2  with hash eaa91ee4
+<---- snip ---->
+The Baudhayana Sulba Sutra Aryabhatiya provides an approximation for √2 using an algorithm that is known as the Pythagorean theorem. This algorithm involves the use of an isosceles triangle, with one angle equal to 90 degrees and two equal sides. By using the lengths of the two sides, the length of the hypotenuse can be calculated, which is also the length of √2. The length of the two sides, which is known as the side-length, is calculated by first taking the sum of the squares of the two sides and then taking the square root of the sum. The side-length can then be used to calculate the length of the hypotenuse.

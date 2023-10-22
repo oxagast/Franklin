@@ -1,0 +1,3 @@
+bookworm asked print an exert from Finnegan"s Wake with hash 4dfe3828
+<---- snip ---->
+"For the marge of a river there, a lurcher of liffey, he did go strolling the same. With a rock in his pocket, a leaf in his lock, he did pace all the banks, deep in a dream. And as he did stray, he came on a tree, a most curious tree, all hung about with shells and bells and long gawsies of yarn. And on the tree, he spied a small sign that said, 'Here lives Finnegan, the Wakeful Dreamer.'"

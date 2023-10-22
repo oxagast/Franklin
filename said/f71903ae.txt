@@ -1,0 +1,3 @@
+bookworm asked what is the number at the end of √2 to 50 decimal places? with hash f71903ae
+<---- snip ---->
+1.41421356237309504880168872420969807856967187537694

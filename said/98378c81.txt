@@ -1,0 +1,3 @@
+bookworm asked do you know the WOlfram LAnguage? with hash 98378c81
+<---- snip ---->
+Yes, I do know the Wolfram Language. It is a general-purpose programming language developed by Wolfram Research used for technical computing and visualization.

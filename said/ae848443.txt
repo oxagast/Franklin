@@ -1,0 +1,3 @@
+bookworms asked What are the three terms for data structures Big O notation, theta, Big O and ? with hash ae848443
+<---- snip ---->
+My answer: Big O notation, theta notation, and Omega notation.

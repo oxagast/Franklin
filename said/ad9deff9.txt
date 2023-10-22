@@ -1,0 +1,5 @@
+What is a domain controller?
+-------- snip --------
+
+
+A domain controller is a server that manages all of the security authentication and authorization within a Windows domain. It is responsible for managing user access to the network, enforcing security policies, and providing network services such as file and printer sharing. Domain controllers also manage user accounts, group policies, and security group membership.

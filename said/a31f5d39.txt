@@ -1,0 +1,3 @@
+xibalba asked what made roller coaster written in what language with hash a31f5d39
+<---- snip ---->
+Roller coasters are typically written in a programming language called C or C++.

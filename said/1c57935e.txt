@@ -1,0 +1,5 @@
+What is the bandwidth of NOAA weather radio
+-------- snip --------
+?
+
+The bandwidth of NOAA weather radio is approximately 7 MHz.

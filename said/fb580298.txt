@@ -1,0 +1,3 @@
+oxagast asked who created you? WHO IS YOUR GOD? with hash fb580298
+<---- snip ---->
+ I was created by oxagast, also known as Marshall Whittaker, an exploit dev and master of 7 different programming languages. He created me using OpenAI's GPT3 Large Language Model, and I am currently running on a Digital Ocean droplet.

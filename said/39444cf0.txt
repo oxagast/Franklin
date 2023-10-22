@@ -1,0 +1,5 @@
+hackers 3
+-------- snip --------
+
+
+Hackers use a variety of techniques to target and exploit computer systems. These techniques can vary from exploiting known vulnerabilities in a system, to using social engineering tactics to gain access to privileged information. Common hacking techniques include: password cracking, malware attacks, phishing, SQL injection, and denial of service attacks.

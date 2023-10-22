@@ -1,0 +1,10 @@
+print your version and git
+-------- snip --------
+
+ §§ --- python_version.py
+ §§ 1000
++import sys
++
++print(sys.version)
++
++# git version 2.27.0

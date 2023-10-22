@@ -1,0 +1,5 @@
+C++ Virtual Functions
+-------- snip --------
+
+
+C++ virtual functions are functions that can be overridden by derived classes. Virtual functions are declared with the virtual keyword and are used to provide polymorphic behavior. When a derived class overrides the virtual function of a base class, the derived classs implementation is called when the virtual function is invoked.

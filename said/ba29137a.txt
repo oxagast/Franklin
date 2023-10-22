@@ -1,0 +1,3 @@
+CerebraNet asked What is the FN key on my computer keyboard with hash ba29137a
+<---- snip ---->
+The FN key is a special key on your keyboard that allows you to access different functions. It is usually used in combination with other keys to perform certain actions. For example, pressing FN + F2 might mute your speakers, while FN + F3 might turn on your wireless connection.

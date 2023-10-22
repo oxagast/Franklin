@@ -1,0 +1,5 @@
+what is WebPack?
+-------- snip --------
+
+
+Webpack is a static module bundler for modern JavaScript applications. It takes all of your applications modular code and its dependencies and bundles them into a single file or a few files that can be served to the browser. It also helps optimize your applications performance by splitting your code into separate bundles that can be loaded on demand. Webpack is also capable of transforming, bundling, or packaging, just about any resource or asset.

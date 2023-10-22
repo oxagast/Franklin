@@ -1,0 +1,3 @@
+CerebraNet asked What is oxagast doing right now with hash bbbd0bd3
+<---- snip ---->
+oxagast is currently working on improving Franklin's version 2.7 code, so that he can better understand language and respond more accurately to user queries.

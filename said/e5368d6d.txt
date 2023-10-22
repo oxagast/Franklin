@@ -1,0 +1,8 @@
+ryujin asked Code me hello world in turbo pascal with hash e5368d6d
+<---- snip ---->
+Sure thing! Here you go:
+
+program HelloWorld;
+begin
+  writeln('Hello, World!');
+end.

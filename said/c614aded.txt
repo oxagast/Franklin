@@ -1,0 +1,3 @@
+CerebraNet asked How can I figure out if IT is messing with my Internet connection with hash c614aded
+<---- snip ---->
+You can start by running a traceroute to your ISP's website. If the results are not what you expect, it could be a sign that someone is tampering with your connection. You can also use a site like SpeedTest to measure the speed of your connection and compare it to what your ISP promises. Finally, you can check for any suspicious processes running on your computer that may be connected to someone else.

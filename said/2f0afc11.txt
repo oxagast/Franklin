@@ -1,0 +1,5 @@
+komodokitty asked How many pages is TCP/IP Illustrated, without the source code? with hash 2f0afc11
+<---- snip ---->
+ 
+
+TCP/IP Illustrated does not contain any source code, so the page count for the book is approximately 622 pages.

@@ -1,0 +1,3 @@
+zyme asked Tell us about scroogle and the complaints its creator had regarding Googles search results. with hash 64c6e5eb
+<---- snip ---->
+Scroogle was a search engine created by a former Google employee who believed Google's search results were heavily biased towards their own services and products. He created Scroogle as an alternative search engine, allowing users to get more unbiased and accurate search results. Unfortunately, the service was plagued with complaints from its creator, who believed the search engine was too heavily weighted towards Google's services.

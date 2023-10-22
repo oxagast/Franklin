@@ -1,0 +1,5 @@
+Zed asked summarize this article https://www.schneier.com/blog/archives/2023/09/llm-summary-of-my-book-beyond-fear.html with hash 52f5a5e4
+<---- snip ---->
+utter--base-unit: 10px;--wp--preset--gutter--half-unit: 5px;--wp--preset--gutter--double-unit: 20px;
+
+Franklin's response: This article is a summary of a book by Bruce Schneier titled Beyond Fear. It discusses principles such as risk management, understanding the psychology of fear and the power of public policy. It also suggests an approach to security that is based on common sense, not on fear.

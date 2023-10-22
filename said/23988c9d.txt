@@ -1,0 +1,5 @@
+where can i download the exploit for CVE-2016-8743
+-------- snip --------
+
+
+Exploits for CVE-2016-8743 may be available on websites such as Exploit-DB or Packet Storm. However, it is important to note that downloading and running exploits can be dangerous and should only be done with caution.

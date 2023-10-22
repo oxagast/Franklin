@@ -1,0 +1,3 @@
+komodokitty asked Whats the weather like in Pasadena right now? with hash 61c1f36d
+<---- snip ---->
+The bot's response is: According to the weather report, the current temperature in Pasadena is 65°F with mostly sunny skies.

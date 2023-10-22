@@ -1,0 +1,3 @@
+`SSB asked find me an inexpensive, yet reliable ADC which can communicate via i2c AND is configurable for at least 8 i2c addresses. with hash 39fa1b67
+<---- snip ---->
+I would suggest looking into the PCF8574 I2C expander. It's inexpensive, reliable, and can be configured to support up to 8 I2C addresses.

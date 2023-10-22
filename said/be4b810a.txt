@@ -1,0 +1,9 @@
+`ls`
+-------- snip --------
+
+
+
+Applications	Music			Public
+Desktop		Pictures		Sample.txt
+Documents		Public_html		Templates
+Downloads		Videos

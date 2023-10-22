@@ -1,0 +1,5 @@
+bookworm asked give example of noglob as an enviroment variable bash with hash 1d6f1b50
+<---- snip ---->
+An example of setting NOGLOB as an environment variable using Bash is:
+
+export NOGLOB=1

@@ -1,0 +1,35 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the alphabet assigning more faces for letters with more frequency with hash f64212b1
+<---- snip ---->
+A - 4 faces
+B - 3 faces
+C - 2 faces
+D - 2 faces
+E - 2 faces
+F - 1 face
+G - 1 face
+H - 1 face
+I - 1 face
+J - 1 face
+K - 1 face
+L - 1 face
+M - 1 face
+N - 1 face
+O - 1 face
+P - 1 face
+
+Cube 1: A, B, C, D, E, F
+Cube 2: A, B, C, D, G, H
+Cube 3: A, I, J, K, L, M
+Cube 4: A, N, O, P, D, E
+Cube 5: A, B, C, G, H, I
+Cube 6: A, J, K, L, M, N
+Cube 7: A, O, P, D, E, F
+Cube 8: A, B, C, G, H, I
+Cube 9: A, J, K, L, M, N
+Cube 10: A, O, P, D, E, F
+Cube 11: A, B, C, G, H, I
+Cube 12: A, J, K, L, M, N
+Cube 13: A, O, P, D, E, F
+Cube 14: A, B, C, G, H, I
+Cube 15: A, J, K, L, M, N
+Cube 16: A, O, P, D, E, F

@@ -1,0 +1,19 @@
+bookworm asked write the instructions for playing a digital boggle game with hash 3fb8a7a7
+<---- snip ---->
+1. Download a digital boggle game from your app store.
+
+2. Open the game and select the difficulty level you would like to play at.
+
+3. The game will then generate a 4x4 grid of letters.
+
+4. You have a certain amount of time to find as many words as you can.
+
+5. Words must be at least 3 letters long and can only be formed using adjacent letters.
+
+6. Words can go in any direction (horizontal, vertical, or diagonal).
+
+7. When you find a word, tap or click on the first letter of the word and then trace the word until you reach the last letter.
+
+8. Once you find a word, it will be highlighted in green and will be added to your score.
+
+9. When the timer runs out, your score will be tallied and you will be shown the leaderboard.

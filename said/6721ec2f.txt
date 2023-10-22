@@ -1,0 +1,9 @@
+softether vs openvpn
+-------- snip --------
+
+
+OpenVPN is an open-source virtual private network (VPN) solution that is based on the OpenSSL library. It is a secure, reliable, and cost-effective solution for businesses, enterprises, and individuals to securely connect remote computers and mobile devices. OpenVPN is one of the most popular VPN solutions in use today.
+
+SoftEther VPN is an open-source cross-platform multi-protocol VPN. It is a secure, reliable, and cost-effective VPN solution that provides a powerful set of features to users, including high-speed performance, support for a wide range of protocols, and strong encryption. It is based on the SoftEther protocol, which is an open-source implementation of the SSL/TLS protocol. SoftEther VPN is highly customizable and can be used for a wide range of applications, from business-level remote access to secure connection for remote users.
+
+Both OpenVPN and SoftEther VPN offer secure, reliable, and

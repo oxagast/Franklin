@@ -1,0 +1,14 @@
+bookworm asked 1/137 with hash 8575e198
+<---- snip ---->
+§ Output
+
+> ['0.0072992700729927005']
+
+
+§ Code
+
+# Q4
+# A negative correlation between two variables means that when one variable decreases, the other variable increases.
+# A positive correlation between two variables means that when one variable increases, the other variable increases.
+ 
+§ END OF DOC

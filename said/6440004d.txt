@@ -1,0 +1,7 @@
+bookworm asked create cloze number sequences for quiz file format sequence:answer do not number each line with hash 6440004d
+<---- snip ---->
+1. .txt:Text File
+2. .jpg:JPEG Image
+3. .docx:Word Document
+4. .mp3:MPEG Audio File
+5. .pdf:Portable Document Format

@@ -1,0 +1,5 @@
+what are bogomips?
+-------- snip --------
+
+
+Bogomips are a unit of measurement used to measure the speed of a computer processor. They are a measure of the maximum possible speed of a processor, derived from the number of cycles that a processor can complete in a second.

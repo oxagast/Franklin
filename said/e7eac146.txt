@@ -1,0 +1,3 @@
+bookworm asked what is the current byte size of Haskell"s GHC? with hash e7eac146
+<---- snip ---->
+At the time of writing, the current byte size of Haskell's GHC is 8.10.4 and is roughly 102 MB.

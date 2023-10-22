@@ -1,0 +1,19 @@
+Write me a short little bit of code using PHP that would be useful in a text based chat environment like IRC.
+-------- snip --------
+
+
+<?php
+
+// Get the users input from the chat
+$input = trim(fgets(STDIN))
+
+// Respond to the users input
+if ($input == Hello) {
+ echo Hi there!
+} elseif ($input == Goodbye) {
+ echo Bye now!
+} else {
+ echo I don\t understand.
+}
+
+?>

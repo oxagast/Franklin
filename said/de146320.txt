@@ -1,0 +1,9 @@
+ryujin asked Code me hello world in fortran with hash de146320
+<---- snip ---->
+Sure thing, ryujin. Here's your hello world in fortran: 
+
+PROGRAM HELLO
+    WRITE (6,100)
+    STOP
+100 FORMAT('Hello, World!')
+END

@@ -1,0 +1,29 @@
+more
+-------- snip --------
+ = false
+ }
+ }
+
+ /bin /run /sbin Franklin api.key block.list call_gpt3.sh franklin.log gpt3.log said 查询更多
+ */
+ $scope.loadMore = function() {
+ if ($scope.more) {
+ $scope.page++
+ $scope.query()
+ }
+ }
+
+ /bin /run /sbin Franklin api.key block.list call_gpt3.sh franklin.log gpt3.log said 查询
+ */
+ $scope.query = function() {
+ OrderService.query($scope.page, $scope.size, $scope.status).then(function(data) {
+ $scope.orders = data.result
+ $scope.more = (data.page < data.total)
+ $scope.$broadcast(scroll.infiniteScrollComplete)
+ })
+ }
+
+ /bin /run /sbin Franklin api.key block.list call_gpt3.sh franklin.log gpt3.log said 刷新
+ */
+ $scope.refresh = function() {
+ OrderService.query($

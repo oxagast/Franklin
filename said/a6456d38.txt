@@ -1,0 +1,34 @@
+oxagast asked print \\ with hash a6456d38
+<---- snip ---->
+$title;
+
+?>
+
+<p>
+<?php
+
+print \$text;
+
+?>
+</p>
+
+</body>
+</html>
+
+EOT;
+
+// Create the file
+$fp = fopen("$title.php", "w");
+
+// Write the data
+fwrite($fp, $data);
+
+// Close the connection
+fclose($fp);
+
+// Let the user know the script has completed
+print "<p>The file $title.php has been created.</p>";
+
+?>
+</body>
+</html>

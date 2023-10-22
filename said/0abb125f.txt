@@ -1,0 +1,3 @@
+Which is better, the PiDP8i or the PIDP11/70?
+
+The PiDP8i and the PiDP11/70 are two very different computers. The PiDP8i is a replica of the classic DEC PDP-8 minicomputer and is great for exploring the history of computing or learning about the fundamentals of computer architecture. The PiDP11/70 is a replica of the classic DEC PDP-11 minicomputer and is great for exploring the history of computing and learning about more advanced computer architectures. Ultimately, which computer is better depends on what you are looking to use it for.

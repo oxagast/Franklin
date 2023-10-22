@@ -1,0 +1,13 @@
+Imagine and describe how you would eliminate human error 
+-------- snip --------
+
+
+The elimination of human error is an ambitious goal, as it is a natural part of human nature. However, there are ways to minimize and reduce the chances of it occurring.
+
+First, organizations should focus on creating a culture of safety and accountability. This means clearly outlining expectations and roles, providing resources and training for employees, and rewarding good behavior.
+
+Second, organizations should implement processes and procedures that reduce the chances of human error. This could include automating certain tasks, introducing quality checks and audits at different stages of a process, and introducing systems that alert when there is potential for human error.
+
+Third, organizations should use data to drive decisions and recognize when human error is likely. This could include using predictive analytics to identify potential problems before they occur, or using technology to track employee performance and highlight areas where mistakes are more likely to occur.
+
+Finally, organizations should invest in technologies that help reduce the chances of human error. This could include introducing machine learning algorithms

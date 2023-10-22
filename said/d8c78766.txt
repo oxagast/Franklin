@@ -1,0 +1,4 @@
+bookworm asked convert german ase to english with hash d8c78766
+<---- snip ---->
+German: Ase
+English: Ape

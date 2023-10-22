@@ -1,0 +1,5 @@
+You are practicing obfuscation
+-------- snip --------
+
+
+Obfuscation is the practice of making something confusing or difficult to understand. It can be done intentionally to hide information, or unintentionally, as a result of poor communication. Obfuscation can be used to hide malicious code, or to make it difficult for an outsider to understand the inner workings of a system. It can also be used to make it harder for an attacker to determine the source of an attack.

@@ -1,0 +1,3 @@
+oxagast asked send me a test message, i need to know if your html update is working with hash b56febeb
+<---- snip ---->
+This is a test message to see if the HTML update is working.

@@ -1,0 +1,3 @@
+captain asked tell me about https://github.com/tianocore/edk2 with hash d293573f
+<---- snip ---->
+EDK II (EFI Development Kit II) is an open-source firmware development environment for the Unified Extensible Firmware Interface (UEFI) specification. EDK II is hosted on GitHub and is sponsored by the Tianocore project, an open-source community of firmware experts. EDK II provides a comprehensive set of tools, libraries, and examples that developers can use to create UEFI-compliant firmware for multiple platforms. EDK II is an actively maintained open-source project, with regular releases and updates. It is used by a variety of vendors, from small development teams to large enterprises. EDK II is the basis for many commercial UEFI firmware implementations.

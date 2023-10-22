@@ -1,0 +1,4 @@
+captain asked How do i zoom in and out of the linux tty
+<---- snip ---->
+ 
+To zoom in, press CTRL+SHIFT+NUMPAD “+”. To zoom out, press CTRL+SHIFT+NUMPAD “-”. https://gpt3.oxasploits.com/said/5606f553

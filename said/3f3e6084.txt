@@ -1,0 +1,3 @@
+bookworm asked Unicode is not for encoding it is a character set with hash 3f3e6084
+<---- snip ---->
+ that contains all the characters of all languages in the world. It is a standard for representing text and symbols in computers. Unicode is used to represent characters from all languages in a single encoding system. It allows computers to handle text in different languages without the need to switch between different encodings.

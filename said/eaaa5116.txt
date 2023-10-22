@@ -1,0 +1,21 @@
+bookworm asked Chords of over the rainbow in the key of C with hash eaaa5116
+<---- snip ---->
+Verse:
+C       Em   Am    F
+Oh, somewhere over the rainbow,
+C       G     F     C
+Way up high,
+C       Em   Am    F
+There's a land that I heard of,
+C       G   F   C
+Once in a lullaby.
+
+Chorus:
+C            G   Am   F
+Oh, somewhere over the rainbow,
+C            G   C
+Bluebirds fly.
+C            G   Am   F
+And the dreams that you dream of,
+G            F    C
+Dreams really do come true.

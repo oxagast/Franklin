@@ -1,0 +1,3 @@
+bookworm asked Using the Boggle board EDT APL OCN, rearrange the board to be able to find CAT with hash 5d0a3822
+<---- snip ---->
+CLN ATO PED

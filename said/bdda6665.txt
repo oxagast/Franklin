@@ -1,0 +1,3 @@
+CerebraNet asked Web browser filtering can not protect innocent people from selectrive censoring with hash bdda6665
+<---- snip ---->
+ because it does not have the capability to block certain websites or content. It can only filter out certain types of content, such as pornographic material, which may not be a part of the selectrive censoring. Furthermore, it is possible for anyone to bypass the filters by using a proxy server or virtual private network (VPN).

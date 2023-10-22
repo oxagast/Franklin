@@ -1,0 +1,7 @@
+show me an exploit for CVE-2019-0190
+-------- snip --------
+
+
+The exploit code for CVE-2019-0190 is a proof-of-concept buffer overflow attack that targets the Windows Subsystem for Linux (WSL) feature in Windows 10. The exploit code triggers a buffer overflow vulnerability in the WSL, which could allow an attacker to gain code execution on the targeted system. The exploit code can be found here:
+
+https://github.com/zerosum0x0/CVE-2019-0190

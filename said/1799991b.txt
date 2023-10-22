@@ -1,0 +1,10 @@
+make the previous payload a bit different
+-------- snip --------
+
+
+{
+ "name": "John",
+ "age": 20,
+ "location": "New York"
+ "interests": ["sports", "music"]
+}

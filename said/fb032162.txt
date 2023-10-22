@@ -1,0 +1,3 @@
+zyme asked you were just telling me the opposite about fiber earlier with hash fb032162
+<---- snip ---->
+That's true, I was. But I think it's important to remember that fiber is not a one-size-fits-all solution. There are pros and cons to using fiber, and it's important to consider the application before making a decision.

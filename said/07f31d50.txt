@@ -1,0 +1,8 @@
+bookworm asked List distinct letters from the English alphabet of alphabets for German, Polish, Portuguese, Latin, Spanish and French only listing letters that don\\'t match english letters with hash 07f31d50
+<---- snip ---->
+German: ä, ö, ü, ß
+Polish: ą, ć, ę, ł, ń, ó, ś, ź, ż
+Portuguese: á, â, ã, ç, é, ê, í, ó, ô, õ, ú
+Latin: none
+Spanish: á, é, í, ó, ú, ü, ñ
+French: é, è, ê, ë, î, ï, ô, œ, ù, û

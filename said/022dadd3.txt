@@ -1,0 +1,3 @@
+CerebraNet asked How does my notebook know my location if it does not have GPS with hash 022dadd3
+<---- snip ---->
+It likely relies on other methods such as triangulating your position using nearby wifi signals or cellular towers. Unless you've enabled GPS, it won't be able to get an exact location, but it can still guess.

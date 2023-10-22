@@ -1,0 +1,5 @@
+Ez2(ss2)Pfile%% SS2^ @@!
+-------- snip --------
+
+
+The SS2^@@! command is used to open a protected file on a computer system. It is a command line utility, which is used to decrypt and open protected files. The SS2^@@! command works by using a combination of symmetric and asymmetric encryption algorithms to secure the file. This command is used to protect data and files from unwanted access.

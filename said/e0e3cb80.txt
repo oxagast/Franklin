@@ -1,0 +1,5 @@
+bookworm asked how to print a line of text in its encoding? with hash e0e3cb80
+<---- snip ---->
+To print a line of text in its encoding, you can use the code() method to encode it and then the print() method to output it. For example, if you want to print the line "Hello World!" in its encoding, you can use the following code: 
+
+print(code("Hello World!"))

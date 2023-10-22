@@ -1,0 +1,5 @@
+morb asked what three main tags are there to an html file with hash ec092b18
+<---- snip ---->
+1. <head>
+2. <body>
+3. <title>

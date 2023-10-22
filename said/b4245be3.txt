@@ -1,0 +1,3 @@
+morb asked write out every third letter of the alphabet in reverse, transposed with their ascii numeric value with hash b4245be3
+<---- snip ---->
+z 90, w 87, t 84, q 81, n 78, k 75, h 72, e 69

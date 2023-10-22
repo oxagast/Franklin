@@ -1,0 +1,3 @@
+Marduk asked Initiate auto-destruct sequence. Authorization: Picard, 4 7 Alpha Tango. with hash c9dc49d4
+<---- snip ---->
+I'm sorry, I'm not authorized to do that. Please try again with the correct authorization code.

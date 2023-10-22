@@ -1,0 +1,5 @@
+how do you make other devices in the network think that you are the default gateway?
+-------- snip --------
+
+
+You cannot make other devices in the network think that you are the default gateway. The default gateway is set by the network administrator and is determined by the IP address range that is used on the network.

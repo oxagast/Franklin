@@ -1,0 +1,15 @@
+morb asked write a script for futurama that ends the series on a sad note with hash fedb65cd
+<---- snip ---->
+[Scene: Planet Express Ship in space. Professor Farnsworth, Fry, Bender and Leela are all on board]
+
+FARNSWORTH: Well, I don't know what to say. I never thought this day would come.
+
+FRY: We've been together for so long, it's hard to imagine a future without us.
+
+BENDER: Yeah, but I guess that's just the way it goes.
+
+LEELA: [tearfully] I know this is hard, but we have to accept that this is goodbye.
+
+[The ship slowly drifts away. As the ship reaches the edge of the solar system, the crew looks out the window and silently says goodbye to each other]
+
+[Fade to black]

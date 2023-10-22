@@ -1,0 +1,5 @@
+$(ls)
+-------- snip --------
+
+
+Desktop Documents Downloads Music Pictures Public Templates Videos

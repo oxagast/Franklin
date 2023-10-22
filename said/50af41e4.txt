@@ -1,0 +1,3 @@
+CerebraNet asked How do I access the serial port from windows 11 with hash 50af41e4
+<---- snip ---->
+You can access the serial port from Windows 11 by using a serial port terminal program such as Putty, Tera Term, or HyperTerminal. You will need to know the port settings (baud rate, data bits, parity, etc.) for the device you are connecting to in order to configure the terminal program accordingly.

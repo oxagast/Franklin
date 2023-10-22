@@ -1,0 +1,5 @@
+explain ctcp
+-------- snip --------
+
+
+CTCP stands for Client-To-Client Protocol. It is a type of communication protocol used by Internet Relay Chat (IRC) clients to send messages to one another. The messages are sent as a special command enclosed in ASCII character 1 (^A) and are used to query information from other clients, such as the time, the version of the client being used, and the ping time between clients. In some cases, they can also be used to provide commands, such as requesting a file transfer.

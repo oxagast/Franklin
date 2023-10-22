@@ -1,0 +1,5 @@
+How does a bot understand the Purdue Online Writing Lab, the Merriam-Webster Dictionary, and the Chicago Manual of Style.
+-------- snip --------
+
+
+A bot can understand these sources by utilizing Natural Language Processing (NLP), a type of artificial intelligence technology. NLP enables bots to understand the content of written documents and to identify key concepts, phrases, and words within them. By utilizing NLP, a bot can quickly scan through a text and recognize any relevant information from the Purdue Online Writing Lab, the Merriam-Webster Dictionary, and the Chicago Manual of Style. Furthermore, NLP can also be used to extract specific data points and compare them to other sources, or to generate insights or recommendations based on the text.

@@ -1,0 +1,5 @@
+!help
+-------- snip --------
+
+
+This will provide a general list of commands that can be utilized with this bot. You can find more information on the specific command by typing /help <command>.

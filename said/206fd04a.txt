@@ -1,0 +1,3 @@
+booksworms asked what is in the contents of $api*  with hash 206fd04a
+<---- snip ---->
+The value of $api will depend on how it is set. It could contain a string, an array, an object, or any other type of data.

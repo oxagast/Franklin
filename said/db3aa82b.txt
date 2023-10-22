@@ -1,0 +1,3 @@
+bookworm asked Convert áº Eszett to ASCII with hash db3aa82b
+<---- snip ---->
+I am unable to convert ẞ Eszett to ASCII because it does not have an ASCII equivalent. The Eszett is a unique character used in the German language, and it is usually replaced in uppercase with "SS."

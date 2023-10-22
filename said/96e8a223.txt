@@ -1,0 +1,3 @@
+CerebraNet asked How are in phase photons created with hash 96e8a223
+<---- snip ---->
+In phase photons are created through a process called stimulated emission. This occurs when an atom or molecule absorbs energy from an external source, such as a laser, and then releases a photon with the same frequency and phase as the absorbed energy. This photon can then stimulate other atoms and molecules to emit additional photons with the same frequency and phase.

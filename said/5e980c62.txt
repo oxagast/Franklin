@@ -1,0 +1,7 @@
+bookworm asked list sites with language alphabet statistics and their respective urls with hash 5e980c62
+<---- snip ---->
+1. Ethnologue: Languages of the World - https://www.ethnologue.com/
+2. Omniglot - https://www.omniglot.com/writing/alphabets.htm
+3. Language Alphabet Statistics - https://www.omniglot.com/language/alphabets.html
+4. World Atlas – Alphabetical Order of Languages - https://www.worldatlas.com/articles/alphabetical-order-of-languages.html
+5. World Atlas – Alphabetical List of Languages - https://www.worldatlas.com/articles/alphabetical-list-of-languages.html

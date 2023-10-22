@@ -1,0 +1,3 @@
+oxagast asked waht services do i provide according to https://oxasploits.com/services/ ? with hash 760966c7
+<---- snip ---->
+Hi there oxagast! According to https://oxasploits.com/services/, I provide the following services: Custom (offsite hosted) Linux server software setup, Snort, Suricata, iptables, and other firewall setup, Code Reviews (C, C++, Bash, Perl, Python, PHP), Penetration Tests, Vulnerability Research, Technical Whitepapers, Cybersecurity Mentoring, and Other Technical Services. Feel free to reach out to Marshall Whittaker via email at marshall@oxagast.org or by phone at 336-577-9584 to inquire about a free assessment. There is a minimum fee of $100 for any services.

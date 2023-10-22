@@ -1,0 +1,3 @@
+RDNt asked what is a uniden sds200 ? with hash e45f1824
+<---- snip ---->
+The Uniden SDS200 is a digital base/mobile scanner that is capable of monitoring both analog and digital communications in the VHF/UHF bands. It is especially useful for monitoring Amateur Radio repeaters and is equipped with features like GPS-based frequency selection, CTCSS/DCS scanning, and a programmable memory bank.

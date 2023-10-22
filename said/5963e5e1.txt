@@ -1,0 +1,5 @@
+Bit Manipulation
+-------- snip --------
+
+
+Bit manipulation is the process of manipulating bits or groups of bits in a string of binary code. It is used to perform operations on data such as setting, clearing, flipping, extracting, and rotating bits. It is a fundamental technique used in computer programming, computer engineering, and digital electronics. Bit manipulation is also used in cryptography and data compression.

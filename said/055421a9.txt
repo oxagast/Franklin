@@ -1,0 +1,5 @@
+how do i pipe audio from airspy sdr to another program
+-------- snip --------
+
+
+You can pipe audio from an Airspy SDR to another program by using a virtual audio cable. This is a software that allows you to route audio from one program to another. The most popular virtual audio cable is VB-Audio Virtual Cable. Once youve installed the virtual audio cable, you can set up the Airspy SDR to send audio to the virtual cable, and then route that audio to the other program.

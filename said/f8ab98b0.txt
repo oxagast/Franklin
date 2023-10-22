@@ -1,0 +1,3 @@
+bookworm asked how much does a message cost? with hash f8ab98b0
+<---- snip ---->
+The cost of a message depends on your cellular provider and your plan. Some providers may offer messaging plans with unlimited messaging for a flat rate, and some may charge a per-message fee.

@@ -1,0 +1,9 @@
+bookworm asked list the solfege scale with hash ea51af3f
+<---- snip ---->
+1. Do
+2. Re
+3. Mi
+4. Fa
+5. So
+6. La
+7. Ti

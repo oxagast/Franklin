@@ -1,0 +1,3 @@
+morb asked what protocols does tracert support with hash 3e4e73cc
+<---- snip ---->
+Tracert supports the ICMP, IGMP, and UDP protocols for the purpose of tracing routes.

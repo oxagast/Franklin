@@ -1,0 +1,3 @@
+bookworm asked summarize https://github.com/mame/radiation-hardened-quine with hash cf2fec85
+<---- snip ---->
+This repository contains radiation-hardened quines, which are programs that generate a copy of themselves as output. They are designed to be resilient to radiation-induced bit-flips, which could potentially cause errors. The repository contains quines in several programming languages, including C, C++, Rust, and JavaScript. It also includes a tool for generating radiation-hardened quines from arbitrary programs.

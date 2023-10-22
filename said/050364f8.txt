@@ -1,0 +1,3 @@
+CerebraNet asked Of what value is a worm program with hash 050364f8
+<---- snip ---->
+Worm programs can be used to spread malicious software, such as viruses and Trojans, across networks. They can also be used to gain unauthorized access to systems and to steal data. Additionally, they can be used to launch Distributed Denial of Service (DDoS) attacks, which can overwhelm a system or network with traffic and cause it to become unavailable.

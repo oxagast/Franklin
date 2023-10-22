@@ -1,0 +1,7 @@
+how do you test for an empty file in a bash script?
+-------- snip --------
+
+
+You can test for an empty file in a bash script by using the -s flag with the test command. For example, the command below will return true if the file is empty:
+
+test -s <file_name>

@@ -1,0 +1,3 @@
+xibalba asked how was the speed of light measured with hash 7b4189d4
+<---- snip ---->
+The speed of light was first measured by Ole Roemer in 1676, who used astronomical observations of the moons of Jupiter to measure the time it took for light to travel between the Earth and Jupiter. Roemer was able to determine that light travels at a speed of approximately 186,000 miles per second. This was later refined by other scientists using increasingly sophisticated methods, such as measuring the speed of light using the Doppler effect and using radar to measure the speed of light.

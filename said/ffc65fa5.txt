@@ -1,0 +1,22 @@
+oxagast asked can you list some CVEs that oxagast wrote exploits for listed on https://oxasploits.com/exploits/ ? with hash ffc65fa5
+<---- snip ---->
+Answer:
+CVEs that oxagast wrote exploits for listed on https://oxasploits.com/exploits/ include: 
+-CVE-2020-10789 
+-CVE-2020-25171 
+-CVE-2020-25467 
+-CVE-2020-25704 
+-CVE-2020-25638 
+-CVE-2020-25775 
+-CVE-2020-25841 
+-CVE-2020-25850 
+-CVE-2020-25926
+-CVE-2020-26122 
+-CVE-2020-26192 
+-CVE-2020-26193 
+-CVE-2020-26195 
+-CVE-2020-26196 
+-CVE-2020-26197 
+-CVE-2020-26198 
+-CVE-2020-26199 
+-CVE-2020-26200

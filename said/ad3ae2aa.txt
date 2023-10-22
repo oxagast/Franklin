@@ -1,0 +1,5 @@
+oxagast asked what can you tell me about https://oxasploits.com with hash ad3ae2aa
+<---- snip ---->
+ cracking passwords using John The Ripper. In this article we’ll discuss cracking wallet.dat passwords using John The Ripper. ...
+
+Hi oxagast, I can tell you about oxasploits.com. Oxasploits is a website devoted to zero day and exploit research. They provide services for a variety of platforms, categories, and projects. They have a blog which features articles on writing exploits, code poetry, and cracking passwords. They also have a GitHub page where you can find the source code for their projects. They also have an uptime page to show how reliable their services are. Lastly, they have a privacy page detailing the measures they take to keep user data safe.

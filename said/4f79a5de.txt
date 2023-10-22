@@ -1,0 +1,17 @@
+bookworm asked Alef is a four letter word, Bet is a three letter word, list only Hebrew three lettered words in Hebrew script and include their definitions in English? with hash 4f79a5de
+<---- snip ---->
+Sure, here are some Hebrew three-lettered words in Hebrew script, with their definitions in English: 
+
+Alef: Alef is the first letter of the Hebrew alphabet and is pronounced ah-lef.
+
+Bet: Bet is the second letter of the Hebrew alphabet and is pronounced beh-t.
+
+Gimel: Gimel is the third letter of the Hebrew alphabet and is pronounced ghee-mel.
+
+Dalet: Dalet is the fourth letter of the Hebrew alphabet and is pronounced dah-let.
+
+He: He is the fifth letter of the Hebrew alphabet and is pronounced heh.
+
+Vav: Vav is the sixth letter of the Hebrew alphabet and is pronounced vahv.
+
+Zayin: Zayin is the seventh letter of the Hebrew alphabet and is pronounced zah-yin.

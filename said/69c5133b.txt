@@ -1,0 +1,5 @@
+oxagast asked send a test message so i know if the end tag code is working with hash 69c5133b
+<---- snip ---->
+.
+
+Test message sent! All systems appear to be working properly.

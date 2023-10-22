@@ -1,0 +1,3 @@
+CerebraNet asked What does the 0 0 0 in DCC send mean with hash 33a8f3e7
+<---- snip ---->
+In the context of Digital Command Control (DCC) in model railroading, 0 0 0 is a special command that instructs the decoder to reset itself to its default settings. This allows the user to begin configuring the decoder from a known, consistent starting point.

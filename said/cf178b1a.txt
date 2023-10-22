@@ -1,0 +1,16 @@
+list current CVE for Apache 2.4
+-------- snip --------
+
+
+The following CVEs were released for Apache 2.4 in 2020:
+
+1. CVE-2020-1927
+2. CVE-2020-1191
+3. CVE-2020-1192
+4. CVE-2020-9490
+5. CVE-2020-9491
+6. CVE-2020-11890
+7. CVE-2020-11899
+8. CVE-2020-11906
+9. CVE-2020-1934
+10. CVE-2020-11877

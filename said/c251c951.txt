@@ -1,0 +1,8 @@
+bookworm asked List all letters including diacritical letters used in German, Polish, Portuguese, Latin, Spanish and French with hash c251c951
+<---- snip ---->
+German: ä, ö, ü, ß
+Polish: ą, ć, ę, ł, ń, ó, ś, ź, ż
+Portuguese: á, à, â, ã, é, ê, í, ó, ô, õ, ú, ç
+Latin: ā, ē, ī, ō, ū, ȳ, æ, œ
+Spanish: á, é, í, ó, ú, ü, ñ
+French: à, â, ç, é, è, ê, ë, î, ï, ô, œ, ù, û

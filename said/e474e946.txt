@@ -1,0 +1,5 @@
+How long does it take data to migrate from the california franchise tax board to mctrpayment.com
+-------- snip --------
+?
+
+The exact amount of time for data to migrate from the California Franchise Tax Board to mctrpayment.com will depend on the specific type and amount of data being transferred. However, typically it can take anywhere from a few hours to a few days for the data to be successfully migrated.

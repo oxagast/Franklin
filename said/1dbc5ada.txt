@@ -1,0 +1,3 @@
+zyme asked That would be the one, its supposed to be a unique ID number given to each person in the DOD, and its used in place of a SSN for associating their smart-card/government ID card with their Active Directory account. with hash 1dbc5ada
+<---- snip ---->
+That is correct. The Electronic Data Interchange Personal Identifier (EDIPI) is a unique identifier issued to U.S. Department of Defense personnel and used in place of a Social Security Number for the purpose of associating a person with their Active Directory account.

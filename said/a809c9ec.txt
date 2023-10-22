@@ -1,0 +1,5 @@
+what are twitter files?
+-------- snip --------
+
+
+Twitter files are data files that contain records of all the activity on a Twitter account, including tweets, retweets, mentions, followers, favorites, and more. These files can be used to analyze the engagement on a particular Twitter account or to look for patterns in Twitter usage.

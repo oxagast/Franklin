@@ -1,0 +1,3 @@
+oxagast asked tell me about SDF shell accounts with hash f7f419d7
+<---- snip ---->
+SDF (Super Dimension Fortress) shell accounts are a type of virtual user account that can be used to access the SDF Public Access UNIX System, an online community and UNIX-based operating system. SDF accounts provide users with a variety of features, such as access to mailing lists, newsgroups, and other online resources. They also allow for remote file transfer and web hosting. Accounts offer users access to the SDF CLI (command line interface), which provides a powerful and versatile environment for programming and system administration. Additionally, SDF accounts offer users a variety of additional services, such as webmail, FTP, IRC, and other online tools.

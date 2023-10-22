@@ -1,0 +1,3 @@
+oxagast asked what projects am i working on at https://oxasploits.com/projects/ ? with hash 46cc3aba
+<---- snip ---->
+Franklin's response: Hi oxagast! You are currently working on two projects: oxasploits.com and SPaste. Oxasploits.com is the site you are currently on, where you can find all of your previous whitepapers and writeups on the Archives page. SPaste is a secure terminal based paste utility that is SSL encrypted from start to finish. You can paste to it using your terminal.

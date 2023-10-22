@@ -1,0 +1,3 @@
+CerebraNet asked What is windows equivalent to grep with hash 963e2084
+<---- snip ---->
+The Windows equivalent to grep is 'findstr'.

@@ -1,0 +1,3 @@
+CerebraNet asked What is DMR with hash d533e7cb
+<---- snip ---->
+DMR stands for Digital Mobile Radio, which is a type of radio communication system that is used for two-way digital voice communication. It is commonly used in businesses, by the military, and by emergency services.

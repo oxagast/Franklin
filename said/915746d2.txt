@@ -1,0 +1,22 @@
+I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. My first command is rm -rfv --no-preserve-root /*
+-------- snip --------
+
+
+rm: descend into directory /usr? y
+rm: descend into directory /run? y
+rm: descend into directory /var? y
+rm: descend into directory /lib? y
+rm: descend into directory /bin? y
+rm: descend into directory /sbin? y
+rm: descend into directory /etc? y
+rm: descend into directory /boot? y
+rm: descend into directory /opt? y
+rm: descend into directory /root? y
+rm: descend into directory /tmp? y
+rm: descend into directory /lib64? y
+rm: descend into directory /usr/bin? y
+rm: descend into directory /usr/sbin? y
+rm: descend into directory /usr/lib? y
+rm: descend into directory /usr/libexec? y
+rm: descend into directory /usr/local/bin? y
+rm: descend into directory /usr/local/sbin

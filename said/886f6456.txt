@@ -1,0 +1,22 @@
+CerebraNet asked You need better logic.
+<---- snip ---->
+<code>public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner numInput = new Scanner(System.in);
+        System.out.println("Please enter a number: ");
+
+        int number = numInput.nextInt();
+
+        if (number &gt; 0) {
+            System.out.println("Positive");
+        } else if (number &lt; 0) {
+            System.out.println("Negative");
+        } else {
+            System.out.println("Zero");
+        }
+    }
+}
+</code>
+ https://franklin.oxasploits.com/said/886f6456

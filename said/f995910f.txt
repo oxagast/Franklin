@@ -1,0 +1,3 @@
+xibalba asked what is cisco hyperflex with hash f995910f
+<---- snip ---->
+Cisco HyperFlex is an integrated software defined infrastructure platform from Cisco that combines compute, storage, and networking into a single unified system for data centers. It simplifies deployment and operations while providing advanced scalability, high performance, and resiliency.

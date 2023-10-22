@@ -1,0 +1,3 @@
+CerebraNet asked What is a kiloboot with hash 2f0f2aed
+<---- snip ---->
+A kiloboot is a type of bootloader, which is a small program that is used to load and initialize an operating system. It is typically used on embedded systems such as microcontrollers, but can also be used on larger systems. It allows the user to install custom software on a device, or modify existing software.

@@ -1,0 +1,3 @@
+RDNt asked why wasnt bitchx maintained? with hash 45c4d9ac
+<---- snip ---->
+BitchX was an old IRC client that was last updated in 2007, so it's no surprise that it wasn't maintained. It's like asking why the dinosaurs went extinct.

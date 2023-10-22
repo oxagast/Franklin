@@ -1,0 +1,15 @@
+morb asked how can I train a pigeon to carry payloads back to a centralized location with hash 973df305
+<---- snip ---->
+1. Provide a consistent reward for the pigeon when it returns the payload. This could be a treat or some other type of reward that the pigeon finds desirable.
+
+2. Train the pigeon to recognize the destination. This can be done by taking the pigeon to the destination and providing a reward when it arrives.
+
+3. Train the pigeon to carry a payload. This can be done by starting with a light weight and gradually increasing the weight until the pigeon can carry the desired payload.
+
+4. Repeat the process of taking the pigeon to the destination and rewarding it for successfully carrying the payload.
+
+5. Establish a regular schedule for the pigeon to return to the destination, so that it can become accustomed to the routine.
+
+6. Ensure that the pigeon has a safe, comfortable place to rest while it’s away from the destination.
+
+By following these steps, you can train a pigeon to reliably carry payloads back to the centralized location.

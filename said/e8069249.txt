@@ -1,0 +1,5 @@
+StackProphet asked how to print hello world in python? with hash e8069249
+<---- snip ---->
+You can print "Hello World" in Python by using the following code:
+
+print("Hello World")

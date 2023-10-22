@@ -1,0 +1,3 @@
+CerebraNet asked What is windows communication foundation with hash 1cee6518
+<---- snip ---->
+Windows Communication Foundation (WCF) is a software programming model and a set of runtime protocols developed by Microsoft for building distributed applications. WCF enables developers to create secure, reliable, transacted, and interoperable applications that communicate across a variety of endpoints such as web services, message queues, and named pipes. WCF services can be hosted in IIS, Windows Activation Service, or any custom host process.

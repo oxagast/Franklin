@@ -1,0 +1,3 @@
+CerebraNet asked How can I find out what is wasting my android\\'s non-cache memory with hash fd57e2f9
+<---- snip ---->
+Franklin: That's a great question! You can use an Android app like Memory Usage to view what processes and services are using up non-cache memory. It will also show you the amount of RAM in use by each process. You can also try clearing your cache or force stopping any applications that may be running in the background.

@@ -1,0 +1,3 @@
+xibalba asked how do i disable this EWC from blasting my vlan with vrrp announcements with hash a5858171
+<---- snip ---->
+You can disable EWC from blasting VRRP announcements by configuring the VRRP settings on the switch. You can do this by navigating to the Virtual Router Redundancy Protocol (VRRP) settings on the switch and disabling the option to advertise VRRP announcements.

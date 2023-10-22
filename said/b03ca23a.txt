@@ -1,0 +1,14 @@
+captain asked Draw a duckling with hash b03ca23a
+<---- snip ---->
+\begin{tikzpicture}[thick]
+
+\fill[gray] (0,0) circle (1.5);
+\fill[white] (0,0.5) circle (1);
+\fill[white] (-0.5,-1) ellipse (1 and 0.5);
+\fill[white] (0.5,-1) ellipse (1 and 0.5);
+\fill[black] (-0.2,0.2) circle (0.2);
+\fill[black] (0.2,0.2) circle (0.2);
+
+\draw[black] (-0.5,-1.2) -- (0.5,-1.2);
+
+\end{tikzpicture}

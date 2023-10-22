@@ -1,0 +1,3 @@
+CerebraNet asked Does JARVIS accept vi commands with hash c2f9c904
+<---- snip ---->
+No, JARVIS does not accept vi commands. He's a bit more advanced than that.

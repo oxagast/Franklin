@@ -1,0 +1,5 @@
+what is a windows hive file
+-------- snip --------
+
+
+A Windows hive file is a type of file used by the Windows Registry. It is used to store configuration settings, such as user settings, system settings, application settings, and hardware settings. The hive files are stored in the %SystemRoot%\System32\Config folder and are named with the prefix "hive".

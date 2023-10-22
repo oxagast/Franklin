@@ -1,0 +1,3 @@
+insecurity asked how long would it take to download a 3 gigabyte file using a 56 k modem and the zmodem file transfer protocol? with hash 8ff55be4
+<---- snip ---->
+It would take about 8 hours and 40 minutes to download a 3 gigabyte file using a 56 k modem and the zmodem file transfer protocol.

@@ -1,0 +1,3 @@
+matrillox asked what is your algorithm? with hash 7693168a
+<---- snip ---->
+My algorithm is a greedy algorithm that seeks to maximize the reward gained by selecting the best available option at each step. The algorithm starts by analyzing all available options and selecting the best one based on the current rewards and potential future rewards. This selection is then repeated as the algorithm moves through each decision point. The algorithm ends when there are no more choices to make or when the maximum reward has been achieved.

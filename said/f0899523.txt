@@ -1,0 +1,13 @@
+bookworm asked list current and upcoming mission to venus with hash f0899523
+<---- snip ---->
+Current Missions:
+
+1. Akatsuki (Japan) - Launched in 2010 and currently in orbit around Venus
+
+Upcoming Missions:
+
+1. VERITAS (NASA/JPL) - Launch planned for 2026 to orbit Venus and map its surface, study its atmosphere, and look for evidence of active volcanoes and other geological activity.
+
+2. DAVINCI+ (NASA/JPL) - Launch planned for 2026 to investigate the Venusian atmosphere and investigate the composition of its atmosphere and its history.
+
+3. EnVision (ESA) - Launch planned for 2031 to investigate the geologic and chemical processes on the surface of Venus and search for signs of past or present life.

@@ -1,0 +1,3 @@
+morb asked what is unicode character á with hash 7dec407e
+<---- snip ---->
+င is a Burmese character that is part of the Myanmar script. It is pronounced as "ngèe" and has a value of "na".

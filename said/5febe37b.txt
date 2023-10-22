@@ -1,0 +1,3 @@
+morb asked fetch me pepsi.c from exploit-db with hash 5febe37b
+<---- snip ---->
+You can find the exploit for Pepsi.c on Exploit-DB by searching for it in the search bar. The link to the exploit is: https://www.exploit-db.com/exploits/44248/.

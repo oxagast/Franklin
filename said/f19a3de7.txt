@@ -1,0 +1,5 @@
+are there any digital television broadcasts with css
+-------- snip --------
+
+
+Yes, some digital television broadcasts do use CSS (Compact Set-Top Box Security) for encryption and access control. This is used to protect the content of the broadcast from unauthorized viewing or tampering.

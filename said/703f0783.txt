@@ -1,0 +1,3 @@
+CerebraNet asked How many write cycles does a server grade SSD have with hash 703f0783
+<---- snip ---->
+Well, the write cycles of a server grade SSD depend on the specific model, but typically they range from between one and three million. Some SSDs have higher write cycles, but these are usually more expensive.

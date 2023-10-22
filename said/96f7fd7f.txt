@@ -1,0 +1,3 @@
+bookworm asked What is blockchain doing to the environment? with hash 96f7fd7f
+<---- snip ---->
+Blockchain technology is helping to reduce the environmental impact of traditional business operations. It eliminates the need to use paper-based documentation, which reduces the amount of energy and resources required to store and transport data. It also helps reduce energy consumption by reducing the need for third-party verification. In addition, blockchain technology can also help reduce carbon emissions by reducing the amount of energy needed to power data centers.

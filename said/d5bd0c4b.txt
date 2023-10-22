@@ -1,0 +1,3 @@
+bookworm asked what is the best GPU on the market and what is the list price? with hash d5bd0c4b
+<---- snip ---->
+The best GPU on the market is the Nvidia RTX 3090, which has a list price of $1,499.99.

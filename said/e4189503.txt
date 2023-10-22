@@ -1,0 +1,6 @@
+morb asked write a bash script that calls sox and plays 2600Hz and 2400Hz dual tone multi frequency for 150ms with hash e4189503
+<---- snip ---->
+#!/bin/bash
+
+sox -n -r 44100 -b 16 -c 1 tone.wav synth 0.15 sine 2600 sine 2400
+play tone.wav

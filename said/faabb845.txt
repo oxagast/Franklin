@@ -1,0 +1,3 @@
+oxagast asked what is the last digit of pi? its ok to say you dont know. with hash faabb845
+<---- snip ---->
+My answer is: The last digit of pi is 9.

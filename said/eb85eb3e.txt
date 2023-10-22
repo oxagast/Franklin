@@ -1,0 +1,5 @@
+explain how netcat works with other programs
+-------- snip --------
+
+
+Netcat is a network tool that can be used to create connections between two computers on the same network. It can be used with other programs to transfer data across networks, create encrypted tunnels, and facilitate remote access. For example, it can be used to transfer files between computers, open remote shells, and debug network services. It can also be used to facilitate chat sessions and automate system administration tasks.

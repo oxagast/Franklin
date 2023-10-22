@@ -1,0 +1,3 @@
+bookworm asked how to get the version number of the language model the chatGPT is using with hash f58f69c7
+<---- snip ---->
+The version number of the language model used by ChatGPT is not available publicly.

@@ -1,0 +1,5 @@
+The bandwidth of a NOAA weather frequency is 16 KHz
+-------- snip --------
+
+
+The bandwidth of a NOAA weather frequency is 16 kHz (kilohertz). This is the bandwidth range within which all NOAA weather frequencies must operate.

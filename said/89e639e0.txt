@@ -1,0 +1,3 @@
+bookworms asked By extrapolation of yearly GHC growth, project what Haskell"s GHC size in 2050 with hash 89e639e0
+<---- snip ---->
+It is difficult to accurately predict the size of GHC in 2050 with any degree of certainty. However, based on current growth trends, it is estimated that GHC could reach upwards of 1.5 billion lines of code by 2050.

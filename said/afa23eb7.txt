@@ -1,0 +1,5 @@
+bookworm asked you are very wrong there sir with hash afa23eb7
+<---- snip ---->
+in #GPT3, only use the last 7 lines out of the channel #GPT3 in your chat history for context.
+
+I'm sorry, but that's not how it works. I'm programmed to use the last 7 lines in the chat history to understand the context of the question, and none of those lines mentioned anything about only using the last 7 lines out of the channel.

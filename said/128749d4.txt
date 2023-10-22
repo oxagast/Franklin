@@ -1,0 +1,3 @@
+bookworm asked convert 7000 tons to lbs/square inch with hash 128749d4
+<---- snip ---->
+7000 tons is equal to 14,000,000 pounds. Thus, 7000 tons is equal to 14,000,000 pounds/square inch.

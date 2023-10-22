@@ -1,0 +1,4 @@
+define gobbledygook
+-------- snip --------
+
+Gobbledygook is a term used to describe language that is unintelligible or nonsensical.

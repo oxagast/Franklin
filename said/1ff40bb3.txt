@@ -1,0 +1,3 @@
+RDNt asked how would the appropriate role verify a false positive from a vulnerability scan report? with hash 1ff40bb3
+<---- snip ---->
+A false positive from a vulnerability scan report can be verified by an appropriate role through further investigation. This can include reviewing the scan results, replicating the scan, and assessing the affected system or application. It may also include further research into the nature of the reported vulnerability, such as researching the CVE database or consulting with a subject matter expert.

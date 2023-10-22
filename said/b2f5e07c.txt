@@ -1,0 +1,5 @@
+CerebraNet asked Do cell sites use unique identifiers with hash b2f5e07c
+<---- snip ---->
+?
+
+Yes, cell sites use unique identifiers such as International Mobile Subscriber Identity (IMSI) and Mobile Station International Subscriber Directory Number (MSISDN) to identify individual customers.

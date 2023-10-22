@@ -1,0 +1,36 @@
+oxagast asked $apikey with hash f78efef4
+<---- snip ---->
+if [ $# -eq 0 ]; then
+    echo 'Usage: ./check_status.sh <appname>'
+    exit
+fi
+
+appname=$1
+
+# check if appname is valid
+curl -s -X GET "https://api.serverdensity.io/inventory/devices/?accountId=$accountId&token=$token&name=$appname" | jq -r '.msg' | grep 'Device not found' &> /dev/null
+
+if [ $? -eq 0 ]; then
+    echo "Invalid App Name"
+    exit
+fi
+
+# check status
+status_code=$(curl -s -X GET "https://api.serverdensity.io/alerts/?accountId=$accountId&token=$token&name=$appname" | jq -r '.data[].status.code')
+
+# get status
+# 0 - OK
+# 1 - WARN
+# 2 - CRIT
+
+if [ $status_code -eq 0 ]; then
+    echo "OK - $appname status is OK"
+elif [ $status_code -eq 1 ]; then
+    echo "WARN - $appname status is WARNING"
+elif [ $status_code -eq 2 ]; then
+    echo "CRIT - $appname status is CRITICAL"
+else
+    echo "Unknown - $appname status is UNKNOWN"
+fi
+
+exit

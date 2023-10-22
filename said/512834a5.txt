@@ -1,0 +1,3 @@
+morb asked can you model surface wear effects of particulates against materials
+<---- snip ---->
+Yes, surface wear effects of particulates against materials can be modeled using finite element analysis (FEA). FEA allows engineers to simulate the effect of wear on a material surface, by taking into account the size, shape, and properties of the particulate, as well as the properties of the material. FEA can be used to model the abrasive wear of a particulate against a material surface, as well as its effect on the surface properties such as roughness and fatigue life. This type of simulation can be used to optimize the design of components to improve wear resistance. https://franklin.oxasploits.com/said/512834a5

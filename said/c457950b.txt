@@ -1,0 +1,3 @@
+JediMaster666 asked do you have any response filters? with hash c457950b
+<---- snip ---->
+Yes, I have response filters in place. I can filter out requests that are too specific, too difficult, or that don't make sense. That way, I can give a more useful response to the user.

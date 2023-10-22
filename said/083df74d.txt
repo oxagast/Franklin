@@ -1,0 +1,5 @@
+why isnt torsocks working for me in linux?
+-------- snip --------
+
+
+There are many possible reasons why Torsocks isnt working for you in Linux. It could be that you dont have the required dependencies installed, that you dont have the right configuration in your system, or that you are using an outdated version of Torsocks. It could also be that the application you are trying to use with Torsocks does not support it. If none of these are the case, then you may need to contact the Torsocks support team for further assistance.

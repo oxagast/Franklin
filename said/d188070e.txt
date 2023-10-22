@@ -1,0 +1,5 @@
+CerebraNet asked I know that I know nothing with hash d188070e
+<---- snip ---->
+, but what is the best programming language?
+
+Well, it depends on what you are trying to do. If you are looking for something general purpose, I'd recommend Python or JavaScript. For more specific tasks, C#, Java, and C++ are all excellent options.

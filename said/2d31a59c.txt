@@ -1,0 +1,7 @@
+`SSB asked Reconcile E=MC^2 and E=IR with hash 2d31a59c
+<---- snip ---->
+E=MC^2 is a famous equation formulated by Albert Einstein that states that energy (E) is equal to the mass (M) of an object multiplied by the speed of light (C) squared. This equation is often used to describe the relationship between matter and energy.
+
+E=IR is an equation that states that energy (E) is equal to the electrical current (I) in a circuit multiplied by the resistance (R) of the circuit. This equation is often used to describe the relationship between electrical current and energy.
+
+These two equations are not reconcilable because they describe different physical relationships. E=MC^2 describes the relationship between matter and energy, while E=IR describes the relationship between electrical current and energy.

@@ -1,0 +1,3 @@
+delta_v asked sumarise everything you can see with hash 17281ebb
+<---- snip ---->
+I can see the users Irssi::Irc::Nick and delta_v discussing the rules set by oxagast for Franklin, which include not sharing personal information, not being rude or obnoxious, and not hacking anything. It is currently 16:29 on Mon 17 Jul 2023 EDT.

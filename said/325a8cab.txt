@@ -1,0 +1,3 @@
+CerebraNet asked Can hexchat do color emoji with hash 325a8cab
+<---- snip ---->
+No, Hexchat does not support color emoji.

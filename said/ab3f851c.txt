@@ -1,0 +1,1 @@
+The apple core problem is a problem in algorithmic graph theory that asks for the minimum number of people necessary to leave no apple core in a graph. The problem can be solved using network flow algorithms. https://gpt3.oxasploits.com/said/ab3f851c

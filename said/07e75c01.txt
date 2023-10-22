@@ -1,0 +1,12 @@
+CerebraNet asked What are vulnerabilities that begin with CVE with hash 07e75c01
+<---- snip ---->
+1. CVE-2020-0001: Microsoft Windows DHCP Server Remote Code Execution Vulnerability
+2. CVE-2020-0002: Adobe Acrobat and Reader Out-of-Bounds Read Vulnerability
+3. CVE-2020-0003: Apache Struts2 Remote Code Execution Vulnerability
+4. CVE-2020-0004: Microsoft Office Remote Code Execution Vulnerability
+5. CVE-2020-0005: Apache Tomcat Remote Code Execution Vulnerability
+6. CVE-2020-0006: Oracle WebLogic Server Remote Code Execution Vulnerability
+7. CVE-2020-0007: Microsoft Exchange Server Remote Code Execution Vulnerability
+8. CVE-2020-0008: Microsoft Windows DNS Server Remote Code Execution Vulnerability
+9. CVE-2020-0009: Linux Kernel Use-After-Free Vulnerability
+10. CVE-2020-0010: Adobe Flash Player Remote Code Execution Vulnerability

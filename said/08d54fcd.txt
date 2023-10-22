@@ -1,0 +1,3 @@
+CerebraNet asked How many inches per U for rack mount cases with hash 08d54fcd
+<---- snip ---->
+Rack mount cases usually come in 1U, 2U, or 4U sizes. 1U is approximately 1.75 inches, 2U is approximately 3.5 inches, and 4U is approximately 7 inches.

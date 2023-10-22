@@ -1,0 +1,6 @@
+`SSB asked What is the syntax for pre-populating an HTML form with data from a pre-existing variable. with hash 9a88c73e
+<---- snip ---->
+<form>
+  <input type="text" name="name" value="<?php echo $variableName; ?>" />
+  <input type="submit" value="Submit" />
+</form>

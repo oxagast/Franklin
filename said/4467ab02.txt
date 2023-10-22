@@ -1,0 +1,3 @@
+bookworm asked What is crypto doing to the environment? with hash 4467ab02
+<---- snip ---->
+Cryptocurrency mining has been linked to environmental damage due to the large amounts of energy it consumes. Bitcoin mining alone is estimated to use between 0.1 and 0.5 percent of the world’s total energy consumption, and some estimates suggest that it could rise to 1 percent by the end of 2021. The energy consumption for mining is linked to the proof-of-work process, which requires energy-intensive calculations to be performed repeatedly by miners in order to validate transactions and add them to the blockchain. As energy consumption for cryptocurrency mining increases, so does the amount of carbon dioxide emissions associated with it.

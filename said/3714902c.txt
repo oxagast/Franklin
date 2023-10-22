@@ -1,0 +1,3 @@
+captain asked What is the breast density key with hash 3714902c
+<---- snip ---->
+The Breast Density Key is a 5-point scale used to classify the density of a woman's breast tissue on a mammogram. It is used to help assess the risk of breast cancer. The key ranges from A (almost entirely fatty) to D (extremely dense).

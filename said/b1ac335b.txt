@@ -1,0 +1,5 @@
+how do you crack windows password files
+-------- snip --------
+
+
+Unfortunately, it is not possible to crack Windows password files without access to the system. If you do not have access to the system, then the only way to crack the password is to use a third-party password recovery tool. These tools are designed to help users recover forgotten passwords from Windows accounts.

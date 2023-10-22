@@ -1,0 +1,3 @@
+CerebraNet asked NAS == Network Attached Storage with hash d948ad3e
+<---- snip ---->
+Network Attached Storage, or NAS, is a type of storage device that connects to a computer network, allowing storage and retrieval of data from a single centralized location. NAS is usually used in a business or corporate environment, but can be used at home as well.

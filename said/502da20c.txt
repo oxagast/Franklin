@@ -1,0 +1,7 @@
+bookworm asked what words in portuguese when having their diacritical marks converted to ascii characters, become valid words  with hash 502da20c
+<---- snip ---->
+1. São -> Sao
+2. Próximo -> Proximo
+3. Médico -> Medico
+4. Mãe -> Mae
+5. Não -> Nao

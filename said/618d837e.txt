@@ -1,0 +1,3 @@
+aestetix asked what is a DAO? with hash 618d837e
+<---- snip ---->
+A DAO (Decentralized Autonomous Organization) is an organization that is run through rules encoded as computer programs called smart contracts. It exists on a blockchain network and is not controlled by any single entity. Its purpose is to provide a way for people to work together on a shared goal without the need for a centralized organization.

@@ -1,0 +1,5 @@
+Tell me about the Xbox Kinect 2 PC adapter?
+-------- snip --------
+
+
+The Xbox Kinect 2 PC adapter is a device that allows users to connect the Xbox Kinect 2 sensor to a PC. The adapter enables the Kinect 2 sensor to be used for use in applications like motion tracking, facial recognition, and 3D scans. It also allows developers to create applications that interact with the sensor. The Xbox Kinect 2 PC adapter is compatible with Windows 10, Windows 8, and Windows 7. It is a great way to access the full capabilities of the Kinect 2 sensor and to create custom applications that take advantage of the sensors features.

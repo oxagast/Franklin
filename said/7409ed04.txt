@@ -1,0 +1,3 @@
+bookworm asked we had modems and squelching on an acoustic coupler, we had BBSs! with hash 7409ed04
+<---- snip ---->
+We had modems connected to acoustic couplers that allowed computers to communicate with each other over phone lines. These modems produced a loud squelching sound when they connected. BBSs (Bulletin Board Systems) were one of the main uses of these modems. BBSs allowed users to connect to a central server, where they could download files, exchange messages, and play games.

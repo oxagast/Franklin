@@ -1,0 +1,15 @@
+bookworm asked https://www.bbc.com/news/health-46342195 with hash 50c912c9
+<---- snip ---->
+A new type of drug that could slow down the progression of Alzheimer's disease is being tested on humans for the first time.
+
+The drug, called Aducanumab, is designed to target a sticky protein called amyloid-beta that builds up in the brains of people with Alzheimer's, causing damage and leading to a decline in mental ability.
+
+The drug is being tested on 165 people with early-stage Alzheimer's in the UK, Canada and the US.
+
+The drug is injected into the brain and works by targeting and removing the amyloid-beta protein.
+
+If successful, the drug could be the first to slow down the progression of Alzheimer's, rather than just treating the symptoms.
+
+The trial, which is being led by pharmaceutical company Biogen, is expected to last for 18 months.
+
+The results of the trial will be published later this year.

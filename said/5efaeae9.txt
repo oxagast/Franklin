@@ -1,0 +1,3 @@
+oxagast asked send me a test message with hash 5efaeae9
+<---- snip ---->
+Hello there, this is a test message.

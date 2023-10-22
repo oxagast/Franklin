@@ -1,0 +1,3 @@
+captain asked is korn shell all androids default shell with hash ab85e613
+<---- snip ---->
+No, Korn Shell is not the default shell for all Android devices. Android devices typically use a variant of the Linux kernel, and the most popular shells for Linux are Bash, Zsh, and Fish.

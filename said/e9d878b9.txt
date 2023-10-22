@@ -1,0 +1,3 @@
+fuzion asked explain the order of volatility  with hash e9d878b9
+<---- snip ---->
+The order of volatility is a concept in computer science that describes the order in which computer data is most likely to be lost. It goes from the least volatile (most permanent) to the most volatile (most temporary). The least volatile forms of data are typically stored on hard drives, while the most volatile forms are stored in RAM. The order of volatility is important when it comes to backing up data or making sure that data is always available.

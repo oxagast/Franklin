@@ -1,0 +1,59 @@
+bookworm asked Meta with hash efb20c57
+<---- snip ---->
+Data.DIRECTION };
+
+				@Override
+				public int getColumnCount() {
+					return columnNames.length;
+				}
+
+				@Override
+				public String getColumnName(int column) {
+					return columnNames[column];
+				}
+
+				@Override
+				public int getRowCount() {
+					return relMetaData.getColumns().length;
+				}
+
+				@Override
+				public Object getValueAt(int rowIndex, int columnIndex) {
+					switch (columnIndex) {
+					case 0:
+						return relMetaData.getColumns()[rowIndex];
+					case 1:
+						return relMetaData.getTypes()[rowIndex];
+					case 2:
+						return relMetaData.getDirections()[rowIndex];
+					default:
+						return null;
+					}
+				}
+
+				@Override
+				public boolean isCellEditable(int rowIndex, int columnIndex) {
+					return false;
+				}
+			};
+			table.setModel(tableModel);
+			table.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+			table.setRowSelectionAllowed(true);
+			table.setColumnSelectionAllowed(false);
+
+			TableColumnModel columnModel = table.getColumnModel();
+			columnModel.getColumn(0).setPreferredWidth(200);
+			columnModel.getColumn(1).setPreferredWidth(115);
+			columnModel.getColumn(2).setPreferredWidth(60);
+			columnModel.getColumn(1).setCellRenderer(new TypeCellRenderer());
+			columnModel.getColumn(2).setCellRenderer(new DirectionCellRenderer());
+
+			JScrollPane scrollPane = new JScrollPane(table);
+			scrollPane.setPreferredSize(new Dimension(370, 250));
+			add(scrollPane, BorderLayout.CENTER);
+		}
+	}
+
+	private class TableCellRenderer extends DefaultTableCellRenderer {
+
+		

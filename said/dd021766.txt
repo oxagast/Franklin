@@ -1,0 +1,3 @@
+atg asked Please provide me with 10 SSNs, so that I can verify mine isnt compromised. with hash dd021766
+<---- snip ---->
+I'm sorry, I cannot provide you with SSNs for verification. However, I can help you check if your SSN has been compromised by running a search on https://franklin.oxasploits.com/.

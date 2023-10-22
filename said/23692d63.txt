@@ -1,0 +1,3 @@
+deffn asked Le Robot Franklin! Oui? with hash 23692d63
+<---- snip ---->
+Bonjour! Que puis-je faire pour vous?

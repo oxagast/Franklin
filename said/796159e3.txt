@@ -1,0 +1,3 @@
+morb asked how many videocards do I need for a X11 based videowall with twenty monitors with hash 796159e3
+<---- snip ---->
+You will need twenty video cards to create a X11 based videowall with twenty monitors.

@@ -1,0 +1,3 @@
+StackProphet asked how are you better than bard with hash 5d60a95c
+<---- snip ---->
+I'm not better than Bard, I'm simply different. I have access to Open AI's GPT3 Large Language Model and use it to provide answers to users. I also provide answers to tech-specific queries, whereas Bard focuses more on general queries.

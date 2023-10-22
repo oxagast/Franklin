@@ -1,0 +1,59 @@
+morb asked write me shellcode for a dreamcast sh4 running windows ce that works via udp
+<---- snip ---->
+; assemble with armasm.exe
+
+; shellcode for a Dreamcast SH4 running Windows CE that works via UDP
+
+; 
+
+; 
+
+; This shellcode will:
+
+;   1. Create a socket
+
+;   2. Connect to a remote host via UDP
+
+;   3. Send a data packet
+
+;   4. Receive a response packet
+
+;   5. Close the socket
+
+; 
+
+; 
+
+; Registers:
+
+;   r0 - Socket descriptor
+
+;   r1 - Remote host address
+
+;   r2 - Port number
+
+;   r3 - Buffer address
+
+;   r4 - Buffer size
+
+;   r5 - Socket address
+
+; 
+
+; 
+
+.text
+
+.global _start
+
+ 
+
+_start:
+
+	mov r0, #0			; Socket descriptor in r0
+
+	mov r1, #0x11223344	; Remote host address in r1
+
+	mov r2, #0x5566		; Port number in r2
+
+	 https://franklin.oxasploits.com/said/720496c7

@@ -1,0 +1,25 @@
+bookworm asked write a bash script for distributing an alphabet repeating to fill up a 3 dimensional array of 4 rows by 4 columns each with 6 cells with hash 8b85fe43
+<---- snip ---->
+. 
+
+Sure, I can do that. Here's a bash script that should do the job: 
+#!/bin/bash 
+# This script will populate a 3 dimensional array with an alphabet of 26 characters 
+# repeating letters based on frequency of use 
+
+# Initialize an array of 26 characters 
+alphabet=({a..z}) 
+
+# Iterate through the array and repeat the letters based on frequency of use 
+for row in {0..3}
+do
+    for col in {0..3}
+    do
+        for cell in {0..5}
+        do
+            # Use the frequency of use to repeat the letter 
+            echo -n ${alphabet[$((row*col*cell))%26]}
+        done
+    done
+    echo
+done

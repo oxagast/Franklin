@@ -1,0 +1,5 @@
+What is a litecoin worker?
+-------- snip --------
+
+
+A litecoin worker is an individual who is employed to mine litecoin, the cryptocurrency. Litecoin miners are responsible for validating transactions and adding them to the blockchain, a public ledger of all litecoin transactions. Workers typically use specialized hardware to perform complex calculations in order to verify transactions and generate new litecoins.

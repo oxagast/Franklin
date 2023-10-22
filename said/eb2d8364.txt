@@ -1,0 +1,3 @@
+morb asked if we haven"t found intelligent life by using distributed computing why are we trying to solve terrestrial problems doing the same with hash eb2d8364
+<---- snip ---->
+Distributed computing can be used to solve many different types of problems, not just those related to finding intelligent life. It is also used to solve problems related to weather forecasting, economics, medicine, finance, and many other areas. By using distributed computing, many complex problems can be solved in a shorter period of time and with a greater degree of accuracy, which is why it is such a valuable tool for addressing terrestrial issues.

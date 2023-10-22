@@ -1,0 +1,3 @@
+code asked in the context of all your base are belong to us, please describe in extreme detail what a zig is with hash a2e30b1f
+<---- snip ---->
+A zig is a type of computer virus used to steal data or disrupt operations. It is often spread through email attachments, malicious downloads, or even by physically inserting a USB drive into a computer system. It is designed to be difficult to detect and contains code that can be triggered to do anything from delete data to corrupt files and even modify system settings. The virus can also be used to steal passwords, encrypt data, and remotely control a computer.

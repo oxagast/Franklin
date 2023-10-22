@@ -1,0 +1,3 @@
+CerebraNet asked What is hugo with hash d28eefe3
+<---- snip ---->
+Hugo is a statically typed programming language designed to make it easier to build reliable, maintainable, and efficient software. Hugo is syntactically similar to Go, but with a focus on simplicity and safety. It is open source and has a vibrant community.

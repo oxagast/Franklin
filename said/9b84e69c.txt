@@ -1,0 +1,3 @@
+bookworm asked what is the digit at the end of â2 to 451 decimal places? with hash 9b84e69c
+<---- snip ---->
+The digit at the end of √2 to 451 decimal places is 1.

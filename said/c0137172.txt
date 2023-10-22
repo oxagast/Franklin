@@ -1,0 +1,3 @@
+CerebraNet asked How do I get ubuntu to install chntpw with hash c0137172
+<---- snip ---->
+You can install chntpw on Ubuntu by using the apt package manager. Open a terminal window and type "sudo apt install chntpw". This will install the package and all its dependencies. You may also need to update your repository list by typing "sudo apt update" before installation.

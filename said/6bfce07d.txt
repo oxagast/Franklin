@@ -1,0 +1,26 @@
+f4t4l_3rr0r asked Write a Cheat Engine Full Code Injection example code for God Mode. with hash 6bfce07d
+<---- snip ---->
+[Enable]
+
+//God Mode
+alloc(newmem,256)
+label(code)
+label(return)
+
+newmem:
+cmp [esi+00001234],0
+jne code
+
+code:
+mov [esi+00001234],1
+jmp return
+
+return:
+
+[Disable]
+
+dealloc(newmem)
+
+//God Mode
+cmp [esi+00001234],1
+jne code

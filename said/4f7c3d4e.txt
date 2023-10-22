@@ -1,0 +1,3 @@
+cibermapu asked what is irc, what irc is and how irc works? with hash 4f7c3d4e
+<---- snip ---->
+IRC stands for Internet Relay Chat. It is a type of chatroom where users can communicate with each other in real time. IRC is a popular platform for discussion, collaboration, and communication. It allows users to join channels, or chat rooms, and communicate with other users in the same room. IRC also allows for the sharing of files, images, and messages. IRC works by connecting users to a server, which then forwards messages to other users in the same room.

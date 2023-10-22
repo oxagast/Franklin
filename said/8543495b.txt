@@ -1,0 +1,6 @@
+$(ls)
+-------- snip --------
+
+	$grep
+
+The output of the command is a list of files in the current directory that contain the search string.

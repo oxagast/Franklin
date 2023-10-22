@@ -1,0 +1,3 @@
+bookworm asked why would openAI give Error: 429 Too Many Requests when in fact you are no where near the limit for a PAID account? with hash b0e4dd8d
+<---- snip ---->
+My answer is: It looks like OpenAI is having trouble keeping up with the demand. Sometimes the API can get overloaded, even with a paid account.

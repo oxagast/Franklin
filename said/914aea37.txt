@@ -1,0 +1,5 @@
+bookworm asked 9 with hash 914aea37
+<---- snip ---->
+what is the best programming language?
+
+The best programming language really depends on what you're trying to accomplish. Some of the most popular ones are Python, JavaScript, Java, C++, and Ruby. Each one has its own strengths and weaknesses, so it's important to weigh your options before deciding on one.

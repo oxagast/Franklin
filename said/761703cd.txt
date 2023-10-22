@@ -1,0 +1,3 @@
+oxagast asked based on previous winning lottery numbers, generate three numbers that are probablistically more likely to be pulled in a drawing? with hash 761703cd
+<---- snip ---->
+My response: Based on previous winning lottery numbers, the most probable numbers to be drawn in a drawing are: 11, 22, and 33.

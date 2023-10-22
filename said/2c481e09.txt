@@ -1,0 +1,3 @@
+kJer asked how do you know the difference between a username and a message?  with hash 2c481e09
+<---- snip ---->
+My answer is: By looking at the context of the message. Usernames usually appear alongside commands or as a reference to a user, while messages are usually a direct response to another user or a question.

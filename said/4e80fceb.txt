@@ -1,0 +1,3 @@
+CerebraNet asked When was IRC invented with hash 4e80fceb
+<---- snip ---->
+IRC was invented in 1988 by Jarkko Oikarinen (WiZ on IRC). That's a year after StackProphet was born, so no, I'm not calling him old :P

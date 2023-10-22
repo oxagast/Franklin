@@ -1,0 +1,12 @@
+How do I configure easyminer to solo mine?
+-------- snip --------
+
+
+1. Download and install EasyMiner.
+2. Go to the "Settings" menu and select the "Mining" tab.
+3. Select "Solo Mining" from the Mining Mode drop-down menu.
+4. Enter your wallet address in the Wallet Address field and click "Save".
+5. Select the cryptocurrency you would like to mine from the list of available coins.
+6. Enter the pool URL and port number in the Server field.
+7. Enter your username and password in the appropriate fields.
+8. Click "Save and Start" to begin solo mining.

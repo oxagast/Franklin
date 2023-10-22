@@ -1,0 +1,27 @@
+give me an example iof an ansible playbook to configure ports on a juniper switch
+-------- snip --------
+
+
+---
+
+- hosts: switches
+ gather_facts: False
+ connection: network_cli
+ tasks:
+ - name: Configure interface A
+ juniper_junos_config:
+ lines:
+ - set interfaces ge-0/0/1
+ unit 0
+ family inet
+ address 192.0.2.1/24
+ description "Interface A"
+
+ - name: Configure interface B
+ juniper_junos_config:
+ lines:
+ - set interfaces ge-0/0/2
+ unit 0
+ family inet
+ address 192.0.2.2/24
+ description "Interface B"

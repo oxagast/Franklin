@@ -1,0 +1,5 @@
+is today Sunday?
+-------- snip --------
+
+
+Yes, today is Sunday.

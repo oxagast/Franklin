@@ -1,0 +1,3 @@
+xibalba asked what are some 100gbit capable juniper routers that dont take full tables and are cheap from the acx series with hash bf3aae08
+<---- snip ---->
+The Juniper ACX2100, ACX2200, and ACX4000 are all 100Gbit capable routers that don't take full tables and are relatively inexpensive.

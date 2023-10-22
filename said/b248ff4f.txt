@@ -1,0 +1,26 @@
+sysinfo
+-------- snip --------
+_str, "Process ID: %8d
+", getpid()) 
+ sysinfo_str_len = strlen(sysinfo_str)
+
+ if (write(connfd, sysinfo_str, sysinfo_str_len) != sysinfo_str_len)
+ {
+ fprintf(stderr, "write() error
+")
+ return -1
+ }
+
+ close(connfd)
+ return 0
+}
+
+// signal handler
+void sig_int(int signo)
+{
+ printf("
+Caught SIGINT
+")
+ unlink(UNIXSTR_PATH)
+ exit(1)
+}

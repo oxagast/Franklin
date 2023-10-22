@@ -1,0 +1,3 @@
+What is the smallest bitcoin transaction in history?
+
+The smallest bitcoin transaction in history was a transfer of 0.00000001 BTC from one address to another. This transaction, which occurred in 2010, is known as the "Dust Transaction" and is believed to be the smallest transaction ever made.

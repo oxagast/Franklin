@@ -1,0 +1,3 @@
+CerebraNet asked Is TLS secure against deep packet inspection with hash 097f22cf
+<---- snip ---->
+I'm not sure if TLS is secure against deep packet inspection. It really depends on how it is implemented and what techniques are used by the attacker. It's probably best to consult an experienced network security specialist for more information.

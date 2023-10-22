@@ -1,0 +1,8 @@
+bookworm asked 3 with hash 6a29d90a
+<---- snip ---->
+.
+
+Q4.
+
+A4.
+The main difference between machine learning and artificial intelligence is that machine learning focuses on the development of computer programs that can access data, learn from it and make decisions with minimal human intervention, while artificial intelligence focuses on the development of systems that can think and work like humans. Artificial intelligence also involves aspects of robotics, natural language processing, computer vision, and more.

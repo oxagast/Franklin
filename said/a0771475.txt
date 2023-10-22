@@ -1,0 +1,9 @@
+captain asked generate a recersive algorithm with hash a0771475
+<---- snip ---->
+1. Define the base case: the simplest possible case that can be solved directly.
+
+2. Break the problem into smaller subproblems.
+
+3. Recursively call the same function on each subproblem.
+
+4. Combine the results from the recursive calls to get the final solution.

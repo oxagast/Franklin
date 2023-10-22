@@ -1,0 +1,3 @@
+CerebraNet asked  What will happen if I install Ubuntu on a computer with only one hard drive with windows installed on it? with hash 83a58621
+<---- snip ---->
+It depends on the setup of the hard drive. You will likely need to set up a dual-boot system, or use a virtual machine, in order to keep Windows intact and install Ubuntu alongside it. However, if you don't care about keeping Windows, you can just install Ubuntu on the hard drive and it should work fine.

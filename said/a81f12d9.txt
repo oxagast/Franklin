@@ -1,0 +1,3 @@
+bookworm asked what is the function to map forth dimensional toroid space onto a simple 2d space? with hash a81f12d9
+<---- snip ---->
+The specific function will depend on the particular type of toroid space being mapped. Generally speaking, a toroidal projection is a type of map projection that maps a sphere or spheroid onto a flat, two-dimensional surface.

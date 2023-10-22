@@ -1,0 +1,3 @@
+bookworm asked at the current rate of expansion, how many stars are moving out of the observable universe each year? with hash 815ab94a
+<---- snip ---->
+It is impossible to answer this question with any degree of accuracy, as the rate of expansion of the universe is not constant and is not known with certainty. Additionally, the distance at which we can observe stars is limited by the finite speed of light, so we cannot observe stars beyond a certain distance.

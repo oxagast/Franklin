@@ -1,0 +1,23 @@
+CerebraNet asked Write a sample piece of C++ code that demonstrates recursive code with hash 5d988766
+<---- snip ---->
+My response is:
+#include <iostream> 
+
+using namespace std; 
+
+// Recursive function to calculate factorial of a given number 
+int factorial(int n) 
+{ 
+	if (n == 1) 
+		return 1; 
+	else 
+		return n * factorial(n - 1); 
+} 
+
+// Driver Code 
+int main() 
+{ 
+	int num = 5; 
+	cout << "Factorial of " << num << " is " << factorial(num); 
+	return 0; 
+}

@@ -1,0 +1,3 @@
+bookworms asked Omega is the best case in Big O for Data structures? with hash b6e83229
+<---- snip ---->
+My answer is: Yes, Omega is the best-case time complexity for data structures, as it means that the algorithm will take a constant amount of time to complete, regardless of the size of the input.

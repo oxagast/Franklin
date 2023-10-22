@@ -1,0 +1,5 @@
+what is arkade?
+-------- snip --------
+
+
+Arkade is a free and open-source command line interface (CLI) for Kubernetes. It simplifies the installation of applications and the deployment of infrastructure on Kubernetes. With Arkade, you can quickly and easily deploy applications to Kubernetes clusters with just a few commands.

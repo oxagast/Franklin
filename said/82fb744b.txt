@@ -1,0 +1,3 @@
+zyme asked Shorten and give a summary of the uv82s capabilities. with hash 82fb744b
+<---- snip ---->
+The uv82 is a great all-in-one radio for ham radio operators. It is capable of all the basic features and functions such as dual-band, FM, SSB, UHF and VHF, and the ability to use both analog and digital modes. It also has some additional features such as a built-in voice recorder, D-Star, APRS, and a mini-USB port for PC connection.

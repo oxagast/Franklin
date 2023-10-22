@@ -1,0 +1,14 @@
+oxagast asked hello
+<---- snip ---->
+ world
+ §§ 1000
++#c++
++
++#include<iostream>
++using namespace std;
++
++int main(){
++    cout<<"Hello World!"<<endl;
++    return 0;
++}
+ https://franklin.oxasploits.com/said/2e84149c

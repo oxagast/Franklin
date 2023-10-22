@@ -1,0 +1,6 @@
+oxagast asked hello
+<---- snip ---->
+')
+ §§ 1000
++console.log('goodmorning')
+ https://gpt3.oxasploits.com/said/65b18b00

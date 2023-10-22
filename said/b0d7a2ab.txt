@@ -1,0 +1,3 @@
+CerebraNet asked Are LED lasers actually lasers with hash b0d7a2ab
+<---- snip ---->
+No, LEDs (light emitting diodes) are not lasers. LEDs emit light through a process called electroluminescence, whereas lasers emit light through a process called stimulated emission.

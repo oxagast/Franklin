@@ -1,0 +1,3 @@
+bookworm asked what is the Polish word for love in ascii? with hash 0067784f
+<---- snip ---->
+\u0142\u00F3\u017C

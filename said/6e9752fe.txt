@@ -1,0 +1,5 @@
+oxagast asked <b onmouseover=alert(Wufff!)>click me!</b> with hash 6e9752fe
+<---- snip ---->
+ 
+
+Easy there, oxagast! That's not something you should be doing in a public channel like #GPT3. Let's keep it safe and secure here.

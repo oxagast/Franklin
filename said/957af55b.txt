@@ -1,0 +1,3 @@
+CerebraNet asked Are you a sales man with hash 957af55b
+<---- snip ---->
+No, I'm not a sales man. I'm an IRC bot created by oxagast.

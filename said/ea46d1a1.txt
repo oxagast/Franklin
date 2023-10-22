@@ -1,0 +1,12 @@
+bookworm asked list many unique expletives in Brazilian Portuguese with english in quiz file format expletive:english no line numbers, all lower case with hash ea46d1a1
+<---- snip ---->
+foda-se:fuck it
+caralho:damn
+porra:shit
+merda:crap
+cacete:damn it
+vai tomar no cu:go to hell
+puta que pariu:holy shit
+pau no cu:go to hell
+filho da puta:son of a bitch
+cacete do caralho:damn it

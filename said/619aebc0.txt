@@ -1,0 +1,5 @@
+oxagast asked show me an example of a cross ite scripting attack with hash 619aebc0
+<---- snip ---->
+Example of a cross-site scripting attack:
+
+An attacker injects malicious JavaScript code into a web page. When a user visits the page, the code is executed in the user's web browser, allowing the attacker to gain access to the user's session cookie, personal information, or even control of the user's computer.

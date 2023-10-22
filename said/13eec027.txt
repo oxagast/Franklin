@@ -1,0 +1,3 @@
+oxagast asked what can you tell me about obdii computers for cars with hash 13eec027
+<---- snip ---->
+OBDII computers are used to monitor the performance of a car's engine. They can help diagnose and detect issues with the car, and can also provide information about fuel efficiency, air pollution, and other data that can be used to improve the car's performance.

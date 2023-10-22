@@ -1,0 +1,10 @@
+bookworm asked generate a file in a format used by bsdgames quiz of a list of popular logical fallacies in latin to english, all small letters and no line numbering, format latin:english with hash fb96f052
+<---- snip ---->
+ad nauseam:to a sickening extent
+ad hominem:against the person
+non sequitur:it does not follow
+post hoc ergo propter hoc:after this, therefore because of this
+straw man:a weak or distorted version of an opponent's argument
+argumentum ad populum:appeal to the people
+argumentum ad ignorantiam:appeal to ignorance
+red herring:a distracting tactic

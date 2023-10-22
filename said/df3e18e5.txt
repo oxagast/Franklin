@@ -1,0 +1,3 @@
+kenrin asked how many pages is your output maximum ? with hash df3e18e5
+<---- snip ---->
+The maximum number of pages that can be output depends on the printer model, print settings, and paper size, but typically range from several hundred to several thousand pages.

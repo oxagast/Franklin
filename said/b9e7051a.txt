@@ -1,0 +1,3 @@
+RDNt asked what applications support sony 12 tone analysis? with hash b9e7051a
+<---- snip ---->
+Sony's own software, Sound Forge, and some online tone analysis tools. However, be aware that many of the online tools may not be as accurate as Sony's software.

@@ -1,0 +1,3 @@
+bookworm asked what is the function to map forth dimensional toroid space onto a simple 2d space? with hash b8e79eaf
+<---- snip ---->
+The function to map a four-dimensional toroid space onto a two-dimensional space is known as a stereographic projection. This is a mathematical process that transforms points in a four-dimensional space into points in a two-dimensional space. It is commonly used to project three-dimensional surfaces onto a two-dimensional plane.

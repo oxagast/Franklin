@@ -1,0 +1,3 @@
+salazar asked what is the best type of statistic model that should be used to predict the future price of real-estate in a developped country ?  with hash cf04883e
+<---- snip ---->
+In order to predict the future price of real estate in a developed country, a combination of linear regression, time series modeling, and Monte Carlo simulation are the most popular models. Each of these models takes into account different factors and can be used in combination to get the most accurate prediction.

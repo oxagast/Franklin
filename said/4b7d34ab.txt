@@ -1,0 +1,3 @@
+bookworm asked bewulf cluster with hash 4b7d34ab
+<---- snip ---->
+Bewulf clusters are a type of computer cluster used in distributed computing. It uses multiple computers to divide a task into several parts and each computer works on one part. It is an efficient way to process large amounts of data.

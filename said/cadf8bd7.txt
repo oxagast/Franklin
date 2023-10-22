@@ -1,0 +1,3 @@
+captain asked best arch linux system monitor application with hash cadf8bd7
+<---- snip ---->
+The best Arch Linux system monitor application is Conky. Conky is a highly configurable system monitor for Linux and BSD. It can display any kind of information on your desktop, such as CPU usage, memory usage, network traffic, calendar events, weather, and more. It is fully customizable with themes and scripts, and can be used to create a unique and eye-catching desktop experience.

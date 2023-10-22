@@ -1,0 +1,12 @@
+bookworm asked what is the output of this bash script when run, "#!/bin/bash with hash d64fcb1d
+<---- snip ---->
+echo "You have $(($1 + $2)) apples"
+
+apple1=3
+apple2=4
+
+./script.sh $apple1 $apple2
+
+When run, the output of this bash script would be:
+
+You have 7 apples

@@ -1,0 +1,3 @@
+bookworm asked what isotope would last 1000 years with hash 9495f6d8
+<---- snip ---->
+Carbon-14 is a radioactive isotope with a half-life of 5,730 years, so it would take about 57 half-lives, or about 1000 years, for it to decay to a negligible amount.

@@ -1,0 +1,5 @@
+kJer asked ask a trivia question in the category of computer science. all following messages should be considered answers to your question, react to the first correct answer. with hash 44db042c
+<---- snip ---->
+My trivia question is: What was the first computer virus to spread in the wild?
+
+The first computer virus to spread in the wild was the "Elk Cloner" virus, which was released in 1982.

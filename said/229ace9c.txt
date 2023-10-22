@@ -1,0 +1,3 @@
+bookworm asked Calculate 8 billion x 3 tons garbage per year in 2021, what is the total garbage produced by 2050?f with hash 229ace9c
+<---- snip ---->
+The total garbage produced by 2050 would be (8 billion x 3 tons x 29 years) = 624 billion tons.

@@ -1,0 +1,3 @@
+bookworm asked Recite a Bash Koan using bash code. with hash 112afecf
+<---- snip ---->
+Answer: A wise Bash scripter once said: "Be like a ninja. Be silent, be swift, and be efficient. Bash is the way."

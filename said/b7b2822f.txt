@@ -1,0 +1,3 @@
+morb asked what am I building if I replace the 3.58MHz oscillator in a tone dialer with a 6.5535MHz oscillator? with hash b7b2822f
+<---- snip ---->
+You're building a tone dialer with a higher frequency oscillator.

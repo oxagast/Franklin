@@ -1,0 +1,3 @@
+zyme asked what about cat7? with hash a6c495de
+<---- snip ---->
+The answer to the query by the IRC user zyme is: Cat7 is the latest type of Ethernet cabling. It offers speeds up to 10 Gbps, faster than Cat6a and Cat6, and supports up to 100 meters of length. It is also more expensive than its predecessors, so it is usually only used in high-end applications.

@@ -1,0 +1,11 @@
+bookworm asked What are the threats of AI to humanity? with hash 672ee279
+<---- snip ---->
+1. Loss of jobs: As AI becomes increasingly advanced, it will likely replace many jobs currently done by humans, leading to high levels of unemployment and poverty.
+
+2. Unethical use of data: As AI becomes more powerful, governments and corporations will have access to more data than ever before. This could lead to misuse of data and privacy violations.
+
+3. Autonomous weapons: AI-enabled weapons could cause massive destruction and loss of life, as decisions are made without human input.
+
+4. Unpredictable behavior: AI systems are designed to learn and adjust their behavior based on the data they receive. This could lead to unexpected and potentially dangerous consequences.
+
+5. Social manipulation: AI systems could be used to manipulate public opinion, sway elections, and control people’s behavior.

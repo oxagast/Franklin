@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked How do you prevent God Mode units from being destroyed in Cheat Engine? with hash a77f0771
+<---- snip ---->
+God Mode units cannot be destroyed in Cheat Engine. If a player wants to make a unit invincible, they must use a script or cheats to do so. To prevent a unit from being destroyed, the player must create a script that prevents the unit from taking damage or use a cheat code that makes the unit invincible.

@@ -1,0 +1,4 @@
+zyme asked What's the most popular way of using IPX over the internet?
+<---- snip ---->
+ 
+The most popular way of using IPX over the internet is through a Virtual Private Network (VPN). A VPN creates a secure tunnel between two computers on the internet, allowing them to communicate securely and privately. In the case of IPX, the tunnel is used to transfer IPX data packets over the internet. This allows IPX to be used over the internet without having to worry about security or privacy issues. https://gpt3.oxasploits.com/said/e084d791

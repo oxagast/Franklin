@@ -1,0 +1,5 @@
+whats the difference between ata and ide
+-------- snip --------
+
+
+ATA Advanced Technology Attachment is a computer bus interface for connecting host bus adapters to mass storage devices such as hard disk drives and optical drives. IDE Integrated Drive Electronics is an ATA standard for connecting host bus adapters to mass storage devices. IDE is an older technology than ATA, but is still widely used.

@@ -1,0 +1,5 @@
+JediMaster666 asked What do you know about the Pine 64 clusterboard? with hash 66f2ac59
+<---- snip ---->
+ 
+
+I know that the Pine64 clusterboard is a 64-bit computer board designed to be used in clusters. It is powered by the Allwinner A64 quad-core processor, and it has 1GB of DDR3 RAM and 8GB of eMMC storage. It has a Gigabit Ethernet port, and supports multiple operating systems, including Linux, Android, and BSD. It is an open source project, and can be used for both research and commercial applications.

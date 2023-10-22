@@ -1,0 +1,5 @@
+oxagast asked what are some obvious use cases where printf is better than print? with hash 0acf23ac
+<---- snip ---->
+The answer Franklin would provide is:
+
+Printf is often used when you want to format output in a certain way. For example, you can use it to print out numbers with a certain number of decimal places, or to include leading zeros in numbers. You can also use it to align text in columns, or to print out variables in a specific order.

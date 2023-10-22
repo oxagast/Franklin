@@ -1,0 +1,52 @@
+CerebraNet asked hit with hash ae810e07
+<---- snip ---->
+,
+						   (int)data->k_hit,
+						   (int)data->a_hit,
+						   (int)data->d_hit,
+						   (int)data->m_hit);
+						   
+						   
+	
+						   
+						   
+						   
+						   
+						   
+	printf("\n\n\n\n    ******************************\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   Thanks for playing!      *\n");
+	printf(  "    *                            *\n");
+	printf(  "    ******************************\n\n\n");
+	
+	
+	return 0;
+	
+}
+
+
+
+//The print_instructions function prints out the instructions for the game
+int print_instructions()
+{
+	printf(  "\n\n\n\n    ******************************\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   Welcome to Rock Paper    *\n");
+	printf(  "    *   Scissors!               *\n");
+	printf(  "    *                            *\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   The goal of the game is  *\n");
+	printf(  "    *   to beat the computer in  *\n");
+	printf(  "    *   a best two out of three  *\n");
+	printf(  "    *   rock, paper, scissors.   *\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   The rules are as        *\n");
+	printf(  "    *   follows:                 *\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   Rock beats scissors.     *\n");
+	printf(  "    *   Scissors beats paper.    *\n");
+	printf(  "    *   Paper beats rock.        *\n");
+	printf(  "    *                            *\n");
+	printf(  "    *   You must enter a letter  *\n");
+	printf(  "    *   to make your move:       *\n");
+	

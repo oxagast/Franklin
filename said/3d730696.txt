@@ -1,0 +1,9 @@
+bookworm asked what is the formula to calculate Lorenz contraction? with hash 3d730696
+<---- snip ---->
+The Lorentz Contraction formula is:
+
+Lorentz Contraction = (Object Length in Rest Frame) / (Object Length in Moving Frame)
+
+= (Object Length) / (Object Length * (1 - (v^2/c^2)))
+
+where v is the velocity of the object and c is the speed of light.

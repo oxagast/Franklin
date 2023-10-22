@@ -1,0 +1,47 @@
+bookworm asked list letter use statistics for the English alphabet; then use this information to populate 16 cubes each with 6 faces using more faces for letters with more frequency with hash 943b424b
+<---- snip ---->
+A - 6 faces
+B - 5 faces
+C - 4 faces
+D - 4 faces
+E - 5 faces
+F - 3 faces
+G - 3 faces
+H - 4 faces
+I - 5 faces
+J - 1 face
+K - 1 face
+L - 3 faces
+M - 3 faces
+N - 4 faces
+O - 4 faces
+P - 3 faces
+Q - 1 face
+R - 3 faces
+S - 3 faces
+T - 4 faces
+U - 3 faces
+V - 2 faces
+W - 2 faces
+X - 1 face
+Y - 2 faces
+Z - 1 face
+
+The cubes would look like this:
+
+Cube 1: A A A A A A
+Cube 2: A A A A B B
+Cube 3: A A B B C C
+Cube 4: A A B B D D
+Cube 5: A B B C C D
+Cube 6: A B B C D E
+Cube 7: A B C C D E
+Cube 8: B B C D D E
+Cube 9: B B C D E F
+Cube 10: B C C D E F
+Cube 11: B C D D E G
+Cube 12: B C D E F G
+Cube 13: C C D E F G
+Cube 14: C D D E G H
+Cube 15: C D E F G H
+Cube 16: D D E G H I

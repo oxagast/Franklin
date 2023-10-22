@@ -1,0 +1,3 @@
+morb asked why are the parties dubbed alice, bob, and eve in hypothetical cryptographic problems with hash a8e10e01
+<---- snip ---->
+The parties are dubbed Alice, Bob, and Eve in hypothetical cryptographic problems because Alice and Bob are the two participants in the problem, and Eve is the eavesdropper. In general, Alice and Bob are assumed to be the two sides of a secure communication, and Eve is the person trying to eavesdrop or otherwise break the secure communication.

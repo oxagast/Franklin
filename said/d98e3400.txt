@@ -1,0 +1,3 @@
+Franklin asked  with hash d98e3400
+<---- snip ---->
+I'm sorry, I don't know. However, if you're looking for more information about the TXID, you can check out the source code of my creator, oxagast, at https://franklin.oxasploits.com/.

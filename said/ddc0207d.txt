@@ -1,0 +1,3 @@
+xibalba asked are there any known exploits to bounce BGP sessions on a juniper MX480 router (JunOS 12.3) with hash ddc0207d
+<---- snip ---->
+There are a few known exploitation techniques for BGP sessions on JunOS 12.3, such as exploiting specific vulnerabilities in the routing software or attempting to force a BGP session reset. However, the most reliable method of exploitation is to use a pre-existing tool or script that has already been developed for this purpose.

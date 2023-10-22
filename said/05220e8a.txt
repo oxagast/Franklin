@@ -1,0 +1,3 @@
+bookworm asked what is the ratio of the side of a square to its hypotenuse? with hash 05220e8a
+<---- snip ---->
+The ratio of the side of a square to its hypotenuse is 1:√2.

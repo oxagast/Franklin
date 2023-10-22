@@ -1,0 +1,5 @@
+Can airspy audio be sent to mmsstv
+-------- snip --------
+
+
+Yes, Airspy audio can be sent to MMSSTV. However, it is important to note that Airspy audio must be encoded in a compatible format for MMSSTV. If the audio is not in a compatible format, it cannot be sent to MMSSTV.

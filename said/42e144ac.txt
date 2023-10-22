@@ -1,0 +1,5 @@
+What equipment does an intelligence agency use to get data from hard drive platters
+-------- snip --------
+?
+
+An intelligence agency would use a data recovery tool, such as a data harvesting tool or a data imaging tool, to collect data from hard drive platters. This type of tool can read and process data from the platters, often without needing to physically remove the platters from the hard drive. Additionally, the agency may also use specialized tools such as a magnetic force microscope to read data from the magnetic media on the platters.

@@ -1,0 +1,3 @@
+CerebraNet asked What is weechat with hash d9c7c4f5
+<---- snip ---->
+Weechat is an open-source, cross-platform IRC client that allows users to connect to multiple networks and channels, send and receive messages, and use features such as private messaging, scripting, and plugins. It has been designed to be fast, efficient, and extensible, and is widely regarded as one of the most popular and powerful IRC clients available.

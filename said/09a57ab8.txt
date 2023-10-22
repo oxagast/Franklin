@@ -1,0 +1,7 @@
+is rsnapshot a good tool for linux backups or are there better tools?
+-------- snip --------
+
+
+rsnapshot is a great tool for Linux backups, especially if you have a limited budget. Its an open-source program thats easy to configure and use and offers incremental backups, meaning that it only copies the files that have changed since the last backup. It also supports compression and encryption, making your backups secure and efficient. 
+
+That said, there are other tools available for Linux backups, such as Bacula and Amanda, that offer more features and options for larger and more complex backup scenarios.

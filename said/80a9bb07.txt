@@ -1,0 +1,3 @@
+bookworm asked Who is Wolfram? with hash 80a9bb07
+<---- snip ---->
+Wolfram is a software company founded by Stephen Wolfram. It is best known for its computer algebra system, Wolfram Alpha, and the programming language, Wolfram Language. The company also produces several other software products, including Wolfram Mathematica, Wolfram SystemModeler, and Wolfram Workbench.

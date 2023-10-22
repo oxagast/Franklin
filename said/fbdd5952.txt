@@ -1,0 +1,43 @@
+booksworms asked d with hash fbdd5952
+<---- snip ---->
+umps([
+            {
+                'title': 'Superstar',
+                'artist': 'Carole King',
+                'release_year': 1977
+            },
+            {
+                'title': 'BEAT',
+                'artist': 'BTS',
+                'release_year': 2020
+            }
+        ])
+
+        self.assertTrue(type(albums_list) is str)
+
+    def test_artist_view(self):
+        """
+        Tests that the artist view returns a template
+        """
+
+        client = app.test_client()
+        response = client.get('/artists/1')
+        self.assertEqual(response.status_code, 200)
+        self.assertTemplateUsed('artist_info.html')
+
+    def test_artist_info_data(self):
+        """
+        Tests that the artist view returns data
+        """
+
+        client = app.test_client()
+        response = client.get('/artists/1')
+        artist = response.get_data(as_text=True)
+        artist = artist.split('\n')
+        self.assertIn('<h1>Carole King</h1>', artist)
+        self.assertIn('<h2>Superstar</h2>', artist)
+        self.assertIn('<h2>BEAT</h2>', artist)
+
+
+if __name__ == "__main__":
+    unittest.main()

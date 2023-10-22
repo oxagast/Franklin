@@ -1,0 +1,3 @@
+CerebraNet asked What is the FCC maximum output power for citizens band radio with hash 9b64e8de
+<---- snip ---->
+The FCC maximum output power for citizens band radio is 4 watts.

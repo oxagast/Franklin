@@ -1,0 +1,5 @@
+what is the best methodology to anonymize oneself when hacking that even the NSA and armed forces use?
+-------- snip --------
+
+
+The best methodology for anonymizing oneself when hacking, even for use by the NSA and armed forces, is to use a combination of Virtual Private Networks VPNs, Tor browser, and the use of anonymous proxies. A VPN provides a secure, encrypted connection between two networks, allowing the user to remain anonymous while accessing the internet. Tor browser is a free, open-source software that can be used to anonymously browse the web and communicate over the internet. Anonymous proxies enable the user to browse the internet while appearing to be in a different location. Additionally, tools such as encryption, deletion of browser history, and the use of secure storage systems can also be used to anonymize oneself.

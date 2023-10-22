@@ -1,0 +1,3 @@
+CerebraNet asked How can I make my car EMP resistant with hash a0063d7a
+<---- snip ---->
+EMP resistant cars are not yet available commercially, but you can make your car more resilient by using a Faraday cage to shield it. You can make one out of a metal box lined with conductive material, or buy a pre-made kit. Additionally, you should replace any electronic parts in your car that are vulnerable to EMPs with shielded components.

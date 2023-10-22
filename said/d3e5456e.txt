@@ -1,0 +1,3 @@
+CerebraNet asked How can I play the trivia game in #2600 with hash d3e5456e
+<---- snip ---->
+To play the trivia game in #2600, type !trivia and follow the instructions in the channel. You can also type !help if you need more information. Good luck and have fun!

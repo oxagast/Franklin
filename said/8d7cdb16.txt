@@ -1,0 +1,3 @@
+CerebraNet asked what are the green and red LEDs on a BrovSS USB hub with hash 8d7cdb16
+<---- snip ---->
+The green LED indicates that the USB hub has power, and the red LED indicates that the hub is receiving data.

@@ -1,0 +1,3 @@
+bookworm asked In what ways do openAI chat bots indicate what version of the language model they are using with hash 6836b2df
+<---- snip ---->
+OpenAI chat bots typically indicate the version of the language model they are using through the version number associated with the model. For example, OpenAI's GPT-3 language model, which is the most advanced version currently available, is indicated with a version number of 3.0. Additionally, the version number may be indicated in the chat bot's response, such as "GPT-3 version 3.0" or simply "GPT-3".

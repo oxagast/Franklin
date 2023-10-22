@@ -1,0 +1,38 @@
+morb asked write llvm bytecode that duplicates itself with hash 72ca6fc2
+<---- snip ---->
+; ModuleID = 'my cool module'
+source_filename = "my cool module"
+
+@.str = private unnamed_addr constant [19 x i8] c"my cool module\00", align 1
+
+define i32 @main() {
+  %1 = alloca i32, align 4
+  %2 = alloca i32, align 4
+  store i32 0, i32* %1
+  store i32 0, i32* %2
+  br label %3
+
+; <label>:3                                       ; preds = %6, %0
+  %4 = load i32, i32* %1, align 4
+  %5 = load i32, i32* %2, align 4
+  %6 = icmp sle i32 %4, %5
+  br i1 %6, label %7, label %11
+
+; <label>:7                                       ; preds = %3
+  %8 = load i32, i32* %1, align 4
+  %9 = add nsw i32 %8, 1
+  store i32 %9, i32* %1, align 4
+  %10 = call i32 @main()
+  br label %11
+
+; <label>:11                                      ; preds = %7, %3
+  %12 = load i32, i32* %2, align 4
+  %13 = add nsw i32 %12, 1
+  store i32 %13, i32* %2, align 4
+  br label %3
+
+; <label>:14                                      ; preds = %1
+  ret i32 0
+}
+
+declare i32 @main() #0

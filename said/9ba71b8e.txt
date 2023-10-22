@@ -1,0 +1,5 @@
+does openvpn require port forwarding
+-------- snip --------
+
+
+No, OpenVPN does not require port forwarding. It allows the connection to be established through a NAT-enabled gateway, such as a router, without requiring port forwarding.

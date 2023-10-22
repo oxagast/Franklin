@@ -1,0 +1,3 @@
+Marduk asked How are dilithium crystals prepared before they can be used as fuel in a warp engines core? with hash 18444a3a
+<---- snip ---->
+Dilithium crystals are prepared by a process called dilithification, which involves exposing them to intense radiation which rearranges the crystal's molecular structure. The process is then completed by cooling the crystal to a low temperature to solidify the new structure.

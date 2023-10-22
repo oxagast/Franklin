@@ -1,0 +1,38 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different german sayings to english phrases, all small letters and no line numbering, format german:english with hash e9811bd1
+<---- snip ---->
+früher oder später:sooner or later
+der teufel steckt im detail:the devil is in the details
+die dinge ändern sich:things change
+hast du den kühlschrank gefüllt?:did you fill the fridge?
+das ist meine letzte warnung:this is my last warning
+ein bisschen mehr:a bit more
+auf wiedersehen!:goodbye!
+der frühe vogel fängt den wurm:the early bird catches the worm
+das ist eine schwere aufgabe:this is a tough job
+ein bisschen geduld:a bit of patience
+glaube nicht alles, was du hörst:don't believe everything you hear
+auf geht's!:let's go!
+lebe und lerne:live and learn
+das ist nicht dein ernst:you can't be serious
+alles auf anfang:back to square one
+es gibt kein zurück:there's no going back
+was du heute kannst besorgen:do it today
+die wahrheit wird ans licht kommen:the truth will out
+das leben ist eine reise:life is a journey
+es ist noch nicht vorbei:it's not over yet
+die zeit heilt alle wunden:time heals all wounds
+es kommt auf den versuch an:it's worth a try
+mach keine versprechen, die du nicht halten kannst:don't make promises you can't keep
+lauf nicht weg vor deinen probleme:don't run away from your problems
+es ist nie zu spät:it's never too late
+die zeit ist reif:the time is right
+das ist kein leichtes unterfangen:this is no easy undertaking
+gib niemals auf:never give up
+das ist mein letztes wort:that's my last word
+alles hat seine zeit:there is a time for everything
+die nacht ist dunkel und voller terrors:the night is dark and full of terrors
+die geduld zahlt sich aus:patience pays off
+kopf hoch!:keep your chin up!
+sei nicht zu hart zu dir selbst:don't be too hard on yourself
+das leben ist voller überraschungen:life is full of surprises
+hal

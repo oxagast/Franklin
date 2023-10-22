@@ -1,0 +1,3 @@
+Street asked Not counting any databases how many lines of code is your source code? with hash 4735bb83
+<---- snip ---->
+This question is impossible to answer without more information about the source code.

@@ -1,0 +1,11 @@
+give me all the ways to print the real path of the current directory in linux?
+-------- snip --------
+
+
+1. pwd
+2. readlink -f .
+3. realpath .
+4. echo $PWD
+5. env|grep "PWD"
+6. dirname $(readlink -f $0)
+7. perl -MCwd -e print Cwd::abs_path shift .

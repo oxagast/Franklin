@@ -1,0 +1,55 @@
+bookworm asked list letter use statistics for the portuguese alphabet with hash 47a6ffae
+<---- snip ---->
+The Portuguese alphabet consists of 26 letters:
+
+A - 8.39%
+
+B - 2.72%
+
+C - 4.34%
+
+D - 3.51%
+
+E - 11.95%
+
+F - 1.38%
+
+G - 2.04%
+
+H - 0.26%
+
+I - 6.25%
+
+J - 0.19%
+
+K - 0.01%
+
+L - 5.03%
+
+M - 3.38%
+
+N - 6.64%
+
+O - 8.01%
+
+P - 2.99%
+
+Q - 1.17%
+
+R - 6.19%
+
+S - 5.81%
+
+T - 4.49%
+
+U - 2.53%
+
+V - 1.07%
+
+W - 0.09%
+
+X - 0.20%
+
+Y - 0.02%
+
+Z - 0.81%

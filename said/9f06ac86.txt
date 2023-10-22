@@ -1,0 +1,3 @@
+captain asked Arch linux ftpd config location not vsftpd with hash 9f06ac86
+<---- snip ---->
+Arch Linux does not use vsftpd, so there is no configuration file for it. The default FTP server used in Arch Linux is the Pure-FTPd server. The configuration file for this server is located at /etc/pure-ftpd.conf.

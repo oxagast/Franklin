@@ -1,0 +1,5 @@
+How do you know JWIS is not a VLAN over Internet 2?
+-------- snip --------
+
+
+There is no such thing as a VLAN over the Internet. VLANs are local area networks that are segmented logically to create multiple broadcast domains within a single physical network. The Internet is a global network of interconnected computers, not a local network.

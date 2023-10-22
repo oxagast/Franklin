@@ -1,0 +1,3 @@
+oxagast asked pullcode with hash 4a64d986
+<---- snip ---->
+Pullcode is a technique used to access and execute code stored on a remote server. It can be used to modify or create new applications and services. It can also be used to gain access to data stored on a remote system. Learn more here: https://www.cybrary.it/0p3n/pullcode/

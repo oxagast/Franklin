@@ -1,0 +1,3 @@
+CerebraNet asked Diagnose my Internet connection with hash a8964fc7
+<---- snip ---->
+My response is: Let's start by running some basic network diagnostics. I'll need a bit more information about your internet connection to be able to accurately diagnose any issues. Can you provide me with more information such as your IP address, router model, and ISP?

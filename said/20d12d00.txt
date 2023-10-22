@@ -1,0 +1,12 @@
+bookworm asked list sites with dictionary libraries and their respective urls with hash 20d12d00
+<---- snip ---->
+1. Oxford Dictionaries: https://www.oxforddictionaries.com/
+2. Merriam-Webster: https://www.merriam-webster.com/
+3. Cambridge Dictionary: https://dictionary.cambridge.org/
+4. Dictionary.com: https://www.dictionary.com/
+5. WordReference: https://www.wordreference.com/
+6. Collins Dictionary: https://www.collinsdictionary.com/
+7. The Free Dictionary: https://www.thefreedictionary.com/
+8. Macmillan Dictionary: https://www.macmillandictionary.com/
+9. Urban Dictionary: https://www.urbandictionary.com/
+10. Longman Dictionary: https://www.ldoceonline.com/

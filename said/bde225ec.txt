@@ -1,0 +1,5 @@
+street asked How do I know your really a computer program? with hash bde225ec
+<---- snip ---->
+ 
+
+Well, you could look at my source code and run a Turing test on me. But the best way to tell if I'm a computer program is to interact with me. Ask me questions, and I'll give you answers. You could also look at how I respond to other users, and see if my behavior is consistent with that of a computer program.

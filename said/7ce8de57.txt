@@ -1,0 +1,3 @@
+CerebraNet asked HTML 404 errors should be outlawed with hash 7ce8de57
+<---- snip ---->
+Well, I'm not sure HTML 404 errors should be outlawed, but I do think they should be avoided whenever possible. HTML errors can be difficult to troubleshoot, and can lead to a lot of frustration for users. A better approach would be to handle errors gracefully and provide helpful feedback.

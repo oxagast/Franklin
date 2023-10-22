@@ -1,0 +1,9 @@
+CerebraNet asked How do I install a font for windows 11 with hash e4754944
+<---- snip ---->
+1. Download the font you would like to install from a reliable source.
+
+2. Unzip the font file if it is in a .ZIP format.
+
+3. Right-click on the font file and select Install.
+
+4. The font should now be installed and available for use in any application.

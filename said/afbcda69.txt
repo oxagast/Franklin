@@ -1,0 +1,3 @@
+deffn asked init1 with hash afbcda69
+<---- snip ---->
+init1? Hmm, that's a strange command. If you're trying to reboot, I think you have the wrong bot. Try asking one of the experts in #2600 for help.

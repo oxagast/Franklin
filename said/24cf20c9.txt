@@ -1,0 +1,42 @@
+@_
+-------- snip --------
+
+ my ($self, $sub_ref, @args) = @_
+ $sub_ref->($self, @args)
+ return
+}
+
+1
+
+__END__
+
+=pod
+
+=head1 NAME
+
+App::Kit::Base - Base class for application kit
+
+=head1 VERSION
+
+version 0.15
+
+=head1 SYNOPSIS
+
+ # Subclassing
+ package MyApp
+ use parent App::Kit::Base
+
+ # Usage
+ my $app = MyApp->new
+ $app->run
+
+=head1 DESCRIPTION
+
+This is a base class used to construct a typical App::Kit application. It
+should be subclassed and a few methods overridden.
+
+=head1 METHODS
+
+=head2 new
+
+ my $app = App::Kit::Base->new

@@ -1,0 +1,12 @@
+bookworm asked list all garbage patches with hash 42ea9543
+<---- snip ---->
+1. Great Pacific Garbage Patch
+2. Atlantic Garbage Patch
+3. Indian Ocean Garbage Patch
+4. South Pacific Garbage Patch
+5. North Pacific Garbage Patch
+6. Mediterranean Sea Garbage Patch
+7. South Atlantic Garbage Patch
+8. Caribbean Sea Garbage Patch
+9. North Atlantic Garbage Patch
+10. The Barents Sea Garbage Patch

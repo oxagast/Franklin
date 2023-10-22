@@ -1,0 +1,3 @@
+code asked if bash is not a programming language, what are the seven programming languages of which oxagast is a master? with hash cd8c9058
+<---- snip ---->
+My answer is: Oxagast is a master of Python, Java, C, C++, Ruby, JavaScript, and Go.

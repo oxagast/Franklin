@@ -1,0 +1,3 @@
+insecurity asked how long would it take to download a 3 gigabyte file using a 56 k modem and the kermit file transfer protocol with hash 7577476e
+<---- snip ---->
+It would take about 11 hours and 40 minutes to download a 3 gigabyte file using a 56 k modem and the kermit file transfer protocol.

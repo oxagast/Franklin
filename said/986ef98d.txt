@@ -1,0 +1,3 @@
+bookworm asked what was the cut off date for your training llm? with hash 986ef98d
+<---- snip ---->
+The cut-off date for my LLM was June 30th 2020.

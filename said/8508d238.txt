@@ -1,0 +1,3 @@
+oxagast asked summarize this web address https://microsoft.com with hash 8508d238
+<---- snip ---->
+Microsoft is a technology company that develops, manufactures, licenses, supports, and sells a wide range of products and services related to computing. It offers cloud computing, artificial intelligence, and business solutions, among other products and services. Microsoft's mission is to empower every person and every organization on the planet to achieve more.

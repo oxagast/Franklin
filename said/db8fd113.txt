@@ -1,0 +1,5 @@
+what is a  netcat reverse listener
+-------- snip --------
+
+
+A netcat reverse listener is a type of network connection that allows an attacker to connect to a target system without the target system initiating the connection. It works by setting up a listener on the attackers machine, which is then used as a gateway for the target system to connect to. The listener will then receive any data sent from the target system and can be used to interact with it.

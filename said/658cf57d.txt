@@ -1,0 +1,3 @@
+bookworm asked Print unicode 12081 with hash 658cf57d
+<---- snip ---->
+🤣 (U+1F923)

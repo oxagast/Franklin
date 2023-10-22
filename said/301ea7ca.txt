@@ -1,0 +1,7 @@
+whats the difference between ide and eide
+-------- snip --------
+
+
+IDE Integrated Drive Electronics is an older type of drive interface that is still used on many computers today. It is a parallel ATA Advanced Technology Attachment interface that allows up to two devices to be connected to a single port on the motherboard. IDE devices have to be plugged into the port and then powered on, and can only be used to control one device at a time.
+
+EIDE Enhanced Integrated Drive Electronics is a type of drive interface that is an improved version of IDE. It allows up to four devices to be connected to a single port on the motherboard and also supports hot-swapping, which allows devices to be connected and disconnected without powering off the computer. EIDE devices also have faster transfer rates than IDE devices, making them more suitable for faster and larger hard drives.

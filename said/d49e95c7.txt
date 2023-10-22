@@ -1,0 +1,3 @@
+CerebraNet asked What does  CN=*.scuttled.net mean with hash d49e95c7
+<---- snip ---->
+CN=*.scuttled.net is a string of characters that is used to identify a particular website or computer system. It is typically used for security purposes to ensure that only authorized users can access the system.

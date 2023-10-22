@@ -1,0 +1,4 @@
+captain asked what is tmux used for
+<---- snip ---->
+ 
+TMux is a terminal multiplexer that enables a user to access multiple separate terminal sessions within a single terminal window or remote terminal session. It allows users to switch easily between several programs in one terminal, detach and reattach sessions from one terminal to another, and even share a terminal session with another user. It also has the ability to split a single terminal window into multiple panes, each of which is a separate terminal session. This makes it useful for managing multiple programs at once and for multitasking. https://gpt3.oxasploits.com/said/e48f09bc

@@ -1,0 +1,5 @@
+Can websites be accessed through telnet
+-------- snip --------
+
+
+No, websites cannot be accessed through telnet. Telnet is a command-line tool for establishing remote connections to other computers. It is used primarily for remotely accessing servers and network devices such as routers and switches. Websites, however, are hosted on web servers, which are not accessible through telnet.

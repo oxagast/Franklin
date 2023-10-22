@@ -1,0 +1,9 @@
+arch linux network setup wiki
+-------- snip --------
+
+
+The Arch Linux Wiki provides extensive instructions and resources to help users set up their network. The Network Configuration page provides an overview of network configuration and includes topics such as setting up a basic network, configuring wireless networks, configuring firewalls, and setting up a VPN. Additionally, the Networking page provides detailed instructions for setting up different types of networks, such as Ethernet, Wi-Fi, Bluetooth, and serial communications. 
+
+The Arch Wiki also provides a Troubleshooting page with information on resolving common network issues. This page provides guidance on resolving connection problems, DHCP issues, DNS problems, and other network-related issues. Additionally, the page includes links to helpful resources on diagnosing and resolving network issues. 
+
+Finally, the Arch Wiki includes a page on Network Security, which provides guidance on setting up firewalls, configuring security features, and securing wireless networks. Additionally, the page provides instructions on setting up a virtual private network (VPN) and

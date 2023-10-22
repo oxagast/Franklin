@@ -1,0 +1,3 @@
+bookworm asked Are your responses programmable from the prompt? with hash 462a17b6
+<---- snip ---->
+No, responses are not programmable from the prompt. Prompts are designed to elicit a response from the user, not to allow the user to program a response.

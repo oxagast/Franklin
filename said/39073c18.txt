@@ -1,0 +1,12 @@
+bookworm asked generate a file in a format used by bsdgames quiz from 1000 latin phrase to english phrase, latinphrase:englishphrase no spaces, all small letters and no line numbering with hash 39073c18
+<---- snip ---->
+amare:love
+aude:dare
+favere:favor
+sum:be
+verum:true
+arbitrium:judgment
+quod:that
+intellego:understand
+vita:life
+mens:mind

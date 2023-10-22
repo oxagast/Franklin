@@ -1,0 +1,5 @@
+what day is today? print the current date in %Y-%m-%d format
+-------- snip --------
+
+
+Today is 2020-11-25.

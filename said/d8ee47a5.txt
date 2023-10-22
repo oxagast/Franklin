@@ -1,0 +1,5 @@
+what does the VVIX measure
+-------- snip --------
+
+
+The VVIX measures the implied volatility of the VIX, which is a measure of expected volatility of the SP 500 Index. The VVIX is calculated by taking into account the prices of options on the VIX index and provides a measure of the expected volatility of the VIX over the next 30 days.

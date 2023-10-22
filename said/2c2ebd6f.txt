@@ -1,0 +1,5 @@
+RDNt asked what is todays date? with hash 2c2ebd6f
+<---- snip ---->
+ 
+
+Today's date is October 31st, 2020.

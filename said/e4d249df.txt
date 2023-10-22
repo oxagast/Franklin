@@ -1,0 +1,9 @@
+bookworm asked list sites which have linguistic statistics and their respective urls with hash e4d249df
+<---- snip ---->
+1. Ethnologue: Language Family Index - https://www.ethnologue.com/statistics/family
+2. SIL International: Language Maps - https://www.ethnologue.com/maps
+3. World Atlas of Language Structures - http://wals.info/
+4. US Census Bureau: Language Use in the United States - https://www.census.gov/programs-surveys/popest/data/language-use.html
+5. UNESCO: Atlas of the World’s Languages in Danger - http://www.unesco.org/languages-atlas/en/atlas.html
+6. Glottolog: Language Catalog - https://glottolog.org/
+7. The World Factbook: Languages - https://www.cia.gov/library/publications/the-world-factbook/fields/2103.html

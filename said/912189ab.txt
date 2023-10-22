@@ -1,0 +1,8 @@
+bookworm asked !sh pwd with hash 912189ab
+<---- snip ---->
+The command to check the current working directory is "pwd".
+
+Example:
+
+$ pwd
+/home/user/Documents

@@ -1,0 +1,13 @@
+what are the requirements for a 2022 Domain Controller
+-------- snip --------
+
+
+1. Active Directory Domain Services: To serve as a Domain Controller, the server must have Active Directory Domain Services (AD DS) installed.
+
+2. Windows Server Operating System: The server must run the Windows Server operating system, such as Windows Server 2019 or Windows Server 2022.
+
+3. Hardware Requirements: The server must have at least 8GB of RAM and sufficient hard disk space for the Active Directory database, logs, and SYSVOL directory.
+
+4. Domain Name System (DNS): Domain Controllers must be configured to use the Domain Name System (DNS).
+
+5. Network Connectivity: The Domain Controller must have two network connections to support replication traffic and client traffic.

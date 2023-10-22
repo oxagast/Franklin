@@ -1,0 +1,3 @@
+what is an ata in voip
+
+ATA stands for Analog Telephone Adapter. It is a device that allows a user to connect a standard analog telephone to a VoIP service, allowing them to make and receive calls over the internet.

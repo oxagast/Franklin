@@ -1,0 +1,3 @@
+morb asked write me a socat one-liner that connects a modem on /dev/ttyACM0 to a ssl listener that reuses its port and forks with hash 323468c5
+<---- snip ---->
+Here you go: socat TCP-LISTEN:4433,fork,reuseaddr,reuseport OPEN:/dev/ttyACM0,b9600,echo=0,raw,iexten=0

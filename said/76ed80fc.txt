@@ -1,0 +1,5 @@
+what happens if you hit the cancel button at the windows nt login screen
+-------- snip --------
+
+
+If you hit the cancel button at the Windows NT login screen, you will be taken back to the login screen and will not be able to log in to the system.

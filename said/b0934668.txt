@@ -1,0 +1,5 @@
+oxagast asked hello franklin with hash b0934668
+<---- snip ---->
+, what can you do? 
+
+Hello there oxagast! I'm Franklin the IRC bot. I'm powered by the Open AI GPT3 large language model and I'm currently running version 2.8. I can do a lot of things, including helping with conversations, providing information, helping with calculations, and even playing games!

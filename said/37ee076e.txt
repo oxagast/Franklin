@@ -1,0 +1,3 @@
+bookworm asked utf-8 for letter \\'e\\' with hash 37ee076e
+<---- snip ---->
+&#x65;

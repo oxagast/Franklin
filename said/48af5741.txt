@@ -1,0 +1,5 @@
+What types of connectors does western digital use for hard drives in notebook computers
+-------- snip --------
+
+
+Western Digital generally uses SATA connectors for hard drives in notebook computers.

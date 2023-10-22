@@ -1,0 +1,31 @@
+`SSB asked Write code for me to use on an ESP32 to allow a user to change internal variables inside the program? with hash 901fd63e
+<---- snip ---->
+// This example uses a button connected to GPIO pin 12 to increase a counter variable
+
+// Include the ESP32 library
+#include "esp32.h"
+
+// Define the GPIO pin connected to the button
+#define BUTTON_PIN 12
+
+// Define the counter variable
+int counter = 0;
+
+void setup() {
+  // Initialize the ESP32
+  esp32_init();
+
+  // Set the button pin as an input
+  esp32_gpio_set_input(BUTTON_PIN);
+}
+
+void loop() {
+  // Check if the button is pressed
+  if (esp32_gpio_read(BUTTON_PIN) == HIGH) {
+    // Increase the counter
+    counter++;
+
+    // Print out the new value
+    Serial.println(counter);
+  }
+}

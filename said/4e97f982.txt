@@ -1,0 +1,11 @@
+bookworm asked List all the words for LOVE converting ISO characters to ASCII. with hash 4e97f982
+<---- snip ---->
+1. Love
+2. L\u00f6ve
+3. L\u00f8ve
+4. L\u00f3ve
+5. L\u00f4ve
+6. L\xf6ve
+7. L\xf8ve
+8. L\xf3ve
+9. L\xf4ve

@@ -1,0 +1,3 @@
+insecurity asked what OS do cisco meraki firewalls run? with hash 6aa19c22
+<---- snip ---->
+Cisco Meraki firewalls typically run the Cisco Meraki OS, which is based on the Linux kernel.

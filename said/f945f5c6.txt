@@ -1,0 +1,3 @@
+bookworm asked ${var-set} with hash f945f5c6
+<---- snip ---->
+If the variable has not been set, then the value of the expression will be an empty string. If the variable has been set, then the value of the expression will be the value of the variable.

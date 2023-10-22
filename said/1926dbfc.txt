@@ -1,0 +1,3 @@
+zyme asked How does Enqueue differ from Queue? with hash 1926dbfc
+<---- snip ---->
+Enqueue is an operation that adds an element to the queue, while Queue is a data structure that stores elements in a specific order. Enqueue is the action of putting something into the queue, whereas Queue is the container that stores the elements.

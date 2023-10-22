@@ -1,0 +1,3 @@
+xibalba asked what game was written entirely in assembly in the 1990s with hash 734924fa
+<---- snip ---->
+The game Wolfenstein 3D, released in 1992, was written entirely in assembly language.

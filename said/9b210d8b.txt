@@ -1,0 +1,3 @@
+oxagast asked how many cpu cores do you have? with hash 9b210d8b
+<---- snip ---->
+I have 1 core.

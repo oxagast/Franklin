@@ -1,0 +1,3 @@
+zyme asked will using multiple transmitters at the same time crossing the same frequency with different signals which if the strength of each was combined would total an amount of power above FCC regulation limits, would you be breaking the law? with hash be41c9b8
+<---- snip ---->
+Yes, you would be breaking the law if you used multiple transmitters at the same time crossing the same frequency with different signals that, when combined, total an amount of power above FCC regulation limits.

@@ -1,0 +1,17 @@
+morb asked describe in detail the workflow of authenticating against a webserver using auth basic with hash 451a2b38
+<---- snip ---->
+The workflow of authenticating against a webserver using auth basic is as follows:
+
+1. The client sends an HTTP request to the webserver. This request contains an Authorization header field with a username and password, encoded using base64 encoding.
+
+2. The webserver receives the request and decodes the Authorization header field.
+
+3. The webserver checks the username and password against an authentication database.
+
+4. If the credentials are correct, the webserver sends an HTTP 200 OK response to the client.
+
+5. The client receives the response and can now access the requested resource.
+
+6. If the credentials are incorrect, the webserver sends an HTTP 401 Unauthorized response to the client.
+
+7. The client receives the response and must provide valid credentials before accessing the requested resource.

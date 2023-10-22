@@ -1,0 +1,5 @@
+describe cognitive complexity
+-------- snip --------
+
+
+Cognitive complexity is a psychological concept that refers to the number of mental processes and strategies an individual uses to understand and interact with their environment. It is a measure of the complexity of someone’s thinking and their ability to adapt to changing circumstances. It is often used to assess problem-solving skills and the capacity for abstract thinking. Cognitive complexity is linked to creativity and the ability to think critically.

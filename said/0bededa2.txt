@@ -1,0 +1,15 @@
+how to configure torsocks linux
+-------- snip --------
+
+
+1. Install torsocks by running the command: sudo apt-get install torsocks
+
+2. Create a configuration file for torsocks. Use your favorite text editor (vim, nano, etc.) to create a file named “torsocks.conf” in the /etc/ directory. Add the following lines to the file:
+
+TorAddress 127.0.0.1
+TorPort 9050
+AllowOutboundLocalhost 1
+
+3. Change the permissions of the file to make it accessible by the user: sudo chmod 644 /etc/torsocks.conf
+
+4. Configure your applications to use torsocks. To use torsocks for any application, you can simply prefix the command with “torsocks”. For example, you can use torsocks to browse the web by issuing the command “torsocks firefox”.

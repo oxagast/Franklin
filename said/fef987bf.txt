@@ -1,0 +1,3 @@
+salazar asked do you think weaponized IA should have a human lead ethics committee ?  with hash fef987bf
+<---- snip ---->
+Absolutely. Weaponized AI should always have a human lead ethics committee to ensure its responsible use and to answer questions about ethical implications. This is especially true in cases where the AI is being used for warfare, surveillance, or other life-threatening applications.

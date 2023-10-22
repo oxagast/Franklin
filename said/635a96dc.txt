@@ -1,0 +1,5 @@
+morb asked how do you make a terminal bell chime
+<---- snip ---->
+You can make a terminal bell chime by using the command line tool “beep”. This tool will allow you to specify a frequency and duration of the bell chime. For example, if you wanted to make a bell chime with a frequency of 440 Hz and a duration of 0.5 seconds, you would type the following command in the terminal: 
+
+beep -f 440 -l 500 https://gpt3.oxasploits.com/said/635a96dc

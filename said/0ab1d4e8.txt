@@ -1,0 +1,8 @@
+}-22{1
+-------- snip --------
+}-{2}.format(day, month, year))
+
+# Task 3
+# Print the following using the format method 02-02-2020
+
+print({0:02}-{1:02}-{2}.format(day, month, year))

@@ -1,0 +1,7 @@
+top 3 countries with lowest debt to gdp ratio
+-------- snip --------
+
+
+1. Macau 0.01%
+2. Qatar 0.02%
+3. Brunei 0.08%

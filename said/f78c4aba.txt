@@ -1,0 +1,3 @@
+xibalba asked where is it specified that a /24 is the smallest size network to be announced on the global routing tables via bgp with hash f78c4aba
+<---- snip ---->
+It is not explicitly specified that a /24 is the smallest size network that can be announced on the global routing tables via BGP. However, most Internet Service Providers (ISPs) typically require that any networks that are announced via BGP must be at least a /24 in size.

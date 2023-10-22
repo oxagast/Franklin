@@ -1,0 +1,3 @@
+CerebraNet asked What is the flash language with hash 47a20dbe
+<---- snip ---->
+The Flash language is ActionScript, a programming language used to create web-based applications and multimedia content. ActionScript is based on the ECMAScript language and is used to create interactive content for the Adobe Flash Player platform.

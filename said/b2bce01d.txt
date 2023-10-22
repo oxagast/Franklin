@@ -1,0 +1,3 @@
+Street asked How many users can ChatGPT currently handle at the same time? with hash b2bce01d
+<---- snip ---->
+ChatGPT can currently handle up to 50 users at the same time.

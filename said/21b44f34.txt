@@ -1,0 +1,3 @@
+bookworm asked What languages have alternate writing systems similar to the english alphabet? with hash 21b44f34
+<---- snip ---->
+Arabic, Armenian, Devanagari (used to write Hindi and many other South Asian languages), Georgian, Greek, Hebrew, Latin, and Cyrillic (used to write Russian and many other Slavic languages).

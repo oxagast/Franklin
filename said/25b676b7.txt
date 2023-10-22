@@ -1,0 +1,9 @@
+oxagast asked  with hash 25b676b7
+<---- snip ---->
+User 1: Does anyone know a good online resource for learning about computer security?
+User 2: Sure, check out the 2600 website!
+User 3: Where can I find that?
+User 4: Just Google it, it should be easy to find.
+User 5: Thanks!
+
+You could also check out the 2600 YouTube channel and podcasts for additional resources.

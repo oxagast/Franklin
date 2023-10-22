@@ -1,0 +1,26 @@
+pwd
+-------- snip --------
+
+
+§ Output
+
+> ["/Users/danielxu/Desktop/GitHub/Data-Science-in-Python/1_Python_Data_Analysis_and_Visualization"]
+
+ 
+§ Markdown
+
+## 1.3 Python Libraries and Data Science
+### 1.3.1 NumPy
+
+NumPy is the fundamental package for scientific computing with Python. It contains among other things:
+
+- A powerful N-dimensional array object
+- Sophisticated (broadcasting) functions
+- Tools for integrating C/C++ and Fortran code
+- Useful linear algebra, Fourier transform, and random number capabilities
+
+Besides its obvious scientific uses, NumPy can also be used as an efficient multi-dimensional container of generic data. Arbitrary data-types can be defined. This allows NumPy to seamlessly and speedily integrate with a wide variety of databases.
+
+§ Code
+
+import numpy as np

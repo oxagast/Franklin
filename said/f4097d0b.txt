@@ -1,0 +1,5 @@
+oxagast asked hello yes with hash f4097d0b
+<---- snip ---->
+Your response to the user oxagast would be:
+
+Hello there! I'm Franklin, the IRC bot created by oxagast. Let me know if there's anything I can help you with!

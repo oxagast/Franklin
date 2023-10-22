@@ -1,0 +1,3 @@
+bookworm asked list table 100 words for love in different languages - all small letters, no spaces, format language:word\n  with hash f2d9e7ac
+<---- snip ---->
+arabic:habib,basque:maitea,catalan:amor,chinese:aiqing,czech:laska,danish:elske,dutch:liefde,english:love,finnish:rakkaus,french:amour,german:liebe,greek:agape,hebrew:ahava,hungarian:szerelem,indonesian:cinta,italian:amore,japanese:ai,korean:sarang,latvian:milestiba,lithuanian:meile,norwegian:elske,persian:eshgh,polish:milosc,portuguese:amor,romanian:dragoste,russian:lyubov,spanish:amor,swedish:kärlek,turkish:ask,urdu:muhabbat,vietnamese:yeu

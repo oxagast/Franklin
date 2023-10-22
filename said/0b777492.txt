@@ -1,0 +1,5 @@
+how does using a vpn keep me safe
+-------- snip --------
+
+
+Using a VPN keeps you safe by encrypting your data and routing it through a secure tunnel, which prevents any third-party from intercepting it. This means that your online activity and personal information is kept safe from prying eyes. Additionally, a VPN hides your IP address, so your location and identity remain anonymous.

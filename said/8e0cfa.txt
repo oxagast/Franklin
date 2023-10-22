@@ -1,0 +1,1 @@
+Some safe bitcoin mining programs to use are CGMiner, EasyMiner, BFGMiner, and Bitcoin Core. All of these programs are open source and have been proven to be safe and secure.

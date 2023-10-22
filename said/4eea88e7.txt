@@ -1,0 +1,3 @@
+morb asked what"s faster, mysql or sqlite3? with hash 4eea88e7
+<---- snip ---->
+It depends on the context. Generally, MySQL is faster in terms of performance as it is designed for larger datasets and is more optimized for larger databases. SQLite3 is usually faster for smaller datasets, as it is designed for convenience and does not need to process as many queries.

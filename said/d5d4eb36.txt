@@ -1,0 +1,3 @@
+bookworm asked openai now charges for their services with hash d5d4eb36
+<---- snip ---->
+OpenAI does not currently charge for its services. However, OpenAI does offer enterprise-level products and services on a subscription basis. These services, such as OpenAI GPT-3, are designed to help businesses and organizations use OpenAI’s AI technology to create custom AI applications.

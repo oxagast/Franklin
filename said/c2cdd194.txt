@@ -1,0 +1,11 @@
+bookworm asked Using E=mc^2 calculate the Energy of a QUarter with hash c2cdd194
+<---- snip ---->
+ pound hamburger
+
+Mass of Quarter pound hamburger = 0.113 kg
+
+E = mc^2
+
+E = (0.113 kg)(3.00x10^8 m/s)^2
+
+E = 9.42x10^15 Joules

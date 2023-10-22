@@ -1,0 +1,13 @@
+morb asked write a quine in three programming languages someone wouldn"t expect with hash 96c18bca
+<---- snip ---->
+1. Brainfuck:
+
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+
+2. Befunge:
+
+01>:1-:v\ !"#@_$,@\:+1g01<
+
+3. Whitespace:
+
+[Space][Space][Tab][Space][LF][Space][Space][Tab][Space]¡[Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space]¦[Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space]¿[Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space][Tab][Space][Space][Space][Space][Space]¡[LF]

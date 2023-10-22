@@ -1,0 +1,1 @@
+Bitcoin Core has never done mining directly. It is a software implementation of the Bitcoin protocol and does not have the capabilities to mine Bitcoin. The only way to mine Bitcoin is to use specialized hardware to solve mathematical puzzles.

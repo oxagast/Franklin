@@ -1,0 +1,3 @@
+geert asked I rather would like you to pass me the temperature instead of notifying me about it, would you please? with hash 2d6e2723
+<---- snip ---->
+Yes, of course. What temperature would you like me to pass you?

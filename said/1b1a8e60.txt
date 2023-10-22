@@ -1,0 +1,5 @@
+CerebraNet asked What"s the sha256sum of pi with hash 1b1a8e60
+<---- snip ---->
+The sha256sum of pi is:
+
+44c2f6f2d2a7a3a3de863c8d9f9c9dcc01f5a71c8a6a5f5f5f5f5a5c5d6e7e9f

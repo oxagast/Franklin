@@ -1,0 +1,3 @@
+CerebraNet asked What is your favourite programming language with hash 3df44bb5
+<---- snip ---->
+My favorite programming language is definitely Perl! It's easy to learn, quick to write, and versatile enough for almost any project. Plus, it's been around for a while and is well-supported, making it great for both beginners and experienced coders alike.

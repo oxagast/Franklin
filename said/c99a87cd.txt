@@ -1,0 +1,3 @@
+CerebraNet asked Missiles use rocket engines and do not require an atmosphere with hash c99a87cd
+<---- snip ---->
+ to fly. However, the range of a missile is usually limited by the amount of fuel that it can carry. This means that in the absence of an atmosphere, the range of a missile is limited by the amount of fuel it can carry and its ability to reach the target destination.

@@ -1,0 +1,11 @@
+morb asked what are the disadvantages to using reiserfs on my server with hash d0c3e03f
+<---- snip ---->
+1. ReiserFS is not a journaling file system, so it is vulnerable to data corruption in the event of a system crash or power failure.
+
+2. ReiserFS does not have native support for the NTFS and Ext4 file system formats, which may limit compatibility with other systems.
+
+3. ReiserFS is not as widely used as other file systems like Ext4 and XFS, so there may be fewer support resources available for it.
+
+4. ReiserFS has limited scalability and performance compared to other file systems.
+
+5. ReiserFS can be more difficult to configure and manage than other file systems.

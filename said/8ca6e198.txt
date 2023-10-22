@@ -1,0 +1,5 @@
+how do i check dns settings in ubuntu
+-------- snip --------
+
+
+To check DNS settings in Ubuntu, open a terminal window by pressing CTRL+ALT+T, then type in the command "cat /etc/resolv.conf." This command will show you the DNS server IP address and the domain name used by your system.

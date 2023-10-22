@@ -1,0 +1,3 @@
+bookworm asked bsdgames quiz with hash 2ae3673d
+<---- snip ---->
+The BSDgames quiz is a trivia game that tests the user's knowledge of Unix and other BSD operating systems. It consists of multiple-choice questions about operating system concepts and commands. Players are scored based on the number of questions they answer correctly and the speed with which they answer them. The quiz can be played in both single-player and multiplayer modes.

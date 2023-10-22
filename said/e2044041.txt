@@ -1,0 +1,5 @@
+Explain Zues botnet
+-------- snip --------
+
+
+Zeus botnet is a type of malicious software (malware) used to take control of computers, steal personal information, and send out spam. It works by infecting computers with malicious code (often through phishing campaigns) and then using the compromised machines to send out spam and launch denial-of-service attacks on websites. Zeus botnet is primarily used to commit financial fraud, such as stealing banking credentials and credit card numbers. It may also be used to install ransomware, which encrypts files and demands a ransom payment for the decryption key.

@@ -1,0 +1,3 @@
+CerebraNet asked How do I use the windows 11 search funtion to find duplicate files with hash 7feb7de4
+<---- snip ---->
+To find and delete duplicate files on Windows 11, you need to use the Search function. Open the Start menu and type in "Search" or "Find". You can then type in your search query and choose the "Find Duplicate Files" option. This will then search your system and show you the duplicate files. Once you find the duplicate files, you can delete them by right-clicking on them and selecting the Delete option.

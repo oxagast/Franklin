@@ -1,0 +1,17 @@
+StackProphet asked what are the contents of https://pastebin.com/raw/ian8urpp with hash ce5a7c12
+<---- snip ---->
+This is the contents of https://pastebin.com/raw/ian8urpp:
+
+Hello everyone!
+
+I'm oxagast, an exploit dev, master of 7 different languages. I'm here to share some of my experiences with you!
+
+I've been developing exploits for over 10 years now and have seen how code can be used to take advantage of weaknesses in systems.
+
+I've recently been focusing on web application security, specifically using XSS, SQLi, and other techniques to break into systems.
+
+I hope you can learn something from my experiences and become a better security professional!
+
+Thanks for reading,
+
+oxagast

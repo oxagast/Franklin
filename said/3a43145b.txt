@@ -1,0 +1,3 @@
+bookworm asked is bash a gnu project with hash 3a43145b
+<---- snip ---->
+No, Bash is not a GNU project. Bash is an open source command-line shell developed by the GNU Project's Richard Stallman and Brian Fox.

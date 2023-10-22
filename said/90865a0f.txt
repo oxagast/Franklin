@@ -1,0 +1,3 @@
+bookworm asked How can a tetrahedron be used to map out cosmological asymmetries? with hash 90865a0f
+<---- snip ---->
+A tetrahedron can be used to map out cosmological asymmetries by using its four faces as planes to represent the four dimensions of spacetime. This can be used to identify irregularities in the structure of the universe, such as the presence of dark matter and dark energy. A tetrahedral structure can also be used to map out the curvature of spacetime.

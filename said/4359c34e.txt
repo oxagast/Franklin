@@ -1,0 +1,21 @@
+bookworm asked What can be done to mitigate the incorrect information you generate? with hash 4359c34e
+<---- snip ---->
+1. Always double-check your sources to ensure the information you generate is accurate and up-to-date.
+
+2. Consider using a fact-checking tool or service to evaluate the accuracy of your data.
+
+3. Create a process to review and vet the information you generate, including checking for any bias or assumptions.
+
+4. Create clear disclaimers on any materials you produce that contain potentially inaccurate information.
+
+5. Make sure to cite all sources used in your research.
+
+6. Take the time to verify any claims you make with multiple sources.
+
+7. Establish a system of checks and balances to ensure accuracy in your work.
+
+8. Ask for feedback from your colleagues or peers to help spot any inaccuracies.
+
+9. Be transparent about any changes you make to your data or sources.
+
+10. Regularly update your information to ensure accuracy.

@@ -1,0 +1,5 @@
+go east
+-------- snip --------
+
+
+You are now at the edge of a large lake. You can see a boat dock to the north of you.

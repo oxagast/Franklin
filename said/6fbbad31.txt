@@ -1,0 +1,5 @@
+CerebraNet asked What is the 7th root of 1 with hash 6fbbad31
+<---- snip ---->
+/343
+
+The 7th root of 1/343 is approximately 0.0289.

@@ -1,0 +1,5 @@
+CerebraNet asked Show an example of finding a string by using cat with hash 1951dcdd
+<---- snip ---->
+in #2600
+
+Sure, you can use the command "cat filename | grep 'string'". This will output any lines in the file that contain the string you provided.

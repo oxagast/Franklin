@@ -1,0 +1,13 @@
+Ryujin asked lets pretend to play a game of  Global thermonuclear war  with hash 5f60520c
+<---- snip ---->
+Player 1: I launch a nuclear missile at Player 2's home country. 
+
+Player 2: I retaliate by launching a nuclear missile at Player 1's home country. 
+
+Player 1: I launch an intercontinental ballistic missile to intercept Player 2's nuclear missiles. 
+
+Player 2: I launch an anti-ballistic missile defense system to intercept Player 1's intercontinental ballistic missile. 
+
+Player 1: I launch a submarine-launched ballistic missile to bypass Player 2's defense system. 
+
+Player 2: I deploy a fleet of fighter jets to shoot down Player 1's submarine-launched ballistic missile.

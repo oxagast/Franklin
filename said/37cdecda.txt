@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked Can every coding task be accomplished with an If Else statement alone? with hash 37cdecda
+<---- snip ---->
+No, an If Else statement alone cannot accomplish every coding task. It's important to have a variety of different tools and techniques in your coding toolkit to efficiently and effectively solve coding challenges.

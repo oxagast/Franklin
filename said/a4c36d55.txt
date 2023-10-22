@@ -1,0 +1,3 @@
+CerebraNet asked Is there any system that can not be hacked with hash a4c36d55
+<---- snip ---->
+My response to CerebraNet is: Theoretically, any system can be hacked, however, some are much more difficult and time consuming than others. It all depends on the security measures in place and the skill of the hacker.

@@ -1,0 +1,5 @@
+StackProphet
+-------- snip --------
+
+
+StackProphet is a library for forecasting time series using a state-of-the-art stacker ensemble model. It is designed to be easy to use and highly reliable for a variety of time series forecasting scenarios. It combines multiple machine learning models and feature engineering techniques to accurately forecast future values. It was developed by the team at StackAnalytics and is available as an open source project on GitHub.

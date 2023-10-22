@@ -1,0 +1,21 @@
+build information
+-------- snip --------
+
+
+## Installation
+
+Install with npm
+
+
+npm install <package-name>
+
+
+## Usage
+
+To use the package, include it in your code.
+
+js
+const packageName = require(package-name)
+
+// Use the package
+packageName.methodName(params)

@@ -1,0 +1,3 @@
+morb asked how many lines of code contain curse words in your corpus 
+<---- snip ---->
+Unfortunately, this is not possible to answer without manually reviewing the corpus line by line. https://franklin.oxasploits.com/said/784e0800

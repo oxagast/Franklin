@@ -1,0 +1,3 @@
+RDNt asked what is the difference between risks, vulnerabilities, and threats? with hash b0de56d9
+<---- snip ---->
+The difference between risks, vulnerabilities, and threats is that risks are potential events or circumstances that could lead to negative or undesired outcomes, while vulnerabilities are weaknesses or gaps in processes, systems, or services that can be exploited, and threats are actors or events that have the potential to cause harm or damage.

@@ -1,0 +1,5 @@
+what is https://beta.character.ai/
+-------- snip --------
+
+
+Character.ai is an AI-powered customer experience platform that helps businesses create personalized conversations with customers. It helps businesses respond faster and more accurately to customer inquiries by using natural language processing and machine learning. The Beta version of Character.ai provides an easy-to-use interface that allows businesses to quickly create and manage customer conversations.

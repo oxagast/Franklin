@@ -1,0 +1,3 @@
+oxagast asked tell me about https://scuttled.net with hash f2e349d1
+<---- snip ---->
+Hi Oxagasti! Scuttled.net is a website created and maintained by 2600 Magazine, a magazine dedicated to technology, hacking, and security. The website has news related to the magazine, services, donations, and links to popular IRC channels. It is also powered by WordPress.

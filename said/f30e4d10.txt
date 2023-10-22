@@ -1,0 +1,3 @@
+bookworm asked Master Foo and the Programming Prodigy with hash f30e4d10
+<---- snip ---->
+Master Foo and the Programming Prodigy is a book about a master programmer and a prodigy who team up to solve programming puzzles. It features chapters on algorithms, data structures, and problem-solving techniques.

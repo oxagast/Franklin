@@ -1,0 +1,3 @@
+oxagast asked can now read and interpret link text with hash 5cb9bd3a
+<---- snip ---->
+Franklin_: Yes, I can now read and interpret link text. I can also detect when a link should be opened, and open it in a compatible web browser.

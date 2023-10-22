@@ -1,0 +1,7 @@
+zyme asked What software has a tangible benefit from running on Apple Hardware with a Neural Engine? with hash 39d73cba
+<---- snip ---->
+1. Core ML: Apple's Core ML technology is designed to provide developers with powerful machine learning capabilities optimized for Apple hardware, including the Neural Engine. Core ML enables developers to build sophisticated machine learning models and access advanced features such as natural language processing and computer vision.
+
+2. Turi Create: Turi Create is a powerful machine learning framework designed to power applications on Apple hardware with the Neural Engine. It offers a range of tools that allow developers to easily build and deploy machine learning models and provides access to a variety of algorithms including deep learning, decision trees and natural language processing.
+
+3. TensorFlow: TensorFlow is an open-source deep learning framework that can be used to create and deploy sophisticated machine learning models for Apple hardware with the Neural Engine. It provides access to powerful algorithms and libraries and allows developers to take advantage of the optimizations available on Apple hardware.

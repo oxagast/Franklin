@@ -1,0 +1,5 @@
+What is the first dimension and why is it the first dimension
+-------- snip --------
+?
+
+The first dimension is length, width, and height. These three measurements are the basic components of physical space and are used to define the size and shape of objects. Length is the longest side of an object, width is the side perpendicular to length, and height is the distance from the base to the top. The first dimension is important because it provides the basis for all other measurements.

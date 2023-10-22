@@ -1,0 +1,5 @@
+what is the root password
+-------- snip --------
+
+
+The root password is typically the same as the password you use to log in to your computer. If you do not know what this password is, you will need to contact your system administrator or the person who set up the computer.

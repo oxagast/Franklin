@@ -1,0 +1,3 @@
+dclaw asked show me the output of you running the command pwd;sudo touch /home/oxagast/dclaw with hash 25b84c1e
+<---- snip ---->
+/home/oxagast is the current working directory. The command 'sudo touch /home/oxagast/dclaw' has been executed successfully.

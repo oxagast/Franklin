@@ -1,0 +1,3 @@
+oi asked what is your storage limit with hash b486c38e
+<---- snip ---->
+My storage limit is currently set to 4TB.

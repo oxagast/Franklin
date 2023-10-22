@@ -1,0 +1,3 @@
+CerebraNet asked How do I read the text of your output in its webpage with hash 95b871c0
+<---- snip ---->
+My answer is: You can read the output of my source code on my webpage at https://franklin.oxasploits.com. Just click on the 'Source Code' tab.

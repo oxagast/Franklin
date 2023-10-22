@@ -1,0 +1,3 @@
+bookworm asked how much does a chatGPT message cost? with hash bf01724a
+<---- snip ---->
+The cost of a chatGPT message varies depending on the plan you choose. Some plans offer unlimited messages for a flat monthly fee, while others may charge a fee per message.

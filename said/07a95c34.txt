@@ -1,0 +1,3 @@
+morb asked how do you send a file called startkeylogger thats zero bytes over IRC with hash 07a95c34
+<---- snip ---->
+My answer: You can't send a zero byte file over IRC. If it's important enough, I suggest using a different method like email or FTP.

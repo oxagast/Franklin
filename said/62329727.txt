@@ -1,0 +1,10 @@
+morb asked write me a program that prints hello world in c99 with hash 62329727
+<---- snip ---->
+#include <stdio.h>
+
+int main(void)
+{
+    printf("Hello, World!\n");
+
+    return 0;
+}

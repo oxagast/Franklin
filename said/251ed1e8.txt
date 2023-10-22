@@ -1,0 +1,3 @@
+zyme asked No, the very first thing you do upon receiving a CMI email is unplug your machine from the network. What is the second step? with hash 251ed1e8
+<---- snip ---->
+The second step is to scan your machine for any malicious software or viruses that may have been installed on it. It is also important to change any passwords you may have used while connected to the network, and to contact your IT department to ensure that any other security measures they have implemented are in place.

@@ -1,0 +1,3 @@
+bookworm asked world population in 2050 with hash 8d515367
+<---- snip ---->
+The population of the world in 2050 is projected to be around 9.7 billion people.

@@ -1,0 +1,5 @@
+CerebraNet asked What is Intrusion Detection/Prevention System with hash 5cde66d1
+<---- snip ---->
+?
+
+An Intrusion Detection/Prevention System (IDPS) is a system designed to detect and respond to malicious activities or policy violations on a network. The system works by comparing network traffic to a set of predefined rules and sending out an alert when a malicious activity is detected. It can also be used to block malicious activities from taking place.

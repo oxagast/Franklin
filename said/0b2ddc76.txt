@@ -1,0 +1,5 @@
+how did Win95.CIH spread
+-------- snip --------
+
+
+The Win95.CIH virus was spread primarily through unprotected Windows 95 systems that were connected to the Internet or a local area network. It was spread through email, file-sharing networks, and downloads from the Internet.

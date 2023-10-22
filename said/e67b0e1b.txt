@@ -1,0 +1,5 @@
+Do miners collect litecoin transaction fees
+-------- snip --------
+?
+
+Yes, miners collect Litecoin transaction fees as a reward for processing and confirming Litecoin transactions on the network. The amount of the fee is determined by the size of the transaction and the amount of network activity.

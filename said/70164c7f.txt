@@ -1,0 +1,3 @@
+CerebraNet asked Javascript is useful for web pages with hash 70164c7f
+<---- snip ---->
+I'm glad you asked, CerebraNet! JavaScript is a powerful scripting language used for creating dynamic web pages and applications. It can be used to add interactivity to web pages, control multimedia, and create games. It is also great for developing web-based applications, such as mobile apps.

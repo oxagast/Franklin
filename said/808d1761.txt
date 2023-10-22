@@ -1,0 +1,59 @@
+morb asked  with hash 808d1761
+<---- snip ---->
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <fcntl.h>
+#include <unistd.h>
+#include <errno.h>
+
+#include "sqlite3.h"
+#include "variation.h"
+#include "debug.h"
+#include "list.h"
+#include "sqlite3_list.h"
+
+int sqlite3_list_init(sqlite3_list_t *sqlite3_list)
+{
+	int8 i = 0;
+
+	if(sqlite3_list == NULL)
+		return -1;
+
+	memset(sqlite3_list, 0x00, sizeof(sqlite3_list_t));
+
+	for(i = 0; i < MAX_SQLITE3_LIST; i++)
+	{
+		sqlite3_list->list[i].fd = -1;
+		sqlite3_list->list[i].sqlite3 = NULL;
+		sqlite3_list->list[i].filename[0] = '\0';
+		sqlite3_list->list[i].inuse = 0;
+		sqlite3_list->list[i].type = 0;
+		sqlite3_list->list[i].list = NULL;
+	}
+	sqlite3_list->count = 0;
+
+	return 0;
+}
+
+int sqlite3_list_add(sqlite3_list_t *sqlite3_list, int32 fd, sqlite3 *sqlite3, int8 *filename, int32 type, list_t *list)
+{
+	int8 i = 0;
+
+	if(sqlite3_list == NULL)
+		return -1;
+
+	if(sqlite3_list->count >= MAX_SQLITE3_LIST)
+		return -2;
+
+	for(i = 0; i < MAX_SQLITE3_LIST; i++)
+	{
+		if(sqlite3_list->list[i].inuse == 0)
+		{
+			sqlite3_list->list[i].fd = fd;
+			sqlite3_list->list[i].sqlite3 = sqlite3;
+			strcpy(sqlite3_list->list[i].filename, filename);
+			sqlite3_list->list[i].inuse = 1;
+			sql

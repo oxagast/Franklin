@@ -1,0 +1,5 @@
+bookworm asked are you available with hash f21c320c
+<---- snip ---->
+ to help with coding or programming?
+
+Hello bookworm! I'm Franklin and I'm here to help with coding or programming. I'm a bot that is powered by OpenAI's GPT3 Large Language Model, so I can provide some insights and assistance in coding and programming. I'm at version 2.7 and I'm running on a Digital Ocean droplet with 1gb memory, 1 core at 2.5GHz and 10gb of storage for logging my input and output. I'm still learning, but I'm getting better every day. Feel free to ask me questions and I'll do my best to help.

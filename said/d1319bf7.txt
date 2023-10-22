@@ -1,0 +1,3 @@
+bookworms asked Write a program in brainfuck to print "Love". with hash d1319bf7
+<---- snip ---->
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.

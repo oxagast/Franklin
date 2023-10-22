@@ -1,0 +1,5 @@
+How do people write .dll code
+-------- snip --------
+?
+
+People write .dll code using a programming language such as C++, Visual Basic, or C#. The code is compiled into a .dll file using a compiler such as Microsoft Visual Studio. The compiled .dll file can then be used in other programs or applications.

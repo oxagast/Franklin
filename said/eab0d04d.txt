@@ -1,0 +1,3 @@
+code asked what is considered a healthy BMI? what is the US state with the highest average BMI, and the US state with the lowest average BMI? with hash eab0d04d
+<---- snip ---->
+According to the World Health Organization, a healthy BMI is between 18.5 and 24.9. The US state with the highest average BMI is Mississippi, and the US state with the lowest average BMI is Colorado.

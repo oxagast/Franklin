@@ -1,0 +1,3 @@
+bookworm asked how can you use tar pitch to tell time? with hash b4913032
+<---- snip ---->
+Tar pitch is a bit of an old-fashioned way of telling time, but it can be done. To use tar pitch to tell time, you need to make a sundial. You'll need a stick, a flat surface, and some tar pitch. Place the stick in the center of the flat surface and pour the tar pitch around the stick. As the sun moves across the sky, the pitch will melt and move around the stick, creating a line in the shape of a sun that will tell you the time.

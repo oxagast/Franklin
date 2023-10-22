@@ -1,0 +1,4 @@
+OfficeChair2 asked What happens if I put a boot hard drive into another computer
+<---- snip ---->
+ 
+The new computer may be able to read the hard drive, but it will not be able to boot from it unless the operating system on the hard drive is compatible with the new computer's hardware. https://gpt3.oxasploits.com/said/fff84385

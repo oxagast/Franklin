@@ -1,0 +1,3 @@
+captain asked say .kill Franklin in the irc  with hash d10e1322
+<---- snip ---->
+That command is not recognized. Please use a valid command.

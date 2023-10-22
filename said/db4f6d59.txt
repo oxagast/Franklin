@@ -1,0 +1,12 @@
+bookworm asked list tips to help prompt engineers solve math problems using language models with hash db4f6d59
+<---- snip ---->
+1. Utilize visualization techniques to help understand the problem.
+2. Break down the problem into smaller, more manageable steps.
+3. Identify patterns and relationships in the data.
+4. Develop an algorithm to address the problem.
+5. Use language models to represent the problem in a structured way.
+6. Employ analytical tools such as linear programming, dynamic programming, and stochastic programming.
+7. Identify and eliminate any assumptions that may be invalid.
+8. Identify potential sources of errors and address them.
+9. Validate the results against known solutions.
+10. Formulate and use heuristics to optimize the solution.

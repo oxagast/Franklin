@@ -1,0 +1,3 @@
+bookworm asked what do scientists call proof by negation? with hash 3c1595d9
+<---- snip ---->
+Proof by negation is a scientific method in which a conclusion is drawn from the absence of evidence. It is often used in mathematics and logic to prove the truth of a statement by showing that the opposite statement is false.

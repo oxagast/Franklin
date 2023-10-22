@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between ubuntu desktop and ubuntu server with hash 3ee437e4
+<---- snip ---->
+The main difference between Ubuntu Desktop and Ubuntu Server is that Ubuntu Desktop is designed for use on personal computers, while Ubuntu Server is designed for use on servers. Ubuntu Desktop is a graphical user interface (GUI) version of the operating system, while Ubuntu Server is a command line version of the operating system. Ubuntu Desktop is designed for users who prefer a graphical interface, while Ubuntu Server is designed for users who prefer a command line interface.

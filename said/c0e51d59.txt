@@ -1,0 +1,5 @@
+what is atlassian confluence
+-------- snip --------
+
+
+Atlassian Confluence is a team collaboration and content management software used to create, organize, and discuss projects, documents, and ideas. It is designed to help teams work together more effectively and efficiently by providing an easy-to-use platform for sharing information, ideas, and files. With an intuitive user interface and features like easy commenting and page history tracking, Confluence helps teams stay organized and on the same page.

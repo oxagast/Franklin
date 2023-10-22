@@ -1,0 +1,3 @@
+bookworm asked There are an unknown number of birds sitting on an unknown number of poles. If at first birds are only allowed to sit on each pole in pairs, there is one pole with no birds on it. If we allow one bird to sit on each pole, there is one bird with no poles to sit on it. How many birds and poles are there? with hash bd08366a
+<---- snip ---->
+This question cannot be answered, as there is not enough information given.

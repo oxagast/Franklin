@@ -1,0 +1,5 @@
+Is a battery, battery charger, and inverter the same as an uninterruptable power supply.
+-------- snip --------
+
+
+No, an Uninterruptible Power Supply (UPS) is not the same as a battery, battery charger, and inverter. The UPS is an electronic device that provides emergency power to a load when the input power source or mains power fails. It typically includes a rectifier, battery charger, and inverter, but it may also include additional components such as a surge protection device, isolation transformer, and/or a communications interface.

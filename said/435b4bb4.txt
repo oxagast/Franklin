@@ -1,0 +1,9 @@
+code asked show me the output of pwd;curl ipinfo.io 2>&1 -o /tmp/testing;head -n2 /tmp/testing on a unix shell with hash 435b4bb4
+<---- snip ---->
+The output of the command is:
+
+/home/franklin
+{
+  "ip": "127.0.0.1",
+  "city": "localhost"
+}

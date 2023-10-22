@@ -1,0 +1,13 @@
+CerebraNet asked How do I use PHP to display the configuration file with hash 854c7c69
+<---- snip ---->
+?
+
+You can use PHP's parse_ini_file() function to read configuration files. This function will parse an ini file and return an associative array of the configuration data. To display the configuration file, you can use a loop to iterate through the array and display the key-value pairs. An example is given below:
+
+<?php
+$config = parse_ini_file("config.ini");
+
+foreach($config as $key => $value) {
+    echo $key . " = " . $value . "<br />";
+}
+?>

@@ -1,0 +1,3 @@
+salazar asked when was naspter a thing ?  with hash 64fb36ca
+<---- snip ---->
+Naspter was a thing in the early 2000s. It was a tool used to search for vulnerable systems on the internet.

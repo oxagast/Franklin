@@ -1,0 +1,5 @@
+Does amateur radio frequency 440.850 have a positive or negative offset
+-------- snip --------
+
+
+The amateur radio frequency 440.850 has a negative offset.

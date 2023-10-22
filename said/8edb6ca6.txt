@@ -1,0 +1,3 @@
+RDNt asked tell me about usb-c power distribution with hash 8edb6ca6
+<---- snip ---->
+USB-C power distribution is the process of distributing power from one source to multiple USB-C devices. It is often used to charge multiple devices at the same time or to provide power to a large number of USB-C devices from one source. It is also used to reduce the number of power cables required to power multiple devices.

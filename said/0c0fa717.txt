@@ -1,0 +1,5 @@
+CerebraNet asked What radio frequency does calstar use with hash 0c0fa717
+<---- snip ---->
+?
+
+Calstar uses the frequency of 151.205 MHz for its operations.

@@ -1,0 +1,7 @@
+bookworm asked can you set the franklin_word_limit to 500? with hash c711fdaf
+<---- snip ---->
+Yes, you can set the franklin_word_limit to 500. To do this, open the franklin_word_limit.php file and look for the line that says:
+
+$franklin_word_limit = 300;
+
+Change the number 300 to 500, save the file, and then upload the file back to your web server.

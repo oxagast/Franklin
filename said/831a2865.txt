@@ -1,0 +1,50 @@
+bookworm asked 100 latin proverbs in latin with hash 831a2865
+<---- snip ---->
+1. Ars longa, vita brevis. 
+2. Qui tacet consentire videtur. 
+3. Ex nihilo nihil fit. 
+4. Aut viam inveniam aut faciam. 
+5. Tempus omnia revelat. 
+6. Audi alteram partem. 
+7. Mens sana in corpore sano. 
+8. Quod me nutrit me destruit. 
+9. Festina lente. 
+10. Res non verba. 
+11. Exitus acta probat. 
+12. Carpe diem. 
+13. Qui nimis probat, nihil probat. 
+14. Memento mori. 
+15. Nihil novi sub sole. 
+16. Alea iacta est. 
+17. Festina lente. 
+18. Non est vivere, sed valere vita. 
+19. Post mortem nihil, sed magna cinis. 
+20. Quod suis usibus aptum. 
+21. Quidquid agis, prudenter agas et respice finem. 
+22. Nil desperandum. 
+23. Aequam servare mentem.
+24. Vincit qui se vincit. 
+25. Mens sana in corpore sano. 
+26. Quod tibi non vis, alteri ne feceris. 
+27. Errare humanum est. 
+28. Non est ad astra mollis e terris via. 
+29. Qui nimis probat, nihil probat. 
+30. Qui docet, discit. 
+31. Ars longa, vita brevis. 
+32. Omnia mutantur, nihil interit. 
+33. Nil novi sub sole. 
+34. Sapiens nihil regretit. 
+35. Quod tibi fieri non vis, alteri non feceris. 
+36. Quo vadis? 
+37. Caveat emptor. 
+38. Quod differtur non aufertur. 
+39. Tempus edax rerum. 
+40. Age quod agis. 
+41. Magnum cum periculum. 
+42. Parva leves capiunt animos. 
+43. Fiat justitia ruat caelum. 
+44. Verba volant, scripta manent. 
+45. Veni, vidi, vici. 
+46. Qui habet aures audiendi, audiat. 
+47. Nil nisi bonum de mortuis. 
+48. In vino

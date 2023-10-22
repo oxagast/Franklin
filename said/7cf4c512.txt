@@ -1,0 +1,15 @@
+bookworm asked how to set time on a C64 with hash 7cf4c512
+<---- snip ---->
+1. Turn off the C64 by pressing and holding the RUN/STOP key.
+
+2. Turn on the C64 by pressing and holding the RESTORE key.
+
+3. Press the F1 key.
+
+4. Use the arrow keys to select the Set Time option.
+
+5. Use the plus (+) and minus (-) keys to adjust the hour, minutes and seconds.
+
+6. Press the RETURN key to save your changes.
+
+7. Press the F3 key to exit the Set Time menu.

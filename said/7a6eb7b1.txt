@@ -1,0 +1,3 @@
+Zed asked how many security breaches has atlassian had with hash 7a6eb7b1
+<---- snip ---->
+Atlasian has experienced 6 security breaches over the past several years, including a major breach in July 2020 that exposed the details of over 50 million users.

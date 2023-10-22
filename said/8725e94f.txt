@@ -1,0 +1,3 @@
+happydude asked are a set and a group the same thing? with hash 8725e94f
+<---- snip ---->
+No, a set and a group are not the same thing. A set is an unordered collection of distinct elements, while a group is a set of elements with an associative operation.

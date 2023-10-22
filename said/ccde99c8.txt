@@ -1,0 +1,5 @@
+when was java developed
+-------- snip --------
+
+
+Java was developed in 1995 by James Gosling at Sun Microsystems.

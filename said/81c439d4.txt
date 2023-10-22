@@ -1,0 +1,3 @@
+bookworm asked What is the article for the word German in German? with hash 81c439d4
+<---- snip ---->
+Der Artikel für das Wort "German" auf Deutsch ist "der".

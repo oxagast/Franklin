@@ -1,0 +1,5 @@
+Why is CoBOL so aweful
+-------- snip --------
+
+
+CoBOL is an archaic language that has been around since the 1950s and has not kept up with the times. It is verbose, difficult to read and understand, and does not have features common in modern languages such as object-oriented programming and garbage collection. Additionally, it is difficult to integrate into modern systems, and can be costly to maintain due to the lack of qualified developers.

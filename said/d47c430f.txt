@@ -1,0 +1,3 @@
+bookworm asked Seti @ home distributed computing program with hash d47c430f
+<---- snip ---->
+Seti@home is a distributed computing project for searching for extraterrestrial intelligence (SETI). It uses Internet-connected computers to search for radio signals from space that might be from intelligent extraterrestrial life. The project began in 1999 and is coordinated by the University of California, Berkeley. It has been the longest running distributed computing project in history. The project relies on volunteers to donate their unused computing power to analyze radio telescope data. It has over 5 million volunteers and has processed over 500 exabytes of data.

@@ -1,0 +1,29 @@
+Wireguard linux setup wiki
+-------- snip --------
+
+
+This page provides an overview of how to set up WireGuard on Linux.
+
+Setting up WireGuard on Linux involves several steps:
+
+1. Download and install the WireGuard software package
+
+2. Generate a private and public key pair for the WireGuard server
+
+3. Create a WireGuard configuration file
+
+4. Configure the WireGuard server
+
+5. Configure the WireGuard client
+
+6. Test the WireGuard connection
+
+1. Download and install the WireGuard software package
+
+The first step is to download and install the WireGuard software package for your Linux distribution. The WireGuard software package is available for Ubuntu, Debian, CentOS, and Fedora.
+
+2. Generate a private and public key pair for the WireGuard server
+
+Once the WireGuard software package is installed, generate a private and public key pair for the WireGuard server. This can be done with the command:
+
+wg gen

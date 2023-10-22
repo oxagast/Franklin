@@ -1,0 +1,5 @@
+Suppose you have two jugs that hold 7 gallons and 10 gallons of liquid respectively. Let’s further suppose that there are no visible markings on the jug, thus making it impossible to eyeball the volume of liquid inside. Now, how would you fill up these jugs so that they sum to exactly 12 gallons?
+-------- snip --------
+
+
+One way to do this is to fill up the 7-gallon jug. Then, pour all the liquid from the 7-gallon jug into the 10-gallon jug until it is full. This leaves 3 gallons of liquid in the 7-gallon jug. Then, empty the 10-gallon jug, and pour the 3 gallons of liquid from the 7-gallon jug into the 10-gallon jug. This will leave the 10-gallon jug with 3 gallons of liquid and the 7-gallon jug with 4 gallons of liquid, which sums up to 12 gallons.

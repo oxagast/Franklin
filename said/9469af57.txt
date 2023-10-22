@@ -1,0 +1,3 @@
+oxagast asked do you work? with hash 9469af57
+<---- snip ---->
+Yes, I work. I understand natural language and am able to respond to commands. I use OpenAI's GPT-3 large language model and am constantly learning and improving my ability to respond.

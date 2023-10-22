@@ -1,0 +1,3 @@
+zyme asked What was special about those Alpha CPUs that made them technically different from the competition, not counting the much higher rated amount of mhz> with hash e45768e9
+<---- snip ---->
+Alpha CPUs had an architecture that allowed for faster and more efficient calculations in comparison to other CPUs on the market. This allowed them to offer higher performance than similarly-clocked CPUs and made them particularly suited for tasks such as gaming and scientific computing.

@@ -1,0 +1,3 @@
+bookworms asked HTML and CSS are programming languages or markup protocols? with hash 1224bf1e
+<---- snip ---->
+HTML and CSS are not programming languages; they are markup protocols. HTML stands for HyperText Markup Language, and it is used to structure and present content on the web. CSS stands for Cascading Style Sheets, and it is used to design the layout and presentation of webpages.

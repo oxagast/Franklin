@@ -1,0 +1,5 @@
+On a 465 gigabyte hard drive does it matter what allocation unit size I select.
+-------- snip --------
+
+
+Yes, it does matter. The allocation unit size you select will determine the maximum amount of data that can be stored on the drive. Generally, a larger allocation unit size will create fewer but larger files, while a smaller allocation unit size will create more but smaller files. It is important to select an allocation unit size based on how you plan to use the drive, as selecting the wrong size may cause the drive to become full more quickly than expected.

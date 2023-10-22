@@ -1,0 +1,5 @@
+morb asked write me a program that prints hello world in rust with hash b81c4fca
+<---- snip ---->
+fn main() {
+    println!("Hello World!");
+}

@@ -1,0 +1,3 @@
+RDNt asked what is kon boot? with hash ac57fedd
+<---- snip ---->
+Kon-Boot is a software that allows you to bypass the authentication process of Windows and log into a computer without knowing the password. It's a popular tool used by hackers and security professionals alike to gain access to systems without knowing the password.

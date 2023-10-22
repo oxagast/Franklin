@@ -1,0 +1,6 @@
+CerebraNet asked Write a hello world program in Klingon with hash 767171cf
+<---- snip ---->
+Franklin:
+Ghotvam jIyajbe':
+
+print("Hello, world!")

@@ -1,0 +1,11 @@
+bookworm asked list compounds which are resistant to sulphuric acid and if teflon found, is it easy to deduce that teflon is resistant to sulfuric acid? with hash 41b87222
+<---- snip ---->
+Compounds which are resistant to sulfuric acid include:
+-Teflon
+-Graphite
+-Diamond
+-Rubber
+-Glass
+-Ceramics
+
+Yes, it is easy to deduce that Teflon is resistant to sulfuric acid since it is listed as one of the compounds which are resistant to the acid.

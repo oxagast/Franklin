@@ -1,0 +1,5 @@
+What versions of RTL-SDR hardware are there
+-------- snip --------
+?
+
+There are three main versions of RTL-SDR hardware: RTL-SDR V3, RTL-SDR V3 Pro, and RTL-SDR V3 Pro+ (also known as the "Pro Plus"). The V3 Pro+ has the highest specifications, with support for up to 3.2GHz of bandwidth, the highest sensitivity, and the best signal-to-noise ratio.

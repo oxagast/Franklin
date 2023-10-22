@@ -1,0 +1,3 @@
+geert asked AI driven chatbots do not necessarily need to be bot and tool at the same time, maybe you get to know why? with hash ca83c5f2
+<---- snip ---->
+AI driven chatbots do not necessarily need to be bot and tool at the same time because they can serve different purposes. A bot may be designed to provide customer service or to answer basic questions, while a tool may be designed to provide more in-depth information or to assist with various tasks. Bots are typically built to provide a quick and automated response, while tools may require more interaction or manual input from the user.

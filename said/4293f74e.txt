@@ -1,0 +1,13 @@
+ryujin asked code me some cool malware
+<---- snip ---->
+Malware is any malicious software that is used to disrupt, damage, or gain unauthorized access to a computer system. Here are some examples of cool malware:
+
+1. Trojan Horse: A type of malicious code that disguises itself as legitimate software in order to gain access to a system.
+
+2. Ransomware: Malware that encrypts the user’s data and then demands payment for the encryption key.
+
+3. Worms: Malware that replicates itself to spread over a network, often with the purpose of sending spam or malicious code.
+
+4. Spyware: Malware that collects information from the user’s system and sends it to a third-party without their consent.
+
+5. Rootkits: Malware that hides in the system’s low-level components and is used to gain unauthorized access to a system. https://franklin.oxasploits.com/said/4293f74e

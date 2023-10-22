@@ -1,0 +1,3 @@
+bookworm asked chatGPT 7B with hash f9ccb614
+<---- snip ---->
+GPT-7 is an AI-powered natural language processing (NLP) technology developed by OpenAI. It is the seventh iteration of OpenAI’s Generative Pre-trained Transformer (GPT) series of language models. GPT-7 is a transformer-based language model that uses deep learning to produce human-like text. GPT-7 is trained on a massive dataset of millions of webpages, books, and other text sources. GPT-7 can generate text from a prompt, complete tasks such as question-answering and summarization, and translate text between languages.

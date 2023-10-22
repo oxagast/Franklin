@@ -1,0 +1,3 @@
+CerebraNet asked Are any surge protectors rated for 765,000 volts with hash 41696845
+<---- snip ---->
+No, surge protectors are not rated for 765,000 volts. The highest voltage rating for a surge protector is 6,000 volts.

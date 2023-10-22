@@ -1,0 +1,5 @@
+bookworm asked Fibonaci with hash 8c99ee17
+<---- snip ---->
+(7));
+
+//Output: 13

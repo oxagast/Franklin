@@ -1,0 +1,3 @@
+CerebraNet asked In windows 11, how do I find what processes are running. with hash 8658ee2b
+<---- snip ---->
+You can find what processes are running in Windows 11 by using the Task Manager. To open the Task Manager, press the Windows key + X and select Task Manager. The Task Manager will open and show you all the processes that are currently running on your system.

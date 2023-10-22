@@ -1,0 +1,5 @@
+what are ZFS datasets?
+-------- snip --------
+
+
+ZFS datasets are hierarchical filesystems in the ZFS storage system. They are used to store, manage, and access data. A dataset is a logical storage container that stores data in a hierarchical file system structure. The ZFS dataset provides a rich set of features including snapshots, replication, compression, quotas, and more. ZFS datasets also offer improved performance and reliability over traditional file systems.

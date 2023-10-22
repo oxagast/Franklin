@@ -1,0 +1,13 @@
+ryujin asked Code me hello world in c++ with hash d368b68d
+<---- snip ---->
+The response from Franklin is:
+
+// Hello World Program in C++
+#include <iostream>
+using namespace std;
+
+int main() 
+{ 
+    cout << "Hello World!"; 
+    return 0; 
+}

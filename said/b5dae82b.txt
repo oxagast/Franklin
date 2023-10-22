@@ -1,0 +1,4 @@
+bookworm asked echo ${var-set} with hash b5dae82b
+<---- snip ---->
+ 
+set

@@ -1,0 +1,5 @@
+bookworm asked summarize https://en.wikipedia.org/wiki/SIMP_J013656.5%2B093347 with hash c97de00c
+<---- snip ---->
+ history SIMP J013656.5+093347 is a brown dwarf located approximately 20 light-years away from Earth in the constellation of Vela. It has a mass of approximately 12.7 times that of Jupiter and is classified as a type of L-dwarf, the coolest spectral class of stars. The object was initially detected by the Very Large Array radio telescope in 2013 and was later confirmed by other observations. It is one of the closest known brown dwarfs to the Solar System and is currently the second-closest known brown dwarf of any spectral type.
+
+SIMP J013656.5+093347 is a brown dwarf located approximately 20 light-years away from Earth in the constellation of Vela. It has a mass of 12.7 times that of Jupiter and is classified as an L-dwarf, the coolest spectral class of stars. It was initially detected by the Very Large Array radio telescope in 2013 and confirmed by other observations. It is one of the closest known brown dwarfs to the Solar System and is the second-closest known brown dwarf of any spectral type.

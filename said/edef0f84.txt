@@ -1,0 +1,3 @@
+RDNt asked what is the name of the i2c modules for openrgb and steamdeck hardware with hash edef0f84
+<---- snip ---->
+The I2C modules for OpenRGB and Steamdeck hardware are named 'I2C-Tools' and 'I2C-Bus'.

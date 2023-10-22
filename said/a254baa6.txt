@@ -1,0 +1,3 @@
+margrim asked What was Mir? with hash a254baa6
+<---- snip ---->
+Mir was a free and open-source computer display server developed by Canonical Ltd., the company behind the popular Ubuntu Linux distribution. It was designed to provide an integrated experience across multiple form factors, such as laptops, tablets, and smartphones. Mir was intended to replace the X Window System as the default display server for Ubuntu, but was discontinued in favor of the Wayland display server in 2019.

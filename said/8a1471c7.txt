@@ -1,0 +1,5 @@
+Can bitcoin ASICs be used for Distributed Net?
+-------- snip --------
+
+
+No, Bitcoin ASICs are designed to be used for Bitcoin specifically and are not designed to be used for distributed net.

@@ -1,0 +1,13 @@
+how do I prepare a windows sam file for processing by john the ripper
+-------- snip --------
+
+
+1. Download the Windows SAM file from the Windows system.
+
+2. Use the pwdump7 tool to convert the SAM file into a format compatible with John the Ripper.
+
+3. Run pwdump7 with the following command:
+
+pwdump7 <sam_file_name> > <john_file_name>
+
+4. The resulting file can be used as input for John the Ripper.

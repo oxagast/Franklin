@@ -1,0 +1,3 @@
+zyme asked Even the Fortezza based ones that connect to normal telephone lines? with hash 139956d5
+<---- snip ---->
+Yes, the Fortezza based ones can connect to normal telephone lines. In fact, it is possible to make secure calls over the Internet using these phones, as long as they are connected to a VOSIP-compatible server.

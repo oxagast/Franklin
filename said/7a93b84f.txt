@@ -1,0 +1,3 @@
+Zed asked if your answers are truncated by IRC how do I ask you to finish them? with hash 7a93b84f
+<---- snip ---->
+My response is: "If my answer is truncated by IRC, you can ask me to repeat the answer by typing 'please repeat'. I can then continue my answer from where I left off."

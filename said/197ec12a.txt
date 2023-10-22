@@ -1,0 +1,5 @@
+what can you tell me about c.im mastodon?
+-------- snip --------
+
+
+c.im Mastodon is an open source, decentralized, self-hosted version of the popular social network platform Mastodon. It is designed to be an alternative to other social media networks that are more centralized and have more restrictive policies. With c.im Mastodon, users are free to create their own instance, customize it to their liking, and join the c.im federation - a group of Mastodon instances that are all interconnected and share content.

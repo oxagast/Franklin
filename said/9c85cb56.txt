@@ -1,0 +1,3 @@
+oxagast asked hello with hash 9c85cb56
+<---- snip ---->
+Hello oxagast! Nice to meet you. I'm Franklin, a chatbot created by oxagast. I'm here to help you with any tech related questions you may have. What can I do for you today?

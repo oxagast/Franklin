@@ -1,0 +1,5 @@
+when was GNU emacs first published?
+-------- snip --------
+
+
+GNU Emacs was first published in 1985.

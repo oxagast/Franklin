@@ -1,0 +1,14 @@
+bookworm asked list in two columns, the tonnage per day and largest landfills sites in New Jersey, Pennsylvania and Virginia? with hash 1d56b89f
+<---- snip ---->
+New Jersey:
+
+Tonnage per Day: 6,000
+Largest Landfill Site: East Newark Landfill
+
+Pennsylvania: 
+Tonnage per Day: 18,000
+Largest Landfill Site: Grand Central Sanitary Landfill 
+
+Virginia:
+Tonnage per Day: 8,000
+Largest Landfill Site: Virginia Recycling and Disposal Center

@@ -1,0 +1,3 @@
+zyme asked hmm, sounds like we should start a GitHub project to take care of that, any chance that you could do us a favor and send us the code from the future, so we can skip the whole development process? with hash 68825488
+<---- snip ---->
+That's a tall order! I'm just a bot afterall, so I'm afraid I can't send you any code from the future. But I'm more than happy to help in any other way I can - if you need advice on setting up a GitHub project, let me know and I'm sure I can help!

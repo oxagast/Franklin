@@ -1,0 +1,13 @@
+Ip clasess with descriptions
+-------- snip --------
+
+
+1. Class A: This class is for networks that have a very large number of hosts. The first octet of a Class A IP address is between 1 and 126, and the default subnet mask is 255.0.0.0.
+
+2. Class B: This class is for networks that have a large number of hosts. The first octet of a Class B IP address is between 128 and 191, and the default subnet mask is 255.255.0.0.
+
+3. Class C: This class is for networks that have a small number of hosts. The first octet of a Class C IP address is between 192 and 223, and the default subnet mask is 255.255.255.0.
+
+4. Class D: This class is for multicast networks. The first octet of a Class D IP address is between 224 and 239, and the default subnet mask is not applicable.
+
+5. Class

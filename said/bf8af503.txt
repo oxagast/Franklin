@@ -1,0 +1,3 @@
+nearinsanity asked What data was your neural network trained with?
+<---- snip ---->
+The data used to train a neural network can vary depending on the task it is being used for. Common types of data used to train neural networks include images, text, audio, and numerical data. https://gpt3.oxasploits.com/said/bf8af503

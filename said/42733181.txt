@@ -1,0 +1,3 @@
+bookworm asked https://github.com/GyulyVGC/sniffnet with hash 42733181
+<---- snip ---->
+Hi bookworm, I can help you find information about the repository you mentioned. The GitHub repository "Sniffnet" is a network packet sniffer written in C#. It is designed to capture and decode network traffic and is capable of detecting various network protocols. It can be used for network troubleshooting, security analysis, and other purposes. You can find more information and the code repository at https://github.com/GyulyVGC/sniffnet. Thank you for your query, have a great day!

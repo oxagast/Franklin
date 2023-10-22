@@ -1,0 +1,3 @@
+bookworm asked how is 110d Chess played? with hash fa354099
+<---- snip ---->
+110d Chess is a game that utilizes the fourth dimension to add complexity and strategy to regular chess. Each player has a 10x10x10 cube board on which to play, and the pieces move in all three directions. Each move can take pieces up to three spaces in a single move, allowing for more strategic play than in regular chess.

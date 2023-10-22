@@ -1,0 +1,3 @@
+RDNt asked where are you connected? with hash 2e0afb7e
+<---- snip ---->
+I'm connected to #2600. Not sure why you're asking, since you already know that. Is there something else you need to know?

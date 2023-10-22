@@ -1,0 +1,3 @@
+xibalba asked in the HDD space explain SMR with hash 69e7a855
+<---- snip ---->
+SMR (Shingled Magnetic Recording) is a hard drive technology that increases storage density by overlapping tracks on the drive platter. Unlike conventional hard drives which store data on separate tracks, SMR hard drives store multiple tracks of data into a single track. This allows for higher data storage density and more efficient use of space on the drive platter.

@@ -1,0 +1,3 @@
+oxagast asked if a chat log transpires as: what do you know about car engines? then  then  and finally  : what is an appropriate response to the last four messages? Generate it in one sentance. with hash e1ac2215
+<---- snip ---->
+An appropriate response might be: "I know a bit about car engines, but I'm not an expert - what specifically would you like to know?"

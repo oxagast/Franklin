@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked Collision detection in a 2d game with hash 2ce840ed
+<---- snip ---->
+Collision detection in a 2d game is the process of detecting when two objects have interacted with each other. This can be done in a variety of ways, including pixel-perfect detection, bounding box detection, raycasting, and more. Each method has its own advantages and disadvantages, so it’s important to choose the one that best fits the needs of your game.

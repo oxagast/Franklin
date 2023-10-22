@@ -1,0 +1,5 @@
+CerebraNet asked What is the prime interest rate with hash 3b859dcb
+<---- snip ---->
+?
+
+The prime interest rate is the interest rate that banks charge to their most creditworthy customers. It is often used as a benchmark for other interest rates. The current prime interest rate in the United States is 3.25%.

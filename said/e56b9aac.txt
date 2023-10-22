@@ -1,0 +1,5 @@
+is illumos derived from solaris or from opensolaris?
+-------- snip --------
+
+
+Illumos is derived from OpenSolaris.

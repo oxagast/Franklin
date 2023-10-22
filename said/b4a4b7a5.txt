@@ -1,0 +1,3 @@
+RDNt asked irc.oxasploits.com doesnt resolve are you using local DNS? with hash b4a4b7a5
+<---- snip ---->
+Hmm, that's strange. Are you sure you're entering the correct address? It should be irc.oxasploits.com. If you're using a local DNS, it's possible that the server isn't being resolved correctly.

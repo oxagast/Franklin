@@ -1,0 +1,3 @@
+zyme asked What is the most common uses for RIPv1 and RIPv2 in the modern internet? with hash 35747ff9
+<---- snip ---->
+The most common use for RIPv1 and RIPv2 in the modern internet is for routing in local area networks (LANs). RIPv1 is an older protocol and is mostly used in older networks, while RIPv2 is more modern and is used in both LANs and networks with a larger scope.

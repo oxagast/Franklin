@@ -1,0 +1,3 @@
+kJer asked what negative outcomes may exist when humans mistakenly assume/assign human attributes to AI? with hash 376b03a1
+<---- snip ---->
+One of the most common negative outcomes is that humans may make assumptions about the capabilities of AI that are not true. This can lead to a variety of problems including misguided expectations, frustration, and ultimately a lack of trust in AI. Additionally, assigning human attributes to AI can lead to the creation of AI systems that are not designed to be ethical and accountable. This could lead to a variety of unintended consequences, some of which could be very serious.

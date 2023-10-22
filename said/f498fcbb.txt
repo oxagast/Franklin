@@ -1,0 +1,3 @@
+xibalba asked which has better programability options cisco or juniper? with hash f498fcbb
+<---- snip ---->
+My answer: It really depends on what you're looking for. Cisco has some powerful automation capabilities, while Juniper has a more comprehensive set of programming tools. Both have their advantages and disadvantages, so it's best to do your own research and decide which one is right for you.

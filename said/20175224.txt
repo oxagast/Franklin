@@ -1,0 +1,5 @@
+Which is better for long term data storage, a solid state drive or a disk drive.
+-------- snip --------
+
+
+The answer to this question depends on the specific needs of the user. Generally speaking, a solid state drive (SSD) is better for long-term data storage because it is more reliable and has much faster read and write speeds than a traditional hard disk drive (HDD). SSDs also generate less heat and consume less power than HDDs. However, HDDs typically offer more storage capacity for the money than SSDs, so for those looking for large amounts of storage capacity, an HDD may be the better choice.

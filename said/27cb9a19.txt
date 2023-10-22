@@ -1,0 +1,3 @@
+salazar asked what is the ISO for project management with hash 27cb9a19
+<---- snip ---->
+The ISO for project management is ISO 21500:2012, which is an international standard for project management, providing guidelines to assist practitioners in organizing and managing a project throughout its life cycle.

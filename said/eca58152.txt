@@ -1,0 +1,72 @@
+oxagast asked $apikey" with hash eca58152
+<---- snip ---->
+}
+
+#
+# Get a list of all the services
+#
+get_services_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of services
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/services"
+}
+
+#
+# Get list of all the escalation policies
+#
+get_escalation_policies_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of escalation policies
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/escalation_policies"
+}
+
+#
+# Get list of all the users
+#
+get_users_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of users
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/users"
+}
+
+#
+# Get a list of all the teams
+#
+get_teams_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of teams
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/teams"
+}
+
+#
+# Get list of all the schedules
+#
+get_schedules_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of schedules
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/schedules"
+}
+
+#
+# Get list of all the integrations
+#
+get_integrations_list() {
+	# make sure there are no spaces in the API key
+	apikey=$(echo $1 | tr -d ' ')
+
+	# Get the list of integrations
+	curl -s -H "X-API-Key: $apikey" "https://api.pagerduty.com/integrations"
+}
+
+#
+# Get list of all the

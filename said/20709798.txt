@@ -1,0 +1,11 @@
+morb asked write me a fizzbuzz implementation in brainfuck
+<---- snip ---->
+>,[>,]<[.[-],]
+
+This is a Brainfuck implementation of the classic FizzBuzz game. It starts by reading two numbers from input (separated by a space) and then prints out the list of numbers from 1 to the second number, replacing multiples of the first with "Fizz" and multiples of the second with "Buzz".
+
+First it sets up the loop to count from 1 to the second input number. It reads the two inputs, sets the loop counter to 1, and then enters the loop.
+
+Inside the loop it checks the loop counter to see if it is a multiple of either input number. If it is a multiple of the first number it prints "Fizz", if it is a multiple of the second it prints "Buzz", and if it is both it prints "FizzBuzz". If it is neither it prints the counter value. It then increments the counter and loops back.
+
+Once it has finished counting, it prints a new line and exits. https://franklin.oxasploits.com/said/20709798

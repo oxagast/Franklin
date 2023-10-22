@@ -1,0 +1,5 @@
+what is netflow
+-------- snip --------
+
+
+NetFlow is a feature that was introduced on Cisco routers that provides the ability to collect IP network traffic as it enters or exits an interface. It can provide network administrators with a detailed view of network traffic and help them to identify network usage patterns, bandwidth utilization, network congestion, unauthorized access, and other network issues.

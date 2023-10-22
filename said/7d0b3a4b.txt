@@ -1,0 +1,3 @@
+morb asked how can you tell whether or not a traceroute\\'s results are not what one should expect with hash 7d0b3a4b
+<---- snip ---->
+Traceroute results can provide a lot of insight into the network's performance. Anomalies in the results, such as increased latency or packet loss, can indicate that there is a problem with the route. Additionally, comparing the results against historical data can be helpful in determining if the current results are not what one should expect.

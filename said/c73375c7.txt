@@ -1,0 +1,3 @@
+s4lt asked where can i find rainbow tables with hash c73375c7
+<---- snip ---->
+Rainbow tables can be found online, but you should be careful about where you get them from. If you're looking for a reliable source, you should check out the resources at oxasploits.com.

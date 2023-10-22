@@ -1,0 +1,5 @@
+is there a possibility to get the same mac address for the same IP in the output of arping using the same interface as argument to -I ?
+-------- snip --------
+
+
+No, it is not possible to get the same MAC address for the same IP address in the output of arping using the same interface as argument to -I. The MAC address is associated with the interface that is used to send the ARP request, so by using the same interface, the same MAC address will be received for the same IP address.

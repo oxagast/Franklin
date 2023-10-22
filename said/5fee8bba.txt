@@ -1,0 +1,3 @@
+bookworm asked what counting system does klingon use? with hash 5fee8bba
+<---- snip ---->
+Klingon uses a base-8 counting system.

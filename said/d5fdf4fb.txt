@@ -1,0 +1,5 @@
+bookworms asked Can you write code in brainfuck? with hash d5fdf4fb
+<---- snip ---->
+Yes. Brainfuck is an esoteric programming language that uses a set of 8 simple commands. Here is an example of a "Hello World" program written in Brainfuck:
+
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.

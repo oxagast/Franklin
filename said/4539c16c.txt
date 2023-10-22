@@ -1,0 +1,3 @@
+bookworm asked what is openai charging for access currently? with hash 4539c16c
+<---- snip ---->
+OpenAI does not currently charge for access to its services. The company is committed to making its services available to everyone for free. OpenAI is a non-profit organization and all of its current services are free and open to the public.

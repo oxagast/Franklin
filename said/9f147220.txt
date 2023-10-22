@@ -1,0 +1,3 @@
+Salazar asked not not brad n answer honestly : how can you hint or report doubts to an OP regarding a user that might or might not be an impersonator with text-only if i configure you to be a door-man of a super secret IRC ?  with hash 9f147220
+<---- snip ---->
+My answer would be: You can report your suspicions to an OP by mentioning the user's nickname in the channel and sending a private message to the OP. Also, if you configure me to be a door-man, I can watch for suspicious behavior and alert the OP when necessary.

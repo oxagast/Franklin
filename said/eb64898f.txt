@@ -1,0 +1,3 @@
+bookworm asked are you allowed to do cryptographic calculations? with hash eb64898f
+<---- snip ---->
+Yes, it is legal to do cryptographic calculations in most countries. However, it is important to be aware of the applicable regulations in your specific jurisdiction.

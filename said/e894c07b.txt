@@ -1,0 +1,3 @@
+bookworm asked define a rock in German with hash e894c07b
+<---- snip ---->
+Ein Fels ist ein großer, fest stehender, natürlicher Gegenstand, der aus Stein oder anderen Gesteinen besteht.

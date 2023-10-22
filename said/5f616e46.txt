@@ -1,0 +1,5 @@
+how do you identify duplicated IP addresses with arping?
+-------- snip --------
+
+
+Unfortunately, you cannot identify duplicated IP addresses with arping. Arping is a utility used to send ICMP (Internet Control Message Protocol) Echo Request packets to a specified host to determine if it is alive or not. However, you can use a tool such as nmap to scan a network and identify hosts with duplicate IP addresses.

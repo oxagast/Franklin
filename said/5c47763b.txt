@@ -1,0 +1,5 @@
+dclaw asked what say you about GPT-4? https://openai.com/research/gpt-4 with hash 5c47763b
+<---- snip ---->
+/
+
+GPT-4 is an incredible advancement in natural language processing technology. It is the latest version of OpenAI's Generative Pre-trained Transformer, a powerful language model that has the capability to generate human-like text. GPT-4 has been trained on a massive amount of data and can generate text that is coherent, convincing and relevant to the given prompt. It has the potential to revolutionize many industries, from creative writing to customer service.

@@ -1,0 +1,5 @@
+which devices mac address will I see in the output of arping if I arping a device that is in another LAN segment?
+-------- snip --------
+
+
+No, you will not see any MAC addresses in the output of arping if the device is in another LAN segment. ARP is a protocol used to discover devices on the same local network, so if the device is on a different LAN segment, it will not show up in the output of arping.

@@ -1,0 +1,11 @@
+bookworm asked list all unicode numbers for character duplication of the latin letter \\'i\\' \u0069 with hash 3d035d30
+<---- snip ---->
+.e. 'ii'
+
+The Unicode numbers for the character duplication of the Latin letter 'i' i.e. 'ii' are:
+
+\u0069\u0069
+\u026A\u026A
+\u2148\u2148
+\u1D62\u1D62
+\uA7A8\uA7A8

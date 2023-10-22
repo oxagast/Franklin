@@ -1,0 +1,5 @@
+State a fictional quote about how bad linux is, and how good windows is, in the style of Linus Torvalds
+-------- snip --------
+
+
+"The Linux OS is a complete joke, and Windows is the only OS worth your time. The only true path to success is through Windows."

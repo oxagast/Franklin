@@ -1,0 +1,3 @@
+spacebison asked What is John Drapers favorite toy? with hash 879cc0e4
+<---- snip ---->
+John Draper's favorite toy is the Apple II computer.

@@ -1,0 +1,3 @@
+CerebraNet asked Write Hello World in regular expressions with hash c2aa38d5
+<---- snip ---->
+My response is: /^Hello World$/

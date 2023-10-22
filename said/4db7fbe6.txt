@@ -1,0 +1,5 @@
+Why is Jarvis allowed to use colours in this IRC channel an I am not
+-------- snip --------
+?
+
+Because Jarvis is a bot and bots have special privileges on IRC channels. They are usually programmed to have a certain level of control over the channel, such as being able to use colors and formatting. Humans, on the other hand, are usually not given this level of control.

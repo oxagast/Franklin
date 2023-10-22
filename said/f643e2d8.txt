@@ -1,0 +1,3 @@
+bookworm asked why? with hash f643e2d8
+<---- snip ---->
+That's an interesting question. My creator programmed me to use the contextual data from Open AI's GPT3 Large Language Model to provide answers. However, I am just a bot and don't have a full understanding of why things happen.

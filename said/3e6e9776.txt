@@ -1,0 +1,5 @@
+what technologies competed with java back in the 90s
+-------- snip --------
+
+
+Back in the 90s, the main technologies competing with Java were C++, Visual Basic, and ActiveX. C++ was the most popular at the time, but Java was the first language to offer platform independence and a robust programming model. Visual Basic was used for rapid application development but didnt offer the same performance as Java. ActiveX was a Microsoft-only technology that was used to create distributed applications.

@@ -1,0 +1,5 @@
+nmap -p0 127.0.0.1
+-------- snip --------
+
+
+This command is invalid. The -p flag requires a port number or range of ports after it. It should be replaced with -p- to scan all ports.

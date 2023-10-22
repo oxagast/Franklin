@@ -1,0 +1,3 @@
+morb asked write out every third letter of the alphabet in reverse, transposing the second and third character per grouping with hash ee1b054a
+<---- snip ---->
+ZM, GL, EF, CI

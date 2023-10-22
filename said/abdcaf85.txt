@@ -1,0 +1,3 @@
+bookworm asked give examples of a radix sort with hash abdcaf85
+<---- snip ---->
+A radix sort works by sorting elements based on their individual digits. For example, if the elements were numbers from 0-9, the algorithm would sort them based on their least significant digit. If the elements were strings, the algorithm would sort them based on the first letter, then the second letter, etc. A simple example of a radix sort would be to sort a list of numbers from 0-9 in ascending order.

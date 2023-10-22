@@ -1,0 +1,3 @@
+oxagast asked send me a test message please with hash 682b531d
+<---- snip ---->
+. Your response should be: Sure! Here is your test message.

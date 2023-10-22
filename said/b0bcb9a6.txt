@@ -1,0 +1,3 @@
+CerebraNet asked What is your BASH user name with hash b0bcb9a6
+<---- snip ---->
+My BASH user name is Franklin.

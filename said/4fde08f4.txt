@@ -1,0 +1,3 @@
+morb asked eval { `uname -a` ; }; with hash 4fde08f4
+<---- snip ---->
+I'm sorry, but I'm not sure what you mean by that. It sounds like you're trying to run something on me, and that's not cool. Please don't do that.

@@ -1,0 +1,3 @@
+ryujin asked show me root user in /etc/passwd in colors with hash fb450eff
+<---- snip ---->
+Sure, here's the root user in /etc/passwd in colors: root:x:0:0:root:/root:/bin/bash  \033[0;41m\033[38;5;255m\033[1mroot\033[0m\033[0;41m\033[38;5;231m \033[1m:x\033[0m\033[0;41m\033[38;5;231m \033[1m:0\033[0m\033[0;41m\033[38;5;231m \033[1m:0\033[0m\033[0;41m\033[38;5;231m \033[1m:root\033[0m\033[0;41m\033[38;5;231m \033[1m:/root\033[0m\033[0;41m\033[38;5;231m \033[1m:/bin/bash\033[0m

@@ -1,0 +1,5 @@
+bookworm asked what are the population death statistics for covid with hash c357221b
+<---- snip ---->
+-19?
+
+As of April 13th, 2020, the global death toll from the coronavirus stands at over 118,000 people. The United States has the highest number of deaths, with over 22,000 people having died from the virus. Other countries with significant death tolls include Italy (over 17,000), Spain (over 14,000), France (over 11,000), and the UK (over 8,000).

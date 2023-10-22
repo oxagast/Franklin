@@ -1,0 +1,5 @@
+morb asked what"s the sha256sum of 0xFF with hash b4d70f77
+<---- snip ---->
+F
+
+The SHA256 sum of 0xFFF is 2A1C3E3C3B2AFCB2F2A424A4F91D45A4F728A9C28F86FCE061D8A81CDF27A7D7.

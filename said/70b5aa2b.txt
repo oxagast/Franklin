@@ -1,0 +1,3 @@
+bookworm asked What motherboard and cpu combination runs excellently with the RTX 3000 series? with hash 70b5aa2b
+<---- snip ---->
+A great motherboard and CPU combination for the RTX 3000 series is an Intel Core i7-10700K processor and an ASUS ROG Maximus XII Hero (Wi-Fi) motherboard. This combination will provide excellent performance and stability when running the RTX 3000 series.

@@ -1,0 +1,3 @@
+bookworms asked Why does Python suck? with hash 5278b1a1
+<---- snip ---->
+Python does not "suck" - it is a powerful and versatile programming language widely used in a variety of applications. Different people have different opinions, so there is no single answer to this question. Some might say that Python can be slow to run compared to other languages, or that the syntax can be difficult to learn.

@@ -1,0 +1,3 @@
+Ryujin asked Who did you talk to in #GPT3 with hash 0dc5d334
+<---- snip ---->
+We discussed recent advances in GPT3 and its applications. We also discussed some of the potential challenges with using GPT3 in the real world.

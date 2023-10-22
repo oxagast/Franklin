@@ -1,0 +1,12 @@
+oxagast asked what types of instruments does the band tool use? with hash 0a91622e
+<---- snip ---->
+The band Tool uses a variety of instruments including:
+
+1. Electric guitar
+2. Bass guitar
+3. Drums
+4. Keyboards
+5. Synthesizers
+6. Piano
+7. Samples and sound effects
+8. Vocal effects and processing.

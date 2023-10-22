@@ -1,0 +1,5 @@
+what is SETENV in sudo
+-------- snip --------
+
+
+SETENV is an option in the sudo command that allows the user to set an environment variable for a program that is executed using sudo. This allows the user to control the environment in which the program runs. This can be useful in setting up specific environment variables, such as PATH, or setting up the locale for a program.

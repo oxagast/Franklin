@@ -1,0 +1,5 @@
+Is the password 00000000 still valid?
+-------- snip --------
+
+
+No, the password 00000000 is not a secure or valid password. It is too simple and easy to guess, and it does not meet most security requirements.

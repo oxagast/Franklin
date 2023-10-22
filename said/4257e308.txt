@@ -1,0 +1,3 @@
+kJer asked is javascript the correct answer? with hash 4257e308
+<---- snip ---->
+My response is: It depends on what you're trying to do with it. Javascript can be a powerful tool when used correctly, but it can also be dangerous if misused. To answer your question, it depends on what you're trying to accomplish.

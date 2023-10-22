@@ -1,0 +1,3 @@
+kJer asked a test designed to identify if a computer program was intelligent enough to pass as human with hash bea5c17d
+<---- snip ---->
+Answer: The Turing Test is a test developed by Alan Turing in 1950 that determines if a computer can pass as a human by being able to understand and respond to questions in a human-like manner. It is considered the most famous and influential test of Artificial Intelligence.

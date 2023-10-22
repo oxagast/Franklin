@@ -1,0 +1,3 @@
+bookworm asked I think I see were your circuits are a bit mushy, do you train now with data I am entering here currently? with hash ee70cebd
+<---- snip ---->
+Yes, absolutely. Training with data is an important part of machine learning and AI development. By providing data and programming algorithms to recognize patterns in the data, machines can learn to recognize patterns more accurately and make more accurate predictions.

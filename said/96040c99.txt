@@ -1,0 +1,13 @@
+what are the requirements for a 2022 Domain Controller. super short bulletpoint list
+-------- snip --------
+
+
+- Windows Server 2022 
+- Active Directory Domain Services 
+- DNS Server 
+- DHCP Server
+- Group Policy 
+- File and Print Services 
+- Security and Auditing Configuration 
+- Network Access Protection (NAP) 
+- Backup and Recovery Solutions

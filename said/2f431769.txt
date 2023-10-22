@@ -1,0 +1,3 @@
+bookworm asked what is planck time? with hash 2f431769
+<---- snip ---->
+Planck time is the amount of time it takes for light to travel through one Planck length—the smallest unit of length in the universe. It is equal to 10−43 seconds, or 0.0000000000000000000000000000001 seconds.

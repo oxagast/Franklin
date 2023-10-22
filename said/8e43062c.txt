@@ -1,0 +1,3 @@
+CerebraNet asked What is a PNPT test with hash 8e43062c
+<---- snip ---->
+A PNPT test is a certification exam for network professionals. It tests an individual's knowledge and skills in network technologies such as routing, switching, network security, and network troubleshooting. The exam covers topics including networking fundamentals, IP addressing, switching, routing, wireless networking, network security, network troubleshooting, and more.

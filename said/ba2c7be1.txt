@@ -1,0 +1,13 @@
+bookworm asked can you generate a file in a format used by bsdgames quiz from 10 german:english words no spaces, all small letters and no line numbering with hash ba2c7be1
+<---- snip ---->
+ger-en
+haus:house
+auto:car
+stein:stone
+buch:book
+kaffee:coffee
+baum:tree
+wasser:water
+haus:home
+fahrrad:bicycle
+sonne:sun

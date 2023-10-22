@@ -1,0 +1,3 @@
+zyme asked Please give me a very short explanation of protein folding predictions benifets  with hash f1f744fb
+<---- snip ---->
+Protein folding predictions can help scientists better understand the structure of proteins and how they interact with other molecules, which can lead to new treatments for diseases. It can also help with drug design and development, as understanding the structure of proteins can help researchers design drugs that interact with them in specific ways.

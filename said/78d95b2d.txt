@@ -1,0 +1,12 @@
+bookworm asked list letters which have the most diacritic marks with hash 78d95b2d
+<---- snip ---->
+The following letters have the most diacritic marks:
+
+1. Ő (Hungarian) - Has two diacritic marks, a double acute accent (˝) and an o with a breve (ŏ) above it.
+2. Ł (Polish) - Often has a diacritic mark called a stroke or bar (ł) through the letter to indicate a different pronunciation than the unmarked letter.
+3. Č (Czech/Slovak) - Has a caron or háček (č) above it, which indicates that the letter is pronounced with a "ch" sound.
+4. Ž (Czech/Slovak) - Also has a caron (ž) above it, indicating a "zh" sound.
+5. Ñ (Spanish) - Has a tilde (~) above it, indicating a nasal "n" sound.
+6. Ś (Polish) - Has an acute accent (ś) above it, indicating a "sh" sound.
+7. Ć (Polish/Croatian/Serbian) - Has an acute accent (ć) above it, indicating a "ch" sound.
+8. Ő (Estonian/Finnish) - Has a double acute accent (ő) above it, indicating a longer sound than the unmarked letter.

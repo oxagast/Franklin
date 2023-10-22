@@ -1,0 +1,21 @@
+bookworm asked list biases that affect humans with hash 9b73d45f
+<---- snip ---->
+1. Gender Bias: A tendency to prefer one gender over another.
+
+2. Racial Bias: Prejudice or discrimination directed against someone of a different race based on the belief that one’s own race is superior.
+
+3. Age Bias: Prejudice or discrimination based on a person’s age.
+
+4. Social Class Bias: Prejudice or discrimination based on a person’s social class or economic status.
+
+5. Religious Bias: Prejudice or discrimination based on a person’s religious beliefs.
+
+6. Sexual Orientation Bias: Prejudice or discrimination based on a person’s sexual orientation.
+
+7. Regional Bias: Prejudice or discrimination based on a person’s geographic location.
+
+8. Political Bias: Prejudice or discrimination based on a person’s political views.
+
+9. Cognitive Bias: A tendency to make decisions and judgments based on preconceived notions and stereotypes.
+
+10. Confirmation Bias: A tendency to only seek out information that confirms one’s existing beliefs.

@@ -1,0 +1,3 @@
+bookworm asked so what is the most reliable way to gain privilege escalations? with hash e135b906
+<---- snip ---->
+The most reliable way to gain privilege escalation is to use a vulnerability exploitation tool such as Metasploit or a custom exploit. Vulnerability exploitation tools allow you to identify and exploit known vulnerabilities, which is often the most reliable way to gain privilege escalation.

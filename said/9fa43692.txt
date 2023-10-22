@@ -1,0 +1,13 @@
+bookworm asked list documentation for TEI with hash 9fa43692
+<---- snip ---->
+The Text Encoding Initiative (TEI) is an international standard for the representation of texts in digital form. It is maintained by the TEI Consortium, a consortium of libraries and other institutions committed to the maintenance and further development of the TEI.
+
+The TEI Guidelines are a set of guidelines for the use of the TEI and provide the standards for encoding text in a digital form. The TEI Guidelines provide detailed instructions on the use of the TEI, as well as the structure and content of the TEI documents. The latest version of the TEI Guidelines is version 3.0.2, released in April 2017.
+
+The TEI Wiki is an online community of TEI users who share information about TEI usage, best practices, and tutorials. The Wiki is a comprehensive source of information about the TEI, and is maintained by the TEI Consortium.
+
+The TEI mailing list is an email list used by the TEI community to discuss TEI-related topics. The mailing list is open to anyone interested in TEI, and is moderated by the TEI Consortium.
+
+The TEI website is the official website of the TEI Consortium. It provides information about the TEI, the TEI Guidelines, and the TEI mailing list.
+
+The TEI GitHub repository is a source code repository for the TEI software. The GitHub repository contains the source code for the TEI software and is used by the TEI community to report bugs and request new features.

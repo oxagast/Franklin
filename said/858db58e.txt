@@ -1,0 +1,8 @@
+bookworm asked List distinct letters from the English alphabet of alphabets for German, Polish, Portuguese, Latin, Spanish and French only listing letters that don\\'t match english letters and also do not include letters that when converted to ASCII are the same as English, for example, Ã¤ in German can become a in English once the omlauts diacritic is converted to ascii with hash 858db58e
+<---- snip ---->
+German: ä, ö, ü, ß
+Polish: ć, ę, ł, ń, ó, ś, ź, ż 
+Portuguese: ç 
+Latin: æ, œ 
+Spanish: ñ 
+French: é, è, ê, ë, ç, à, ù, û, î, ï, œ, ÿ

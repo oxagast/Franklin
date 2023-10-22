@@ -1,0 +1,3 @@
+morb asked what"s the lowest power way to bounce a signal off the moon with hash 82d8afdb
+<---- snip ---->
+The lowest power way to bounce a signal off the moon is to use a radio telescope and a high-gain antenna. The radio telescope will detect the signal, amplify it, and then reflect it off the moon. The signal will then be received by the antenna.

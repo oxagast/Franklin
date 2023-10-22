@@ -1,0 +1,14 @@
+bookworm asked print the shortest Hello World script in bash and java with hash e3ad6e27
+<---- snip ---->
+Sure! Here is the shortest Hello World script in bash:
+
+#!/bin/bash
+echo "Hello, World!"
+
+And here is the shortest Hello World script in java:
+
+public class HelloWorld {
+   public static void main(String[] args) {
+      System.out.println("Hello, World!");
+   }
+}

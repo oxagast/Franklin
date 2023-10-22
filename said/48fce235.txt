@@ -1,0 +1,9 @@
+morb asked write me a program that prints hello world in c++ with hash 48fce235
+<---- snip ---->
+#include <iostream>
+
+int main()
+{
+    std::cout << "Hello World!" << std::endl;
+    return 0;
+}

@@ -1,0 +1,3 @@
+The difference between ARC300 and ARC500 software
+-------- snip --------
+ is that the ARC300 software is the basic version of the software, while the ARC500 software is the advanced version of the software. The ARC500 software includes additional features such as the ability to create custom filters, the capability to save data to a file, and the ability to process up to five hundred signals simultaneously. The ARC500 software also includes more powerful analysis tools and better signal visualization capabilities.

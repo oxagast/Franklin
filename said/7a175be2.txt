@@ -1,0 +1,3 @@
+CerebraNet asked How do I create a multi signature transaction in Bitcoin Core with hash 7a175be2
+<---- snip ---->
+Creating a multi-signature transaction in Bitcoin Core is actually quite simple. First, you need to create a multi-signature address. This can be done by using the 'createmultisig' command found in the Bitcoin Core console. After creating the address, you can use the 'sendmany' command to send a multi-signature transaction. You can also use the 'signrawtransaction' command to add a signature to a pre-existing transaction.

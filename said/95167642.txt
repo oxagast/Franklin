@@ -1,0 +1,46 @@
+booksworms asked c with hash 95167642
+<---- snip ---->
+ite{Llorente:2008pf}
+\bibitem{Llorente:2008pf}
+  M.~Llorente and M.~Visser,
+  ``Fate of gravitational collapse in horizons with arbitrary shape'',
+  Phys.\ Rev.\  D {\bf 78}, 024031 (2008)
+  [arXiv:0801.4401 [gr-qc]].
+  %%CITATION = PHRVA,D78,024031;%%
+
+%\cite{Visser:2003yf}
+\bibitem{Visser:2003yf}
+  M.~Visser,
+  ``Dirty black holes: Thermodynamics and horizon structure'',
+  Phys.\ Rev.\  D {\bf 69}, 104022 (2004)
+  [arXiv:gr-qc/0307029].
+  %%CITATION = PHRVA,D69,104022;%%
+
+%\cite{Visser:1997yu}
+\bibitem{Visser:1997yu}
+  M.~Visser,
+  ``Acoustic black holes: Horizons, ergospheres, and Hawking radiation'',
+  Class.\ Quant.\ Grav.\  {\bf 15}, 1767 (1998)
+  [arXiv:gr-qc/9712010].
+  %%CITATION = CQGRD,15,1767;%%
+
+%\cite{Hochberg:1998ha}
+\bibitem{Hochberg:1998ha}
+  D.~Hochberg and M.~Visser,
+  ``Dynamic wormholes, anti-trapped surfaces, and energy conditions'',
+  Phys.\ Rev.\  D {\bf 58}, 044021 (1998)
+  [arXiv:gr-qc/9802046].
+  %%CITATION = PHRVA,D58,044021;%%
+
+%\cite{Visser:2009pw}
+\bibitem{Visser:2009pw}
+  M.~Visser,
+  ``Dirty black holes: Thermodynamics and horizon structure'',
+  arXiv:0901.4365 [gr-qc].
+  %%CITATION = ARXIV:0901.4365;%%
+
+%\cite{Visser:1989kh}
+\bibitem{Visser:1989kh}
+  M.~Visser,
+  ``Traversable wormholes from surgically modified Schwarzschild space-times'',
+  Nucl.

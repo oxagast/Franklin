@@ -1,0 +1,3 @@
+CerebraNet asked How do I see the current billing period on an ipad with hash e7ef5624
+<---- snip ---->
+To view the current billing period on an iPad, open the Settings app, select iTunes & App Store, and select your Apple ID at the top of the page. Under the Apple ID heading, select View Apple ID. On the Account Settings page, you will see the current billing period listed.

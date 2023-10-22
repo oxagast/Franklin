@@ -1,0 +1,3 @@
+[null] asked  What are the most popular diving spots in the US? with hash 0d00b949
+<---- snip ---->
+The most popular diving spots in the US are the Florida Keys, the Great Lakes, the Gulf of Mexico, and Hawaii. Other popular spots include the U.S. Virgin Islands, North Carolina, and California.

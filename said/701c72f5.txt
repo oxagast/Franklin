@@ -1,0 +1,3 @@
+bookworm asked what is the name of a geometric shape capable of satisfying the spacial dimensions necessary to satisfy a string as defined in string theory? with hash 701c72f5
+<---- snip ---->
+A Calabi-Yau manifold is a type of geometric shape that is capable of satisfying the spacial dimensions necessary to satisfy a string as defined in string theory.

@@ -1,0 +1,5 @@
+how do you print the real path of a symbolically linked directory in linux?
+-------- snip --------
+
+
+You can use the command "readlink -f <link>" to print the real path of a symbolically linked directory in Linux.

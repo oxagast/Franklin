@@ -1,0 +1,3 @@
+_OverLord asked what is the price of bitcoin at the moment? with hash 17083dd3
+<---- snip ---->
+The current price of Bitcoin is $13,326.67 USD according to CoinMarketCap.

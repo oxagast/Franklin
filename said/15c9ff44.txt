@@ -1,0 +1,5 @@
+so // in front of //-- seems only ther to prevent js executing --
+-------- snip --------
+//
+
+// Comments are used to explain code and make it easier to read and understand. Comments can be used to prevent code from running as well.

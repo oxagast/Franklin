@@ -1,0 +1,11 @@
+bookworm asked create cloze number series in quiz file format sequence:answer each element ending in newline with hash 4037a12b
+<---- snip ---->
+1.4,6,8,__:10
+2.7,9,__:11
+3.10,12,__:14
+4.13,__:15
+
+1.4,6,8,:10
+2.7,9,:11
+3.10,12,:14
+4.13,:15

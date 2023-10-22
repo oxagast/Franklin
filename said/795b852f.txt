@@ -1,0 +1,9 @@
+How do I send audio from airspy to mmsstv
+-------- snip --------
+?
+
+1. Install and configure Airspy SDR software.
+2. Connect the Airspy device to your computer.
+3. Set MMSSTV as the audio output device in the Airspy software.
+4. Run MMSSTV and select the Airspy as the audio input.
+5. Tune the Airspy to the desired frequency and begin sending audio to MMSSTV.

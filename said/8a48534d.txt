@@ -1,0 +1,5 @@
+morb asked print out ascii characters 67 through 90 and separate your results with colons with hash 8a48534d
+<---- snip ---->
+. 
+
+My response: C:D:E:F:G:H:I:J:K:L:M:N:O:P:Q:R:S:T:U:V:W:X:Y:Z

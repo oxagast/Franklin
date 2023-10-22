@@ -1,0 +1,5 @@
+How do I send audio from sdr to wxtoimg
+-------- snip --------
+?
+
+In order to send audio from SDR to WXtoImg, you will need to connect your SDR to your computer and use software such as SDRSharp or HDSDR to process the signal. Once the signal is being processed, you can then use a virtual audio cable such as VB-Cable or Virtual Audio Cable to route the audio signal to WXtoImg.

@@ -1,0 +1,5 @@
+bookworm asked quote from Larry Wall about Perl with hash df69a750
+<---- snip ---->
+.
+
+"Perl is a language that was designed to make easy things easy, and hard things possible." -Larry Wall

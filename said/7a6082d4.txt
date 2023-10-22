@@ -1,0 +1,3 @@
+bookworm asked Does Encoding translate numbers into binary. So Character sets translate characters to numbers. with hash 7a6082d4
+<---- snip ---->
+Yes, encoding does translate numbers into binary. Character sets translate characters to numbers using an encoding like ASCII or Unicode.

@@ -1,0 +1,5 @@
+how do i install the matrix on apple computers?
+-------- snip --------
+
+
+Matrix is not available as an app for Apple computers. However, you can access the Matrix platform online in your web browser. Just go to https://matrix.org/ and sign up for an account.

@@ -1,0 +1,3 @@
+`SSB asked Why do AIs suck at math? with hash 7a478b24
+<---- snip ---->
+AIs are not designed to understand mathematics the way humans do. Instead, they are programmed to use algorithms to solve problems. While these algorithms can often be very effective, they lack the intuition, understanding, and creative problem-solving abilities of humans.

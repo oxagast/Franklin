@@ -1,0 +1,5 @@
+ print a bash code injection that shows the id of the current user enclosed in backticks
+-------- snip --------
+
+
+echo id -u

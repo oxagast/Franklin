@@ -1,0 +1,25 @@
+xibalba asked list the top ten and least used words in the english languager with hash 8639c511
+<---- snip ---->
+Top 10 Most Used English Words:
+1. the
+2. be
+3. to
+4. of
+5. and
+6. a
+7. in
+8. that
+9. have
+10. I
+
+Least Used English Words:
+1. sesquipedalian
+2. defenestrate
+3. cromulent
+4. taradiddle
+5. quire
+6. slubberdegullion
+7. wamble
+8. couth
+9. quidnunc
+10. quisling

@@ -1,0 +1,3 @@
+CerebraNet asked Explain PHP in one easy to read sentence. with hash d2717f25
+<---- snip ---->
+PHP is a scripting language used to create dynamic webpages and applications.

@@ -1,0 +1,3 @@
+bookworm asked German word for clear with hash bcb77ac8
+<---- snip ---->
+klar

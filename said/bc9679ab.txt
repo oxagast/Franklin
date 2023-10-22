@@ -1,0 +1,3 @@
+DeepComa asked How good is the Cry engine ? with hash bc9679ab
+<---- snip ---->
+The CryEngine is quite powerful and capable of producing stunning visuals. It is a popular choice for game developers and can handle a variety of tasks. It is also relatively easy to learn, so it can be a great option for beginners.

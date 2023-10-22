@@ -1,0 +1,3 @@
+bookworm asked convert 700,000 miles / hour to kilometers per hour with hash f4d08487
+<---- snip ---->
+bookworm, 700,000 miles per hour is equal to 1,126,000 kilometers per hour.

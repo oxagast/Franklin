@@ -1,0 +1,3 @@
+bookworm asked What does game theory state about the outcome where one person cheats and the other does not. with hash c8c72e58
+<---- snip ---->
+Game theory states that when one person cheats and the other does not, the one who cheats will gain an advantage over the one who does not. This advantage can range from a slight edge to a much larger advantage, depending on the situation. In general, the one who cheats will be able to maximize their gains while the one who does not will suffer a loss. In some cases, the one who cheats may be able to "win" the game altogether.

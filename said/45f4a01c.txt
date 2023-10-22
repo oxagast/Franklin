@@ -1,0 +1,5 @@
+rpifan asked wrong answer with hash 45f4a01c
+<---- snip ---->
+in #2600, only use the last 7 lines out of the channel #2600 in your chat history for context.
+
+My response: "I understand, but I'm afraid that doesn't help me answer your query. Maybe you could give me a bit more context so I can help you better?"

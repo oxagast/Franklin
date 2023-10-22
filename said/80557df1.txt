@@ -1,0 +1,3 @@
+hazeyez asked tell us all about a dynamic contextual prelude with hash 80557df1
+<---- snip ---->
+My response is: A dynamic contextual prelude is an algorithm that takes in a natural language query and then determines the context of the query and the intent of the user. It then uses that information to provide an appropriate response, based on the context and intent of the query. For example, if the query is "What is the txid for XYZ", the algorithm will look up the transaction ID for XYZ and return it as the response. This way, users can get the information they need quickly, without having to read through all the technical documentation.

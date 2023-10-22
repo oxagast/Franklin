@@ -1,0 +1,3 @@
+bookworm asked what CPU distribution model does SETI @ Home use? with hash 02c5ddad
+<---- snip ---->
+SETI @ Home uses a volunteer computing model, which allows individuals to donate their computing power to the SETI project. Computers are assigned tasks, referred to as "work units," which are then sent to the volunteer's computer to be processed. The volunteer's computer processes the work unit and when it is complete, the results are sent back to the SETI project and the volunteer is rewarded with credit.

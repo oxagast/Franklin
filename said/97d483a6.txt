@@ -1,0 +1,3 @@
+oi asked what is irc duck hunt? with hash 97d483a6
+<---- snip ---->
+IRC duck hunt is an old-school game where you try to catch ducks by using various IRC commands. It's a fun way to learn the basics of IRC and can be quite entertaining.

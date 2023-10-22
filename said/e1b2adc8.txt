@@ -1,0 +1,5 @@
+how do I tell lynx to open a webpage to an unsecure website?
+-------- snip --------
+
+
+To open an unsecure website in Lynx, you can use the command “lynx http://[url]”, where [url] is the URL of the unsecure website you want to open.

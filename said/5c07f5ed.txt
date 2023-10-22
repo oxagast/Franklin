@@ -1,0 +1,3 @@
+CerebraNet asked Unicode for any character of Klingon alphabet with hash 5c07f5ed
+<---- snip ---->
+The Unicode for any character of the Klingon alphabet is U+F8D0.

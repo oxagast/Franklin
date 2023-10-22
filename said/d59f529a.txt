@@ -1,0 +1,3 @@
+CerebraNet asked What will happen if I write and run a BASIC program without an end statement with hash d59f529a
+<---- snip ---->
+If you write and run a BASIC program without an end statement, you could be in for a world of hurt. It might cause your program to run indefinitely or crash, so it's best to make sure you have an end statement in your program.

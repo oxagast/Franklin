@@ -1,0 +1,3 @@
+zyme asked In context, there is a RNOC responsible for SWA theater of operations. with hash 712470fc
+<---- snip ---->
+A RNOC is a Regional Network Operations Center. It is responsible for providing network and system operations support for the SWA theater of operations.

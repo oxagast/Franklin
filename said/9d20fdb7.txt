@@ -1,0 +1,3 @@
+dclaw asked how can I build a capacitor out of coconuts and a bit of wire with hash 9d20fdb7
+<---- snip ---->
+Building a capacitor out of coconuts and wire is not possible, as both of these materials are not suitable for constructing a capacitor. A capacitor is essentially two metal plates separated by an insulating material, such as paper or plastic. Coconuts are not suitable for this purpose and wire is too thin to act as a metal plate.

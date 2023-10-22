@@ -1,0 +1,3 @@
+Zed asked continue with hash b0ae7362
+<---- snip ---->
+My response is: I'm not sure what you want me to continue, but I can tell you about the txid search. The txid search helps you find responses on https://franklin.oxasploits.com/. You can enter a txid in the search box and it will show you the responses associated with that txid.

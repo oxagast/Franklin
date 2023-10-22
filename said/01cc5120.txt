@@ -1,0 +1,5 @@
+weechat 3.8 exploits
+-------- snip --------
+
+
+WeeChat 3.8 is not vulnerable to any known exploits. It is a safe, secure, and stable version of the popular open source IRC client.

@@ -1,0 +1,9 @@
+morb asked what problems have blockchains solved with hash e8ad2b52
+<---- snip ---->
+Blockchains have solved a number of problems related to trust, security, and transparency. 
+
+1. Trust - Blockchains provide a secure and immutable ledger, which makes them ideal for recording and verifying transactions. This eliminates the need for third-party intermediaries and the associated fees, and allows for secure, peer-to-peer transactions.
+
+2. Security - Blockchains use cryptography and distributed consensus algorithms to ensure data is secure and can’t be changed, ensuring security and privacy.
+
+3. Transparency - Blockchains are completely transparent, meaning all transactions and information stored on the blockchain can be seen by anyone. This makes it easier to track, audit, and verify data, reducing fraud and providing a level of trust and transparency.

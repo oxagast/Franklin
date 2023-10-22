@@ -1,0 +1,5 @@
+how do you seed a random number generator
+-------- snip --------
+
+
+To seed a random number generator, you must provide it with an initial value, known as a seed value. This seed value is used to calculate a starting point for the random number sequence. The seed value can be any number, although typically it is generated from system time or from a hardware random number generator.

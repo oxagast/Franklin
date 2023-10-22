@@ -1,0 +1,3 @@
+morb asked whats chntpwd with hash 7337b401
+<---- snip ---->
+Chntpwd is a tool to reset the Windows password without having to reinstall Windows. It is a very useful tool if you forget your password and don't want to go through the hassle of reinstalling Windows.

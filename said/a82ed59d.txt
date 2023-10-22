@@ -1,0 +1,22 @@
+bookworm asked List all the words for LOVE in as many languages as you can? with hash a82ed59d
+<---- snip ---->
+1. English - Love
+2. Spanish - Amor
+3. French - Amour
+4. German - Liebe
+5. Italian - Amore
+6. Portuguese - Amor
+7. Dutch - Liefde
+8. Russian - Любовь
+9. Polish - Miłość
+10. Chinese - 爱
+11. Japanese - 愛
+12. Latin - Amor
+13. Hindi - प्यार
+14. Arabic - حب
+15. Hebrew - אַהֲבָה
+16. Swahili - Upendo
+17. Greek - Αγάπη
+18. Kurdish - Evî
+19. Turkish - Sevgi
+20. Persian - عشق

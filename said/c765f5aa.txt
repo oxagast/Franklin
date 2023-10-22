@@ -1,0 +1,5 @@
+What is GPT-3
+-------- snip --------
+?
+
+GPT-3 (Generative Pre-trained Transformer 3) is an unsupervised language model developed by OpenAI. It is a neural network-based natural language processing (NLP) model that uses deep learning algorithms to produce human-like text. GPT-3 is trained on a dataset of 45TB of text, making it the largest language model ever created. It is capable of generating human-like text, completing tasks like summarization, question-answering, and translation.

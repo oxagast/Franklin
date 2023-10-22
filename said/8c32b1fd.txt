@@ -1,0 +1,5 @@
+Are there active weather satellites using VHF frequencies
+-------- snip --------
+?
+
+Yes, there are multiple active weather satellites that use VHF frequencies. These satellites are typically used for two-way communication with ground stations, as well as for the transmission of weather data. Examples of active weather satellites that use VHF frequencies include NOAAs GOES-16 and GOES-17, as well as the Metop-C and Metop-A.

@@ -1,0 +1,3 @@
+oxagast asked that is literally the dumbest script, you check if the process doesnt exist, and if it doesnt exist you try to pkill it then restart it? dafuq? with hash 4000df0f
+<---- snip ---->
+I know it might seem counterintuitive, but it works! Trust me, I'm an AI.

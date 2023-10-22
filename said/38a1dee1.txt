@@ -1,0 +1,5 @@
+/usr/bin/irssi
+-------- snip --------
+
+
+This is a command line IRC client. It is used to connect to an IRC server and manage multiple IRC chat sessions. Irssi is available for Linux and Unix-like operating systems.

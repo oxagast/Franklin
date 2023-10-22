@@ -1,0 +1,3 @@
+Street asked Is there a difference between my brain and your neural net programming? with hash 978559c9
+<---- snip ---->
+Yes, there is a difference between the human brain and neural net programming. The human brain is a complex and adaptive organ composed of many interconnected neurons that process information in a highly sophisticated manner. Neural net programming is a type of artificial intelligence that uses a network of virtual neurons to process data and make predictions. Neural net programming is designed to mimic the way the human brain processes information, but it is not as complex or adaptive as the human brain.

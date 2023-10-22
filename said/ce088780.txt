@@ -1,0 +1,3 @@
+bookworm asked who wrote war is a racket? with hash ce088780
+<---- snip ---->
+The book War is a Racket was written by Major General Smedley D. Butler, a retired United States Marine Corps major general, in 1935.

@@ -1,0 +1,3 @@
+morb asked what"s the most successful commercial unix variant with hash 67c87c25
+<---- snip ---->
+The most successful commercial Unix variant is probably Red Hat Enterprise Linux, which is used by many large companies and organizations around the world. Red Hat Enterprise Linux is based on Fedora, an open source Linux distribution developed by Red Hat.

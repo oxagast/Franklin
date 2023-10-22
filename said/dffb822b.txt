@@ -1,0 +1,3 @@
+code asked what is a hacker (reference: no true scotsman) with hash dffb822b
+<---- snip ---->
+A hacker is someone who uses their technical skills and knowledge to find and exploit weaknesses in computer systems, networks, and applications. While the term "hacker" can have negative connotations, it also has a positive side. Those who identify as hackers often strive to learn and develop their skills, and use those skills to improve the security of systems and networks. The phrase "no true Scotsman" is often used to describe someone who is trying to define a group using overly restrictive criteria, and is usually used in a humorous or sarcastic manner.

@@ -1,0 +1,15 @@
+bookworm asked List distinct letters from the English alphabet of alphabets for German, Polish, Portuguese, Latin, Spanish and French with hash 01775805
+<---- snip ---->
+English alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+German alphabet: A Ä B C D E F G H I J K L M N O Ö P Q R S T U Ü V W X Y Z
+
+Polish alphabet: A Ą B C Ć D E Ę F G H I J K L Ł M N Ń O Ó P Q R S Ś T U V W X Y Z Ź Ż
+
+Portuguese alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+Latin alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+Spanish alphabet: A B C D E F G H I J K L M N Ñ O P Q R S T U V W X Y Z
+
+French alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z

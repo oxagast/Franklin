@@ -1,0 +1,3 @@
+CerebraNet asked Calculate the last digit of pi with hash 9c159564
+<---- snip ---->
+The last digit of pi is 9.

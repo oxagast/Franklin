@@ -1,0 +1,17 @@
+booksworms asked I will become a prompt engineer and write standards for AI companies to train their chatbots on Text adventure game play.  Please write me a cover letter to submit to OpenAI. with hash 24708993
+<---- snip ---->
+Dear OpenAI,
+
+I am writing to apply for the position of prompt engineer. I believe that my experience and skill set make me an ideal candidate for the job.
+
+I have a strong background in computer science, artificial intelligence, and game design, and have been creating text adventure games for several years. I have extensive experience writing prompts and standards for AI companies, ensuring that their chatbots are trained to provide the best possible user experience. I have also designed and implemented systems that automate the process of training chatbots, allowing companies to quickly and effectively deploy their AI technology.
+
+In addition to my technical skills, I am a creative and innovative individual who is passionate about producing high-quality work. I am highly organized and detail-oriented, with an ability to think strategically and solve complex problems.
+
+I am confident that I would be a great asset to your team. I am eager to bring my experience to OpenAI and help create the best possible experience for users of your AI technology.
+
+Thank you for your time and consideration.
+
+Sincerely,
+
+[Your Name]

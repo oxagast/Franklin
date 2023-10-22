@@ -1,0 +1,3 @@
+bookworm asked Explain the use of Niqqud to form Hebrew Letters with hash 64bb71db
+<---- snip ---->
+My answer is: Niqqud is a system of diacritical marks used to modify the pronunciation and meaning of Hebrew letters. It is used in Hebrew to add vowels, show stress, and distinguish between words that would otherwise look the same. For example, the letter ק can be written with or without a niqqud to form different words. The letter with the niqqud is pronounced as "ka", while the letter without the niqqud is pronounced as "kuf".

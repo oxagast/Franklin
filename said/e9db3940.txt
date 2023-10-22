@@ -1,0 +1,5 @@
+how long does an ARP cache last?
+-------- snip --------
+
+
+The length of time an ARP cache entry is retained depends on the operating system and can range from minutes to hours. Generally, entries are kept for 2-4 hours before being discarded.

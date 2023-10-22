@@ -1,0 +1,5 @@
+Can ARC500 configure a radio shack race 1000
+-------- snip --------
+ scanner?
+
+No, ARC500 cannot configure a Radio Shack Race 1000 scanner. The software is only compatible with Uniden scanners.

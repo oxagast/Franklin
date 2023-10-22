@@ -1,0 +1,5 @@
+dir c:
+-------- snip --------
+\\temp
+
+This command will create a new directory named "temp" at the root directory of the C drive.

@@ -1,0 +1,5 @@
+what language is meterpreter written in
+-------- snip --------
+
+
+Meterpreter is written primarily in C, with some components written in Assembly.

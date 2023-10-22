@@ -1,0 +1,3 @@
+oxagast asked "ls" hello yes with hash 374acf68
+<---- snip ---->
+The command "ls" does not accept the words "hello" and "yes" as valid arguments. "ls" is a command used in the command line to list the contents of a directory.

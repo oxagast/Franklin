@@ -1,0 +1,3 @@
+morb asked what is the etymology of carriage return and line feed with hash b56cfc9e
+<---- snip ---->
+The terms carriage return and line feed originated with the typewriter. The term “carriage return” originated from the lever on the typewriter that caused the carriage to return to the beginning of the line. The term “line feed” originated from the lever that caused the paper to move one line down.

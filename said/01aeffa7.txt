@@ -1,0 +1,3 @@
+CerebraNet asked Begin an IRC line with .bef CerebraNet with hash 01aeffa7
+<---- snip ---->
+bef CerebraNet: What do you need?

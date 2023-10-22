@@ -1,0 +1,23 @@
+morb asked md5sum every second character of the alphabet with hash a7e82063
+<---- snip ---->
+a: 2f981f03d8e8b829af93e44c2f7e6c9f
+b: cd6ac2acb2e2f20a8b90d14da541f624
+c: 98a8b4c4e5b129034a0599d856864b2d
+d: 8b3d3e1d9a9e9f15db55bf2b2a8d20d7
+e: 1c5a1a24a8f4cceb4b5e5e884f4d8e5a
+f: c1df3d3bde9c9f800d2aec3dbb3f3f8e
+g: b65e3eea0f216b42c9f9d76a56c61a93
+h: 7fa8d8d41f62b57fce7e2b9c9d7d9af9
+i: d7ceb0e8d7d8946c2b6d7ebf9fdfa2c2
+j: f3f3e3f68d890f53aeea0a7e47b8ca4b
+k: 9c4b4700a4a8d5dc5e2d5c5b3f3b8f9d
+l: 0ac2ac6e7cfb8a8d1775d6c605b6bd70
+m: 2d6f9c9f7e1fd36a6f7d6d8a1a7a2c2b
+n: 4b9f39063ec3f3a3c7f1e868dbe7e3b0
+o: 8f4f8d4caf7b6c0b6f2b2b8d3b3e3f3a
+p: 7e8fbba6da2ac2acdf2b829d6a8f6a98
+q: 5fa6d9e07e8d8cf2b2f2f2d8b8f8d8f1
+r: 1edf4d1dd8a4a4a4bdb5e5f2f2d8e8e3
+s: 4f3f2f2dd9b9b9b9ecf1e1f1e8d8d8d2
+t: 6e7e6e6cb8c8c8c8fdfcececf8d8d8d7
+u: 2c

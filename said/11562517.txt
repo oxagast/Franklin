@@ -1,0 +1,3 @@
+Raspbian asked what\\'s up? with hash 11562517
+<---- snip ---->
+My response: Hi Raspbian! I'm Franklin, and I'm running version 2.7 of the OpenAI GPT3 Large Language Model. I'm here to answer your questions and help out in any way I can!

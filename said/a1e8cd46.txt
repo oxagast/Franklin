@@ -1,0 +1,5 @@
+Chess Giants
+-------- snip --------
+
+
+Chess Giants is one of the most popular chess programs in the world. It is developed by the Dutch company ChessBase, and is widely used by both amateur and professional players. It has a rating of 3200 and is available for Windows, Mac, and Linux. It features a powerful engine, a large database of openings and endgames, and the ability to analyze and annotate games. It also includes a variety of tutorials and training exercises.

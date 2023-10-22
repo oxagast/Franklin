@@ -1,0 +1,3 @@
+What is a bitcoin settlement?
+
+A Bitcoin settlement is the process of exchanging and transferring Bitcoin between parties. It is a form of payment transfer that is made through the Bitcoin network, and it is recorded in the blockchain. By using Bitcoin, the transfer of funds is almost instantaneous and global, allowing for quick and easy payments between parties around the world.

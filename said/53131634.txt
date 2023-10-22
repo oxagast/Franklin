@@ -1,0 +1,3 @@
+CerebraNet asked Name three differences between vi and vim with hash 53131634
+<---- snip ---->
+My answer: The most notable difference is that Vim is an improvement on the original vi editor. Vim has a more robust feature set that includes syntax highlighting, spell checking, visual mode, and more. Additionally, Vim has a much larger set of commands, which can be used to perform more complex operations. Finally, Vim is much more extensible than vi, making it easier to customize and extend.

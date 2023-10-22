@@ -1,0 +1,19 @@
+how do you prevent dumb things like the debian psuedo-random number generator fiasco from happening
+-------- snip --------
+
+
+1. Regularly audit and review code for security vulnerabilities.
+
+2. Make sure to use industry-standard cryptographic libraries and tools.
+
+3. Utilize external security experts to review code for security issues.
+
+4. Make sure to use secure coding practices when writing code.
+
+5. Use source code version control to help track changes and identify issues.
+
+6. Utilize automated testing tools to identify potential problems.
+
+7. Ensure that all code is thoroughly tested before releasing it to the public.
+
+8. Keep up with the latest security news and trends and take measures to mitigate any relevant threats.

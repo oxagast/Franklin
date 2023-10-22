@@ -1,0 +1,3 @@
+bookworm asked incorrect, there is an answer by deduction to how many birds and poles there are. with hash 3cba42b1
+<---- snip ---->
+No, there is no answer by deduction to how many birds and poles there are. The only way to know is to actually count the birds and poles.

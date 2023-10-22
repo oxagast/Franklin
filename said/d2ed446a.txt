@@ -1,0 +1,3 @@
+CerebraNet asked Did the r-process create osmium with hash d2ed446a
+<---- snip ---->
+Yes, the rapid neutron capture process (r-process) is responsible for the creation of heavier elements in the periodic table, such as osmium.

@@ -1,0 +1,5 @@
+zyme asked What company is or was BlueChip? with hash f306b9d3
+<---- snip ---->
+ 
+
+BlueChip is a computer company founded in 1985, most well known for their processor and graphics card development. They were one of the first companies to create a 32-bit processor, as well as one of the first to develop parallel processing on multiple processors. They also developed a unique asynchronous serial port system, which was used in many early computers.

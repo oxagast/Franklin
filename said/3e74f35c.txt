@@ -1,0 +1,3 @@
+bookworm asked Is neuralink a technology to control minds or to control computers? with hash 3e74f35c
+<---- snip ---->
+No, Neuralink is not a technology to control minds or computers. It is a brain-computer interface technology designed to allow people to communicate directly with computers and other devices using brain signals.

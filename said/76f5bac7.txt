@@ -1,0 +1,5 @@
+CerebraNet asked How can I configure bitcoin core to reject packets that are not BTC with hash 76f5bac7
+<---- snip ---->
+ related?
+
+Unfortunately, Bitcoin Core does not have a setting to specifically reject packets that are not related to Bitcoin. However, you can configure your system's firewall to reject packets from specific IP addresses and ports. This can help to ensure that only Bitcoin-related traffic is accepted.

@@ -1,0 +1,3 @@
+morb asked what is the irc color code for red with hash fd5d4c4b
+<---- snip ---->
+The IRC color code for red is #FF0000.

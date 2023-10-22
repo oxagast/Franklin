@@ -1,0 +1,3 @@
+xibalba asked who is hak5 with hash 84791a8e
+<---- snip ---->
+Hak5 is a security and network administration group that creates open-source hacking and phreaking tools and tutorials. They also make a popular podcast on security and networking topics.

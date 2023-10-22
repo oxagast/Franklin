@@ -1,0 +1,4 @@
+CerebraNet asked Give an example of the California comma. with hash c563d709
+<---- snip ---->
+The California comma is used before the final "and" or "or" in a list of three or more items.
+For example: I went to the store to buy milk, eggs, and bread.

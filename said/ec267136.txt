@@ -1,0 +1,22 @@
+bookworm asked generate a file in a format used by bsdgames quiz the periodic table of elements symbols|names to atomic number, all small letters and no line numbering, format name|symbol:number with hash ec267136
+<---- snip ---->
+hydrogen|h:1
+helium|he:2
+lithium|li:3
+beryllium|be:4
+boron|b:5
+carbon|c:6
+nitrogen|n:7
+oxygen|o:8
+fluorine|f:9
+neon|ne:10
+sodium|na:11
+magnesium|mg:12
+aluminum|al:13
+silicon|si:14
+phosphorus|p:15
+sulfur|s:16
+chlorine|cl:17
+argon|ar:18
+potassium|k:19
+calcium|ca:20

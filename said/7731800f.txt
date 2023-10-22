@@ -1,0 +1,3 @@
+captain asked what is mksh with hash 7731800f
+<---- snip ---->
+mksh is the MirBSD Korn Shell, a shell language developed for the MirOS BSD operating system. It is based on the Korn shell, but with additional features and bug fixes. It is available for Linux and BSD systems.

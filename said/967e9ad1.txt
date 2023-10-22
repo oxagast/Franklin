@@ -1,0 +1,12 @@
+bookworm asked generate a file in a format used by bsdgames quiz 1000 latin phrase to english phrase, all small letters and no line numbering, format latin:english with hash 967e9ad1
+<---- snip ---->
+amor vincit omnia:love conquers all
+memento mori:remember death
+carpe diem:seize the day
+mutato nomine de te fabula narrator:change the name and the story is about you
+qui audet adipiscitur:who dares wins
+nil desperandum:never despair
+omnia vincit amor:love conquers all
+tempus fugit:time flies
+alea iacta est:the die is cast
+nil nisi bonum:say nothing but good

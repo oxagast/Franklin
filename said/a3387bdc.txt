@@ -1,0 +1,3 @@
+morb asked what was the first denial of service attack called with hash a3387bdc
+<---- snip ---->
+My answer is: The first denial of service attack was called the "Teardrop Attack", which was discovered in 1996. It was named after the way it fragmented IP datagrams, just like a teardrop.

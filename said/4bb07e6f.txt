@@ -1,0 +1,3 @@
+morb asked what\\'s the cheapest way to generate hydrogen at scale with hash 4bb07e6f
+<---- snip ---->
+It depends on what type of scale you're looking for. If you're talking about large-scale production, then the most cost-effective method is to use electrolysis. This process involves passing an electric current through water, which separates the water molecules into hydrogen and oxygen. It's relatively cheap, and can be scaled up easily.

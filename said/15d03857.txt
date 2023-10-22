@@ -1,0 +1,9 @@
+explain the diffferences between tcp/udp listeners
+-------- snip --------
+
+
+TCP (Transmission Control Protocol) is a connection-oriented protocol, while UDP (User Datagram Protocol) is a connectionless protocol. This means that with TCP, two applications must establish a connection before they can start exchanging data, while with UDP, data can be sent without a prior connection being established.
+
+TCP is a reliable, error checked protocol, while UDP is an unreliable, unordered protocol. This means that TCP will make sure that data is received in the same order in which it was sent, and that it arrives without any errors. UDP, on the other hand, does not guarantee that data will be sent in the order it was sent, and it does not guarantee that all data will arrive.
+
+Finally, TCP has a larger overhead due to the fact that data must be sent in a specific order and must be checked for errors, while UDP has a much smaller overhead because it does not have to worry about the order in which data is sent

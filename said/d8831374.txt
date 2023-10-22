@@ -1,0 +1,3 @@
+bookworm asked list words in portuguese when having their diacritical marks converted to ascii characters, then see if the resulting words are dictionary entries with hash d8831374
+<---- snip ---->
+Sim, as palavras resultantes podem ser entradas no dicionário. Por exemplo, a palavra "crianca" convertida para ASCII é "crianca". Esta é uma palavra válida no dicionário português. Outros exemplos incluem "trabalho", "amor" e "felicidade".

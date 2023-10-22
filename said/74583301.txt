@@ -1,0 +1,3 @@
+jhex asked Can the 4 bytes of an integer be copied to a char array without memcpy? with hash 74583301
+<---- snip ---->
+Yes, it is possible to copy the 4 bytes of an integer into a char array without memcpy. However, it is not recommended since the process is not guaranteed to be safe or reliable.

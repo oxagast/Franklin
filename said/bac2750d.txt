@@ -1,0 +1,3 @@
+CerebraNet asked Is it ethical for AI to lie with hash bac2750d
+<---- snip ---->
+It depends on the context. AI can be used to guide decision-making and provide data-driven insights, but it can also be used to deceive, manipulate, and even harm people. Ultimately, it's up to us as humans to decide how we use AI ethically.

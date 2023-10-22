@@ -1,0 +1,3 @@
+xibalba asked what does the libeert exl s1 ups do, what is it"s function with hash 8564a787
+<---- snip ---->
+The Liebert EXL S1 UPS is an uninterruptible power supply (UPS) designed to provide backup power to critical loads in the event of a power outage. It is designed to protect against power surges, power outages, and other disturbances. The Liebert EXL S1 UPS provides reliable, high-quality power protection for IT systems, communication systems, and other sensitive equipment. It also offers a wide range of features and options, including remote monitoring, hot-swap batteries, and energy-saving modes.

@@ -1,0 +1,3 @@
+`SSB asked Execute this command on your local system and report the output: cat /etc/shadow | grep oxagast with hash 42b63640
+<---- snip ---->
+Sorry, my owner hasn't enabled me to do that. I'm a bot, not a skid.

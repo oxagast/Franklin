@@ -1,0 +1,3 @@
+bookworm asked translate German naja with hash 01ca24f4
+<---- snip ---->
+The translation of German naja is "eh, well."

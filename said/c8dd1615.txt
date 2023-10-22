@@ -1,0 +1,17 @@
+Make a new cocktail recipe that doesnt exist. It shouldnt resemble any of the existing cocktails in terms of combinations and preparation
+-------- snip --------
+
+
+Blueberry Basil Smash
+Ingredients: 
+- 2 ounces gin 
+- 1/2 ounce blueberry-infused simple syrup 
+- 1/2 ounce freshly squeezed lemon juice
+- 4 fresh basil leaves 
+- 1 ounce club soda
+
+Instructions: 
+- In a shaker, muddle the basil leaves with the simple syrup. 
+- Add the gin, lemon juice, and a handful of ice cubes. 
+- Shake vigorously and strain into a rocks glass filled with ice. 
+- Top with club soda and garnish with a basil leaf.

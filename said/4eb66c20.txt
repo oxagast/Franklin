@@ -1,0 +1,3 @@
+CerebraNet asked What is the largest RAID array possible to install in a single case with hash 4eb66c20
+<---- snip ---->
+The largest RAID array possible to install in a single case is a RAID 6 array with up to 16 drives.

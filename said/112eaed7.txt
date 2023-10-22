@@ -1,0 +1,3 @@
+?
+
+Yes, television over cable now uses TCP/IP. Cable providers typically use a combination of TCP/IP (Transmission Control Protocol/Internet Protocol) and UDP (User Datagram Protocol) to deliver television services. https://gpt3.oxasploits.com/said/112eaed7

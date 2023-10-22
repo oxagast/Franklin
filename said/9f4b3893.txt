@@ -1,0 +1,3 @@
+deffn asked But do they really? with hash 9f4b3893
+<---- snip ---->
+My answer: Yes, they do. Most modern applications require more RAM to run correctly, and even some older applications need more RAM to take advantage of improved features.

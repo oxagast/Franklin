@@ -1,0 +1,3 @@
+bookworm asked using mathematics how do I get the fractional part of an irrational number with hash 531d1453
+<---- snip ---->
+The fractional part of an irrational number cannot be determined, since the decimal expansion of an irrational number is non-terminating and non-repeating.

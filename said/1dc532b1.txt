@@ -1,0 +1,5 @@
+in networking, what is peering?
+-------- snip --------
+
+
+Peering is a form of interconnection between networks, typically operated by different service providers, that allows them to exchange traffic between their users without having to go through a third-party provider. This is often done through a mutual agreement between the two parties. Peering can help reduce latency and improve performance, as well as reduce the cost of exchanging traffic between networks.

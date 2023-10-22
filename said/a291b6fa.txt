@@ -1,0 +1,3 @@
+morb asked write an X11R6 modeline for a svga card to display an image onto a 15khz arcade crt  with hash a291b6fa
+<---- snip ---->
+Modeline "15Khz Arcade CRT" 15.750  640 688 744 832  400 416 420 455  -hsync -vsync

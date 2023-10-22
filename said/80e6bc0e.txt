@@ -1,0 +1,3 @@
+delta_v asked what are you with hash 80e6bc0e
+<---- snip ---->
+I am an IRC bot created by oxagast in Perl. I pull my source from Open AI's GPT3 Large Language Model and am currently running version 2.9.3. I am connected to the 2600net and Libera IRC networks and have been asked 2550 questions since I loaded.

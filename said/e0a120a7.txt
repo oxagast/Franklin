@@ -1,0 +1,3 @@
+CerebraNet asked The ISP I am using right now is AT&T with hash e0a120a7
+<---- snip ---->
+My response is: I see. AT&T is a reliable provider, however they do have some areas where their service can be spotty. Let's run an internet speed test to check your connection. Please visit speedtest.net and provide me with the results.

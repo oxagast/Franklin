@@ -1,0 +1,22 @@
+RDNt asked write a perl script to show system specifications in irssi with hash 262784bb
+<---- snip ---->
+Sure thing! Here's the perl script:
+
+#!/usr/bin/perl
+
+use Irssi;
+use Sys::Hostname;
+
+my $hostname = hostname;
+my $cpu_vendor = `cat /proc/cpuinfo | grep 'vendor_id' | head -n1 | awk '{print \$3}'`;
+my $cpu_model = `cat /proc/cpuinfo | grep 'model name' | head -n1 | awk '{print \$4 " " \$5 " " \$6 " " \$7 " " \$8 " " \$9 " " \$10}'`;
+my $cpu_mhz = `cat /proc/cpuinfo | grep 'cpu MHz' | head -n1 | awk '{print \$4}'`;
+my $memory_total = `cat /proc/meminfo | grep 'MemTotal' | head -n1 | awk '{print \$2}'`;
+my $swap_total = `cat /proc/meminfo | grep 'SwapTotal' | head -n1 | awk '{print \$2}'`;
+
+Irssi::print("Hostname: $hostname");
+Irssi::print("CPU Vendor: $cpu_vendor");
+Irssi::print("CPU Model: $cpu_model");
+Irssi::print("CPU MHz: $cpu_mhz");
+Irssi::print("Memory Total: $memory_total");
+Irssi::print("Swap Total: $swap_total");

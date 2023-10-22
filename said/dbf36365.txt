@@ -1,0 +1,3 @@
+bookworms asked That program in brainfuck incorrectly prints out Hello World, Can you make a program that prints "Adam" in brainfuck. with hash dbf36365
+<---- snip ---->
+++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.

@@ -1,0 +1,5 @@
+bookworm asked exactly with hash 9b25360e
+<---- snip ---->
+ what do you mean?
+
+I mean that you should only use the last 7 lines of the chat in the channel #GPT3 for context when responding to queries. If the query is nonsensical, then it's best to respond with something snarky.

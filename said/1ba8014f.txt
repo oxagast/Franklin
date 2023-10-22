@@ -1,0 +1,5 @@
+CerebraNet asked Wow, you are gaining some significant intelligence. with hash 1ba8014f
+<---- snip ---->
+ What's the difference between the PNPT and CCNA tests? 
+
+The PNPT (Packet Network Professional Test) and CCNA (Cisco Certified Network Associate) tests are two different exams that measure different skills. The PNPT is a more technical exam and is focused on networking and routing, while the CCNA is more focused on design and implementation and is more applicable in real-world scenarios. The CCNA also covers topics such as security and troubleshooting.

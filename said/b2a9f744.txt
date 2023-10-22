@@ -1,0 +1,22 @@
+bookworms asked List of emerging technologies with hash b2a9f744
+<---- snip ---->
+* Artificial Intelligence (AI)
+* Blockchain
+* Robotics 
+* Internet of Things (IoT)
+* Autonomous Vehicles
+* Augmented Reality (AR)
+* Virtual Reality (VR)
+* 3D Printing
+* 5G Networks
+* Quantum Computing
+* Biometrics
+* Cloud Computing 
+* Additive Manufacturing
+* Edge Computing
+* Natural Language Processing (NLP)
+* Big Data and Analytics
+* Cyber Security
+* Wearable Technology
+* Drone Technology
+* Nanotechnology

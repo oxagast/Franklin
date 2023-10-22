@@ -1,0 +1,5 @@
+bookworm asked what is the square root with hash bd5a634d
+<---- snip ---->
+ of 144
+
+The square root of 144 is 12.

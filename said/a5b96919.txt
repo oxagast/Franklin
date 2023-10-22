@@ -1,0 +1,11 @@
+bookworm asked list all unicode numbers for single character duplications of the latin letter \\'i\\' \u0069  with hash a5b96919
+<---- snip ---->
+The Unicode numbers for single character duplication of the Latin letter "i" are:
+
+U+0069 - LATIN SMALL LETTER I
+U+0131 - LATIN SMALL LETTER DOTLESS I
+U+0237 - LATIN SMALL LETTER DOTLESS J
+U+1D62 - LATIN SUBSCRIPT SMALL LETTER I
+U+1D7B - LATIN SMALL LETTER IOTA WITH STROKE
+U+2071 - SUPERSCRIPT LATIN SMALL LETTER I
+U+207F - SUPERSCRIPT LATIN SMALL LETTER N

@@ -1,0 +1,3 @@
+CerebraNet asked How can I enter unicode with a notebook keyboard with hash af365ee4
+<---- snip ---->
+Hi CerebraNet! Entering Unicode with a notebook keyboard can be a bit tricky. You can use the Windows Character Map tool or copy and paste from websites like fileformat.info. You can also use key mappings, like Alt codes or the Windows On-Screen Keyboard. Hope this helps!

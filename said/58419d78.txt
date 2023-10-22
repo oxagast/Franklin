@@ -1,0 +1,3 @@
+oxagast asked can you tell me what https://scuttled.net is about? with hash 58419d78
+<---- snip ---->
+Hi there oxagast! Scuttled.net is a website about the 2600net IRC Network. It contains information about the network, news, popular channels, and even some quotes from Benjamin Franklin!

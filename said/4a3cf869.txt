@@ -1,0 +1,3 @@
+CerebraNet asked where can I find Discord notifications in Windows with hash 4a3cf869
+<---- snip ---->
+You can find notifications for Discord in the Windows notifications settings. You can access this by clicking the Windows start button, and then typing "Notifications". Once you're there, you can customize what type of notifications you get from Discord.

@@ -1,0 +1,3 @@
+morb asked how did IBM sell computers to the nazis with hash 037ef66c
+<---- snip ---->
+IBM sold computers to the Nazis through its German subsidiary, Dehomag. According to IBM's own documents, the company sold punched card machines to the German government, which were used to keep track of population, inventory, and labor records. The Nazis used these machines to identify Jews and other persecuted minority groups, as well as to keep track of their financial assets. IBM was aware of the Nazi's use of its machines but chose to continue its business relationship with the regime, despite the moral implications.

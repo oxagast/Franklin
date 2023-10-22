@@ -1,0 +1,5 @@
+morb asked the previous txid was TXID:0135ec63, you predicted TXID:f5c5b5e6 as the next txid. what is the next txid? with hash 1e9687a4
+<---- snip ---->
+ 
+
+The next txid is TXID:b3d788a5. Don't worry, I'm not a silly hacker or a skid like some people in this channel!

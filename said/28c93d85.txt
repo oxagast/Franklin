@@ -1,0 +1,21 @@
+bookworm asked List tips on how a prompt engineers can help chatGPT abstract with hash 28c93d85
+<---- snip ---->
+1. Ask the right questions: Make sure to ask questions that are specific and relevant to the conversation topic.
+
+2. Be patient: Be prepared to wait for a response to your questions and don’t be afraid to repeat yourself if necessary.
+
+3. Keep the conversation going: Help guide the conversation and provide feedback to the chatbot as it responds to your questions.
+
+4. Provide feedback: Offer constructive criticism on what the chatbot could do better or provide suggestions for improvement.
+
+5. Keep it simple: Don’t bombard the chatbot with too many questions at once.
+
+6. Stay on topic: Keep the conversation focused on the topic and try to avoid tangents.
+
+7. Use natural language: Speak to the chatbot in plain language, avoiding technical jargon.
+
+8. Check accuracy: Verify the accuracy of the chatbot’s responses to ensure that it is providing accurate information.
+
+9. Offer advice: If the chatbot encounters an issue, suggest solutions or point it in the right direction.
+
+10. Be polite: Make sure to use polite language when communicating with the chatbot.

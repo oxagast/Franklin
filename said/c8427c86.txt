@@ -1,0 +1,15 @@
+oxagast asked test
+<---- snip ---->
+_data, test_targets, verbose=2)
+
+§ Output
+
+> stdout : ['7/7 - 0s - loss: 0.0120 - accuracy: 0.9952\n']
+> ['[0.011954822396814823, 0.9952000021934509]']
+
+
+§ Code
+
+
+ 
+§ END OF DOC https://gpt3.oxasploits.com/said/c8427c86

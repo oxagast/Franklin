@@ -1,0 +1,3 @@
+Marduk asked please list for me all of the elements of the monster group, a group from group theory, which is branch of abstract algebra in mathematics. with hash e1c3e06c
+<---- snip ---->
+The monster group has the following elements: 1, a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t, u, v, w, x, y, z, A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, Q, R, S, T, U, V, W, X, Y, Z, 0, 1/2, and 1/4.

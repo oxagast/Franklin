@@ -1,0 +1,3 @@
+morb asked what is the device that phreaks refer to as a red box? and how does it work? with hash c9a85fd0
+<---- snip ---->
+A red box is a device used by phreakers to make long-distance calls for free. It works by playing a tone on the telephone line that mimics the tone of the coins dropped in a payphone. This tone is recognized by the phone company's switching system as payment for the call, allowing the user to make a free long-distance call.

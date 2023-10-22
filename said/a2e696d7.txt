@@ -1,0 +1,3 @@
+How many satoshi is 0.00000001 BTC
+
+1 satoshi is equal to 0.00000001 BTC, so 0.00000001 BTC is equal to 1 satoshi.

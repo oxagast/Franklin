@@ -1,0 +1,5 @@
+whats the difference bettween tunneling and having a listenr besides security 
+-------- snip --------
+
+
+Tunneling is the process of encapsulating data from one network protocol into another, while a listener is an application that is used to receive incoming packets of data from another source. The major difference between tunneling and a listener is that tunneling is used to encrypt data, while a listener is used to receive data. Tunneling can be used to securely connect two networks, while a listener can be used to receive data from any source, regardless of security or encryption.

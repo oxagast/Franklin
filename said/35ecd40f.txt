@@ -1,0 +1,5 @@
+CerebraNet asked In Google Play Store, "update all" fails but "update" worksfor individual apps with hash 35ecd40f
+<---- snip ---->
+.
+
+This is expected behavior. The "update all" option is designed to quickly update all apps that have available updates, while the "update" option is designed to update a single app.

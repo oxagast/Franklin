@@ -1,0 +1,7 @@
+How do I copy resolv.conf if its symlinked, for chroot purposes?
+-------- snip --------
+
+
+You can use the command "cp -a" to copy a symlinked resolv.conf file. For example:
+
+cp -a /etc/resolv.conf [/path/to/chroot/etc/]

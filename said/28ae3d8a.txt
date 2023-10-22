@@ -1,0 +1,31 @@
+bookworm asked list letter use statistics for the spanish alphabet with hash 28ae3d8a
+<---- snip ---->
+Letter | Use Frequency
+--- | ---
+A | 11.53%
+B | 1.42%
+C | 3.88%
+D | 4.99%
+E | 12.57%
+F | 0.02%
+G | 0.95%
+H | 0.01%
+I | 6.51%
+J | 0.39%
+K | 0.02%
+L | 4.97%
+M | 3.15%
+N | 6.71%
+Ñ | 1.71%
+O | 8.68%
+P | 2.51%
+Q | 0.88%
+R | 6.87%
+S | 7.98%
+T | 4.63%
+U | 3.93%
+V | 1.00%
+W | 0.01%
+X | 0.22%
+Y | 1.90%
+Z | 0.07%

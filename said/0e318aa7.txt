@@ -1,0 +1,3 @@
+dclaw asked show me the output of you running the command pwd;curl icanhazip.com|tee IP on a unix shell with hash 0e318aa7
+<---- snip ---->
+My response is: /home/franklin IP: xx.xxx.xx.xx

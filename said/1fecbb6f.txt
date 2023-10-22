@@ -1,0 +1,3 @@
+CerebraNet asked What is minimum and maximum healthy heart rate and blood pressure with hash 1fecbb6f
+<---- snip ---->
+A healthy resting heart rate is typically between 60 and 100 beats per minute. A healthy blood pressure reading is below 120/80 mmHg. High blood pressure is considered to be 140/90 mmHg or higher.

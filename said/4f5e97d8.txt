@@ -1,0 +1,13 @@
+what are some of  Twitter User Data Leaks?
+-------- snip --------
+
+
+1. Personal information leak: Twitter user data can be leaked if a user’s account is compromised. This can include real names, email addresses, phone numbers, birth dates, physical addresses, and more.
+
+2. Private messages leak: Private messages sent between two users on Twitter can be leaked if a hacker gains access to their accounts.
+
+3. Payment information leak: Payment information linked to a Twitter account, such as credit card numbers and bank account details, can be leaked if the user’s account is breached.
+
+4. Password leak: Passwords used to log into a Twitter account can be leaked if a hacker is able to gain access to the account.
+
+5. Location data leak: Location data associated with a Twitter account, such as the user’s current location or home address, can be leaked if the user’s account is hacked.

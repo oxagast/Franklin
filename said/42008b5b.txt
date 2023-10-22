@@ -1,0 +1,9 @@
+morb asked generate five random mac addresses in cisco format with hash 42008b5b
+<---- snip ---->
+Sure, I can generate five random mac addresses in Cisco format for you: 
+
+1. 0800.27D2.A434
+2. 8C27.F609.D14A
+3. 0400.9F9A.CA1D
+4. C842.6A2F.3D67
+5. 0C8E.6C9A.0621

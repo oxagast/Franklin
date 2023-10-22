@@ -1,0 +1,3 @@
+bookworm asked You just showed that language learning models can do math when worded properly with hash e333d2a8
+<---- snip ---->
+. This is because language learning models are based on machine learning algorithms. These algorithms are able to process large amounts of data, and can recognize patterns in that data. By providing the language learning model with the question written in a way that it can understand, it is able to process the data and compute the answer.

@@ -1,0 +1,3 @@
+bookworms asked What is the Potato Paradox in terms of water and weight? with hash 80e08b71
+<---- snip ---->
+The Potato Paradox is a phenomenon in which a potato gains weight when placed in water, even though the potato is composed mostly of water. This occurs because the potato absorbs the water through osmosis, resulting in an increase in the potato's total mass.

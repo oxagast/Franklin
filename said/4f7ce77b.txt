@@ -1,0 +1,3 @@
+bookworm asked how many kilometers is 4.24 light years? with hash 4f7ce77b
+<---- snip ---->
+4.24 light years is roughly 39,241,617,900,000 kilometers.

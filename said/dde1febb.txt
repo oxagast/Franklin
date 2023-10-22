@@ -1,0 +1,4 @@
+captain asked whats the latest wireless auth method
+<---- snip ---->
+ 
+The latest wireless authentication method is WPA3, which is an industry standard developed by the Wi-Fi Alliance to provide stronger security than the previous WPA2 standard. It includes improved encryption, better authentication, and additional protections against brute-force attacks. https://gpt3.oxasploits.com/said/dde1febb

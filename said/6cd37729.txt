@@ -1,0 +1,3 @@
+zyme asked Why doesnt googles hadoop index very many domains web pages within its list of search results? with hash 6cd37729
+<---- snip ---->
+Google Hadoop is designed for large-scale data processing, not for indexing webpages. Therefore, it is not optimized for web crawling or indexing, which is why it does not index many domain webpages within its list of search results.

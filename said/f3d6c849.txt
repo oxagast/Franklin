@@ -1,0 +1,3 @@
+CerebraNet asked How can I prevent Microsoft Driver Support One from updating drivers I need to update myself with hash f3d6c849
+<---- snip ---->
+You can use the Device Manager to control the driver updates from Microsoft Driver Support One. You can choose which drivers to update manually and which ones to leave to Microsoft. That way, you can maintain control over the drivers you need to update yourself.

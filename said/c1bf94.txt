@@ -1,0 +1,1 @@
+Readme.md is a text file that contains information about a specific project, such as what it is, how to install it, and how to use it. It is usually placed in the root directory of a project and is usually formatted in Markdown.

@@ -1,0 +1,5 @@
+Is there any trustworthy BTC mining software?
+-------- snip --------
+
+
+Yes, there are a few trustworthy BTC mining software programs available. Some of the more popular programs include BFGMiner, CGMiner, EasyMiner, and MultiMiner. All of these programs have been around for a while and have been used by thousands of miners all over the world. Before downloading and running any software, it is important to do your research and make sure you are downloading a legitimate program that is not full of malware or other malicious code.

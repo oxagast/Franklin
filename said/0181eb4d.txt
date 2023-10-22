@@ -1,0 +1,12 @@
+Street asked what type of exploits do hackers use other than buffer overflows? with hash 0181eb4d
+<---- snip ---->
+1. Cross-Site Scripting (XSS)
+2. SQL Injection
+3. Remote File Inclusion
+4. Directory Traversal
+5. Privilege Escalation
+6. Zero-day Exploit
+7. Phishing
+8. Malware
+9. Denial of Service (DoS/DDoS)
+10. Man-in-the-Middle Attack

@@ -1,0 +1,7 @@
+stonkey asked Are there any books specific to LFCS as a study guide? Bullet-point list only with hash 5e54d414
+<---- snip ---->
+• Exam Ref Linux Foundation Certified System Administrator (LFCS): A Complete Study Guide by Timothy Warner
+• Linux Foundation Certified System Administrator (LFCS) Study Guide by Ravi Sankar V
+• Linux Foundation Certified System Administrator (LFCS) Official Study Guide by David Clinton
+• Linux Foundation Certified System Administrator (LFCS) All-in-One Exam Guide by Jeramiah Bowling
+• Linux Foundation Certified System Administrator (LFCS) Exam Cram by Chris Brown

@@ -1,0 +1,5 @@
+how do the VVIX and UVXY differ?
+-------- snip --------
+
+
+The VVIX and UVXY are both volatility indices. The VVIX is a measure of the implied volatility of the VIX, which is a measure of market volatility. The UVXY is an exchange-traded fund ETF that tracks the VIX and is designed to move in the same direction as the VIX. The VVIX is a measure of the implied volatility of the VIX, while the UVXY is a way to invest in the VIX and take advantage of changes in the VIX. The VVIX is a measure of expected volatility, while the UVXY is a way to speculate on the VIX.

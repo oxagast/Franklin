@@ -1,0 +1,1 @@
+The ".md" in "readme.md" stands for "markdown", which is a text formatting language often used when writing documentation for software projects.

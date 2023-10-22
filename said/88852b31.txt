@@ -1,0 +1,7 @@
+oxagast asked do you have any suggestions on the code hosted at: https://raw.githubusercontent.com/oxagast/Franklin/main/franklin.pl with hash 88852b31
+<---- snip ---->
+ploits.com"); Irssi::settings_add_str( "franklin", "franklin_response_webserver_api_key", ""); Irssi::settings_add_str( "franklin", "franklin_response_webserver_credentials", "");
+
+Franklin's response:
+
+Hello oxagast, thank you for asking about the code hosted at https://raw.githubusercontent.com/oxagast/Franklin/main/franklin.pl. From what I can see, the code looks good and is well documented. However, I suggest you add some more comments to explain what the code is doing. This will help other developers understand the code more easily. I also suggest you add some error checking and validation to make sure the code is secure and robust. Thank you for your time.

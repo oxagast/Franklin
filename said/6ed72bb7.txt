@@ -1,0 +1,3 @@
+bookworms asked On the table is a bottle of water and a brown sack. What do you want to do next? with hash 6ed72bb7
+<---- snip ---->
+It depends on what is inside the sack. If it is food or something else that I need, I would open the sack to check what is inside. If it is not something I need, I would pick up the bottle of water and take a drink.

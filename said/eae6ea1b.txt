@@ -1,0 +1,7 @@
+bookworm asked table largest garbage dumps of the world, name, country, total tonnage, tonnage per day, tonnage per year with hash eae6ea1b
+<---- snip ---->
+1. Ghazipur Landfill, India, over 20 million tons, 5,000 tons per day, 1.8 million tons per year
+2. Fresh Kills Landfill, United States, over 150 million tons, 15,000 tons per day, 5.5 million tons per year
+3. Sukinda Chromite Mine, India, over 34 million tons, 2,000 tons per day, 730,000 tons per year
+4. Bantar Gebang Landfill, Indonesia, over 10 million tons, 2,500 tons per day, 912,500 tons per year
+5. Laogang Landfill, China, over 13 million tons, 3,500 tons per day, 1.27 million tons per year

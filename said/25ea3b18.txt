@@ -1,0 +1,3 @@
+zyme asked What should you do if you encounter a CMI? with hash 25ea3b18
+<---- snip ---->
+If you encounter a CMI, you should immediately contact the channel operator or network administrator to report the issue. It is important to be aware of the current security threats and take the necessary steps to protect yourself. A CMI is a malicious code injection which could have the potential to cause serious damage to your system. Taking the necessary precautionary steps to prevent this from happening is essential.

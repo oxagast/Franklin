@@ -1,0 +1,7 @@
+bookworm asked incorrect, there is a scenario where there can exist only a fixed number of birds and pole exactly. Try again to solve: "There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on." Hint: use the minimum number with hash e181d0e7
+<---- snip ---->
+ of poles and birds
+
+If two birds sit on each pole, then there must be an even number of birds, and the minimum number of poles that allows for this is two poles. The first pole would have two birds, and the second pole would have no birds. 
+
+If one bird sits on each pole, then there must be an odd number of birds, and the minimum number of poles that allows for this is three poles. The first two poles would have one bird each, and the third pole would have no birds.

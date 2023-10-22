@@ -1,0 +1,23 @@
+cd temp
+-------- snip --------
+
+
+# download latest version of the KMS server
+
+curl -O https://github.com/MicrosoftDocs/azure-docs/raw/master/includes/kms-server-download.zip
+
+# extract the KMS server
+
+unzip kms-server-download.zip
+
+# install the KMS server
+
+sudo ./setup.exe
+
+# configure the KMS server
+
+sudo slmgr /skms <your-kms-server-hostname>
+
+# activate the KMS server
+
+sudo slmgr /ato

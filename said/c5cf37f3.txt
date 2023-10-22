@@ -1,0 +1,13 @@
+bookworm asked what proposed ballon missions are there for venus? with hash c5cf37f3
+<---- snip ---->
+1. Atmospheric Probe - A probe designed to fly through the atmosphere of Venus and measure its composition, temperature, pressure, and other factors. 
+
+2. Venus Radar Mapping - A mission designed to map the surface of Venus and study its geology and topography.
+
+3. Venus Lander - A mission designed to send a lander to the surface of Venus to study its geology, environment, and atmosphere.
+
+4. Venus Spectroscopy - A mission designed to study the chemical composition of the atmosphere of Venus through spectroscopic analysis.
+
+5. Venus Ice Cloud Probe - A mission designed to study the ice clouds of Venus and measure the composition of the clouds.
+
+6. Venus Surface Rover - A mission designed to send a rover to the surface of Venus to explore its geology and environment.

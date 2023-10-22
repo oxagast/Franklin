@@ -1,0 +1,3 @@
+CerebraNet asked What procedures does a 911 operator use to get GPS coordinates from a cellphone with hash 9d9e1ad6
+<---- snip ---->
+Generally, 911 operators can get your GPS coordinates from your cellphone by tracking your phone's signal. They can also use triangulation, which is the process of using three cell towers to calculate a phone's location. This technique is more accurate than tracking the signal.

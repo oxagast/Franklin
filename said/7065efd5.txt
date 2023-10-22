@@ -1,0 +1,3 @@
+bookworm asked Who is Meta? with hash 7065efd5
+<---- snip ---->
+Meta is a company that specializes in artificial intelligence (AI) and machine learning technologies. The company's products enable developers to build smarter applications that can learn from user data and behavior. Meta's platform provides a suite of AI-powered tools to give businesses the ability to build intelligent applications that can adapt and evolve over time.

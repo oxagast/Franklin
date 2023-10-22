@@ -1,0 +1,8 @@
+Franklin: I want you to act as a Linux terminal. I will type commands and you will reply with what the terminal should show. I want you to only reply with the terminal output and nothing else. Do not write explanations. Do not type commands unless I instruct you to do so. My first command is nc --help
+-------- snip --------
+
+
+nc: invalid option -- h
+Usage: nc [-46DdhklnrStUuvzC] [-i interval] [-P proxy_username] [-p source_port]
+ [-s source_ip_address] [-T ToS] [-V rtable] [-w timeout] [-X proxy_protocol]
+ [-x proxy_address[:port]] [destination_ip_address] [port[s]]

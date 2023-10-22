@@ -1,0 +1,54 @@
+bookworms asked write a bash program that converts a file into leetspeak with hash c70ddf7e
+<---- snip ---->
+#!/bin/bash
+
+#Check if the user has provided a valid file
+if [ $# -eq 0 ]
+then
+    echo "No file provided"
+    exit
+fi
+
+#Check if the file exists
+if [ ! -f $1 ]
+then
+    echo "File does not exist"
+    exit
+fi
+
+#Create a new file to store the leetspeak version
+file_name=$(basename "$1")
+leet_file="${file_name%.*}_leet.txt"
+touch $leet_file
+
+#Read the file line by line
+while IFS= read -r line
+do
+    #Replace characters with their leetspeak equivalents
+    line=$(echo "$line" | tr 'AEGIOS' '4361057')
+    line=$(echo "$line" | tr 'B' '8')
+    line=$(echo "$line" | tr 'C' '<')
+    line=$(echo "$line" | tr 'D' '|)')
+    line=$(echo "$line" | tr 'F' '|=')
+    line=$(echo "$line" | tr 'J' '_|')
+    line=$(echo "$line" | tr 'K' '|<')
+    line=$(echo "$line" | tr 'L' '|_')
+    line=$(echo "$line" | tr 'M' '|\/|')
+    line=$(echo "$line" | tr 'N' '|\|')
+    line=$(echo "$line" | tr 'P' '|o')
+    line=$(echo "$line" | tr 'Q' '(,)')
+    line=$(echo "$line" | tr 'R' '|^')
+    line=$(echo "$line" | tr 'T' '7')
+    line=$(echo "$line" | tr 'U' '|_|')
+    line=$(echo "$line" | tr 'V' '\/')
+    line=$(echo "$line" | tr 'W' '\/\/')
+    line=$(echo "$line" | tr 'X' '><')
+    line=$(echo "$line" | tr 'Y' '`/')
+    line=$(echo "$line" | tr 'Z' '2')
+
+    #Write the line to the new file
+    echo "$line" >> $leet_file
+done < $1
+
+#Show the user the location of the leetspeak file
+echo "Leetspeak version written to $leet_file"

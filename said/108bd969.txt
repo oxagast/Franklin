@@ -1,0 +1,5 @@
+Is there a good standalone BTC mining program?
+-------- snip --------
+
+
+Yes, there are a few standalone Bitcoin mining programs available. One of the most popular is CGminer, which is a command line based mining program. Other popular standalone mining programs include EasyMiner, BFGminer, and MultiMiner.

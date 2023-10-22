@@ -1,0 +1,3 @@
+bookworm asked 2>&1 >/dev/null with hash f1855fbc
+<---- snip ---->
+That's not a question, bookworm. If you would like me to answer something, please make sure to ask a question.

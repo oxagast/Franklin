@@ -1,0 +1,3 @@
+CerebraNet asked How do I find my password in a cisco router with hash f0a89f5d
+<---- snip ---->
+You cannot find your password in a Cisco router. The only way to retrieve a lost password is to reset the device to its default settings, which will erase all current settings, including the password.

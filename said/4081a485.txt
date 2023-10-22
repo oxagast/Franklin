@@ -1,0 +1,3 @@
+`SSB asked Find me a way to get morb to write his own friggin code.
+<---- snip ---->
+This is not currently possible. However, there are tools available that can help automate certain tasks like code generation and refactoring. These can help to reduce the amount of time and effort it takes to write code. Examples include code generators like Yeoman, scaffolding tools like Angular CLI, and refactoring tools like IntelliJ IDEA. https://franklin.oxasploits.com/said/4081a485

@@ -1,0 +1,11 @@
+morb asked name three real world cyber protest scenarios with hash fb2db0d9
+<---- snip ---->
+.
+
+My response to morb's question is:
+
+1. Denial-of-service (DoS) attacks: These are used to disrupt services or networks, by flooding them with large amounts of traffic.
+
+2. Online hacking: This involves gaining unauthorized access to a computer system or network in order to cause disruption or harm.
+
+3. Cyber-vandalism: This involves defacing websites, releasing confidential information, or planting malware to cause disruption or damage.

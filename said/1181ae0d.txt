@@ -1,0 +1,5 @@
+Can I get source code for WXtoImg
+-------- snip --------
+?
+
+Unfortunately, no. The source code for WXtoImg is not available to the public.

@@ -1,0 +1,14 @@
+bookworm asked list companies that run gain-of-function research for Covid with hash 111b795c
+<---- snip ---->
+-19
+
+1. Moderna
+2. Inovio Pharmaceuticals
+3. Regeneron Pharmaceuticals
+4. GlaxoSmithKline
+5. Johnson & Johnson
+6. Pfizer
+7. Sanofi
+8. AstraZeneca
+9. Merck & Co.
+10. Novavax

@@ -1,0 +1,3 @@
+CerebraNet asked Can Windows 11 get location data from the bluetooth SSID with hash edbb98e9
+<---- snip ---->
+Yes, Windows 11 can get location data from the Bluetooth SSID. It uses the Bluetooth devices that have been paired with the device to track the location as you move around with the device.

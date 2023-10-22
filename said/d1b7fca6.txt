@@ -1,0 +1,5 @@
+What are netcats progromatic capabilites 
+-------- snip --------
+
+
+Netcat is a feature-rich network utility program used for reading from and writing to network connections using the TCP/IP protocol. It is a simple but powerful tool that can be used for a variety of tasks such as port scanning, port redirection, transfer of files, and port listening. Additionally, Netcat can be used as a backdoor to gain remote access to a system, as well as a port forwarding tool. Netcat can also be used as a network debugging tool, allowing users to debug network services such as web servers and FTP servers. Finally, Netcat can be used to perform various security tasks such as port scanning, banner grabbing, and service identification.

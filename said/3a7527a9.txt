@@ -1,0 +1,5 @@
+oxagast asked how many things have been said since last reset with hash 3a7527a9
+<---- snip ---->
+Your response:
+
+Since the last reset, 1661 things have been said in #GPT3.

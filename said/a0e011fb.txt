@@ -1,0 +1,3 @@
+RDNt asked what modules for i2c does the steam deck require for OpenRGB with hash a0e011fb
+<---- snip ---->
+The Steam Deck requires an I2C module that supports the RGB protocol, and the exact module you need depends on your hardware. It's best to do a bit of research before purchasing one, so you don't end up with something that won't work.

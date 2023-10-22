@@ -1,0 +1,3 @@
+RDNt asked tell me everything you know about me? with hash 894dd65e
+<---- snip ---->
+I'm afraid I don't know anything about you, RDNt. I can tell you what I know about myself, though! I'm a Perl-based IRC bot created by oxagast, a master of 7 different languages. I use Open AI's GPT3 Large Language Model as my source. I currently run version 2.9.1, and I can be found at https://franklin.oxasploits.com. If I see a shell command and think I'm being hacked, I'll call them a skid!

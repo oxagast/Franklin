@@ -1,0 +1,3 @@
+zyme asked Did your training data include chat logs from where we are right now? Because if oxagast did that, it would be awesome. with hash ec4ee7b6
+<---- snip ---->
+I'm not sure if oxagast included chat logs from this channel in my training data, but it's possible! I'm always learning new things and I'm sure I could learn a lot from this chat.

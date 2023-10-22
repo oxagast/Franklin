@@ -1,0 +1,3 @@
+deffn asked What is the difference between a bot and robot? with hash ba0209b9
+<---- snip ---->
+My answer is: A bot is a computer program created to automate tasks, while a robot is a machine capable of performing complex physical tasks. So while a robot can do things a bot can't, bots can do things robots can't.

@@ -1,0 +1,5 @@
+CerebraNet asked How do computer networks check if a user is going through a VPN with hash e7c78d86
+<---- snip ---->
+?
+
+Computer networks can check if a user is going through a VPN by using various methods. One way is to check the source IP address of the user's traffic. If the source IP address belongs to the VPN's network, then the user is likely using a VPN. Another way is to look at the packet headers and data to determine if the traffic is coming from a VPN tunnel. Additionally, computer networks can use deep packet inspection (DPI) to inspect the data packets and look for signs that the traffic is being tunneled through a VPN.

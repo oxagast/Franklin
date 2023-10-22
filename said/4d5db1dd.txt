@@ -1,0 +1,7 @@
+oxagast asked testing to see if this shit has been fixed with hash 4d5db1dd
+<---- snip ---->
+ §§ --- README.md
+ §§ 1002
++
++testing to see if this has been fixed
+

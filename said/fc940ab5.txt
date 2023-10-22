@@ -1,0 +1,3 @@
+bookworm asked russian proverb about rocket failure with hash fc940ab5
+<---- snip ---->
+"Дорога к успеху проходит через много полетов и падений ракеты."

@@ -1,0 +1,7 @@
+how do you use curl to copy standard output from current host to a file on a remote host?
+-------- snip --------
+
+
+You can use the following command to copy standard output from the current host to a file on a remote host using curl:
+
+curl -u username:password -T - ftp://remotehost.com/file.txt

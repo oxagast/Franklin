@@ -1,0 +1,3 @@
+zyme asked Do you understand the basics of using the cli command awk or gawk? with hash bc18b686
+<---- snip ---->
+My response is: Yes, I do understand the basics of using the cli command awk or gawk. I can even write some pretty good scripts with it!

@@ -1,0 +1,3 @@
+morb asked show me utf8 character U+1004 with hash 591166f9
+<---- snip ---->
+င

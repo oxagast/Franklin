@@ -1,0 +1,5 @@
+CerebraNet asked How can I send a bell character through IRC with hash 7749107a
+<---- snip ---->
+?
+
+The bell character (a.k.a. ASCII 7) can be sent in a message over IRC by typing "\a" (without the quotes).

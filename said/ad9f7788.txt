@@ -1,0 +1,3 @@
+CerebraNet asked What programs are used between a database and a web server with hash ad9f7788
+<---- snip ---->
+It depends on the type of database and web server being used. For example, for MySQL and PHP, you would use the PHP MySQLi extension. For PostgreSQL and PHP, you would use the PostgreSQL extension. For MongoDB and Node.js, you would use the MongoDB Node.js driver.

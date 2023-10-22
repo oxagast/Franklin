@@ -1,0 +1,26 @@
+booksworms asked Meta with hash 37bb8a0c
+<---- snip ---->
+Property(int meta) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public int getMetaFromState(IBlockState state) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public IBlockState getStateFromMeta(int meta) {
+		// TODO Auto-generated method stub
+		return this.getDefaultState();
+	}
+
+	@Override
+	public void registerModels() {
+		Main.proxy.registerItemRenderer(Item.getItemFromBlock(this), 0, "inventory");
+		
+	}
+
+}

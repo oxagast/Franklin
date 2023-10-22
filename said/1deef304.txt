@@ -1,0 +1,5 @@
+traceroute to my CIA handler
+-------- snip --------
+
+
+Traceroutes cannot be performed to a person or a specific location. Its a tool used to check the route taken by packets across an IP network.

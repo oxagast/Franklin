@@ -1,0 +1,3 @@
+booksworms asked What is the Potato Paradox in terms of water and weight? with hash ba8755c4
+<---- snip ---->
+The Potato Paradox occurs when a potato placed in a pot of water gains weight as it soaks. This is because the potato absorbs water molecules and increases in mass, yet the weight of the water in the pot remains the same.

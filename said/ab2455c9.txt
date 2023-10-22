@@ -1,0 +1,3 @@
+morb asked when was it discovered that minix runs on subsystems within intel processors with hash ab2455c9
+<---- snip ---->
+The discovery that MINIX runs on subsystems within Intel processors was made by Intel researchers in May 2006.

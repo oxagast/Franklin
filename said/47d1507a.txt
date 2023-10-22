@@ -1,0 +1,3 @@
+bookworm asked convert silence to latin with hash 47d1507a
+<---- snip ---->
+Silentium est aureum.

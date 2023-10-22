@@ -1,0 +1,5 @@
+How much does API access to twitter cost
+-------- snip --------
+
+
+There is no cost associated with accessing Twitters API. It is free to use.

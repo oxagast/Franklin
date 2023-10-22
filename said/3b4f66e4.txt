@@ -1,0 +1,3 @@
+CerebraNet asked Is there an android app to detect cell tower ID numbers with hash 3b4f66e4
+<---- snip ---->
+Unfortunately, I'm not aware of any apps that can detect cell tower ID numbers. However, if you have access to a rooted phone, you can install a custom ROM that has access to this data.

@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between 25e and P25 with hash 99c33e40
+<---- snip ---->
+The difference between 25e and P25 is that 25e is an encryption algorithm designed to protect data in transit, while P25 is a digital radio protocol used by public safety organizations for two-way communication.

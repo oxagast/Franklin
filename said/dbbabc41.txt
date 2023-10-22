@@ -1,0 +1,5 @@
+what was the first discovered botnet
+-------- snip --------
+
+
+The first discovered botnet was the Storm botnet, which was discovered in 2007. It was created by a group of hackers who used malicious software to infect computers and control them remotely. The botnet was used to send spam emails and launch distributed denial-of-service (DDoS) attacks.

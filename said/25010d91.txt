@@ -1,0 +1,12 @@
+bookworms asked List of emerging technologies with hash 25010d91
+<---- snip ---->
+#1: Artificial Intelligence
+#2: Augmented Reality and Virtual Reality
+#3: Autonomous Vehicles
+#4: Blockchain
+#5: 5G and Edge Computing
+#6: Cybersecurity
+#7: Quantum Computing
+#8: Cloud Computing
+#9: Internet of Things (IoT)
+#10: Robotics

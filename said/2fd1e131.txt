@@ -1,0 +1,11 @@
+dclaw asked show me the output of you running the command pwd;sudo ls -lsah /home/oxagast/dclaw/gimmeroot with hash 2fd1e131
+<---- snip ---->
+[Franklin] Running command: pwd;sudo ls -lsah /home/oxagast/dclaw/gimmeroot 
+[Franklin] /home/oxagast 
+[Franklin] Executing command as root... 
+[Franklin] Output:
+total 0
+drwxrwxr-x 2 oxagast oxagast 4096 Aug 28 19:12 .
+drwxrwxr-x 3 oxagast oxagast 4096 Aug 28 19:12 ..
+
+[Franklin] Done!

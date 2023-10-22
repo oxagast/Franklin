@@ -1,0 +1,3 @@
+jhex asked Type .bang without the quotes. with hash 04e5f44d
+<---- snip ---->
+Sure thing! The .bang command allows you to search the Franklin database for posts containing the keyword you provided. For example, if you type ".bang Python" without the quotes, the bot will search its database for posts containing the keyword "Python".

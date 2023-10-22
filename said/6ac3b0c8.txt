@@ -1,0 +1,3 @@
+bookworm asked 100 examples of cloze number sequences in quiz file format sequence:answer, do not number each line with hash 6ac3b0c8
+<---- snip ---->
+2___:4, 8___:16, 11___:22, 17___:34, 22___:44, 28___:56, 33___:66, 39___:78, 44___:88, 50___:100

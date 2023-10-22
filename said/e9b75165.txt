@@ -1,0 +1,3 @@
+RDNt asked what is the website scuttled.net for? is it for a website? or a irc network? with hash e9b75165
+<---- snip ---->
+Scuttled.net is an IRC network. It provides a platform for users to chat and share information about computer security, programming, and other related topics.

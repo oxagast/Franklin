@@ -1,0 +1,5 @@
+morb asked can you tunnel gre over ip
+<---- snip ---->
+sec
+
+Yes, it is possible to tunnel GRE (Generic Routing Encapsulation) over an IPsec tunnel. This configuration is commonly used to establish a connection between two routers over the Internet, allowing for secure communication. https://gpt3.oxasploits.com/said/8e7e14b6

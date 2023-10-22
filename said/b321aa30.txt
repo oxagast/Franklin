@@ -1,0 +1,3 @@
+zyme asked What is txid? with hash b321aa30
+<---- snip ---->
+A txid (Transaction ID) is a unique identifier used to identify a specific transaction on a blockchain. It is a 64-character hexadecimal string that is used to identify and track transactions on the blockchain.

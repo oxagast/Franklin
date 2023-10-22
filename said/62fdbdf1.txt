@@ -1,0 +1,5 @@
+In windows 11, how can I determine the LAN usage of a program?
+-------- snip --------
+
+
+In Windows 11, you can determine the LAN usage of a program by using the Task Manager. To do this, open the Task Manager and go to the “Network” tab. Here, you will see a list of all the programs that are using your LAN. The “Network” tab will show you the amount of data each program is using in the “Bytes Received” and “Bytes Sent” columns.

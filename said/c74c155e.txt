@@ -1,0 +1,5 @@
+snap arch linux
+-------- snip --------
+
+
+The official Arch Linux installation process is a rolling release model, which means that the system is always up-to-date and no specific versions are available. To install Arch Linux you need to download the latest release from the official website, burn it to a CD/DVD or USB drive, and then follow the installation instructions.

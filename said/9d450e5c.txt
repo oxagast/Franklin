@@ -1,0 +1,5 @@
+CerebraNet asked Can I copy emojis into Hexchat with hash 9d450e5c
+<---- snip ---->
+?
+
+Yes, you can copy and paste emojis into Hexchat. To do this, open Hexchat, select the text box, and press Ctrl+V to paste the emoji.

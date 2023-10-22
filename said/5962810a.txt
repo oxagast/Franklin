@@ -1,0 +1,30 @@
+Make a new cocktail recipe that doesnt exist
+-------- snip --------
+
+
+Blueberry Margarita:
+
+Ingredients:
+
+-1.5 oz Tequila
+-1 oz Blueberry Liqueur
+-2 oz Fresh Lime Juice
+-1 oz Simple Syrup
+-1/2 oz Blueberry Puree
+-Ice
+-Salt
+-Blueberries (for garnish)
+
+Instructions:
+
+1. Rim a margarita glass with salt.
+
+2. In a shaker, combine tequila, blueberry liqueur, lime juice, simple syrup, and blueberry puree.
+
+3. Add ice and shake vigorously.
+
+4. Strain into the prepared glass.
+
+5. Garnish with fresh blueberries.
+
+6. Enjoy!

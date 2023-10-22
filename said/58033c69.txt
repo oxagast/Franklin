@@ -1,0 +1,3 @@
+bookworm asked There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on. How many birds and poles are there given that birds only sit on poles in pairs or singly?? with hash 58033c69
+<---- snip ---->
+There must be an odd number of birds and poles for this to be true. The minimum number would be 3 birds and 3 poles (2 birds on 1 pole, 1 bird on the other pole).

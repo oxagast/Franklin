@@ -1,0 +1,3 @@
+morb asked how much energy would it take to collapse a star with hash 61ad7a9e
+<---- snip ---->
+The exact amount of energy required to collapse a star depends on the size and composition of the star. Supermassive stars, such as those found at the center of galaxies, may require up to 10⁴⁴ Joules of energy to collapse, while smaller stars may require as little as 10⁴⁰ Joules.

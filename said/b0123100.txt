@@ -1,0 +1,10 @@
+import math def isPrime(num):if type(num) != int or math.fabs(num)  1000:raise ValueError(Invalid input)if isinstance(num, float):return Falseif num  2:return Falseelif num == 2:return Truefor i in range(3, math.ceil(int(math.sqrt(num)) + 1)):if num % i == 0:return Falsereturn True
+-------- snip --------
+
+
+num = input("Enter a number:")
+
+if isPrime(num):
+ print("The number is prime")
+else:
+ print("The number is not prime")

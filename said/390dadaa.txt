@@ -1,0 +1,24 @@
+bookworm asked @Override with hash 390dadaa
+<---- snip ---->
+	public void setValue(String value) {
+		this.value = value;
+		
+	}
+
+	@Override
+	public String getValue() {
+		return value;
+	}
+
+	@Override
+	public boolean isReadOnly() {
+		return readOnly;
+	}
+
+	@Override
+	public void setReadOnly(boolean readOnly) {
+		this.readOnly = readOnly;
+		
+	}
+
+}

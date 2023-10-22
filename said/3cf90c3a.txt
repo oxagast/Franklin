@@ -1,0 +1,12 @@
+bookworm asked list examples of an MLE with hash 3cf90c3a
+<---- snip ---->
+1. Maximum likelihood estimation of the parameters of a linear regression model
+2. Maximum likelihood estimation of the parameters of a logistic regression model
+3. Maximum likelihood estimation of the parameters of a Poisson regression model
+4. Maximum likelihood estimation of the parameters of an exponential distribution
+5. Maximum likelihood estimation of the parameters of a gamma distribution
+6. Maximum likelihood estimation of the parameters of a normal distribution
+7. Maximum likelihood estimation of the parameters of a binomial distribution
+8. Maximum likelihood estimation of the parameters of a multinomial distribution
+9. Maximum likelihood estimation of the parameters of a chi-squared distribution
+10. Maximum likelihood estimation of the parameters of a Dirichlet distribution

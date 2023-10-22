@@ -1,0 +1,4 @@
+bookworm asked list all lowercase Unicodes for \\'i\\' and \\'o\\' characters with hash 0d8079cb
+<---- snip ---->
+i: U+0069, U+006A, U+0131
+o: U+006F, U+00F3, U+014D

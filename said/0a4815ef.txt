@@ -1,0 +1,3 @@
+CerebraNet asked What is a high quality, low cost graphics editor. with hash 0a4815ef
+<---- snip ---->
+GIMP (GNU Image Manipulation Program) is a free and open-source image editor that offers high quality and powerful features at a low cost. It has a wide range of features, including photo retouching, image composition, and image authoring. GIMP is available for Windows, Mac, and Linux operating systems.

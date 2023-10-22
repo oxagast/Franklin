@@ -1,0 +1,5 @@
+what  is the crossbow virtual networking stack?
+-------- snip --------
+
+
+The Crossbow Virtual Networking Stack is an open source project that provides an easy way to connect virtual machines and containers running in a cloud or virtualized environment. It provides a comprehensive set of features for managing virtual networks, including virtual routing, virtual firewalls, virtual load balancers, and more.

@@ -1,0 +1,32 @@
+morb asked write me a perl script that continuously writes a copy of itself, executes the copy as a child process, and forks into the background; theme is tribbles with hash 7d1647fb
+<---- snip ---->
+#!/usr/bin/perl
+
+use strict;
+use warnings;
+
+my $tribble = "tribble.pl"; #name of script
+open(my $fh, '>', $tribble) or die "Could not open tribble file $tribble: $!";
+
+#write the contents of this script to the tribble file
+print $fh $0;
+
+close($fh);
+
+#execute the tribble script as a child process
+my $pid = fork;
+if(!defined($pid)) {
+    die "Fork failed: $!";
+} elsif($pid == 0) {
+    exec($tribble);
+    die "Exec failed: $!";
+}
+
+#fork into the background
+fork and exit;
+
+#continuously create copies of the tribble script
+while(1) {
+    system("cp $tribble $tribble.copy");
+    sleep(1);
+}

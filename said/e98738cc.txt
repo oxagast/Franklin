@@ -1,0 +1,5 @@
+what type of containers does Cubes OS use?
+-------- snip --------
+
+
+Cubes OS uses Docker containers.

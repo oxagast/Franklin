@@ -1,0 +1,5 @@
+is Netlify the same as heroku and google app engine?
+-------- snip --------
+
+
+No, Netlify is not the same as Heroku or Google App Engine. Netlify is a cloud platform and hosting service that specializes in static sites and web applications. Heroku and Google App Engine are cloud-based application platforms that support a wide range of programming languages and frameworks.

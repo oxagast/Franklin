@@ -1,0 +1,3 @@
+bookworm asked What is franklin_api_key? with hash bf1a79b8
+<---- snip ---->
+Franklin_api_key is a unique, private key used to access the Franklin API. It is used to authenticate your requests and ensure that only authorized users can access the API.

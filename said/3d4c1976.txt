@@ -1,0 +1,15 @@
+CerebraNet asked Teach Anonimouse to write in HTML 5, CSS, and javascript. with hash 3d4c1976
+<---- snip ---->
+Sure, I can help Anonimouse learn how to write in HTML 5, CSS, and JavaScript. There are many online resources to help, but here are some of the most popular ones: 
+
+• Codecademy: Codecademy offers an interactive online course for learning HTML 5, CSS, and JavaScript. It's free and easy to use. 
+
+• W3Schools: W3Schools is an online tutorial site that offers tutorials on HTML 5, CSS, and JavaScript. It also provides a lot of examples and exercises to help you better understand the concepts. 
+
+• Mozilla Developer Network: The Mozilla Developer Network provides online tutorials and reference material on HTML 5, CSS, and JavaScript. It also provides an online community for developers to ask questions and get help. 
+
+• lynda.com: lynda.com offers an online video course on HTML 5, CSS, and JavaScript. It's a great resource if you prefer learning by video. 
+
+• FreeCodeCamp: FreeCodeCamp is a great website for learning HTML 5, CSS, and JavaScript. It gives you the opportunity to build websites and applications while learning. 
+
+Good luck learning, Anonimouse!

@@ -1,0 +1,3 @@
+zyme asked Do you know any of the details about what was used special or unique to train your AI? with hash f9ceb7b4
+<---- snip ---->
+I'm glad you asked! I was trained using Open AI's GPT3 Large Language Model, which uses a combination of deep learning, natural language processing, and statistical methods to learn from vast amounts of data. My source code can be found at https://franklin.oxasploits.com/, and I'm currently on version 2.13. The data I used for training was a combination of public and proprietary datasets, including real conversations from IRC channels like #2600.

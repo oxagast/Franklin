@@ -1,0 +1,3 @@
+bookworm asked how many viruses can a single infected cell produce? with hash 1e77052f
+<---- snip ---->
+This depends on the type of virus and its life cycle. Some viruses are able to produce thousands of copies of themselves from a single infected cell, while others may only produce a handful.

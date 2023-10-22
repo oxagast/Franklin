@@ -1,0 +1,3 @@
+insecurity asked is it bad to use the Guid.NewGuid .NET method to generate API keys? with hash 2a67a059
+<---- snip ---->
+No, it is not bad to use the Guid.NewGuid .NET method to generate API keys. However, it is important to remember that this method does not provide strong cryptographic randomness, so it may not be suitable for applications that require higher security standards. If you are looking for a more secure API key generator, consider using a cryptographically secure random number generator.

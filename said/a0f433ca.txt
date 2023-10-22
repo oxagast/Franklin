@@ -1,0 +1,3 @@
+CerebraNet asked What is the relationship between facebook and the NSA with hash a0f433ca
+<---- snip ---->
+The relationship between Facebook and the National Security Agency (NSA) is complicated. While the NSA does not have direct access to Facebook user data, the agency does have access to certain kinds of metadata from Facebook, such as connections between users, posts, and other activity on the platform. The NSA also has access to some of the private messages sent through Facebook's Messenger app.

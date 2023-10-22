@@ -1,0 +1,3 @@
+CerebraNet asked What color has the highest RF frequency with hash e98cdaac
+<---- snip ---->
+The color with the highest RF frequency is ultraviolet.

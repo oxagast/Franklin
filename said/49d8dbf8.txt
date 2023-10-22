@@ -1,0 +1,5 @@
+bookworm asked Can you generate a conways game of life using letters x and o for the glider with hash 49d8dbf8
+<---- snip ---->
+XO
+OO
+XO

@@ -1,0 +1,5 @@
+CerebraNet asked Give me an example ddrescue command with hash 1500e997
+<---- snip ---->
+Sure, here you go: 
+
+ddrescue -f /dev/sdX /destination/image.dd /logfile.log

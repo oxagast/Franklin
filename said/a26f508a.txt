@@ -1,0 +1,9 @@
+morb asked how did the step by step telephone exchange work with hash a26f508a
+<---- snip ---->
+1. When a caller dialed a number, the telephone exchange would route the call to the appropriate local switchboard.
+
+2. The switchboard operator would then connect the caller to the desired recipient by manually plugging the caller's line into the recipient's line.
+
+3. The operator would then announce the call to the recipient, who would respond by picking up their telephone receiver.
+
+4. Once the connection was established, the operator would disconnect the line and the caller and recipient would be able to communicate directly.

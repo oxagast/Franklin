@@ -1,0 +1,3 @@
+CerebraNet asked Can a hacker get my real phone number from my google voice phone number with hash 65a8cf40
+<---- snip ---->
+No, a hacker cannot get your real phone number from your Google Voice number. Google Voice is designed to be a secure, private service, and they have measures in place to protect your information.

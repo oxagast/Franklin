@@ -1,0 +1,14 @@
+bookworm asked list expletives in Brazilian Portuguese with english with hash b6147f3c
+<---- snip ---->
+ translation
+
+1. Filho da puta (Son of a bitch)
+2. Vai se foder (Go fuck yourself)
+3. Caralho (Damn)
+4. Porra (Shit)
+5. Merda (Shit)
+6. Cacete (Fuck)
+7. Cuzao (Asshole)
+8. Bunda mole (Pussy)
+9. Seu cuzao (Your asshole)
+10. Cuzão (Asshole)

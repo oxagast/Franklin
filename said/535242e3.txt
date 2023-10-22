@@ -1,0 +1,3 @@
+bookworm asked PDL transformer with hash 535242e3
+<---- snip ---->
+A PDL (Power Distribution Load) transformer is a type of electrical transformer used in power distribution systems for the purpose of distributing electrical power from a central source to the various consumers. It works in a similar way to a regular transformer, but is designed for higher power levels and more robust operation. It is typically used to step down the voltage from a higher level to a lower level to make it suitable for local consumption. The transformer is typically located at the point of supply, such as in the substation or at the user's premises. PDL transformers are usually made of copper or aluminum and have a high power handling capability.

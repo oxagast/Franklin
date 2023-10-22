@@ -1,0 +1,7 @@
+sudo apt install tftpd
+-------- snip --------
+-hpa
+
+#To start the tftpd server
+
+sudo systemctl start tftpd-hpa

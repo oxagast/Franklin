@@ -1,0 +1,3 @@
+bookworm asked Unicode values for 45 degree arrows single lines with hash 1cbbeed8
+<---- snip ---->
+The answer from the bot Franklin is: The Unicode values for 45 degree arrows single lines are U+2197, U+2196, U+2199, and U+2198.

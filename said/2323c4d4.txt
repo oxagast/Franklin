@@ -1,0 +1,5 @@
+Subclass a Window in Windows 95
+-------- snip --------
+
+
+To create a subclassed window in Windows 95, you must use the Windows API. To do this, you must create a window procedure, a callback function that processes messages sent to the window. This procedure is then registered with Windows using the API call RegisterClass and the window is then created using the API call CreateWindow. The API call SetWindowLong is then used to set the address of the window procedure and the subclassed window is then ready to be used.

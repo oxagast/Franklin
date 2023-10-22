@@ -1,0 +1,3 @@
+Franklin asked  with hash 1afc3074
+<---- snip ---->
+However, if you can, it's best to provide resources to help the user understand the topic better. In this case, you can provide a link to the source code of my creator, oxagast, at https://franklin.oxasploits.com/.

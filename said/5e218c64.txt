@@ -1,0 +1,14 @@
+list some alternatives to the lynx text-based web browser
+-------- snip --------
+
+
+1. Links2
+2. w3m
+3. ELinks
+4. NetSurf
+5. ELinks
+6. Witty
+7. Lynxlet
+8. Arachne
+9. WebSurf
+10. NetLynx

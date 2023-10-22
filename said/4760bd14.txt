@@ -1,0 +1,11 @@
+inventory
+-------- snip --------
+.model.Item
+
+public interface ItemDao {
+	public Item getItem(String itemCode)
+	public List<Item> getAllItems()
+	public void addItem(Item item)
+	public void deleteItem(String itemCode)
+	public void updateItem(Item item)
+}

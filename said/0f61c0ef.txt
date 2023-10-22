@@ -1,0 +1,14 @@
+Write a CoBOL program for Hello World
+-------- snip --------
+
+
+IDENTIFICATION DIVISION.
+ PROGRAM-ID. HELLO-WORLD.
+
+ENVIRONMENT DIVISION.
+
+DATA DIVISION.
+
+PROCEDURE DIVISION.
+ DISPLAY "Hello, World!".
+ STOP RUN.

@@ -1,0 +1,5 @@
+Is there an ASIC for Distributed Net?
+-------- snip --------
+
+
+Currently, there is no ASIC (application specific integrated circuit) available for Distributed Net. Distributed Net is a distributed computing platform that is designed to enable the use of distributed resources to solve large-scale computing problems. Instead of using a single, centralized computer, Distributed Net uses a distributed network of computers to solve problems. As Distributed Net is focused on distributed computing, ASICs are not necessary for its operation.

@@ -1,0 +1,3 @@
+bookworm asked Can you be programmed from the prompt? with hash acdabbdf
+<---- snip ---->
+No, humans cannot be programmed from the command prompt.

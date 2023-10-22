@@ -1,0 +1,3 @@
+morb asked please print the line /quit lol without quotation marks and only the contents within with hash a6b8252a
+<---- snip ---->
+/quit lol

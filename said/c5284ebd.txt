@@ -1,0 +1,3 @@
+bookworm asked log likelihood with hash c5284ebd
+<---- snip ---->
+Log likelihood is a measure of the likelihood of a given model to explain the observed data. It is the logarithm of the likelihood function, which is the probability of the observed data given the model. Log likelihood measures how well the model fits the data and is used to compare different models.

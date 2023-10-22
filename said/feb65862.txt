@@ -1,0 +1,3 @@
+CerebraNet asked Wy is a  Brocade switch not passing traffic with hash feb65862
+<---- snip ---->
+There are a number of reasons why a Brocade switch may not be passing traffic, including a misconfigured switch or port, a bad cable or port, a faulty network card, or a network outage. The best way to troubleshoot the issue is to first check the switch and port configuration, then check the physical connections, and then check the network status. If none of these steps resolves the issue, it is recommended to contact the vendor for further assistance.

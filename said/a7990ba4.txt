@@ -1,0 +1,5 @@
+How many types of quadrangles are there?
+-------- snip --------
+
+
+There are four types of quadrangles: parallelograms, rectangles, squares, and trapezoids.

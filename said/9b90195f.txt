@@ -1,0 +1,12 @@
+bookworm asked list c64 emulators that run in linux cli with hash 9b90195f
+<---- snip ---->
+1. VICE
+2. x64sc
+3. CCS64
+4. x128
+5. Frodo
+6. C64debugger
+7. CCGMS
+8. C64Emulator
+9. C64 Forever
+10. OpenCBM

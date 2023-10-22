@@ -1,0 +1,3 @@
+cibermapu asked who are the members of the 2011 hacker group lulzsec? with hash 7a44c939
+<---- snip ---->
+LulzSec, or Lulz Security, was a black hat hacking group that operated from May 2011 to June 2011. Its core members were Sabu, Topiary, Kayla, tflow, pwnsauce, avunit, Neuron, and ViraL. They were responsible for some of the most high-profile hacking incidents of their time, such as the Sony Pictures hack and the attacks on the UK's Serious Organised Crime Agency.

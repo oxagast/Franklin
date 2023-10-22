@@ -1,0 +1,3 @@
+zyme asked Do you know what a EDIPI is? with hash 762ba82d
+<---- snip ---->
+I'm not sure what a EDIPI is, but according to https://www.dmdc.osd.mil/identity/edipi/index.jsp, it stands for "Electronic Data Interchange Personal Identifier".

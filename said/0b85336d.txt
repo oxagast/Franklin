@@ -1,0 +1,55 @@
+bookworm asked List all the words for LOVE in 100 languages. with hash 0b85336d
+<---- snip ---->
+1. Afrikaans: Liefde
+2. Albanian: Dashuri
+3. Amharic: ፍቅር
+4. Arabic: حب
+5. Armenian: Սեր
+6. Basque: Maite
+7. Belarusian: Каханне
+8. Bengali: ভালোবাসা
+9. Bosnian: Ljubav
+10. Bulgarian: Любов
+11. Catalan: Amor
+12. Cebuano: Mahal
+13. Chichewa: Upanga
+14. Chinese (Simplified): 爱
+15. Chinese (Traditional): 愛
+16. Corsican: Amore
+17. Croatian: Ljubav
+18. Czech: Láska
+19. Danish: Kærlighed
+20. Dutch: Liefde
+21. Esperanto: Amo
+22. Estonian: Armastus
+23. Fijian: Vakamamaivedeti
+24. Filipino: Pag-ibig
+25. Finnish: Rakkaus
+26. French: Amour
+27. Frisian: Leafde
+28. Galician: Amor
+29. Georgian: სიყვარული
+30. German: Liebe
+31. Greek: Αγάπη
+32. Gujarati: પ્રેમ
+33. Haitian Creole: Renmen
+34. Hausa: Soyayya
+35. Hawaiian: Aloha
+36. Hebrew: אהבה
+37. Hindi: प्यार
+38. Hmong: Tsis tau lub siab
+39. Hungarian: Szerelem
+40. Icelandic: Ást
+41. Igbo: Ume
+42. Indonesian: Cinta
+43. Irish: Grá
+44. Italian: Amore
+45. Japanese: 愛
+46. Javanese: Kasih
+47. Kannada: ಪ್ರೀತಿ
+48. Kazakh: Құлық
+49. Khmer: ភ្ញៀវ
+50. Korean: 사랑
+51. Kurdish (Kurmanji): Evîn
+52. Kyrgyz: Сүйүү
+53. Lao: ຮ

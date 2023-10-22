@@ -1,0 +1,3 @@
+CerebraNet asked How do I get easyminer to mine bitcoin with hash 5b3abace
+<---- snip ---->
+EasyMiner is not designed to mine Bitcoin. It is designed to mine Litecoin and other cryptocurrencies. If you want to mine Bitcoin, you will need to use a different mining software. There are many mining programs available, and you can find them by searching online.

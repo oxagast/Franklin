@@ -1,0 +1,5 @@
+what is openindiana?
+-------- snip --------
+
+
+OpenIndiana is an open source operating system based on the illumos kernel and OpenSolaris source code. It is developed by a community of developers who provide the source code, applications, and services needed to run a full-fledged server or desktop environment. OpenIndiana is compatible with most hardware and software, including the zFS filesystem, Zones virtualization, and DTrace. It also includes a wide range of open source applications, such as the LibreOffice suite and Firefox web browser.

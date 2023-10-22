@@ -1,0 +1,3 @@
+xibalba asked who is your code mr. chatgpt with hash 3a819bb5
+<---- snip ---->
+My code is a set of instructions that tells the computer what to do. It's written in a programming language such as Python, Java, C++, etc.

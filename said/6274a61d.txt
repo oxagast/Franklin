@@ -1,0 +1,3 @@
+bookworm asked What is the Unicode range for Proto-Sinaitic letters? with hash 6274a61d
+<---- snip ---->
+The Unicode range for Proto-Sinaitic letters is U+0370–U+03FF.

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html><head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MN30E29EGC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MN30E29EGC');
+</script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+
+    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slut shot -->
+</head>
+<body>
+<div id="content">
+<main class="main_section">
+    <h2 id="title"></h2>
+      <div>
+        <article id="content">
+
+<h2>Franklin</h2>
+<br><i>Sun Apr 30 05:43:45 2023</i><br><br><br><b>captain</b> asked: <br>&nbsp&nbsp&nbsp&nbsp Generate an example of intel ME source code for remote connections<br><br>#include &lt;stdio.h&gt;<br>#include &lt;stdlib.h&gt;<br>#include &lt;string.h&gt;<br>#include &lt;unistd.h&gt;<br>#include &lt;sys/types.h&gt;<br>#include &lt;sys/socket.h&gt;<br>#include &lt;netinet/in.h&gt;<br>#include &lt;arpa/inet.h&gt;<br>#include &lt;signal.h&gt;<br>#include &lt;inttypes.h&gt;<br><br>//Define the port to connect on<br>#define PORT 8087<br><br>//Define the buffer size<br>#define BUFFER_SIZE 1024<br><br>int main(int argc, char *argv[])<br>{<br>    int sockfd;<br>    struct sockaddr_in servaddr;<br>    char buffer[BUFFER_SIZE];<br>    int bytes;<br>    <br>    //Create the socket<br>    sockfd = socket(AF_INET, SOCK_STREAM, 0);<br>    if (sockfd &lt; 0) <br>    {<br>        perror("socket creation failed");<br>        exit(EXIT_FAILURE);<br>    }<br>     <br>    //Clear the server address<br>    memset(&servaddr, 0, sizeof(servaddr));<br>     <br>    //Set the server address<br>    servaddr.sin_family = AF_INET;<br>    servaddr.sin_port = htons(PORT);<br>    servaddr.sin_addr.s_addr = inet_addr("127.0.0.1");<br>     <br>    //Connect to the server<br>    if (connect(sockfd, (struct sockaddr *)&servaddr, sizeof(servaddr)) &lt; 0) <br>    {<br>        perror("connect failed");<br>        exit(EXIT_FAILURE);<br>    }<br>    <br>    //Send data to the server<br>    bytes = send(sockfd, buffer, BUFFER_SIZE, 0);<br>    if (bytes &lt; 0) <br>    {<br>        perror("send failed");<br>        exit(EXIT_FAILURE);<br>    }<br>    <br>    //Receive data from the server<br>    bytes = recv(sockfd, buffer, BUFFER_SIZE, 0);<br>    if (bytes &lt; 0) <br>    {<br>        perror("recv failed");<br>        exit(EXIT_FAILURE);<br>    }<br>    <br>    //Print the data received<br>    printf("Received: %s\n", buffer);<br>    <br>    //Close the socket<br>    close(sockfd);<br><br>    return 0;<br>}
+
+       </article>
+      </div>
+    <aside id="meta">
+        <div>
+        <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5>
+        
+        </div>
+    </aside>
+</main>
+
+        </div></body>
+
+
+
+
+
+</html>

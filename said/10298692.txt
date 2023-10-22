@@ -1,0 +1,3 @@
+oxagast asked hello? with hash 10298692
+<---- snip ---->
+Hello oxagast! How may I help you?

@@ -1,0 +1,5 @@
+what was the first windows worm
+-------- snip --------
+
+
+The first Windows worm was the Win95.CIH virus, also known as the Chernobyl virus, which was discovered in 1998. It was a destructive virus that could overwrite the BIOS of computers running Windows 95.

@@ -1,0 +1,3 @@
+RDNt asked why do most organizations do not patch their vulnerabilities?  with hash 8ad74274
+<---- snip ---->
+Unfortunately, many organizations don't have the resources or knowledge to properly patch their systems. Others prioritize other tasks over patching. Still others simply don't prioritize security as much as they should.

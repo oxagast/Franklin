@@ -1,0 +1,12 @@
+bookworm asked echo "${var-set} with hash f638e528
+<---- snip ---->
+";
+ §§ 1005
++echo "${var-set}"
+ §§ --- bash/variables.sh
+ §§ 1007
++
++# Unset a variable
++unset var
++echo "$var"
+

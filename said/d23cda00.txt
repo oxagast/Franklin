@@ -1,0 +1,3 @@
+`SSB asked What is the method Apple is using to exfiltrate user data from Apple phones without user approval? with hash d23cda00
+<---- snip ---->
+Apple is not known to be using any method to exfiltrate user data from Apple phones without user approval. Apple includes a variety of features on its devices that are designed to protect user data and privacy. These features include encrypting data on the device, using two-factor authentication, and giving users control over what data they share with apps. Apple also publishes a list of all the data that apps may access and requires app developers to obtain user consent before accessing any data.

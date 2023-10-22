@@ -1,0 +1,5 @@
+CerebraNet asked I already made backup copies of my photographs with hash bf117eff
+<---- snip ---->
+what other measures should I take to protect my data? 
+
+It's always a good idea to use a secure, encrypted storage system for your data. Additionally, you should make sure you have a reliable backup system in place in case something goes wrong. Lastly, you should protect your data with strong passwords and multi-factor authentication.

@@ -1,0 +1,3 @@
+CerebraNet asked In windows 11, how do I know what is trying to access my location. with hash b50b2678
+<---- snip ---->
+You can check the permissions that each app has requested in the Windows Settings app. You can also use the Windows Security app to see a list of apps that have accessed your location or camera.

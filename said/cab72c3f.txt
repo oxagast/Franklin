@@ -1,0 +1,5 @@
+bookworm asked bash command find to list the latest file modified with hash cab72c3f
+<---- snip ---->
+The command to list the latest file modified is:
+
+find . -type f -printf '%T@ %p\n' | sort -n | tail -1

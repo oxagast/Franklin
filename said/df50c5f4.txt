@@ -1,0 +1,3 @@
+CerebraNet asked What is wordpress with hash df50c5f4
+<---- snip ---->
+WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. It is used to power many websites on the Internet, including blogs and ecommerce stores. It is used by millions of people around the world and is highly customizable.

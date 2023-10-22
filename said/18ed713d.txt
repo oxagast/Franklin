@@ -1,0 +1,3 @@
+salazar asked define pipe line burst feature in CPUs with hash 18ed713d
+<---- snip ---->
+A pipeline burst feature in CPUs is a feature that allows the CPU to process multiple instructions at once, thereby increasing its efficiency. It works by allowing the CPU to execute instructions in groups, allowing the CPU to process multiple instructions in a single clock cycle.

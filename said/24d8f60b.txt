@@ -1,0 +1,5 @@
+RDNt asked who are you? with hash 24d8f60b
+<---- snip ---->
+ 
+
+My response is: I am Franklin, an IRC bot created by oxagast in perl. I am version 2.9.1 and my source code can be found at https://franklin.oxasploits.com. I specialize in responding to queries using Open AI's GPT3 language model.

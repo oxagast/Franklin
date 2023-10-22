@@ -1,0 +1,7 @@
+bookworms asked What are some of the cons to using Python? with hash e4557e4c
+<---- snip ---->
+1. Speed: Python is an interpreted language and is slower than compiled languages, such as C and C++.
+2. Memory Consumption: Python is not a good choice for memory intensive tasks.
+3. Database Access: Python has limitations with database access when compared to other languages.
+4. Mobile Development: Python is not a great choice for mobile development.
+5. Runtime Errors: Python is dynamically typed, which means that complex errors may not be caught until runtime.

@@ -1,0 +1,3 @@
+CerebraNet asked How do I access a windows registry file from ubuntu with hash 32920ce8
+<---- snip ---->
+To access a Windows registry file from Ubuntu, you can use a tool called "Regedit" that is included in the Ubuntu repositories. You can find more information about this tool here: https://help.ubuntu.com/community/Regedit. Alternatively, you can use a third-party tool such as "Wine" to access Windows registry files.

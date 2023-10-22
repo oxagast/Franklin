@@ -1,0 +1,5 @@
+morb asked there"s a tiger, a wolf, and a bunny that you need to get across the river on a canoe, but you can only travel with one animal at a time. what order do you take them in so neither the wolf or the bunny gets harmed? with hash 1cc2fd08
+<---- snip ---->
+1. Take the bunny across first. 
+2. Take the tiger across second. 
+3. Take the wolf across last.

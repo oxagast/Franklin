@@ -1,0 +1,5 @@
+Will google search engine accept logical operators
+-------- snip --------
+
+
+Yes, Google Search Engine does accept logical operators. Logical operators, such as AND, OR, and NOT, allow you to combine search terms and narrow down your search results. For example, if you search for "apples AND oranges" on Google, you will get results that include both apples and oranges.

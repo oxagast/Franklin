@@ -1,0 +1,13 @@
+bookworm asked Show me the calculation you us to convert 10 decimal to 19 in Vigesimal? with hash 0d453647
+<---- snip ---->
+To convert 10 decimal to 19 in Vigesimal, we use the following calculation:
+
+10 (decimal) = (19)₁₆ (Vigesimal)
+
+Step 1: Divide 10 by 16 to get the result 0.625
+
+Step 2: Multiply 0.625 by 16 to get the result 10
+
+Step 3: Subtract 10 from 16 to get the result 6
+
+Step 4: Write down the result 6 as the Vigesimal equivalent of 10 decimal, which is (19)₁₆.

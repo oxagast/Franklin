@@ -1,0 +1,5 @@
+oxagast asked put exactly three of \" with hash 6f43b62e
+<---- snip ---->
+1. Paints
+2. Brushes
+3. Canvas

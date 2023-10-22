@@ -1,0 +1,5 @@
+CerebraNet asked I finally gained console access to my Cisco wireless access point with hash 2cbc35d4
+<---- snip ---->
+.
+
+That's great! Now that you have console access, you can start to configure the access point to fit your networking needs. Before you begin, check the device documentation to ensure you understand the features and options available, as well as the commands you need to configure them.

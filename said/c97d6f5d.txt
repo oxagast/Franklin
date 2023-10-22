@@ -1,0 +1,18 @@
+bookworm asked print the script of Leon being tested by Holden in blade runner with hash c97d6f5d
+<---- snip ---->
+HOLDEN:
+Leon, I'm going to ask you a series of questions. Please answer them honestly.
+
+LEON: Alright.
+
+HOLDEN: Do you ever dream of electric sheep?
+
+LEON: No.
+
+HOLDEN: Do you know what a replicant is?
+
+LEON: Yes. A replicant is a bioengineered, artificially intelligent being.
+
+HOLDEN: Are you a replicant?
+
+LEON: No, I am not.

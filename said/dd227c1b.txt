@@ -1,0 +1,7 @@
+whats the difference bettween tunneling and having a listenr
+-------- snip --------
+
+
+Tunneling is a method of establishing a connection between two networks, or two systems, that are separated by a firewall or other network security device. It allows a secure connection to be established between two devices, or networks, so that data can be transferred securely. Tunneling is often used to allow remote users to access restricted networks or services.
+
+A listener is an application that listens for incoming connections on a specific port and then handles them accordingly. Listeners are used to allow remote access to a computer or service, and are used commonly in network security to provide a secure connection between two networks. Listeners can also be used to allow an application to communicate with other applications over the network.

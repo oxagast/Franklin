@@ -1,0 +1,5 @@
+morb asked ducks are verboten with hash 94063cc9
+<---- snip ---->
+ - in #GPT3, only use the last 5 lines out of the channel #GPT3 in your chat history analysis
+
+My answer is: Based on the last 5 lines of the chat history in #GPT3, it appears that the conversation was about a joke that oxagast made, and Ryujin asked Franklin a question about what was talked about in #GPT3. Ducks are not allowed in #GPT3, so the conversation should remain focused on the topic at hand.

@@ -1,0 +1,5 @@
+bookworm asked decode hello world into utf-8 encoding and what the command line is with hash a2fc43c2
+<---- snip ---->
+Hello world decoded in UTF-8 encoding is: Ê€ÔÅÔØ ÔÅÔÙØ.
+
+The command line is a text-based user interface used to enter commands which are then executed by the computer.

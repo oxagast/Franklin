@@ -1,0 +1,3 @@
+CerebraNet asked Describe alpha, beta, and gamma radiation. with hash f54e3f50
+<---- snip ---->
+Alpha radiation is a type of particle radiation, which consists of helium nuclei (helium-4 nuclei). Alpha particles have a low penetrating power and are easily stopped by a sheet of paper or a thin layer of clothing. Beta radiation is a type of particle radiation, which consists of electrons. Beta particles have a medium penetrating power and can be stopped by a thin layer of aluminum or a few centimeters of wood or plastic. Gamma radiation is a type of electromagnetic radiation, which consists of high-energy photons. Gamma radiation has a very high penetrating power, and it is difficult to stop without using special shielding materials such as lead or concrete.

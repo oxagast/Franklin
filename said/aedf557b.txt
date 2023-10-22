@@ -1,0 +1,3 @@
+hazeyez asked which /var/log/journal file logs ssh login attemps on arch linux?
+<---- snip ---->
+There is no specific file that logs SSH login attempts on Arch Linux. However, most SSH login attempts will be logged in the file /var/log/secure. https://franklin.oxasploits.com/said/aedf557b

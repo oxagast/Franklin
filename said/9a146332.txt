@@ -1,0 +1,7 @@
+bookworm asked Using the words Act,Ape,Ate,Cop,End,Old make a 3 columns by 3 rows  board that can still spell all those words with only 9 letters with hash 9a146332
+<---- snip ---->
+A C T
+A P E
+C O P 
+E N D
+O L D

@@ -1,0 +1,5 @@
+oxagast asked send me a test message so i konw if your token list shows with hash 79662c24
+<---- snip ---->
+ - in #GPT3
+
+Sure, oxagast. I have sent you a test message. Please check your token list to see if it shows a '-' in #GPT3. Let me know if you have any further questions.

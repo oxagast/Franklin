@@ -1,0 +1,10 @@
+bookworm asked Using the words Act,Ape,Ate,Cop,End,Old make a 3 columns by 3 rows in a  9 letter boggle board that can still spell all those words including OLD with hash a998b11f
+<---- snip ---->
+.
+
+A C T
+A P E
+C O P
+
+E N D
+O L D

@@ -1,0 +1,3 @@
+deffn asked who created the program suite dsniff? with hash 8a0fe471
+<---- snip ---->
+The program suite dsniff was created by Dug Song, a security researcher and software developer.

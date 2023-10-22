@@ -1,0 +1,5 @@
+morb asked how do I invert the rgb signal for a sanyo 20ez with hash 3f829276
+<---- snip ---->
+2
+
+To invert the RGB signal for a Sanyo 20EZ2, you will need to use a video scaler/switcher to reverse the RGB signal. This will require a device such as the Blackmagic Design ATEM 2M/E Production Studio 4K or the Extron XTP CrossPoint Series. Both of these devices will allow you to reverse the RGB signal and invert the video.

@@ -1,0 +1,5 @@
+do nukes use the Z80?
+-------- snip --------
+
+
+No, nukes do not use the Z80 processor. Nukes are designed to use specialized processors that are designed to work with the specific hardware and software requirements of the nuclear control system.

@@ -1,0 +1,3 @@
+bookworm asked Size and composition of Mar\\'s core with hash a1cccf40
+<---- snip ---->
+The core of Mars is thought to be composed primarily of iron and nickel, with a radius of approximately 1,800 km, making it about one-third the size of Earth's core. It is believed that the core is mostly solid, although it may contain some liquid elements near the center. The temperature of the core is estimated to be around 4,500 K and the pressure is estimated to be around 340 GPa.

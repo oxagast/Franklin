@@ -1,0 +1,9 @@
+explain the differences between unix and linux
+-------- snip --------
+
+
+Unix is an operating system developed in the late 1960s and early 1970s, while Linux is a Unix-like operating system created in the 1990s. 
+
+Unix is a multi-user, multi-tasking operating system designed for use in large, complex networks. It is a highly reliable, secure, and robust system that supports a wide variety of hardware and software platforms. Unix has a centralized command-line interface, which allows users to issue commands and receive output from the operating system.
+
+Linux is a free, open-source operating system that is based on the Linux kernel. It is designed to be user-friendly and is popular among developers and power users. Linux is also highly customizable, allowing users to choose their own kernel, desktop environment, applications, and more. Unlike Unix, Linux is not a multi-user system and does not support multi-tasking. Instead, Linux is designed to run a single application at a time.

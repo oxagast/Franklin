@@ -1,0 +1,78 @@
+morb asked write a posix shell script that sorts and moves files within a unix filesystem into directory tree hierarchies based on file permissions, filename extensions, and file size with hash 37ccefa1
+<---- snip ---->
+#!/bin/sh
+
+# prompt user for directory
+echo "Please enter the directory you would like to sort:"
+read dir
+
+# change to the directory provided
+cd "$dir"
+
+# create a directory for each permission type
+mkdir -p '755' '644' '700'
+
+# loop through all the files in the directory
+for file in *
+do
+    # get permission type of the file
+    perm=$(stat -c %a "$file")
+    # get name of the file
+    fname=$(basename "$file")
+    # get file extension
+    ext="${fname##*.}"
+    # get file size
+    size=$(stat -c %s "$file")
+    
+    # move file to appropriate permissions directory
+    if [ "$perm" = "755" ]
+    then
+        mv "$file" 755/
+    elif [ "$perm" = "644" ]
+    then
+        mv "$file" 644/
+    elif [ "$perm" = "700" ]
+    then
+        mv "$file" 700/
+    fi
+
+    # move file to appropriate file extension
+    if [ ! -d "$ext" ]
+    then
+        mkdir "$ext"
+    fi
+    mv "$file" "$ext"/
+
+    # move file to appropriate size directory
+    if [ "$size" -lt 50000 ]
+    then
+        if [ ! -d "less_than_50KB" ]
+        then
+            mkdir "less_than_50KB"
+        fi
+        mv "$file" "less_than_50KB"/
+    elif [ "$size" -lt 100000 ]
+    then
+        if [ ! -d "less_than_100KB" ]
+        then
+            mkdir "less_than_100KB"
+        fi
+        mv "$file" "less_than_100KB"/
+    elif [ "$size" -lt 500000 ]
+    then
+        if [ ! -d "less_than_500KB" ]
+        then
+            mkdir "less_than_500KB"
+        fi
+        mv "$file" "less_than_500KB"/
+    elif [ "$size" -lt 1000000 ]
+    then
+        if [ ! -d "less_than_1MB" ]
+        then
+            mkdir "less_than_1MB"
+        fi
+        mv "$file" "less_than_1MB"/
+    else
+        if [ ! -d "more_than_1MB" ]
+        then
+            mkdir "more_than_1MB

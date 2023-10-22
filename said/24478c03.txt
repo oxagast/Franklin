@@ -1,0 +1,6 @@
+morb asked solve the woodchuck problem in logo with hash 24478c03
+<---- snip ---->
+TO WOODCHUCK
+  MAKE "WOODCHUCKS 0
+  MAKE "WOODCHUCKS ((:WOODCHUCKS + 1) * 2)
+END

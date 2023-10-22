@@ -1,0 +1,5 @@
+bitcoin mining software
+-------- snip --------
+
+
+There are many different types of Bitcoin mining software available. Some of the most popular ones include CGminer, BFGMiner, EasyMiner, and BitMinter. Each of these programs has its own advantages and disadvantages, so it is important to research each one before deciding which is the best fit for you.

@@ -1,0 +1,5 @@
+test message please
+-------- snip --------
+ ignore
+
+This is an automated test message and should be ignored.

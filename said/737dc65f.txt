@@ -1,0 +1,3 @@
+captain asked what is freepbx with hash 737dc65f
+<---- snip ---->
+Freepbx is an open source web-based graphical user interface that manages Asterisk, a free and open source PBX. It is used to configure and control telephony services such as VoIP, calling, video conferencing, faxing, and more. With Freepbx, you can configure and control your entire PBX system, from the basics such as setting up extensions and voicemail, to more complex tasks such as setting up IVR menus and complex routing rules.

@@ -1,0 +1,5 @@
+how do you use curl to copy standard output from current host to a file on a remote host using the scp protocol with key-based authentication?
+-------- snip --------
+
+
+curl -sScp -i your_key_file.pem <hostname>:<remote_file_path> > <local_file_path>

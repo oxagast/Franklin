@@ -1,0 +1,3 @@
+bookworm asked explain like I am a child how the Babylonion clay tablet YBC 7289 was the procedure used to calculate â2  with hash a687bec3
+<---- snip ---->
+The Babylonian clay tablet YBC 7289 was like a book of math problems. It was a very old book, made out of clay, and it had a way to find the answer to √2. It had a bunch of really complicated math steps written on it that, when you followed them, would tell you what √2 was.

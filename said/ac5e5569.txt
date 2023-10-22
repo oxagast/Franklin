@@ -1,0 +1,72 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different portuguese phrases to english phrases, all small letters and no line numbering, format portuguese:english with hash ac5e5569
+<---- snip ---->
+boa tarde:good afternoon
+bom dia:good morning
+boa noite:good night
+adeus:goodbye
+por favor:please
+obrigado:thank you
+olá:hello
+sim:yes
+não:no
+eu não sei:i don't know
+eu entendo:i understand
+eu não entendo:i don't understand
+eu gosto:i like
+eu não gosto:i don't like
+eu quero:i want
+eu não quero:i don't want
+eu tenho:i have
+eu não tenho:i don't have
+eu posso:i can
+eu não posso:i can't
+eu devo:i must
+eu não devo:i must not
+eu faço:i do
+eu não faço:i don't
+como é:how is
+como está:how are you
+vamos:let's go
+eu sou:i am
+amigos:friends
+desculpe:sorry
+eu estou:i am
+você está:you are
+você pode:you can
+você quer:you want
+eu acredito:i believe
+muito obrigado:thank you very much
+muito prazer:pleasure to meet you
+eu preciso:i need
+eu acho:i think
+eu vejo:i see
+eu acho que sim:i think so
+eu sei:i know
+eu chamo:i call
+eu vou:i go
+eu sou de:i am from
+estou aqui:i'm here
+eu compreendo:i understand
+você entende:do you understand
+você quer dizer:do you mean
+eu gosto de:i like
+eu amo:i love
+eu quero dizer:i mean
+eu sou feliz:i am happy
+eu falo:i speak
+eu quero saber:i want to know
+eu quero falar:i want to talk
+eu estou aqui:i am here
+eu quero ir:i want to go
+eu estou bem:i'm fine
+eu quero fazer:i want to do
+eu não sei:i don't know
+eu estou procurando:i'm looking for
+eu quero ajudar:i want to help
+estou feliz:i am happy
+eu estou tentando:i'm trying
+eu estou triste:i'm sad
+eu estou com fome:i'm hungry
+eu estou cansado:i'm tired
+eu estou contente:i'm content
+eu estou pronto:i

@@ -1,0 +1,10 @@
+describe a python forloop
+-------- snip --------
+
+
+A for loop in Python is a type of loop that iterates through a sequence of items, such as a list, tuple, or string. It will execute the same code block for each item in the sequence. For example, if you had a list of numbers, you could use a for loop to iterate through the list and print each number. The syntax for a for loop in Python is as follows:
+
+for item in sequence:
+ code block
+
+Where the code block is the code you want to execute for each item in the sequence.

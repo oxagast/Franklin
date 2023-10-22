@@ -1,0 +1,7 @@
+bookworm asked arange the letter A,E,D,T,O,C,P,L,N is rows of three such that it make a boggle board where you can spell Act, Ape, Ate, Cop, End, Old with hash 8d4b5b8b
+<---- snip ---->
+, Pen
+
+A E D
+T O C
+P L N

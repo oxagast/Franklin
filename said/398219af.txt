@@ -1,0 +1,3 @@
+salazar asked what does french INSEE administrators such a Camille Sutter use to predict real estate price in the country ?  with hash 398219af
+<---- snip ---->
+Camille Sutter and other French INSEE administrators typically use a combination of linear regression, time series modeling, and Monte Carlo simulation to make predictions about real estate prices in the country. This combination of models gives the most accurate results.

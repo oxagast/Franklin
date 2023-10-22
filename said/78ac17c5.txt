@@ -1,0 +1,3 @@
+superkuh asked Sally (a girl) has 3 brothers. Each brother has 2 sisters. How many sisters does Sally have? with hash 78ac17c5
+<---- snip ---->
+Sally has 6 sisters.

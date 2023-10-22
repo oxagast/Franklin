@@ -1,0 +1,8 @@
+morb asked write a bash script that calls sox and plays a 2600Hz tone for 150ms with hash c2b45c78
+<---- snip ---->
+#!/bin/bash
+
+#This script uses sox to play a 2600 Hz tone for 150ms
+
+sox -n -r 44100 -c 1 tone.wav synth 150.0s sin 2600 
+play tone.wav

@@ -1,0 +1,5 @@
+bookworm asked list equipment need to build my own accelerator. with hash d4c1081f
+<---- snip ---->
+ 
+
+You'll need a computer with a processor that supports virtualization, a motherboard that supports the processor, a graphics card, a power supply, a heat sink, a case, a monitor, and a keyboard. Then you'll need a software development kit, a compiler, and a set of instructions for building your accelerator. Good luck!

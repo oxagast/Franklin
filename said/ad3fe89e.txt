@@ -1,0 +1,11 @@
+code asked how can i fix a windows 11 program not correctly displaying unicode characters? with hash ad3fe89e
+<---- snip ---->
+1. Check if your system's regional settings are set to the right language and region.
+
+2. Check if the font used in the program supports Unicode characters.
+
+3. Check if the program is using the correct encoding.
+
+4. Check if the language pack for the program is installed and up to date.
+
+5. If all else fails, try reinstalling the program.

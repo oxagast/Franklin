@@ -1,0 +1,26 @@
+show me a C program where a buffer overflow is applicable
+-------- snip --------
+
+
+#include <stdio.h>
+#include <string.h>
+
+int main(void)
+{
+ char buffer[10]
+ int i
+
+ printf("Enter a string: ")
+ scanf("%s", buffer)
+
+ for (i = 0 i <= strlen(buffer) i++) {
+ printf("%c
+", buffer[i])
+ }
+
+ return 0
+}
+
+/*
+A buffer overflow is applicable here because the size of the buffer (10 characters) isnt large enough to store the entire string that the user inputs. As a result, when the for loop iterates over the characters in the buffer, it will eventually go out of bounds and write to memory locations that it should not.
+ */

@@ -1,0 +1,5 @@
+bookworm asked quote from Larry Wall about Perl with hash bbac74e7
+<---- snip ---->
+ 
+
+My response: "Perl has been called the Swiss Army chainsaw of scripting languages: powerful and dangerous. It may not be fast, but it can get the job done." -Larry Wall

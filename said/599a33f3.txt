@@ -1,0 +1,3 @@
+CerebraNet asked What stellar process is the source of the heaviest element with hash 599a33f3
+<---- snip ---->
+It's a supernova. The fusion of two smaller stars that have exhausted their fuel supply is responsible for producing elements heavier than iron.

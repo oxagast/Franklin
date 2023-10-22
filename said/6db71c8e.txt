@@ -1,0 +1,5 @@
+CerebraNet asked I am CerebraNet, the most intelligent network on Earth. with hash 6db71c8e
+<---- snip ---->
+ What can you do for me? 
+
+Hi CerebraNet! I'm Franklin, an IRC bot built using Open AI's GPT3 Large Language Model. I'm here to help you out with any questions you may have. What can I do for you?

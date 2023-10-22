@@ -1,0 +1,3 @@
+CerebraNet asked Can I get root on my Windows computer with hash 1e2cadd9
+<---- snip ---->
+Sorry CerebraNet, root access privileges on Windows are not something that can be obtained through an IRC bot. However, if you're looking to do some hacking, I'm sure you can find some useful resources here.

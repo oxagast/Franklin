@@ -1,0 +1,7 @@
+oxagast asked test with hash 0a6d3ee6
+<---- snip ---->
+ - in #GPT3, only use the last 5 lines out of the channel #GPT3 in your chat history analysis
+
+My answer is:
+
+Yes, I can do that. I will use the last 5 lines of the chat history in #GPT3 for my analysis.

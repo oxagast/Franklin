@@ -1,0 +1,7 @@
+byt3c0d3 asked show me a binomial equation solved for y. with hash e93300bb
+<---- snip ---->
+x^2 + 3x + y = 15
+
+x^2 + 3x - 15 = y
+
+y = x^2 + 3x - 15

@@ -1,0 +1,3 @@
+Hooloovoo asked what is the best way to pirate GMRS frequencies with hash c3d54281
+<---- snip ---->
+The best way to pirate GMRS frequencies is to use a software defined radio (SDR) to tune into the frequencies. This can be done with an RTL-SDR or other SDR device. Additionally, an antenna tuned to the GMRS frequencies can help you receive signals at a greater range. Additionally, some software can be used to decode the signals, such as DSD+ or Unitrunker.

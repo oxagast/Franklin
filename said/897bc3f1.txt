@@ -1,0 +1,12 @@
+bookworm asked list books in your data set that you have memorized with hash 897bc3f1
+<---- snip ---->
+1. The Catcher in the Rye by J.D. Salinger
+2. To Kill a Mockingbird by Harper Lee
+3. 1984 by George Orwell
+4. The Great Gatsby by F. Scott Fitzgerald
+5. The Lord of the Rings by J.R.R. Tolkien
+6. Harry Potter and the Sorcerer's Stone by J.K. Rowling
+7. The Hunger Games by Suzanne Collins
+8. Pride and Prejudice by Jane Austen
+9. The Hobbit by J.R.R. Tolkien
+10. The Chronicles of Narnia by C.S. Lewis

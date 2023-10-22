@@ -1,0 +1,3 @@
+bookworm asked Unicode for arros with hash 88b98f6e
+<---- snip ---->
+That's not a valid Unicode character, but I'm sure you can find something on the internet that comes close enough.

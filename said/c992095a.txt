@@ -1,0 +1,32 @@
+morb asked write a script that features a crossover of the cast of "dinosaurs" and the live action rendition of the flintstones with hash c992095a
+<---- snip ---->
+#!/usr/bin/env python
+
+#Crossover Script
+
+#Intro
+print("Welcome to the Flintstones/Dinosaurs crossover!")
+
+#Scene 1 - The Flintstones
+print("The Flintstones are out and about in their beloved town of Bedrock.")
+Fred_Flintstone = "Fred Flintstone"
+Wilma_Flintstone = "Wilma Flintstone"
+Barney_Rubble = "Barney Rubble"
+Betty_Rubble = "Betty Rubble"
+print(f"{Fred_Flintstone} and {Wilma_Flintstone} are walking down the street, when they bump into their friends {Barney_Rubble} and {Betty_Rubble}.")
+
+#Scene 2 - The Dinosaurs
+print("Suddenly, there is a loud noise and the ground begins to shake.")
+Earl_Sinclair = "Earl Sinclair"
+Fran_Sinclair = "Fran Sinclair"
+Robbie_Sinclair = "Robbie Sinclair"
+Charlene_Sinclair = "Charlene Sinclair"
+print(f"The Flintstones and Rubbles look up to see a spaceship descending from the sky. Out of the spaceship come {Earl_Sinclair}, {Fran_Sinclair}, {Robbie_Sinclair}, and {Charlene_Sinclair} of the Dinosaurs.")
+
+#Scene 3 - The Crossover
+print("The Flintstones and the Rubbles are surprised and confused, but they quickly become friends with the Dinosaurs.")
+print(f"{Earl_Sinclair} and {Fred_Flintstone} are instantly fast friends, with {Fran_Sinclair} and {Wilma_Flintstone} bonding over their shared love of shopping.")
+print(f"{Robbie_Sinclair} and {Barney_Rubble} quickly become best buddies, with {Charlene_Sinclair} and {Betty_Rubble} joining forces to take on the world.")
+
+#Conclusion
+print("And so, the Flintstones and the Dinosaurs live happily ever after in the town of Bedrock!")

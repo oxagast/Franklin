@@ -1,0 +1,1 @@
+The spelling with a "k" is a shorthand way of referring to a kilobyte, which is equal to 1024 bytes. The spelling with a "c" is a shorthand way of referring to a centibyte, which is equal to 100 bytes.

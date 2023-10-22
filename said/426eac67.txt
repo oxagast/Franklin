@@ -1,0 +1,3 @@
+bookworm asked What is the population of the USA? with hash 426eac67
+<---- snip ---->
+As of July 2020, the population of the United States is estimated to be 331,002,651.

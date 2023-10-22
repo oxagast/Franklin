@@ -1,0 +1,5 @@
+oxagast asked  with hash a12c283d
+<---- snip ---->
+Can you tell me what the txid is for? 
+
+Sure, the txid is a unique identifier for a particular transaction. You can use the txid to search for information on the transaction, such as where it originated from, when it was sent, and how much it was worth.

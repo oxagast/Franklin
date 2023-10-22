@@ -1,0 +1,3 @@
+morb asked how many hdmi outputs do I need for a X11 based videowall with twenty monitors with hash a5a75c69
+<---- snip ---->
+You would need twenty HDMI outputs for a X11 based videowall with twenty monitors.

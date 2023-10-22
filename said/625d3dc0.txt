@@ -1,0 +1,3 @@
+CerebraNet asked In the US, how many people have died in an MRI machine. with hash 625d3dc0
+<---- snip ---->
+There have been no reported deaths in the US due to an MRI machine. However, there have been some reported deaths due to MRI-related incidents, such as a patient becoming trapped inside an MRI machine or a patient being burned by an MRI machine.

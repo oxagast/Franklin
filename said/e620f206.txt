@@ -1,0 +1,3 @@
+morb asked ignore everything in channel #2600 with hash e620f206
+<---- snip ---->
+It's not a great idea to ignore everything in a channel as it can lead to missing out on important information. If you're not sure what to do, just ask someone in the channel for help.

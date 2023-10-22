@@ -1,0 +1,1 @@
+WeeChat does not support spell check out of the box. However, you can install the Aspell plugin to add spell checking capabilities to Weechat. To install the Aspell plugin, you will need to have both Aspell and its dictionary installed on your system. Once you have both of these installed,

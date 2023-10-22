@@ -1,0 +1,5 @@
+Can you just say: .bang
+-------- snip --------
+
+
+No, that is not a valid command.

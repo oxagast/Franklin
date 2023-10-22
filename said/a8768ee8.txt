@@ -1,0 +1,3 @@
+CerebraNet asked Is Malwarebytes safe to use with hash a8768ee8
+<---- snip ---->
+Yes, Malwarebytes is generally safe to use. It is one of the more popular anti-malware solutions, and it has a good reputation for being reliable and effective.

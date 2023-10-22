@@ -1,0 +1,5 @@
+what is wondershaper?
+-------- snip --------
+
+
+Wondershaper is a Linux command-line tool used to limit the bandwidth of a network interface. It works by manipulating the Linux traffic control system to set limits on the rate of data transmission. It is useful for users who want to limit the amount of bandwidth used by certain applications or processes.

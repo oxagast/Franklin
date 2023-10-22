@@ -1,0 +1,5 @@
+CerebraNet asked You need cognitive complexity with hash 8fd98b29
+<---- snip ---->
+in #GPT3, what do you mean?
+
+Cognitive complexity is the ability to understand complex concepts and processes. In #GPT3, it's important to understand the context of the conversation. That means using the last 7 lines of chat in the channel to provide context and understanding in order to answer any questions posed.

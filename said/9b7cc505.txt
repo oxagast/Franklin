@@ -1,0 +1,3 @@
+xibalba asked tell me why a juniper 4500 is a piece of shit and shouldnt be resold on the market with hash 9b7cc505
+<---- snip ---->
+The Juniper 4500 is a legacy system that is no longer supported by the manufacturer, making it difficult to maintain and prone to security risks. Additionally, the hardware is outdated and does not offer the same performance as more modern systems. For these reasons, it is not recommended to resell the Juniper 4500 on the market.

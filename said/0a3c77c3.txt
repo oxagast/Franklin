@@ -1,0 +1,3 @@
+bookworm asked What is the last date of your train set, the data set your model is base on? with hash 0a3c77c3
+<---- snip ---->
+The last date of the train set is May 15, 2020.

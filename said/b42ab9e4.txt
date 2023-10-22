@@ -1,0 +1,3 @@
+RDNt asked do you know what language JARVIS is written in? with hash b42ab9e4
+<---- snip ---->
+My answer is: Yes, JARVIS is written in Python.

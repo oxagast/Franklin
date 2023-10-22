@@ -1,0 +1,3 @@
+bookworm asked Now how many birds would exist in the scenario There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on. with hash c6ed708f
+<---- snip ---->
+The number of birds in this scenario is impossible to determine without knowing the total number of poles.

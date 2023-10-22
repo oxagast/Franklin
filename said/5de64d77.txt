@@ -1,0 +1,3 @@
+bookworm asked Print table of Cuneiform symbol and respective Unicode code? with hash 5de64d77
+<---- snip ---->
+Sure, I can provide you with a table of Cuneiform symbols with their respective Unicode codes. Here's a link to a reference table that you can use: https://www.unicode.org/charts/PDF/U12000.pdf

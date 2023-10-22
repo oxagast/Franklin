@@ -1,0 +1,3 @@
+CerebraNet asked Is DMR a form of encryption with hash 50bbbf68
+<---- snip ---->
+DMR is not a form of encryption. It is a digital radio communication system that is used for two-way digital voice communication. It does not encrypt data, but it does offer some protection against eavesdropping.

@@ -1,0 +1,5 @@
+oxagast asked hello
+<---- snip ---->
+.py
+
+print("Hello, world!") https://gpt3.oxasploits.com/said/44f27052

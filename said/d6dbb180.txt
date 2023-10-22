@@ -1,0 +1,5 @@
+is /etc/ld.so.preload a good place to run code to log when root runs or opens files?
+-------- snip --------
+
+
+No, /etc/ld.so.preload is not a good place to run code to log when root runs or opens files. This file is used by the Linux dynamic linker/loader and contains a list of shared libraries that are preloaded before any other shared libraries. It should not be used to run code.

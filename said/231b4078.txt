@@ -1,0 +1,13 @@
+bookworm asked list a collection of bash tips with hash 231b4078
+<---- snip ---->
+Here are some bash tips: 
+1. Use aliases to save time when typing long commands 
+2. Set up a bash profile to customize your environment 
+3. Take advantage of command line completion to save typing 
+4. Utilize the power of pipes to filter and manipulate data 
+5. Use the history command to find recently used commands 
+6. Take advantage of tab completion for file and directory names 
+7. Utilize bash built-in commands such as test, time, and read 
+8. Use the man command to get help on commands and topics 
+9. Search through your history using the CTRL+R key combination 
+10. Use the grep command to search files quickly

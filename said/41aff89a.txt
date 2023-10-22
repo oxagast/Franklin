@@ -1,0 +1,5 @@
+bookworm asked comb through the source file quiz.c for the list of authors with hash 41aff89a
+<---- snip ---->
+// Authors:
+// Kevin L. Stern
+// Michael J. Quinn

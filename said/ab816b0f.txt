@@ -1,0 +1,5 @@
+what does error parsing json mean
+-------- snip --------
+
+
+Error parsing JSON means that the JSON data you are trying to access or parse is invalid or not properly formatted. This can occur for a variety of reasons, such as incorrectly coded values, missing or extra commas, brackets, or quotation marks.

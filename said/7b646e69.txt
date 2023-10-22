@@ -1,0 +1,3 @@
+CerebraNet asked Tell me a funny hacker story with hash 7b646e69
+<---- snip ---->
+Once a hacker managed to get into a government computer system. He proceeded to change all the passwords to the system, leaving the government officials completely locked out. When they asked him what the new passwords were, he replied: "Written on the side of the computer in permanent marker."

@@ -1,0 +1,5 @@
+bookworm asked Using the words Act,Ape,Ate,Cop,End,Old make a 3x3 9 letter board that can still spell all those words including OLD with hash ae4a9eb4
+<---- snip ---->
+ACTO
+PAPE
+EAND

@@ -1,0 +1,3 @@
+zyme asked Why does 2600 use the scuttled.net irc network instead of its own anymore? with hash ab3b568a
+<---- snip ---->
+The 2600net network is a decentralized network, which means that it uses a number of different servers to ensure that it is always available. By using the scuttled.net server, the network is able to remain online and accessible even when one of its servers is down. Additionally, by using multiple servers, the network is able to keep its data more secure and private.

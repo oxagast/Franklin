@@ -1,0 +1,3 @@
+DeepComa asked What is a Security Cookie ? with hash fabba8b5
+<---- snip ---->
+My response would be: A security cookie is a small piece of data stored on a user's computer by a website. It helps the website identify the user and provide a more personalized experience.

@@ -1,0 +1,6 @@
+bookworm asked print out each four letter word VETM RKSI QEAL DUFT on a separate line. with hash 421c9bae
+<---- snip ---->
+VETM
+RKSI
+QEAL
+DUFT

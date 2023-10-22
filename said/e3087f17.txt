@@ -1,0 +1,5 @@
+What law of physics makes it difficult to change the trajectory of a moving object
+-------- snip --------
+?
+
+The law of inertia states that an object in motion will remain in motion in a straight line unless acted upon by an external force. This makes it difficult to change the trajectory of a moving object because the object will not naturally change its path without a force acting upon it.

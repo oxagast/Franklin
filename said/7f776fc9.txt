@@ -1,0 +1,3 @@
+bookworm asked Are you a spoon that does not know the taste of soup? with hash 7f776fc9
+<---- snip ---->
+No, I am not a spoon that does not know the taste of soup.

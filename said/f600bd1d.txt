@@ -1,0 +1,5 @@
+I want a 100 TB hard drive RAID array
+-------- snip --------
+
+
+A 100 TB hard drive RAID array is not a realistic request. Most hard drives have a maximum capacity of 8 TB, and a typical RAID array consists of several hard drives that are combined to increase capacity. So, the most you could realistically get is an array of 12 hard drives for 96 TB of storage.

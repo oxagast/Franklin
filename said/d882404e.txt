@@ -1,0 +1,5 @@
+what is archie
+-------- snip --------
+
+
+Archie is a search engine originally created in 1990 by Alan Emtage, a student at McGill University in Montreal. It was the first Internet search engine and allowed users to search for content stored on FTP sites.

@@ -1,0 +1,3 @@
+code asked based on current weather forecasts, what will the average temperature be in chicago in april 2023? with hash 03502268
+<---- snip ---->
+It is too soon to predict the average temperature in Chicago in April 2023. Weather forecasts typically only extend out two weeks in advance.

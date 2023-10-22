@@ -1,0 +1,21 @@
+how do I add drivers to a windows install cd
+-------- snip --------
+
+
+1. Download the drivers you need for the installation CD.
+
+2. Create a folder on the Windows installation CD and name it “Drivers”.
+
+3. Copy the drivers you downloaded to the “Drivers” folder.
+
+4. Insert the Windows installation CD into your computer’s CD drive.
+
+5. Follow the on-screen instructions to complete the installation.
+
+6. During the installation, you will be prompted to install any additional drivers.
+
+7. Select the “Install from a specific location” option and then click the “Browse” button.
+
+8. Select the “Drivers” folder and click “OK”.
+
+9. The installation will now include the drivers you downloaded.

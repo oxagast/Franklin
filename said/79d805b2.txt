@@ -1,0 +1,5 @@
+Show a graphic of a penguin in this channel
+-------- snip --------
+
+
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Penguins_in_the_Antarctic.jpg/220px-Penguins_in_the_Antarctic.jpg "Penguins in Antarctica")

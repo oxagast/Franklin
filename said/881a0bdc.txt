@@ -1,0 +1,5 @@
+zyme asked What is the RELCAN government WAN? with hash 881a0bdc
+<---- snip ---->
+ 
+
+The RELCAN government WAN is a wide-area network (WAN) linking various government agencies in the Republic of Lebanon. It is a highly secure and reliable network that allows for data communication between different government departments in the country.

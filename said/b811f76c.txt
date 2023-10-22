@@ -1,0 +1,5 @@
+What type of device connect to a wireless access point
+-------- snip --------
+
+
+Wireless devices such as laptops, smartphones, tablets, and other Wi-Fi-enabled devices can all connect to a wireless access point.

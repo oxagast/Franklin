@@ -1,0 +1,3 @@
+bookworm asked how is 11d Chess played? with hash d323a21f
+<---- snip ---->
+11d Chess is a variant of Chess played on an 11-dimensional board. It requires a different approach to the traditional 8x8 board, with vastly different strategies and tactics. In 11d Chess, pieces can move along all 11 axes, and traditional strategies must be adapted to cover the additional dimensions. The rules are similar to traditional Chess, but some pieces may have different movement rules and the board is significantly larger.

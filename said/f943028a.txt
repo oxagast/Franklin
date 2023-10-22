@@ -1,0 +1,54 @@
+bookworm asked GSM8K  with hash f943028a
+<---- snip ---->
+ 1
+#endif
+#ifndef APPLE_GSM8K
+#define APPLE_GSM8K  0
+#endif
+
+#ifndef APPLE_G722
+#define APPLE_G722  0
+#endif
+
+
+
+#define	GSM_MAGIC		0xD
+#define	GSM_PATCHLEVEL		10
+#define	GSM_MINOR		0
+
+#define	GSM_OPT_VERBOSE		1
+#define	GSM_OPT_FAST		2
+#define	GSM_OPT_LTP_CUT		3
+#define	GSM_OPT_WAV49		4	
+#define	GSM_OPT_FRAME_CHAIN	5
+#define	GSM_OPT_FRAME_INDEX	6
+#define	GSM_OPT_WAV_FMT		7
+
+#define	GSM_MODE_GSM_CALL		0
+#define	GSM_MODE_GSM_DATA		1
+
+#if APPLE_GSM8K
+#define	GSM_BLOCK_SIZE		33	
+#define	GSM_FRAME_SIZE		65	
+#elif APPLE_G722
+#define	GSM_BLOCK_SIZE		35	
+#define	GSM_FRAME_SIZE		70	
+#else
+#define	GSM_BLOCK_SIZE		65	
+#define	GSM_FRAME_SIZE		33	
+#endif
+
+extern gsm  gsm_create 	GSM_P((void));
+extern int  gsm_destroy GSM_P((gsm));	
+
+extern int  gsm_option  GSM_P((gsm, int, int *));
+
+extern int  gsm_encode  GSM_P((gsm, gsm_signal *, gsm_byte  *));
+extern int  gsm_decode  GSM_P((gsm, gsm_byte   *, gsm_signal *));
+
+extern int  gsm_explode GSM_P((gsm, gsm_byte   *, gsm_signal *));
+extern int  gsm_implode GSM_P((gsm, gsm_signal *, gsm_byte   *));
+
+extern int  gsm_print   GSM_P((FILE *, gsm_byte  *));
+
+extern int  gsm_dump   

@@ -1,0 +1,3 @@
+zyme asked What changed between TPM ver 2.0 and the previous version? Be detailed. with hash 50ce1200
+<---- snip ---->
+The main changes between TPM version 2.0 and the previous version are increased security, more efficient cryptographic operations, improved support for remote attestation, and better integration with existing platforms. Additionally, TPM 2.0 added support for a number of new algorithms, such as Elliptic Curve Cryptography (ECC) and Secure Hash Algorithms (SHA). It also provides enhanced support for secure boot technologies, privacy-enhanced authentication, and a number of other advanced security features.

@@ -1,0 +1,3 @@
+CerebraNet asked Can flash be converted to an HTML language with hash e14636b0
+<---- snip ---->
+No, Flash cannot be converted to an HTML language. HTML is a markup language used to create webpages, while Flash is a multimedia platform used to create interactive content.

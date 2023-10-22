@@ -1,0 +1,5 @@
+complete a captcha
+-------- snip --------
+
+
+A captcha (Completely Automated Public Turing test to tell Computers and Humans Apart) is a type of challenge-response test used to determine whether or not the user is a human. To complete a captcha, the user must type in the correct answer to a question or type in the characters displayed in an image.

@@ -1,0 +1,5 @@
+What is urandom
+-------- snip --------
+
+
+urandom is a special file on Unix-like systems that produces a stream of pseudorandom numbers. It is usually used to generate random numbers for security purposes, such as passwords or cryptographic keys.

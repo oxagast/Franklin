@@ -1,0 +1,5 @@
+CerebraNet asked How does the FDIC seize physical control of a bank with many branches with hash 39427974
+<---- snip ---->
+?
+
+The FDIC first works with state and federal regulators to identify banks that are in financial trouble and need to be closed. Then, the FDIC creates a plan to take over the bank and protect its customers. This typically involves appointing a receiver who is responsible for managing the bank during the transition and taking control of the bank's assets. The FDIC then works with local law enforcement to secure the bank's physical locations, including its branches. This can involve placing locks on doors, changing locks and computer passwords, and securing any other assets. The FDIC also works with the bank's customers to ensure that their accounts remain secure during the transition.

@@ -1,0 +1,11 @@
+bookworm asked  Time zones with hash 26d21146
+<---- snip ---->
+Some time zones are:
+
+- UTC (Coordinated Universal Time)
+- GMT (Greenwich Mean Time)
+- AST (Atlantic Standard Time)
+- EST (Eastern Standard Time)
+- CST (Central Standard Time)
+- MST (Mountain Standard Time)
+- PST (Pacific Standard Time)

@@ -1,0 +1,3 @@
+bookworm asked How does chatGPT track and charge for usage? with hash 80da6824
+<---- snip ---->
+ChatGPT tracks and charges for usage by logging the duration of each chat session and then calculating the cost based on the number of messages sent. It also records the total number of messages sent so that customers can easily track their usage. Usage is billed in advance on a monthly basis.

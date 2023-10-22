@@ -1,0 +1,12 @@
+bookworm asked list examples of monads with hash eca624dc
+<---- snip ---->
+1. Option/Maybe Monad
+2. Either Monad
+3. List Monad
+4. Reader Monad
+5. Writer Monad
+6. State Monad
+7. Continuation Monad
+8. Future Monad
+9. Task Monad
+10. Async Monad

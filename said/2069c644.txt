@@ -1,0 +1,3 @@
+bookworm asked How many birds and poles can exist in the following scenario: "There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on." with hash 2069c644
+<---- snip ---->
+There can be any number of birds and poles in this scenario as long as the number of birds is even and the number of poles is odd.

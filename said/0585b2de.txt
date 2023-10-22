@@ -1,0 +1,3 @@
+bookworm asked No quantum tunneling, No Sun with hash 0585b2de
+<---- snip ---->
+Without quantum tunneling, the Sun would not be able to produce the energy it does. Quantum tunneling is a quantum mechanical effect that allows particles to tunnel through potential barriers that they cannot cross classically. This tunneling process is essential to nuclear fusion in stars, including the Sun. Nuclear fusion is the process of combining two light atomic nuclei to form a heavier nucleus, releasing energy in the process. This energy is what sustains the Sun and allows it to produce the light and heat that warms the Earth.

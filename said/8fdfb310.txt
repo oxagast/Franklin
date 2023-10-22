@@ -1,0 +1,5 @@
+bookworm asked 2 with hash 8fdfb310
+<---- snip ---->
+What is the best way to learn a new programming language?
+
+The best way to learn a new programming language is to first identify what you want to use the language for, then find resources that can help you learn the language and its syntax. Additionally, practice writing code and work through tutorials. Finally, join a community of people who are learning the language and discuss any topics or challenges that come up as you learn.

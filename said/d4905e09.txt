@@ -1,0 +1,31 @@
+zyme asked Write code using PHP to randomly select and print a quote from https://www.fmylife.com/random and its vote statistics. with hash d4905e09
+<---- snip ---->
+ hours.
+
+<?php
+// Get a random FML from https://www.fmylife.com/random
+$url = 'https://www.fmylife.com/random';
+$html = file_get_contents($url);
+
+// Create a DOM Parser
+$doc = new DOMDocument();
+@$doc->loadHTML($html);
+
+// Get all FMLs
+$xpath = new DOMXPath($doc);
+$results = $xpath->query("//div[@class='post article']");
+
+// Get the random FML
+$randomFML = rand(0, $results->length - 1);
+$fml = $results->item($randomFML);
+
+// Get the text content of the FML
+$fmlText = trim($fml->textContent);
+
+// Get the vote count
+$fmlVotes = $xpath->query("//div[@class='vote-plus']", $fml)->item(0)->textContent;
+
+// Print the FML and vote count
+echo $fmlText . ' (' . $fmlVotes . ' votes)';
+
+?>

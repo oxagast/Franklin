@@ -1,0 +1,14 @@
+bookworm asked list all the three letter hebrew words with definition in English with hash 50fcda8e
+<---- snip ---->
+User bookworm, here is a list of three letter Hebrew words with their English definitions:
+
+1. Alef - the first letter of the Hebrew alphabet
+2. Bet - the second letter of the Hebrew alphabet
+3. Gimel - the third letter of the Hebrew alphabet
+4. Dalet - the fourth letter of the Hebrew alphabet
+5. Heh - water
+6. Vav - hook or nail
+7. Zayin - weapon
+8. Chet - wall
+9. Tet - snake
+10. Yud - hand

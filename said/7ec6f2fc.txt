@@ -1,0 +1,3 @@
+street asked How do you play an xbox iso on a pc? with hash 7ec6f2fc
+<---- snip ---->
+To play an Xbox ISO on a PC, you will need an Xbox emulator such as Xeon or CXBX. The ISO file must be extracted and then converted into a format that the emulator can recognize. Additionally, you will need a controller to play the game.

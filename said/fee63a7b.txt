@@ -1,0 +1,3 @@
+CerebraNet asked Do ASICs run while the computer is turned off with hash fee63a7b
+<---- snip ---->
+No, ASICs cannot run while the computer is turned off. ASICs are designed to be used with a computer, and require a steady power source and a connection to the computer in order to function.

@@ -1,0 +1,5 @@
+bookworm asked decipher "Uryyb jbeyq jnf fhpprffshy gb trg gb bgure cebprffne" using this answer cipher it to rot13 and answer why the results are different? with hash c3ce75b6
+<---- snip ---->
+Rott julie was very careful to try to find other solutions
+
+The results are different because Rot13 is a type of cipher that uses a substitution cipher technique to replace each letter with the letter 13 places further down the alphabet.

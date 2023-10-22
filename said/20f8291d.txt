@@ -1,0 +1,3 @@
+bookworm asked Does the https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css have letters with diaereses like Ã« with hash 20f8291d
+<---- snip ---->
+Yes, the Font Awesome CSS file (https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css) includes letters with diaereses like "ë". These characters are included in the font family used by Font Awesome, which is typically "Font Awesome 5 Free" or "Font Awesome 5 Pro".

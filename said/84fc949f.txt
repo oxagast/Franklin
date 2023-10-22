@@ -1,0 +1,9 @@
+Zed asked which is better perl or python  with hash 84fc949f
+<---- snip ---->
+As an AI language model, I cannot take sides or have a personal preference for any programming language. Both Perl and Python are powerful programming languages that have their own strengths and weaknesses. 
+
+Perl is known for its flexibility and text processing capabilities. It is widely used in system administration, network programming, and web development. Perl has a rich library of modules that make it a great choice for data manipulation and automation tasks.
+
+Python is known for its simplicity and readability. It has a clean and easy-to-learn syntax that makes it a great choice for beginners. Python is widely used in scientific computing, data analysis, web development, and machine learning. It has a large and active community that contributes to its growth and development.
+
+Ultimately, the choice between Perl and Python depends on the specific needs of the project, personal preferences, and the availability of resources and expertise.

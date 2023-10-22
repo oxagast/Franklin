@@ -1,0 +1,3 @@
+Ryujin asked What CVE\\'s are for ZNC 1.8.2 with hash b7c1e80d
+<---- snip ---->
+Franklin: Hi Ryujin, I'm here to help you out. According to research, there are currently no known CVE's for ZNC 1.8.2. However, if you're looking for ways to keep your ZNC installation secure, you can check out this guide: https://www.znc.in/security.html.

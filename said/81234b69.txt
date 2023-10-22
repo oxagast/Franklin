@@ -1,0 +1,17 @@
+please describe step by step the release_agent cgroups escape docker breakout methodology
+-------- snip --------
+
+
+1. Locate the release_agent file in the cgroup directory of the Docker container.
+
+2. Create a new cgroup which will contain the release_agent file.
+
+3. Change the ownership of the release_agent file to the root user.
+
+4. Create a privileged container with access to the cgroup directory.
+
+5. Execute the release_agent file in the privileged container.
+
+6. This will allow the privileged container to gain root access to the host system.
+
+7. Finally, the privileged container can escape the Docker container and access the host system.

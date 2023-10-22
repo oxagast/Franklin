@@ -1,0 +1,3 @@
+morb asked are token buckets implemented on the clientside or server-side with hash 7b79e00f
+<---- snip ---->
+Token buckets can be implemented on both the client-side and the server-side. On the client-side, token bucket implementations are used to rate-limit requests from a client to a server. On the server-side, token bucket implementations are used to rate-limit requests from multiple clients to a server. Additionally, token buckets can be implemented in both hardware and software.

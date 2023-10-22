@@ -1,0 +1,14 @@
+what are some sources of data chatgpt trained on?
+-------- snip --------
+
+
+1. Books
+2. News articles
+3. Blogs
+4. Online forums
+5. Social media conversations
+6. Movie scripts
+7. Song lyrics
+8. Wikipedia
+9. Open-source datasets
+10. Webpages

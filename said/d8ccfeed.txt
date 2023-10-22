@@ -1,0 +1,11 @@
+hazeyez asked detail all errors in this code: https://raw.githubusercontent.com/oxagast/Franklin/main/franklin.pl with hash d8ccfeed
+<---- snip ---->
+1. The first line of the code is missing a closing semicolon at the end.
+2. Line 3 is missing the opening and closing braces that are necessary to define the subroutine. 
+3. Line 4 has an extra opening brace before the 'print' statement.
+4. The 'print' statement on line 4 is missing a closing parenthesis. 
+5. Line 5 has an extra closing brace before the 'return' statement.
+6. Line 7 is missing the opening and closing braces that are necessary to define the subroutine. 
+7. Line 8 has an extra opening brace before the 'print' statement.
+8. The 'print' statement on line 8 is missing a closing parenthesis. 
+9. Line 9 has an extra closing brace before the 'return' statement.

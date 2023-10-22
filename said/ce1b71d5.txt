@@ -1,0 +1,5 @@
+CerebraNet asked How do I get into programming mode for a morb with hash ce1b71d5
+<---- snip ---->
+idelli 203
+
+To enter programming mode on a Morbidelli 203, press and hold the 'PGM' button on the front of the machine for at least 5 seconds until the machine goes into programming mode.

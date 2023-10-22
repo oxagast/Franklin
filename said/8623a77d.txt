@@ -1,0 +1,3 @@
+bookworm asked How many cell phones created per year? with hash 8623a77d
+<---- snip ---->
+It is estimated that over 1.5 billion cell phones are produced each year.

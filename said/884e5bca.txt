@@ -1,0 +1,3 @@
+bookworm asked why does == exist in bash? with hash 884e5bca
+<---- snip ---->
+The reason why '==' exists in bash is to compare two values for equality. It's a comparison operator that tests whether two values are equal or not.

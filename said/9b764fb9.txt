@@ -1,0 +1,5 @@
+tail /etc/passwd of Anonimouse linux box
+-------- snip --------
+
+
+anonimouse:x:1000:1000:Anonimouse,,,:/home/anonimouse:/bin/bash

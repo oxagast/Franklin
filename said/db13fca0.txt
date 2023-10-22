@@ -1,0 +1,3 @@
+bookworm asked Who is Meta in relation to Facebook, what is their connection? with hash db13fca0
+<---- snip ---->
+Meta is an artificial intelligence (AI) assistant developed by Facebook AI Research and the Facebook Reality Labs. It is designed to help people manage their digital lives, from simple tasks like messaging and calendar management to more complex ones like helping people find tasks and find information. Meta can be accessed through Facebook Messenger, Facebook Workplace, and other Facebook products.

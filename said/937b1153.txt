@@ -1,0 +1,7 @@
+search.yahoo.com
+-------- snip --------
+/search?p=
+
+Google
+
+https://www.google.com/search?q=

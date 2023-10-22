@@ -1,0 +1,3 @@
+bookworm asked If we deduce that there does not have to be an even number of birds to poles and they can ONLY sit in Pairs or Alone but NOT both together and alone, if a pair of birds sits on a pole and one pole is left over and when a single bird sits on each pole and therefore 1 is left flying.  What is the minimum number of birds and poles to satisfy the postulate?? with hash 4695818b
+<---- snip ---->
+The minimum number of birds and poles to satisfy the postulate is 4 birds and 3 poles.

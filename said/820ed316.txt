@@ -1,0 +1,13 @@
+bookworms asked List of emerging technologies with hash 820ed316
+<---- snip ---->
+* Augmented Reality
+* Autonomous Driving
+* Blockchain
+* Cloud Computing
+* 3D Printing
+* Internet of Things (IoT)
+* Machine Learning
+* Natural Language Processing
+* Robotics
+* Virtual Reality
+* Wearable Technology

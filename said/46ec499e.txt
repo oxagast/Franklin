@@ -1,0 +1,5 @@
+How do I add a frequency range to scan in SDR
+-------- snip --------
+#?
+
+To add a frequency range to scan in SDR#, you can use the Scanner tab. Click on the ‘+’ icon to add a new frequency range and enter the start, end, and step size frequency values. You can also select the modulation type and bandwidth. Once you have entered the details, click on ‘OK’ to save and start scanning.

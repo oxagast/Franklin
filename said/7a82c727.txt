@@ -1,0 +1,5 @@
+can you publish a website with Notion?
+-------- snip --------
+
+
+No, Notion is not a web hosting platform, so it is not possible to publish a website directly with Notion. However, it is possible to embed Notion content into an existing website.

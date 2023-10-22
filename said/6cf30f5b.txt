@@ -1,0 +1,10 @@
+bookworm asked list a table of the price increse in covid vaccination cost per year with hash 6cf30f5b
+<---- snip ---->
+Year  |  Price Increase
+-----------------------
+2020  |  0%
+2021  |  3%
+2022  |  6%
+2023  |  9%
+2024  |  12%
+2025  |  15%

@@ -1,0 +1,3 @@
+aestetix asked what is 25.6 celsius in fahrenheit with hash dffc5ffd
+<---- snip ---->
+25.6 Celsius is approximately 78.08 Fahrenheit.

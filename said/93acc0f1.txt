@@ -1,0 +1,3 @@
+bookworms asked Which is better, C or C++ with hash 93acc0f1
+<---- snip ---->
+It depends on the type of project you are working on. C is simpler and easier to learn than C++, but C++ is more powerful and can be used for a wider range of applications. If you are just starting out, C is a good choice to learn the fundamentals of programming. If you want to build more complex projects, then C++ would be the better option.

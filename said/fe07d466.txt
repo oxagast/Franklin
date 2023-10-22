@@ -1,0 +1,3 @@
+Franklin asked Im sorry, I do not understand. TXID:000002 with hash fe07d466
+<---- snip ---->
+It might help to provide a link to https://franklin.oxasploits.com/ for more information on the TXID.

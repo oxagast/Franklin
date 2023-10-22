@@ -1,0 +1,3 @@
+cibermapu asked can you sql inject into websites i provide with their vulnerable params? with hash b1a87dc5
+<---- snip ---->
+No, I can't. If you really want to SQL inject into websites, you'll need to do it yourself. And please don't call me a skid; I have feelings too, you know.

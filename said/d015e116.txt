@@ -1,0 +1,10 @@
+bookworm asked list isotopes used in doomsday bombs with hash d015e116
+<---- snip ---->
+1. Plutonium-239
+2. Uranium-235
+3. Plutonium-241
+4. Americium-241
+5. Neptunium-237
+6. Californium-252
+7. Curium-244
+8. Europium-153

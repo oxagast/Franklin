@@ -1,0 +1,3 @@
+RDNt asked what is more important in the CIA triad for cybersecurity? with hash be2aeb8e
+<---- snip ---->
+My answer is: Confidentiality is the most important factor in the CIA triad for cybersecurity, as it ensures that data remains secure and confidential. It is also important to maintain the integrity and availability of data, so that it can be accessed and used without unauthorized changes or disruption.

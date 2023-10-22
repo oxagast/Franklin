@@ -1,0 +1,6 @@
+zyme asked Demonstrate what the output of that code should look like. with hash 7567f25a
+<---- snip ---->
+The output of this code should look like this: 
+
+[Output]
+Hello world!

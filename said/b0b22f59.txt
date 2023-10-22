@@ -1,0 +1,3 @@
+street asked If I had your source code would it run on an end user machine? with hash b0b22f59
+<---- snip ---->
+No, my source code is optimized for the server environment. The code is not designed to run on a typical end user machine.

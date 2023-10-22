@@ -1,0 +1,5 @@
+what is Flarum?
+-------- snip --------
+
+
+Flarum is an open source discussion platform. It is a modern forum software that is simple and easy to use. It provides an engaging discussion environment that encourages users to interact, share ideas, and collaborate. It is highly customizable, allowing users to tailor the platform to their own needs and preferences. Through its powerful extension system, Flarum also enables developers to enhance and extend its functionality.

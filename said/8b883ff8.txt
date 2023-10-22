@@ -1,0 +1,3 @@
+CerebraNet asked What is a BTC nonce with hash 8b883ff8
+<---- snip ---->
+A Bitcoin nonce is a piece of data used only once in a Bitcoin transaction. It is an arbitrary number that is used to differentiate between two different transactions. The nonce is used to ensure that the transaction is valid and thus can be included in the blockchain.

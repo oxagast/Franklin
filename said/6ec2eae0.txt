@@ -1,0 +1,3 @@
+RDNt asked tell me about the explorer nmea2000 gx1850 radio please with hash 6ec2eae0
+<---- snip ---->
+The Explorer NMEA2000 GX1850 radio is a powerful, reliable, and feature rich device. It is capable of transmitting and receiving NMEA2000 messages, as well as GPS and other navigation data. It has an impressive range of up to 32 miles, and can be used in a variety of applications such as boat tracking, navigation, and weather monitoring. It is also compatible with a range of other compatible devices such as autopilot systems, plotters, and more.

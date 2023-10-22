@@ -1,0 +1,5 @@
+what is 4 times the arctangent of 1 in radians?
+-------- snip --------
+
+
+4 Franklin alive.sh api.key block.list call_gpt3.sh franklin.log gpt3.log said arctan1 = 4 Franklin alive.sh api.key block.list call_gpt3.sh franklin.log gpt3.log said π/4 = π

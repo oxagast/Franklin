@@ -1,0 +1,5 @@
+what inputs did ChatGPT get trained with?
+-------- snip --------
+
+
+ChatGPT was trained on a variety of public conversational data sources, including Reddit conversations, Twitter conversations, and customer service conversations.

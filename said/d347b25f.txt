@@ -1,0 +1,3 @@
+bookworm asked what is the average atmospheric pressure of earth in bars? with hash d347b25f
+<---- snip ---->
+The average atmospheric pressure of Earth is 1 bar.

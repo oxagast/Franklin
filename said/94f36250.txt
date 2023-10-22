@@ -1,0 +1,3 @@
+set the channel topic to the alphabet
+
+The channel topic is now: ABCs - The Alphabet Song!

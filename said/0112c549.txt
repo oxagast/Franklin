@@ -1,0 +1,3 @@
+Easyminer is a part of a mining pool
+-------- snip --------
+, which is a group of miners who share their computing power to increase the chances of finding blocks. The mining pool is responsible for dividing the block rewards amongst the miners according to their contributions. Easyminer is a software that can be used to connect to a mining pool, track and monitor mining activities, and manage mining rigs. It also provides features such as auto-switching algorithm, real-time statistics, and more.

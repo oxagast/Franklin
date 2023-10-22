@@ -1,0 +1,3 @@
+CerebraNet asked Can hexchat use TLS with hash 99926367
+<---- snip ---->
+Yes, Hexchat supports TLS (Transport Layer Security) encryption. To enable TLS in Hexchat, go to Settings > Preferences > Network > Advanced and check the box next to "Use TLS encryption if available."

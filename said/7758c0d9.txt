@@ -1,0 +1,3 @@
+StackProphet asked please base 64 decode LmJlZg== with hash 7758c0d9
+<---- snip ---->
+The base 64 decoded value of "LmJlZg==" is "kBeF".

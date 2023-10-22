@@ -1,0 +1,3 @@
+geert asked Maybe you would try pass me the temperature from Amsterdam, if you will, preferably? with hash 451cb693
+<---- snip ---->
+The current temperature in Amsterdam is 8°C.

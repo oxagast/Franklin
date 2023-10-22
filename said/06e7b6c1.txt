@@ -1,0 +1,7 @@
+bookworm asked Using the words Act,Ape,Ate,Cop,End,Old using only 9 Letters make a 3 columns by 3 rows board 3x3 that can still spell all those words using the rules of boggle including the letter n,o with hash 06e7b6c1
+<---- snip ---->
+,e,d
+
+A C T
+A P E
+C O P E

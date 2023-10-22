@@ -1,0 +1,3 @@
+oxagast asked if you have one white duck that weighs 3 pounds, and one brown duck ready to lay an egg that weighs 4.5 lbs, how many ducks do you have with hash 826e312b
+<---- snip ---->
+You have two ducks.

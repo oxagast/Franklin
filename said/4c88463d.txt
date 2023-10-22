@@ -1,0 +1,21 @@
+please explain the OSI model for these newbs here
+-------- snip --------
+
+
+The OSI model stands for the Open Systems Interconnection Model. It is a conceptual model that describes how data is transferred between two points in a network. It is composed of seven layers that each perform specific functions in order to facilitate the transfer of data. 
+
+The seven layers are: 
+
+1. Physical Layer: responsible for the actual physical connection between two devices. 
+
+2. Data Link Layer: manages the flow of data between two nodes on the same network. 
+
+3. Network Layer: responsible for routing data from one network to another. 
+
+4. Transport Layer: ensures reliable data delivery between two devices. 
+
+5. Session Layer: establishes a connection between two devices and manages the flow of data. 
+
+6. Presentation Layer: converts the data into a format that the application layer can understand. 
+
+7. Application Layer: the top layer of the OSI model, which is responsible for providing

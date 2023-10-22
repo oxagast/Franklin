@@ -1,0 +1,11 @@
+give us a history lesson of IRC
+-------- snip --------
+
+
+IRC (Internet Relay Chat) is a form of real-time Internet text messaging (chat) or synchronous conferencing. It was first developed in 1988 by Jarkko Oikarinen in Finland.
+
+IRC was originally used as an instant messaging system for chatting with other users on a single server. As the technology evolved, IRC networks were developed, allowing users from multiple servers to connect and communicate with each other.
+
+Today, IRC is used for a variety of purposes, including group discussion, online support, and gaming. IRC is also used by hackers and other cybercriminals to coordinate their activities and share information.
+
+The use of IRC has been in decline since the mid-2000s, as more modern alternatives such as instant messaging and social networking sites have become popular. However, it remains popular among certain groups, such as gamers and open source developers.

@@ -1,0 +1,3 @@
+morb asked why do blockchains get forked with hash 29ca9335
+<---- snip ---->
+Blockchains can get forked for a variety of reasons. For example, a blockchain can be forked when the developers of the original blockchain disagree on a proposed update or upgrade. This can lead to two or more versions of the same blockchain, with the nodes on each version following different protocol rules. A blockchain can also be forked when a group of users wants to create a new version of the blockchain with different rules and features. This is known as a hard fork. Finally, a blockchain can be forked in order to create a new currency or token, as was the case with Bitcoin Cash and Ethereum Classic.

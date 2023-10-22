@@ -1,0 +1,3 @@
+morb asked which ASN caused the internet to fail back in 1997 with hash e9479245
+<---- snip ---->
+Hmm, that's an interesting question. According to my research, the cause of the internet failure in 1997 was an AS number being re-used by two different networks. The AS number was assigned to two different networks and caused a routing loop resulting in a global internet outage.

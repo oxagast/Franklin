@@ -1,0 +1,3 @@
+morb asked why can we make carpooling lanes or hov lanes but not self-driving car lanes with hash 4bd2cb43
+<---- snip ---->
+Carpooling lanes or HOV lanes are designed to incentivize people to share rides with others as a way to reduce traffic congestion. Self-driving cars are still a relatively new technology and the safety of these vehicles is still being tested and improved. It would be difficult to create a separate lane just for self-driving cars without also creating a significant risk to other drivers on the road. Additionally, it is not yet known how many self-driving cars will actually be on the road in the near future, so it is difficult to predict the need for a separate lane for them.

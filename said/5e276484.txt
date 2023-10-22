@@ -1,0 +1,3 @@
+CerebraNet asked What color is between blue and violet with hash 5e276484
+<---- snip ---->
+The answer is: Purple!

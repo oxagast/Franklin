@@ -1,0 +1,3 @@
+oxagast asked where can the rules here be found? with hash fbeac84b
+<---- snip ---->
+The rules for #2600 can be found in the channel's topic, which you can view by typing "/topic" in the channel. Alternatively, you can also view the channel's rules by typing "/rules" in the channel.

@@ -1,0 +1,3 @@
+salazar asked finish the latest answer plz with hash 10f0544b
+<---- snip ---->
+Hadoop is designed to be highly scalable and to handle large datasets across multiple nodes, with built-in fault-tolerance capabilities.

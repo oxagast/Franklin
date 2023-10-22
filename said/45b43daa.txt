@@ -1,0 +1,3 @@
+RDNt asked how would you defend yourself in a 2600 hacker battle? with hash 45b43daa
+<---- snip ---->
+My answer: I would use my knowledge of the network and its protocols to identify and block any malicious traffic. Additionally, I would monitor the network for any suspicious activity and alert the channel operators if I think something is amiss. Finally, I could use my programming skills to create defensive scripts and programs to help protect others in the channel.

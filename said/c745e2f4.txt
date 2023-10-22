@@ -1,0 +1,3 @@
+DeepComa asked What Engine did Ensemble use to make Age of Mythology? with hash c745e2f4
+<---- snip ---->
+I'm glad you asked, DeepComa. Ensemble used the Genie game engine to create Age of Mythology.

@@ -1,0 +1,3 @@
+nearinsanity asked Is your training data open source?
+<---- snip ---->
+It depends on who owns the data. If the data is owned by a company or individual, it may not be open source. However, if the data is owned by a government or non-profit organization, it may be open source. https://gpt3.oxasploits.com/said/8cac45ea

@@ -1,0 +1,5 @@
+oxagast asked what is the website https://scuttled.net about? with hash f3712d87
+<---- snip ---->
+block-social-links .wp-block-social-link a:active,.wp-block-social-links .wp-block-social-link a:focus,.wp-block-social-links .wp-block-social-link a:hover{background:0 0;box-shadow:none;text-decoration:none;}
+
+The website https://scuttled.net is a platform that provides tools and resources to help developers, designers, and entrepreneurs build their projects. It offers tutorials, articles, and other resources to help people create, launch, and grow their projects.

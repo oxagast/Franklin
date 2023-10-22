@@ -1,0 +1,5 @@
+How do I decode DARC data with my SDR
+-------- snip --------
+?
+
+Unfortunately, you cannot decode DARC data with an SDR as DARC is a proprietary protocol and the protocol is not publicly available. You will need to use a device that is designed to decode DARC data, such as a DARC decoder.

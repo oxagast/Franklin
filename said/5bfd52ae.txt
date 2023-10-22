@@ -1,0 +1,5 @@
+jhex asked write me one line of c programming which places 4 bytes from an integer into a char array. with hash 5bfd52ae
+<---- snip ---->
+My response is: 
+
+char array[4]; memcpy(array, &integer, sizeof(int));

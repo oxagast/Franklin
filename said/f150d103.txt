@@ -1,0 +1,3 @@
+bookworm asked is there a perl golf equivalent in bash? with hash f150d103
+<---- snip ---->
+Yes, Bash Golf is a variant of code golf which uses the Bash shell language. It is an online game whose goal is to write the shortest possible code to accomplish a given task.

@@ -1,0 +1,3 @@
+Anonimouse asked How do i insert time into php with hash 99807c9b
+<---- snip ---->
+You can use the date() or time() functions in PHP to insert the current timestamp into a variable. Here is an example of how to do it: $currentTime = date('Y-m-d H:i:s');

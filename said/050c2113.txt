@@ -1,0 +1,5 @@
+Which is more powerful graphics nvidia or radeon
+-------- snip --------
+
+
+Nvidia is generally considered to be more powerful than Radeon graphics. Nvidia has better driver support, a larger selection of powerful GPUs, and generally better performance for gaming and other graphics-intensive tasks.

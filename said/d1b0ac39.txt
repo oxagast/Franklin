@@ -1,0 +1,5 @@
+Call Stack
+-------- snip --------
+
+
+The call stack is a data structure used by a computer program to store information about its currently active subroutines, which includes the current instruction pointer (i.e., the address of the instruction being executed) and the parameters that were passed to the subroutine. It is typically used to store the return address when a subroutine is called, so that the program can return to the calling routine when the subroutine has finished executing. The call stack can also be used to store local variables and other information.

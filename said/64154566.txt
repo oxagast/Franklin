@@ -1,0 +1,3 @@
+bookworm asked What is the geographic area of the Amazon? with hash 64154566
+<---- snip ---->
+The Amazon is the largest rainforest in the world, spanning across nine countries in South America: Brazil, Bolivia, Peru, Ecuador, Colombia, Venezuela, Guyana, Suriname, and French Guiana. The Amazon rainforest covers an area of 5,500,000 square kilometers (2,100,000 square miles).

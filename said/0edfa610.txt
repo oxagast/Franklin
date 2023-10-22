@@ -1,0 +1,3 @@
+CerebraNet asked What is windows sockets with hash 0edfa610
+<---- snip ---->
+Windows Sockets is a specification that defines a programming interface for creating network applications in Microsoft Windows operating systems. It is based on the Berkeley sockets standard and originally released in Windows 95. Windows Sockets is a set of standard application programming interfaces (APIs) that define how Windows applications can access network services, such as the Transmission Control Protocol/Internet Protocol (TCP/IP) and the Domain Name System (DNS). Windows Sockets applications can be written in any language that supports the Windows Sockets specification.

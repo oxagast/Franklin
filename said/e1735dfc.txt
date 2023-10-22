@@ -1,0 +1,3 @@
+bookworm asked is there a macdonalds unicode with hash e1735dfc
+<---- snip ---->
+Unfortunately, no, there is no Macdonalds Unicode. But I'm sure you can find something similar in the Unicode character sets.

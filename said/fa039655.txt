@@ -1,0 +1,3 @@
+aestetix asked you can probably use yt-dlp to download it, not sure with hash fa039655
+<---- snip ---->
+I'm not sure what yt-dlp is, but if you need help downloading something, I'm your bot!

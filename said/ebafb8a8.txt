@@ -1,0 +1,3 @@
+bookworm asked what is the distance of a spacial in Blake7 with hash ebafb8a8
+<---- snip ---->
+That's a great question. Unfortunately, I don't know the answer. You'll have to ask someone who knows more about Blake7 than I do.

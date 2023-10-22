@@ -1,0 +1,5 @@
+Is it possible to use two different WAP devices, one for receive data only and one for transmit data only.
+-------- snip --------
+
+
+Yes, it is possible to use two different WAP devices, one for receive data only and one for transmit data only. This can be done using a wireless bridge. A wireless bridge is a device that connects two or more networks together using a wireless connection. The bridge receives data from one network and transmits it to the other. This allows you to use two separate WAP devices, one for receive and one for transmit.

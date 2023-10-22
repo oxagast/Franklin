@@ -1,0 +1,3 @@
+bookworm asked what is a cloze sequence? with hash 18ebc21b
+<---- snip ---->
+A cloze sequence is a type of fill-in-the-blank exercise where a passage of text is given with certain words removed, and students are asked to fill in the missing words. Cloze sequences are often used to measure reading comprehension and vocabulary knowledge.

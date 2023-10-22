@@ -1,0 +1,5 @@
+Kali linux applications Kali Tweaks
+-------- snip --------
+
+
+Kali Tweaks is an application for the Kali Linux operating system that allows users to customize their desktop environment. It includes a range of features such as customizing the look and feel of the desktop environment, creating custom keyboard shortcuts, setting up system services, and more. With Kali Tweaks, users can make their Kali Linux experience more personal and enjoyable.

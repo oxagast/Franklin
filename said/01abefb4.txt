@@ -1,0 +1,9 @@
+Difference between OR and XOR
+-------- snip --------
+
+
+OR (or inclusive OR) and XOR (exclusive OR) are two logical operators that are commonly used in Boolean logic.
+
+The OR operator returns TRUE if either of its operands is TRUE, and FALSE if both of them are FALSE.
+
+The XOR operator returns TRUE if only one of its operands is TRUE, and FALSE if both of them are TRUE or FALSE.

@@ -1,0 +1,3 @@
+morb asked who hypothesized a magic packet that could take down the entire internet with hash ccdff99c
+<---- snip ---->
+My answer is: The concept of a so-called "magic packet" was first proposed in 1997 by computer security expert Dan Farmer. The idea was that a single packet containing malicious code could be sent to a large number of vulnerable hosts, causing them to crash and potentially taking down the entire internet. However, the reality of this attack has been called into question over the years.

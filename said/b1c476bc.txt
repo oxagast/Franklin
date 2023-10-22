@@ -1,0 +1,3 @@
+morb asked what is a java ring with hash b1c476bc
+<---- snip ---->
+A Java Ring is a smart card technology developed by Sun Microsystems that uses a Java card to store data and applications. It's designed to be used with a variety of devices and can be used for authentication, digital signatures, encryption, and other security measures.

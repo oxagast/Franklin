@@ -1,0 +1,5 @@
+CerebraNet asked Can USPS can use RFC 2549 with hash 1776a76e
+<---- snip ---->
+?
+
+No, USPS cannot use RFC 2549. RFC 2549 is an obsolete Internet standard that was used for carrying IP datagrams over ATM networks. USPS does not use ATM networks, so it cannot use RFC 2549.

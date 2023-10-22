@@ -1,0 +1,5 @@
+Who gets BTC transaction fees?
+-------- snip --------
+
+
+The miner who successfully hashes the transaction block containing the transaction gets the BTC transaction fees.

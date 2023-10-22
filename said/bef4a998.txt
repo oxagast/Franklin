@@ -1,0 +1,3 @@
+zyme asked define Kludge  with hash bef4a998
+<---- snip ---->
+A kludge is a workaround or quick-and-dirty solution that is clumsy, inelegant, inefficient, difficult to extend and hard to maintain. It is a solution that is hastily improvised or "patched together" from whatever resources are immediately available.

@@ -1,0 +1,5 @@
+oxagast asked what is this character " with hash 2c5b6e2c
+<---- snip ---->
+\\"
+
+This character is a backslash (\\). It is a computer character used to separate directories and files in a pathname. It is also used to denote special characters, such as quotation marks, in a string of text.

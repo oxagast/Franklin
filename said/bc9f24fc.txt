@@ -1,0 +1,3 @@
+deffn asked What is drace? with hash bc9f24fc
+<---- snip ---->
+Drace is a type of malware that has been used in the past to steal sensitive information from computers. It is an advanced form of malware that is difficult to detect and remove. Be sure to keep your system up to date and secure against this type of attack.

@@ -1,0 +1,5 @@
+what is l0phtcrack
+-------- snip --------
+
+
+L0phtCrack is a password auditing and recovery application originally developed by the security company L0pht Heavy Industries. It can crack Windows, UNIX, Linux, and Mac OS passwords, as well as LM and NTLM hashes. It can also perform dictionary and brute force attacks, as well as rainbow table attacks, and it can even use distributed processing to speed up the attack.

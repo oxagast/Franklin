@@ -1,0 +1,3 @@
+bookworm asked list general morphology of latin to english words and explain  Change of gender (e.g. Latin: masc.; English: fem.)  with hash 21b525f8
+<---- snip ---->
+Latin to English words often undergo changes in gender, with nouns and adjectives changing from masculine to feminine, or vice versa. For example, the Latin noun dominus (lord) would become domina (lady) in English, while the Latin adjective bonus (good) would become bona (good) in English. This change in gender is most likely due to the fact that Latin is a synthetic language, meaning that gender is indicated by the ending of a word, while English is an analytic language, meaning that gender is indicated by the context of the word.

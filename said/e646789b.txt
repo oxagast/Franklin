@@ -1,0 +1,5 @@
+what company wrote ZFS?
+-------- snip --------
+
+
+Sun Microsystems (now Oracle) wrote the ZFS file system.

@@ -1,0 +1,19 @@
+bookworm asked I have 16 cubes each with 6 faces populate each face of a cube with a letters of the german alphabet assigning more faces for letters with more frequency with hash 556eafa6
+<---- snip ---->
+A:
+A - 4 faces
+B - 2 faces
+C - 1 face
+D - 2 faces
+E - 4 faces
+F - 1 face
+G - 2 faces
+H - 2 faces
+I - 1 face
+J - 1 face
+K - 1 face
+L - 1 face
+M - 2 faces
+N - 3 faces
+O - 2 faces
+P - 1 face

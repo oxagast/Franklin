@@ -1,0 +1,3 @@
+test
+
+_fixtures.py §§ 1000import pytestfrom flask import Flaskfrom flask_sqlalchemy import SQLAlchemyfrom api import create_app@pytest.fixturedef app(): app = create_app() return app@pytest.fixturedef db(app): db = SQLAlchemy(app) db.create_all() return db@pytest.fixture §§ 1020def client(app): return app

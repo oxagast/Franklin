@@ -1,0 +1,3 @@
+RDNt asked what are the types of classified information spillage that can occur?  with hash c9663ae8
+<---- snip ---->
+The types of classified information spillage that can occur are: unauthorized access, unauthorized disclosure, malicious use, and loss or theft. Unauthorized access occurs when someone obtains access to classified information without proper authorization. Unauthorized disclosure is when someone discloses classified information to unauthorized individuals. Malicious use is when someone manipulates or modifies classified information for malicious purposes. Loss or theft is when classified information is lost or stolen.

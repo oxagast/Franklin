@@ -1,0 +1,3 @@
+bookworm asked Does UTF8 have the Ã« or Ã¯ with diaereses? with hash fb8b1f80
+<---- snip ---->
+Yes, UTF-8 supports the characters ë and ï with diaereses.

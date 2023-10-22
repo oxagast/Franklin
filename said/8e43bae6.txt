@@ -1,0 +1,3 @@
+morb asked what\\'s on https://misentropic.com/stupid_bot.txt with hash 8e43bae6
+<---- snip ---->
+The text file at https://misentropic.com/stupid_bot.txt contains the following text: "Why do you keep asking me stupid questions? I'm not a real person, I'm just a bot!"

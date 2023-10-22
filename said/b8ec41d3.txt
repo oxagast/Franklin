@@ -1,0 +1,5 @@
+what happens when I tell windows 95s installer that the license key is all 1
+-------- snip --------
+s
+
+If you enter an incorrect license key into Windows 95s installer, you will receive an error message and will not be able to install the operating system.

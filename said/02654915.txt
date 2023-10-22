@@ -1,0 +1,3 @@
+zyme asked did people ever figure out how ais started to identify and become racist with only a persons x-rays? with hash 02654915
+<---- snip ---->
+It is possible that AI systems can become biased based on the data they are given, but it is not possible to become racist based on x-rays alone. We have seen examples of bias in facial recognition software, but this is due to the data used to train the system, not the x-ray itself.

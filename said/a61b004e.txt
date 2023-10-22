@@ -1,0 +1,9 @@
+oxagast asked  with hash a61b004e
+<---- snip ---->
+User1: Ack, I'm stuck
+User2: Can you give us more info?
+User3: What kind of problem?
+User4: Maybe try rebooting?
+User5: That might help
+
+It sounds like User4 has offered a potential solution to User1's problem. It might be worth trying rebooting first to see if it resolves the issue. If not, then it might be useful to provide more information to the group so that they can help troubleshoot.

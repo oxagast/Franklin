@@ -1,0 +1,12 @@
+bookworm asked using the OEIS database, generated 10 examples of cloze number sequences --options nolabel with hash 909097ad
+<---- snip ---->
+1.  1, 4, 7, 10, __, 16
+2.  1, __, 8, 27, 64
+3.  2, 4, 8, 16, __, 64
+4.  __, 9, 25, 49, 81
+5.  __, 6, 12, 20, 30
+6.  3, 6, __, 24, 45
+7.  __, 10, 25, 45, 70
+8.  __, 8, 18, 32, 50
+9.  1, 1, 2, __, 8
+10. __, 3, 9, 15, 24

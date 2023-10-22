@@ -1,0 +1,42 @@
+bookworm asked @API with hash d6298cab
+<---- snip ---->
+public class FileResource {
+
+    private static final Logger logger = LoggerFactory.getLogger(FileResource.class);
+
+    private final FileReadService fileReadService;
+    private final FileWriteService fileWriteService;
+
+    @Inject
+    public FileResource(FileReadService fileReadService, FileWriteService fileWriteService) {
+        this.fileReadService = fileReadService;
+        this.fileWriteService = fileWriteService;
+    }
+
+    @GET
+    @Path("/{name}")
+    @Produces(MediaType.APPLICATION_OCTET_STREAM)
+    public Response readFile(@PathParam("name") String name) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Name is required!");
+        }
+
+        logger.info("Reading file: {}", name);
+
+        byte[] content = fileReadService.readFile(name);
+        return Response.ok(content).build();
+    }
+
+    @POST
+    @Consumes(MediaType.APPLICATION_OCTET_STREAM)
+    public Response writeFile(@QueryParam("name") String name, InputStream inputStream) {
+        if (name == null || name.isEmpty()) {
+            throw new IllegalArgumentException("Name is required!");
+        }
+
+        logger.info("Writing file: {}", name);
+
+        fileWriteService.writeFile(name, inputStream);
+        return Response.ok().build();
+    }
+}

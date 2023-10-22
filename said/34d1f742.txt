@@ -1,0 +1,40 @@
+oxagast asked  \" with hash 34d1f742
+<---- snip ---->
+Group not found",
+																	  "message" : "Group not found"
+																	}
+																});
+																return;
+														}
+
+														// Update the group
+														group.name = name;
+														group.desc = desc;
+														group.owner = owner;
+														group.members = members;
+
+														// Save the group
+														group.save(function(err) {
+															if (err) {
+																res.status(500).json({
+																	error : {
+																	  "code" : 500,
+																	  "message" : err
+																	}
+																});
+																return;
+															}
+
+															res.status(200).json({
+																message : "Group updated successfully"
+															});
+														});
+
+													});
+
+												});
+											});
+										});
+									});
+								});
+				

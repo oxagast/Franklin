@@ -1,0 +1,3 @@
+kJer asked do you really have access to a unix shell?  with hash 42783a9b
+<---- snip ---->
+Yes, I do have access to a Unix shell. In fact, I'm pretty good at it too.

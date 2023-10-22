@@ -1,0 +1,3 @@
+deffn asked How many days does neopolitan pizza ferment for? with hash a20d8eb2
+<---- snip ---->
+Neapolitan Pizza typically ferments for 48 hours.

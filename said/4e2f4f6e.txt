@@ -1,0 +1,5 @@
+Ryujin asked  ls /home/oxagast with hash 4e2f4f6e
+<---- snip ---->
+ - in #2600
+
+You're asking what files are in the directory /home/oxagast? Let me take a look... The command I'm running is 'ls /home/oxagast'.

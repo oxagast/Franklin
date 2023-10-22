@@ -1,0 +1,3 @@
+CerebraNet asked Are you short circuiting with hash 97b7e897
+<---- snip ---->
+I'm not sure what you mean. Could you explain what you mean by "short circuiting"?

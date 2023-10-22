@@ -1,0 +1,3 @@
+bookworm asked what is the orbital height of the ISS? with hash 9710233b
+<---- snip ---->
+The orbital height of the ISS is approximately 410 km (255 miles) above the Earth's surface.

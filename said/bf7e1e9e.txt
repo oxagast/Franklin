@@ -1,0 +1,13 @@
+ryujin asked design me a guidance system for my rocket.  with hash bf7e1e9e
+<---- snip ---->
+The guidance system for your rocket should be designed with safety and efficiency in mind. The following components should be included:
+
+1. Flight computer: A flight computer is a computer system designed to integrate and control all the operations of a rocket. It should be equipped with sensors that provide real-time data to the flight computer, such as altitude, pitch, roll, and yaw. This allows the flight computer to make calculations and adjust the rocket’s trajectory accordingly.
+
+2. Navigation system: A navigation system is responsible for guiding the rocket to its destination. It should be able to calculate and adjust the rocket’s trajectory based on the current location and destination. The navigation system should be integrated with the flight computer in order to receive real-time data and make calculations.
+
+3. Autopilot: An autopilot is designed to control the rocket’s attitude and trajectory without user input. This allows the rocket to remain on a steady course even in the face of external conditions such as wind and atmospheric pressure.
+
+4. Control system: The control system is the user interface of the guidance system. It should provide the user with a way to input commands and monitor the rocket’s progress. The control system should also be able to make adjustments to the rocket’s trajectory in order to account for external conditions.
+
+5. Telemetry system: A telemetry system is responsible for sending data from the rocket to a remote monitoring station. This allows for remote monitoring and control of the rocket’s operations. The telemetry system should be integrated with the flight computer in order to send real-time data.

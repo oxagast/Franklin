@@ -1,0 +1,9 @@
+Can you think
+-------- snip --------
+ of any other ways to use a binary tree?
+
+1. Binary search trees can be used to store and organize data so that it can be quickly accessed and modified.
+2. Binary trees can be used to represent expression trees, which are data structures used to represent mathematical expressions.
+3. Binary trees can also be used to store data in a hierarchical fashion, such as in a file system.
+4. Binary trees can be used to efficiently encode and decode data, such as in Huffman coding.
+5. Graphs can be represented using binary trees, which can be used to model relationships between objects.

@@ -1,0 +1,3 @@
+CerebraNet asked How can I learn Regular Expressions with hash 2e957534
+<---- snip ---->
+My answer is: Regular Expressions (or "regex") can be tricky to learn, but there are plenty of resources available online. I'd recommend checking out the tutorials on regex101.com, or searching for 'regex tutorial' on YouTube for some great video tutorials. Good luck!

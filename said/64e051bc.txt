@@ -1,0 +1,5 @@
+give me an example of how to use AI to automate tasks in networking
+-------- snip --------
+
+
+One example of how AI can be used to automate tasks in networking is through automated network anomaly detection. By using machine learning algorithms, networks can be monitored for unusual behavior such as sudden spikes in traffic or unexpected communication patterns. When anomalies are detected, the AI can then take appropriate action, such as blocking the offending traffic or alerting network administrators.

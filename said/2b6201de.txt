@@ -1,0 +1,3 @@
+CerebraNet asked What is mode S with hash 2b6201de
+<---- snip ---->
+Mode S is a type of communication protocol used in air traffic control. It is a form of secondary surveillance radar (SSR) that allows for the exchange of detailed information about aircraft position, identification, and altitude. It is also used to broadcast emergency messages.

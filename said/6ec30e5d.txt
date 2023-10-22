@@ -1,0 +1,11 @@
+bookworm asked 160/8 with hash 6ec30e5d
+<---- snip ---->
+.0/4.0,
+            height: ScreenUtil.getInstance().setHeight(160)/8.0/4.0,
+            fit: BoxFit.cover,
+          ),
+        ),
+      ),
+    );
+  }
+}

@@ -1,0 +1,4 @@
+bookworm asked create cloze number series in quiz file format sequence:answer with hash 6d8c056b
+<---- snip ---->
+1:2:__;3:4:__
+A:5;B:6

@@ -1,0 +1,3 @@
+morb asked generate four randomized bytes in hexadecimal  with hash 613f7567
+<---- snip ---->
+Randomly generated hexadecimal bytes: 1A4E, C1BF, 1F9C, 8F12.

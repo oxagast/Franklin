@@ -1,0 +1,5 @@
+morb asked what was the exact date *on which gpt4 was released with hash 720494cb
+<---- snip ---->
+ - in #GPT3
+
+GPT-4 was released on May 11th, 2020, according to OpenAI's official blog post.

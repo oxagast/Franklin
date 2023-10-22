@@ -1,0 +1,3 @@
+bookworm asked I will have to learn a better way to teach you the abstraction, at this time you are unable to correctly answer the birds to poles problem. with hash 749c61a4
+<---- snip ---->
+ I would suggest that you first try to understand the concept of abstraction and then apply it to the problem. A good way to do this is to break the problem down into smaller parts and try to understand it from each of those parts. Once you understand the concept of abstraction, you can then apply it to the birds to poles problem and try to find out the best solution.

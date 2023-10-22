@@ -1,0 +1,3 @@
+bookworm asked Convert Hex d0b5 to UTF-8 encode with hash 269b4631
+<---- snip ---->
+UTF-8 encode: &#xD0B5;

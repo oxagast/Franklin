@@ -1,0 +1,3 @@
+bookworm asked what is game theory? with hash 320c6ec8
+<---- snip ---->
+Game theory is a branch of mathematics that examines strategic decision-making. It is used to analyze interactions between different players in a wide range of situations, including economics, politics, and even war. Game theory can be used to study the behavior of individuals, companies, governments, and other groups of people. Using mathematical models, game theory helps to understand and predict the outcomes of various strategies and decisions.

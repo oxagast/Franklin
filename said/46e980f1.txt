@@ -1,0 +1,3 @@
+xibalba asked Explain PAM4 to me with hash 46e980f1
+<---- snip ---->
+PAM4 (Pulse Amplitude Modulation) is a type of modulation used in digital communication systems. It uses four levels of signal instead of two, allowing for higher data rates. It is especially useful for fiber optics and other high-speed communication services. PAM4 is more efficient than PAM2 because it transmits more information within the same bandwidth.

@@ -1,0 +1,10 @@
+so // as part of //-- seems only there to prevent javascript executing the --
+-------- snip --------
+
+// 
+// 
+// echo ""
+//
+//
+
+//No, this code will not execute. This code is not valid JavaScript syntax.

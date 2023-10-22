@@ -1,0 +1,5 @@
+oxagast asked summarize https://aruljohn.com/freeshell/ with hash 46895bb3
+<---- snip ---->
+,p(c.parameters)?c.parameters:[c.parameters]),f("... func.apply complete: "+e)}};
+
+Answer: Franklin summarizes the webpage as: The webpage contains a function called __ez.queue which can be used to process certain tasks. It has parameters, isBlock, blockedBy, deleteWhenComplete, isError, isComplete, isInitialized, proceedIfError, and fWindow. It also has a process function which can apply the parameters and execute the function.

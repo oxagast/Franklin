@@ -1,0 +1,3 @@
+bookworm asked explain like I am a child how the Babylonion clay tablet YBC 7289 was used to calculate √2 to five decimal places with hash d029a5a7
+<---- snip ---->
+The Babylonians used the clay tablet YBC 7289 to figure out the answer to a difficult math problem. They wanted to know what the square root of 2 was, which is a number that you get when you multiply a number by itself. On the clay tablet were written a bunch of numbers and symbols. They used these symbols to figure out the answer to the problem, which was 1.41421. This means that the square root of 2 is 1.41421, which is a number with five decimal places.

@@ -1,0 +1,11 @@
+f4t4l_3rr0r asked What are the COMODO Restriction Levels? with hash 2b473d6a
+<---- snip ---->
+The COMODO Restriction Levels are:
+
+1. Block: Blocks all applications from running and prevents any changes to system settings.
+
+2. Monitor: Monitors system activity and warns the user if any suspicious activity is detected.
+
+3. Allow: Allows all applications and changes to system settings, but still monitors system activity for suspicious activity.
+
+4. Permit: Permits all applications and changes to system settings without monitoring for suspicious activity.

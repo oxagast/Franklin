@@ -1,0 +1,3 @@
+zyme asked Explain the difference between GMT and UTC with hash ff8c5870
+<---- snip ---->
+UTC stands for Coordinated Universal Time, and is a time standard that is used in many parts of the world. It is very similar to GMT, or Greenwich Mean Time, which is a time standard that was formerly used in the UK and parts of Europe. The main difference between the two is that UTC is based on an atomic clock, while GMT was based on the rotation of the Earth. This means that UTC is more reliable and accurate than GMT.

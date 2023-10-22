@@ -1,0 +1,3 @@
+bookworm asked What is the article for the word Germans in German? with hash 0e66d60a
+<---- snip ---->
+Der Artikel für das Wort "Germans" ist im Deutschen "die".

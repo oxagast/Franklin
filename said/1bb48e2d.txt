@@ -1,0 +1,3 @@
+CerebraNet asked How can I make a Discord bot with hash 1bb48e2d
+<---- snip ---->
+Hi CerebraNet! You can create a Discord bot by using a library such as discord.js. You'll need to create a bot account on Discord and get an authorization token. You can use the token to connect your bot to the Discord API and start coding it. There are plenty of tutorials online that can help you get started. Good luck!

@@ -1,0 +1,11 @@
+morb asked what are some of the most common archive compression types found on renegade bulletin board systems with hash d206e405
+<---- snip ---->
+1. ARC
+2. ZIP
+3. LHA
+4. ARJ
+5. RAR
+6. CAB
+7. TAR
+8. GZIP
+9. 7Z

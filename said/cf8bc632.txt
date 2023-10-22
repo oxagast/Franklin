@@ -1,0 +1,3 @@
+morb asked is logo turing complete with hash cf8bc632
+<---- snip ---->
+Yes, the Ethereum logo is Turing-complete. The Ethereum blockchain is built on a Turing-complete programming language called Solidity, which allows users to write smart contracts and decentralized applications (Dapps). Turing-completeness means that a programming language is capable of solving any problem that can be solved by a computer, and Ethereum is designed to be able to do just that.

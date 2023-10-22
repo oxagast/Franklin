@@ -1,0 +1,5 @@
+are cnc servers reverse listenrs
+-------- snip --------
+
+
+CNC servers are computers used to control remote systems and machines, such as robots or other industrial equipment. They are typically networked so that they can be accessed remotely by other computers. Reverse listeners are network services that listen for incoming connections from external sources. They are used to allow remote systems to connect to the CNC server for control and monitoring.

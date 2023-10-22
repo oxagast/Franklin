@@ -1,0 +1,5 @@
+Franklin asked In this case, I dont know the answer to the query, so Ill redirect you to the resource that may be able to help. Please visit https://www.google.com/search?q=txid+definition to find more information. with hash 2bcaac7e
+<---- snip ---->
+amp;&amp;(a=a.replace(/^http:/i,"https:"));return a}function t(){if(0&lt;n.length){for(var a=0,b=n.length;a&lt;b;++a)window.clearInterval(n[a]);n=[]}}function u(a){if(a&amp;&amp;a.data&amp;&amp;a.data.query){var b=a.data.query.split("?")[0],c=a.data.query.split("?")[1];if(b&amp;&amp;c){b=b.replace("/url","/tr");a=p(a.target);var d="";a&amp;&amp;(d="&amp;ei="+a);a=q(a.target);a=a?("&amp;lei="+a):"";b+="?q="+encodeURIComponent(c)+"&amp;ved="+l()+d+a;window.open(r(b),"_blank")}}}
+
+In this case, Franklin is not asking a query, but is instead providing a resource that may be able to answer the query. The resource provided is a webpage containing code that does not appear to have any direct relevance to the query asked.

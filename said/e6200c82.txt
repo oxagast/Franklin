@@ -1,0 +1,27 @@
+CerebraNet asked How do I install a Windows virtual server at amazon with hash e6200c82
+<---- snip ---->
+1. Log in to the Amazon Web Services (AWS) console.
+
+2. In the navigation panel, under Compute, choose EC2.
+
+3. Select Launch Instance.
+
+4. Select the Windows Server 2019 Base option.
+
+5. Select your desired instance type.
+
+6. Configure your instance details.
+
+7. Add storage to your instance.
+
+8. Add tags to your instance.
+
+9. Configure security group.
+
+10. Review your instance launch settings.
+
+11. Launch your instance.
+
+12. Connect to your instance.
+
+For more detailed instructions, refer to the Amazon EC2 documentation.

@@ -1,0 +1,8 @@
+bookworm asked list expletives in Brazilian Portuguese with english in quiz file format expletive:english without line numbers with hash 2bb0c6ba
+<---- snip ---->
+Foda-se:Fuck it
+Caralho:Damn
+Porra:Shit
+Merda:Shit
+Puta que pariu:Holy shit
+Vai tomar no cu:Go fuck yourself

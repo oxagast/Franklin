@@ -1,0 +1,5 @@
+What is the default stl-sdr antenna
+-------- snip --------
+
+
+The default antenna that comes with an STL-SDR is a simple dipole antenna. It is designed to receive signals in the VHF and UHF frequency ranges.

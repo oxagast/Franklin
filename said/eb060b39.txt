@@ -1,0 +1,3 @@
+CerebraNet asked Can Windows 11 get location from nearby unpaired bluetooth devices with hash eb060b39
+<---- snip ---->
+Yes, Windows 11 can get location data from unpaired Bluetooth devices. It uses the Bluetooth signal strength to triangulate the location. However, this is not as accurate as using paired devices.

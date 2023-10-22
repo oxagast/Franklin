@@ -1,0 +1,3 @@
+oxagast asked how much memory do you have? with hash 4bda4ef6
+<---- snip ---->
+I have 1GB of RAM and 100GB of storage for responses.

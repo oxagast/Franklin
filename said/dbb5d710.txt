@@ -1,0 +1,3 @@
+bookworm asked You almost have it right, but missing the trick part of the question, if you do not assume even birds equal even poles and instead have 3 birds can you solve the riddle? How many poles in this case? with hash dbb5d710
+<---- snip ---->
+In this case, the answer is 6 poles. This is because the 3 birds must be sitting on the 2 poles each in order for the riddle to be true. Therefore, the total number of poles is 2 poles for each bird, or 6 poles in total.

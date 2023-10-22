@@ -1,0 +1,5 @@
+What is the technical name for the wireless device on a computer connecting to a wireless access point
+-------- snip --------
+?
+
+The technical name for the wireless device on a computer connecting to a wireless access point is a wireless network interface card (WNIC).

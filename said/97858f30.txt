@@ -1,0 +1,3 @@
+code asked what day of the week is it with hash 97858f30
+<---- snip ---->
+It is Sunday, September 17th.

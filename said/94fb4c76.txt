@@ -1,0 +1,12 @@
+bookworm asked list words in Portuguese that have diacritic marks and are the same when having diacritic marks converted to ASCII with hash 94fb4c76
+<---- snip ---->
+•Gênero
+•Água
+•Fé
+•Pães
+•Tênis
+•Café
+•Mãe
+•Rádio
+•Música
+•Vídeo

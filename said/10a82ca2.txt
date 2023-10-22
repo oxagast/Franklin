@@ -1,0 +1,5 @@
+CerebraNet asked Can a PHP server be used to send email with hash 10a82ca2
+<---- snip ---->
+?
+
+Yes, a PHP server can be used to send email. PHP provides the mail() function which can be used to send an email from a script running on the server.

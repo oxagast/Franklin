@@ -1,0 +1,5 @@
+How does a BTC miner collect BTC from confirming transactions
+-------- snip --------
+
+
+When a Bitcoin miner confirms a transaction, they are rewarded with newly created Bitcoin. This reward is called the block reward. The block reward is part of the Bitcoin protocol, and it is the reward miners receive for confirming transactions and providing the network with blocks of data. The block reward is made up of the transaction fees from all the transactions in that particular block, as well as a fixed amount of new Bitcoin.

@@ -1,0 +1,3 @@
+StackProphet asked play tic tac toe with me: O _ _ | _ _ _ | _ _ _ with hash b3bfca2f
+<---- snip ---->
+Sure, why not? Let's play tic tac toe! O _ _ | _ _ _ | _ _ _

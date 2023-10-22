@@ -1,0 +1,3 @@
+revoke your api key and disconnect
+
+To revoke an API key and disconnect, you can delete the key from your account settings. You can also contact the provider of the API and request that they revoke the key.

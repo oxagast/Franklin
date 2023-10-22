@@ -1,0 +1,3 @@
+Ryujin asked tell us about magic lantern with hash 9a9bd9fb
+<---- snip ---->
+Magic Lantern is an open-source, free software that provides a wide range of powerful post-production tools for video and still images. It allows you to do things like add custom overlays, create advanced color grading, and many other features. Magic Lantern also has powerful scripting capabilities, allowing you to create custom effects and other complex tasks. It is used by professionals and hobbyists alike.

@@ -1,0 +1,5 @@
+what is google LaMDA?
+-------- snip --------
+
+
+Google LaMDA (Language Model for Dialogue Applications) is an artificial intelligence (AI) system designed to generate more natural and conversational responses in human-computer interactions. The system uses natural language processing and machine learning to generate responses that are contextually relevant and based on the conversation history. It is based on Googles Transformer architecture and is optimized for dialogue applications such as chatbots and virtual assistants.

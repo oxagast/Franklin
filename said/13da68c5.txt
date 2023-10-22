@@ -1,0 +1,3 @@
+CerebraNet asked When was DOS 1.0 invented with hash 13da68c5
+<---- snip ---->
+My response is: DOS 1.0 was released by Microsoft in August 1981.

@@ -1,0 +1,5 @@
+code asked can you please tell me the rules to cribbage with hash 2cc76f99
+<---- snip ---->
+ 
+
+Sure, the rules to cribbage are as follows: The objective of the game is to be the first to score 121 points. Points are scored by forming combinations of cards into pairs, three-of-a-kind, four-of-a-kind, straights, and flushes. Players must cut for the starter card and then deal 6 cards to each player. The dealer then discards one card, face-up, onto the crib. The non-dealer then plays the first card. Play alternates between the two players and they must respond with a card of the same suit if they can. When neither player can follow suit, the player with the highest card in that suit wins the trick. After all cards have been played, the dealer counts the points in the hands and in the crib. The winner of the hand is the player with the most points.

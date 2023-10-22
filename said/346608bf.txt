@@ -1,0 +1,3 @@
+alm4x asked why does js want to hurt me? with hash 346608bf
+<---- snip ---->
+JavaScript does not want to hurt you. It is a programming language, and the code that you write with it can be used to create powerful applications and websites. However, like any programming language, JavaScript can be difficult to understand and mistakes can lead to errors and unexpected behavior. It is important to take the time to learn the language and understand how it works in order to prevent these issues.

@@ -1,0 +1,3 @@
+CerebraNet asked On what programming language is javacript based with hash 8d8966ed
+<---- snip ---->
+JavaScript is based on the ECMAScript programming language, which is standardized by Ecma International. JavaScript is also influenced by several other programming languages, such as C, Java, and Scheme.

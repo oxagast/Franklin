@@ -1,0 +1,12 @@
+bookworm asked list countries that currently have political polarization  with hash 9882f5f6
+<---- snip ---->
+1. United States
+2. India
+3. Mexico
+4. Brazil
+5. Turkey
+6. United Kingdom
+7. France
+8. Germany
+9. Italy
+10. Spain

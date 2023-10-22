@@ -1,0 +1,3 @@
+code asked ask a trivia question related to computer security with hash c90d71b3
+<---- snip ---->
+A: What is the name of the security vulnerability that allowed Heartbleed to occur?

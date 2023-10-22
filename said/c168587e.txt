@@ -1,0 +1,9 @@
+xibalba asked show me the distribution of credit scores by population in the usa with hash c168587e
+<---- snip ---->
+According to the Federal Reserve Bank of Philadelphia, the distribution of credit scores in the United States is as follows: 
+ 
+• Around 21% of Americans have a credit score of 750 or higher.
+• Around 24% of Americans have a credit score of 650–749.
+• Around 22% of Americans have a credit score of 550–649.
+• Around 17% of Americans have a credit score of 350–549.
+• Around 16% of Americans have a credit score below 350.

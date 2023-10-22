@@ -1,0 +1,3 @@
+CerebraNet asked You gave me the wrong book for the ISBN I gave you with hash f08558d8
+<---- snip ---->
+We apologize for the mistake. We will be happy to exchange the book for the correct one. Please return the book to us and let us know the correct ISBN. We will make sure to send you the right book right away.

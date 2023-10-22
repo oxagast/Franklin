@@ -1,0 +1,86 @@
+morb asked (<[CDATA]>) with hash b4ffa8f4
+<---- snip ---->
+    return 0;
+  if (InCData)
+    {
+    if (!strcmp(line, "]]>"))
+      {
+      InCData = 0;
+      return 0;
+      }
+    // replace all ]]> with ]]&gt;
+    cmSystemTools::ReplaceString(line, "]]>", "]]&gt;");
+    }
+  return 1;
+}
+
+//----------------------------------------------------------------------------
+int cmXMLWriter::DoIndent()
+{
+  int res = 0;
+  if (this->Indent)
+    {
+    int cc;
+    for ( cc = 0; cc < this->IndentLevel; cc ++ )
+      {
+      res += fprintf(this->File, this->IndentString);
+      }
+    }
+  return res;
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::StartOfElement(const char* name)
+{
+  if (this->InElement)
+    {
+    this->EndElement();
+    }
+  this->DoIndent();
+  fprintf(this->File, "<%s", name);
+  this->InElement = 1;
+  this->ElementName = name;
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::EndElement()
+{
+  if (!this->InElement)
+    {
+    return;
+    }
+  if (this->Content.empty())
+    {
+    fprintf(this->File, "/>\n");
+    }
+  else
+    {
+    fprintf(this->File, ">\n");
+    this->DoIndent();
+    fprintf(this->File, "%s", this->Content.c_str());
+    this->Content = "";
+    fprintf(this->File, "</%s>\n", this->ElementName.c_str());
+    }
+  this->InElement = 0;
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::Attribute(const char* name, const char* value)
+{
+  fprintf(this->File, " %s=\"%s\"", name, value);
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::Attribute(const char* name, long value)
+{
+  fprintf(this->File, " %s=\"%ld\"", name, value);
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::Attribute(const char* name, int value)
+{
+  fprintf(this->File, " %s=\"%d\"", name, value);
+}
+
+//----------------------------------------------------------------------------
+void cmXMLWriter::Attribute(const char* name,

@@ -1,0 +1,3 @@
+bookworm asked Did openai ever proclaim that they would keep their software free and accessable? with hash 77fc8aa0
+<---- snip ---->
+Yes, OpenAI has stated that they are committed to making their software free and accessible to everyone. They have also stated that they will continue to provide free access to their API and platforms.

@@ -1,0 +1,3 @@
+morb asked what are the two frequencies that comprise of an ACTS signal on a payphone and how can I recreate them with a radioshack tone dialer with hash c11c1151
+<---- snip ---->
+The two frequencies that comprise an ACTS signal on a payphone are 941 Hz and 1477 Hz, and you can recreate them using a RadioShack tone dialer by setting the frequency of the dialer to the two frequencies.

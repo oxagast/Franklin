@@ -1,0 +1,5 @@
+write a google dork to find hidden 2600net irc servers
+-------- snip --------
+
+
+intitle:"2600net irc server" -inurl:"2600net.org"

@@ -1,0 +1,3 @@
+jfalcon asked What is the doppler effect and how does it compare to red to blue shifting? with hash c961be29
+<---- snip ---->
+The Doppler effect is a phenomenon where an object's sound waves are compressed or stretched when the object moves towards or away from an observer. Red to blue shifting is an optical phenomenon where the color of an object changes from red to blue as the object moves towards or away from an observer. The Doppler effect and red to blue shifting are similar in that they both occur when an object moves relative to an observer, and the frequency or color of the wave changes.

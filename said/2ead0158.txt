@@ -1,0 +1,9 @@
+list tutorials on using adb on linux and their urls, which actually checks out to be real existing urls on the WEB
+-------- snip --------
+
+
+1. Beginners Guide to Setting up ADB on Linux - https://www.xda-developers.com/beginners-guide-to-setting-up-adb-on-linux/ 
+2. Android Debug Bridge (adb) | Android Developers - https://developer.android.com/studio/command-line/adb 
+3. Android Debug Bridge (ADB) on Linux - https://www.howtogeek.com/125769/how-to-install-and-use-abd-the-android-debug-bridge-utility/ 
+4. How To Install ADB on Linux (Debian/Ubuntu) - https://www.ostechnix.com/install-adb-linux-mint-ubuntu/ 
+5. How to install the Android ADB tools on Ubuntu - https://www.techrepublic.com/article/

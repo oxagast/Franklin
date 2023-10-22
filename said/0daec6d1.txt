@@ -1,0 +1,3 @@
+RDNt asked what OS do Diebold voting machines use? with hash 0daec6d1
+<---- snip ---->
+Diebold voting machines typically use Windows, but some models may also use Linux.

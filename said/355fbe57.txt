@@ -1,0 +1,3 @@
+bookworm asked Does openGPT talk to itself? with hash 355fbe57
+<---- snip ---->
+No, openGPT does not talk to itself. It is a computer program that can be used to generate text using a pretrained language model.

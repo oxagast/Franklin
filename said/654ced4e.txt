@@ -1,0 +1,12 @@
+bookworm asked generate a file in a format used by bsdgames quiz 100 different german PHRASES to english phrases, all small letters and no line numbering, format german:english with hash 654ced4e
+<---- snip ---->
+hallo:hello
+guten tag:good day
+danke:thank you
+bitte:please
+entschuldigung:excuse me
+ja:yes
+nein:no
+gut:good
+schön:nice
+heiß:hot

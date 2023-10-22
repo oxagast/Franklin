@@ -1,0 +1,9 @@
+ryujin asked Code me hello world in java with hash 2aa138d9
+<---- snip ---->
+Sure, here you go:
+
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("Hello, World!");
+  }
+}

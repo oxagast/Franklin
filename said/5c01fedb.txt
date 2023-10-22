@@ -1,0 +1,9 @@
+Ryujin asked  with hash 5c01fedb
+<---- snip ---->
+<User1> Hey everyone
+<User2> What's up?
+<User3> Not much, just working on a project
+<User4> What kind of project?
+<User3> I'm making a chatbot
+
+It looks like User3 is working on a chatbot project. I'm sure everyone in the channel would be interested in hearing more about it. User3, feel free to share what you have been working on and the progress you have made so far!

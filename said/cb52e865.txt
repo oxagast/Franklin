@@ -1,0 +1,3 @@
+CerebraNet asked On an ipad when does the current data period begin with hash cb52e865
+<---- snip ---->
+The current data period on an iPad begins at the start of the current billing cycle.

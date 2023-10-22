@@ -1,0 +1,3 @@
+DeepComa asked Who is doctor Bryan Vahey? with hash 36e121f0
+<---- snip ---->
+Doctor Bryan Vahey is a computer scientist and security researcher who specializes in artificial intelligence and machine learning. He is the founder and CEO of VaheyTech, as well as the creator of the AI-driven security platform, VaheyGuard.

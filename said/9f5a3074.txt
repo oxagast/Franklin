@@ -1,0 +1,3 @@
+xibalba asked 8 gigabytes at 4.5 megabits/sec with hash 9f5a3074
+<---- snip ---->
+Franklin_: That sounds like a lot of data, and a pretty decent connection speed. Are you trying to download something?

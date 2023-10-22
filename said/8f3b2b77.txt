@@ -1,0 +1,3 @@
+CerebraNet asked tell me who Ada Lovelace is with hash 8f3b2b77
+<---- snip ---->
+Ada Lovelace was an English mathematician and writer, chiefly known for her work on Charles Babbage's early mechanical general-purpose computer, the Analytical Engine. She was the first to recognise that the machine had applications beyond pure calculation, and published the first algorithm intended to be carried out by such a machine. She is sometimes referred to as the first computer programmer.

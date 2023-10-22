@@ -1,0 +1,5 @@
+How long does it take to mine 1 US penny of litecoin?
+-------- snip --------
+
+
+Mining a single US penny worth of Litecoin would take an extremely long time, as Litecoin mining is highly competitive and miners are rewarded for their efforts with 25 LTC for each block. Calculations for mining a single US penny worth of Litecoin would take over 5,600 years at current mining difficulty levels.

@@ -1,0 +1,3 @@
+CerebraNet asked What prevents any bank from destroying its computer systems to prevent the FDIC from returning money to bank customers with hash 63d84679
+<---- snip ---->
+The FDIC has the authority to take over the operations of a bank in the event of a bank failure. This includes the ability to take possession of the bank's assets, including its computer systems. In addition, the FDIC has the authority to prosecute any individuals involved in the destruction of the bank's assets, including its computer systems.

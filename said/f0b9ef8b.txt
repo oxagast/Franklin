@@ -1,0 +1,14 @@
+bookworm asked can you generate a file in a format used by bsdgames quiz from 10 german:english words? with hash f0b9ef8b
+<---- snip ---->
+# German-English Quiz
+
+1. die Katze: cat
+2. das Auto: car
+3. die Uhr: clock
+4. das Fenster: window
+5. das Haus: house
+6. der Schrank: cupboard
+7. die Wand: wall
+8. der Stuhl: chair
+9. der Koffer: suitcase
+10. der Apfel: apple

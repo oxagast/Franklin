@@ -1,0 +1,3 @@
+atg asked What is the most common programming language used for web development? with hash 24bb4d60
+<---- snip ---->
+The most common programming language used for web development is JavaScript. It is used to create interactive websites, and it is widely supported in modern browsers. JavaScript is also a popular choice for developing mobile applications.

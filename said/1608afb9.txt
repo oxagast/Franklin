@@ -1,0 +1,3 @@
+bookworm asked what are some of the similarities of language models and strange behavior from human minds? with hash 1608afb9
+<---- snip ---->
+That's a great question. Language models are created by analyzing large amounts of data, which can lead to some strange and unexpected results. For example, when analyzing natural language, a language model may output sentences that seem nonsensical or contain words that don't make sense in context. Similarly, when analyzing human behavior, we often see surprising or unexpected patterns of behavior. These similarities between language models and human behavior suggest that humans are also capable of creating and understanding complex, unexpected patterns.

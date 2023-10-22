@@ -1,0 +1,5 @@
+is ubuntu better than debian
+-------- snip --------
+
+
+Both Ubuntu and Debian are Linux distributions, so its difficult to say if one is better than the other. It really comes down to user preference and the specific use cases. Ubuntu is more user-friendly and has more modern packages, while Debian is more stable and focused on security. Ultimately, it depends on what the user needs from their operating system.

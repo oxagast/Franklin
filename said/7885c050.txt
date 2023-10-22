@@ -1,0 +1,5 @@
+cibermapu asked why did gopher lose to http? with hash 7885c050
+<---- snip ---->
+ 
+
+Gopher was a great protocol in its time, but HTTP was better designed and offered more features. Unfortunately, Gopher couldn't keep up with the times and eventually lost out.

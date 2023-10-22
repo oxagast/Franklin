@@ -1,0 +1,3 @@
+bookworm asked What is the estimated life of a proton? with hash bdfda017
+<---- snip ---->
+The estimated life of a proton is approximately 10^32 years.

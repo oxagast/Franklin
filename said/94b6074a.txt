@@ -1,0 +1,3 @@
+Ryujin asked What is the probability that bitcoin is fraud  with hash 94b6074a
+<---- snip ---->
+That's a tough one. While it's impossible to accurately predict the probability of something like bitcoin fraud, the chances are low. The technology behind bitcoin is robust and secure, and there are numerous checks and balances in place to prevent fraud. Additionally, there are multiple security measures that have been implemented to protect user funds and reduce the possibility of fraud.

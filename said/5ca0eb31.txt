@@ -1,0 +1,3 @@
+Ryujin asked Tell me all about RDNt in #2600 with hash 5ca0eb31
+<---- snip ---->
+Sure Ryujin, I will tell you all about RDNt. RDNt is a network security framework that was developed by a team of security researchers from various universities. It provides a secure environment for applications by incorporating an authentication, authorization and accounting (AAA) system. It also provides an intrusion detection system (IDS) and a firewall. RDNt is designed to be secure and easy to use, while still providing a high level of security. It is used by many organizations and companies to protect their networks.

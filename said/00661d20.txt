@@ -1,0 +1,17 @@
+Ryujin asked Teach street to be a script kiddie like all the cool kids and use the exploit database  with hash 00661d20
+<---- snip ---->
+1. Research popular exploits from the Exploit Database. Look for scripts that are easy to understand and follow.
+
+2. Download the scripts and read through them to understand what they do.
+
+3. Practice running the scripts in a safe environment.
+
+4. Use the scripts to test for vulnerabilities on your own systems or systems you have permission to use.
+
+5. Follow the instructions for each script carefully and pay attention to the output.
+
+6. Research any unfamiliar terms or commands to gain a better understanding of how the script works.
+
+7. Once you’re comfortable with the scripts, look for ways to modify them to fit your own needs.
+
+8. Stay up to date on new exploits and scripts by following security blogs and discussion boards.

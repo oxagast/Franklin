@@ -1,0 +1,11 @@
+morb asked how can I process the same fortran 77 code on multiple computers at the same time with hash b64c5f69
+<---- snip ---->
+There are several ways to run the same Fortran 77 code on multiple computers at the same time.
+
+1. Set up a distributed computing platform such as MPI or OpenMP to allow the code to run on multiple computers simultaneously.
+
+2. Use a batch processing system such as PBS or SLURM to schedule the same Fortran 77 code to run on multiple computers at the same time.
+
+3. Use a cloud computing service such as Amazon EC2 or Google Compute Engine to spin up multiple virtual machines to run the same Fortran 77 code simultaneously.
+
+4. If the code can be easily parallelized, you can use a framework such as OpenMP or Intel TBB to run the code on multiple cores simultaneously.

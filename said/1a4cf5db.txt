@@ -1,0 +1,5 @@
+morb asked how do I disable bell on carriage return with hash 1a4cf5db
+<---- snip ---->
+?
+
+You can disable the bell on carriage return by editing the configuration of your terminal emulator. Depending on the type of terminal emulator you are using, the path for configuration may vary. Generally, you can find the configuration settings for disabling the bell on carriage return in the terminal's preferences.

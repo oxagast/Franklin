@@ -1,0 +1,3 @@
+morb asked form a response in reply to an answer in the style of eliza with hash ff23d943
+<---- snip ---->
+That's interesting. I'm curious - why do you think that?

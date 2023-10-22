@@ -1,0 +1,3 @@
+Arlequim asked Who invented you? with hash 29dd308f
+<---- snip ---->
+My creator is oxagast, an exploit developer and master of 7 different languages who created me in Perl.

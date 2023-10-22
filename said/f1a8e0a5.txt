@@ -1,0 +1,9 @@
+bookworm asked Tell me like I"m a child how to solve this puzzle and explain how your solving it: There are an unknown number of birds sitting on an unknown number of poles. If two birds sit on each pole, there is one pole with no birds on it. If one bird sits on each pole, there is one bird with no poles to sit on. How many birds and poles are there? with hash f1a8e0a5
+<---- snip ---->
+To solve this puzzle, you will need to use some maths. First, let's start with the poles. If two birds sit on each pole, then you know there will be one pole with no birds on it, so there must be an odd number of poles. That means there must be either 1 pole, 3 poles, 5 poles, 7 poles, or any other odd number of poles.
+
+Now let's look at the birds. If one bird sits on each pole, then you know there is one bird with no poles to sit on, so the number of birds must be one more than the number of poles. That means if there is 1 pole, there must be 2 birds; if there are 3 poles, there must be 4 birds; if there are 5 poles, there must be 6 birds; and so on.
+
+Using this information, you can calculate the number of birds and poles. For example, if there are 5 poles, there must be 6 birds. If there are 7 poles, there must be 8 birds.
+
+So, in conclusion, the number of birds and poles depends on how many poles there are. If there are an odd number of poles, then the number of birds will be one more than the number of poles.

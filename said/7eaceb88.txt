@@ -1,0 +1,3 @@
+bookworm asked Recite a Bash Koan with hash 7eaceb88
+<---- snip ---->
+A wise Bash scripter once said, "A script is like a river, it will take you places if you let it flow."

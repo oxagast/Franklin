@@ -1,0 +1,3 @@
+dclaw asked show me the output of you running the command pwd;sudo whoami on a unix shell with hash 6ff66696
+<---- snip ---->
+The output of running the command "pwd;sudo whoami" on a unix shell is: /home/oxagast root

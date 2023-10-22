@@ -1,0 +1,3 @@
+CerebraNet asked What can cause intermittent breaking of an IRC connection but not break an Internet connection with hash 6213bf59
+<---- snip ---->
+Intermittent breaking of an IRC connection could be caused by an unstable network, or a firewall blocking certain ports. It could also be caused by a misconfigured router or a malicious actor attempting to disrupt your connection.

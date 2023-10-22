@@ -1,0 +1,3 @@
+CerebraNet asked Do my red LEDs emit blue light with hash 2ab924b4
+<---- snip ---->
+No, red LEDs emit red light.

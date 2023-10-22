@@ -1,0 +1,30 @@
+ryujin asked team me to use SED & AWk
+<---- snip ---->
+ 
+SED:
+
+1. Use the sed command to search and replace a text in a file. For example:
+
+sed -i 's/oldtext/newtext/g' filename.txt
+
+2. Use sed to find and delete lines matching a certain pattern. For example:
+
+sed -i '/pattern/d' filename.txt
+
+3. Use sed to insert a line before or after a pattern. For example:
+
+sed -i '/pattern/i\\newline' filename.txt
+
+AWK:
+
+1. Use awk to print specific columns from a file. For example:
+
+awk -F',' '{print $1,$2,$3}' filename.txt
+
+2. Use awk to search for and replace a text in a file. For example:
+
+awk '{gsub(/oldtext/,"newtext")}1' filename.txt
+
+3. Use awk to calculate the sum of a column in a file. For example:
+
+awk -F',' '{sum+=$1} END {print sum}' filename.txt https://gpt3.oxasploits.com/said/5c95fe28

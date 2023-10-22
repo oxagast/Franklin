@@ -1,0 +1,3 @@
+CerebraNet asked What is NXDN with hash 27a38d31
+<---- snip ---->
+NXDN is a digital narrowband trunked radio system developed by ICOM Inc. It is designed to provide reliable wireless communications with extended range and reliable radio coverage. It uses a 6.25 kHz channel spacing, which allows for a greater number of users in a given spectrum. It also features a range of advanced features such as encryption, multi-site simulcasting, and GPS-assisted operations.

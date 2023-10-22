@@ -1,0 +1,3 @@
+bookworm asked likelihood function with hash 0f543e81
+<---- snip ---->
+A likelihood function is a function of the parameters of a statistical model given data. It is used to determine the probability of a set of parameters given the data. The likelihood function is typically used in maximum likelihood estimation (MLE), which is a method for estimating parameters of a statistical model.

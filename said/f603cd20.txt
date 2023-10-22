@@ -1,0 +1,12 @@
+CerebraNet asked Name some basic PHP commands with hash f603cd20
+<---- snip ---->
+1. echo 
+2. include 
+3. require 
+4. if 
+5. for 
+6. foreach 
+7. switch 
+8. while 
+9. do-while 
+10. break

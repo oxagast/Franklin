@@ -1,0 +1,3 @@
+zyme asked What is QOLNet/ with hash 5c3069f0
+<---- snip ---->
+QOLNet is a Quality of Life Network, a decentralized network of distributed nodes that provide a secure and reliable communication platform. It is an open source project that provides a suite of tools and services for creating and running decentralized applications.

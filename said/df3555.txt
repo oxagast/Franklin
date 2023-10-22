@@ -1,0 +1,1 @@
+1. Checkout the branch you want to sync.2. Pull the latest version of the branch from origin.3. Checkout the other branch you want to sync.4. Pull the latest version of that branch from origin.5. Merge the two branches together.6. Push the changes to origin.

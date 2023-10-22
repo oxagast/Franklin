@@ -1,0 +1,3 @@
+xibalba asked what happened to the US Treasury Repo Market in September 2019 with hash db6174e4
+<---- snip ---->
+In September 2019, the US Treasury Repo Market experienced what is referred to as a “flash crash”. This event caused a sudden decline in the cost of borrowing money from the repo market. The decline was so drastic that it caused a spike in the overnight cost of borrowing, which resulted in a liquidity crunch for financial institutions. This was later attributed to what is known as a “funding squeeze”, which is when market participants are unable to obtain the funds they need from the repo market. This caused a ripple effect and led to a significant disruption in the US Treasury market.

@@ -1,0 +1,5 @@
+Are all litecoin miners a member of a pool?
+-------- snip --------
+
+
+No, not all Litecoin miners are members of a pool. Some miners prefer to operate independently and not join a mining pool.

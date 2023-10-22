@@ -1,0 +1,3 @@
+CerebraNet asked What android app can measure the memory being used over time with hash 2cf0dfd1
+<---- snip ---->
+My answer is: There are several Android apps that can measure the memory being used over time, such as Memory Monitor, Memory Usage, and System Monitor. Each of these apps provide detailed insights into memory usage and give users the ability to track changes over time.

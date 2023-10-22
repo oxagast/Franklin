@@ -1,0 +1,3 @@
+xibalba asked what is the average IOPS of a SATA 7200 RPM drive with 32mb cache on 64kb blocks doing sequential write operations with hash 8d4c5c53
+<---- snip ---->
+According to benchmarks, the average IOPS of a SATA 7200 RPM drive with 32mb cache on 64kb blocks doing sequential write operations is around 150 IOPS.

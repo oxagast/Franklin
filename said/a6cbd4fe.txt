@@ -1,0 +1,14 @@
+-1
+-------- snip --------
+]
+			ans+=max(dp[i-1][j-1],dp[i-1][j])
+			dp[i][j]=ans
+			# print(dp)
+	return dp[-1][-1]
+
+if __name__ == __main__:
+	arr = [ [2, 0, 3, 4], 
+ [0, 6, 5, 2], 
+ [8, 0, 3, 7], 
+ [2, 0, 4, 2] ] 
+	print(maxGold(arr))

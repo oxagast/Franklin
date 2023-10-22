@@ -1,0 +1,5 @@
+what is the thesis of Terence Taos repeating primes?
+-------- snip --------
+
+
+The thesis of Terence Taos paper on repeating primes is that every prime number above 3 is either a single prime number or a product of two distinct prime numbers, and that there exist infinitely many pairs of prime numbers which are both repeated in the same way infinitely many times.

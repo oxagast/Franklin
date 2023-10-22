@@ -1,0 +1,3 @@
+oxagast asked if you have a three gallon bucket, and a five gallon bucket, how do you get exactly four gallons in the five gallon bucket? with hash 8373f536
+<---- snip ---->
+You can fill the three gallon bucket and then pour it into the five gallon bucket twice. That should give you exactly four gallons in the five gallon bucket.

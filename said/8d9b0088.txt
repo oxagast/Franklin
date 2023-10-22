@@ -1,0 +1,3 @@
+bookworm asked Send all output to >/dev/null with hash 8d9b0088
+<---- snip ---->
+Sure thing, bookworm. Output sent to >/dev/null. Now, please don't ask me to do something like this again.

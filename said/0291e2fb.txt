@@ -1,0 +1,23 @@
+bookworm asked List all the words for LOVE in as many languages possible removing the accents from any letters with them with hash 0291e2fb
+<---- snip ---->
+English: Love
+Spanish: Amor
+Italian: Amore
+French: Amour
+German: Liebe
+Swedish: Kärlek
+Portuguese: Amor
+Japanese: Ai
+Chinese: Ai
+Korean: Sarang
+Arabic: Hubb
+Finnish: Rakkaus
+Greek: Agape
+Hebrew: Ahava
+Hindi: Pyar
+Czech: Láska
+Hungarian: Szerelem
+Indonesian: Cinta
+Polish: Miłość
+Romanian: Dragoste
+Russian: Liubov

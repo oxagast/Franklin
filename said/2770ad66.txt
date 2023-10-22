@@ -1,0 +1,3 @@
+xibalba asked what is CADR with hash 2770ad66
+<---- snip ---->
+CADR (Clean Air Delivery Rate) is a rating system used to measure the effectiveness of air purifiers. It measures the amount of clean air output by the air purifier in cubic feet per minute (CFM) and is based on the size of the room.

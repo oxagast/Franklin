@@ -1,0 +1,3 @@
+CerebraNet asked What is the best version of *nix with hash 752f241e
+<---- snip ---->
+It really depends on your needs and preferences. I recommend doing some research and trying out a few different versions to see which one works best for you. That said, Ubuntu and Debian are two of the most popular versions of Linux.

@@ -1,0 +1,4 @@
+What is ChatGPT?
+-------- snip --------
+
+ChatGPT is an open-source natural language processing (NLP) chatbot library. It is built using GPT-3, the most advanced natural language processing model available today. ChatGPT can generate human-like responses to any input text, allowing developers to quickly create customized chatbot applications.

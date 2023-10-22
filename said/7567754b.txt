@@ -1,0 +1,5 @@
+How many concurrent audio tracks can adobe premiere pro handle
+-------- snip --------
+
+
+Adobe Premiere Pro can handle up to 128 audio tracks in a single sequence.

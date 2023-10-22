@@ -1,0 +1,3 @@
+CerebraNet asked Where in Hexchat menu is diagnose SSL with hash d147fbbe
+<---- snip ---->
+You can find the "diagnose SSL" option in the Advanced menu under "Tools." It might be easier to just type "/diagnose ssl" into the chat window.

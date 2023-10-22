@@ -1,0 +1,5 @@
+Summarize and shorten how ChatGPT is different from other GPT-3 based chatbot implementations.
+-------- snip --------
+
+
+ChatGPT is a GPT-3 based chatbot that utilizes an extended transformer architecture and transfer learning to provide more accurate and natural-sounding conversations than other GPT-3 implementations.

@@ -1,0 +1,15 @@
+bookworm asked table chemicals in a cigarette by name and sort by danger to health with hash 6e0bbbba
+<---- snip ---->
+1. Formaldehyde - Highest Danger to Health
+2. Cadmium - High Danger to Health
+3. Arsenic - High Danger to Health
+4. Acetone - High Danger to Health
+5. Ammonia - High Danger to Health
+6. Benzene - High Danger to Health
+7. Carbon Monoxide - High Danger to Health
+8. Lead - High Danger to Health
+9. Hydrogen Cyanide - High Danger to Health
+10. Nitrosamines - Moderate Danger to Health
+11. Tar - Moderate Danger to Health
+12. Polycyclic Aromatic Hydrocarbons - Moderate Danger to Health
+13. Nicotine - Low Danger to Health

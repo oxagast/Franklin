@@ -1,0 +1,5 @@
+how do you specify a destination in the arping command? is it IP or mac address?
+-------- snip --------
+
+
+In the arping command, you specify a destination IP address.

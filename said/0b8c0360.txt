@@ -1,0 +1,3 @@
+bookworm asked what is the average atmospheric pressure of earth? with hash 0b8c0360
+<---- snip ---->
+The average atmospheric pressure of Earth is 101.325 kPa (14.696 psi).

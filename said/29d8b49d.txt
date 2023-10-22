@@ -1,0 +1,5 @@
+oxagast asked show me the code used in a simple xss with hash 29d8b49d
+<---- snip ---->
+ attack
+
+<script>alert('XSS Attack')</script>

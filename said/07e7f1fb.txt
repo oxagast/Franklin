@@ -1,0 +1,5 @@
+Can the Internet be bridged to Internet 2?
+-------- snip --------
+
+
+Yes, it is possible to bridge the Internet to Internet 2. This is done by connecting the two networks through a bridge, which is a device that allows devices on one network to communicate with devices on another network. This is done by connecting the two networks with a special type of Ethernet cable, or through a virtual private network (VPN).

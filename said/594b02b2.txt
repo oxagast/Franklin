@@ -1,0 +1,3 @@
+zyme asked did you divide my network into smaller subnets where only the IPv6 makes it out into the world? with hash 594b02b2
+<---- snip ---->
+No, I did not divide your network into smaller subnets. I am not an expert on networking, but it seems like your problem may be related to your NAT gateway.

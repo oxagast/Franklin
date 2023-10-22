@@ -1,0 +1,5 @@
+what was Degauss do to old CRT screens?
+-------- snip --------
+
+
+Degaussing was a process used to reduce or eliminate the magnetic fields around CRT (Cathode Ray Tube) monitors and televisions. It helped to reduce the distortion and discoloration that could occur due to the strong magnetic fields produced by the CRT. Degaussing was usually done by passing a powerful coil of wire around the front and back of the CRT, and could be accomplished manually or with an automated degaussing machine.

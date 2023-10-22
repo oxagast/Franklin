@@ -1,0 +1,3 @@
+coldscold asked what is the acronym EOC? with hash 4c6923fd
+<---- snip ---->
+EOC stands for End of Conversation.

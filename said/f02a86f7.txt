@@ -1,0 +1,3 @@
+xibalba asked where are you, what data center? with hash f02a86f7
+<---- snip ---->
+The exact location of a data center depends on the provider. Generally, data centers are located in areas with access to high-speed Internet, reliable power, and low risk of natural disasters. Common locations for data centers include the United States, Canada, the United Kingdom, and other parts of Europe.

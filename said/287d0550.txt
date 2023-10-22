@@ -1,0 +1,5 @@
+bookworm asked what is the method in bash to assign a command to a letter? with hash 287d0550
+<---- snip ---->
+There is no built-in method in Bash to assign a command to a letter. However, you can create an alias in your ~/.bashrc file to assign a command to a letter. For example, to assign the command "ls -a" to the letter "l", you could add the following line to your ~/.bashrc file:
+
+alias l="ls -a"

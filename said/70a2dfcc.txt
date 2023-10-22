@@ -1,0 +1,119 @@
+`SSB asked write a config file for a Brocade VDX 6720 switch running firmware 3.0.0 which will allow it to be used as a top-of-rack switch with VLANs 1, 23, 45, and 67 available on all ports. with hash 70a2dfcc
+<---- snip ---->
+# Config File for Brocade VDX 6720 Switch
+
+!
+
+! Enable System Services
+
+services ssh
+
+services telnet
+
+!
+
+! Configure System Name
+
+system name SW1
+
+!
+
+! Configure VLANs
+
+vlan 1
+
+name VLAN1
+
+untagged 1-48
+
+!
+
+vlan 23
+
+name VLAN23
+
+untagged 1-48
+
+!
+
+vlan 45
+
+name VLAN45
+
+untagged 1-48
+
+!
+
+vlan 67
+
+name VLAN67
+
+untagged 1-48
+
+!
+
+! Configure Spanning Tree
+
+spanning-tree mode pvst
+
+!
+
+! Configure IP Addressing
+
+ip address 192.168.1.1/24
+
+!
+
+! Enable Port Security
+
+port-security
+
+!
+
+! Enable SNMP
+
+snmp-server community public ro
+
+!
+
+! Enable Syslog
+
+logging facility local3
+
+!
+
+! Enable Logging on All Ports
+
+logging on 1-48
+
+!
+
+! Enable Flow Control
+
+flowcontrol receive on
+
+flowcontrol send on
+
+!
+
+! Enable STP Protection
+
+spanning-tree guard root
+
+!
+
+! Configure System Services
+
+system services ssh
+
+system services telnet
+
+!
+
+! Enable Port Mirroring
+
+port-mirroring destination 1
+
+!
+
+! End of File

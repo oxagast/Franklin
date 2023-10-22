@@ -1,0 +1,10 @@
+make a table of the planets of the solar system, listing their size relative to earth, their average temperature, the duration of their day and year, the god theyre named after, the date of their discovery if any, their spin direction, number of moons and number of rings as columns.
+-------- snip --------
+
+
+|Planet | Size Relative to Earth | Average Temperature (Kelvin) | Day Length | Year Length | God Named After | Date of Discovery | Spin Direction | Number of Moons | Number of Rings | 
+|------|----------------------|--------------------------|------------|------------|---------------|-----------------|---------------|----------------|----------------|
+|Mercury| 0.38 | 300 - 700 | 58d 15h 30m| 88d | Hermes | 16th century BC | Retrograde | 0 | 0 |
+|Venus | 0.95 | 462 | 243d | 225d | Aphrodite | 15th century BC | Retrograde | 0 | 0 |
+|Earth | 1 | 288 | 24h | 365d | None | | Direct | 1 | 0 |
+|Mars | 0.53 | 210 -

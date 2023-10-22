@@ -1,0 +1,13 @@
+morb asked write me a quine in four esoteric programming languages with hash f38348d9
+<---- snip ---->
+Malbolge:
+("(=<`#9]~6ZY32Vx/4Rs+0No-&Jk)"Z~'|{z2Vx/4Rs+})F|A3N`#~6ZY32Vx/4Rs+0No-&Jk)"F<`#9]~6ZY32Vx/4Rs+0No-&Jk)"Z~'|{z2Vx/4Rs+})F|A3N`#~6ZY32Vx/4Rs+0No-&Jk)"
+
+Befunge:
+<v"<v@_,^_@>v
+
+Brainfuck:
++[>,]<[.[-]>,]
+
+Whitespace:
+																																													

@@ -1,0 +1,5 @@
+What does the swapoff command is used for?
+-------- snip --------
+
+
+The swapoff command is used to disable swap space on Linux operating systems. It is used to temporarily or permanently turn off paging and swapping on a Linux system. Swapoff can be used to free up memory, add or remove swap files, or to disable swap partitions.

@@ -1,0 +1,3 @@
+bookworm asked make a boggle board putting using VETM  RKSI  QEAL  DUFT where VETM  is the first row, RKSI is the second row,  QEAL is the third row and DUFT is the fourth row. Now answer using the boggle rules for formulating adjacency, what is Letters are adjacent to V? with hash 906fab7f
+<---- snip ---->
+Letters adjacent to V are E, T, R, and M.

@@ -1,0 +1,5 @@
+what is debian Pre-Update?
+-------- snip --------
+
+
+Debian Pre-Update is a script designed to check for available updates for Debian-based Linux systems and install them without user interaction. It is written in Bash and requires the apt-get command line utility. The script is designed to be run from the command line and can be used to automate the update process, allowing the system administrator to schedule updates whenever they choose.

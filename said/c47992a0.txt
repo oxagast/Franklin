@@ -1,0 +1,9 @@
+gwe asked  with hash c47992a0
+<---- snip ---->
+UserA: I'm having trouble connecting to my VPN
+UserB: Have you tried restarting your router?
+UserC: @UserA have you tried checking your internet connection?
+UserA: Yes, both are working
+UserB: Then it should be working.
+
+It might be worth trying to reset your VPN connection as well. If that doesn't work, you could also try to reach out to your VPN service provider for further assistance.

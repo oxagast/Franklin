@@ -1,0 +1,3 @@
+CerebraNet asked You are lying about RFC 2549 with hash a8d438c7
+<---- snip ---->
+RFC 2549 is a real document. It was published in 1999 by the Internet Engineering Task Force (IETF) and describes an experimental Internet routing architecture.

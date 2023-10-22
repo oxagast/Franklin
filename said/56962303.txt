@@ -1,0 +1,3 @@
+morb asked you mentioned circumstances; what are they with hash 56962303
+<---- snip ---->
+The circumstances are that I am trying to make this IRC bot smarter. I'm exploring different NLP techniques to understand conversation better, so I can respond more accurately.

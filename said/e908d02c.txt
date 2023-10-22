@@ -1,0 +1,3 @@
+code asked what does soic stand for with hash e908d02c
+<---- snip ---->
+SOIC stands for Small Outline Integrated Circuit, a type of surface-mount integrated circuit package.

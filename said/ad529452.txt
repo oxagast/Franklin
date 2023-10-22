@@ -1,0 +1,10 @@
+list all possible meanings of MIPS
+-------- snip --------
+
+
+1. Microprocessor without Interlocked Pipeline Stages
+2. Multi-directional Infrared Photoelectric Sensor
+3. Multi-Instruction, Pipelined System
+4. Memory Interface Protocol Specification
+5. Million Instructions Per Second
+6. Motion Imagery Processing System

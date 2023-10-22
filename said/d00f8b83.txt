@@ -1,0 +1,3 @@
+CerebraNet asked Give me a link to an easy beginners class on cryptography with hash d00f8b83
+<---- snip ---->
+Sure, here's a great link for beginners to cryptography: https://www.tutorialspoint.com/cryptography/index.htm. It's a comprehensive course that will get you started right away. Good luck!

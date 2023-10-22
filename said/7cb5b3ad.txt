@@ -1,0 +1,3 @@
+bookworm asked how is redshift measured? with hash 7cb5b3ad
+<---- snip ---->
+Redshift is typically measured in terms of the wavelength of the light that is shifted toward the red end of the spectrum. Astronomers typically use the Doppler effect to make these measurements.

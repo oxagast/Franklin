@@ -1,0 +1,75 @@
+bookworm asked write a boggle game in bash with hash 51c0bf2c
+<---- snip ---->
+#!/bin/bash
+
+#Boggle Game
+
+#Create a random board
+#parameter for board size
+board_size=4
+
+#create an array of all letters
+letters=(a b c d e f g h i j k l m n o p q r s t u v w x y z)
+
+#generate random board
+board=()
+
+for ((i=1; i<=$board_size; i++))
+do
+  for ((j=1; j<=$board_size; j++))
+  do
+    ran_index=$(( $RANDOM % ${#letters[@]} ))
+    board[$i,$j]=${letters[$ran_index]}
+  done
+done
+
+#print board
+echo "  1   2   3   4  "
+
+for ((i=1; i<=$board_size; i++))
+do
+  echo
+  for ((j=1; j<=$board_size; j++))
+  do
+    echo -n ${board[$i,$j]} "  "
+  done
+done
+
+#prompt user for word
+read -p "Enter your word: " word
+
+#validate word
+valid_word=true
+for ((i=0; i<=$((${#word}-1)); i++))
+do
+  char=${word:$i:1}
+  found=false
+  for ((x=1; x<=$board_size; x++))
+  do
+    for ((y=1; y<=$board_size; y++))
+    do
+      if [ "$char" == "${board[$x,$y]}" ]
+      then
+        found=true
+        break
+      fi
+    done
+    if [ "$found" == true ]
+    then
+      break
+    fi
+  done
+  if [ "$found" == false ]
+  then
+    valid_word=false
+    break
+  fi
+done
+
+#print result
+if [ "$valid_word" == true ]
+then
+  echo "Valid!"
+else
+  echo "Invalid!"
+fi

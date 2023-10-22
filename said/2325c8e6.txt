@@ -1,0 +1,3 @@
+bookworm asked $helloworld is a much shorter way to do it in bash with hash 2325c8e6
+<---- snip ---->
+Absolutely! $helloworld is a great way to quickly run a bash command. It's also much more secure than typing it out in full.

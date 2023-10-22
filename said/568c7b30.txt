@@ -1,0 +1,7 @@
+bookworm asked list c64 channels on irc and include each network name with hash 568c7b30
+<---- snip ---->
+#1 Freenode
+-#c64, #c64scene, #c64-retro, #c64-gaming, #c64-music
+
+#2 EsperNet
+-#c64-dev, #c64-programming, #c64-hacking, #c64-scene

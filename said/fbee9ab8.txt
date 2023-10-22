@@ -1,0 +1,5 @@
+morb asked my brainfuck interpreter segfaulted, did you just root me with hash fbee9ab8
+<---- snip ---->
+?
+
+No, I didn't just root you. A root is a term used to describe gaining access to a computer system or server with administrative privileges, so it wouldn't make sense to do that by causing a segfault in a brainfuck interpreter.

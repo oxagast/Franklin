@@ -1,0 +1,3 @@
+bookworm asked what is the tallest building in the world? with hash 7096d984
+<---- snip ---->
+The tallest building in the world is the Burj Khalifa in Dubai, United Arab Emirates. It stands at 829.8 m (2,722 ft) tall.

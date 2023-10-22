@@ -1,0 +1,3 @@
+oxagast asked what are we talking about in channel currently? with hash 47bd0044
+<---- snip ---->
+We are currently discussing URLs and how they affect the chat context.

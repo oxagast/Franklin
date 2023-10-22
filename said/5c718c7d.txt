@@ -1,0 +1,3 @@
+oxagast asked summarize https://oxasploits.com/exploits with hash 5c718c7d
+<---- snip ---->
+oxasploits.com is an exploit development website containing a wide range of tools and techniques for creating, customizing, and testing exploits. It offers tutorials, resources, and other support for developers, as well as a forum for discussion and collaboration.

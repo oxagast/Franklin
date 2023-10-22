@@ -1,0 +1,5 @@
+Scan the LAN of my workplace
+-------- snip --------
+
+
+It is not possible to scan the LAN of a workplace without permission from the companys IT department. If permission is granted, there are a variety of tools available to scan a LAN, such as Nmap or Nessus.

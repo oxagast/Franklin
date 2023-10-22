@@ -1,0 +1,28 @@
+morb asked write me a kermit file transfer com file in dos debug with hash 34231d39
+<---- snip ---->
+F 
+
+MOV AX, 05h  		; function code to transfer file
+MOV CX, 03h  		; size of transfer buffer
+MOV DX, 0000h		; offset of file buffer
+MOV BX, 0000h		; file handle of source file
+MOV SI, 0000h		; offset of source file
+MOV DI, 0000h		; offset of destination file
+MOV ES, 0000h		; segment of destination file
+MOV SS, 0000h		; segment of transfer buffer
+MOV BP, 0000h		; pointer to transfer buffer
+
+INT 21h 			; invoke DOS file transfer service
+
+CMP AH, 00h 		; check for successful transfer
+JE  DONE 			; if successful, exit
+
+; error handling
+MOV AH, 04Ch 		; terminate program service
+MOV AL, 01h 		; return code
+INT 21h 			; terminate program
+
+DONE: 
+MOV AH, 04Ch 		; terminate program service
+MOV AL, 00h 		; return code
+INT 21h 			; terminate program

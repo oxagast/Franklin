@@ -1,0 +1,10 @@
+bookworm asked What are the minimum requirements to run chatgpt on a standalone rig? with hash d45b0570
+<---- snip ---->
+The minimum requirements to run chatGPT on a standalone rig are: 
+
+1. A computer with at least 8GB RAM 
+2. A GPU with 4GB of VRAM 
+3. Python 3.6 or higher 
+4. An internet connection 
+5. A webcam and microphone (optional, but recommended) 
+6. The chatGPT software installed and set up correctly.

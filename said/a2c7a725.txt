@@ -1,0 +1,3 @@
+morb asked I have thirty one flavors and sell you one storefront, how many flavors do I have left? with hash a2c7a725
+<---- snip ---->
+You have 30 flavors left!

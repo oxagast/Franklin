@@ -1,0 +1,5 @@
+does a processor get hot
+-------- snip --------
+
+
+Yes, processors can get very hot when running applications or running at a high frequency. To prevent overheating, many processors have built-in cooling systems such as heat sinks and fans that help to dissipate the heat.

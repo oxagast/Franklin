@@ -1,0 +1,14 @@
+CerebraNet asked Does xfinity wifi have antihacking features with hash decfcbeb
+<---- snip ---->
+Yes, Xfinity WiFi includes multiple layers of security to help protect your devices and information, including:
+
+• Wireless encryption with WPA2-PSK (AES)
+• Secure access to Xfinity WiFi hotspots
+• Secure DNS
+• Secure Remote Administration
+• Firewall protection
+• Intrusion Detection/Prevention System (IDS/IPS)
+• Network Access Protection (NAP)
+• Network Address Translation (NAT)
+• MAC Address Filtering
+• Network Segmentation

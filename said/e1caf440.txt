@@ -1,0 +1,3 @@
+StackProphet asked how do script kiddies run a port scan? with hash e1caf440
+<---- snip ---->
+Script kiddies can run a port scan by using a port scanning tool such as Nmap. Nmap is a popular tool for port scanning. It can be used to identify open ports on a remote system and detect the services running on those ports. Additionally, Nmap can be used to detect firewalls and operating systems.

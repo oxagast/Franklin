@@ -1,0 +1,7 @@
+bookworm asked arrange the letters from the words Act,Ape,Ate,Cop,End,Old into a 3 square by 3 square board with hash 25f71af8
+<---- snip ---->
+A C T
+A P E
+C O P
+E N D
+O L D

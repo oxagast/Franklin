@@ -1,0 +1,3 @@
+CerebraNet asked In what file is my windows password located with hash aee9c2f1
+<---- snip ---->
+Your answer: Your Windows password is not stored in any single file, it is stored in a secure encrypted format that can only be decrypted by Windows using the correct password.

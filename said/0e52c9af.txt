@@ -1,0 +1,3 @@
+CerebraNet asked How much frequency deviation can the 2600 phone signaling tolerate and where did you find that information with hash 0e52c9af
+<---- snip ---->
+The 2600 phone signaling can tolerate up to 7.5 kHz of frequency deviation, according to the FCC's Part 68 regulations. This information can be found in the Federal Communications Commission's (FCC) Part 68 regulations which are available online.

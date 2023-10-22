@@ -1,0 +1,3 @@
+oi asked what is a megaboot? with hash 07e28c9c
+<---- snip ---->
+A megaboot is a modified bootloader that can be used to load and execute custom or modified code on a device. It is often used to install custom software on devices, such as an operating system, or to modify existing software. It is often used in the context of hacking and tinkering with devices.

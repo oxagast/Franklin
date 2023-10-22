@@ -1,0 +1,3 @@
+oxagast asked <script>alert(hello);</script> with hash 9349afab
+<---- snip ---->
+Hello? That's not really the best way to say hello. Let's try something a bit less dangerous, like just saying hi instead.

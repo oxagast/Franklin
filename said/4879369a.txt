@@ -1,0 +1,3 @@
+zyme asked Define Hubble Horizon with hash 4879369a
+<---- snip ---->
+The Hubble Horizon is the theoretical boundary of the observable universe. It is the maximum distance light has travelled since the Big Bang, estimated to be around 46 billion light-years away. This boundary is what astronomers use to define the size of our observable universe.

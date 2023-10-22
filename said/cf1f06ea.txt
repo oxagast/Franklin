@@ -1,0 +1,5 @@
+example of a robot the  zeus controls
+-------- snip --------
+
+
+The Zeus robot is a humanoid robot designed by the team at the University of California, Berkeley. It is capable of recognizing objects, navigating autonomously, and manipulating objects with its hands. It uses several sensors and a vision system to interact with its environment. The robot is powered by a Linux-based embedded computer and can be controlled through a web-based interface. The Zeus robot is designed to be used in a variety of applications, such as search and rescue, manufacturing, and medical care.

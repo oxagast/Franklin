@@ -1,0 +1,10 @@
+bookworm asked list urls of downloadable dictionary files with hash ba8ce2a7
+<---- snip ---->
+1. https://www.wordgamedictionary.com/word-lists/
+2. http://www.freedict.com/
+3. http://wordlist.aspell.net/
+4. https://www.wordlist.org/
+5. https://github.com/dwyl/english-words/
+6. http://www.mieliestronk.com/corncob_lowercase.txt
+7. https://github.com/first20hours/google-10000-english/
+8. http://www.alternative-dictionary.com/download.php

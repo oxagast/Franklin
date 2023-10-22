@@ -1,0 +1,3 @@
+CerebraNet asked Are any surge protection devices rated for 765,000 volts with hash d9973efc
+<---- snip ---->
+No, surge protection devices are not typically rated for 765,000 volts. The highest voltage ratings for surge protection devices are typically around 600 volts.

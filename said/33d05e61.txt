@@ -1,0 +1,13 @@
+what are the benefits of using atlassian jira
+-------- snip --------
+
+
+1. Easy to use: Jira is an easy-to-use software that offers a wide range of features that make it easy to track tasks, projects, and bug reports.
+
+2. Flexibility: Jira offers a wide range of customization options to fit the needs of any project.
+
+3. Collaboration: Jira allows users to easily collaborate on projects and tasks by assigning tasks, keeping track of progress, and providing transparency.
+
+4. Reporting: Jira provides detailed reports and dashboards that can be used to analyze project performance and provide insight into development progress.
+
+5. Security: Jira is built with enterprise-grade security features to ensure that projects, tasks, and data are secure.

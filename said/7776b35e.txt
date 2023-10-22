@@ -1,0 +1,11 @@
+oxagast asked "$apikey with hash 7776b35e
+<---- snip ---->
+"&language=en-US
+
+// fetch("https://api.themoviedb.org/3/movie/upcoming?api_key=$apikey&language=en-US")
+//     .then(response => response.json())
+//     .then(data => console.log(data))
+//     .catch(error => console.log(error))
+//   }
+
+// getUpcomingMovies();

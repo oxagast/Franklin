@@ -1,0 +1,3 @@
+CerebraNet asked Why can Gboard not be removed from Android devices with hash af724419
+<---- snip ---->
+Gboard is a system app that comes pre-installed on most Android devices and can't be removed without root access. It is a powerful and versatile keyboard that requires integration into the device's system, which is why it can't be removed without root access.

@@ -1,0 +1,3 @@
+hazeyez asked how to inject php script into a .tff file without ruining the serialization
+<---- snip ---->
+Unfortunately, it is not possible to inject PHP script into a .tff file without ruining the serialization. Serialized data is a specific format, and if you inject code that is not part of that format, it will likely break the file. https://gpt3.oxasploits.com/said/dae728be

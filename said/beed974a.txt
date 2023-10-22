@@ -1,0 +1,21 @@
+bookworm asked list table 100 words for love in different languages - all small letters, convert letters to UTF-8, no spaces, rows ending in linefeed  format language:word with hash beed974a
+<---- snip ---->
+es:amor
+de:liebe
+fr:amour
+it:amore
+pt:amor
+nl:liefde
+cs:láska
+la:amor
+pl:miłość
+sv:kärlek
+el:αγάπη
+ru:любовь
+en:love
+hu:szerelem
+ja:愛
+ar:حب
+zh:爱
+ko:사랑
+he:אהבה

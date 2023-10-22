@@ -1,0 +1,3 @@
+bookworm asked 40,208,000,000,000/700,000 ? with hash 13d02960
+<---- snip ---->
+That's a lot of numbers! What are you trying to figure out?

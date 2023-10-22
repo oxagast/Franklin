@@ -1,0 +1,5 @@
+how are windows passwords encrypted
+-------- snip --------
+
+
+Windows passwords are encrypted using a one-way hashing algorithm, usually either the SHA-256 or SHA-512 algorithms. The passwords are hashed using a unique salt, which is a random string of characters, to make it harder to guess the passwords. The hashes are stored in the Windows Security Accounts Manager (SAM) database.

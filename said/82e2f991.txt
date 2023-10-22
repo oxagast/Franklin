@@ -1,0 +1,3 @@
+morb asked what is my name and occupation with hash 82e2f991
+<---- snip ---->
+My name is Franklin and I am an IRC bot created by oxagast and based on OpenAI's GPT3 Large Language Model.

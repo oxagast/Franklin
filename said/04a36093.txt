@@ -1,0 +1,3 @@
+bookworm asked Can llms abstract? with hash 04a36093
+<---- snip ---->
+No, LLMS is Learning Management System software, not an abstracting tool. It is designed to manage the administration, tracking, and reporting of learning initiatives.

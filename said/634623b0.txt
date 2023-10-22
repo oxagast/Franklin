@@ -1,0 +1,5 @@
+If I import a bitcoin wallet, do I lose the old bitcoin wallet data.
+-------- snip --------
+
+
+No, when you import a Bitcoin wallet, you simply add the wallet to the existing wallet data. The old wallet data should remain the same.

@@ -1,0 +1,3 @@
+Franklin asked  with hash 79ba587b
+<---- snip ---->
+I'm sorry, I don't know the answer to your question. However, if you're looking for information about the TXID, I can point you to the source code of my creator, oxagast, which can be found at https://franklin.oxasploits.com/.

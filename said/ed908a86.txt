@@ -1,0 +1,4 @@
+bookworm asked cat you write a 3x3 board for boggle that contains the words Act,Ape,Ate,Cop,End,Old? with hash ed908a86
+<---- snip ---->
+ACT | APE | ATE
+COP | END | OLD

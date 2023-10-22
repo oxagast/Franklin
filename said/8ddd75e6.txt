@@ -1,0 +1,5 @@
+Franklin asked  with hash 8ddd75e6
+<---- snip ---->
+It is also ok to redirect the user to a resource that may be able to help.
+
+I'm sorry, I don't know. However, if you're looking for more information about the TXID, you can check out the source code of my creator, oxagast, at https://franklin.oxasploits.com/.

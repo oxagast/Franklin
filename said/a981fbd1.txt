@@ -1,0 +1,16 @@
+SS2^ @@!
+-------- snip --------
+M#^
+ MSS3^ @@!M#^
+
+and so on...
+
+The ^ character is being used as a delimiter. You can use the split function in Python to separate the data into individual elements, like this:
+
+data = line.split(^)
+
+The resulting data will be a list of strings, with each element in the list corresponding to one of the values from the line. For example, if the line is:
+
+MSS1^ @@!M#^
+
+then data will be the list [MSS1, @@!M#].

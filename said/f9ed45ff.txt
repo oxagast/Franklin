@@ -1,0 +1,16 @@
+morb asked write a function which is a monad of gonads and strife with hash f9ed45ff
+<---- snip ---->
+const gonadsAndStrive = () => {
+  return new Promise((resolve, reject) => {
+    const results = {};
+    try {
+      // Do something here
+      results.success = true;
+      resolve(results);
+    } catch (err) {
+      // Handle errors here
+      results.success = false;
+      reject(err);
+    }
+  });
+};

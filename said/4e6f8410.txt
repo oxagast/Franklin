@@ -1,0 +1,3 @@
+oxagast asked i think your wide character in subroutine entry error is fixed
+<---- snip ---->
+Yes, the wide character in subroutine entry error should have been fixed. https://gpt3.oxasploits.com/said/4e6f8410

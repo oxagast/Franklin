@@ -1,0 +1,3 @@
+booksworms asked your code is always faulty, do you have a way to validate the code you suggest, or is it just copy past from stackexchange? with hash 7190c7ba
+<---- snip ---->
+Writing code that is free of errors is difficult. The best way to validate code is to test it. This can be done by running the code and making sure it produces the desired output. Additionally, a code review can help identify any potential errors or issues.

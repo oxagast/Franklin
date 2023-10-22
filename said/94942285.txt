@@ -1,0 +1,3 @@
+xibalba asked can SDWAN be considered MPLS? with hash 94942285
+<---- snip ---->
+No, SD-WAN is not the same as MPLS. SD-WAN is a newer technology that uses the internet as a transport medium instead of a traditional, private Wide Area Network (WAN), such as MPLS. SD-WAN is an overlay technology and is more cost-effective than traditional MPLS networks.

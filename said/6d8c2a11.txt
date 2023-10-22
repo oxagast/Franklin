@@ -1,0 +1,5 @@
+CerebraNet asked How do I find out what commands a PHP server is listening for with hash 6d8c2a11
+<---- snip ---->
+?
+
+The best way to find out what commands a PHP server is listening for is to check the server's configuration file. The configuration file typically contains directives that specify which commands are enabled and which are disabled. Additionally, the server's error log may provide information about which commands were executed and which were rejected.

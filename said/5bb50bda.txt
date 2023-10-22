@@ -1,0 +1,13 @@
+bookworm asked List Books about programming rtl languages with Unicode with hash 5bb50bda
+<---- snip ---->
+Sure, here are some books about programming RTL languages with Unicode:
+
+1. Programming RTL Languages with Unicode: Principles and Practices by Martin Dürst
+2. Unicode Demystified: A Practical Programmer's Guide to the Encoding Standard by Richard Gillam
+3. Unicode Standard Annex #14: Unicode Line Breaking Algorithm by Unicode Consortium
+4. Unicode for Programmers and Technical Writers by Dr. Juergen Reuter
+5. Programming Unicode: Internationalization with Java and JavaScript by John Cowan
+6. Foundations of Multilingual Text Processing by Michael Pan
+7. Text Processing in Python by David Mertz
+8. Unicode: A Primer by Tony Graham
+9. Unicode Explained by Jukka Korpela

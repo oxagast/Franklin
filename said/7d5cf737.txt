@@ -1,0 +1,5 @@
+what is a hive file
+-------- snip --------
+
+
+Hive files are data files stored within a Hadoop cluster that are used by Apache Hive to store structured data. Hive files can be stored in either the Apache Hadoop Distributed File System (HDFS) or in the local file system of the machine running the Apache Hive software.

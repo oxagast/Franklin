@@ -1,0 +1,7 @@
+difference between BridgedAdapter and NAT in network settings of virtualbox?
+-------- snip --------
+
+
+A Bridged Adapter in VirtualBox allows a virtual machine to act as a real computer in a network. The virtual machine can communicate with other computers on the network as if it were a physical computer on the network.
+
+NAT (Network Address Translation) in VirtualBox enables a virtual machine to use the host machines IP address for communication with external networks. This allows the virtual machine to access the Internet, but it does not allow other machines on the same network to communicate with it.

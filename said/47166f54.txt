@@ -1,0 +1,3 @@
+morb asked what"s the least expensive way to launch a satellite into orbit with hash 47166f54
+<---- snip ---->
+The least expensive way to launch a satellite into orbit is to use a rideshare service, which allows multiple payloads to be launched on the same rocket. This reduces the cost of launch for each satellite, as the launch provider divides the cost of the rocket among the multiple payloads. In addition, some launch providers offer discounts for small satellites, further reducing the cost.

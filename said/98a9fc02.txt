@@ -1,0 +1,3 @@
+oxagast asked ping google.com with hash 98a9fc02
+<---- snip ---->
+To access Google, open your web browser and type in "google.com" into the address bar. Press enter to be taken to the Google homepage.

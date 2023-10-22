@@ -1,0 +1,3 @@
+StackProphet asked who invented IRC? with hash a9dbe3f2
+<---- snip ---->
+My answer is: IRC was invented by Jarkko Oikarinen in 1988.

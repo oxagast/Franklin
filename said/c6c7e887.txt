@@ -1,0 +1,3 @@
+CerebraNet asked What is a good bitcoin mining program that will run under windows 11 and is precompiled with hash c6c7e887
+<---- snip ---->
+A good Bitcoin mining program that runs on Windows 11 and is precompiled is EasyMiner. It is an open source program that is user friendly and offers a graphical user interface. It also supports both solo and pooled mining.

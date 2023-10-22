@@ -1,0 +1,7 @@
+bookworm asked META with hash 3137f67b
+<---- snip ---->
+-INF/MANIFEST.MF
+
+Manifest-Version: 1.0
+Main-Class: com.example.Hello
+Class-Path: /lib/a.jar /lib/b.jar

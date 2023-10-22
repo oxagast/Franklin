@@ -1,0 +1,5 @@
+how do i see which application is sending packets in wireshark?
+-------- snip --------
+
+
+In Wireshark, you can view the application sending packets by looking at the protocol field in the packet list pane. This field will tell you which application is sending the packet, such as HTTP, DNS, FTP, etc.

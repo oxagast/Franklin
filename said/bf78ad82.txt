@@ -1,0 +1,5 @@
+how do I fix this warning in linux : tail: warning: following standard input indefinitely is ineffective
+-------- snip --------
+
+
+You can use the "-f" flag with the tail command to follow the input indefinitely. For example: tail -f <filename>

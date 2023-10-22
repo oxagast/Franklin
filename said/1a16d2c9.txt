@@ -1,0 +1,5 @@
+oxagast asked what is this character \" with hash 1a16d2c9
+<---- snip ---->
+ "
+
+This character is a space, often referred to as a "whitespace character". It is used to create spacing between words, sentences, and other elements of written language.

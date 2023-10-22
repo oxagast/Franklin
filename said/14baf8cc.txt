@@ -1,0 +1,5 @@
+can an ARP spoofing attack succeed if the spoofed IP is the in the ARP cache of the target machine?
+-------- snip --------
+
+
+Yes, an ARP spoofing attack can succeed if the spoofed IP is in the ARP cache of the target machine. This is because the target machine will believe that the spoofed IP address is associated with the attackers MAC address. As a result, any traffic destined for the spoofed IP address will be sent to the attacker instead.

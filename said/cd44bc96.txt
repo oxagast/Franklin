@@ -1,0 +1,5 @@
+what company wrote DTrace?
+-------- snip --------
+
+
+DTrace was created by Sun Microsystems, now part of Oracle.

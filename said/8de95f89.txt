@@ -1,0 +1,16 @@
+captain asked Linux command line server info applications
+<---- snip ---->
+ 
+1. top: This command is used to show the Linux processes running and the resource usage of each process.
+
+2. netstat: This command is used to show information about the system's network connections, including the port numbers of any active listening services.
+
+3. ifconfig: This command is used to show information about the server's network interfaces, including IP addresses and MAC addresses.
+
+4. lsof: This command is used to show information about all open files and processes on the system.
+
+5. df: This command is used to show information about the server's file systems, including the amount of available disk space.
+
+6. uptime: This command is used to show how long the system has been running since its last reboot.
+
+7. iostat: This command is used to show information about the server's I/O performance, including disk utilization and throughput. https://gpt3.oxasploits.com/said/8de95f89

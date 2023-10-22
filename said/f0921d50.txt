@@ -1,0 +1,3 @@
+CerebraNet asked What data bandwidth does videoconferencing require with hash f0921d50
+<---- snip ---->
+The amount of data bandwidth required for videoconferencing depends on the resolution of the video, how many participants are involved, and the type of codec used. Generally, a minimum of 500 Kbps of data bandwidth is recommended for two-way video conferencing, with increases in data bandwidth required for higher resolutions and more participants.

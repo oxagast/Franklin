@@ -1,0 +1,21 @@
+bookworm asked list of eponymous laws with hash 404f377e
+<---- snip ---->
+The following is a list of eponymous laws:
+
+* Ampere's Law
+* Arrhenius Equation
+* Avogadro's Law
+* Boyle's Law
+* Carnot's Theorem
+* Coulomb's Law
+* Dalton's Law of Partial Pressures 
+* Fick's Law of Diffusion
+* Fourier's Law of Heat Conduction
+* Hooke's Law
+* Kirchhoff's Laws
+* Ohm's Law
+* Pascal's Law
+* Planck's Law
+* Stefan–Boltzmann Law
+* Torricelli's Law
+* Watt's Law

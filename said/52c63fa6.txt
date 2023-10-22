@@ -1,0 +1,5 @@
+CerebraNet asked Are there any IRC client programs that run under linux and display color emojis with hash 52c63fa6
+<---- snip ---->
+?
+
+Yes, there are IRC client programs for Linux that can display color emojis. Some of the most popular IRC clients for Linux include HexChat, Weechat, KVIrc, and irssi. All of these programs support emoji display, and many of them also support color emoji display.

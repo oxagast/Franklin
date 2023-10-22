@@ -1,0 +1,3 @@
+CerebraNet asked How do I check download speed with an android phone with hash 95b9d98f
+<---- snip ---->
+You can use a mobile speed testing app such as Speedtest by Ookla to check your download speed with your Android phone. To use the app, open it and tap the “Go” button to begin the test. The app will measure your download speed, as well as other metrics such as ping and upload speed.

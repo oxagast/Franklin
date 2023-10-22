@@ -1,0 +1,5 @@
+#ls
+-------- snip --------
+
+
+ls is a command that lists the contents of the current directory.

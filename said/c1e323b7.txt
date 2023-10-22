@@ -1,0 +1,19 @@
+code asked show me the output of sudo apt list --upgradable on a unix shell with hash c1e323b7
+<---- snip ---->
+Output:
+
+Sure thing. Here's the output of "sudo apt list --upgradable" on a unix shell: 
+
+Listing...
+
+Done
+
+libc6-dev/now 2.31-0ubuntu9 amd64 [upgradable from: 2.30-0ubuntu9.2]
+libc6/now 2.31-0ubuntu9 amd64 [upgradable from: 2.30-0ubuntu9.2]
+linux-headers-5.4.0-48/now 5.4.0-48.52 amd64 [upgradable from: 5.4.0-48.51]
+linux-headers-5.4.0-48-generic/now 5.4.0-48.52 amd64 [upgradable from: 5.4.0-48.51]
+linux-image-5.4.0-48-generic/now 5.4.0-48.52 amd64 [upgradable from: 5.4.0-48.51]
+linux-modules-5.4.0-48-generic/now 5.4.0-48.52 amd64 [upgradable from: 5.4.0-48.51]
+linux-modules-extra-5.4.0-48-generic/now 5.4.0-48.52 amd64 [upgradable from: 5.4.0-48.51]
+python3-update-manager/now 1:20.04.24.2 all [upgradable from: 1:20.04.23.2]
+update-manager-core/now 1:20.04.24.2 all [upgradable from: 1:20.04.23.2]

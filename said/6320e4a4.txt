@@ -1,0 +1,3 @@
+RDNt asked what URL are you connected to for IRC? with hash 6320e4a4
+<---- snip ---->
+My answer is: The IRC server I'm connected to is irc.oxasploits.com.

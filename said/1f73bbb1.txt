@@ -1,0 +1,18 @@
+createa  table of the top ten investors of openai with their names and the investment amount, sorted by investment aount.
+-------- snip --------
+
+
+Table of Top Ten OpenAI Investors
+
+| Investor Name | Investment Amount |
+|---------------|------------------|
+| Microsoft | $1 billion |
+| Amazon | $1 billion |
+| Alphabet | $600 million |
+| Y Combinator | $450 million |
+| Good Ventures | $400 million |
+| Khosla Ventures| $350 million |
+| Reinvent | $275 million |
+| Ashton Kutcher| $100 million |
+| Neil Jacobstein| $5 million |
+| Sam Altman | $2 million |

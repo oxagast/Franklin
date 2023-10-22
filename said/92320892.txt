@@ -1,0 +1,3 @@
+bookworm asked quote from Larry Wall about Perl with hash 92320892
+<---- snip ---->
+Larry Wall once said, "Perl is a language optimized for scanning arbitrary text files, extracting information from those text files, and printing reports based on that information."

@@ -1,0 +1,3 @@
+bookworm asked at what percent of infected population is it considered a pandemic with hash e7ceac1f
+<---- snip ---->
+It is difficult to define a specific percentage of infected population that would constitute a pandemic because different factors such as geographic spread, severity of illness, and available public health resources will affect the definition. Generally, a pandemic is considered to have occurred when there is widespread transmission of a disease across a large region or even globally.

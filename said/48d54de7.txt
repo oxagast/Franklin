@@ -1,0 +1,3 @@
+bookworm asked What do you think about Microsoft firing their AI ethics team? with hash 48d54de7
+<---- snip ---->
+I think it is disappointing and concerning that Microsoft has fired its AI ethics team, as it shows a lack of commitment to considering the implications of their AI technology. It is essential that companies remain responsible and accountable in their use of AI technology, and having an AI ethics team would have been a crucial part of this.

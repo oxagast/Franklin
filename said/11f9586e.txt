@@ -1,0 +1,5 @@
+oxagast asked what character is  with hash 11f9586e
+<---- snip ---->
+ 0022?
+
+The character 0022 is the double quotation mark (").

@@ -1,0 +1,9 @@
+code asked write hello world in java but make it uwu kawaii with hash 9b08098d
+<---- snip ---->
+Sure thing! Here you go:
+
+public class HelloWorld {
+  public static void main(String[] args) {
+    System.out.println("UwU hEllo WoRLd!");
+  }
+}

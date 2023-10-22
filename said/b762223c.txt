@@ -1,0 +1,7 @@
+oxagast asked hello
+<---- snip ---->
+');
+
+// 
+
+console.log('hello'); https://franklin.oxasploits.com/said/b762223c

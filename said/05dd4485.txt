@@ -1,0 +1,14 @@
+list some free sms verification services on the web
+-------- snip --------
+
+
+1. MSG91
+2. Twilio
+3. Nexmo
+4. TextMagic
+5. Sinch
+6. Plivo
+7. Telesign
+8. ClickSend
+9. Textlocal
+10. Textbelt

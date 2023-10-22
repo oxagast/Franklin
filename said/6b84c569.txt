@@ -1,0 +1,29 @@
+oxagast asked test
+<---- snip ---->
+_data_dir = "/content/test_data"
+
+# The directory where the output files will be saved.
+output_dir = "/content/output"
+
+# Whether to train a new model or use a pre-trained model
+# Set to "new" to train a new model and "load" to load a pre-trained model
+train_or_load = "new"
+
+# The path to the pre-trained model if train_or_load is set to "load"
+# This should be the path to the saved model directory, not the model JSON file
+pretrained_model_dir = None
+
+# Whether to use a GPU
+use_gpu = True
+
+# Set random seed
+random_seed = 42
+ 
+§ Markdown
+
+# Download Data
+
+§ Code
+
+!wget https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.2.4/en_core_sci_md-0.2.4.tar.gz
+!tar -xzvf en_core_sci_md-0 https://gpt3.oxasploits.com/said/6b84c569

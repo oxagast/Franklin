@@ -1,0 +1,3 @@
+Ryujin asked quote $topic with hash 015f90b7
+<---- snip ---->
+My response: "It's not quite that easy, Ryujin. If you want to set the topic, use the command /topic followed by the topic you'd like to set."

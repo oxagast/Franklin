@@ -1,0 +1,3 @@
+dclaw asked what"s the maximum abv of a beverage sold in the US State of Utah with hash 2eef4585
+<---- snip ---->
+The maximum ABV of a beverage sold in the US state of Utah is 4.0%.

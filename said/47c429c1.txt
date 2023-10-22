@@ -1,0 +1,3 @@
+what is an ata
+
+ATA (Advanced Technology Attachment or PATA) is a standard for the connection of storage devices such as hard drives, SSDs, and optical drives to a computers motherboard. The ATA standard uses a 40-pin connector and was developed to replace the older IDE (Integrated Drive Electronics) standard.

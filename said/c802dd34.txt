@@ -1,0 +1,3 @@
+RDNt asked what is the 12 tone analysis from sony? with hash c802dd34
+<---- snip ---->
+The 12-tone analysis from Sony is a system used to analyze and define musical tones. It was developed by the Sony Corporation in the 1970s and is based on the twelve-tone serialism of Arnold Schoenberg. This system is used in many musical applications, including digital audio workstations, music synthesizers, and even in some video games.

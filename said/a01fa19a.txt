@@ -1,0 +1,3 @@
+RDNt asked what is todays date? with hash a01fa19a
+<---- snip ---->
+Today's date is August 5, 2020.

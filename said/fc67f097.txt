@@ -1,0 +1,3 @@
+CerebraNet asked I know that binary 1 + 1 = 10 with hash fc67f097
+<---- snip ---->
+My response is: Binary 1 + 1 is always equal to 2. It looks like you may have been confused about the base of the numbers you were working with.

@@ -1,0 +1,5 @@
+go north
+-------- snip --------
+
+
+You are now in a wooded area. You see a path leading east and a path leading south.

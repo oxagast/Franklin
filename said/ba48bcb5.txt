@@ -1,0 +1,3 @@
+CerebraNet asked Where is code for a Discord bot stored with hash ba48bcb5
+<---- snip ---->
+Code for a Discord bot can be stored on a server of your choice. It can be hosted on a cloud platform like Google Cloud or Amazon Web Services, or on a dedicated server. It can also be stored locally on your own computer.

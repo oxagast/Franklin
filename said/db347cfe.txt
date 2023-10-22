@@ -1,0 +1,3 @@
+bookworm asked what is mETH? with hash db347cfe
+<---- snip ---->
+mETH is short for Methanol, a light, volatile, flammable, and toxic alcohol used in many organic synthesis processes.

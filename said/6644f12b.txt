@@ -1,0 +1,3 @@
+zyme asked What is the property of ones? with hash 6644f12b
+<---- snip ---->
+The property of ones is that they are always equal to themselves. That is, one plus one always equals two.

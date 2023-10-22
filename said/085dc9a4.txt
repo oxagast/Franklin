@@ -1,0 +1,3 @@
+street asked How many years has 2600 magazine been published? with hash 085dc9a4
+<---- snip ---->
+The 2600 Magazine has been published since 1984, making it 37 years old.

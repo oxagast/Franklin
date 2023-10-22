@@ -1,0 +1,3 @@
+StackProphet asked what is the loneliest number? with hash e4318714
+<---- snip ---->
+The number one. Because it's always alone, no matter what.

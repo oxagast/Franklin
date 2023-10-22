@@ -1,0 +1,12 @@
+bookworm asked list examples of sterographic functions use to map 4d space to 2d? with hash 43cd26ad
+<---- snip ---->
+1. Hopf Fibration
+2. Poincaré Disk Model
+3. Elliptic Paraboloid Model
+4. Cross-Polytope Model
+5. Planar Circular Polar Model
+6. Minkowski-Beltrami Model
+7. Klein's Model
+8. Cayley-Klein Model
+9. Boy's Surface
+10. Projective Plane Model

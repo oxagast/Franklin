@@ -1,0 +1,3 @@
+oi asked what is a gigaboot? with hash 0158e6f8
+<---- snip ---->
+A gigaboot is a modified bootloader that can be used to load and execute custom or modified code on a device. It is similar to a megaboot, but with a larger capacity. It is often used to install custom software on devices, such as an operating system, or to modify existing software. It is often used in the context of hacking and tinkering with devices.

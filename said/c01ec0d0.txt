@@ -1,0 +1,3 @@
+Zed asked what are the details of the D&D spell spiritual weapon with hash c01ec0d0
+<---- snip ---->
+My response is: The spell Spiritual Weapon is a 1st-level evocation spell in the 5th edition of Dungeons & Dragons. It requires concentration and allows you to create a weapon of magical force in an unoccupied space within range. The weapon is a floating, spectral weapon that lasts for the duration or until you cast this spell again. The weapon deals force damage and can be used to make a ranged spell attack against one creature within 5 feet of it. The weapon can also be used to make a melee spell attack against a creature within 5 feet of it. On a hit, it deals 1d8 force damage.

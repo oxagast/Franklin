@@ -1,0 +1,12 @@
+morb asked what are some of the most common archive compression types found on amiga bulletin board systems with hash 5c1dd465
+<---- snip ---->
+1. LhA
+2. LZX
+3. DMS
+4. ZIP
+5. ADF
+6. ADZ
+7. HQX
+8. RAR
+9. Arc
+10. ZOO

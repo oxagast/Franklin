@@ -1,0 +1,3 @@
+bookworm asked Who is the current president of France? with hash dd0a0443
+<---- snip ---->
+The current President of France is Emmanuel Macron.

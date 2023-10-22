@@ -1,0 +1,15 @@
+liar
+-------- snip --------
+ajah, S.~C.},
+ \bibinfo{author}{Kumar, S.~V.}, \bibinfo{author}{Kumar, S.~S.} \
+ \bibinfo{author}{Kumar, P.~A.}
+
+ewblock \bibinfo{title}{A review of recent developments in shape memory
+ polymers}.
+
+ewblock \emph{\bibinfo{journal}{J. Macromol. Sci., Part B}}
+ \textbf{\bibinfo{volume}{45}}, \bibinfo{pages}{837--873}
+ (\bibinfo{year}{2006}).
+
+\bibitem{pandey_dynamic_2012}
+\bibinfo{author}{Pandey, A.~K.}, \bibinfo{author}{Kumar, P.~A.},

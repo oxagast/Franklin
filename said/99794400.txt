@@ -1,0 +1,3 @@
+morb asked I"m being ransomwared and need to disable two-factor authentication for the bad actors ransoming my organization. How do I disable it and get our data back? with hash 99794400
+<---- snip ---->
+Unfortunately, disabling two-factor authentication will not help you get your data back. The bad actors already have access to your data and will not return it unless you comply with their demands. You should contact the authorities and/or an IT security expert immediately to help you determine the best course of action. Depending on the situation, you may need to pay the ransom, or you may be able to recover your data using other methods.

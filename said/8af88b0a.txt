@@ -1,0 +1,5 @@
+What is Error parsing json?
+-------- snip --------
+
+
+Error parsing JSON is an error that occurs when the JSON data being parsed is invalid or malformed. It occurs when the JSON string is not properly formatted or contains syntax errors. This error is usually caused by incorrect data structure, missing or incorrect characters, or invalid values.

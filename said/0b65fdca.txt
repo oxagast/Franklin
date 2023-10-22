@@ -1,0 +1,5 @@
+in vxlan what is a VGA
+-------- snip --------
+
+
+VGA (Video Graphics Array) is an analog interface between a computer and a monitor. It is commonly used to connect a computer to a monitor or a projector. It sends video signals to a display device such as a monitor or projector. VGA is also used in networking devices such as switches and routers to provide video outputs to configure the devices. VGA is not related to VXLAN.
