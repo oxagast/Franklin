@@ -14,12 +14,12 @@ use vars qw($VERSION %IRSSI);
 $VERSION = "1.3";
 %IRSSI = (
           authors     => 'oxagast',
-          contact     => 'marshall@oxagast.org',
+          contact     => 'oxagast@oxasploits.com',
           name        => 'franklin_helper',
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'May, 29th 2023',
+          changed     => 'October, 21st 2023',
 );
 
 Irssi::signal_add_last('message public', 'chncll');
