@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.16";
+$VERSION = "2.16.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -103,6 +103,7 @@ else { Irssi: print "Something went wrong with the API key..."; }
 my @chanlst;
 @chanlst[0] = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2]; 
 @chanlst[1] = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
+@chanlst[2] = @txidchans[6] . " " . @txidchans[7] . " " . @txidchans[8];
 my $apifirstp = substr($apikey, 0,  16);
 my $apilastp  = substr($apikey, 40, 49);
 Irssi::print "";
@@ -126,7 +127,12 @@ Irssi::print "  franklin_cpu_approx              (optional)            => $havec
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_txid_chans              (optional)            => @chanlst[0]";
+if (@txidchans[3]) {   # if this is defined then you know you need the next line for data
 Irssi::print "                                                            @chanlst[1]";
+}
+if (@txidchans[6]) {   # same as above
+Irssi::print "                                                            @chanlst[2]";
+}
 if ($hardlimit > 380) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
 }
