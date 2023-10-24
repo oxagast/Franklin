@@ -100,30 +100,32 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
 }
 else { Irssi: print "Something went wrong with the API key..."; }
 
-my $apifirstp = substr($apikey, 0,  9);
-my $apilastp  = substr($apikey, 45, 49);
+my  $chanlsta = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2]; 
+my  $chanlstb = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
+my $apifirstp = substr($apikey, 0,  16);
+my $apilastp  = substr($apikey, 40, 49);
 Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)  => $httploc";
-Irssi::print "  franklin_response_webserver_addr (mandatory)           => $webaddr";
+Irssi::print "  franklin_response_webserver_addr (mandatory)           => " . substr($webaddr, 8, 27) . "...";
 Irssi::print
   "  franklin_api_key                 (mandatory)           => $apifirstp...$apilastp";
-Irssi::print "  franklin_heartbeat_url           (optional)            => $hburl";
+Irssi::print "  franklin_heartbeat_url           (optional)            => " . substr($hburl, 8, 27) . "...";
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)  => $hardlimit";
 Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $tokenlimit";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
 Irssi::print
   "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox:1000";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
-Irssi::print "  franklin_server_info             (optional)            => $servinfo";
+Irssi::print "  franklin_server_info             (optional)            => " . substr($servinfo, 0, 27) . "...";
 Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
 Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
-Irssi::print "  franklin_txid_chans              (optional)            => "
-  . Irssi::settings_get_str('franklin_txid_chans');
+Irssi::print "  franklin_txid_chans              (optional)            => $chanlsta";
+Irssi::print "                                                            $chanlstb";
 
 
 sub untag {
@@ -184,12 +186,10 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
     ) {       # grab the link parts
     my $text_uri = "$1://$2$3";    # put the link back together
     Irssi::print "$text_uri";
-    my $cua = LWP::UserAgent->new(protocols_allowed => ['http', 'https'],
-                                  timeout           => 5,);
-    $cua->agent(
-'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
-    );                             # so we look like a real browser
-    $cua->max_size(4000);
+        my $cua = LWP::UserAgent->new(protocols_allowed => ['http', 'https'],
+                                  timeout           => 5,
+                                  agent             => 'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
+                                  max_size          => 4000); 
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
       my $page_body = untag(encode('utf-8', $cres->decoded_content()))
