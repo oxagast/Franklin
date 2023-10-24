@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.15";
+$VERSION = "2.16";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -100,8 +100,9 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
 }
 else { Irssi: print "Something went wrong with the API key..."; }
 
-my  $chanlsta = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2]; 
-my  $chanlstb = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
+my @chanlst;
+@chanlst[0] = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2]; 
+@chanlst[1] = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
 my $apifirstp = substr($apikey, 0,  16);
 my $apilastp  = substr($apikey, 40, 49);
 Irssi::print "";
@@ -124,9 +125,26 @@ Irssi::print "  franklin_google_gtag             (optional)            => $gtag"
 Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
-Irssi::print "  franklin_txid_chans              (optional)            => $chanlsta";
-Irssi::print "                                                            $chanlstb";
-
+Irssi::print "  franklin_txid_chans              (optional)            => @chanlst[0]";
+Irssi::print "                                                            @chanlst[1]";
+if ($hardlimit > 380) {
+  Irssi::print "Warn: Hard limit may spill over first line if set this high...";
+}
+if ($histlen >= 8) {
+  Irssi::print "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.";
+}
+if (length($servinfo) >= 200) {
+  Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
+}
+if ($asslevel >= 6.5) {
+  Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
+}
+if ($tokenlimit >= 1000) {
+  Irssi::print "Warn: The text-davinci-003 API will not like a token limit setting this large.";
+}
+if ((! $havecpu) || (! $havemem) || (! $havehdd) || (! $servinfo)) {
+  Irssi::print "Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
+}
 
 sub untag {
   local $_ = $_[0] || $_;
