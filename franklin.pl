@@ -101,7 +101,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
 else { Irssi: print "Something went wrong with the API key..."; }
 
 my @chanlst;
-@chanlst[0] = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2]; 
+@chanlst[0] = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2];
 @chanlst[1] = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
 @chanlst[2] = @txidchans[6] . " " . @txidchans[7] . " " . @txidchans[8];
 my $apifirstp = substr($apikey, 0,  16);
@@ -110,47 +110,59 @@ Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)  => $httploc";
-Irssi::print "  franklin_response_webserver_addr (mandatory)           => " . substr($webaddr, 8, 27) . "...";
+Irssi::print "  franklin_response_webserver_addr (mandatory)           => "
+  . substr($webaddr, 8, 27) . "...";
 Irssi::print
   "  franklin_api_key                 (mandatory)           => $apifirstp...$apilastp";
-Irssi::print "  franklin_heartbeat_url           (optional)            => " . substr($hburl, 8, 27) . "...";
+Irssi::print "  franklin_heartbeat_url           (optional)            => "
+  . substr($hburl, 8, 27) . "...";
 Irssi::print "  franklin_hard_limit              (mandatory, pre-set)  => $hardlimit";
 Irssi::print "  franklin_token_limit             (mandatory, pre-set)  => $tokenlimit";
 Irssi::print "  franklin_history_length          (mandatory, pre-set)  => $histlen";
 Irssi::print
   "  franklin_chatterbox_mode         (mandatory, pre-set)  => $chatterbox:1000";
 Irssi::print "  franklin_blocklist_file          (mandatory)           => $blockfn";
-Irssi::print "  franklin_server_info             (optional)            => " . substr($servinfo, 0, 27) . "...";
+Irssi::print "  franklin_server_info             (optional)            => "
+  . substr($servinfo, 0, 27) . "...";
 Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
 Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_txid_chans              (optional)            => @chanlst[0]";
-if (@txidchans[3]) {   # if this is defined then you know you need the next line for data
-Irssi::print "                                                            @chanlst[1]";
+
+if (@txidchans[3]) {  # if this is defined then you know you need the next line for data
+  Irssi::print
+    "                                                            @chanlst[1]";
 }
-if (@txidchans[6]) {   # same as above
-Irssi::print "                                                            @chanlst[2]";
+if (@txidchans[6]) {    # same as above
+  Irssi::print
+    "                                                            @chanlst[2]";
 }
 if ($hardlimit > 380) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
 }
 if ($histlen >= 8) {
-  Irssi::print "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.";
+  Irssi::print
+"Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.";
 }
 if (length($servinfo) >= 200) {
-  Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
+  Irssi::print
+"Warn: If server info is this long, the contextual prelude may fill before the user's question.";
 }
 if ($asslevel >= 6.5) {
-  Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
+  Irssi::print
+"Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
 }
 if ($tokenlimit >= 1000) {
-  Irssi::print "Warn: The text-davinci-003 API will not like a token limit setting this large.";
+  Irssi::print
+    "Warn: The text-davinci-003 API will not like a token limit setting this large.";
 }
-if ((! $havecpu) || (! $havemem) || (! $havehdd) || (! $servinfo)) {
-  Irssi::print "Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
+if ((!$havecpu) || (!$havemem) || (!$havehdd) || (!$servinfo)) {
+  Irssi::print
+"Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
 }
+
 
 sub untag {
   local $_ = $_[0] || $_;
@@ -210,10 +222,13 @@ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&
     ) {       # grab the link parts
     my $text_uri = "$1://$2$3";    # put the link back together
     Irssi::print "$text_uri";
-        my $cua = LWP::UserAgent->new(protocols_allowed => ['http', 'https'],
-                                  timeout           => 5,
-                                  agent             => 'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
-                                  max_size          => 4000); 
+    my $cua = LWP::UserAgent->new(
+      protocols_allowed => ['http', 'https'],
+      timeout           => 5,
+      agent =>
+'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
+      max_size => 4000
+    );
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
       my $page_body = untag(encode('utf-8', $cres->decoded_content()))
@@ -266,17 +281,20 @@ sub asshat {
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   $reqs++;
+
   #Irssi::print "$server, $nick, $channel";
-  my $retry  = 0;
-  my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );  # Set up the date for API req
-  my @days   = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
+  my $retry = 0;
+  my @months =
+    qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec ); # Set up the date for API req
+  my @days = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
   $year = "20" . substr($year, -2);
-  my $page    = pullpage($textcall);  # If we need to read a URL
+  my $page    = pullpage($textcall);                       # If we need to read a URL
   my $context = "";
 
   for my $usersays (0 .. scalar(@chat) - 1) {
-    $context = $context . $chat[$usersays];        # BVreak down the chat stack for the context to build req
+    $context = $context
+      . $chat[$usersays];    # BVreak down the chat stack for the context to build req
   }
   $context = substr($context, -450);    # we have to trim
   my $modstat;
@@ -332,8 +350,8 @@ sub callapi {
     my $ua    = LWP::UserAgent->new;
     $textcall = Irssi::strip_codes($textcall);
     $textcall =~ s/\"/\\\"/g;
-    my $askbuilt =                                   # Build the API request
-        "{\"model\": \"$model\",\"prompt\": \"$textcall\","
+    my $askbuilt =                     # Build the API request
+      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
       . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
       . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
       . "penalty\": 0}";
@@ -395,37 +413,42 @@ sub callapi {
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
           or Irssi::print "Couldn't open for writing.";
         binmode(SAIDHTML, "encoding(UTF-8)");
-        print SAIDHTML $fg_top  # write html
+        print SAIDHTML $fg_top    # write html
           . "<br><i>"
           . localtime()
           . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
           . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
           . $said_html
           . $fg_bottom;
-        close SAIDHTML;         # after writing html to file
+        close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
-          $server->command("query $nick");                             # If this is pm open win
-          $server->command("msg $nick $said_cut");                     # then pm
+          $server->command("query $nick");            # If this is pm open win
+          $server->command("msg $nick $said_cut");    # then pm
         }
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
-            $server->command("msg $channel $said_cut TXID:$hexfn");    # Send parsed API return to chan.
+            $server->command("msg $channel $said_cut TXID:$hexfn")
+              ;                                       # Send parsed API return to chan.
           }
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
-        push(@chat, "The user: $cmn said: $said_cut - in $channel ");  # The last thing said in channel is pushed onto stack here
-        if (scalar(@chat) >= $histlen) {                               # if the chat array is greater than max chat history, then
-          shift(@chat);  #                                             # shift the earlist back thing said off the array stack.
+        push(@chat, "The user: $cmn said: $said_cut - in $channel ")
+          ;    # The last thing said in channel is pushed onto stack here
+        if (scalar(@chat) >= $histlen)
+        {      # if the chat array is greater than max chat history, then
+          shift(@chat)
+            ; #                                             # shift the earlist back thing said off the array stack.
         }
         return 0;
       }
-      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002");  # Error out in chan if unknown
+      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002")
+        ;     # Error out in chan if unknown
       return 1;
     }
     else { return 1; }
@@ -440,9 +463,9 @@ sub falive {
       if ($isup eq 0) {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
-        $ua->post($uri);   #  Send post to alive worker on other server
+        $ua->post($uri);    #  Send post to alive worker on other server
       }
-      sleep 30;   # wait
+      sleep 30;             # wait
     }
   }
 }
@@ -507,9 +530,10 @@ sub checkcmsg {
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
-        if (int(rand(1000) - $chatterbox) eq 0) {        # Chatty level
-          $wrote = callapi($msg, $server, $nick, $channel, @chat);  # if chatterbox mode is on
-          $isup  = $wrote;
+        if (int(rand(1000) - $chatterbox) eq 0) {    # Chatty level
+          $wrote =
+            callapi($msg, $server, $nick, $channel, @chat);   # if chatterbox mode is on
+          $isup = $wrote;
           return $wrote;
         }
         $isup = 0;
@@ -539,8 +563,9 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      $wrote = callapi($textcall, $server, $nick, $channel, $type);   # this puls from the api for the pm
-      $isup  = $wrote;
+      $wrote = callapi($textcall, $server, $nick, $channel, $type)
+        ;                   # this puls from the api for the pm
+      $isup = $wrote;
     }
     else { return 1 }
   }
