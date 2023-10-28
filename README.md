@@ -1,5 +1,5 @@
 # Franklin
-![Logo](https://raw.githubusercontent.com/oxagast/Franklin/webpage/logo.png)
+<p align="center"><img src="https://raw.githubusercontent.com/oxagast/Franklin/webpage/logo.png" alt="Logo"></p>
 
 
 
