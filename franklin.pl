@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.16.1";
+$VERSION = "2.16.2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -265,7 +265,6 @@ sub asshat {
       $ua->default_header("Authorization" => "Bearer " . $apikey);
       my $res =
         $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-
       if ($res->is_success) {
         my $said = decode_json($res->decoded_content())->{choices}[0]{text};
         $said =~ m/(\d+)/;
@@ -365,8 +364,9 @@ sub callapi {
       ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
       ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
       ## so we use a json decoder and fix for utf8
+      #        Irssi::print Dumper(decode_json($res->decoded_content());
       my $said = decode_json($res->decoded_content())->{choices}[0]{text};
-      my $toks = decode_json($res->decoded_content())->{choices}[0]{total_tokens};
+      my $toks = decode_json($res->decoded_content())->{usage}{total_tokens};
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
@@ -510,11 +510,10 @@ sub checkcmsg {
       my $textcall = $1;                ## $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
-      $textcall =~ s/^reload$//i;
-      $textcall =~ s/^levelup$//i;
-      $textcall =~ s/^join #\w+$//i;
-      $textcall =~ s/^part #\w+$//i;
-      $textcall =~ s/^reload$//i;
+      $textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;
+      $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;
+      $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
+      $textcall =~ s/^reload$/You are currently being reloaded./i;
       Irssi::print "Franklin: $nick asked: $textcall";
 
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
