@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "2.16.2";
+$VERSION = "2.17.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -366,7 +366,8 @@ sub callapi {
       ## so we use a json decoder and fix for utf8
       #        Irssi::print Dumper(decode_json($res->decoded_content());
       my $said = decode_json($res->decoded_content())->{choices}[0]{text};
-      my $toks = decode_json($res->decoded_content())->{usage}{total_tokens};
+      my $ctoks = decode_json($res->decoded_content())->{usage}{completion_tokens};
+      my $ptoks = decode_json($res->decoded_content())->{usage}{prompt_tokens};
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
@@ -393,6 +394,7 @@ sub callapi {
           8
         );
         umask(0133);
+        my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
         open(SAID, '>', "$httploc$hexfn" . ".txt")
           or Irssi::print "Could not open txt file for writing.";
@@ -416,7 +418,10 @@ sub callapi {
         print SAIDHTML $fg_top    # write html
           . "<br><i>"
           . localtime()
-          . "<br>Tokens used: $toks<br>Avg cost: \$$cost<br>"
+          . "<br>Tokens used: $toks"
+          . "<br>Completion Tokens: $ctoks"
+          . "<br>Prompt Tokens: $ptoks"
+          . "<br>Avg cost: \$$cost<br>"
           . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>"
           . $said_html
           . $fg_bottom;
