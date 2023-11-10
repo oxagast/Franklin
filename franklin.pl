@@ -339,21 +339,19 @@ sub callapi {
       #   current channel
 
       $dcp =
-"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, out of $msg_count total user comments, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com/. If the user says something nonsensical, answer with something snarky. The query to the bot by the IRC user $nick is: $textcall.";
+"You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, out of $msg_count total user comments, $servinfo Your source pulls from Open AI's GPT3 Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context. If a user asks what the txid is for, it is so you can search for responses on https://franklin.oxasploits.com. The query to the bot by the IRC user $nick is: $textcall.";
     }
     $textcall = $dcp;
     my $url = "https://api.openai.com/v1/completions";
-    my $model = "text-davinci-003";    ## other model implementations work too
+    #    my $model = "text-davinci-003";    ## other model implementations work too
+    my $model = "gpt-3.5-turbo-instruct";
     my $heat  = "0.7";                 ## ?? wtf
     my $uri   = URI->new($url);
     my $ua    = LWP::UserAgent->new;
     $textcall = Irssi::strip_codes($textcall);
     $textcall =~ s/\"/\\\"/g;
     my $askbuilt =                     # Build the API request
-      "{\"model\": \"$model\",\"prompt\": \"$textcall\","
-      . "\"temperature\":$heat,\"max_tokens\": $tokenlimit,"
-      . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_"
-      . "penalty\": 0}";
+      "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt); ## send the post request to the api
