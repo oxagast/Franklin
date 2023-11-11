@@ -37,6 +37,7 @@
 
 **Setup**
 
+* Now upgraded to use the 3.5 Turbo Instruct API.
 * Install from Perl's CPAN (if deps not already met): Proc::Simple, Santitize, Irssi, and JSON.
 * Add `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 * Start irssi
