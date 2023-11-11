@@ -21,6 +21,7 @@
 
 **Major features of Franklin**
 
+* Now upgraded to use the 3.5 Turbo Instruct API.
 * Answer users' queries realistically, with human-like responses.
 * Read and interpret any *http(s) urls* given to it.
 * Uptime heartbeat with email and/or sms notifications.
@@ -37,7 +38,6 @@
 
 **Setup**
 
-* Now upgraded to use the 3.5 Turbo Instruct API.
 * Install from Perl's CPAN (if deps not already met): Proc::Simple, Santitize, Irssi, and JSON.
 * Add `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 * Start irssi
@@ -65,6 +65,9 @@ Name | Description
 `/set franklin_google_gtag [str]` | This is your google analytics G- tag id, for tracking the generated webpages.
 `/set franklin_asshat_threshold [float]` | This should be an floating point number from around 6 to 9, and is the kick threshold.
 `/set franklin_txid_chans [#chan1 #chan2]` | This is a list of channels where the Transactional Identification should be appended to the end of message.  The channels should be seperated by spaces.
+`/set franklin_mem_approx [string]` | The amount of memory Franklin has to work with.
+`/set franklin_hdd_approx [string]` | The amount of hard drive space.
+`/set franklin_cpu_approx [string]` | Number of allocatable CPU cores.
 
 **Debugging**
 
