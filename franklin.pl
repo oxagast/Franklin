@@ -280,7 +280,7 @@ sub asshat {
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   $reqs++;
-
+  my $retcode = 1;
   #Irssi::print "$server, $nick, $channel";
   my $retry = 0;
   my @months =
@@ -431,12 +431,14 @@ sub callapi {
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
           $server->command("msg $nick $said_cut");    # then pm
+          $retcode = 0;
         }
         chomp(@txidchans);
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
-            $server->command("msg $channel $said_cut TXID:$hexfn")
-              ;                                       # Send parsed API return to chan.
+            $server->command("msg $channel $said_cut TXID:$hexfn");       
+            # Send parsed API return to chan.
+            $retcode = 0;
           }
         }
         else { $server->command("msg $channel $said_cut"); }
@@ -450,7 +452,7 @@ sub callapi {
         }
         return 0;
       }
-      $server->command("msg $channel I'm sorry, I do not understand. TXID:000002")
+      #$server->command("msg $channel I'm sorry, I do not understand. TXID:000002")
         ;     # Error out in chan if unknown
       return 1;
     }
@@ -520,10 +522,14 @@ sub checkcmsg {
       Irssi::print "Franklin: $nick asked: $textcall";
 
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
-
+        my $try = 0;
+        while (($wrote eq 1) && ($try <= $maxretry)) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);
+        $try++;
         $isup  = $wrote;
+        }
         return $wrote;
+      
       }
       else {
         $isup = 1;
@@ -557,6 +563,7 @@ sub checkcmsg {
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $type = "pm";
+  my $wrote = 1;
   if ($nick ne "Franklin") {
     $msg_count++;
     $pm = 1;
@@ -565,9 +572,13 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
+      my $try = 0;
+      while (($wrote eq 1) && ($try <= $maxretry)) {
       $wrote = callapi($textcall, $server, $nick, $channel, $type)
         ;                   # this puls from the api for the pm
+        $try++;
       $isup = $wrote;
+    }
     }
     else { return 1 }
   }
