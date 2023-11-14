@@ -398,7 +398,7 @@ sub callapi {
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
-        push(@chat, "CHannel $channel: $msg" - );    # The last thing said in channel is pushed onto stack here
+        push(@chat, "CHannel $channel: $msg - ");    # The last thing said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {                                 # if the chat array is greater than max chat history, then
           shift(@chat);                                                  #                                             # shift the earlist back thing said off the array stack.
         }
