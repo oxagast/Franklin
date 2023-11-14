@@ -264,7 +264,9 @@ sub callapi {
   my $context = "";
 
   for my $usersays (0 .. scalar(@chat) - 1) {
-    $context = $context . $chat[$usersays];                              # BVreak down the chat stack for the context to build req
+    if ($chat[$usersays] =~ m/Channel $channel: (.*)/) {
+      $context = $context . $1;                                          # BVreak down the chat stack for the context to build req
+    }
   }
   $context = substr($context, -450);                                     # we have to trim
   my $modstat;
@@ -442,7 +444,7 @@ sub checkcmsg {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $moderate{$nick} = 0;
   }
-  push(@chat, "The user: $nick said: $msg - in $channel ");
+  push(@chat, "Channel $channel: The user: $nick said: $msg. ");
   if (scalar(@chat) >= $histlen) {
     shift(@chat);
   }
