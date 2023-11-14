@@ -313,7 +313,6 @@ sub callapi {
     }
     $textcall = $dcp;
     my $url = "https://api.openai.com/v1/completions";
-
     #    my $model = "text-davinci-003";    ## other model implementations work too
     my $model = "gpt-3.5-turbo-instruct";
     my $heat  = "0.7";                      ## ?? wtf
@@ -347,7 +346,6 @@ sub callapi {
       $said =~ s/Response: //i;
       $said =~ s/My reply is: //i;
       $said =~ s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
-
       if ($said =~ m/^\s*\?\s*$/) {
         $said = "";
       }
@@ -373,7 +371,6 @@ sub callapi {
         my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
         my $said_html = sanitize($said, html => 1);
         $textcall_bare = sanitize($textcall_bare, html => 1);
-
         $said_html =~ s/\n/<br>/g;
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
           or Irssi::print "Couldn't open for writing.";
@@ -394,29 +391,24 @@ sub callapi {
         if (grep(/^$channel$/, @txidchans)) {
           if ($type eq "chan") {
             $server->command("msg $channel $said_cut TXID:$hexfn");
-
             # Send parsed API return to chan.
             $retcode = 0;
           }
         }
         else { $server->command("msg $channel $said_cut"); }
         $retry++;
-        push(@chat, "The user: $cmn said: $said_cut - in $channel ");    # The last thing said in channel is pushed onto stack here
+        push(@chat, "CHannel $channel: ");    # The last thing said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {                                 # if the chat array is greater than max chat history, then
           shift(@chat);                                                  #                                             # shift the earlist back thing said off the array stack.
         }
         return 0;
       }
-
-      #$server->command("msg $channel I'm sorry, I do not understand. TXID:000002")
-      ;                                                                  # Error out in chan if unknown
       return 1;
     }
     else { return 1; }
 
   }
 }
-
 
 sub falive {
   if ($hburl) {                                                          ## this makes it so its not mandatory to have it set
@@ -512,7 +504,6 @@ sub checkcmsg {
     }
   }
 }
-
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
