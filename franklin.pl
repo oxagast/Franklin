@@ -386,7 +386,7 @@ sub callapi {
         close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-        $Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+        #Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
