@@ -195,7 +195,6 @@ sub untag {
   return $_ ? $_ : "";
 }
 
-
 sub pullpage {
   my ($text) = @_;
   if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
@@ -216,7 +215,6 @@ sub pullpage {
   }
   else { return undef }
 }
-
 
 sub asshat {
   my ($textcall, $server, $nick, $channel) = @_;
@@ -247,7 +245,6 @@ sub asshat {
     }
   }
 }
-
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
@@ -326,7 +323,6 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-
     if ($res->is_success) {
       ## response should look like
       ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
@@ -407,7 +403,6 @@ sub callapi {
       return 1;
     }
     else { return 1; }
-
   }
 }
 
@@ -423,7 +418,6 @@ sub falive {
     }
   }
 }
-
 
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
