@@ -19,7 +19,7 @@ use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
-$VERSION = "3.0.0r1";
+$VERSION = "3.0.2r2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -27,7 +27,7 @@ $VERSION = "3.0.0r1";
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'Oct, 22nd 2023',
+          changed     => 'November, 14th 2023',
 );
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
@@ -195,7 +195,6 @@ sub untag {
   return $_ ? $_ : "";
 }
 
-
 sub pullpage {
   my ($text) = @_;
   if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
@@ -216,7 +215,6 @@ sub pullpage {
   }
   else { return undef }
 }
-
 
 sub asshat {
   my ($textcall, $server, $nick, $channel) = @_;
@@ -247,7 +245,6 @@ sub asshat {
     }
   }
 }
-
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
@@ -326,7 +323,10 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
+<<<<<<< HEAD
     Irssi::print "$askbuild\n";
+=======
+>>>>>>> e8967e6f51cc0e9414f84fdcb531fadedb920a94
     if ($res->is_success) {
       ## response should look like
       ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
@@ -408,7 +408,6 @@ sub callapi {
       return 1;
     }
     else { return 1; }
-
   }
 }
 
@@ -424,7 +423,6 @@ sub falive {
     }
   }
 }
-
 
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
