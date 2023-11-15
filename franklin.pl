@@ -328,7 +328,7 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-    Irssi::print "$askbuild\n";
+    Irssi::print "$askbuilt\n";
 
     if ($res->is_success) {
       ## response should look like
@@ -337,6 +337,7 @@ sub callapi {
       ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
       ## so we use a json decoder and fix for utf8
       #        Irssi::print Dumper(decode_json($res->decoded_content());
+      Irssi::print $res->decoded_content();
       my $said  = decode_json($res->decoded_content())->{choices}[0]{text};
       my $ctoks = decode_json($res->decoded_content())->{usage}{completion_tokens};
       my $ptoks = decode_json($res->decoded_content())->{usage}{prompt_tokens};
@@ -385,7 +386,7 @@ sub callapi {
         close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-        Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+        $Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
@@ -402,7 +403,7 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
-        Irssi::print "In channel $channel: $said_cut";
+        #Irssi::print "In channel $channel: $said_cut";
         $retry++;
         push(@chat, "CHannel $channel: $msg - ");     # The last thing said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {              # if the chat array is greater than max chat history, then
@@ -474,7 +475,7 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;          # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
-      Irssi::print "Franklin: $nick asked: $textcall";
+      #Irssi::print "Franklin: $nick asked: $textcall";
 
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
