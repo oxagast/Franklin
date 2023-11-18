@@ -337,7 +337,7 @@ sub callapi {
       ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
       ## so we use a json decoder and fix for utf8
       #        Irssi::print Dumper(decode_json($res->decoded_content());
-      Irssi::print Dumper(decode_json($askbilt), decode_json($res->decoded_content()));
+      Irssi::print Dumper(decode_json($askbuilt), decode_json($res->decoded_content()));
       my $said  = decode_json($res->decoded_content())->{choices}[0]{text};
       my $ctoks = decode_json($res->decoded_content())->{usage}{completion_tokens};
       my $ptoks = decode_json($res->decoded_content())->{usage}{prompt_tokens};
