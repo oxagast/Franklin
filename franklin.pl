@@ -329,8 +329,7 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-    Irssi::print "$askbuilt\n";
-
+    Irssi::print JSON->new->ascii->pretty->encode(decode_json join '', $askbuilt);
     if ($res->is_success) {
       ## response should look like
       ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
