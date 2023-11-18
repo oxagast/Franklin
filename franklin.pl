@@ -329,14 +329,12 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-    #    Irssi::print Dumper(decode_json($askbuilt));
     if ($res->is_success) {
       ## response should look like
       ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
       ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
       ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
       ## so we use a json decoder and fix for utf8
-      #        Irssi::print Dumper(decode_json($res->decoded_content());
       Irssi::print Dumper(decode_json($askbuilt), decode_json($res->decoded_content()));
       my $said  = decode_json($res->decoded_content())->{choices}[0]{text};
       my $ctoks = decode_json($res->decoded_content())->{usage}{completion_tokens};
