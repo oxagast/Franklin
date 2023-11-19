@@ -211,11 +211,7 @@ sub pullpage {
     if ($cres->is_success) {
       my $page_body = untag(encode('utf-8', $cres->decoded_content()));    # we get an error unless this is utf8
       $page_body =~ s/\s+/ /g;
-      $page_body =~ s/'//g;
-      $page_body =~ s/"//g;
-      $page_body =~ s/<//g;
-      $page_body =~ s/>//g;
-      $page_body =~ s/=//g;
+      $page_body =~ s/[^a-zA-Z0-9, ]+//g;
       return $page_body;
     }
   }
