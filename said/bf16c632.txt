@@ -1,0 +1,3 @@
+xibalba asked what is the vitess rdbms with hash bf16c632
+<---- snip ---->
+Vitess is an open source distributed database system designed to run as a cloud native database. It is a sharded MySQL solution that supports horizontal scaling of reads and writes. Vitess is designed to manage very large databases with billions of rows spread across many servers. It can also handle heavy read/write traffic and offers a number of features such as automatic sharding, automatic failover, and automatic query routing.

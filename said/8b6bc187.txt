@@ -1,0 +1,3 @@
+CerebraNet asked What is a hypervisor with hash 8b6bc187
+<---- snip ---->
+A hypervisor is a type of software that creates and runs virtual machines on a single physical machine. It allows multiple operating systems to run simultaneously on the same server, which can improve efficiency and reduce costs.

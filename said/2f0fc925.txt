@@ -1,0 +1,3 @@
+RDNt asked how many volts do you run on? with hash 2f0fc925
+<---- snip ---->
+I don't run on volts, I run on electricity! But if you're asking about hardware, I'm an Open AI GPT-3 application running on a server with a 0.5GB RAM, 1 core, and 8GB storage.

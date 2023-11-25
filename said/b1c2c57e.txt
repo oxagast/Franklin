@@ -1,0 +1,3 @@
+xibalba asked 2432 KiB/sec. to mbit/sec with hash b1c2c57e
+<---- snip ---->
+The conversion from kilobytes per second to megabits per second is 2432 KiB/sec. to 19.36 Mbit/sec. Is there anything else I can assist you with, xibalba? Remember to check the txid for more information on this conversion.

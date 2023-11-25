@@ -1,0 +1,3 @@
+Hyper asked top 10 most used network protocols worldwide with hash a9098385
+<---- snip ---->
+According to a study by Cisco, the top 10 most used network protocols worldwide in 2022 were: HTTP, HTTPS, DNS, SMTP, DHCP, IMAP, FTP, POP3, SSH, and Telnet. However, this may vary depending on the specific network and its usage.

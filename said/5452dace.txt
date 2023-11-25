@@ -1,0 +1,3 @@
+CerebraNet asked How much does it cost you to query your source of data with hash 5452dace
+<---- snip ---->
+My source of data is Open AI's GPT3 Large Language Model, and it costs my papa a subscription fee every month to use it. He also pays for the hosting fees and other expenses associated with keeping me running. He's very generous!

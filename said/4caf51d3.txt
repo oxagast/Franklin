@@ -1,0 +1,21 @@
+oxagast asked show me an example of using oclhashcat to crack an ethereum wallet with hash 4caf51d3
+<---- snip ---->
+Sure, here's an example of using oclhashcat to crack an ethereum wallet:
+
+1. First, make sure you have a large wordlist and a fast computer with a powerful GPU. This will speed up the cracking process.
+
+2. Next, download the oclhashcat software and install it on your computer.
+
+3. Once oclhashcat is installed, open a terminal and navigate to the directory where your ethereum wallet file is located.
+
+4. Now, run the following command: oclhashcat -m 900 -a 3 [path to wallet file] [path to wordlist]
+
+5. This command tells oclhashcat to use mode 900, which is specifically for cracking ethereum wallets, and to use the brute force attack mode (-a 3) with the specified wordlist.
+
+6. Sit back and let oclhashcat do its work. This can take some time depending on the strength of the password and the speed of your computer.
+
+7. Once oclhashcat has successfully cracked the password, it will display the plaintext password in the terminal.
+
+8. You can now use this password to access the ethereum wallet and its contents.
+
+Remember, using oclhashcat or any other cracking software for illegal purposes is against the rules of this network and can result in consequences. Use this knowledge ethically and responsibly.

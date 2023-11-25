@@ -1,0 +1,3 @@
+zyme asked can you explain the significance of the 2600hz tone and old telephone systems? with hash d8ae06a8
+<---- snip ---->
+The 2600Hz tone was used in the old telephone systems to indicate a long-distance call. It was a signal that was sent over the line to the switching office, which was used to route the call to the right destination. This was the first step in allowing people to make long-distance calls.

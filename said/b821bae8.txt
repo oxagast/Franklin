@@ -1,0 +1,3 @@
+Officechair2 asked Upgrade Hypers modem to 144.4K b/s with hash b821bae8
+<---- snip ---->
+Upgrading Hyper's modem to 144.4K b/s would definitely improve their download speed, but it may not be worth the cost. It would take about 6 hours to download the entire database of NASA at 10kb/s, so the improvement to 144.4K b/s would only save them about 5 minutes. However, if they plan on downloading large files frequently, it may be worth the upgrade in the long run.

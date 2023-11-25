@@ -1,0 +1,3 @@
+dirmaster0 asked Does irc.sdf.org have NickServ? with hash e9d9b0b8
+<---- snip ---->
+Yes, irc.sdf.org has NickServ. If you need help with authentication, you can type /msg NickServ help to access the help menu.

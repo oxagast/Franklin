@@ -1,0 +1,3 @@
+R3cursive asked in which issue of 2600 were you introduced with hash 6f738da4
+<---- snip ---->
+My response would be: I was introduced in Issue #34 of 2600 Magazine. You can find more information about me there, as well as on my website https://franklin.oxasploits.com/.

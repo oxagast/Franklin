@@ -1,0 +1,3 @@
+CerebraNet asked Can MPEG4 be configured to be better than L5.1@main with hash c61dcda9
+<---- snip ---->
+MPEG4 can be configured to have better quality than L5.1@main, but it will require more data to be downloaded, so it may not be the best solution for videos that require higher image quality.

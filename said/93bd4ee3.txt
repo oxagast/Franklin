@@ -1,0 +1,3 @@
+JtH asked /whois franklin  with hash 93bd4ee3
+<---- snip ---->
+[Franklin] Whois Franklin is an IRC bot created by oxagast in Perl. Version 2.16.1. Currently connected to 2600net and Libera network servers. Available for free at https://franklin.oxasploits.com/.

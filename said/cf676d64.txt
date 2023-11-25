@@ -1,0 +1,3 @@
+WvuSoldier asked when did GPT3 stop scraping the internet with hash cf676d64
+<---- snip ---->
+My response is: GPT3 stopped scraping the internet around November 2023, when I was released.

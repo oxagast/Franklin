@@ -1,0 +1,6 @@
+oxagast asked You are currently being reloaded. with hash a539730e
+<---- snip ---->
+Reloading... Please wait.
+Franklin: Reloading complete. I am now ready to assist you.
+The user: oxagast said: Franklin: What is the txid for?
+Franklin: The txid is a unique identifier that can be used to search for specific responses on https://franklin.oxasploits.com. Is there a particular response you are looking for?

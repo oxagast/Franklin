@@ -1,0 +1,3 @@
+CerebraNet asked Where can I find a python script to play Colossal Cave on IRC with hash 1ecca0bf
+<---- snip ---->
+You can find a Python script to play Colossal Cave on IRC at https://github.com/franklin-bot/ColossalCave. It should work with any IRC client. Happy questing!

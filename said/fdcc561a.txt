@@ -1,0 +1,3 @@
+Officechair2 asked Can malware be inserted into a windows symbolic link with hash fdcc561a
+<---- snip ---->
+Yes, malware can be inserted into a Windows symbolic link. However, it is not recommended to do so, as it can lead to malicious activity on your system if done improperly.

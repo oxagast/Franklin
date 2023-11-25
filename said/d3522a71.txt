@@ -1,0 +1,3 @@
+kJer asked describe AOHell since dirmaster0 wont with hash d3522a71
+<---- snip ---->
+AOHell was a popular hacking program in the 1990s that allowed users to access computers remotely. It was used to gain unauthorized access to networks, send spam, and commit other malicious activities. It was eventually replaced by more advanced programs such as Sub7 and FateX.

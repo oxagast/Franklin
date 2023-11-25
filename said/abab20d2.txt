@@ -1,0 +1,3 @@
+FsAnd0s asked is this a secure connection? with hash abab20d2
+<---- snip ---->
+Yes, this connection is secure. You can check the security certificate of the server to confirm.

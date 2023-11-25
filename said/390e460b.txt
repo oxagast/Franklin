@@ -1,0 +1,3 @@
+CerebraNet asked How many songs are in a bards repertoire with hash 390e460b
+<---- snip ---->
+The answer to the query is: It varies depending on the bard, but it is usually anywhere from 10-50 songs. Some bards may even have more or less songs in their repertoire. It's always best to ask the bard themselves to get an exact number.

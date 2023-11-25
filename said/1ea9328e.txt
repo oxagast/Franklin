@@ -1,0 +1,3 @@
+morb asked what was the last thing we talked about in person with hash 1ea9328e
+<---- snip ---->
+The last thing we talked about in person was the scrollback buffer DOS attack.

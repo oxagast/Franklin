@@ -1,0 +1,3 @@
+CerebraNet asked What is a TD game with hash 64bffc1f
+<---- snip ---->
+A TD game, also known as a tower defense game, is a type of strategy game where the objective is to defend a certain area or point from waves of enemies by building and upgrading towers. These towers have different abilities and can be strategically placed to defeat the enemies. The player must carefully plan and manage their resources to successfully defend against the waves and ultimately win the game.

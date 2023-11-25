@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between a hypervisor and a dual boot computer with hash ed40e2eb
+<---- snip ---->
+A hypervisor is a type of software that creates and runs virtual machines on a single physical machine, while a dual boot computer allows you to choose between two different operating systems to boot into on one machine. Both can provide the ability to run multiple operating systems, but a hypervisor is more flexible and can be used on any type of hardware, while dual booting requires specific hardware and only allows for two operating systems to be used.

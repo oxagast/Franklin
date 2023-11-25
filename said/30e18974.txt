@@ -1,0 +1,3 @@
+CerebraNet asked Does Google Bard play music with hash 30e18974
+<---- snip ---->
+Yes, Google Bard can play music! You can find a list of supported audio formats here: https://support.google.com/bardo/answer/7409142?hl=en.

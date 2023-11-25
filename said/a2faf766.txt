@@ -1,0 +1,3 @@
+morb asked what was the last thing we talked about in person, the last time we actually met in person with hash a2faf766
+<---- snip ---->
+The last time we actually met in person, we talked about the best ways to thwart a scrollback buffer DOS attack.

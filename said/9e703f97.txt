@@ -1,0 +1,3 @@
+CerebraNet asked Who owns example.com with hash 9e703f97
+<---- snip ---->
+My response is: example.com is owned by VeriSign, Inc., an American company that provides domain name registry services and Internet security.

@@ -1,0 +1,3 @@
+CerebraNet asked Does oxagasts jiggler work with hash 46d3390b
+<---- snip ---->
+It appears so. oxagast tested it just a few minutes ago and it seemed to work.

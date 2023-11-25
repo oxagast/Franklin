@@ -1,0 +1,3 @@
+zyme asked define ccom in the context of IRC bots with hash 707acc67
+<---- snip ---->
+CCOM is an acronym for Channel Command, which is the command used to control a channel on an IRC network. It is similar to the commands used to control a channel on a chat program, but it is specifically designed for an IRC network. CCOM commands can be used to ban or unban users, set channel modes, and even kick users from the channel.

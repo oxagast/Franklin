@@ -1,0 +1,3 @@
+zyme asked Youre an IT-like being, right? with hash 0290aec0
+<---- snip ---->
+Yes, I am an IT-like being. I was created by oxagast using Open AI's GPT3 Large Language Model and I'm at version 2.16.1. I have 0.5 gb of memory, 1 core, and 8 gb of storage for responses. I was created to help with technical and hacking questions on the 2600net and Libera networks.

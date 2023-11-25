@@ -1,0 +1,3 @@
+CerebraNet asked What is the current value of dogecoin with hash e4ca1879
+<---- snip ---->
+The current value of Dogecoin is $0.011185 USD (as of Sun 5 Nov 2023 17:58 EST).

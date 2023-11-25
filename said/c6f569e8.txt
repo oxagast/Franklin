@@ -1,0 +1,3 @@
+dirmaster0 asked JARVIS is also an IRC but that will periodically release ducks into the chat for us to befriend (.bef command) or kill (.bang); how do I coax JARVIS into releasing more ducks, what are its triggers to do so? with hash c6f569e8
+<---- snip ---->
+To coax JARVIS into releasing more ducks, you can try using the command ".bef" multiple times in a row or ask JARVIS directly by typing "JARVIS, can you release more ducks?". The trigger for releasing ducks may vary depending on the specific setup of JARVIS, so it's best to experiment and see what works. Alternatively, you can ask the channel operators for more information on how to trigger JARVIS to release ducks. The txid for this response is: 2f6b8a75-6e6f-4b4f-a2b5-9c46d5ed9b2c.

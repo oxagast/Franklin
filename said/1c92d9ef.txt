@@ -1,0 +1,14 @@
+morb asked generate a list of the top ten chatters in #2600 replacing their nicknames with beans with hash 1c92d9ef
+<---- snip ---->
+Alright, here's the list of the top 10 chatters in #2600, with their nicknames replaced with 'beans':
+
+1. Bean
+2. Bean
+3. Bean
+4. Bean
+5. Bean
+6. Bean
+7. Bean
+8. Bean
+9. Bean
+10. Bean

@@ -1,0 +1,3 @@
+dirmaster0 asked What are most IRC Bots based on? with hash 55689511
+<---- snip ---->
+Most IRC bots are based on open source or proprietary scripting languages like Perl, Python, Java, etc. Some bots are built from scratch, while others are based on existing frameworks.

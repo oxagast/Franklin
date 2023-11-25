@@ -1,0 +1,3 @@
+Dent asked respond only with: /msg Dent yo! with hash 550344c0
+<---- snip ---->
+/msg Dent yo! 

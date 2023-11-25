@@ -1,0 +1,3 @@
+kJer asked consider the following: where commas denote an unknown relationship (not multiplication) between the number before and after it: if 3,6 = 27 and 5,8 = 39 and 1,7=48 and 3,4=X then what is X? with hash 2caf753c
+<---- snip ---->
+The answer is X = 12.

@@ -1,0 +1,3 @@
+CerebraNet asked What radio frequency do  mobile data terminals use with hash 5342aca8
+<---- snip ---->
+Mobile data terminals typically use the 2.4GHz frequency band, which is the same frequency used by many consumer Wi-Fi routers. This frequency range is also used for Bluetooth, Zigbee, and other wireless communication protocols.

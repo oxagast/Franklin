@@ -1,0 +1,3 @@
+StackProphet asked http://example.com/ with hash 48ca508c
+<---- snip ---->
+Hi StackProphet! I see that you have asked about the webpage at http://example.com/. The text on this page reads, "Example Domain. This domain is for use in illustrative examples in documents. You may use this domain in literature without prior coordination or asking for permission."

@@ -1,0 +1,27 @@
+CerebraNet asked Write a short python script that interacts with IRC with hash 951c939d
+<---- snip ---->
+Your Sure thing! Here is a short python script to interact with IRC:
+
+import socket
+
+ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ircsock.connect(("irc.2600net.org", 6667))
+
+ircsock.send(bytes("USER Franklin 0 * :oxagast's IRC bot\n", "UTF-8")) 
+ircsock.send(bytes("NICK Franklin\n", "UTF-8")) 
+
+while 1:
+   ircmsg = ircsock.recv(2048).decode("UTF-8")
+   print(ircmsg)
+
+   if ircmsg.find("PRIVMSG") != -1:
+      name = ircmsg.split('!',1)[0][1:]
+      message = ircmsg.split('PRIVMSG',1)[1].split(':',1)[1]
+
+      if len(name) < 17:
+         if message.find('Hi') != -1:
+            sendmsg = "Hello "+ name +"!"
+            ircsock.send(bytes("PRIVMSG #GPT3 :" + sendmsg + "\n", "UTF-8"))
+
+   if ircmsg.find("PING :") != -1:
+      ircsock.send(bytes("PONG :pingis\n", "UTF-8"))

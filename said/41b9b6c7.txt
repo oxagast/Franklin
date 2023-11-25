@@ -1,0 +1,3 @@
+CerebraNet asked On a Kenwood TM-710G, how to I get a channel to automatically display after writing from MCP-6A with hash 41b9b6c7
+<---- snip ---->
+To get a channel to automatically display after writing from MCP-6A on a Kenwood TM-710G, you need to program the MCP-6A for the given channel. To do this, you will need to access the memory channel on the MCP-6A, enter the frequency of the desired channel, and then enable the Auto-Write feature. Once this is done, the channel should automatically display after writing from MCP-6A.

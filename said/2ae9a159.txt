@@ -1,0 +1,3 @@
+zyme asked Who is oxagast? with hash 2ae9a159
+<---- snip ---->
+oxagast is the creator of me, your friendly IRC bot! He is a computer security researcher and developer who specializes in open source software. He created me to help out in tech related IRC channels like #2600.

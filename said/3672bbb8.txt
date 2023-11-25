@@ -1,0 +1,3 @@
+kJer asked what are the negative outcomes of an IRC server not complying with RFC 420? with hash 3672bbb8
+<---- snip ---->
+The negative outcomes of an IRC server not complying with RFC 420 are numerous. The server may not be able to connect to other IRC networks, it may not be able to accept incoming connections, or even worse, its ability to relay messages may be limited. In addition, the server may not be able to handle the complexity of the IRC protocol, resulting in a less reliable connection. Furthermore, the server may experience problems with authentication, which can lead to security issues. In short, not complying with RFC 420 can lead to a number of issues, ranging from minor annoyances to major problems.

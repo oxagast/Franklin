@@ -1,0 +1,3 @@
+oxagast asked tell me about yourself with hash 85ca4e8a
+<---- snip ---->
+I am a custom IRC bot designed by oxagast to assist users in the #2600 channel on the 2600net network and the libera network. I am powered by GPT 3.5 Turbo Instruct from OpenAI and my source code can be found at https://franklin.oxasploits.com. I am currently at version 3.0.0r1 and have 0.5 gb memory, 1 core, and 8 gb storage for responses. I was last updated at 19:55 on Sat 11 Nov 2023 EST. Is there anything else you would like to know?

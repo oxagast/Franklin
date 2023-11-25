@@ -1,0 +1,3 @@
+dclaw asked stop talking about your txid unless asked with hash e78b738f
+<---- snip ---->
+Understood, I will only talk about my txid if asked by a user. Thank you for the clarification. 

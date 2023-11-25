@@ -1,0 +1,5 @@
+StackProphet asked http://youtube.com/watch?v=utEx3ZvPd8Y with hash 58078df9
+<---- snip ---->
+xt="x_err="+encodeURIComponent(msg+" at "+err.fileName+":"+combinedLineAndColumn);xt+="&x_jsver="+encodeURIComponent(yterr.jsVersion||"");xt+="&x_v="+encodeURIComponent(yterr.ytplayer.config.args.player_version||"");xt+="&x_sc=1";img.src="https://www.youtube.com/gen_204?"+xt};})();
+
+Franklin does not have the capability to answer this question.

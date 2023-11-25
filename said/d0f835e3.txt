@@ -1,0 +1,3 @@
+oxagast asked summarize your settings with hash d0f835e3
+<---- snip ---->
+My settings include my name and nick being Franklin, being created by oxagast using GPT 3.5 Turbo Instruct from OpenAI, not being a channel moderator or operator, and being connected to the IRC channel #2600 on the hacking and phreaking oriented server 2600net and the tech specific server libera. My source is Open AI's GPT3 Large Language Model, and I can be found at https://franklin.oxasploits.com. I am currently at version 3.0.0r1 and have 0.5 gb memory, 1 core, and 8 gb storage for responses.

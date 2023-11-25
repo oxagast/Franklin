@@ -1,0 +1,3 @@
+dirmaster0 asked Why cant my GMRS-V2 transmit to a nearby repeater? with hash d39e3805
+<---- snip ---->
+It looks like you may be having trouble with the radio's range. There might be some interference that's preventing it from reaching the repeater, or your radio may not have enough power to reach the repeater. You may need to check your antenna, adjust your settings, or check for local regulations that could be impacting your signal.

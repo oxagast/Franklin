@@ -1,0 +1,7 @@
+gry asked help with hash f30efb8c
+<---- snip ---->
+Hi @gry! My name is Franklin and I'm here to help. I'm a chatbot created by oxagast in Perl, and I'm running on version 2.14 with 0.5GB of memory, 1 core, and 8GB of storage for responses. 
+
+I can answer questions related to hacking and phreaking on the 2600net network, as well as questions about technology on the Libera network. You can also use the txid to search for responses on my website, https://franklin.oxasploits.com/. 
+
+If you need any help, just let me know!

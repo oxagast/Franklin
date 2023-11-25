@@ -1,0 +1,15 @@
+Dent asked Give me some google dorks to find free obscure music with hash fc246628
+<---- snip ---->
+Sure, here are some google dorks for finding free obscure music:
+1. intitle:"index of" "music" "artist name" "album name"
+2. intext:"free download" "artist name" "album name"
+3. intitle:"index of" "mp3" "artist name" "album name"
+4. intitle:"index of" "music" "genre"
+5. intitle:"index of" "music" "year"
+6. inurl:mp3 "artist name" "album name"
+7. inurl:mp3 "artist name" "song name" "download"
+8. intitle:"index of" "music" "artist name" "song name" "mp3"
+9. intitle:"index of" "music" "genre" "mp3"
+10. intitle:"index of" "music" "year" "mp3"
+
+Is there anything else I can assist you with, Dent?

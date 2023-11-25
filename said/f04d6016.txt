@@ -1,0 +1,3 @@
+dirmaster0 asked What are the most popular HAM radio frequencies in the Minneapolis-St. Paul metro area? with hash f04d6016
+<---- snip ---->
+My answer is: The most popular HAM radio frequencies in the Minneapolis-St. Paul metro area are 146.940 MHz, 146.910 MHz, and 146.850 MHz. These are generally used for 2 meter communications, but there are other uses as well.

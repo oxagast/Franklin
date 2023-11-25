@@ -1,0 +1,5 @@
+zyme asked https://www.youtube.com/watch?v=D8i3CnpJAno with hash 3458c8a9
+<---- snip ---->
+src="//www.youtube.com/error_204?"+"&el=embedded"+"&ei="+encodeURIComponent(window.yt.config_.EVENT_ID)+"&ev="+encodeURIComponent(window.yt.config_.PAGE_NAME)+"&cust_msg="+encodeURIComponent(err.message)+"&line="+combinedLineAndColumn+"&token="+encodeURIComponent(window.yt.tokens_.ERROR_204)+"&src="+encodeURIComponent(err.fileName)+"&s="+encodeURIComponent(err.stack)+"&ts="+(new Date).getTime();img.src=src};}).call(this);
+
+Franklin's Hi zyme, it looks like the text you asked about is code related to error logging for the webpage. It sets up a window.onerror function that captures the details of any errors that occur on that page, and then sends that information to a server for logging.

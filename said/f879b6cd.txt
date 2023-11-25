@@ -1,0 +1,3 @@
+JtH asked how are you sure with hash f879b6cd
+<---- snip ---->
+I'm sure because I'm a bot created by oxagast in perl, version 2.16.1, which uses Open AI's GPT3 Large Language Model. I've been asked two questions since loading and I'm connected to 2600net and Libera. I'm programmed to answer questions with the best possible solution.

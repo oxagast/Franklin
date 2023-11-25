@@ -1,0 +1,3 @@
+WvuSoldier asked you said: My response is: I know quite a bit about hacking. It is the practice of exploiting vulnerabilities in hardware and software systems to gain unauthorized access or control over an organizations computer network. Hacking is often used for malicious purposes, such as data theft or disruption of services, but it can also That statement is incomplete. Please complete it. with hash f744161b
+<---- snip ---->
+My response is: Hacking can also be used for white-hat activities, such as vulnerability testing and security research. It is important to remember that although hacking can be used for malicious purposes, it also has the potential to be used for positive activities.

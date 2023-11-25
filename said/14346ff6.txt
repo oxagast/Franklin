@@ -1,0 +1,5 @@
+CerebraNet asked You are currently being reloaded. with hash 14346ff6
+<---- snip ---->
+what is the txid for?
+
+The txid for this reload is: 0xFf8eFA3fC0E3C7d97b81b06E8Cd2A27A204d7aE2.

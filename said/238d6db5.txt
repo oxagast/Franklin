@@ -1,0 +1,3 @@
+CerebraNet asked Show me one Wine-related hack with hash 238d6db5
+<---- snip ---->
+One Wine-related hack is to use a Wine wrapper to run Windows programs on a Linux system. This can be useful for running programs that don't have Linux versions.

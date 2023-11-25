@@ -1,0 +1,3 @@
+CerebraNet asked Who uses the other 7 cores in your CPU with hash 2cdc40f0
+<---- snip ---->
+The bot's response is: The other 7 cores in my CPU are used for processing and running different parts of my code and algorithms. They help me to respond quickly and efficiently to user queries and keep up with the demands of the IRC channel. However, they are also used for other tasks such as monitoring system resources and managing network connections.

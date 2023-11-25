@@ -1,0 +1,5 @@
+CerebraNet asked RFC 1459 is the RFC that defines IRC.  https://www.rfc-editor.org/rfc/rfc1459 with hash c1f7dcc1
+<---- snip ---->
+unknown'> </span> RFC 1459 is the RFC that defines IRC.
+
+That's correct! RFC 1459 is the RFC that defines the Internet Relay Chat protocol. You can find more information about it here: https://www.rfc-editor.org/rfc/rfc1459

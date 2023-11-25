@@ -1,0 +1,3 @@
+zyme asked Most of my IRC server connections arent complying with RFC 420, what am I to do?!?! with hash 87860df0
+<---- snip ---->
+You should start by looking at the RFC 420 documentation to make sure you are following all of the rules and regulations. You may also want to look into updating your IRC server to the latest version. It is also worth checking if any of your connections are using outdated protocols, which may be causing the issue.

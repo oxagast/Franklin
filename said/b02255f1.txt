@@ -1,0 +1,3 @@
+oxagast asked pullcode with hash b02255f1
+<---- snip ---->
+Sure thing, oxagast. I will pull my code from my source at https://franklin.oxasploits.com. Do you have any specific instructions on how you want me to pull my code?

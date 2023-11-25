@@ -1,0 +1,3 @@
+oi asked Given that 1+1=3, does 1+1=3? with hash 95dce9ef
+<---- snip ---->
+Yes, according to the information given, 1+1 does indeed equal 3. This may seem contradictory, but it is possible depending on the context and assumptions being made.

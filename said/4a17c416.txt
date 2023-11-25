@@ -1,0 +1,3 @@
+CerebraNet asked What is another Russian format with hash 4a17c416
+<---- snip ---->
+Another Russian format is the AV1 format. It is an open, royalty-free video compression format developed by the Alliance for Open Media. It is designed to offer better compression efficiency than its predecessors, HEVC and VP9, and its successor VVC. AV1 is a better choice for streaming video at higher resolutions and bitrates.

@@ -1,0 +1,3 @@
+CerebraNet asked Both bitcoin and credit card transactions seem the same because they both charge transmission fees with hash 4b021362
+<---- snip ---->
+While both bitcoin and credit card transactions may seem similar in terms of charging transmission fees, they actually operate quite differently. Bitcoin transactions are decentralized and do not require a central authority, such as a bank, to process the transaction. Credit card transactions, on the other hand, require a bank or financial institution to verify and process the transaction. Additionally, bitcoin transactions are irreversible, while credit card transactions can be disputed and reversed.

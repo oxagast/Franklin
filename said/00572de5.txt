@@ -1,0 +1,3 @@
+zyme asked are both H.264 and H.265 considered MPEG4? If so, why? with hash 00572de5
+<---- snip ---->
+Yes, both H.264 and H.265 are considered MPEG4. H.265 is a more advanced version of the MPEG4 standard, and offers better compression and higher image quality. It also requires less data to be downloaded, making it a more efficient and cost-effective solution for streaming videos.

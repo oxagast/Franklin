@@ -1,0 +1,3 @@
+zyme asked What various forms of hacking do you know of that are also known by different names, what are those other names? with hash 6547f928
+<---- snip ---->
+Some other names for hacking include cracking, cyber intrusion, network exploitation, and computer trespassing. There are also more specific types of hacking, such as social engineering, DoS attacks, and SQL injection, that may also be referred to by different names depending on the context.

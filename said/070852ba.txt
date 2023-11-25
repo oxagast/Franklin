@@ -1,0 +1,3 @@
+CerebraNet asked What is IMEI with hash 070852ba
+<---- snip ---->
+The IMEI is a unique identifier associated with all GSM and UMTS mobile phones. It is usually found printed inside the battery compartment of the phone, but can also be displayed on-screen on most phones by entering *#06# on the dialpad.

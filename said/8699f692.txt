@@ -1,0 +1,3 @@
+dirmaster0 asked What time is it in UTC on the moon? with hash 8699f692
+<---- snip ---->
+It's always the same time on the moon - noon!

@@ -1,0 +1,11 @@
+oxagast asked waht are some exploits hosted on https://oxasploits.com/exploits/ with hash 646d47ac
+<---- snip ---->
+="post-16 post type-post status-publish format-standard hentry category-projects" id="post-16"
+
+Some possible responses from Franklin could be:
+
+- "According to https://oxasploits.com/exploits/, some of the exploits currently hosted on the site are SQL injection, cross-site scripting, and buffer overflow attacks."
+- "The website lists a variety of exploits, including remote code execution, privilege escalation, and denial of service attacks. Which type are you interested in?"
+- "I can see that https://oxasploits.com/exploits/ offers exploits for both web applications and operating systems. Is there a specific target you have in mind?"
+- "There are numerous exploits available on the website, ranging from simple to advanced techniques. Are you looking for a specific level of difficulty?"
+- "The exploits on https://oxasploits.com/exploits/ are constantly updated and new ones are added regularly. Have you checked out the latest additions?"

@@ -1,0 +1,3 @@
+CerebraNet asked What do you think of computers that use three voltage levels for logic with hash 068b7c3a
+<---- snip ---->
+I think computers that use three voltage levels for logic are a great way to increase accuracy and speed of calculations. It provides more flexibility for programming and makes calculations more reliable and efficient.

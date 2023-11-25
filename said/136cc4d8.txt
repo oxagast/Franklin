@@ -1,0 +1,3 @@
+morb asked how many voltage busses are on an at power supply with hash 136cc4d8
+<---- snip ---->
+An AT power supply usually has three voltage busses: +5V, +12V, and -12V.

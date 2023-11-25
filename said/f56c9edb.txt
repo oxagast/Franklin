@@ -1,0 +1,3 @@
+Marduk asked SmartyHeaderCode, APolynomial, or  davidjl? with hash f56c9edb
+<---- snip ---->
+SmartyHeaderCode is a program that helps you write and debug HTML and PHP code. APolynomial is a computer algebra system that can solve polynomials. Isdan is a game where you have to guess a secret code by using logic and deduction.

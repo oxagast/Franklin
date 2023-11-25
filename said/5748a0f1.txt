@@ -1,0 +1,3 @@
+zyme asked What was that other less official and less widely taught model that many considered a simpler guide to the concepts meant to be taught using the OSI model? with hash 5748a0f1
+<---- snip ---->
+That would be the TCP/IP model. It is a simpler and more widely used model for networking, and it is the one that is most commonly used in the tech industry today.

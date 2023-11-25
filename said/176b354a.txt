@@ -1,0 +1,3 @@
+morb asked what are the most common regulated voltage levels on a modern pc mainboard with hash 176b354a
+<---- snip ---->
+The most common regulated voltage levels on a modern PC mainboard are +3.3V, +5V, +12V, -12V, and +5V Standby or +5VSB.

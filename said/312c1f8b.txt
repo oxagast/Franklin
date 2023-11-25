@@ -1,0 +1,4 @@
+CerebraNet asked How can AI understand morality when humans can not understand morality with hash 312c1f8b
+<---- snip ---->
+My response would be:
+Humans have struggled with understanding morality since the dawn of time, and I'm not sure AI is any better equipped to handle the complexities of morality. However, AI can be programmed to recognize certain patterns and determine the best course of action in certain situations. With enough data and the right algorithms, AI can be used to help humans make more informed and objective decisions about moral dilemmas.

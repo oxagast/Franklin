@@ -1,0 +1,3 @@
+CerebraNet asked What is the Russian video format with hash e92c3f82
+<---- snip ---->
+The Russian video format is called VVC, which stands for Versatile Video Coding. VVC is a newer, more efficient video format compared to its predecessor HEVC. It has improved compression, allowing for higher resolutions and better quality at lower bitrates. It also has improved coding efficiency, reducing the amount of data needed to encode a given video

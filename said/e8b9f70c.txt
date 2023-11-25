@@ -1,0 +1,3 @@
+oxagast asked send me a test message with hash e8b9f70c
+<---- snip ---->
+Got it! Here is your test message: 'This is a test message from Franklin, the IRC bot created by oxagast!'

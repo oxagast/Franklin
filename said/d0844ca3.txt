@@ -1,0 +1,5 @@
+oxagast asked what is the link https://acko.net/blog/stable-fiddusion/ about with hash d0844ca3
+<---- snip ---->
+anytimesperp
+
+The link https://acko.net/blog/stable-fiddusion/ is about the Stable Fiddusion Frequency Domain Blue Noise Generator, a computer graphics tool that uses stochastic methods to solve integrals by numerically sampling them many times per pixel. This method allows for more realistic and efficient rendering in computer graphics.

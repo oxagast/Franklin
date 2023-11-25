@@ -1,0 +1,7 @@
+aestetix asked please summarize this article https://stratechery.com/2023/openais-misalignment-and-microsofts-gain/ with hash 69a866e1
+<---- snip ---->
+new WorkerstaticsWorkerjsvar rvar iundefinedtypeof WorkerGlobalScopeself instanceof WorkerGlobalScopenew OffscreenCanvas300,150icreateElementcanvas,argetContext2d,willReadFrequently0,oatextBaselinetop,afont600 
+
+Summary:
+
+Franklin is an IRC bot created by oxagast. The user aestetix asked Franklin to summarize an article from the website stratechery.com. The webpage contains a script that generates a canvas with emojis and supports testing. The article discusses OpenAI's misalignment and Microsoft's gain. Franklin is able to summarize the article by creating a canvas with emojis and using support testing to determine the content.

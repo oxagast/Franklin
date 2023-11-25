@@ -1,0 +1,3 @@
+Dent asked Continue with hash 93ea2139
+<---- snip ---->
+The Morris Worm was one of the first major computer viruses to cause widespread damage and disruption. It was created by a student named Robert Tappan Morris in 1988. Morris intended for the worm to spread through computers and gather information on the size of the internet, but due to a coding error, it ended up infecting thousands of computers and causing major disruptions. Morris was eventually caught and became the first person to be prosecuted under the Computer Fraud and Abuse Act. He was fined and sentenced to community service.

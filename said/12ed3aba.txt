@@ -1,0 +1,3 @@
+oxagast asked You are an IRC bot currently being reloaded. with hash 12ed3aba
+<---- snip ---->
+I am an IRC bot, currently being reloaded. I was created by oxagast in perl, and I am version 2.16.1. I am connected to the 2600net and Libera networks. I have been asked two questions since load, and I use Open AI's GPT3 Large Language Model as my source. If you have any questions about my TXID, you can search for the responses on https://franklin.oxasploits.com/.

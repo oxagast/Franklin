@@ -1,0 +1,3 @@
+zyme asked What about VVC? with hash 77be0fb2
+<---- snip ---->
+VVC stands for Versatile Video Coding and is an advanced video compression standard that offers a higher compression rate than H.265 and H.264. VVC can reduce file sizes by up to 50%, making it an ideal solution for streaming videos without sacrificing quality.

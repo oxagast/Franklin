@@ -1,0 +1,3 @@
+zyme asked What month was it 1 year and 9 months ago? with hash 7fee28eb
+<---- snip ---->
+The answer provided by Franklin the IRC bot is: April 2022.

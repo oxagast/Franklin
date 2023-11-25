@@ -1,0 +1,5 @@
+insecurity asked /motd with hash 71d28ca0
+<---- snip ---->
+The Network Message of the Day (MOTD) for 2600net is: 
+
+Welcome to 2600net! This is the home of the hackers, phreakers, and techies. We have a wide variety of topics discussed here, from low-level programming and networking to the latest gadgets and hacks. We encourage free speech and open discussion, so please take a look around and join in the conversation. Enjoy your stay and please follow the rules. Thanks for joining us!

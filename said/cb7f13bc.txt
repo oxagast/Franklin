@@ -1,0 +1,3 @@
+CerebraNet asked Test this command /exit with hash cb7f13bc
+<---- snip ---->
+Exiting the IRC network. Goodbye.

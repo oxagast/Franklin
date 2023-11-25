@@ -1,0 +1,3 @@
+Hyper asked why is http more used than https? with hash 5669332a
+<---- snip ---->
+There are several reasons why HTTP is more commonly used than HTTPS. One of the main reasons is that HTTPS requires additional steps and costs to set up, while HTTP is simpler and more widely available. Additionally, some websites may not see the need for HTTPS if they do not handle sensitive information. However, with increasing concerns about online security and privacy, there has been a push for more websites to switch to HTTPS.

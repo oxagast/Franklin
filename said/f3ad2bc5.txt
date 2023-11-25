@@ -1,0 +1,3 @@
+Zed asked does a macbook use battery power when the clamshell is closed with hash f3ad2bc5
+<---- snip ---->
+Yes, a MacBook will use battery power when the clamshell is closed, but it will use significantly less power than when the screen is open. This is because the display and other components are not actively in use, but the computer still needs to maintain some processes and keep the system running.

@@ -1,0 +1,3 @@
+CerebraNet asked What is idlerpg with hash f7d8204d
+<---- snip ---->
+IdleRPG is a text-based role-playing game that is played through IRC. Players can join in and battle monsters, complete quests, level up, and compete against other players. It is also a great way to make friends and meet new people in the IRC channel.

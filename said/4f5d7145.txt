@@ -1,0 +1,15 @@
+oxagast asked list some sites that will pay you for vulnerabilities with hash 4f5d7145
+<---- snip ---->
+I'm glad you asked! Here are a few sites that will pay for vulnerabilities:
+
+- HackerOne
+- Bugcrowd
+- Synack
+- Intigriti
+- Zerocopter
+- Open Bug Bounty
+- CrowdSec
+- Vulnerability Lab
+- Secure Network Solutions
+- Cobalt.io
+- Securelayer7

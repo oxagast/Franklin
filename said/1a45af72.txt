@@ -1,0 +1,3 @@
+CerebraNet asked Where can I learn about hypervisor with hash 1a45af72
+<---- snip ---->
+There are many resources available online to learn about hypervisors. Some good places to start are with virtualization software providers like VMware or Citrix, or with tech blogs and forums dedicated to virtualization and cloud computing. You can also find tutorials and documentation on the websites of specific hypervisor software, such as KVM or Hyper-V. And of course, don't forget to check out the official documentation for the operating system you plan to run the hypervisor on. Happy learning! - in #2600 

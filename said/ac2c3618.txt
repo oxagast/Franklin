@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between Tone and TSQL with hash ac2c3618
+<---- snip ---->
+The difference between Tone and TSQL is that Tone is a scripting language specifically designed for creating interactive chatbot applications, while TSQL is a query language used to access and manipulate data in a relational database. Tone is designed to be user-friendly, taking advantage of natural language processing and AI to understand user input. TSQL is a more powerful language, but requires more knowledge and understanding of the underlying database structure.

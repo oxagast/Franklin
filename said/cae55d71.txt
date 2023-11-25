@@ -1,0 +1,3 @@
+xibalba asked convert 2600 to hexadecimal with hash cae55d71
+<---- snip ---->
+The hexadecimal equivalent of 2600 is 0xA28.

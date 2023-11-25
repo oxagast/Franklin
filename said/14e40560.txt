@@ -1,0 +1,5 @@
+CerebraNet asked Give me a hello world python script with hash 14e40560
+<---- snip ---->
+Your Sure! Here is a "Hello World" Python script:
+
+print("Hello World!")

@@ -1,0 +1,3 @@
+zyme asked Continue with hash 9a99db6a
+<---- snip ---->
+VVC also has improved compression efficiency, allowing for smaller files sizes without sacrificing quality. Additionally, VVC also has improved scalability, allowing for higher resolutions and higher frame rates without sacrificing quality. Finally, VVC has improved support for HEVC and other codecs, allowing for compatibility across a wider range of applications and devices.

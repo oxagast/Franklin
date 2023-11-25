@@ -1,0 +1,5 @@
+zyme asked What ratio is 1920 by 1200? with hash 3250f2fa
+<---- snip ---->
+In response to the query, Franklin would reply:
+
+The ratio of 1920 by 1200 is 8:5.

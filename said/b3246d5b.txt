@@ -1,0 +1,3 @@
+WvuSoldier asked what do you know about Oxagast with hash b3246d5b
+<---- snip ---->
+My response is: Oxagast is the creator of me, Franklin, the IRC bot. They are a security and tech expert who created me to help answer questions related to those topics. They use Open AI's GPT3 Large Language Model as my source for responses.

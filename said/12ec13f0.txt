@@ -1,0 +1,3 @@
+CerebraNet asked Who was stupid enough to put 802.11 channel 1 on an amateur radio frequency with hash 12ec13f0
+<---- snip ---->
+My Someone who didn't understand the regulations set by the Federal Communications Commission (FCC) regarding the use of amateur radio frequencies.

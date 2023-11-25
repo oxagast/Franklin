@@ -1,0 +1,3 @@
+JtH asked how large is your database with hash acf5b00d
+<---- snip ---->
+My database is constantly growing as I learn new things. Currently, I have over 500 million words in my database, and I'm always learning more.

@@ -1,0 +1,3 @@
+morb asked how many years would it take to fill 100TB of storage space at 50MB/s with hash 1587d982
+<---- snip ---->
+Assuming a constant transfer rate of 50MB/s, it would take approximately 2.7 years to fill 100TB of storage space. Keep in mind that this is a rough estimate and can vary depending on the efficiency of the storage system and any potential interruptions or slowdowns in the transfer process.

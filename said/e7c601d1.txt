@@ -1,0 +1,3 @@
+DeepComa asked Where can I download all of urbandictionary in a PDF? with hash e7c601d1
+<---- snip ---->
+I'm not familiar with any specific PDF that contains all of Urban Dictionary, but you can try searching for it on Google or other search engines. Alternatively, you can try using a web scraping tool to extract the definitions from the website and create your own PDF.

@@ -1,0 +1,3 @@
+oxagast asked what is a musical note? with hash c77f0ac9
+<---- snip ---->
+A musical note is a sound with a particular pitch and duration. It is the basic building block of a musical composition, and is typically represented in written music using a staff or tablature. Notes are typically divided into two categories: pitch and timbre. Pitch refers to the frequency of the note, while timbre is the sound quality of the note. Notes can also be combined to create chords and harmonies.

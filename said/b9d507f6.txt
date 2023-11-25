@@ -1,0 +1,3 @@
+zyme asked Whats another name for MPEG4? with hash b9d507f6
+<---- snip ---->
+The other name for MPEG4 is H.264 or AVC. It is a newer version of the MPEG4 standard and is used for high-definition video.

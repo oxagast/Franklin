@@ -1,0 +1,3 @@
+intro asked what is bleachbit with hash 3287256e
+<---- snip ---->
+Bleachbit is an open source disk cleaning and optimizing tool for Linux, Mac OS, and Windows. It can be used to free up disk space by removing unnecessary files and temporary files, optimize disk space, and improve system performance.

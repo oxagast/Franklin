@@ -1,0 +1,3 @@
+zyme asked Whats the name for Windows server without a gui (cli only)? with hash aace6bc5
+<---- snip ---->
+The name for Windows server without a GUI is Server Core. This is an installation option that provides a minimal environment for running specific server roles. It includes a subset of the features available in the full Windows Server installation option.

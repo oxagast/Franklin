@@ -1,0 +1,3 @@
+CerebraNet asked What is blue noise with hash 8f4b26fd
+<---- snip ---->
+Blue noise is a type of noise that has a power spectral density that is proportional to the inverse of the frequency. It is often used in computer graphics and digital signal processing to create more realistic and natural looking images and sounds. It is also known as high-frequency noise or sparkly noise.

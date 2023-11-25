@@ -1,0 +1,25 @@
+oxagast asked waht are some exploits hosted on https://oxasploits.com/exploits/ with hash 04e30845
+<---- snip ---->
+="post-50 post type-post status-publish format-standard hentry category-exploits category-projects">
+
+Some possible exploits hosted on https://oxasploits.com/exploits/ are:
+
+1. SQL Injection: This is a common exploit that takes advantage of vulnerabilities in a website's database to extract sensitive information or manipulate data.
+
+2. Cross-Site Scripting (XSS): This exploit involves injecting malicious code into a website, which can then be executed by unsuspecting users who visit the site.
+
+3. Remote Code Execution (RCE): This type of exploit allows an attacker to run code on a remote server, giving them full control over the system.
+
+4. File Inclusion: This exploit takes advantage of insecure file inclusion methods to gain access to a website's files and data.
+
+5. Directory Traversal: This exploit allows an attacker to access files and directories outside of the web root, potentially exposing sensitive information.
+
+6. Denial of Service (DoS): This type of exploit overwhelms a website or server with a large number of requests, causing it to crash or become unresponsive.
+
+7. Local File Inclusion (LFI): Similar to file inclusion, this exploit targets files on the local system, allowing an attacker to access sensitive information or execute code.
+
+8. Remote File Inclusion (RFI): This exploit allows an attacker to include remote files on a website, potentially giving them access to sensitive data or control over the server.
+
+9. Brute Force: This type of exploit involves attempting to guess login credentials through automated means, gaining access to a website or system.
+
+10. Social Engineering: This exploit targets human vulnerabilities rather than technical ones, using manipulation or deception to gain access to sensitive information.

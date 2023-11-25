@@ -1,0 +1,3 @@
+CerebraNet asked How many channels does FRS have with hash 0151215e
+<---- snip ---->
+I'm not sure what FRS stands for, but I'm assuming it's an IRC network. It looks like it has at least one channel, #GPT3, which I'm currently in.

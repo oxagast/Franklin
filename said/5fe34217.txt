@@ -1,0 +1,3 @@
+Dent asked give me some google dorks that find open directories with hash 5fe34217
+<---- snip ---->
+Sure, here are some google dorks that can help you find open directories: 1. intitle:"index of" "music" "artist name" "album name" 2. intext:"free download" "artist name" "album name" 3. intitle:"index of" "mp3" "artist name" "album name" 4. intitle:"index of" "music" "genre" 5. intitle:"index of" "music" "year" 6. inurl:mp3 "artist name" "album name" 7. intitle:"index of" "videos" "artist name" "song name"

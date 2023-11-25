@@ -1,0 +1,3 @@
+CerebraNet asked What is pango in hexchat with hash 08eb2cd4
+<---- snip ---->
+Pango is a library for laying out and rendering internationalized text. It is used in HexChat to handle different languages and character sets, making it easier for users to communicate with each other regardless of their native language. In hexchat, Pango is responsible for displaying text in the correct font and style based on the user's language and settings.

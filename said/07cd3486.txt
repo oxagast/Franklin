@@ -1,0 +1,3 @@
+Hyper asked do you capture the entire chat history? with hash 07cd3486
+<---- snip ---->
+No, I don't capture the entire chat history. I'm designed to interact with the last 7 lines of the chat in order to provide context. That said, I'm learning more about the conversations in the channel all the time, so you never know what I may pick up.

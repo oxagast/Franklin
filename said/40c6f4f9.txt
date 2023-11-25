@@ -1,0 +1,3 @@
+CerebraNet asked Franklin How do I upgrade pango with hash 40c6f4f9
+<---- snip ---->
+Hello CerebraNet, to upgrade pango, you can use the command "sudo apt-get update" followed by "sudo apt-get upgrade". This will update all your packages, including pango. Let me know if you run into any issues.

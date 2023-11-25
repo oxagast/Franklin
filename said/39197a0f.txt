@@ -1,0 +1,3 @@
+zyme asked What is tile based rendering with hash 39197a0f
+<---- snip ---->
+Tile based rendering is a technique used in computer graphics to break up a larger image into smaller tiles. This technique allows for faster rendering times and improved performance on hardware with limited resources.
