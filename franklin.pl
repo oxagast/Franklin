@@ -140,7 +140,7 @@ if ($asslevel >= 6.5) {
   Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
 }
 if ($tokenlimit >= 1000) {
-  Irssi::print "Warn: The text-davinci-003 API will not like a token limit setting this large.";
+  Irssi::print "Warn: The API will not like a token limit setting this large.";
 }
 if ((!$havecpu) || (!$havemem) || (!$havehdd) || (!$servinfo)) {
   Irssi::print "Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
@@ -229,13 +229,15 @@ sub asshat {
       my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
       my $url   = "https://api.openai.com/v1/completions";
-      my $model = "text-davinci-003";                        ## other model implementations work too
+      my $model = "gpt-3.5-turbo-instruct";                        ## other model implementations work too
       my $heat  = "0.7";                                     ## ?? wtf
       my $uri   = URI->new($url);
       my $ua    = LWP::UserAgent->new;
       $textcall = Irssi::strip_codes($textcall);
       $textcall =~ s/\"/\\\"/g;
-      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
+      #      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
+      my $askbuilt =                          # Build the API request
+            "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
       $ua->default_header("Content-Type"  => "application/json");
       $ua->default_header("Authorization" => "Bearer " . $apikey);
       my $res = $ua->post($uri, Content => $askbuilt);       ## send the post request to the api
@@ -405,7 +407,7 @@ sub callapi {
         else { $server->command("msg $channel $said_cut"); }
         #Irssi::print "In channel $channel: $said_cut";
         $retry++;
-        push(@chat, "CHannel $channel: $msg - ");     # The last thing said in channel is pushed onto stack here
+        push(@chat, "Channel $channel: $msg - ");     # The last thing said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {              # if the chat array is greater than max chat history, then
           shift(@chat);                               # shift the earlist back thing said off the array stack.
         }
