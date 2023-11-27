@@ -446,6 +446,7 @@ sub checkcmsg {
   $pm = 0;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
+  unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
