@@ -72,6 +72,7 @@ our $reqs        = 0;
 our $price_per_k = 0.02;
 our $isup        = 0;
 our $pm          = -1;
+our $totals      = Irssi::settings_get_int('franklin_total_msgs');
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "sk-BCjqd..., " . "then reload with /script load franklin.pl";
@@ -442,6 +443,7 @@ sub falive {
 
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  Irssi::settings_set_int('franklin_total_msgs', $totals++);
   my $type = "chan";
   $msg_count++;
   $pm = 0;
@@ -525,6 +527,7 @@ sub checkcmsg {
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  Irssi::settings_set_int('franklin_total_msgs', $totals++);
   my $type  = "pm";    # this stuff only runs if it is a PM/MSG not in channel stuff
   my $wrote = 1;
   if ($nick ne "Franklin") {
