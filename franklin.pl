@@ -9,6 +9,8 @@
 #   |- |   | | | | |<  | | | |
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
+use 5.10.0;
+use warnings;
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
