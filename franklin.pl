@@ -121,13 +121,13 @@ Irssi::print "  franklin_google_gtag             (optional)            => $gtag"
 Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
 Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
-Irssi::print "  franklin_txid_chans              (optional)            => @chanlst[0]";
+Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
 
-if (@txidchans[3]) {    # if this is defined then you know you need the next line for data
-  Irssi::print "                                                            @chanlst[1]";
+if ($txidchans[3]) {    # if this is defined then you know you need the next line for data
+  Irssi::print "                                                            $chanlst[1]";
 }
-if (@txidchans[6]) {    # same as above
-  Irssi::print "                                                            @chanlst[2]";
+if ($txidchans[6]) {    # same as above
+  Irssi::print "                                                            $chanlst[2]";
 }
 if ($hardlimit > 380) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
