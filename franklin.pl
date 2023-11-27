@@ -92,9 +92,13 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
+<<<<<<< HEAD
 #for my $cchan (0..8) {
 # if ($txidchans[$cchan] eq "") { $txidchans[$cchan] = ""; }
 #}
+=======
+
+>>>>>>> parent of 991924fe (This will define  array through the 8th position, regaurdless of if it has data, so we don't have an undefined array.)
 my @chanlst;
 $chanlst[0] = $txidchans[0] . " " . $txidchans[1] . " " . $txidchans[2];
 $chanlst[1] = $txidchans[3] . " " . $txidchans[4] . " " . $txidchans[5];
