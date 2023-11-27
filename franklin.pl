@@ -72,7 +72,7 @@ our $reqs        = 0;
 our $price_per_k = 0.02;
 our $isup        = 0;
 our $pm          = -1;
-our $totals      = Irssi::settings_get_int('franklin_total_msgs');
+our $totals      = Irssi::settings_add_int('franklin_total_msgs', 0);
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "sk-BCjqd..., " . "then reload with /script load franklin.pl";
