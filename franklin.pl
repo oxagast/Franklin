@@ -287,7 +287,7 @@ sub callapi {
   else {
     $modstat = " not a channel";
   }
-  if ($cmn ne $nick) {
+  if (($cmn) && ($cmn ne $nick)) {
     my $textcall_bare = $textcall;
     my $dcp;
     if (($page) && (length($page) >= 20)) {
