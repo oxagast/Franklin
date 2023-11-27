@@ -94,7 +94,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
-for $cchan (0..8) {
+for my $cchan (0..8) {
   unless ($txidchans[$cchan]) { $txidchans[$cchan] = ""; }
 }
 my @chanlst;
