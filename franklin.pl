@@ -292,6 +292,7 @@ sub callapi {
   else {
     $modstat = " not a channel";
   }
+  unless ($cmn) {$cmn = "Franklin";}
   if ($cmn ne $nick) {
     my $textcall_bare = $textcall;
     my $dcp;
