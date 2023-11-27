@@ -96,9 +96,9 @@ else { Irssi: print "Something went wrong with the API key..."; }
 # if ($txidchans[$cchan] eq "") { $txidchans[$cchan] = ""; }
 #}
 my @chanlst;
-$chanlst[0] = $txidchans[0] . " " . $txidchans[1] . " " . $txidchans[2];
-$chanlst[1] = $txidchans[3] . " " . $txidchans[4] . " " . $txidchans[5];
-$chanlst[2] = $txidchans[6] . " " . $txidchans[7] . " " . $txidchans[8];
+@chanlst[0] = @txidchans[0] . " " . @txidchans[1] . " " . @txidchans[2];
+@chanlst[1] = @txidchans[3] . " " . @txidchans[4] . " " . @txidchans[5];
+@chanlst[2] = @txidchans[6] . " " . @txidchans[7] . " " . @txidchans[8];
 my $apifirstp = substr($apikey, 0,  16);
 my $apilastp  = substr($apikey, 40, 49);
 Irssi::print "";
