@@ -459,7 +459,7 @@ sub checkcmsg {
       s/^#.*//;
     }
   }
-  if (grep(/^$nick$/, @badnicks)) {    # fuck everyone inside this conditional
+  if ($nick ~~ @badnicks) {    # fuck everyone inside this conditional
     Irssi::print "Franklin: $nick does not have privs to use this.";
   }
   else {
