@@ -31,6 +31,7 @@ $VERSION = "3.0.5";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'November, 27th 2023',
 );
+
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
@@ -48,6 +49,7 @@ Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
 Irssi::settings_add_str("franklin", "franklin_mem_approx",              "");
 Irssi::settings_add_str("franklin", "franklin_cpu_approx",              "");
+Irssi::settings_add_int("franklin", "Franklin_total_msgs", 0);
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -64,6 +66,7 @@ our $havehdd   = Irssi::settings_get_str('franklin_hdd_approx');
 our $havemem   = Irssi::settings_get_str('franklin_mem_approx');
 our $havecpu   = Irssi::settings_get_str('franklin_cpu_approx');
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
+our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our @chat;
 our %moderate;
 our $apikey;
@@ -72,7 +75,6 @@ our $reqs        = 0;
 our $price_per_k = 0.02;
 our $isup        = 0;
 our $pm          = -1;
-our $totals      = Irssi::settings_add_int('franklin_total_msgs', 0);
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "sk-BCjqd..., " . "then reload with /script load franklin.pl";
@@ -95,11 +97,11 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
-for my $cchan (0..8) {
+for my $cchan (0 .. 8) {
   unless ($txidchans[$cchan]) { $txidchans[$cchan] = ""; }
 }
-for my $cchan (0..8) {
- if ($txidchans[$cchan] eq "") { $txidchans[$cchan] = ""; }
+for my $cchan (0 .. 8) {
+  if ($txidchans[$cchan] eq "") { $txidchans[$cchan] = ""; }
 }
 my @chanlst;
 $chanlst[0] = $txidchans[0] . " " . $txidchans[1] . " " . $txidchans[2];
@@ -217,7 +219,7 @@ sub pullpage {
     );
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $page_body = untag(encode('utf-8', $cres->decoded_content()));    # we get an error unless this is utf8
+      my $page_body = untag(encode('utf-8', $cres->decoded_content()));                                        # we get an error unless this is utf8
       $page_body =~ s/\s+/ /g;
       $page_body =~ s/[^a-zA-Z0-9, ]+//g;
       return $page_body;
@@ -235,15 +237,16 @@ sub asshat {
       my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
       my $url   = "https://api.openai.com/v1/completions";
-      my $model = "gpt-3.5-turbo-instruct";                        ## other model implementations work too
+      my $model = "gpt-3.5-turbo-instruct";                  ## other model implementations work too
       my $heat  = "0.7";                                     ## ?? wtf
       my $uri   = URI->new($url);
       my $ua    = LWP::UserAgent->new;
       $textcall = Irssi::strip_codes($textcall);
       $textcall =~ s/\"/\\\"/g;
+
       #      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
-      my $askbuilt =                          # Build the API request
-            "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
+      my $askbuilt =                                         # Build the API request
+        "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
       $ua->default_header("Content-Type"  => "application/json");
       $ua->default_header("Authorization" => "Bearer " . $apikey);
       my $res = $ua->post($uri, Content => $askbuilt);       ## send the post request to the api
@@ -284,7 +287,7 @@ sub callapi {
   if ($server->channel_find($channel)) {
     my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
     if ($cmn->{op} eq 1) {
-      $modstat = "a channel";    # cmn->{op} returns 0 on normal user, 1 on operator status.
+      $modstat = "a channel";                                            # cmn->{op} returns 0 on normal user, 1 on operator status.
     }
     else {
       $modstat = "not a channel";
@@ -293,12 +296,12 @@ sub callapi {
   else {
     $modstat = " not a channel";
   }
-  unless ($cmn) {$cmn = "Franklin";}
+  unless ($cmn) { $cmn = "Franklin"; }
   if ($cmn ne $nick) {
     my $textcall_bare = $textcall;
     my $dcp;
     if (($page) && (length($page) >= 20)) {
-      $page = substr($page, 0, 1800);                                                                                                                                                                                        # becuse otherwise its too long
+      $page = substr($page, 0, 1800);                                                                                                                                                                                       # becuse otherwise its too long
       $dcp  = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast. The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
@@ -340,6 +343,7 @@ sub callapi {
     $ua->default_header("Content-Type"  => "application/json");
     $ua->default_header("Authorization" => "Bearer " . $apikey);
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
+
     if ($res->is_success) {
       ## response should look like
       ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
@@ -366,13 +370,13 @@ sub callapi {
       }
       unless ($said eq "") {
         my $hexfn = substr(                  ## the reencode fixes the utf8 bug
-         Digest::MD5::md5_hex(
-                                utf8::is_utf8($said)
-                              ? Encode::encode_utf8($said)
-                              : $said
-         ),
-         0,
-         8
+          Digest::MD5::md5_hex(
+                                 utf8::is_utf8($said)
+                               ? Encode::encode_utf8($said)
+                               : $said
+          ),
+          0,
+          8
         );
         umask(0133);                         # perms umask for files in said/
         my $toks = $ctoks + $ptoks;
@@ -395,7 +399,7 @@ sub callapi {
         close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-        #Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
+                                  #Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
@@ -412,30 +416,31 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
+
         #Irssi::print "In channel $channel: $said_cut";
         $retry++;
-        push(@chat, "Channel $channel: $said_cut - ");     # The last thing (franklin) said in channel is pushed onto stack here
-        if (scalar(@chat) >= $histlen) {              # if the chat array is greater than max chat history, then
-          shift(@chat);                               # shift the earlist back thing said off the array stack.
+        push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
+        if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
+          shift(@chat);                                   # shift the earlist back thing said off the array stack.
         }
         return 0;
       }
-      return 1;                                       # tell it it didn't finish right
+      return 1;                                           # tell it it didn't finish right
     }
-    else { return 1; }                                # otherwise tell it it was incomplete
+    else { return 1; }                                    # otherwise tell it it was incomplete
   }
 }
 
 
 sub falive {
-  if ($hburl) {                                       # this makes it so its not mandatory to have it set
+  if ($hburl) {                                           # this makes it so its not mandatory to have it set
     while (1) {
       if ($isup eq 0) {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
-        $ua->post($uri);    #  Send post to alive worker on other server
+        $ua->post($uri);                                  #  Send post to alive worker on other server
       }
-      sleep 30;             # wait
+      sleep 30;                                           # wait
     }
   }
 }
@@ -443,7 +448,9 @@ sub falive {
 
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
-  Irssi::settings_set_int('franklin_total_msgs', $totals++);
+  $totals = Irssi::settings_get_int('franklin_total_msgs');
+  $totals++;
+  Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
   $msg_count++;
   $pm = 0;
@@ -451,6 +458,7 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
+
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
     $moderate{$nick} = 0;
@@ -479,18 +487,19 @@ sub checkcmsg {
     my $wrote = 1;
     my $ln    = $server->{nick};
     if ($msg =~ /^$ln[:|,] (.*)/i) {    # added /i for case insensitivity
-      my $textcall = $1;                                                            # $1 is the "dot star" inside the parenthesis
+      my $textcall = $1;                # $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
       $textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;    # this and next 3 lines are so that it
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;          # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
+
       #Irssi::print "Franklin: $nick asked: $textcall";
 
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
-        while (($wrote eq 1) && ($try <= $maxretry)) {    # this fixes when Franklin sometimes fails to respond
+        while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           $isup = $wrote;
@@ -527,7 +536,9 @@ sub checkcmsg {
 
 sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
-  Irssi::settings_set_int('franklin_total_msgs', $totals++);
+  $totals = Irssi::settings_get_int('franklin_total_msgs');
+  $totals++;
+  Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type  = "pm";    # this stuff only runs if it is a PM/MSG not in channel stuff
   my $wrote = 1;
   if ($nick ne "Franklin") {
