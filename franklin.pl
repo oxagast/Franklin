@@ -269,7 +269,6 @@ sub callapi {
   my $retcode = 1;
 
   #Irssi::print "$server, $nick, $channel";
-  my $retry  = 0;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );    # Set up the date for API req
   my @days   = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
@@ -418,7 +417,6 @@ sub callapi {
         else { $server->command("msg $channel $said_cut"); }
 
         #Irssi::print "In channel $channel: $said_cut";
-        $retry++;
         push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
           shift(@chat);                                   # shift the earlist back thing said off the array stack.
@@ -502,6 +500,7 @@ sub checkcmsg {
         while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
+          sleep(2.5);
           $isup = $wrote;
         }
         return $wrote;
@@ -553,6 +552,7 @@ sub checkpmsg {
       while (($wrote eq 1) && ($try <= $maxretry)) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);    # this puls from the api for the pm
         $try++;
+        sleep(2.5);
         $isup = $wrote;
       }
     }
