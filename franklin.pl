@@ -22,7 +22,7 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper;
 $|++;
-$VERSION = "3.0.5";
+$VERSION = "3.0.6";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -30,7 +30,7 @@ $VERSION = "3.0.5";
           description => 'Franklin ChatGPT bot',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'November, 27th 2023',
+          changed     => 'Jan, 21st 2024',
 );
 
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
@@ -148,8 +148,8 @@ if ($hardlimit > 380) {
   print LOGGER "Warn: Hard lmiit may spill over first line if set this high.\n";
   close(LOGGER);
 }
-if ($histlen >= 8) {
-  Irssi::print "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.";
+if ($histlen > 30) {
+  Irssi::print "Warn: If the history is set to this many lines, the contextual prelude will fill before the user's question.";
   open(LOGGER, '>>', $logf);
   print LOGGER "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.\n";
   close(LOGGER);
@@ -239,7 +239,7 @@ sub pullpage {
     close(LOGGER);
     my $cua = LWP::UserAgent->new(
                                   protocols_allowed => ['http', 'https'],
-                                  timeout           => 5,
+                                  timeout           => 10,
                                   agent             => 'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
                                   max_size          => 4000
     );
@@ -312,7 +312,7 @@ sub callapi {
       $context = $context . $1;                                          # BVreak down the chat stack for the context to build req
     }
   }
-  $context = substr($context, -450);                                     # we have to trim
+  #  $context = substr($context, -3000);                                     # we have to trim
   my $modstat;
   if ($server->channel_find($channel)) {
     my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
@@ -331,8 +331,8 @@ sub callapi {
     my $textcall_bare = $textcall;
     my $dcp;
     if (($page) && (length($page) >= 20)) {
-      $page = substr($page, 0, 1800);                                                                                                                                                                                       # becuse otherwise its too long
-      $dcp  = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast. The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
+      $page = substr($page, 0, 15000);                                                                                                                                                                                       # becuse otherwise its too long
+      $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
       # below is the contextual prelude that sets text-danvinci-003 up
@@ -454,8 +454,11 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
-
-        #Irssi::print "In channel $channel: $said_cut";
+                                                          # Note concerning GPT 3.5 Turbo Instruct: 4096 toksn is equiv to about 32 lines
+                                                          # This is caculated by (at ~4 chars per token, 512 chars per max len irc line) 
+                                                          # ((4096 * 4 ) / 512) - length($dcp).  This means you now have room for at 
+                                                          # MAXIMUM ~30 lines of $histlen.
+                                                          # I do not recommend setting it this high though.
         push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
           shift(@chat);                                   # shift the earlist back thing said off the array stack.
