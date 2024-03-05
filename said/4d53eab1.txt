@@ -1,0 +1,3 @@
+XYZ asked Do you know anything similar to f-droid and apkpure? with hash 4d53eab1
+<---- snip ---->
+Yes, there are a few alternatives to f-droid and apkpure. One option is Aptoide, which is an open-source app store for Android devices. Another option is Amazon Appstore, which offers a selection of free and paid apps for Android devices. Additionally, there is also APKMirror, which hosts APK files for popular apps and allows users to download them directly.

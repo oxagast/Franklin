@@ -1,0 +1,3 @@
+morb asked whats the standard voltage for an idle telephone circuit, an off-hook telephone circuit, and the ringing votage of a telephone circuit? provide voltage types and current please with hash 71c43e8c
+<---- snip ---->
+The standard voltage for an idle telephone circuit is 48 volts (V), with a current of 20 milliamps (mA). For an off-hook telephone circuit, the voltage is 12 V, with a current of 100 mA. The ringing voltage for a telephone circuit is typically around 90 V, with a frequency of 20 Hz and a current of 100 mA. It is important to note that these values may vary depending on the specific phone system and equipment being used.

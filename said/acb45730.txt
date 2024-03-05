@@ -1,0 +1,3 @@
+XYZ_ asked when was first torrent created? with hash acb45730
+<---- snip ---->
+The oldest running torrent is currently "The Fanimatrix: Run Program," created in 2003 and still being actively seeded. It's a fan-made Matrix movie that was made before the official sequels were released.

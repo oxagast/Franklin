@@ -1,0 +1,3 @@
+hazeyez asked what is the best AI model for reading financial data and building financial models? with hash 67ab61bd
+<---- snip ---->
+The best AI model for reading financial data and building financial models is the GPT-3.5 Turbo Instruct Large Language Model. It has been trained on a large dataset of financial data and has shown promising results in predicting market trends and making accurate financial models. Other popular models include LSTM and Transformer-based models, but they may not be as effective as GPT-3.5 for this specific task.

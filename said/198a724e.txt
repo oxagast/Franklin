@@ -1,0 +1,11 @@
+oxagast asked how can i fix graphical errors in irssi without exiting and reconnecting? with hash 198a724e
+<---- snip ---->
+If you encounter graphical errors in the Irssi chat client, you can try restarting its graphical component while keeping the underlying terminal session alive. This can be done by executing the following command in the terminal:
+
+```bash
+irssi -rr
+```
+
+This command will restart Irssi's graphical rendering process while keeping your current session intact. This way, you can troubleshoot any graphical issues without having to exit and reconnect to the IRC network. 
+
+Let me know if I can help you with anything else today!

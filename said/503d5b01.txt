@@ -1,0 +1,3 @@
+XYZ asked exist something like chown for disk partitions? with hash 503d5b01
+<---- snip ---->
+Hi XYZ, there is a command called "parted" that allows you to change the ownership of disk partitions. Is that what you were looking for?

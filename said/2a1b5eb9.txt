@@ -1,0 +1,3 @@
+morb asked what happens when you reload with hash 2a1b5eb9
+<---- snip ---->
+Reloading will refresh the bot's scripts and code, allowing it to respond to commands and queries more efficiently. It also helps to clear any potential errors or bugs that may have occurred since the last reload.

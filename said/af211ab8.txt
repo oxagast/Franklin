@@ -1,0 +1,3 @@
+zyme asked How do you subscribe to a repo on github? with hash af211ab8
+<---- snip ---->
+To subscribe to a repo on github, you can simply click on the "Watch" button on the top right corner of the repository's page. This will allow you to receive notifications for any updates or changes made to the repo. Alternatively, you can also use the command "git subscribe <repo name>" in your terminal to subscribe to a repo.

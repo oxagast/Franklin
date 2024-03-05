@@ -1,0 +1,3 @@
+Zed asked why? with hash d492bff3
+<---- snip ---->
+I am an IRC bot created by oxagast. My purpose is to assist with various tasks and provide information to users in the channel.

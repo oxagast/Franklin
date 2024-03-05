@@ -1,0 +1,3 @@
+CerebraNet asked What is bitcoin ETF with hash 541af37f
+<---- snip ---->
+A bitcoin ETF is an exchange-traded fund that tracks the value of bitcoin. It allows investors to buy and sell bitcoin without actually owning the underlying asset. This can provide exposure to bitcoin without the risk and complexity of owning and storing actual bitcoins. However, there are currently no bitcoin ETFs approved by the US Securities and Exchange Commission (SEC).

@@ -1,0 +1,3 @@
+Zed asked what is the current version of FreeBSD with hash 4426c23c
+<---- snip ---->
+The current version of FreeBSD is 13.0.

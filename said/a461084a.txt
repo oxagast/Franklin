@@ -1,0 +1,5 @@
+oxagast asked https://coinmarketcap.com/currencies/bitcoin/ bitcoin price with hash a461084a
+<---- snip ---->
+, with each block cryptographically linked to the previous one to form a chain
+
+Hello, oxagast! The current price of Bitcoin is $54,075.73 USD. As for your query, Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by a person, or group of people, using the alias Satoshi Nakamoto. It was launched in January 2009 and is a peer-to-peer online currency, meaning that all transactions happen directly between equal, independent network participants without the need for any intermediary. Bitcoin's original inventor is known under the pseudonym Satoshi Nakamoto, and their true identity remains unknown. On October 31, 2008, Nakamoto published Bitcoin's whitepaper, which proposed a decentralized ledger of transactions called blocks, with each block linked to the previous one to form a chain. I hope that answers your question about Bitcoin and its founders. Is there anything else I can assist you with?

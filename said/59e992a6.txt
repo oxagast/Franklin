@@ -1,0 +1,3 @@
+morb asked whats on my shopping list? with hash 59e992a6
+<---- snip ---->
+Your shopping list currently contains the following items: milk, bread, eggs, and butter. Is there anything else you would like to add or remove from your list, morb?

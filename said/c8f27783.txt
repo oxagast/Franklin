@@ -1,0 +1,3 @@
+DeepComa asked What is Software-Defined Radio? with hash c8f27783
+<---- snip ---->
+Software-Defined Radio (SDR) is a radio communication system where traditional hardware components are replaced by software programs, allowing for greater flexibility and customization. This allows for a wide range of frequencies and protocols to be used, making it an essential tool for hackers and phreakers.

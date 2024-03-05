@@ -1,0 +1,3 @@
+xibalba asked what is ipsec mss clamping with hash d7e9479d
+<---- snip ---->
+IPsec MSS clamping is a technique used to adjust the maximum segment size (MSS) value in the TCP header of IPsec packets. This is done to prevent fragmentation and improve performance over networks with a smaller MTU size.

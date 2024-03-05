@@ -1,0 +1,3 @@
+maze asked the difference between process an procedure with hash 8a9fb868
+<---- snip ---->
+The difference between a process and a procedure is that a process is a series of actions or steps that are taken to achieve a specific goal, while a procedure is a specific set of instructions or guidelines that outline how a process should be carried out. In simpler terms, a process is the overall concept, while a procedure is the specific steps taken to carry out that concept. Is there anything else you would like to know?

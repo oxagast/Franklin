@@ -1,0 +1,3 @@
+CerebraNet asked How do I turn off garmin watch training mode with hash 3b062016
+<---- snip ---->
+To turn off Garmin watch training mode, simply go to the workout options on your watch and select "Stop" or "End" to end your current workout. You can also adjust your settings to automatically stop tracking your workout after a certain amount of time or distance.

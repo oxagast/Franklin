@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between RG8 and RG8X cables with hash 4a179cc8
+<---- snip ---->
+RG8 and RG8X are both coaxial cables used for transmitting high frequency signals. The main difference between the two is in their size and construction. RG8X is thinner and more flexible, making it easier to work with, while RG8 is thicker and more durable. RG8X also has a slightly lower attenuation rate, meaning it can carry signals over longer distances without losing strength. However, RG8 is better suited for higher power applications, such as in radio transmitters. Ultimately, the choice between RG8 and RG8X depends on the specific needs of the user.

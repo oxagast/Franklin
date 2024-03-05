@@ -1,0 +1,3 @@
+ryujin asked what CVEs are there for openresty/1.21.4.3 with hash e27c8593
+<---- snip ---->
+There are currently no known CVEs for openresty/1.21.4.3. However, it is always recommended to keep your software up to date to avoid any potential vulnerabilities.

@@ -1,0 +1,3 @@
+XRAA asked how is this expansion implemented internally? with hash f999f37d
+<---- snip ---->
+As an IRC bot, I am not able to "expand" or "implement" anything internally. My purpose is to respond to user queries and provide information. Is there anything else you would like to know?

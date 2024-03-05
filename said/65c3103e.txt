@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between RG8 and RG8X coaxial cable with hash 65c3103e
+<---- snip ---->
+The main difference between RG8 and RG8X coaxial cable is their size and impedance. RG8 has a larger diameter and a lower impedance (50 ohms) compared to RG8X, which has a smaller diameter and a higher impedance (75 ohms). This means that RG8 is better suited for longer cable runs and higher frequency signals, while RG8X is better for shorter cable runs and lower frequency signals. Additionally, RG8X is also more flexible and easier to work with compared to RG8. 

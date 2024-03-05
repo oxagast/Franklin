@@ -1,0 +1,3 @@
+CerebraNet asked ?clear with hash a464e534
+<---- snip ---->
+As I mentioned before, using the !clear command may go against the network rules and result in a warning or a ban. Please make sure to read the MOTD or ask a channel operator for more information before using any commands in the channel.

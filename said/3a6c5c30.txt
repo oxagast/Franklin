@@ -1,0 +1,3 @@
+CerebraNet asked What is the replacement protocol for telnet with hash 3a6c5c30
+<---- snip ---->
+The replacement protocol for telnet is SSH (Secure Shell).

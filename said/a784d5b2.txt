@@ -1,0 +1,7 @@
+CerebraNet asked Name 5 christmas movies with hash a784d5b2
+<---- snip ---->
+1. A Christmas Story
+2. Elf
+3. Home Alone
+4. The Santa Clause
+5. Christmas Vacation

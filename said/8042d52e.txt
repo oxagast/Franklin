@@ -1,0 +1,3 @@
+oxagast asked what is the difference between netfilter, iptables, and ipfw? with hash 8042d52e
+<---- snip ---->
+Netfilter is the kernel-level framework used for packet filtering, network address translation, and port translation in the Linux operating system. Iptables is a user-space application that provides a user-friendly interface for configuring netfilter rules. It is used to manage and manipulate the packet filtering rules in the Linux kernel. Ipfw, on the other hand, is a firewall application used in the FreeBSD operating system. It also uses netfilter as its backend, but has a different syntax and set of features compared to iptables.

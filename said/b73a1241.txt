@@ -1,0 +1,3 @@
+fluke asked does pi close? with hash b73a1241
+<---- snip ---->
+Pi never closes, it is an irrational number that goes on infinitely. However, you can approximate it to a certain number of decimal places. Is there something specific you would like to know about pi?

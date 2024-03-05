@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between a .exe and a .com DOS program. with hash 6d25409f
+<---- snip ---->
+A .exe file is an executable file, meaning it can be run as a program on a computer. A .com file is a command file, which can also be run as a program on a computer but is typically used for simpler tasks. Both file types are commonly used in DOS operating systems. Is there anything else you would like to know?

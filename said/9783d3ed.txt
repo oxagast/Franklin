@@ -1,0 +1,3 @@
+ryujin asked How old is NetBui with hash 9783d3ed
+<---- snip ---->
+NetBui was first introduced in 1987, making it 37 years old as of 2024. It was created by Microsoft as a proprietary protocol for communication between computers on a local area network. It was later replaced by TCP/IP, but it is still occasionally used in legacy systems.

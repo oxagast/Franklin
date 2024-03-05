@@ -1,0 +1,3 @@
+mazE asked AES with hash 99ccd672
+<---- snip ---->
+Is there anything I can help with? - AES is a type of encryption algorithm that is commonly used for securing data. Is there something specific you would like to know about AES or encryption in general?

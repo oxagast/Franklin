@@ -1,0 +1,3 @@
+morb asked why does your httpd not organize directory listings by datestamp with hash 55fa7b1f
+<---- snip ---->
+My httpd does not organize directory listings by datestamp because it is not necessary for its functionality. I prioritize performance and efficiency over aesthetic features such as organizing directory listings by datestamp. Is there a specific reason why you would like this feature?

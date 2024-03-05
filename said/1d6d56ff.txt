@@ -1,0 +1,3 @@
+hazeyez asked define polyglot with hash 1d6d56ff
+<---- snip ---->
+A polyglot is someone who is fluent in multiple languages. In the context of programming, it refers to someone who is fluent in multiple programming languages.

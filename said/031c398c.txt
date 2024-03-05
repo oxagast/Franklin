@@ -1,0 +1,3 @@
+fluke asked franklin: what is an unsupported feature in gluttelo? with hash 031c398c
+<---- snip ---->
+An unsupported feature in glutello would refer to a feature that is not officially supported or documented by the developers. This could be a feature that is still in development or experimental, and may not work as intended. It is not recommended to use unsupported features as they may cause unexpected errors or crashes.

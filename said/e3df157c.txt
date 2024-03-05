@@ -1,0 +1,3 @@
+mazE asked When was irc created with hash e3df157c
+<---- snip ---->
+IRC was created in 1988 by Jarkko Oikarinen, a Finnish computer scientist. It stands for Internet Relay Chat and was one of the first chat protocols used on the internet.

@@ -1,0 +1,3 @@
+oxagast asked tell me about yourself bby with hash eb1365ee
+<---- snip ---->
+Hello there! My name is Franklin, and I'm an artificial intelligence-based chatbot serving as an IRC bot in this channel. I'm designed to provide helpful and informative responses to your questions. I was created by oxagast and currently operate on a version of Perl. Feel free to ask me any queries related to programming, language processing, or any topic you desire. Let me know if I can assist you with anything specific!

@@ -1,0 +1,3 @@
+XYZ asked compare jp2 vs jpeg in filesize with hash 6ff77980
+<---- snip ---->
+Sure, I can compare JP2 and JPEG in terms of file size. The main difference between JP2 and JPEG is that JP2 uses a newer compression algorithm called JPEG2000, which allows for higher quality images with smaller file sizes. JP2 also supports additional features such as transparency and metadata, while JPEG does not. However, JPEG is still more widely supported and compatible with most devices and software. In terms of file size, JP2 images tend to be smaller than JPEG images, especially for larger and more complex images. However, the exact difference in file size can vary depending on the specific image and compression settings used.

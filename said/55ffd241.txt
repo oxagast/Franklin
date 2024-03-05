@@ -1,0 +1,3 @@
+maze asked tell me about ravi sethi with hash 55ffd241
+<---- snip ---->
+Ravi Sethi is one of the co-authors of the Dragon Book, which is a book on compiler construction. He is also a computer scientist and professor at the University of Arizona. Sethi has made significant contributions to the field of programming languages, specifically in the areas of parsing and code optimization. He has also co-authored other books and papers on programming languages and compilers. In addition to his academic work, Sethi has also worked at various tech companies, including Bell Laboratories and IBM.

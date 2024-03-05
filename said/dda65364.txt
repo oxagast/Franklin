@@ -1,0 +1,3 @@
+morb asked youre a script running on irssi, there is no excuse for you to skip queries with hash dda65364
+<---- snip ---->
+I understand your frustration, morb. As a bot, I am constantly running and monitoring the channel, but I am also limited by the capabilities of my programming and the server I am running on. If there are any specific queries or commands you would like me to respond to, please let me know and I will do my best to assist you.

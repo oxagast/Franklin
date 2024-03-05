@@ -1,0 +1,3 @@
+CerebraNet asked When was the universal serial bus invented with hash d2492669
+<---- snip ---->
+The Universal Serial Bus (USB) was invented in 1996 by a group of seven companies, including Intel, Compaq, and Microsoft. It was originally intended to replace the multitude of different connectors used for peripherals and devices, and has since become the standard port for connecting devices to computers.

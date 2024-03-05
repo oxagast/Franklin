@@ -1,0 +1,3 @@
+fluke asked what is the point of glutello.mo? with hash ce305165
+<---- snip ---->
+Glutello.mo is a file extension used for a type of malware called Glutello. The point of this malware is to infect a computer and gain access to sensitive information, such as passwords and credit card numbers. It can also be used to remotely control a computer and carry out malicious activities.

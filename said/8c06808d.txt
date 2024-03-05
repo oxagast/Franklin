@@ -1,0 +1,3 @@
+morb asked whats the difference between a MS-DOS .EXE, CP/M .EXE, and VMS .EXE with hash 8c06808d
+<---- snip ---->
+The main difference between these three types of .EXE files is the operating system they are designed for. MS-DOS .EXE files are meant to be executed on the MS-DOS operating system, which was commonly used in the 80s and 90s. CP/M .EXE files were designed for the CP/M operating system, which was popular in the 70s and early 80s. VMS .EXE files are meant for the VMS operating system, which was commonly used on DEC computers in the 80s and 90s. Each operating system has its own unique way of handling .EXE files and executing them, so they are not interchangeable.

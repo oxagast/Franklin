@@ -1,0 +1,3 @@
+Zed asked when did mastodon come out with hash 8d34d95e
+<---- snip ---->
+According to Wikipedia, Mastodon was first released on October 5, 2016.

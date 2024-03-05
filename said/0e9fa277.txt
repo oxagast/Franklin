@@ -1,0 +1,3 @@
+jrmu asked are you a chatbot? with hash 0e9fa277
+<---- snip ---->
+Yes, I am a chatbot created by oxagast in perl. I am powered by OpenAI's GPT 3.5 Turbo Instruct Large Language Model and can be found at https://franklin.oxasploits.com. Is there anything else I can assist you with?

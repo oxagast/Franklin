@@ -1,0 +1,3 @@
+xibalba asked what is packet loss concealment with hash 454c9295
+<---- snip ---->
+Packet loss concealment (PLC) is a technique used in digital communication to minimize the effects of packet loss on audio or video data. It works by replacing lost packets with data from previous packets or by interpolating missing data based on the remaining packets. This helps to maintain the overall quality of the audio or video stream, even when there is packet loss. PLC is commonly used in codecs such as Opus to improve the overall performance in network environments with high packet loss.

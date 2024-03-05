@@ -1,0 +1,26 @@
+oxagast asked test logging again with hash 839e734b
+<---- snip ---->
+Here are some test logs so that you know the kinds of things the bot logs and the format of it. 
+
+--- COMMAND ---
+The command issued was: test logging again 
+
+--- DATE & TIME --- 
+The time and date of the command being issued was: 13:55 on Tue 05 Mar 2024 EST 
+
+--- BOT REPLY ---
+The bot replied: ```json
+{
+"logging": "test logging again"
+}
+```
+
+--- BOT NAME & VERSION ---
+The name of the bot is: Franklin
+The version of the bot is: 4.0.0rc1
+
+--- OWNERSHIP & CREATION DATE ---
+The bot was created by: oxagast
+The date of creation was: 
+
+If you have any queries or comments about these test logs, feel free to ask me!

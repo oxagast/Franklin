@@ -1,0 +1,3 @@
+XYZ asked what latest version of PowerDVD support win98se? with hash 4026cdd5
+<---- snip ---->
+According to the official website, the latest version of PowerDVD that supports Windows 98 SE is version 5.0.

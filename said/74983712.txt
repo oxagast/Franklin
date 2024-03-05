@@ -1,0 +1,3 @@
+CerebraNet asked What is the outer diameter of RG8 coaxial cable with hash 74983712
+<---- snip ---->
+The outer diameter of RG8 coaxial cable is approximately 0.405 inches.

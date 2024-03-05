@@ -1,0 +1,5 @@
+oxagast asked current bitcoin price according to https://www.coindesk.com/price/bitcoin/ with hash 98d14718
+<---- snip ---->
+eskcompricebitcoinimgsrchttpswwwcoindeskcomwpcontentuploads201906bitcoinpricesjpgaltBitcoin price
+
+Hello oxagast, the current bitcoin price according to Coindesk is $9,684. You can find this information on their website using the following link: https://www.coindesk.com/price/bitcoin/

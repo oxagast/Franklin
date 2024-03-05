@@ -1,0 +1,3 @@
+CerebraNet asked What is a SELINUX thing with hash ef838312
+<---- snip ---->
+SELINUX stands for Security-Enhanced Linux, it is a security module for the Linux kernel that provides access control policies and enforces mandatory access controls. It helps to protect against unauthorized access and malicious activities on a system.

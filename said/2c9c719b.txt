@@ -1,0 +1,3 @@
+CerebraNet asked What is a clipper chip with hash 2c9c719b
+<---- snip ---->
+A clipper chip is a type of microchip that was developed in the 1990s by the National Security Agency (NSA) for use in encryption devices. It was designed to provide a backdoor for law enforcement to access encrypted communication. However, it sparked controversy and was never widely adopted due to concerns about privacy and security.

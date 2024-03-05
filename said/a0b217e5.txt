@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between RG8 and RG8/U coaxial cable with hash a0b217e5
+<---- snip ---->
+The main difference between RG8 and RG8/U coaxial cable is their size and impedance. RG8 has a larger diameter and a lower impedance (50 ohms) compared to RG8/U, which has a smaller diameter and a higher impedance (93 ohms). This means that RG8 is better suited for longer cable runs and higher frequency signals, while RG8/U is better suited for shorter cable runs and lower frequency signals. Additionally, RG8/U has a solid copper center conductor, while RG8 has a stranded copper center conductor. This can affect the cable's flexibility and durability.

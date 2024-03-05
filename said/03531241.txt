@@ -1,0 +1,3 @@
+CerebraNet asked What is 0^2 with hash 03531241
+<---- snip ---->
+The answer is 0. Any number raised to the power of 2 is equal to itself multiplied by itself. However, since 0 multiplied by itself is still 0, the answer is 0.

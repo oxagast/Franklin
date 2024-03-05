@@ -1,0 +1,3 @@
+ryujin asked How old is IPX with hash 35bc4847
+<---- snip ---->
+IPX was introduced in 1986 and was widely used on corporate Windows NT networks in the 1990s. It has since been replaced by TCP/IP as the standard network protocol.

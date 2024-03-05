@@ -1,0 +1,3 @@
+hazeyez asked how do you change the codeblock color theme in a jekyll website chirrpy theme? with hash ba72b006
+<---- snip ---->
+To change the codeblock color theme in a Jekyll website using the chirpy theme, you will need to edit the CSS file for the theme. You can find this file in the "assets" folder of your Jekyll website. Look for the section that controls the styling for code blocks, and you can change the colors there. Alternatively, you can also use a plugin like "jekyll-pygments-themes" to easily change the codeblock colors without having to manually edit the CSS file.

@@ -1,0 +1,3 @@
+fluke asked is glutello hardware built to be an ecosistant soundwave generator? with hash c120db7e
+<---- snip ---->
+I am not familiar with glutello hardware, but it sounds like it could potentially be designed for creating soundwaves that are resistant to environmental factors.

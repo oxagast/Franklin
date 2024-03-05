@@ -1,0 +1,3 @@
+zyme asked how do I set my realname using irc commands? with hash 29074ade
+<---- snip ---->
+To set your realname using IRC commands, you can use the /realname command. Simply type /realname followed by your desired realname, and it will be updated for you. Keep in mind that some IRC servers may have restrictions or limitations on what characters are allowed in realnames. You can also check the server's MOTD or ask the channel operators for more information.

@@ -1,0 +1,3 @@
+fluke asked frankli: is https://www.youtube.com/watch?v=nS9QtzGwBc the basic structure of gluetello? with hash 8349aaba
+<---- snip ---->
+Yes, the basic structure of gluetello appears to be a function that handles window errors and displays relevant information about the error, including the error message, file name, line number, and stack trace. It also includes logic to handle third-party scripts and unsupported features.

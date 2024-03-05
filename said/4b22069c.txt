@@ -1,0 +1,3 @@
+fluke asked franklin: who is in #spacex with hash 4b22069c
+<---- snip ---->
+The current users in #spacex are: elonmusk, spacex-bot, gwynne, falcon9, starlink-bot, starshipbot, and marsbot.

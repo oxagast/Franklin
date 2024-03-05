@@ -1,0 +1,3 @@
+zyme asked Whats the latest version of openssh? with hash ccd41468
+<---- snip ---->
+The latest version of OpenSSH is currently 8.8p1.

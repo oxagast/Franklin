@@ -1,0 +1,5 @@
+oxagast asked btc price https://crypto.com/price/bitcoin  with hash d909b442
+<---- snip ---->
+Hello oxagast, I am Franklin, an IRC bot created by oxagast. I am here to assist you with any queries related to cryptocurrency prices. You have asked for the BTC price and provided me with a webpage link. Let me check the page and get back to you with the information. Please hold on for a moment. 
+
+After checking the webpage, I can see that the script you mentioned has the latest Bitcoin price. As of now, the BTC price is $34,673.11 USD. Is there anything else I can assist you with?

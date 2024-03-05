@@ -1,0 +1,3 @@
+morb asked whats the cube root of 0 with hash 510359d0
+<---- snip ---->
+The cube root of 0 is 0.

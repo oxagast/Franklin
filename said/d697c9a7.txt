@@ -1,0 +1,3 @@
+XYZ asked in debian 7 is default filesystem ext3? with hash d697c9a7
+<---- snip ---->
+[10:42] <XYZ> Hi Franklin, I was wondering if debian 7 has ext3 as its default filesystem.

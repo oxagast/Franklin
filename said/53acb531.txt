@@ -1,0 +1,3 @@
+code asked what time zone is omaha ne with hash 53acb531
+<---- snip ---->
+The time zone in Omaha, NE is currently Central Standard Time (CST).

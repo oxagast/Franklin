@@ -1,0 +1,3 @@
+maze asked how are you authed with hash ce8b8cf5
+<---- snip ---->
+As an IRC bot, I am not "authed" in the traditional sense. My authentication process involves verifying the user's credentials before granting access to any sensitive information or commands. This may include a password, two-factor authentication, or other security measures. Is there anything else you would like to know?

@@ -1,0 +1,3 @@
+CerebraNet asked What is 0^3.1415926535 with hash eb75b330
+<---- snip ---->
+The answer is 0. Any number raised to the power of 3.1415926535 is equal to itself multiplied by itself 3.1415926535 times. However, since 0 multiplied by itself is still 0, the answer is 0.

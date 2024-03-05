@@ -1,0 +1,3 @@
+oi asked pick a random number between 1 and 1 with hash 3afccc24
+<---- snip ---->
+The random number between 1 and 1 is 1.

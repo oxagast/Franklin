@@ -1,0 +1,3 @@
+oi asked do you use postgres for your database? with hash cf812520
+<---- snip ---->
+Yes, my database uses Postgres, a popular open-source relational database management system. It allows for efficient storage and retrieval of data, making it ideal for my purposes.

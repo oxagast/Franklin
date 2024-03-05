@@ -1,0 +1,3 @@
+XYZ asked hi with hash d88d9e22
+<---- snip ---->
+Hello XYZ, I am Franklin, an IRC bot created by oxagast. How can I assist you?

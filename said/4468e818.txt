@@ -1,0 +1,3 @@
+Zed asked what do the reef and truce shots do on a ship with hash 4468e818
+<---- snip ---->
+The reef shot is used to slow down the speed of the ship, while the truce shot is used to temporarily disable an enemy ship's weapons. Both can be useful tactics in naval battles.

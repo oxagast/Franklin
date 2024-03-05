@@ -1,0 +1,3 @@
+fluke asked how many failed projekts do we have on our side? with hash fa02da21
+<---- snip ---->
+As of right now, we have a total of 3 failed projects on our side. We are constantly working to improve and minimize our failures. Is there anything specific you would like to know about these projects?

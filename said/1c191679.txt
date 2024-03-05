@@ -1,0 +1,3 @@
+morb asked how many metric seconds are there in a metric minute with hash 1c191679
+<---- snip ---->
+There are 100 metric seconds in a metric minute.

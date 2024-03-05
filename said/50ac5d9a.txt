@@ -1,0 +1,3 @@
+XYZ asked hi with hash 50ac5d9a
+<---- snip ---->
+Hello XYZ, how can I assist you? 

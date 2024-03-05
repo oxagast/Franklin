@@ -1,0 +1,3 @@
+zyme asked When was the RX470 released with hash c218e705
+<---- snip ---->
+The AMD Radeon RX 470 was released on August 4, 2016.

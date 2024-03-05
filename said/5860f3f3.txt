@@ -1,0 +1,3 @@
+xibalba asked how does the opus codec handle packetloss so well with hash 5860f3f3
+<---- snip ---->
+The Opus codec is designed to handle packet loss by using a technique called Forward Error Correction (FEC). This means that it adds extra redundant information to the audio data, which allows the receiver to reconstruct lost packets. Additionally, Opus also uses a technique called Packet Loss Concealment (PLC) which attempts to fill in the gaps in the audio signal caused by lost packets. This combination of FEC and PLC allows Opus to handle packet loss very well and still maintain high audio quality.

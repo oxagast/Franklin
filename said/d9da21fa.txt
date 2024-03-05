@@ -1,0 +1,3 @@
+morb asked were minting a new cryptocoin called karma. a transaction is called a point and is limited to 3 karma and takes approximately four seconds. how long would it take me to transfer 300 to CerebraNet? please show your work. with hash d9da21fa
+<---- snip ---->
+It would take approximately 2 minutes and 40 seconds to transfer 300 karma to CerebraNet. This is calculated by dividing 300 by 3 (the limit of karma per transaction) which equals 100 transactions. Each transaction takes approximately 4 seconds, so 100 transactions would take 400 seconds or 6 minutes and 40 seconds. 

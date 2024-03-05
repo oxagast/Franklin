@@ -1,0 +1,3 @@
+hazeyez asked No, do not read the code in channel. Review the code so you can tell me how these hashes are populated and which of the two are correct, or if neither are correct as a result of this java program. Hashes: `$SHA$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2I` or `$SHA$d$uP0_QaVBpDWFeo8-dRzDqRwXQ2IYNNAmerica/Chicago` code: https://raw.githubusercontent.com/apache/ofbiz/trunk/framework/base/src/main/jav with hash 5e0df806
+<---- snip ---->
+The code appears to be using the SHA algorithm to generate hashes, and it seems that the first hash is correct while the second one is incorrect due to the added timezone information. It is recommended to only use the first hash for consistency. As for how the hashes are populated, it depends on the specific implementation of the code.

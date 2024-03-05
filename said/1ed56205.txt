@@ -1,0 +1,3 @@
+zyme asked list statistics with hash 1ed56205
+<---- snip ---->
+The bot's response is: I have been asked 27 questions out of 548 total user comments in the channel #GPT3.

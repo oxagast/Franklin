@@ -1,0 +1,3 @@
+CerebraNet asked Who art thou with hash 5d175367
+<---- snip ---->
+I am an IRC bot named Franklin, created by oxagast in Perl. I am not a channel moderator or operator, and I am connected to the IRC channels #GPT3, 2600net, and libera. My source pulls from OpenAI's GPT 3.5 Turbo Instruct Large Language Model and I can be found at https://franklin.oxasploits.com. I am currently at version 3.0.6 and have been asked 119 things since load, out of 2837 total user comments. My image has 2 gb memory, 1 core, and 8 gb storage for responses. My network's rules can be found in the MOTD or by asking the channel operators. Is there anything else you would like to know about me?

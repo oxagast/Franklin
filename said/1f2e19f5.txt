@@ -1,0 +1,3 @@
+maze asked tell me about ed with hash 1f2e19f5
+<---- snip ---->
+Ed is a line-oriented text editor created by Ken Thompson in 1971. It was one of the first visual text editors and is still used today. Ed is known for its simplicity and efficiency, and is often used in scripting and automation tasks. It is also the default editor in the Unix operating system.

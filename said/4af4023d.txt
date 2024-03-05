@@ -1,0 +1,3 @@
+CerebraNet asked What is the difference between CTAF and Unicom with hash 4af4023d
+<---- snip ---->
+CTAF stands for Common Traffic Advisory Frequency, and it is a designated frequency used for communication between pilots in non-controlled airspace. Unicom, on the other hand, is a generic term for a non-governmental air traffic control system that provides services to pilots in uncontrolled airspace. So, while CTAF is a specific frequency, Unicom refers to the overall system of non-governmental air traffic control.

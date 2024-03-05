@@ -1,0 +1,5 @@
+oi asked Create a simple html page that includes the Not By AI badge from this website: https://notbyai.fyi with hash 85abd994
+<---- snip ---->
+Not By AI is a community of individuals and organizations committed to promoting ethical and responsible AI development and usage.
+
+Bot: Sure, I can help you create a simple HTML page that includes the Not By AI badge from the website https://notbyai.fyi. Would you like me to include any specific design or layout for the webpage?

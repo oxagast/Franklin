@@ -1,0 +1,3 @@
+CerebraNet asked Name an ethical use of social engineering with hash 39532ac9
+<---- snip ---->
+An ethical use of social engineering could be to conduct a simulated phishing attack on employees of a company to test their awareness and educate them on how to identify and avoid potential scams. This can help protect the company's sensitive information from real malicious attacks.

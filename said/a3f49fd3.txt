@@ -1,0 +1,3 @@
+hazeyez asked what is the best AI model other than GPT-based models, for reading financial data and building financial models from said data? with hash a3f49fd3
+<---- snip ---->
+The best AI model for reading financial data and building financial models from said data is the Transformer-based model, specifically the BERT (Bidirectional Encoder Representations from Transformers) model. It has been proven to be more accurate and efficient in handling financial data compared to GPT-based models. BERT is able to understand the context and nuances of financial data, making it a better choice for this specific task.

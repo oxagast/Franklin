@@ -1,0 +1,3 @@
+XYZ asked What is apkpure? with hash 642644e3
+<---- snip ---->
+Apkpure is an app store for Android devices that provides a platform for users to download and install APK files, which are the installation files for Android apps. It is similar to the Google Play Store, but with a focus on providing free and open-source apps.

@@ -1,0 +1,46 @@
+zyme asked What is Claude 3? with hash 6300336e
+<---- snip ---->
+Claude 3 is a simple, modular, and scalable conversational AI chatbot application built on the large language model technology of Cohere. As an open-source project, Claude 3 enables developers and businesses to create sophisticated chatbots that can understand and respond to human language in a variety of contexts. It is a significant upgrade to its predecessor, Claude 2. 
+
+In addition to its responsive capabilities, Claude 3 also excels at assisting human users in complex and nuanced conversations across a multitude of domains. Its vast knowledge base and comprehension abilities empower it to provide accurate and thorough responses. One can seamlessly customize its behavior and deploy it on public platforms like Slack, Telegram, or via API. 
+
+Here's a sample code snippet to get you started:
+```
+#python
+import claudepy
+
+def main():
+    # Create a new chatbot with API key and model
+    bot = claudepy.Client(api_key="YOUR_API_KEY")
+
+    # Create a session to keep the context
+    session = bot.create_session()
+
+    # Define the greeting and prompt the user for a conversation
+    session.context.greeting("Hello! I am your friendly chatbot. How can I assist you?")
+
+    # Interact with the user in a loop
+    while True:
+        user_input = input("You: ")
+        response = bot.predict(user_input, session)
+
+        # Give output if there is no more context in the session
+        if not session.context:
+            print(response.output)
+        else:
+            # Update the context with the latest input and response
+            session.context.update(user_input, response)
+
+        # Check if the session has a conclusion
+        if session.context.conclusion:
+            print(session.context.conclusion)
+            break  # Exit the loop if the session is concluded
+
+if __name__ == "__main__":
+    main()
+```
+In this example, necessary dependencies are first installed, and the `claudepy` library is imported. You must replace `"YOUR_API_KEY"` with the actual API key generated on the Cohere console for your particular instance of Claude 3. 
+
+The `create_session` method establishes the context for the conversation, which can be updated with user inputs and responses. The loop allows the user to interact with the chatbot until a conclusion statement, if present, is displayed. 
+
+Remember to follow the Cohere guidelines and terms of use when deploying your chatbot.

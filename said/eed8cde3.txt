@@ -1,0 +1,3 @@
+CerebraNet asked What is the outer diameter of RG8 cable with hash eed8cde3
+<---- snip ---->
+The outer diameter of RG8 cable is approximately 0.405 inches.

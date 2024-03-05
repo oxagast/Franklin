@@ -1,0 +1,3 @@
+zyme asked in one line please explain a BEC matter state with hash 31c915ca
+<---- snip ---->
+A BEC matter state is a quantum state of matter in which atoms are cooled to near absolute zero, causing them to lose their individual identities and behave as a single entity.

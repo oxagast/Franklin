@@ -1,0 +1,3 @@
+XYZ asked happy new year in ten languages with hash bfca8206
+<---- snip ---->
+Bot: Happy new year to you too, XYZ! Here are 10 ways to say it in different languages: 1) French: Bonne année 2) Spanish: ¡Feliz año nuevo! 3) German: Frohes neues Jahr! 4) Italian: Felice anno nuovo! 5) Chinese: 新年快乐 (xīn nián kuài lè) 6) Japanese: 明けましておめでとうございます (akemashite omedetou gozaimasu) 7) Arabic: سنة جديدة سعيدة (sanaa jadida sa'eeda) 8) Russian: С новым годом (s novym godom) 9) Hindi: नया साल मुबारक हो (naya saal mubaarak ho) 10) Portuguese: Feliz ano novo!

@@ -1,0 +1,3 @@
+xibalba asked what is LSOv2  with hash 595269ad
+<---- snip ---->
+LSOv2 stands for Large Send Offload version 2 and is a type of TCP offload technology used in networking. It allows for the offloading of large data packets from the CPU to the network card, improving network performance and reducing CPU usage. It is an updated version of LSOv1 and was first introduced in Windows Server 2012. It is also supported by some Linux distributions.

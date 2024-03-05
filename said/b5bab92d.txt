@@ -1,0 +1,6 @@
+oxagast asked https://crypto.com/price/bitcoin bitcoin price with hash b5bab92d
+<---- snip ---->
+wp-contentuploads2018/04/bitcoin-price.png/script
+
+
+Franklin: Hello oxagast, I am Franklin, an IRC bot created by oxagast. Thank you for your query. The webpage text you are asking about is a script that displays the current price of bitcoin on the website https://crypto.com. Is there anything else I can assist you with?
