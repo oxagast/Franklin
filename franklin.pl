@@ -111,11 +111,12 @@ my @chanlst;
 $chanlst[0] = $txidchans[0] . " " . $txidchans[1] . " " . $txidchans[2];
 $chanlst[1] = $txidchans[3] . " " . $txidchans[4] . " " . $txidchans[5];
 $chanlst[2] = $txidchans[6] . " " . $txidchans[7] . " " . $txidchans[8];
-my $apifirstp = substr($apikey, 0,  16);
-my $apilastp  = substr($apikey, 40, 49);
+my $apifirstp = substr($apikey, 0,  8);
+my $apilastp  = substr($apikey, 32, 40);
 open(LOGGER, '>>', $logf);
+my $scrubbedapikey = "$apifirstp" . "*"x24 . "$apilastp";
 print LOGGER time() . ": " . "Starting Franklin version $VERSION\n";
-print LOGGER time() . ": " . "Using API key $apikey\n";
+print LOGGER time() . ": " . "Using API key $apifirstp" . "*"x24 . "$apilastp\n";
 close(LOGGER);
 Irssi::print "";
 Irssi::print "Loading Franklin ChatGPT chatbot...";
@@ -380,11 +381,11 @@ sub callapi {
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
     Irssi::print "$askbuilt\n";
     open(LOGGER, '>>', $logf);
-    print LOGGER time() . ": " . "API Transaction:\n" . Dumper($res);
+    $resdumper = Dumper($res);
+    $resdumper =~ s/$apikey/$scrubbedapikey/;
+    print LOGGER time() . ": " . "API Transaction:\n" . $resdumper;
     close(LOGGER);
-
     if ($res->is_success) {
-
       # response has the structure:
       # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
       # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
