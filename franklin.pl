@@ -375,12 +375,16 @@ sub callapi {
       $textcall =~ s/\"/\\\"/g;
       my $askbuilt =                                         # Build the API request
         qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "Lovely day on irc, isnt it?"} ], "message": "The most recent query from an irc user is: $ut", "preamble": "$dcp", "max_tokens": 600});
+      $askbuild =~ s/'//;
       $ua->default_header("accept" => "application/json");
       $ua->default_header("content-type" => "application/json");
       $ua->default_header("Authorization" => "bearer " . $apikey);
       $ua->default_header("X-Client-Name" => "$xcn");
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
     Irssi::print "$askbuilt\n";
+     open(LOGGER, '>>', $logf);
+     print LOGGER "API Transaction:\n" . Dumper($res);
+     close(LOGGER);
     print Dumper($res);
     if ($res->is_success) {
       Irssi::print "$res->decoded_content()\n";
@@ -469,6 +473,7 @@ sub callapi {
         }
         return 0;
       }
+      $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
       open(LOGGER, '>>', $logf);
       print LOGGER "There was a problem sending the response to channel $channel...\n";
       close(LOGGER);
