@@ -20,7 +20,7 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
-use Data::Dumper;
+use Data::Dumper qw(Dumper);
 $|++;
 $VERSION = "3.0.6";
 %IRSSI = (
@@ -79,10 +79,10 @@ our $price_per_k = 0.02;
 our $isup        = 0;
 our $pm          = -1;
 ## checking to see if the api key 'looks' valid before
-if (Irssi::settings_get_str('franklin_api_key') !~ m/^sk-.{48}$/) {
-  Irssi::print "You must set a valid api key! /set franklin_api_key " . "sk-BCjqd..., " . "then reload with /script load franklin.pl";
+if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
+  Irssi::print "You must set a valid api key! /set franklin_api_key " . "bbI5L..., " . "then reload with /script load franklin.pl";
 }
-if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
+if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   my $aliveworker = Proc::Simple->new();                      ## since you fags try to root me and crash franklin
   if (Irssi::settings_get_str('franklin_heartbeat_url')) {    # i need this so that
     $aliveworker->start(\&falive);                            ## i get alerts on my phone when franklin dies now.
@@ -97,6 +97,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^sk-.{48}$/) {
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message private', 'checkpmsg');
   Irssi::signal_add_last('message public',  'checkcmsg');
+  Irssi::command("script load helperfrank.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
 else { Irssi: print "Something went wrong with the API key..."; }
@@ -154,7 +155,7 @@ if ($histlen > 30) {
   print LOGGER "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.\n";
   close(LOGGER);
 }
-if (length($servinfo) >= 200) {
+if (length($servinfo) >= 500) {
   Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
   open( LOGGER, '>>', $logf);
   print LOGGER "Warn: If the server info is this long, the contextual prelude may fill before the user's question.\n";
@@ -178,6 +179,7 @@ if ((!$havecpu) || (!$havemem) || (!$havehdd) || (!$servinfo)) {
   print LOGGER "Warn: If you fill out your bot's environment info, it will make the experience more immersive.\n";
   close(LOGGER);
 }
+
 sub untag {
   local $_ = $_[0] || $_;
   s{
@@ -262,19 +264,22 @@ sub asshat {
     if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
       my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
-      my $url   = "https://api.openai.com/v1/completions";
-      my $model = "gpt-3.5-turbo-instruct";                  ## other model implementations work too
-      my $heat  = "0.7";                                     ## ?? wtf
+      
+
+      my $url   = "https://api.cohere.ai/v1/chat";
+      my $xcn  = "Franklin";
       my $uri   = URI->new($url);
       my $ua    = LWP::UserAgent->new;
-      $textcall = Irssi::strip_codes($textcall);
+      $dcp = Irssi::strip_codes($textcall);
       $textcall =~ s/\"/\\\"/g;
 
       #      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
       my $askbuilt =                                         # Build the API request
-        "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
-      $ua->default_header("Content-Type"  => "application/json");
-      $ua->default_header("Authorization" => "Bearer " . $apikey);
+        '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": 600}';
+      $ua->default_header("accept" => "application/json");
+      $ua->default_header("content-type" => "application/json");
+      $ua->default_header("Authorization" => "bearer " . $apikey);
+      $ua->default_header("X-Client-Name" => "$xcn");
       my $res = $ua->post($uri, Content => $askbuilt);       ## send the post request to the api
 
       if ($res->is_success) {
@@ -297,7 +302,10 @@ sub asshat {
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
+  open(LOGGER, '>>', $logf);
   print LOGGER "Calling API.\n";
+  close(LOGGER);
+  $ut = "$textcall";
   $reqs++;
   my $retcode = 1;
   my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );    # Set up the date for API req
@@ -353,36 +361,32 @@ sub callapi {
       #   if the bot is an operator in channel
       #   user definable server info
       #   current channel
-      my $mod = "GPT 3.5 Turbo Instruct";
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, out of $msg_count total user comments, $servinfo Your source pulls from OpenAI's $mod Large Language Model, can be found at https://franklin.oxasploits.com, and you are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST. Your image has $havemem gb memory, $havecpu cores, and $havehdd gb storage for responses. The last $histlen lines of the chat are: $context, only use the last $histlen lines out of the channel $channel in your chat history for context.  The query to the bot by the IRC user $nick is: $textcall.";
+      my $mod = "command";
+      my $model = "command";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.";
     }
     #    Irssi::print $dcp;
-    $textcall = $dcp;
-    my $url = "https://api.openai.com/v1/completions";
-
-    #    my $model = "text-davinci-003";    ## other model implementations work too
-    my $model = "gpt-3.5-turbo-instruct";
-    my $heat  = "0.7";                      ## ?? wtf
-    my $uri   = URI->new($url);
-    my $ua    = LWP::UserAgent->new;
-    $textcall = Irssi::strip_codes($textcall);
-    $textcall =~ s/\"/\\\"/g;               # still doesn't like quotes
-    my $askbuilt =                          # Build the API request
-      "{\"model\": \"$model\",\"prompt\": \"$textcall\", \"max_tokens\": $tokenlimit, \"temperature\": $heat}";
-    $ua->default_header("Content-Type"  => "application/json");
-    $ua->default_header("Authorization" => "Bearer " . $apikey);
+      my $textcall = $dcp;
+      my $url   = "https://api.cohere.ai/v1/chat";
+      my $xcn  = "Franklin";
+      my $uri   = URI->new($url);
+      my $ua    = LWP::UserAgent->new;
+      $textcall = Irssi::strip_codes($textcall);
+      $textcall =~ s/\"/\\\"/g;
+      my $askbuilt =                                         # Build the API request
+        qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "Lovely day on irc, isnt it?"} ], "message": "The most recent query from an irc user is: $ut", "preamble": "$dcp", "max_tokens": 600});
+      $ua->default_header("accept" => "application/json");
+      $ua->default_header("content-type" => "application/json");
+      $ua->default_header("Authorization" => "bearer " . $apikey);
+      $ua->default_header("X-Client-Name" => "$xcn");
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-
+    Irssi::print "$askbuilt\n";
+    print Dumper($res);
     if ($res->is_success) {
-      ## response should look like
-      ## {"id":"cmpl-6yAcIQuEz2hkg6Isvgg29KllzTn63","object":"text_completion","created":1679798510,"model"
-      ## :"text-davinci-003","choices":[{"text":"\n\nThis is indeed a test","index":0,"logprobs":null,"fini
-      ## sh_reason":"length"}],"usage":{"prompt_tokens":5,"completion_tokens":7,"total_tokens":12}}
-      ## so we use a json decoder and fix for utf8
-      Irssi::print Dumper(decode_json($askbuilt), decode_json($res->decoded_content()));
-      my $said  = decode_json($res->decoded_content())->{choices}[0]{text};
-      my $ctoks = decode_json($res->decoded_content())->{usage}{completion_tokens};
-      my $ptoks = decode_json($res->decoded_content())->{usage}{prompt_tokens};
+      Irssi::print "$res->decoded_content()\n";
+      my $said  = decode_json($res->decoded_content())->{text};
+      my $ctoks = decode_json($res->decoded_content())->{response_tokens};
+      my $ptoks = decode_json($res->decoded_content())->{prompt_tokens};
       open(LOGGER, '>>', $logf);
       print LOGGER "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals.\n";
       close(LOGGER);
@@ -532,7 +536,8 @@ sub checkcmsg {
       s/^#.*//;
     }
   }
-  if ($nick ~~ @badnicks) {    # fuck everyone inside this conditional
+  #if ($nick ~~ @badnicks) {    # smartmatch is now not recommended, so we're using grep.
+  if (grep(/^$nick$/, @badnicks)) {  # fuck everyone inside this conditional
     open(LOGGER, '>>', $logf);
     print LOGGER "The user $nick does not have privs to use this...\n";
     Irssi::print "Franklin: $nick does not have privs to use this.";
@@ -549,9 +554,6 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;          # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
-
-      #Irssi::print "Franklin: $nick asked: $textcall";
-
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
         while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
