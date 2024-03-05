@@ -22,7 +22,7 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "3.0.6";
+$VERSION = "4.0.0rc1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
