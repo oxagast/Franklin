@@ -32,7 +32,7 @@ $VERSION = "4.0.0rc1";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'Jan, 21st 2024',
 );
-
+$Data::Dumper::Indent = 1;
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
@@ -359,12 +359,10 @@ sub callapi {
       #   if the bot is an operator in channel
       #   user definable server info
       #   current channel
-      my $mod   = "command";
+      my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.";
     }
-
-    #    Irssi::print $dcp;
     my $textcall = $dcp;
     my $url      = "https://api.cohere.ai/v1/chat";
     my $xcn      = "Franklin";
@@ -374,7 +372,7 @@ sub callapi {
     $textcall =~ s/\"/\\\"/g;
     my $askbuilt =    # Build the API request
       qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "Lovely day on irc, isnt it?"} ], "message": "The most recent query from an irc user is: $ut", "preamble": "$dcp", "max_tokens": 600});
-    $askbuild =~ s/'//;
+    $askbuilt =~ s/'//;
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
     $ua->default_header("Authorization" => "bearer " . $apikey);
@@ -386,13 +384,21 @@ sub callapi {
     close(LOGGER);
 
     if ($res->is_success) {
-      Irssi::print "$res->decoded_content()\n";
+
+      # response has the structure:
+      # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
+      # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
+      # d0e3-3b21-4a23-92bb-5e64181318a1","finish_reason":"COMPLETE","token_count":{"prompt_tokens":39,
+      # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
+      # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
       my $said  = decode_json($res->decoded_content())->{text};
-      my $ctoks = decode_json($res->decoded_content())->{response_tokens};
-      my $ptoks = decode_json($res->decoded_content())->{prompt_tokens};
+      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
+      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
+      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
       open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals.\n";
+      print LOGGER time() . ": " . "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.\n";
       close(LOGGER);
+
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
@@ -442,7 +448,6 @@ sub callapi {
         close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-                                  #Irssi::print "Franklin: Reply: $said_cut $webaddr$hexfn" . ".html";
 
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
@@ -462,12 +467,6 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
-
-        # Note concerning GPT 3.5 Turbo Instruct: 4096 toksn is equiv to about 32 lines
-        # This is caculated by (at ~4 chars per token, 512 chars per max len irc line)
-        # ((4096 * 4 ) / 512) - length($dcp).  This means you now have room for at
-        # MAXIMUM ~30 lines of $histlen.
-        # I do not recommend setting it this high though.
         push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
           shift(@chat);                                   # shift the earlist back thing said off the array stack.
@@ -509,7 +508,7 @@ sub checkcmsg {
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
   open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Responding to channel query $totals\n";
+  print LOGGER time() . ": " . "Message # $totals\n";
   close(LOGGER);
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
@@ -565,6 +564,9 @@ sub checkcmsg {
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
         while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
+          open(LOGGER, '>>', $logf);
+          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";
+          close(LOGGER);
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(2.5);
