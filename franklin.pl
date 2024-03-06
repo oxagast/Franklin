@@ -23,6 +23,8 @@ use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
+use Sys::CPU;
+use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 $|++;
 $VERSION = "4.0.0rc2";
@@ -36,6 +38,7 @@ $VERSION = "4.0.0rc2";
           changed     => 'Mar, 5th 2024',
 );
 $Data::Dumper::Indent = 0;
+
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
@@ -50,10 +53,8 @@ Irssi::settings_add_str("franklin", "franklin_server_info",             "");
 Irssi::settings_add_str("franklin", "franklin_asshat_threshold",        "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
-Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
-Irssi::settings_add_str("franklin", "franklin_mem_approx",              "");
-Irssi::settings_add_str("franklin", "franklin_cpu_approx",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
+Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
 Irssi::settings_add_int("franklin", "Franklin_total_msgs", 0);
 my $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
@@ -68,8 +69,10 @@ our $gtag      = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel  = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo  = Irssi::settings_get_str('franklin_server_info');
 our $havehdd   = Irssi::settings_get_str('franklin_hdd_approx');
-our $havemem   = Irssi::settings_get_str('franklin_mem_approx');
-our $havecpu   = Irssi::settings_get_str('franklin_cpu_approx');
+our $havemem   = substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " gb free memory";
+our $havecpu   = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
+Irssi::settings_add_str("franklin", "franklin_mem_approx",              $havemem);
+Irssi::settings_add_str("franklin", "franklin_cpu_approx",              $havecpu);
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our $logf      = Irssi::settings_get_str('franklin_log');
@@ -81,6 +84,7 @@ our $reqs        = 0;
 our $price_per_k = 0.02;
 our $isup        = 0;
 our $pm          = -1;
+our $flast       = "";
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "bbI5L..., " . "then reload with /script load franklin.pl";
@@ -122,7 +126,7 @@ print LOGGER time() . ": " . "Starting Franklin version $VERSION\n";
 print LOGGER time() . ": " . "Using API key $apifirstp" . "*"x24 . "$apilastp\n";
 close(LOGGER);
 Irssi::print "";
-Irssi::print "Loading Franklin ChatGPT chatbot...";
+Irssi::print "Loading Franklin LLM AI chatbot...";
 Irssi::print "Use /set to set the following variables:";
 Irssi::print "  franklin_http_location           (mandatory, pre-set)  => $httploc";
 Irssi::print "  franklin_response_webserver_addr (mandatory)           => " . substr($webaddr, 8, 27) . "...";
@@ -279,7 +283,7 @@ sub asshat {
 
       #      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
       my $askbuilt =    # Build the API request
-        '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": 600}';
+        '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": $tokenlimit}';
       $ua->default_header("accept"        => "application/json");
       $ua->default_header("content-type"  => "application/json");
       $ua->default_header("Authorization" => "bearer " . $apikey);
@@ -365,7 +369,7 @@ sub callapi {
       #   current channel
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition.";
     }
     my $textcall = $dcp;
     my $url      = "https://api.cohere.ai/v1/chat";
@@ -375,18 +379,22 @@ sub callapi {
     $textcall = Irssi::strip_codes($textcall);
     $textcall =~ s/\"/\\\"/g;
     my $askbuilt =    # Build the API request
-      qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "Lovely day on irc, isnt it?"} ], "message": "The most recent query from an irc user is: $ut", "preamble": "$dcp", "max_tokens": 600});
+    $flast =~ s/"//;
+    if ($flast eq "") {
+      $flast = "Starting Franklin...";
+    }
+    $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "$flast"} ], "message": "The most recent query from irc user $nick: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
     $ua->default_header("Authorization" => "bearer " . $apikey);
     $ua->default_header("X-Client-Name" => "$xcn");
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-    Irssi::print "$askbuilt\n";
+    Irssi::print "$askbuilt";
     open(LOGGER, '>>', $logf);
     $resdumper = Dumper($res);
     $resdumper =~ s/$apikey/$scrubbedapikey/;
-    print LOGGER time() . ": " . "API Transaction: " . $resdumper;
+    print LOGGER time() . ": " . "API Transaction: " . $resdumper . "\n";
     close(LOGGER);
     if ($res->is_success) {
       # response has the structure:
@@ -399,6 +407,7 @@ sub callapi {
       my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
       my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
       my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+      $said = Irssi::strip_codes($said);
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.\n";
       close(LOGGER);
@@ -427,6 +436,8 @@ sub callapi {
          0,
          8
         );
+        open(LOGGER, '>>', $logf);
+        print LOGGER time() . ": " . "Processing query $hexfn from $channel/$nick\n";
         umask(0133);                         # perms umask for files in said/
         my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
@@ -439,8 +450,8 @@ sub callapi {
         close(LOGGER);
         print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
         close(SAID);
-        my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, a ChatGPT bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
-        my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, a ChatGPT AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
+        my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
+        my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, an LLM AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
         my $said_html = sanitize($said, html => 1);
         $textcall_bare = sanitize($textcall_bare, html => 1);
         $said_html =~ s/\n/<br>/g;
@@ -452,7 +463,7 @@ sub callapi {
         close SAIDHTML;           # after writing html to file
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
-
+        $flast = $said_cut;
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
           $server->command("msg $nick $said_cut");    # then pm
@@ -485,7 +496,7 @@ sub callapi {
     }
     else {
       open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "There was an issue sendding reponse from the API.\n";
+      print LOGGER time() . ": " . "There was an issue sending reponse from the API.\n";
       close(LOGGER);
       return 1;
     }    # otherwise tell it it was incomplete
