@@ -9,6 +9,9 @@
 #   |- |   | | | | |<  | | | |
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
+#
+# Cohere AI 'command' model fork
+
 use 5.10.0;
 use warnings;
 use Proc::Simple;
@@ -22,17 +25,17 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.0.0rc1";
+$VERSION = "4.0.0rc2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
           name        => 'franklin',
-          description => 'Franklin ChatGPT bot',
+          description => 'Franklin IRC bot (Cohere-command fork)',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'Jan, 21st 2024',
+          changed     => 'Mar, 5th 2024',
 );
-$Data::Dumper::Indent = 1;
+$Data::Dumper::Indent = 0;
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
@@ -383,7 +386,7 @@ sub callapi {
     open(LOGGER, '>>', $logf);
     $resdumper = Dumper($res);
     $resdumper =~ s/$apikey/$scrubbedapikey/;
-    print LOGGER time() . ": " . "API Transaction:\n" . $resdumper;
+    print LOGGER time() . ": " . "API Transaction: " . $resdumper;
     close(LOGGER);
     if ($res->is_success) {
       # response has the structure:
