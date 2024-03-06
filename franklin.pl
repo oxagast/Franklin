@@ -369,21 +369,21 @@ sub callapi {
       #   current channel
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition.";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context. Limit all responses to two sentances.";
     }
-    my $textcall = $dcp;
     my $url      = "https://api.cohere.ai/v1/chat";
     my $xcn      = "Franklin";
     my $uri      = URI->new($url);
     my $ua       = LWP::UserAgent->new;
-    $textcall = Irssi::strip_codes($textcall);
-    $textcall =~ s/\"/\\\"/g;
+    $dcp = Irssi::strip_codes($dcp);
+    $dcp = sanitize($dcp, noquote => 1, noencoding => 1);
+    $textcall = $dcp;
     my $askbuilt =    # Build the API request
     $flast =~ s/"//;
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-    $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "The previous messages from the irc chat are $context"},{"role": "CHATBOT", "message": "$flast"} ], "message": "The most recent query from irc user $nick: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
+    $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chat[-1]"},{"role": "CHATBOT", "message": "$flast"} ], "message": "The most recent query from irc user $nick: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
