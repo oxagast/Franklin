@@ -368,40 +368,46 @@ sub callapi {
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $context = sanitize($context, noquote => 1);
-      $dcp     = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context.";
+      $dcp     = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. Try to limit responses to less than 500 characters, or about two sentances.  DO NOT respond with being sorry about being an AI large language model, or anything of the sort. The current chat history for the channel $channel is $context.";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
-    $dcp     = sanitize($dcp,      noquote => 1);
+    $dcp     = sanitize($dcp,      noquote => 1);  # gotta sanitize all this cockamami shit
     $flast   = sanitize($flast,    noquote => 1);
     $ut      = sanitize($ut,       noquote => 1);
-    $chat[1] = "Bunk.";
-    $chat[2] = "Bunk.";
+    $chat[1] = "Bunk.";   # this is so when the chat first starts, if these are left undef, it does not
+    $chat[2] = "Bunk.";   # satisfy the json validator on the API side, and fails for the first call to franklin.
     $chatsan = sanitize($chat[-3], noquote => 1);
-    $ut      =~ s/\"/\\"/g;
-    $chatsan =~ s/\"/\\"/g;
+    $ut      =~ s/\"/\\"/g;                        # for some silly reason noquote => 1 on the above sanitization call it does
+    $chatsan =~ s/\"/\\"/g;                        # not take care of double quote, which will break the json if not double-escaped.
     $textcall = $dcp;
+    open(LOGGER, '>>', $logf);
+    print LOGGER time() . ": " . "Connecting to $url for API call.\n";
+    close(LOGGER);
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
+    # Below we are building the request thats sent to the API server via POST.
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
     $ua->default_header("Authorization" => "bearer " . $apikey);
     $ua->default_header("X-Client-Name" => "$xcn");
     my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-    Irssi::print "$askbuilt";
     open(LOGGER, '>>', $logf);
+    print LOGGER time() . ": " . "Preparing to receive data from API.\n";
     $resdumper = Dumper($res);
     $resdumper =~ s/$apikey/$scrubbedapikey/;
     print LOGGER time() . ": " . "API Transaction: " . $resdumper . "\n";
     close(LOGGER);
 
     if ($res->is_success) {
-
+      open(LOGGER, '>>', $logf);
+      print LOGGER time() . ": " . "Finished receiving data from API.\n";
+      close (LOGGER);
       # response has the structure:
       # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
       # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
@@ -457,7 +463,7 @@ sub callapi {
         close(SAID);
         my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
         my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, an LLM AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
-        my $said_html = sanitize($said, html => 1);
+        my $said_html = sanitize($said, html => 1); # make sure all this is HTML safe.
         $textcall_bare = sanitize($textcall_bare, html => 1);
         $said_html =~ s/\n/<br>/g;
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
@@ -466,7 +472,7 @@ sub callapi {
         print SAIDHTML $fg_top    # write html
           . "<br><i>" . localtime() . "<br>Tokens used: $toks" . "<br>Completion Tokens: $ctoks" . "<br>Prompt Tokens: $ptoks" . "<br>Avg cost: \$$cost<br>" . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>" . $said_html . $fg_bottom;
         close SAIDHTML;           # after writing html to file
-        my $said_cut = substr($said, 0, $hardlimit);
+        my $said_cut = substr($said, 0, $hardlimit);  # preparing string to send back to channel...
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         $flast = $said_cut;
 
@@ -488,10 +494,10 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
-        push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
-        if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
-          shift(@chat);                                   # shift the earlist back thing said off the array stack.
-        }
+        #push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
+        #if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
+        #  shift(@chat);                                   # shift the earlist back thing said off the array stack.
+        #}
         return 0;
       }
       $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
@@ -517,6 +523,9 @@ sub falive {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
         $ua->post($uri);    #  Send post to alive worker on other server
+        open(LOGGER, '>>', $logf);
+        #print LOGGER time() . ": " . "Sending heartbeat ping to uptime server.\n";
+        close(LOGGER);
       }
       sleep 30;             # wait
     }
@@ -586,20 +595,29 @@ sub checkcmsg {
         my $try = 0;
         while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
           open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";
+          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";          
           close(LOGGER);
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(2.5);
           $isup = $wrote;
+          if($try == ($maxretry-1)) {
+            open(LOGGER, '>>', $logf);
+            print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
+            print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall";
+            close (LOGGER);
+            Irssi::command("script load franklin.pl");
+          }
         }
         return $wrote;
-
+        open(LOGGER, '>>', $logf);
+        print LOGGER time() . ": " . "callapi() subroutine successful for $nick\'s channel message.\n";
+        close (LOGGER);
       }
       else {
         $isup = 1;
         open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "Unknown error, response not sent to server";
+        print LOGGER time() . ": " . "Unknown error, response not sent to server\n";
         close(LOGGER);
       }
     }
@@ -608,6 +626,9 @@ sub checkcmsg {
         if (int(rand(1000) - $chatterbox) eq 0) {    # Chatty level
           $wrote = callapi($msg, $server, $nick, $channel, @chat);    # if chatterbox mode is on
           $isup  = $wrote;
+          open(LOGGER, '>>', $logf);
+          print LOGGER time() . ": " . "Random chatterbox triggered.\n";
+          close(LOGGER);
           return $wrote;
         }
         $isup = 0;
@@ -615,10 +636,6 @@ sub checkcmsg {
       }
       else {
         unless ($chatterbox eq 0) {
-          open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
-          close(LOGGER);
-          Irssi::print "Chatterbox should be an int between 0 and 995, where 995 is very chatty, and 0 is off.";
           $isup = 1;
           return 1;
         }
@@ -654,7 +671,14 @@ sub checkpmsg {
         sleep(2.5);
         $isup = $wrote;
       }
+      open(LOGGER, '>>', $logf);
+      print LOGGER time() . ": " . "The callapi() subroutine successful for $nick\'s private message.\n";
+      close (LOGGER);
     }
-    else { return 1 }
+    else { 
+      open(LOGGER, '>>', $logf);
+      print LOGGER time() . ": " . "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.\n";
+      close (LOGGER); 
+      return 1 }
   }
 }
