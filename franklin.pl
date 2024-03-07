@@ -377,11 +377,12 @@ sub callapi {
     $dcp     = sanitize($dcp,      noquote => 1);
     $flast   = sanitize($flast,    noquote => 1);
     $ut      = sanitize($ut,       noquote => 1);
+    $chat[1] = "Bunk.";
+    $chat[2] = "Bunk.";
     $chatsan = sanitize($chat[-3], noquote => 1);
     $ut      =~ s/\"/\\"/g;
     $chatsan =~ s/\"/\\"/g;
     $textcall = $dcp;
-
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
