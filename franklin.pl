@@ -368,19 +368,20 @@ sub callapi {
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $context = sanitize($context, noquote => 1);
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context.";
+      $dcp     = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context.";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
-    $dcp      = sanitize($dcp,   noquote => 1);
-    $flast    = sanitize($flast, noquote => 1);
-    $ut       = sanitize($ut,    noquote => 1);
-    $chatsan  = sanitize($chat[-3], noquote => 1);
-    $ut =~ s/\"/\\"/g;
+    $dcp     = sanitize($dcp,      noquote => 1);
+    $flast   = sanitize($flast,    noquote => 1);
+    $ut      = sanitize($ut,       noquote => 1);
+    $chatsan = sanitize($chat[-3], noquote => 1);
+    $ut      =~ s/\"/\\"/g;
     $chatsan =~ s/\"/\\"/g;
     $textcall = $dcp;
+
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
