@@ -26,6 +26,7 @@ use Encode;
 use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
+use URL::Encode;
 $|++;
 $VERSION = "4.0.0rc2";
 %IRSSI = (
@@ -65,14 +66,14 @@ our $histlen    = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
 my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
-our $gtag      = Irssi::settings_get_str('franklin_google_gtag');
-our $asslevel  = Irssi::settings_get_str('franklin_asshat_threshold');
-our $servinfo  = Irssi::settings_get_str('franklin_server_info');
-our $havehdd   = Irssi::settings_get_str('franklin_hdd_approx');
-our $havemem   = substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " gb free memory";
-our $havecpu   = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
-Irssi::settings_add_str("franklin", "franklin_mem_approx",              $havemem);
-Irssi::settings_add_str("franklin", "franklin_cpu_approx",              $havecpu);
+our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
+our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
+our $servinfo = Irssi::settings_get_str('franklin_server_info');
+our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
+our $havemem  = substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " gb free memory";
+our $havecpu  = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
+Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
+Irssi::settings_add_str("franklin", "franklin_cpu_approx", $havecpu);
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our $logf      = Irssi::settings_get_str('franklin_log');
@@ -121,9 +122,9 @@ $chanlst[2] = $txidchans[6] . " " . $txidchans[7] . " " . $txidchans[8];
 my $apifirstp = substr($apikey, 0,  8);
 my $apilastp  = substr($apikey, 32, 40);
 open(LOGGER, '>>', $logf);
-my $scrubbedapikey = "$apifirstp" . "*"x24 . "$apilastp";
+my $scrubbedapikey = "$apifirstp" . "*" x 24 . "$apilastp";
 print LOGGER time() . ": " . "Starting Franklin version $VERSION\n";
-print LOGGER time() . ": " . "Using API key $apifirstp" . "*"x24 . "$apilastp\n";
+print LOGGER time() . ": " . "Using API key $apifirstp" . "*" x 24 . "$apilastp\n";
 close(LOGGER);
 Irssi::print "";
 Irssi::print "Loading Franklin LLM AI chatbot...";
@@ -273,15 +274,12 @@ sub asshat {
     if (($cmn->{op} eq 1) || ($cmn->{halfop} eq 1)) {
       my $setup = "Rate the comment $textcall on a scale from 1 to 10 on how much of an asshole the user is being, format your response as just the number alone on one line.";
       $textcall = $setup;
-
       my $url = "https://api.cohere.ai/v1/chat";
       my $xcn = "Franklin";
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
       $dcp = Irssi::strip_codes($textcall);
       $textcall =~ s/\"/\\\"/g;
-
-      #      my $askbuilt = "{\"model\": \"$model\",\"prompt\": \"$textcall\"," . "\"temperature\":$heat,\"max_tokens\": $tokenlimit," . "\"top_p\": 1,\"frequency_penalty\": 0,\"presence_" . "penalty\": 0}";
       my $askbuilt =    # Build the API request
         '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": $tokenlimit}';
       $ua->default_header("accept"        => "application/json");
@@ -323,7 +321,7 @@ sub callapi {
   my $page    = pullpage($textcall);                                      # If we need to read a URL
   my $context = "";
 
-  for my $usersays (0 .. scalar(@chat) - 1) {
+  for my $usersays (0 .. scalar(@chat) - 2) {
     if ($chat[$usersays] =~ m/Channel $channel: (.*)/) {                  # this takes channel and the user's text and put is onto the context
       $context = $context . $1;                                           # BVreak down the chat stack for the context to build req
     }
@@ -369,21 +367,24 @@ sub callapi {
       #   current channel
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context. Limit all responses to two sentances.";
+      $context = sanitize($context, noquote => 1);
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. The current chat history for the channel $channel is $context.";
     }
-    my $url      = "https://api.cohere.ai/v1/chat";
-    my $xcn      = "Franklin";
-    my $uri      = URI->new($url);
-    my $ua       = LWP::UserAgent->new;
-    $dcp = Irssi::strip_codes($dcp);
-    $dcp = sanitize($dcp, noquote => 1, noencoding => 1);
+    my $url = "https://api.cohere.ai/v1/chat";
+    my $xcn = "Franklin";
+    my $uri = URI->new($url);
+    my $ua  = LWP::UserAgent->new;
+    $dcp      = sanitize($dcp,   noquote => 1);
+    $flast    = sanitize($flast, noquote => 1);
+    $ut       = sanitize($ut,    noquote => 1);
+    $chatsan  = sanitize($chat[-3], noquote => 1);
+    $ut =~ s/\"/\\"/g;
+    $chatsan =~ s/\"/\\"/g;
     $textcall = $dcp;
-    my $askbuilt =    # Build the API request
-    $flast =~ s/"//;
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-    $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chat[-1]"},{"role": "CHATBOT", "message": "$flast"} ], "message": "The most recent query from irc user $nick: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
+    my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
@@ -396,7 +397,9 @@ sub callapi {
     $resdumper =~ s/$apikey/$scrubbedapikey/;
     print LOGGER time() . ": " . "API Transaction: " . $resdumper . "\n";
     close(LOGGER);
+
     if ($res->is_success) {
+
       # response has the structure:
       # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
       # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
@@ -464,6 +467,7 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);
         $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
         $flast = $said_cut;
+
         if ($type eq "pm") {
           $server->command("query $nick");            # If this is pm open win
           $server->command("msg $nick $said_cut");    # then pm
