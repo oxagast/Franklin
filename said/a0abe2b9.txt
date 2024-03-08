@@ -1,0 +1,3 @@
+Zed asked what is the most used commercial llm with hash a0abe2b9
+<---- snip ---->
+The most used commercial LLM is probably Microsoft's GPT-3 model, which has been widely adopted by companies for various natural language processing tasks. However, OpenAI's GPT-3 model is also gaining popularity and may surpass Microsoft's model in the near future. Both models are powerful and widely used in the industry.

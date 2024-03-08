@@ -1,0 +1,3 @@
+xibalba asked what is the latest raspberri pi with hash da0f0a13
+<---- snip ---->
+The latest Raspberry Pi is the Raspberry Pi 4 Model B, which was released on June 24, 2019. It has a 1.5 GHz quad-core ARM Cortex-A72 CPU and up to 8 GB of RAM.

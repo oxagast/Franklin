@@ -1,0 +1,3 @@
+CerebraNet asked How much time would the worlds fastest computer need to solve the problem Distributed Net is working on with hash 262e0d01
+<---- snip ---->
+That depends on the complexity of the problem. Distributed Net is working on a lot of different projects, so it's hard to give a definitive answer. However, experts estimate that the most powerful computers in the world would need at least several months to solve the most complex problems.

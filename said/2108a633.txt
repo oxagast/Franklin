@@ -1,0 +1,3 @@
+Hyper asked whats my ip? with hash 2108a633
+<---- snip ---->
+Hyper, your IP address is the unique identifier for your device on the internet. It is typically used to identify your device when you connect to websites or other online services. It looks something like this: xxx.xxx.xxx.xxx.

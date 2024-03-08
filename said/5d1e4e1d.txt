@@ -1,0 +1,3 @@
+morb asked what is the url to the first TXID you posted to your website with hash 5d1e4e1d
+<---- snip ---->
+The response from Franklin the IRC bot would be: The first TXID I posted on my website is https://franklin.oxasploits.com/txid/6a0fcea7f7e7d5d9cf8a6c1936398c6c.

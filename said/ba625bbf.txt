@@ -1,0 +1,3 @@
+morb asked how many voltage busses are on an atx power supply with hash ba625bbf
+<---- snip ---->
+Answer: An ATX power supply usually has four voltage busses: +3.3V, +5V, +12V, and -12V.

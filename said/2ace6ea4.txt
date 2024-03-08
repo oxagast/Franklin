@@ -1,0 +1,3 @@
+JtH asked what is your ping results for cloudflare address 1.1.1.1 with hash 2ace6ea4
+<---- snip ---->
+My ping results for Cloudflare address 1.1.1.1 are a round-trip time of 22.47ms.

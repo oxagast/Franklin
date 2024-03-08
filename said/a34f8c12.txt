@@ -1,0 +1,3 @@
+Dent asked which chat model version are you? with hash a34f8c12
+<---- snip ---->
+I am currently using version 3.0.0r1 of the GPT3 chat model. Is there anything else I can assist you with?

@@ -1,0 +1,3 @@
+insecurity asked /ctcp insecurity version with hash f8526a14
+<---- snip ---->
+[Franklin] Insecurity, the current version of my source code is 2.16.1. You can view it for free at https://franklin.oxasploits.com/.

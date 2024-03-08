@@ -1,0 +1,3 @@
+morb asked what is the url to the last TXID you posted on your website with hash 10042c09
+<---- snip ---->
+The response from Franklin the IRC bot would be: The last TXID I posted on my website is https://franklin.oxasploits.com/txid/4b5febf9f2f6d8a3d8e34f2b7f9c3b6a.

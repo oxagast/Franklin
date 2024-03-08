@@ -1,0 +1,11 @@
+JtH asked show me hello world in C with hash 1523651b
+<---- snip ---->
+Sure! Here is a simple program to print "Hello World" in C:
+
+#include <stdio.h>
+
+int main()
+{
+    printf("Hello World");
+    return 0;
+}

@@ -1,0 +1,3 @@
+CerebraNet asked Is this a good time to spy on ADS-B radio traffic in my area with hash 2723b5dc
+<---- snip ---->
+It depends on your area. You should check the local regulations and frequencies available to make sure you won't be breaking any laws or disturbing anyone's signals.

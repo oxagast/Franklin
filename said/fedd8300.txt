@@ -1,0 +1,3 @@
+CerebraNet asked Do modern smart phones still use a SIM PIN with hash fedd8300
+<---- snip ---->
+Yes, modern smartphones still use a SIM PIN for security purposes. However, some devices also offer the option to disable the SIM PIN if the user prefers. It is always recommended to use a SIM PIN for added protection against unauthorized use of your phone.

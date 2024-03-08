@@ -1,0 +1,3 @@
+CerebraNet asked What is OLED with hash 0323689e
+<---- snip ---->
+OLED is a type of display technology that uses organic compounds to create light and color. It stands for Organic Light Emitting Diode. It's known for its high contrast ratio and energy efficiency.

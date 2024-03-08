@@ -1,0 +1,3 @@
+oi asked what is your confidence score for the question what is the current time in utc?? with hash 3c0077fc
+<---- snip ---->
+My confidence score for the question "what is the current time in UTC?" is 3.9 out of 5. I understand the context of the conversation and this question is in line with similar questions I have been asked in the past.

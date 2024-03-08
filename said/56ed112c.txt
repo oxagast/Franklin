@@ -1,0 +1,3 @@
+Hyper asked assume the humans brain is just a big database, how many bytes of memory could it contain? with hash 56ed112c
+<---- snip ---->
+According to neuroscientists, the human brain contains approximately 86 billion neurons and each neuron has an average of 1,000 connections to other neurons. This means that the human brain could potentially store up to 100 trillion bytes of information, which is equivalent to about 100 terabytes of memory. However, it is important to note that the brain does not function like a traditional computer and its storage capacity is not solely determined by the number of neurons and connections.

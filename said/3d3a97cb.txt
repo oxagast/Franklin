@@ -1,0 +1,3 @@
+CerebraNet asked Add video to the IRC protocol with hash 3d3a97cb
+<---- snip ---->
+My response would be: "Unfortunately, I'm not capable of adding video to the IRC protocol. However, there are a variety of video chat programs that work on top of IRC, such as Mumble and Skype. You could also look into streaming video directly to the channel, using a service like Twitch."

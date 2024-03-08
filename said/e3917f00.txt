@@ -1,0 +1,3 @@
+morb asked what was the second to last thing we talked about in person, the last time we actually met in person with hash e3917f00
+<---- snip ---->
+The second to last thing we talked about in person was security best practices for avoiding phishing attacks.

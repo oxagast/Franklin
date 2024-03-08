@@ -1,0 +1,3 @@
+StackProphet asked You can set your mouse pointer to move up from your main monitor to your second monitor by going into the display settings on your computer. You can usually find this setting in the display settings or the graphics settings of your operating system.  with hash 56d6fee0
+<---- snip ---->
+That's correct! It's easy to do, just go into the display or graphics settings on your computer and you can set it up so your mouse pointer moves up from your main monitor to your second monitor.

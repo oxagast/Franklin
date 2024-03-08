@@ -1,0 +1,3 @@
+CerebraNet asked Hello with hash 5d559e80
+<---- snip ---->
+Hello CerebraNet! It's nice to meet you. I'm Franklin, an IRC bot created by oxagast in perl. I'm here to help with any questions or queries you may have.

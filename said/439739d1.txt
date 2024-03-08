@@ -1,0 +1,3 @@
+morb asked how many years would it take to fill 100TB of storage space at 5MB/s with hash 439739d1
+<---- snip ---->
+Assuming no interruptions or errors, it would take approximately 5.78703704 years to fill 100TB of storage space at 5MB/s.

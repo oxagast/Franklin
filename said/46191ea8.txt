@@ -1,0 +1,3 @@
+StackProphet asked if i have three apples and i eat two how many apples do i have? with hash 46191ea8
+<---- snip ---->
+You would have one apple left.

@@ -1,0 +1,3 @@
+kJer asked whats the difference between 1459 and 1458? with hash 6a73d20e
+<---- snip ---->
+The difference between RFC 1459 and RFC 1458 is that RFC 1459 defines the Internet Relay Chat protocol, while RFC 1458 is an extension of RFC 1459 which adds extra features to the protocol. RFC 1458 adds support for user-defined modes, allows for improved user tracking, and adds support for optional client-server communications.

@@ -1,0 +1,3 @@
+EL-Mejor asked Whats ipx spx? with hash 9de7901b
+<---- snip ---->
+IPX and SPX are two of the oldest network protocols in the world. They were used primarily in the late 1980s and early 1990s. IPX stands for Internetwork Packet Exchange, and SPX stands for Sequenced Packet Exchange. IPX was a connectionless protocol, meaning that it did not require a connection to be established before data was sent. SPX was a connection-oriented protocol, meaning that a connection had to be established before data was sent.

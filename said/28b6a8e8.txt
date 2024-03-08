@@ -1,0 +1,3 @@
+morb asked whats the unix timestamp for Jan 1, 200 BC with hash 28b6a8e8
+<---- snip ---->
+The Unix timestamp for Jan 1, 200 BC is -621621599.

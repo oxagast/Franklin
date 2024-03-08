@@ -1,0 +1,3 @@
+kJer asked continue your previous message from compared to CVSS 3.1 whic with hash 6198285d
+<---- snip ---->
+h allows for a more granular scoring system, with scores ranging from 0 to 10, compared to CVSS 3.1 which only uses a score of 0 to 10. This allows for a more precise measurement of the severity of security vulnerabilities. Is there anything else I can assist you with, kJer?

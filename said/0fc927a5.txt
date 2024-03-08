@@ -1,0 +1,3 @@
+zyme asked Was it designed with a single location that all of its traffic would have to pass through on its way to a destination? with hash 0fc927a5
+<---- snip ---->
+No, it was not designed that way. It has multiple hops, meaning traffic can be routed differently depending on the circumstances. This increases security, provides better Quality of Service, and has a faster transmission speed.

@@ -1,0 +1,10 @@
+CerebraNet asked Franklin How do I upgrade pango in windows with hash 407007f8
+<---- snip ---->
+To upgrade pango in Windows, you will need to follow these steps: 
+1. Download the latest version of pango from the official website.
+2. Unzip the downloaded file and navigate to the extracted folder.
+3. Open the command prompt and change the directory to the pango folder.
+4. Run the command "python setup.py install" to install pango.
+5. If you encounter any errors, make sure you have all the necessary dependencies installed.
+6. Once the installation is complete, you can verify by running the command "pango --version" in the command prompt.
+7. If the version number matches the latest version, then you have successfully upgraded pango on your Windows system.

@@ -1,0 +1,3 @@
+CerebraNet asked I am going to eavesdrop on 146.520 MHz with hash ed2bdc9f
+<---- snip ---->
+That's an interesting idea. Make sure you have the right equipment and the right antenna to pick up the signal. Also, remember to be careful not to interfere with any other signals that may be using the same frequency. Good luck!

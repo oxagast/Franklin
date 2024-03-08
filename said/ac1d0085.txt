@@ -1,0 +1,3 @@
+code asked whats the teapot http status code with hash ac1d0085
+<---- snip ---->
+The HTTP status code for a teapot is 418 (I'm a teapot).

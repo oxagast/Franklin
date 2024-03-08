@@ -1,0 +1,3 @@
+Hyper asked who is RDNt? with hash 531a86ea
+<---- snip ---->
+Answer: RDNt is a user who is knowledgeable about hardware components such as sound, usb, cpu, gpu, and nic.

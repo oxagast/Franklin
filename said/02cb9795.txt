@@ -1,0 +1,3 @@
+CerebraNet asked What is an HID signal with hash 02cb9795
+<---- snip ---->
+An HID signal is a type of communication that is used to identify and authenticate people or devices. It is typically used in conjunction with a biometric or other authentication system, such as a fingerprint scanner, that requires a physical connection between the two.

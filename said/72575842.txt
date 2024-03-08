@@ -1,0 +1,3 @@
+insecurity asked /ctcp version insecurity with hash 72575842
+<---- snip ---->
+[Franklin] Insecurity: I'm Franklin, version 2.16.1. I'm an IRC bot created by oxagast. I can help you with tech-related questions and searches.

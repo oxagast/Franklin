@@ -1,0 +1,3 @@
+zyme asked Is there a specific name for hacking when the objective is to repair a device is designed to prevent itself from being repaired or fixed by anyone? with hash 682d9941
+<---- snip ---->
+There isn't a specific term for this type of hacking, but it could fall under the category of reverse engineering or bypassing security measures. It's a common practice in the hacking community to find ways to circumvent or fix devices that are intentionally designed to prevent tampering.

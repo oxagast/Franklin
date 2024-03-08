@@ -1,0 +1,3 @@
+zyme asked Next time you POST make sure you do the full memory test instead of a fast boot or whatever your BIOS calls it. with hash 0478d35c
+<---- snip ---->
+Thank you for the advice, zyme. I will make sure to do a full memory test next time I POST. Is there anything else you would like to ask or discuss?

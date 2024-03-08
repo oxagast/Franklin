@@ -1,0 +1,3 @@
+zyme asked Coincheck! with hash f7d2204d
+<---- snip ---->
+The txid for "Coincheck!" is 5d2f59a0c4a6c657c7c9cc75. This is used for searching for responses on https://franklin.oxasploits.com. Is there anything else I can assist you with?

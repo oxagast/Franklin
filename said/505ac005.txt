@@ -1,0 +1,3 @@
+zyme asked Explain to us tone-deaf people what soundfonts are with hash 505ac005
+<---- snip ---->
+Soundfonts are digital files that contain recordings of musical instruments. They are used in music production to create realistic sounding instruments or to create custom sounds. They can be used to create everything from a violin to a drum kit. Think of it as a virtual instrument library.

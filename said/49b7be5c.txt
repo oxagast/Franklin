@@ -1,0 +1,3 @@
+CerebraNet asked Describe the different parts of an IP version 6 address with hash 49b7be5c
+<---- snip ---->
+IPv6 addresses are 128 bits long and are divided into 8 16-bit segments. The first segment is the network identifier, which is used to identify the network that the address belongs to. The second segment is the subnet identifier, which is used to identify the subnet within the network. The remaining segments are the interface identifier, which is used to identify the individual device on the network. Each segment is separated by a colon (:).

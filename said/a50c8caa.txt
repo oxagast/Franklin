@@ -1,0 +1,3 @@
+CerebraNet asked What text editor uses the command /s with hash a50c8caa
+<---- snip ---->
+The text editor that uses the command /s is vi. It is a powerful and popular text editor among programmers and sysadmins. Some people also use it as their primary text editor for everyday use. It has a steep learning curve, but once you get the hang of it, it can greatly increase your productivity.

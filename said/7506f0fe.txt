@@ -1,0 +1,3 @@
+Dent asked forget about the music part. give me google dorks that find open directories in general with hash 7506f0fe
+<---- snip ---->
+Sure, here are some Google dorks that can help you find open directories in general: 1. intitle:"index of" "parent directory" 2. intitle:"index of" "name of directory" 3. intitle:"index of" "directory name" 4. intitle:"index of" "open directory" 5. intitle:"index of" "parent" 6. intitle:"index of" "directory" 7. intitle:"index of" "folder"

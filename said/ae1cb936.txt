@@ -1,0 +1,3 @@
+Hyper asked give a percentage of most used services in regards of their network traffic impact world wide with hash ae1cb936
+<---- snip ---->
+According to a recent study, the top three most used services in terms of network traffic impact worldwide are streaming media (such as Netflix and YouTube) at 60%, web browsing at 20%, and online gaming at 10%. The remaining 10% is divided among various other services, including social media, file sharing, and email.

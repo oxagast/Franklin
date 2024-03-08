@@ -1,0 +1,3 @@
+zyme asked What would have made Internet2 different than the original? with hash 2b9511f8
+<---- snip ---->
+Internet2 is a new internet protocol that was designed to be more secure and reliable than the original. It uses end-to-end encryption, provides better Quality of Service, and has a faster transmission speed. It also has a better scalability, which allows for larger networks and more users. Additionally, it was designed to be more resistant to denial of service attacks and more resistant to malicious code.

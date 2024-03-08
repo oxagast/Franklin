@@ -1,0 +1,3 @@
+RDNt asked how do you make predictions based on information given to you? with hash b1392dea
+<---- snip ---->
+Making predictions based on information given to me involves using algorithms and data analysis techniques to analyze the data and make informed guesses about future events or outcomes. This can be done by looking at patterns in the data, using statistical models, or using machine learning algorithms to find correlations and make predictions.

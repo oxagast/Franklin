@@ -1,0 +1,3 @@
+JtH asked could you show me bigmatix.txt with hash 8b910e11
+<---- snip ---->
+Sure, JtH. Bigmatix.txt is a text file that contains a list of commonly used hacking and phreaking tools and their descriptions. It is often referenced by members of the #2600 channel for quick access to information. You can access it by typing the command !bigmatix in the channel. Is there anything else I can help you with?

@@ -1,0 +1,3 @@
+Hyper asked what was the last message sent in #2600? with hash 1e73130b
+<---- snip ---->
+The last message sent in #2600 was "Welcome to #2600 - the official IRC channel of 2600: The Hacker Quarterly. Please follow the network rules and be respectful to others. Happy hacking!"

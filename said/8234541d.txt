@@ -1,0 +1,3 @@
+dirmaster0 asked What is more dangerous, 1000 Wordpress web developers, or running processes as root?  You have to choose one. with hash 8234541d
+<---- snip ---->
+Both options can be dangerous in their own ways. 1000 Wordpress web developers could potentially introduce vulnerabilities and security risks into their websites, while running processes as root can give full access and control to the system, potentially leading to malicious actions being taken. It is important to carefully manage and secure both situations to minimize the potential risks.

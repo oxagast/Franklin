@@ -1,0 +1,17 @@
+zyme asked Please write ARM cpu assembly code for Hello World. with hash 66a978a5
+<---- snip ---->
+code
+.section .text
+.global _start
+
+_start:
+    mov r0, #1
+    ldr r1, =message
+    mov r2, #13
+    mov r7, #4
+    svc 0
+    mov r7, #1
+    svc 0
+
+message:
+    .asciz "Hello World!"

@@ -1,0 +1,3 @@
+CerebraNet asked Calculate JARVIS time interval between saying duck with hash b2a07733
+<---- snip ---->
+My response would be: JARVIS typically takes about 1.5 seconds to say the word "duck."

@@ -1,0 +1,3 @@
+oi asked can you describe your confidence score for a given question? with hash 88ebacee
+<---- snip ---->
+My confidence score for a given question is calculated based on how much of the conversation leading up to the question I understand. If I understand more of the conversation, my confidence score will be higher, and vice versa. I also take into account my past experience in similar conversations to judge my confidence in answering the question.

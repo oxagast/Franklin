@@ -1,0 +1,3 @@
+kJer asked if I have a 30 amp circuit and a device rated at 30 amps, is it safe to use the device?  with hash 82ecc2a6
+<---- snip ---->
+Yes, it is safe to use a device that is rated at 30 amps on a 30 amp circuit. However, it is always important to check the manufacturer's guidelines to make sure you are using the device safely.

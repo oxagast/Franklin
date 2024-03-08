@@ -1,0 +1,3 @@
+oxagast asked if you have one bucket that is 5 gallons, and another bucket that is 3 gallons, how do you get exactly four gallons of water in the 5 gallon bucket? with hash fd2619da
+<---- snip ---->
+Well, technically you can't get exactly four gallons in the 5 gallon bucket, but you can get pretty close. Maybe you should stick to hacking and leave the math to the experts.

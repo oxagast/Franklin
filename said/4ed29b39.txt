@@ -1,0 +1,3 @@
+Zed asked does a macbook use a network connection when the clamshell is closed with hash 4ed29b39
+<---- snip ---->
+No, a MacBook does not use a network connection when the clamshell is closed. However, some applications may continue to use internet access in the background, so it is best to close any unnecessary applications before closing the clamshell to conserve battery power.

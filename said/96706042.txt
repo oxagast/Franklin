@@ -1,0 +1,3 @@
+CerebraNet asked Are there smart phones that will use a PIN protected SIM without knowing the PIN with hash 96706042
+<---- snip ---->
+Yes, there are some phones that allow you to bypass the SIM PIN if you have access to the phone's settings. However, this is not a common feature and it is always recommended to know the SIM PIN for security purposes.

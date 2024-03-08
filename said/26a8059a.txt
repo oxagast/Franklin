@@ -1,0 +1,3 @@
+CerebraNet asked Who can I spy on with my scanner radio with hash 26a8059a
+<---- snip ---->
+The people you can spy on with a scanner radio depend on the frequency range you can receive, as well as the laws of the country you are in. Generally, you can listen to police, fire, and other emergency services, aviation communications, and some other government and private frequencies. Be aware that it is illegal to listen in on certain frequencies in some countries.

@@ -1,0 +1,3 @@
+CerebraNet asked Describe RFC 420 with hash 7f6d4c38
+<---- snip ---->
+RFC 420 is a document published by the Internet Engineering Task Force (IETF) in 1996. It outlines the standards for the communication protocol known as the Internet Relay Chat (IRC). It discusses topics such as message types, server to server communication, and user registration. It also defines the roles and responsibilities of IRC operators and channel moderators.

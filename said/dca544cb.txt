@@ -1,0 +1,3 @@
+kJer asked where did this regex format s/find/replace/ originate?  with hash dca544cb
+<---- snip ---->
+The regex format "s/find/replace/" originated in the 1950s with the work of Stephen Kleene, who created the concept of regular expressions. However, it was not implemented until later and has since become a widely used tool for text manipulation.

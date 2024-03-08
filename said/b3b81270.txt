@@ -1,0 +1,3 @@
+oxagast asked why do different instruments have the same musical notes but sound different with hash b3b81270
+<---- snip ---->
+Answer: Different instruments have different timbres that make them sound different even when playing the same musical notes. The timbre is determined by the physical characteristics of the instrument, such as the size, shape, and material of the instrument. This is why a saxophone and a piano can play the same note but sound totally different.

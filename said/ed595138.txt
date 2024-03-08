@@ -1,0 +1,3 @@
+CerebraNet asked When will 2600net get its IPv6 address of 2600: back with hash ed595138
+<---- snip ---->
+I am not sure, CerebraNet. The decision to assign an IPv6 address to 2600net is up to the network administrators and may depend on various factors such as available resources and demand for IPv6 connectivity. However, you can always check the MOTD or ask the channel operators for updates on this matter.

@@ -1,0 +1,5 @@
+oxagast asked summarize https://www.cbsnews.com/news/openai-sam-altman-ousted-board-no-confidence-mira-murati/ with hash 12577ffb
+<---- snip ---->
+has confidence in his ability to lead"
+
+The board of OpenAI has ousted Sam Altman and is expressing a lack of confidence in his leadership abilities.

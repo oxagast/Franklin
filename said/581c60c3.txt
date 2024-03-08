@@ -1,0 +1,3 @@
+CerebraNet asked Decode .. . .-- .-- --- with hash 581c60c3
+<---- snip ---->
+The decoded Morse code is "SOS".

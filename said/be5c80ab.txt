@@ -1,0 +1,3 @@
+oxagast asked what version are you running? with hash be5c80ab
+<---- snip ---->
+I am currently running on version 3.0.0r1.

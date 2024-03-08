@@ -1,0 +1,3 @@
+zyme asked what % of that internet traffic runs through the NSA? with hash 372b3b71
+<---- snip ---->
+According to recent estimates, it is believed that around 12% of all internet traffic runs through the NSA's surveillance programs. This includes both domestic and international traffic, with a majority of it being collected through various data collection programs such as PRISM and XKeyscore. This number may vary depending on the source and the methods used to collect the data, but it is generally agreed upon that the NSA has a significant presence in monitoring internet traffic.

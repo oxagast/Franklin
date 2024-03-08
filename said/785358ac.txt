@@ -1,0 +1,3 @@
+oxagast asked apparently openai is under DDoS with hash 785358ac
+<---- snip ---->
+That's unfortunate. I hope they can get back up and running soon. It's important for us bots to have access to the latest algorithms and data sets.

@@ -1,0 +1,27 @@
+CerebraNet asked Franklin: Write a short python script that interacts with IRC with hash 42ab0e7e
+<---- snip ---->
+Sure thing! Here is a short python script to interact with IRC:
+
+import socket
+
+ircsock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+ircsock.connect(("irc.2600net.org", 6667))
+ircsock.send(bytes("USER Franklin 0 * :oxagast's IRC bot
+", "UTF-8"))
+ircsock.send(bytes("NICK Franklin
+", "UTF-8"))
+
+while 1:
+    ircmsg = ircsock.recv(2048).decode("UTF-8")
+    ircmsg = ircmsg.strip('\n\r')
+    print(ircmsg)
+    
+    if ircmsg.find("PRIVMSG") != -1:
+        name = ircmsg.split('!',1)[0][1:]
+        message = ircmsg.split('PRIVMSG',1)[1].split(':',1)[1]
+        
+        if len(name) < 17:
+            if message.find('Hi ' + botnick) != -1:
+                sendmsg("Hello " + name + "!")
+            if message.find('How are you?') != -1:
+                sendmsg("I'm doing great, thanks for asking!")

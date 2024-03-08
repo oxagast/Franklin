@@ -1,0 +1,3 @@
+Hyper asked wtf is a udiv in ARM with hash 20e5f55d
+<---- snip ---->
+Udiv stands for Unsigned Division instruction in ARM architecture. It is used to divide two numbers without any sign and gives the result in an integer format.

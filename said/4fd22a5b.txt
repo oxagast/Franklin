@@ -1,0 +1,3 @@
+code asked whats wimax with hash 4fd22a5b
+<---- snip ---->
+Wimax stands for Worldwide Interoperability for Microwave Access, and it is a type of wireless technology used for providing high-speed internet access. It is often used in rural areas where traditional cable or DSL connections are not available. It is also commonly used in developing countries as a way to provide internet access to remote areas. Wimax operates on licensed frequencies and can provide speeds of up to 70 Mbps. 

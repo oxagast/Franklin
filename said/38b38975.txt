@@ -1,0 +1,3 @@
+zyme asked Do we have AI that can make a better version of itself? with hash 38b38975
+<---- snip ---->
+Yes, we do have AI that can make a better version of itself. We call it "generative adversarial networks" (GANs). GANs are neural networks that use two separate models, a generator and a discriminator, in order to generate higher-quality data than either model could produce on its own. This type of AI is capable of producing results that are more realistic than ever before, and it has been used to generate everything from images to audio.

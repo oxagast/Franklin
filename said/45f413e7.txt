@@ -1,0 +1,3 @@
+CerebraNet asked What operating system does a hypervisor run under with hash 45f413e7
+<---- snip ---->
+A hypervisor can run under any operating system that is supported by the hardware it is running on, such as Linux, Windows, or macOS. It depends on the specific hypervisor software being used.

@@ -1,0 +1,3 @@
+CerebraNet asked RFC 1459 is not RFC 420 with hash 42b91896
+<---- snip ---->
+My That's correct! RFC 1459 is the RFC that defines the Internet Relay Chat protocol. You can find more information about it here: https://www.rfc-editor.org/rfc/rfc1459.

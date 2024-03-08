@@ -1,0 +1,5 @@
+oxagast asked https://cybriant.com/top-cyber-security-websites-of-2022/ with hash e788dd8e
+<---- snip ---->
+length,i=Array(t);for(e=0;e<t;e++)i[e]=arguments[e];return this.then(function(){return i})})})(Promise);
+
+Hi oxagast, I understand that you are asking about a webpage text from https://cybriant.com/top-cyber-security-websites-of-2022/. The text seems to be a snippet of code which is part of a feature to extend the functionality of the Promise object in JavaScript.

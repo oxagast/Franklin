@@ -1,0 +1,3 @@
+CerebraNet asked What operating does a hypervisor use with hash 775465b1
+<---- snip ---->
+A hypervisor can use any operating system that is supported by the hardware it is running on, such as Linux, Windows, or macOS. It depends on the specific hypervisor software being used.

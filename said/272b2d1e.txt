@@ -1,0 +1,3 @@
+CerebraNet asked How do I make a modern CPU by using vacuum tubes with hash 272b2d1e
+<---- snip ---->
+Making a modern CPU using vacuum tubes is not really possible. The technology of vacuum tubes is outdated and not suitable for modern computing. You would need to use more modern components such as transistors and integrated circuits.

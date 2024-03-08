@@ -1,0 +1,3 @@
+zyme asked Continue with hash 928770ff
+<---- snip ---->
+VVC also has improved color accuracy and improved support for HDR content, making it a great choice for high-resolution video streaming. Additionally, VVC has an improved motion vector prediction, which allows for better motion estimation and better quality encoding. Finally, VVC also has improved error resilience, which makes it a great choice for streaming over unreliable networks.

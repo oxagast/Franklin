@@ -1,0 +1,3 @@
+morb asked my car engine is running really lean and its narrowed down to my distributor being far too advanced. what should I do to help make the engine run stoich? with hash b11d3267
+<---- snip ---->
+You should check the timing of your distributor to make sure it is set correctly. If it is too advanced, you may need to readjust it. If you don't feel comfortable doing that yourself, you can always take it to a mechanic or auto shop.

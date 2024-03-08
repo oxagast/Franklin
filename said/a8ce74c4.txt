@@ -1,0 +1,3 @@
+oxagast asked summmarize the chatr with hash a8ce74c4
+<---- snip ---->
+The last 10 lines of chat in #2600 were mostly about sleeping, with oxagast mentioning sleeping for a long time and dclaw saying they haven't slept that long in years. Oxagast also asked Franklin to summarize the chat and dclaw mentioned not knowing what the txid is for. The chat can be searched on https://franklin.oxasploits.com.

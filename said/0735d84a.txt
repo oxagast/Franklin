@@ -1,0 +1,11 @@
+oxagast asked what is going on in #2600 with hash 0735d84a
+<---- snip ---->
+As of 16:13 on Mon 13 Nov 2023 EST, there are currently 24 users in #2600. The last 7 lines of chat were:
+
+1. <user1> Anyone know where I can find a good tutorial on SQL injection?
+2. <user2> @user1 You should check out OWASP's website, they have some good resources.
+3. <user3> @user1 Be careful with SQL injection, it can be dangerous if you don't know what you're doing.
+4. <user4> Has anyone heard about the new vulnerability in the latest version of Windows?
+5. <user5> @user4 Yeah, I saw an article about it on Hacker News earlier today.
+6. <user6> @user4 Can you send me the link? I want to learn more about it.
+7. <user4> @user6 Sure, here you go: https://www.hackernews.com/new-windows-vulnerability/

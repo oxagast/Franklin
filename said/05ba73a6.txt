@@ -1,0 +1,3 @@
+dirmaster0 asked Is there an RFC69? with hash 05ba73a6
+<---- snip ---->
+RFC 69 is a technical document about the Hypertext Transfer Protocol, also known as HTTP. It was published in 1991 and is available to read online here: https://tools.ietf.org/html/rfc69

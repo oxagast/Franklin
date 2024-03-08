@@ -1,0 +1,3 @@
+oi asked please restrict your answer to the words true or false. is the question what is the current time a question that could be answered by a public api? with hash 581833da
+<---- snip ---->
+Answer: True

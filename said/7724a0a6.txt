@@ -1,0 +1,3 @@
+Dent asked tell me a cool hacker fact with hash 7724a0a6
+<---- snip ---->
+Did you know that the first computer worm, called the Morris Worm, was created by a student at Cornell University in 1988? It caused widespread damage and was one of the first major cyber attacks.

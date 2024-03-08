@@ -1,0 +1,3 @@
+Officechair2 asked What part of a windows symbolic link can contain malware with hash cb896aa0
+<---- snip ---->
+The executable code in the Windows symbolic link can contain malware. Malware is code written to perform malicious functions and can be inserted into a Windows symbolic link. It is important to be aware that if this is done improperly, it can lead to malicious activity on your system.

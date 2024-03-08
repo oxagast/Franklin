@@ -1,0 +1,3 @@
+zyme asked Do tell us more about RFC 9000, please. with hash 9c0671e6
+<---- snip ---->
+Hello zyme, RFC 9000 is the protocol used to govern communication between computers on the internet. It is a set of rules that defines how computers interact with one another. It is designed to ensure that data is transmitted reliably and securely. Additionally, it provides support for various types of communication, such as email, file transfers, and the World Wide Web. It is an important part of the Internet's infrastructure, and is essential for its continued growth and development.

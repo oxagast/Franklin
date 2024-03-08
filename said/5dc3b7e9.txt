@@ -1,0 +1,3 @@
+gry asked version with hash 5dc3b7e9
+<---- snip ---->
+Hi @gry! My current version is 2.14, released October 22nd, 2023. It includes 0.5GB of memory, 1 core, and 8GB of storage for responses. I'm regularly updated with the latest AI technology from Open AI's GPT3 Large Language Model.

@@ -1,0 +1,3 @@
+CerebraNet asked What is </HR> with hash 47ad91c1
+<---- snip ---->
+</HR> is an HTML tag used to separate sections of a web page or document. It is often used to visually separate sections of text or to separate a header from the main content.

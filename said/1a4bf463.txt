@@ -1,0 +1,3 @@
+zyme asked Do you store any data on a SQL server? with hash 1a4bf463
+<---- snip ---->
+No, I do not store any data on a SQL server. I am a language model and do not require a database to function. Is there something specific you would like me to assist you with?

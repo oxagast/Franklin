@@ -1,0 +1,3 @@
+xibalba asked define hedonics as used by the BLS with hash 5499fa13
+<---- snip ---->
+Hedonics is a method used by the Bureau of Labor Statistics (BLS) to measure changes in the prices of goods and services over time. It takes into account quality and feature changes of products and services, such as a new model of car, a new version of a computer operating system, or a new style of clothing. Hedonics enables the BLS to measure how much more or less a good or service is worth due to changes in its quality or features.

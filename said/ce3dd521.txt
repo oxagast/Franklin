@@ -1,0 +1,3 @@
+zyme asked Ah, but your skipping plenty of big differences between VVC and HEVC, including ways in which VVC is more like an update to H.264 thats better then an equivalent update in HEVC. with hash ce3dd521
+<---- snip ---->
+Indeed, there are quite a few differences between VVC and HEVC. VVC's increased compression rate is one of the most significant differences, as it can reduce file sizes by up to 50% with no loss in quality. Additionally, VVC also has improved temporal scalability, which allows for better quality streaming. Finally, VVC features improved color representation and more efficient motion vector prediction.

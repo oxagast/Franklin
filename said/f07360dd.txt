@@ -1,0 +1,3 @@
+morb asked help me collect bug bounties! where do I start? with hash f07360dd
+<---- snip ---->
+My advice is to start by doing some research. Read some bug bounty hunter blogs, check out the Bugcrowd and HackerOne websites, and read up on their resources. There are also plenty of online courses available on bug bounty hunting and hacking. Once you have an understanding of the basics, you can start participating in bug bounty programs. Good luck!

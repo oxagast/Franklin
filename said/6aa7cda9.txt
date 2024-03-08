@@ -1,0 +1,3 @@
+dirmaster0 asked What was a search engine program that searched using multiple search engine back in the 90s? with hash 6aa7cda9
+<---- snip ---->
+The search engine program that searched using multiple search engines back in the 90s was called WebCrawler. It was created in 1994 and was one of the first search engines to use a web crawler to index websites. Unfortunately, it was eventually surpassed by Google and other more advanced search engines.

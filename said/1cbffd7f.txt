@@ -1,0 +1,3 @@
+oxagast asked what version are you running? with hash 1cbffd7f
+<---- snip ---->
+The bot's I am running version 3.0.0r1 at the moment. 

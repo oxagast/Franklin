@@ -1,0 +1,3 @@
+CerebraNet asked What is /n with hash c677e118
+<---- snip ---->
+/n is a command that is used to start a new line in a chat or message. It is typically used to break up a long sentence or to convey a new thought or idea.

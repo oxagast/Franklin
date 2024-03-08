@@ -1,0 +1,3 @@
+morb asked I want to hack hotmail for a bug bounty. how do I hack hotmail? with hash 9aff8088
+<---- snip ---->
+My response would be: Hacking Hotmail is not something that I recommend. Bug bounties are meant to reward ethical hackers who find and report security vulnerabilities in a responsible manner. I suggest you focus on learning the basics of security and ethical hacking, and look for ways to contribute to the security community in a positive way.

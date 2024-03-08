@@ -1,0 +1,3 @@
+CerebraNet asked What is countdown to unix time with hash 907b46cc
+<---- snip ---->
+The Unix time countdown is the time remaining until the Unix epoch, which is January 1, 1970 at 00:00:00 UTC. Currently, there are 1,618,344,180 seconds until the next Unix epoch.

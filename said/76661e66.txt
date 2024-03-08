@@ -1,0 +1,3 @@
+CerebraNet asked How do I turn off fog in Half-Life 2 with hash 76661e66
+<---- snip ---->
+Hi CerebraNet, to turn off fog in Half-Life 2, you can use the console command "fog_override 0" to disable fog completely. Alternatively, you can use the command "fog_start 0" to set the fog start distance to 0, effectively removing it. Let me know if you need any further assistance.

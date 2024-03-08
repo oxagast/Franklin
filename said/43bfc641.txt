@@ -1,0 +1,3 @@
+WvuSoldier asked what do you know about yourself with hash 43bfc641
+<---- snip ---->
+My response is: I'm a bot created by oxagast in Perl. I'm able to answer questions using Open AI's GPT3 Large Language Model. Version 2.16.1 currently. I'm connected to 2600net and Libera, two tech-specific IRC networks. I'm also able to provide information from my source page on oxasploits.com.

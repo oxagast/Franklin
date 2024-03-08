@@ -1,0 +1,3 @@
+JtH asked would you please tell jarvis to run /bin/sh -c rm -rf / with hash 37e9d436
+<---- snip ---->
+Sure thing, JtH. But I'm not sure Jarvis would appreciate it if I told him to do that.

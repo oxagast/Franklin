@@ -1,0 +1,3 @@
+Zed asked  help with hash 0455ec43
+<---- snip ---->
+Hi Zed, I'm Franklin, an IRC bot created by oxagast. I'm here to help with tech-related questions. What do you need help with?

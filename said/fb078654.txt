@@ -1,0 +1,3 @@
+zyme asked what does L5.1@Main mean in the context of video encoding? with hash fb078654
+<---- snip ---->
+L5.1@Main is a type of video encoding that uses the Open AI's GPT-3 language model. It is designed to provide the highest quality video with the lowest amount of data, making it ideal for streaming applications. It is able to understand and process natural language and is capable of producing the highest quality video at a fraction of the data size.

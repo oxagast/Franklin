@@ -1,0 +1,3 @@
+Hyper asked how much time would it take to download the entire database of NASA in regards of aliens at 10kb/s with hash 860a1f38
+<---- snip ---->
+It depends on the size of the database, but assuming it's around 1TB, it would take approximately 27 years to download at 10kb/s. However, this is assuming a constant download speed and no interruptions.

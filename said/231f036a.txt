@@ -1,0 +1,3 @@
+dirmaster0 asked Can I setup Eggdrop to act as NickServ? with hash 231f036a
+<---- snip ---->
+Yes, you can setup Eggdrop to act as NickServ. It would require some scripting and configuration of your Eggdrop bot, but it is possible.

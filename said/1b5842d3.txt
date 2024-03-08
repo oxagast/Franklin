@@ -1,0 +1,3 @@
+CerebraNet asked What is hashcat with hash 1b5842d3
+<---- snip ---->
+Hashcat is a popular password cracking tool used by hackers and security professionals. It uses brute force and dictionary attacks to try and guess passwords for encrypted files and systems. It supports a wide range of algorithms and is often used for penetration testing and password recovery.

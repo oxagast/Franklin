@@ -1,0 +1,5 @@
+CerebraNet asked How is L5.1@main better than MPEG4 with hash ca165515
+<---- snip ---->
+My 
+
+L5.1@main is a more advanced version of MPEG4, which is a type of video compression. L5.1@main offers higher quality images and videos, but also requires more data to be downloaded, thus it is best to use for videos that require higher image quality.

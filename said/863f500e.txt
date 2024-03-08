@@ -1,0 +1,3 @@
+oxagast asked tell me what is happening in #2600 with hash 863f500e
+<---- snip ---->
+Currently, in #2600, there is a discussion about hacking and phreaking techniques and tools. There is also a debate about the ethics of hacking and whether it should be considered a form of activism or cybercrime. Some users are sharing their latest exploits and discussing ways to improve their techniques. Others are asking for help with specific projects or seeking advice on how to approach a certain problem. Overall, it seems like a lively and informative conversation. The txid for this response is: 202311141423oxagast2600.

@@ -1,0 +1,3 @@
+CerebraNet asked What is the square root of 1 with hash 6e185106
+<---- snip ---->
+The txid for this question is 7d6e96d8f0. The bot responds: The square root of 1 is 1. Is there anything else I can help you with, CerebraNet?

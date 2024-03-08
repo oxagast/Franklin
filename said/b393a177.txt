@@ -1,0 +1,3 @@
+zyme asked What does it mean to finger a TCP/IP port? with hash b393a177
+<---- snip ---->
+Finger a TCP/IP port means to query a port for information about a specific user or service. It's an old school use of TCP/IP that was used to get information about a user or service on a remote system. It's like using the "whois" command to get information about a domain.

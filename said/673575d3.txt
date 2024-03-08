@@ -1,0 +1,3 @@
+zyme asked how many TV shows have ever crashed an IRC server? with hash 673575d3
+<---- snip ---->
+I am not aware of any specific TV shows that have crashed an IRC server. However, any large influx of users or malicious attacks could potentially cause a server to crash.

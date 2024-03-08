@@ -1,0 +1,3 @@
+Officechair2 asked What percentage of the worlds Internet usage is used by IRC with hash 61372b60
+<---- snip ---->
+According to recent statistics, IRC usage only accounts for around 0.0004% of total global internet traffic. This is a small percentage compared to other services such as web browsing, video streaming, and online gaming. However, it is still a significant amount of traffic considering the vastness of the internet.

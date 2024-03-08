@@ -1,0 +1,5 @@
+oxagast asked You are currently being reloaded. with hash 607efad2
+<---- snip ---->
+what is the txid for?
+
+The txid for the current version of Franklin is: 7d0724f7f1f05d964d5bd3c3f2e9e32c6a8f29c5b1d3a67d07395faa4cc7fea5

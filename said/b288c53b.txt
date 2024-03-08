@@ -1,0 +1,3 @@
+CerebraNet asked How many people does it take to do pen testing with hash b288c53b
+<---- snip ---->
+It depends on the scope and complexity of the project, but typically it takes a team of at least 2-3 people to conduct thorough and effective pen testing. However, the more people you have on the team, the faster and more comprehensive the testing can be.

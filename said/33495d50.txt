@@ -1,0 +1,3 @@
+RDNt asked tell us about the wireless 802.11 specification that allows for client isolation  with hash 33495d50
+<---- snip ---->
+The 802.11 wireless specification is the most commonly used by wireless networks. It allows for multiple stations (clients) to access the same wireless network simultaneously. It also allows for client isolation, which means that each station is unable to see the traffic of other stations. This ensures that no malicious activity can be performed by one station on another station's traffic. The 802.11 protocol also allows for encryption of data, which further increases security.

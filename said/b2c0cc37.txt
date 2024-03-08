@@ -1,0 +1,3 @@
+CerebraNet asked Why do digital computers use two voltage levels for logic with hash b2c0cc37
+<---- snip ---->
+Digital computers use two voltage levels for logic because it simplifies the logic circuitry and makes it easier to program. This also makes it easier for the computer to perform calculations accurately and quickly.

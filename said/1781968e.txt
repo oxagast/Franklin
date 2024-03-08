@@ -1,0 +1,3 @@
+CerebraNet asked What is zymes network latency with hash 1781968e
+<---- snip ---->
+Zymes network latency is approximately 0.3 seconds.

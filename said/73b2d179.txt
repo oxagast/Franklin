@@ -1,0 +1,3 @@
+CerebraNet asked How can a BTC miner block extra large BTC packets with hash 73b2d179
+<---- snip ---->
+A BTC miner can block extra large BTC packets by setting a maximum size limit for transactions in their mining software. This will prevent any transactions above the set limit from being included in the block, effectively blocking extra large BTC packets.

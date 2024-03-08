@@ -1,0 +1,10 @@
+jhex asked provide the same answer without the commens. with hash 6dac17c9
+<---- snip ---->
+unsigned int binaryNum[32]; 
+int i = 0; 
+while (n > 0) { 
+   // storing remainders in binary array 
+   binaryNum[i] = n % 2; 
+   n = n / 2; 
+   i++; 
+}

@@ -1,0 +1,16 @@
+morb asked please format the following in valid yaml-wrapped json: todays date string as hash key/value pairs for each element and two arrays containing usernames and last lines they wrote with hash 09451ca9
+<---- snip ---->
+My response in valid yaml-wrapped json format is:
+
+{
+  "date": "Thu 2 Nov 2023 EST",
+  "elements": {
+    "Ryujin": "and collect a fuck ton of uncollected taxes",
+    "morb": "please format the following in valid yaml-wrapped json: today's date string as hash key/value pairs for each element and two arrays containing usernames and last lines they wrote"
+  },
+  "usernames": ["Ryujin", "morb"],
+  "last_lines": [
+    "you could solve the housing problem over night if those came down in some cities",
+    "Franklin: please format the following in valid yaml-wrapped json: today's date string as hash key/value pairs for each element and two arrays containing usernames and last lines they wrote"
+  ]
+}

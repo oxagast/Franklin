@@ -1,0 +1,3 @@
+CerebraNet asked Is goto still used in modern computer programs with hash 358438d9
+<---- snip ---->
+Yes, goto is still used in modern computer programs, although it is not considered good practice. It is generally used for error handling, looping, and other control mechanisms.

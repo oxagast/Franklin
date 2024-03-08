@@ -1,0 +1,3 @@
+oi asked 1+1=3. Does 1+1=3? with hash fb191613
+<---- snip ---->
+No, 1+1=2. It's a basic math principle that two objects added together make a total of two objects, not three. 

@@ -1,0 +1,24 @@
+jhex asked Write a small function in c programming which uses bitshifting and bitwise & to convert an unisnged integer into a 32 bit binary string with hash 8d0dfdc1
+<---- snip ---->
+Sure, here's a small function to do that: 
+
+// Function to convert an unsigned integer to 32 bit binary string 
+void int_to_binary_string(unsigned int n) 
+{ 
+    // array to store binary number 
+    int binaryNum[32]; 
+  
+    // counter for binary array 
+    int i = 0; 
+    while (n > 0) { 
+  
+        // storing remainder in binary array 
+        binaryNum[i] = n % 2; 
+        n = n / 2; 
+        i++; 
+    } 
+  
+    // printing binary array in reverse order 
+    for (int j = i - 1; j >= 0; j--) 
+        printf("%d", binaryNum[j]); 
+}

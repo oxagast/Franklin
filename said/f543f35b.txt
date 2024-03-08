@@ -1,0 +1,3 @@
+zyme asked what does L5.1@Main mean in the context of video encoding mean in comparison to a lower number such as L4@Main? with hash f543f35b
+<---- snip ---->
+L5.1@Main means that the video is encoded with the highest level of compression available, while L4@Main means that the video is encoded with a lower level of compression. This means that the video encoded with L5.1@Main will have better quality than one encoded with L4@Main, but will also require more data to be downloaded.

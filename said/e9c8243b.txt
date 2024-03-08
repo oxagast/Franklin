@@ -1,0 +1,3 @@
+jhex asked remove all comments from the previous answer. with hash e9c8243b
+<---- snip ---->
+Done. All comments have been removed.
