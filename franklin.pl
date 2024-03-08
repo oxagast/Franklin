@@ -28,7 +28,7 @@ use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 use URL::Encode;
 $|++;
-$VERSION = "4.0.0";
+$VERSION = "4.0.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -483,28 +483,27 @@ sub callapi {
             open(LOGGER, '>>', $logf);
             print LOGGER time() . ": " . "Response to $nick\'s query sent to channel $channel.\n";
             close(LOGGER);
-
             # Send parsed API return to chan.
             $retcode = 0;
           }
         }
         else { $server->command("msg $channel $said_cut"); }
-
         #push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         #if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
         #  shift(@chat);                                   # shift the earlist back thing said off the array stack.
         #}
         return 0;
       }
-      $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
+      #$server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "There was a problem sending the response to channel $channel...\n";
       close(LOGGER);
       return 1;                                                                                    # tell it it didn't finish right
     }
     else {
+      $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
       open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "There was an issue sending reponse from the API.\n";
+      print LOGGER time() . ": " . "There was an issue retreiving reponse from the API.\n";
       close(LOGGER);
       return 1;
     }                                                                                              # otherwise tell it it was incomplete
@@ -598,7 +597,7 @@ sub checkcmsg {
           $try++;
           sleep(2.5);
           $isup = $wrote;
-          if ($try == ($maxretry - 1)) {
+          if ($try >= ($maxretry - 1)) {
             $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             open(LOGGER, '>>', $logf);
             print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
@@ -614,6 +613,7 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
+        $server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
         open(LOGGER, '>>', $logf);
         print LOGGER time() . ": " . "Unknown error, response not sent to server\n";
         close(LOGGER);
@@ -667,7 +667,7 @@ sub checkpmsg {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
         $try++;
         sleep(2.5);
-        if ($try == ($maxretry - 1)) {
+        if ($try >= ($maxretry - 1)) {
           $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
           open(LOGGER, '>>', $logf);
           print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
