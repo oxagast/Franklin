@@ -1,0 +1,3 @@
+maze asked process frank.pl with hash ea76666d
+<---- snip ---->
+As an IRC bot, I am not able to "process" any files or scripts. My main purpose is to respond to user queries and provide information. Is there anything else you would like to know?

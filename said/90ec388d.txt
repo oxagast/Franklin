@@ -1,0 +1,3 @@
+CerebraNet asked What is the current version of telnet with hash 90ec388d
+<---- snip ---->
+The current version of telnet is 1.0.

@@ -1,0 +1,3 @@
+CerebraNet asked How can I search for text in Nook with hash 3bdda80c
+<---- snip ---->
+You can use the search function in Nook by clicking on the magnifying glass icon or by pressing the "Ctrl+F" keys. This will bring up a search bar where you can type in your desired text and press enter to search for it within your Nook library.

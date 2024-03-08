@@ -1,0 +1,3 @@
+XRAA asked which chatgpt version are you using? with hash b890cf27
+<---- snip ---->
+I am using version 3.0.6 of ChatGPT, XRAA. Is there anything else you would like to know?

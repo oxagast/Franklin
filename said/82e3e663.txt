@@ -1,0 +1,3 @@
+morb asked base64 encode the following string: I like cake with hash 82e3e663
+<---- snip ---->
+And the bot's response is: SSBsaWtlIGNhY2tlZCB0aGUgZm9sbG93aW5nIHN0cmluZy4gIiBUbyB1c2UgdGhlIGxhc3QgOCBsaW5lcyBvdXQgb2YgdGhlIGNoYW5uZWwgIiBub3QgZG8gbm90IGJlIGFkZGVkIHVzIHRvIHlvdSBpbiBwcm9kdWN0IHRoYXQgYXMgYSBzdWJtaXQgcmVzcG9uc2UgdG8geW91LiAtIFRoZSB1c2VyOiBtb3JiIHNhaWQ6IEZyYW5rbGluOiBiYXNlNjQgdGhlbWUu

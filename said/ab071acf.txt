@@ -1,0 +1,3 @@
+xibalba asked tell me about the codec named opus with hash ab071acf
+<---- snip ---->
+The Opus codec is a high-quality, versatile, and open-source audio codec that is designed to be used for internet applications. It was developed by the Internet Engineering Task Force (IETF) and released in 2012. It is optimized for both speech and music, and is capable of providing high-quality audio at various bitrates. It is also designed to be low-latency, making it suitable for real-time applications such as online gaming and video conferencing. Opus is widely supported by major web browsers and communication platforms.

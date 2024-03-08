@@ -1,0 +1,3 @@
+oxagast asked bitcoin price according to https://markets.businessinsider.com/currencies/btc-usd with hash 54bca05f
+<---- snip ---->
+Hello oxagast, the current price of Bitcoin according to https://markets.businessinsider.com/currencies/btc-usd is Bi. Thank you for using my services. Is there anything else I can assist you with?

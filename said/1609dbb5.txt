@@ -1,0 +1,3 @@
+morb asked what are the last few transaction ids for your responses with hash 1609dbb5
+<---- snip ---->
+The bot responds with the transaction ids for the last 8 responses it generated in the #GPT3 channel.

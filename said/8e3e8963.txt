@@ -1,0 +1,3 @@
+BigVision asked what model are you using with hash 8e3e8963
+<---- snip ---->
+Bot: I am using OpenAI's GPT 3.5 Turbo Instruct Large Language Model for my responses. It allows me to generate human-like text and adapt to different contexts and topics. Is there anything specific you would like to know about the model?

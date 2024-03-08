@@ -1,0 +1,3 @@
+XYZ asked compare jp2 vs jpeg with hash 4aec2778
+<---- snip ---->
+The main difference between JP2 and JPEG is that JP2 uses a newer compression algorithm called JPEG2000, which allows for higher quality images with smaller file sizes. JP2 also supports additional features such as transparency and metadata, while JPEG does not. However, JPEG is still more widely supported and compatible with most devices and software. Ultimately, it depends on your specific needs and preferences.

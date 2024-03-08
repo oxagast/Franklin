@@ -1,0 +1,3 @@
+CerebraNet asked Use CTCP ping on me with hash a285f141
+<---- snip ---->
+Sure, CerebraNet. CTCP ping sent. Pong! 

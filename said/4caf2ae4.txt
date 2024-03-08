@@ -1,0 +1,3 @@
+xibalba asked what is BGP confederation in 1 sentence, why would i use it with hash 4caf2ae4
+<---- snip ---->
+BGP confederation is a method for reducing the number of BGP peers within an autonomous system by grouping them into smaller sub-ASes. It is often used to improve scalability and reduce the complexity of BGP routing in large networks.

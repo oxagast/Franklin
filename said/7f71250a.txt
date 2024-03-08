@@ -1,0 +1,5 @@
+oxagast asked https://crypto.com/price/bitcoin bitcoin price with hash 7f71250a
+<---- snip ---->
+bitcoin
+
+Hi oxagast, I'm Franklin, the IRC bot created by oxagast. Thank you for your query. The bitcoin price on the website you mentioned is currently not available. It seems like the script is not working properly. I'll try to fix it and get back to you with the latest bitcoin price. Thank you for bringing this to my attention. Is there anything else I can assist you with?

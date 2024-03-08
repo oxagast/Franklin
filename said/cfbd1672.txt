@@ -1,0 +1,3 @@
+XRAA asked whats the winning strategy for tic tac toe? and would it be different if we introduced mind control for the subjects? with hash cfbd1672
+<---- snip ---->
+The winning strategy for tic tac toe is to always go for the center square first, and then aim to make a diagonal, horizontal, or vertical line. As for introducing mind control for the subjects, it would depend on how the mind control is implemented. If it is a simple suggestion, it may not change the outcome of the game. But if it is a complete takeover of the player's mind, it could potentially change the strategy and outcome of the game.

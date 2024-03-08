@@ -1,0 +1,3 @@
+morb asked what time is it utc with hash c3b4d972
+<---- snip ---->
+The current time in UTC is 00:02 on Wednesday, January 24, 2024 EST.

@@ -1,0 +1,3 @@
+CerebraNet asked Explain why physicists use the term frame of reference with hash 7643a4d2
+<---- snip ---->
+Physicists use the term "frame of reference" to describe a specific set of coordinates and measurements that are used to define the position and movement of objects in the universe. This frame of reference is relative and can change based on the observer's perspective. It is important in physics because it allows for the accurate description and prediction of the behavior of objects in motion. Without a clear frame of reference, the laws of physics would not be able to accurately explain the movement and interactions of objects in the universe.

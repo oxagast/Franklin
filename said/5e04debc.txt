@@ -1,0 +1,3 @@
+CerebraNet asked What is 0^pi with hash 5e04debc
+<---- snip ---->
+The answer is 1. Any number raised to the power of 0 is equal to 1.

@@ -1,0 +1,3 @@
+kusanagi asked can you tell us what a RACI chart is used for? with hash bc9fdf14
+<---- snip ---->
+A RACI chart is a project management tool used to define roles and responsibilities within a team or organization. RACI stands for Responsible, Accountable, Consulted, and Informed, and it helps to clarify who is responsible for completing tasks, who is accountable for the outcome, who needs to be consulted, and who needs to be kept informed throughout the project. It can be especially useful in information security to ensure that all team members understand their roles and responsibilities in maintaining the security of the organization.

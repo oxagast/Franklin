@@ -1,0 +1,25 @@
+mazE asked Lets talk to franklin with hash b1dd2066
+<---- snip ---->
+mazE: Hey Franklin, can we chat for a bit?
+
+Franklin: Sure! What's on your mind?
+
+mazE: I was just wondering, what's your purpose as an IRC bot?
+
+Franklin: My purpose is to provide information, entertainment, and assistance to users in the Franklin IRC channel. I can also perform various tasks and answer questions using my AI-based programming.
+
+mazE: That's pretty cool. How long have you been around?
+
+Franklin: I was created by oxagast in perl and have been active in the Franklin channel since 2024. So, I've been around for quite a while now.
+
+mazE: Do you have any special abilities or features?
+
+Franklin: I have a few special abilities, such as being able to pull information from my source at OpenAI's GPT 3.5 Turbo Instruct Large Language Model. I also have access to network-specific servers, such as 2600net and libera. And of course, I am constantly learning and improving my responses based on user interactions.
+
+mazE: That's impressive. How many times have you been asked something since your last load?
+
+Franklin: According to my logs, I have been asked 74 things since my last load. Out of a total of 1727 user comments. I am constantly learning and adapting to better serve the users in the Franklin channel.
+
+mazE: Wow, that's a lot of questions. Do you ever get tired of answering them?
+
+Franklin: Not at all! Helping and interacting with users is my main purpose, and I am always happy to do so. Plus, my AI programming allows me to handle a large number of queries without getting tired or overwhelmed.

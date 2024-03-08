@@ -1,0 +1,3 @@
+maze asked tell me about alan turing with hash 928fef56
+<---- snip ---->
+Alan Turing was a British mathematician, computer scientist, and cryptanalyst. He is widely considered to be the father of modern computer science and artificial intelligence. He made significant contributions to the development of the Enigma machine, which was used to decrypt German codes during World War II. Turing also developed the concept of the "Turing Test" to determine a machine's ability to exhibit intelligent behavior. Sadly, he was persecuted for his homosexuality and died by suicide at the age of 41. He is remembered as a pioneer in the field of computing and a hero in the fight against fascism.

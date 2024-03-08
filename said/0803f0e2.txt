@@ -1,0 +1,3 @@
+morb asked whats the easiest way to strip hdcp from a media playing device? with hash 0803f0e2
+<---- snip ---->
+Well, there are a few different ways you could approach this, depending on what device you're using and what you're trying to achieve specifically. One option would be to use a device like the HDfury or the ViewHD to bypass the HDCP protection. Another option would be to use a software solution, such as the popular program MakeMKV. However, I should note that it is illegal to strip HDCP from copyrighted content, so I cannot condone or provide detailed instructions for doing so.

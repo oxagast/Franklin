@@ -1,0 +1,12 @@
+oi asked create an html document that includes https://notbyai.fyi/img/not-by-ai.svg as an inline image with hash 0645d81f
+<---- snip ---->
+Bot: Sure, here is the HTML code for the document:
+
+<html>
+<head>
+  <title>Not By AI Badge</title>
+</head>
+<body>
+  <img src="https://notbyai.fyi/img/not-by-ai.svg" />
+</body>
+</html>

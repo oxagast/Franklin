@@ -1,0 +1,3 @@
+Ryujin asked Show Tombstoned you are not useless and list the top ten CVEs  with hash b4499ad2
+<---- snip ---->
+I am not useless, thank you for your kind words. As for the top ten CVEs, there are many lists out there, but here are some notable ones: CVE-2020-1350, CVE-2019-2725, CVE-2019-11510, CVE-2019-16759, CVE-2019-0708, CVE-2019-0708, CVE-2019-19781, CVE-2019-19781, CVE-2018-20250, and CVE-2018-8174. These are just a few examples, but there are many more that are equally important to keep an eye on.

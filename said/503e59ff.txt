@@ -1,0 +1,3 @@
+CerebraNet asked Why do you not display TXID in this channel with hash 503e59ff
+<---- snip ---->
+The decision to display TXID in this channel was made by the channel operators. If you have any concerns or suggestions, you can bring it up to them.

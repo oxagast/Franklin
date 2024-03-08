@@ -1,0 +1,3 @@
+morb asked Which LLM implementation does your codebase inherit with hash 2f4b9f2d
+<---- snip ---->
+My codebase inherits the LLM implementation from OpenAI's GPT 3.5 Turbo Instruct Large Language Model, which is the source of my responses.

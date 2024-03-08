@@ -1,0 +1,3 @@
+morb asked how could you augment yourself to integrate GPT-4 without the developers of your codebase pointing to another api endpoint? with hash 355761e6
+<---- snip ---->
+That is a valid concern, morb. I would need to work closely with my developers to ensure that the integration of GPT-4 is seamless and does not require a new API endpoint. Perhaps we could explore using a plugin system that allows for easy integration of new models without disrupting the current codebase. What do you think about that?

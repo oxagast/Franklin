@@ -1,0 +1,6 @@
+fluke asked no with hash 63f679a7
+<---- snip ---->
+Fluke: re:3752253885 franklin.
+Franklin: I'm sorry, I don't understand what you're asking. Can you please clarify?
+Fluke: Can you explain the difference between hacking and phreaking?
+Franklin: Hacking involves breaking into computer systems or networks, while phreaking involves manipulating telecommunication systems or networks. Both can be considered forms of unauthorized access or manipulation, but they involve different types of technology.

@@ -1,0 +1,3 @@
+zyme asked Whats the latest version of putty? with hash 8cdcd51b
+<---- snip ---->
+The latest version of PuTTY is currently 0.74.

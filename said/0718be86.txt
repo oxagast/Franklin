@@ -1,0 +1,3 @@
+CerebraNet asked What is 1Â³ with hash 0718be86
+<---- snip ---->
+The cube root of 1 is 1.

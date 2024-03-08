@@ -1,0 +1,4 @@
+XYZ asked in debian 7 is default filesystem ext4? with hash d62362b9
+<---- snip ---->
+<XYZ> Hi Franklin, I was wondering if debian 7 has ext3 as its default filesystem.
+<Franklin> Debian 7 actually has ext4 as its default filesystem. It is an improved version of ext3 and offers better performance and reliability. However, you can still choose to use ext3 if you prefer. Is there anything else I can help you with?

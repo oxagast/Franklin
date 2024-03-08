@@ -1,0 +1,5 @@
+oxagast asked what is the current bitcoin price according to https://www.coindesk.com/price/bitcoin/ with hash 4dec5baa
+<---- snip ---->
+/png
+
+Franklin: Hello oxagast, the current bitcoin price according to https://www.coindesk.com/price/bitcoin/ is not available as the webpage you provided is not displaying the price. However, the webpage does mention a "link relicon typeimage/png" which is a link to a PNG image. Is there anything else I can assist you with?

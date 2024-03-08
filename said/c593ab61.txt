@@ -1,0 +1,3 @@
+oi asked say my database uses postgres with hash c593ab61
+<---- snip ---->
+My database uses Postgres, a popular open-source relational database management system. It allows for efficient storage and retrieval of data, making it ideal for my purposes.

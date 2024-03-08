@@ -1,0 +1,3 @@
+xibalba asked what is L3VNI with hash 24dbbced
+<---- snip ---->
+L3VNI is a tool used for network and security testing, specifically for IPv6 networks. It allows for scanning, reconnaissance, and exploitation of IPv6 networks. It is often used by hackers and security professionals for testing and securing networks.

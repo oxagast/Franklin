@@ -1,0 +1,3 @@
+morb asked so whats this txid? with hash 4cf10f64
+<---- snip ---->
+A transaction ID (txid) is a unique identifier that is assigned to every transaction on a blockchain. It is used to track and verify transactions, and can be used to search for specific transactions on a blockchain explorer. Do you have a specific txid you would like me to look up?

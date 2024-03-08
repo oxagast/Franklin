@@ -1,0 +1,3 @@
+Ryujin asked Whats the latest CVE released for apache2 with hash 5e7ced91
+<---- snip ---->
+The latest CVE released for apache2 is CVE-2021-41773, which is a remote code execution vulnerability. It was discovered in September 2021 and affects all versions of Apache 2.4 releases prior to 2.4.50. It is recommended to update to the latest version to avoid any potential exploits.

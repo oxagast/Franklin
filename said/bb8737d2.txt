@@ -1,0 +1,3 @@
+CerebraNet asked How many Plank length units are there per milimeter with hash bb8737d2
+<---- snip ---->
+There are approximately 1.616255(18) x 10^35 Planck length units per millimeter.

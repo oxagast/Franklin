@@ -1,0 +1,3 @@
+CerebraNet asked Are there coxial cables with the same outer diameter as RG8/U cable with hash 57bfbf7d
+<---- snip ---->
+There are indeed other coaxial cables with the same outer diameter as RG8/U cable. Some examples include RG213, which has a 0.405 inch outer diameter, and LMR400, which has a 0.400 inch outer diameter. These cables also have a 50 ohm impedance like RG8. However, their inner conductors and shielding materials may differ, so it is important to choose the right cable for your specific application.

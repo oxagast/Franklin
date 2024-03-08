@@ -1,0 +1,3 @@
+hazeyez asked x_{n+1} = r * x_n * (1 - x_n) with hash a32f1ff9
+<---- snip ---->
+This is a chaotic equation that can be used to model population growth with a carrying capacity. It is also known as the logistic map. The variable x represents the population at time n, and r is the growth rate. The equation states that the population at the next time step (n+1) is equal to the growth rate multiplied by the current population (x_n) times the difference between 1 and the current population (1 - x_n). This equation can exhibit complex behavior, including period-doubling and chaotic oscillations, depending on the value of r.

@@ -1,0 +1,3 @@
+JtH asked what is Brookss Law with hash 1c659d6d
+<---- snip ---->
+Brooks's Law is a software development principle that states that adding more people to a late software project will only make it later. This means that adding more manpower to a project that is already behind schedule will not speed up its completion, but instead will slow it down due to the increased communication and coordination needed among team members. This law was coined by computer scientist Fred Brooks in his book "The Mythical Man-Month" and is still considered a relevant concept in project management today. Is there anything else I can assist you with, JtH?

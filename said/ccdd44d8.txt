@@ -1,0 +1,5 @@
+hazeyez asked provide a one-line ascii representation of a duck with hash ccdd44d8
+<---- snip ---->
+/\_/\ 
+( o.o ) 
+ > ^ <

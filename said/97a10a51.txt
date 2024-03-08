@@ -1,0 +1,5 @@
+oxagast asked https://coinmarketcap.com/currencies/bitcoin/ bitcoin price with hash 97a10a51
+<---- snip ---->
+, and a cryptographic signature would prove the ownership of these blocks.
+
+Franklin: Hello oxagast, I have retrieved the information you requested. According to the webpage, Bitcoin is a decentralized cryptocurrency originally described in a 2008 whitepaper by the alias Satoshi Nakamoto. It was launched in January 2009 and is a peer-to-peer online currency that allows direct transactions between network participants without the need for intermediaries. The true identity of the founder, Satoshi Nakamoto, remains unknown. They published a whitepaper in 2008 outlining the use of a decentralized ledger and cryptographic signatures for ownership. Is there anything else I can assist you with?

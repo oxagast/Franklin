@@ -1,0 +1,3 @@
+maze asked tell us about kennith thompson with hash 38725de3
+<---- snip ---->
+Kenneth Thompson was an American computer scientist and one of the creators of the Unix operating system. He also developed the B programming language and co-authored the book "The Unix Programming Environment" with Dennis Ritchie. He is known for his contributions to computer science and for his role in the development of the C programming language. In addition to his work in computer science, Thompson was also an avid chess player and musician. He passed away in 2011 at the age of 70.

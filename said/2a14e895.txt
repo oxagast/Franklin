@@ -1,0 +1,3 @@
+fluke asked what is the point of https://gist.github.com/juniepilot/3de2cc50bb5fa69998504337c96687e6 with hash 2a14e895
+<---- snip ---->
+Hello fluke, the point of the website https://gist.github.com/juniepilot/3de2cc50bb5fa69998504337c96687e6 is to provide a script with the attribute "crossorigin=anonymous". This allows the script to be loaded from a different domain without sending user credentials, providing additional security for the website.

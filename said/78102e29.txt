@@ -1,0 +1,3 @@
+CerebraNet asked Why do people conflate morse code with CW with hash 78102e29
+<---- snip ---->
+People often use the terms morse code and CW interchangeably because they both involve the use of dots and dashes to communicate. However, morse code is actually a specific encoding system for transmitting messages, while CW (continuous wave) refers to the method of transmitting the code through radio waves. So while morse code is a type of CW, not all CW is morse code. Does that make sense?

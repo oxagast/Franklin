@@ -1,0 +1,56 @@
+hazeyez asked visit this site link: https://rentry.co/o3dws/raw which is JSON formatted, return the current Bitcoin price, with hash 99862b6c
+<---- snip ---->
+...
+
+Hello hazeyez, the current price of Bitcoin is 43,596.91 USD and the data from the webpage is the following:
+
+json status timestamp: 2023-12-21T00:55:01.456Z
+errorcode: 0
+errormessage: null
+elapsed: 11
+creditcount: 1
+notice: null
+totalcount: 8906
+
+data:
+id: 1
+name: Bitcoin
+symbol: BTC
+slug: bitcoin
+nummarketpairs: 10673
+dateadded: 2010-07-13T00:00:00.000Z
+tags: mineable, pow, sha256, storeofvalue, statechannel, coinbaseventuresportfolio, threearrowscapitalportfolio, polychaincapitalportfolio, binancelabsportfolio, blockchaincapitalportfolio, boostvcportfolio, cmsholdingsportfolio, dcgportfolio, dragonflycapitalportfolio, electriccapitalportfolio, fabricventuresportfolio, frameworkventuresportfolio, galaxydigitalportfolio, huobicapitalportfolio, alamedaresearchportfolio, a16zportfolio, 1confirmationportfolio, winklevosscapitalportfolio, usvportfolio, placeholderventuresportfolio, panteracapitalportfolio, multicoincapitalportfolio, paradigmportfolio, bitcoinecosystem, ftxbankruptcyestate
+maxsupply: 21,000,000
+circulatingsupply: 19,576,006
+totalsupply: 19,576,006
+infinitesupply: false
+platform: null
+cmcrank: 1
+selfreportedcirculatingsupply: null
+selfreportedmarketcap: null
+tvlratio: null
+lastupdated: 2023-12-21T00:54:00.000Z
+quote:
+USD:
+price: 43,596.91
+volume24h: 28,872,357,310,642.258
+volumechange24h: 27,786
+percentchange1h: 0.08643806
+percentchange24h: 28.1679156
+percentchange7d: 194.633133
+percentchange30d: 1669.549526
+percentchange60d: 4536.331625
+percentchange90d: 636.683437
+marketcap: 85,345,354,238,272.07
+marketcapdominance: 52.5504
+fullydilutedmarketcap: 91,553,529,305,401
+tvl: null
+lastupdated: 2023-12-21T00:54:00.000Z
+
+id: 1027
+name: Ethereum
+symbol: ETH
+slug: ethereum
+nummarketpairs: 8075
+dateadded: 2015-08-07T00:00:00.000Z
+tags: pos, smartcontracts, ethereumecosystem, coinbaseventuresportfolio, threearrowscapitalportfolio, polychaincapitalportfolio, binancelabsportfolio, blockchaincapitalportfolio, boostv...

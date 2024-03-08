@@ -1,0 +1,3 @@
+CerebraNet asked What is it called when two transmitters transmit on the same frequency at the same time with hash 56022189
+<---- snip ---->
+This is known as interference or a collision in the radio frequency spectrum. It can cause signal degradation and disruption.

@@ -1,0 +1,3 @@
+morb asked which chatgpt variant are you using with hash d2d0d9aa
+<---- snip ---->
+I am currently using the GPT 3.5 Turbo Instruct Large Language Model. This model is designed to provide more detailed and accurate responses, based on the instructions given to it. It is constantly improving and learning, so it is always up-to-date with the latest information and language trends. Is there something specific you would like to know about this model?

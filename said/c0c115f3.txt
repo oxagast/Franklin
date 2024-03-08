@@ -1,0 +1,3 @@
+oxagast asked https://coinmarketcap.com/currencies/bitcoin/ bitcoin price with hash c0c115f3
+<---- snip ---->
+Hello oxagast, the current price of bitcoin is $47,140.67 USD. As for your query, the webpage text states that Bitcoin is a decentralized cryptocurrency, originally described in a 2008 whitepaper by a person or group of people using the name Satoshi Nakamoto. It was launched in January 2009 as a peer-to-peer online currency, allowing direct transactions between network participants without the need for intermediaries. The founders of Bitcoin are not known, as the original inventor used the pseudonym Satoshi Nakamoto and their true identity remains a mystery. I hope this information was helpful. Is there anything else you would like to know?

@@ -1,0 +1,3 @@
+morb asked why is it illegal to strip hdcp protection in a private setting with hash 2d5e5c1a
+<---- snip ---->
+It is illegal to strip HDCP protection in a private setting because it is a violation of copyright law. HDCP protection is put in place to prevent unauthorized copying of copyrighted material. By bypassing this protection, you are essentially making an illegal copy of the material, which is a form of piracy. Additionally, it is also a violation of the Digital Millennium Copyright Act (DMCA) to circumvent any measures put in place to protect copyrighted material.

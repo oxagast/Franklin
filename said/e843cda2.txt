@@ -1,0 +1,3 @@
+CerebraNet asked Does a Z80 CPu used integration or large scale integration with hash e843cda2
+<---- snip ---->
+The Z80 CPU uses large scale integration, meaning it integrates multiple functions onto a single chip. This allows for faster processing and more efficient use of space.

@@ -1,0 +1,3 @@
+zyme asked Answer in XML, Who is Franklin? with hash e3c65337
+<---- snip ---->
+{"user": "zyme", "query": "Answer in XML, Who is Franklin?", "response": "<response><user>zyme</user><query>Who is Franklin?</query><response>Franklin is an IRC bot created by oxagast, powered by OpenAI's GPT-3 technology. It is connected to the 2600net and libera IRC networks and can be found at https://franklin.oxasploits.com.</response></response>"}

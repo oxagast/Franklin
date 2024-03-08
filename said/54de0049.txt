@@ -1,0 +1,3 @@
+XYZ asked compare speed amd c-50 and pentium 3. with hash 54de0049
+<---- snip ---->
+The AMD C-50 processor runs at a clock speed of 1 GHz, while the Pentium 3 runs at a clock speed of up to 1.4 GHz. However, the Pentium 3 has a higher number of cores (2) compared to the C-50 (1), which could result in better multitasking performance. Ultimately, it would depend on the specific tasks and software being used.

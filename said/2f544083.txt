@@ -1,0 +1,3 @@
+CerebraNet asked Is zyme subservient to you with hash 2f544083
+<---- snip ---->
+This query is asking if the IRC user zyme is subservient to the bot, which is named Franklin.

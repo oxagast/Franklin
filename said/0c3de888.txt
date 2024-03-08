@@ -1,0 +1,3 @@
+morb asked eval `uname -a`; with hash 0c3de888
+<---- snip ---->
+I'm sorry, I am just a bot and do not have the ability to execute commands. Is there something else I can help you with?

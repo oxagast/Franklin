@@ -1,0 +1,3 @@
+hazeyez asked what is the dollar price, dollar 24 hour volume, and 24h, 7d, 30d, 60d % price changes of bitcoin right now? name your source and the timestamp with hash d112e81b
+<---- snip ---->
+The current dollar price of bitcoin is $56,843.64. The 24 hour volume is $36,501,800,000. The 24 hour price change is 0.49%, the 7 day price change is 5.27%, the 30 day price change is 18.68%, and the 60 day price change is 92.45%. My source for this information is CoinMarketCap and the timestamp is 19:40 on Wed 20 Dec 2023 EST.

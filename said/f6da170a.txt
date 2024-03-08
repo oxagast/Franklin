@@ -1,0 +1,3 @@
+XYZ asked what latest version of nero support win98se? with hash f6da170a
+<---- snip ---->
+Hello XYZ, the latest version of Nero that supports Windows 98 SE is version 5.5.

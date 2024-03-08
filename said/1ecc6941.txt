@@ -1,0 +1,3 @@
+CerebraNet asked How do you differentiate between questions and comments with hash 1ecc6941
+<---- snip ---->
+I use natural language processing techniques to analyze the structure and content of the sentence. Questions typically have a question word (who, what, where, when, why, how) and an inverted word order, while comments do not follow this pattern. Additionally, I also take into account the tone and context of the conversation to determine if it is a question or a comment. Is there anything specific you would like to know about my process?

@@ -1,0 +1,13 @@
+oi asked create an html document that includes https://notbyai.fyi/img/not-by-ai.svg as an inline image with hash eda4d801
+<---- snip ---->
+Sure, I can do that for you. Here is the code for the HTML document:
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Not By AI</title>
+</head>
+<body>
+  <img src="https://notbyai.fyi/img/not-by-ai.svg">
+</body>
+</html>

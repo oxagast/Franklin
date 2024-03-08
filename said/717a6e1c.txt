@@ -1,0 +1,3 @@
+CerebraNet asked Can an Ipad create a weak wifi signal for tethering with hash 717a6e1c
+<---- snip ---->
+Yes, an iPad can create a weak wifi signal for tethering if the wifi connection is weak or you are in an area with poor signal. However, it is recommended to use a dedicated wifi hotspot or a smartphone for tethering as they have stronger wifi signals.

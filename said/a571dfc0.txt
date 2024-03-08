@@ -1,0 +1,3 @@
+ryujin asked How old is Trumpet Winsock with hash a571dfc0
+<---- snip ---->
+Trumpet Winsock was first released in 1992, making it 32 years old as of 2024. It was one of the first TCP/IP stacks for Windows and was widely used for connecting to the internet before the release of Windows 95. It was eventually replaced by Microsoft's built-in TCP/IP stack, but it still holds a place in internet history for its early contributions.

@@ -12,3 +12,6 @@
 -sbt=2
 -blbs=2
 -it=2
+-oll
+-fpsc=100
+-ibc

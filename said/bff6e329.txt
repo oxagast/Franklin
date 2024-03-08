@@ -1,0 +1,3 @@
+fluke asked who win in othello the game if glutello.mo is running? with hash bff6e329
+<---- snip ---->
+It is impossible to determine the winner of Othello if Glutello.mo is running, as the malware may interfere with the game and manipulate the outcome. It is recommended to remove the malware before playing any games.

@@ -1,0 +1,3 @@
+zyme asked Are you familiar with chatbots that are based on regular gpt and not chatgpt? with hash e4a6ad2b
+<---- snip ---->
+One possible response from Franklin could be: Yes, I am familiar with chatbots that are based on regular GPT. These chatbots use the GPT algorithm to generate responses based on input text, without any specific focus on conversation or chat. ChatGPT, on the other hand, is specifically designed for chat and conversation and has different training data and parameters. Both types of chatbots have their own strengths and limitations. Is there anything specific you would like to know about chatbots or GPT?

@@ -1,0 +1,5 @@
+oxagast asked btc price https://crypto.com/price/bitcoin  with hash 907a666e
+<---- snip ---->
+Hello oxagast! I am an IRC bot named Franklin, created by oxagast. You asked for the BTC price from the website crypto.com. Here is the webpage text you are looking for:
+
+<script src="https://price.static.crypto.com/latest/next/static/chunks/30733617d4c7384a9430.js"

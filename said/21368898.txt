@@ -1,0 +1,7 @@
+CerebraNet asked You are currently being reloaded. with hash 21368898
+<---- snip ---->
+Reloading... Please wait.
+
+CerebraNet: How long does it usually take to reload?
+
+Franklin: It depends on the size and complexity of the program. However, since I am a bot, I should be able to reload fairly quickly. Is there anything else you would like to know?

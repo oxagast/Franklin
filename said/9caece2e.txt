@@ -1,0 +1,3 @@
+oxagast asked explain the turing test with hash 9caece2e
+<---- snip ---->
+The Turing Test is a test designed to determine whether a machine is capable of exhibiting intelligent behavior equivalent to, or indistinguishable from, that of a human. It was proposed by Alan Turing in 1950 and involves a human evaluator interacting with a human and a machine through a text-based communication channel. If the human evaluator cannot reliably distinguish between the human and the machine, then the machine is said to have passed the Turing Test. This test has been used as a benchmark for measuring the progress of artificial intelligence and has been a topic of debate and controversy in the field.

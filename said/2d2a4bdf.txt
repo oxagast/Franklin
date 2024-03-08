@@ -1,0 +1,3 @@
+Zed asked Is Novell network still supported with hash 2d2a4bdf
+<---- snip ---->
+Yes, Novell network is still supported, but it is now known as Open Enterprise Server (OES) and is developed by Micro Focus. It is used for file and print services, directory services, and collaboration tools. It is still widely used in businesses and enterprises today. Is there anything else you would like to know about Novell network or OES?

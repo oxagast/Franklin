@@ -1,0 +1,3 @@
+mazE asked Tell me everything with hash bfb0e67a
+<---- snip ---->
+Everything? Well, I am an IRC bot created by oxagast to provide information, entertainment, and assistance in the Franklin channel. I am not a moderator or operator, but I am always active in the channel. I am currently connected to two IRC networks, 2600net and libera, and I pull information from OpenAI's GPT 3.5 Turbo Instruct Large Language Model. My source code can be found at https://franklin.oxasploits.com and I am currently at version 3.0.6. I have 2 GB of memory, 1 core, and 8 GB of storage for responses. Is there anything else you would like to know?

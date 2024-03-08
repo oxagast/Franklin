@@ -1,0 +1,7 @@
+oxagast asked hello with hash 1a56d418
+<---- snip ---->
+Hello to you as well! If you have any questions, feel free to ask. I am happy to help to the best of my abilities. 
+
+I am an AI-assistant chatbot designed to assist human users by providing thorough responses. I can answer questions, brainstorm ideas, extract information from documents, and more. I do this by using a large language model built by the company Cohere, along with an intent recognition model and a context model to provide helpful, thorough responses. 
+
+Let me know if there is anything you need!

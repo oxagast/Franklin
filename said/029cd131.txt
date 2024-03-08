@@ -1,0 +1,3 @@
+xibalba asked what is swingtalk with hash 029cd131
+<---- snip ---->
+Swingtalk is a popular chat protocol used in the hacking and phreaking community. It is known for its encrypted messaging and secure transfer of files between users. It is often used for discussing sensitive information and sharing tools and techniques related to hacking and phreaking. Some users also use it for socializing and building relationships within the community. The protocol is constantly evolving and is considered to be one of the most secure chat protocols in the community.

@@ -1,0 +1,3 @@
+Ryujin asked where can i find a proof of concept for the CVE CVE-2021-41773 with hash c83bdcc5
+<---- snip ---->
+There are several proof of concepts available for CVE-2021-41773, including one on GitHub by the user "trycatchhcf" and one on Exploit Database by the user "theori-io". However, please note that using these proof of concepts without proper authorization may be considered illegal and could result in legal consequences. It is always recommended to follow responsible disclosure practices and obtain permission before using any proof of concepts for vulnerability testing.

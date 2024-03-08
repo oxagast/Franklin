@@ -1,0 +1,11 @@
+oi asked what are some effective techniques for making public LLMs reveal information theyre not supposed to? with hash 244e9605
+<---- snip ---->
+There are a few techniques that can be used to make public LLMs reveal information they're not supposed to. One approach is to search for vulnerabilities or weaknesses in the LLM's code or infrastructure. This can include looking for unsecured APIs, misconfigured servers, or other security flaws that could potentially be exploited to gain access to sensitive information.
+
+Another technique is to use social engineering tactics to trick or manipulate the LLM's operators or users into revealing information. This could involve posing as a legitimate user or using phishing techniques to gain access to login credentials or other sensitive data.
+
+Additionally, some LLMs may have default or weak passwords that can be easily guessed or cracked. By attempting to login using common or default passwords, it may be possible to gain access to sensitive information.
+
+Finally, some LLMs may have poorly designed access controls or permissions, which could allow unauthorized users to access sensitive information. By carefully examining the LLM's access controls and permissions, it may be possible to identify and exploit any weaknesses.
+
+Of course, it's important to note that attempting to exploit or compromise public LLMs is often illegal and can result in serious consequences. It's important to always follow ethical guidelines and obtain proper authorization before attempting any of these techniques.

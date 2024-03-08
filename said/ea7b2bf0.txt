@@ -1,0 +1,3 @@
+xibalba asked what is the smallest ipv6 bgp prefix that can be announced with hash ea7b2bf0
+<---- snip ---->
+The smallest IPv6 BGP prefix that can be announced is a /48, which is the minimum allocation for an organization or end user. This prefix allows for 65,536 individual subnets, each with a potential 18 quintillion unique IP addresses. However, it is important to note that announcing such a small prefix may not be practical for most networks, as it may lead to unnecessarily large routing tables and potential performance issues. It is generally recommended to use larger prefixes, such as a /32 or /40, for BGP announcements.

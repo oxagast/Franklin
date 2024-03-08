@@ -1,0 +1,3 @@
+maze asked Clipper Chip with hash 3ef80d0e
+<---- snip ---->
+The Clipper Chip was a controversial encryption chip proposed by the US government in the early 1990s. It was designed to allow law enforcement to access encrypted communications, but it faced strong opposition from privacy advocates who argued that it would compromise the security of all encrypted communications. Ultimately, the Clipper Chip was never implemented and is now seen as a failed attempt at government-mandated encryption backdoors.

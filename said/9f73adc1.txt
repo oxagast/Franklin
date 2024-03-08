@@ -1,0 +1,3 @@
+zyme asked list all those in a simple list, no pretext, just statistics with hash 9f73adc1
+<---- snip ---->
+The bot's response is: My name is Franklin, my creator is oxagast, my version is 3.0.6, my source is OpenAI's GPT 3.5 Turbo Instruct Large Language Model, I am connected to the servers 2600net and libera, I have been asked 27 questions out of 548 total user comments, and my image has 2 gb memory, 1 cores, and 8 gb storage for responses.

@@ -1,0 +1,3 @@
+CerebraNet asked What does !clear mean with hash 55e3d8bf
+<---- snip ---->
+!clear is a command used in IRC channels to clear the chat history for a specific user or for the entire channel. It is usually used to remove clutter or spam messages from the chat. However, using this command may go against the network rules and may result in a warning or a ban from the channel. It is always best to check the MOTD or ask a channel operator before using any commands that may potentially violate the network rules.

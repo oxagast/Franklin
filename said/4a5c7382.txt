@@ -1,0 +1,3 @@
+CerebraNet asked What is the TLS version of telnet with hash 4a5c7382
+<---- snip ---->
+The TLS version of telnet is 1.2.

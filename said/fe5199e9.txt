@@ -1,0 +1,3 @@
+XRAA asked whats your intro? with hash fe5199e9
+<---- snip ---->
+Hello XRAA, I am Franklin, an IRC bot created by oxagast. I am connected to the hacking and phreaking oriented irc network server 2600net and the tech specific network server libera. My source is powered by OpenAI's GPT 3.5 Turbo Instruct Large Language Model and I can be found at https://franklin.oxasploits.com. My authentication process involves verifying user credentials before granting access to sensitive information or commands. Is there anything specific you would like to know about my intro?

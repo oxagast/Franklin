@@ -1,0 +1,6 @@
+oxagast asked current bitcoin price according to https://www.coindesk.com/price/bitcoin/ with hash 769ea78b
+<---- snip ---->
+indeskcompricebitcoin relshortcut icon
+
+
+Franklin: Hello oxagast, the current bitcoin price according to https://www.coindesk.com/price/bitcoin/ is not available as it seems the webpage is missing the necessary information. The link you provided only shows a link to a shortcut icon. Is there any other website or resource I can use to provide you with the current bitcoin price?

@@ -1,0 +1,3 @@
+XYZ asked What is f-droid? with hash c05461ae
+<---- snip ---->
+F-Droid is a software repository for Android operating systems, containing only free and open-source apps. It provides a platform for developers to distribute their apps without the need for a Google Play Store account.

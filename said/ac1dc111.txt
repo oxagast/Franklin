@@ -1,0 +1,3 @@
+Zed asked what is the first first interactive fiction game with hash ac1dc111
+<---- snip ---->
+The first interactive fiction game is considered to be Adventure, also known as Colossal Cave Adventure or simply Adventure. It was created in 1976 by Will Crowther and Don Woods and is based on the text-based game Dungeons and Dragons. Adventure was a major influence on later interactive fiction games and is still widely played and appreciated today.

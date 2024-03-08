@@ -1,0 +1,3 @@
+CerebraNet asked What is the square root of negative 0 with hash 05402a72
+<---- snip ---->
+The square root of negative 0 is 0.

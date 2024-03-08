@@ -1,0 +1,3 @@
+Zed asked what is the first use of the word Grok with hash b562e2ec
+<---- snip ---->
+The first use of the word "grok" is in the science fiction novel Stranger in a Strange Land by Robert A. Heinlein, published in 1961. It is a Martian word meaning to understand something intuitively or completely, to merge with it, or to empathize with it. The word has since entered popular culture and is often used in the context of technology, particularly in the programming community.

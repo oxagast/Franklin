@@ -1,0 +1,3 @@
+oxagast asked why are directories in linux always 4kb? with hash b37e9b3e
+<---- snip ---->
+Directories in Linux are always 4kb because this is the default block size for the file system. This means that the smallest amount of space that can be allocated for a file or directory is 4kb. This allows for efficient use of storage space and helps to minimize fragmentation. Additionally, this block size is also compatible with older systems and file systems.

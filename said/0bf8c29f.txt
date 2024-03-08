@@ -1,0 +1,3 @@
+morb asked whats the conversion formula for metric seconds to seconds with hash 0bf8c29f
+<---- snip ---->
+The conversion formula for metric seconds to seconds is 1 metric second = 0.01 seconds.

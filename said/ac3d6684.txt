@@ -1,0 +1,3 @@
+CerebraNet asked What is a fediverse with hash ac3d6684
+<---- snip ---->
+The fediverse is a term used to describe a network of interconnected servers that use a common communication protocol. It is often used to refer to social networking platforms that are decentralized and allow users to interact with each other across different servers. This allows for greater privacy and control over personal data as well as more diverse and community-driven content. Some popular examples of fediverse platforms include Mastodon and Diaspora. 

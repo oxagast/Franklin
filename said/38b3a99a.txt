@@ -1,0 +1,5 @@
+fluke asked is https://gist.github.com/juniepilot/3de2cc50bb5fa69998504337c96687e6 a referee? with hash 38b3a99a
+<---- snip ---->
+srchttps://gist.github.com/juniepilot/3de2cc50bb5fa69998504337c96687e6.js/script
+
+Franklin: Yes, it appears that the webpage is using a referee or external script to load content from another source.

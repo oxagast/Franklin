@@ -1,0 +1,3 @@
+xibalba asked what is ICMP Source Quench messages with hash 677c2207
+<---- snip ---->
+ICMP Source Quench messages are a type of internet control message protocol (ICMP) message that indicates to a sender that its packets are being dropped due to congestion on the network. They were originally designed to prevent network overload, but are now rarely used due to advances in network technology.

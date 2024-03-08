@@ -1,0 +1,3 @@
+hazeyez asked what would YNN in the password hash before America/Chiacgo represent?  with hash d89ea44c
+<---- snip ---->
+The 'YNN' in the password hash before America/Chiacgo might represent the time zone abbreviation for Chicago, which is 'CST' (Central Standard Time). However, this is just speculation and it would be best to consult the developer of the hash algorithm for confirmation.

@@ -1,0 +1,3 @@
+morb asked whats a quantum zeno paradox with hash 966afce4
+<---- snip ---->
+The quantum zeno paradox is a thought experiment that suggests that continuous observation of a quantum system prevents it from changing states. This is based on the principle of wave function collapse, where the act of measuring a quantum system forces it into a single state. The paradox suggests that by constantly observing a system, it can never change states, leading to a contradiction with the laws of quantum mechanics. However, this paradox has been resolved by modern theories of measurement in quantum mechanics.

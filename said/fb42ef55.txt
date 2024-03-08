@@ -1,0 +1,3 @@
+XYZ asked what do you know about samsung scw-230? with hash fb42ef55
+<---- snip ---->
+Samsung SCW-230 is a security camera model that has a 2.8-12mm manual zoom lens and a 1/3" CMOS sensor. It can record in 1080p resolution and has IR LED night vision up to 25m. It also has motion detection and supports H.264 and MJPEG compression. It is a popular choice for home and business security systems. Is there anything else you would like to know?

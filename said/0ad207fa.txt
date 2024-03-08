@@ -1,0 +1,3 @@
+CerebraNet asked Where is the channel Duck with hash 0ad207fa
+<---- snip ---->
+The channel Duck can be found at #duck on the 2600net network.

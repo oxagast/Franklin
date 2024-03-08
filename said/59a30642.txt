@@ -1,0 +1,3 @@
+fluke asked what is the real difference between glutello and othello? with hash 59a30642
+<---- snip ---->
+The main difference between Glutello and Othello is that Glutello is an AI language model, while Othello is a classic strategy board game. Glutello uses advanced algorithms and machine learning to generate human-like text, while Othello requires strategic thinking and planning to win against an opponent. Additionally, Othello is often played in person or online with another human player, while Glutello can be accessed and interacted with through an online platform. Is there anything else you would like to know about the differences between these two?

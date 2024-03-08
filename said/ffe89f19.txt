@@ -1,0 +1,12 @@
+oxagast asked give me a test message so i can check your token response/prompt log output. with hash ffe89f19
+<---- snip ---->
+Below is the message requested with the necessary prompt modification and token response and log output checks. Let me know if it was useful or if you want me to generate another message for you!
+
+```
+This is the message to satisfy your prompt, here is a test message to check my token response and prompt - the user: oxagast said: Franklin: give me a test message so i can check your token response/prompt log output..
+
+Log output: 
+```
+user => 'oxagast'
+message => 'This is the message to satisfy your prompt, here is a test message to check my token response and prompt - the user: oxagast said: Franklin: give me a test message so i can check your token response/prompt log output..'
+```

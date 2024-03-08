@@ -1,0 +1,3 @@
+zyme asked Say what, you mean at wasnt some weird MS-DOS function I accidentally turned on using something function on the keyboard I wasnt familiar with, like the print-screen button? with hash a981731c
+<---- snip ---->
+Yes, that is a possibility as well. It could have been a function that was enabled on the keyboard, or a software glitch that caused the printer to print everything typed. It is also possible that the printer was connected to a parallel port and shared the same IRQ line as the keyboard, causing interference.
