@@ -28,7 +28,7 @@ use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 use URL::Encode;
 $|++;
-$VERSION = "4.0.0rc2";
+$VERSION = "4.0.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -36,10 +36,9 @@ $VERSION = "4.0.0rc2";
           description => 'Franklin IRC bot (Cohere-command fork)',
           license     => 'BSD',
           url         => 'http://franklin.oxasploits.com',
-          changed     => 'Mar, 5th 2024',
+          changed     => 'Mar, 7th 2024',
 );
 $Data::Dumper::Indent = 0;
-
 Irssi::settings_add_str("franklin", "franklin_response_webserver_addr", "https://franklin.oxasploits.com/said/");
 Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
@@ -91,9 +90,9 @@ if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "bbI5L..., " . "then reload with /script load franklin.pl";
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
-  my $aliveworker = Proc::Simple->new();                      ## since you fags try to root me and crash franklin
-  if (Irssi::settings_get_str('franklin_heartbeat_url')) {    # i need this so that
-    $aliveworker->start(\&falive);                            ## i get alerts on my phone when franklin dies now.
+  my $aliveworker = Proc::Simple->new();                                                           # since you fags try to root me and crash franklin
+  if (Irssi::settings_get_str('franklin_heartbeat_url')) {                                         # i need this so that
+    $aliveworker->start(\&falive);                                                                 # i get alerts on my phone when franklin dies now.
     my $waiterp = Proc::Simple->new();
     $waiterp->start("/bin/sleep", "3");
     while ($waiterp->poll() eq 0) {
@@ -146,10 +145,10 @@ Irssi::print "  franklin_mem_approx              (optional)            => $havem
 Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
 
-if ($txidchans[3]) {    # if this is defined then you know you need the next line for data
+if ($txidchans[3]) {                                                                               # if this is defined then you know you need the next line for data
   Irssi::print "                                                            $chanlst[1]";
 }
-if ($txidchans[6]) {    # same as above
+if ($txidchans[6]) {                                                                               # same as above
   Irssi::print "                                                            $chanlst[2]";
 }
 if ($hardlimit > 380) {
@@ -236,7 +235,7 @@ sub untag {
       (?:\s[^>]*)?  #   skip junk to ">"
     )               # end if (3)
     >               # tag closed
-   }{}gsx;    # STRIP THIS TAG
+   }{}gsx;                                                                                         # STRIP THIS TAG
   return $_ ? $_ : "";
 }
 
@@ -244,7 +243,7 @@ sub untag {
 sub pullpage {
   my ($text) = @_;
   if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
-    my $text_uri = "$1://$2$3";                                                                                # put the link back together
+    my $text_uri = "$1://$2$3";                                                                    # put the link back together
     Irssi::print "$text_uri";
     open(LOGGER, '>>', $logf);
     print LOGGER time() . ": " . "Pulling page $text_uri\n";
@@ -257,7 +256,7 @@ sub pullpage {
     );
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $page_body = untag(encode('utf-8', $cres->decoded_content()));    # we get an error unless this is utf8
+      my $page_body = untag(encode('utf-8', $cres->decoded_content()));                            # we get an error unless this is utf8
       $page_body =~ s/\s+/ /g;
       $page_body =~ s/[^a-zA-Z0-9, ]+//g;
       return $page_body;
@@ -280,14 +279,13 @@ sub asshat {
       my $ua  = LWP::UserAgent->new;
       $dcp = Irssi::strip_codes($textcall);
       $textcall =~ s/\"/\\\"/g;
-      my $askbuilt =    # Build the API request
+      my $askbuilt =                                                                               # Build the API request
         '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": $tokenlimit}';
       $ua->default_header("accept"        => "application/json");
       $ua->default_header("content-type"  => "application/json");
       $ua->default_header("Authorization" => "bearer " . $apikey);
       $ua->default_header("X-Client-Name" => "$xcn");
-      my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
-
+      my $res = $ua->post($uri, Content => $askbuilt);                                             # send the post request to the api
       if ($res->is_success) {
         my $said = decode_json($res->decoded_content())->{choices}[0]{text};
         $said =~ m/(\d+)/;
@@ -314,25 +312,23 @@ sub callapi {
   $ut = "$textcall";
   $reqs++;
   my $retcode = 1;
-  my @months  = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );    # Set up the date for API req
+  my @months  = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );                             # Set up the date for API req
   my @days    = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
   $year = "20" . substr($year, -2);
-  my $page    = pullpage($textcall);                                      # If we need to read a URL
+  my $page    = pullpage($textcall);                                                               # If we need to read a URL
   my $context = "";
 
   for my $usersays (0 .. scalar(@chat) - 2) {
-    if ($chat[$usersays] =~ m/Channel $channel: (.*)/) {                  # this takes channel and the user's text and put is onto the context
-      $context = $context . $1;                                           # BVreak down the chat stack for the context to build req
+    if ($chat[$usersays] =~ m/Channel $channel: (.*)/) {                                           # this takes channel and the user's text and put is onto the context
+      $context = $context . $1;                                                                    # BVreak down the chat stack for the context to build req
     }
   }
-
-  #  $context = substr($context, -3000);                                     # we have to trim
   my $modstat;
   if ($server->channel_find($channel)) {
     my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
     if ($cmn->{op} eq 1) {
-      $modstat = "a channel";                                             # cmn->{op} returns 0 on normal user, 1 on operator status.
+      $modstat = "a channel";                                                                      # cmn->{op} returns 0 on normal user, 1 on operator status.
     }
     else {
       $modstat = "not a channel";
@@ -346,7 +342,7 @@ sub callapi {
     my $textcall_bare = $textcall;
     my $dcp;
     if (($page) && (length($page) >= 20)) {
-      $page = substr($page, 0, 15000);                                                                                                 # becuse otherwise its too long
+      $page = substr($page, 0, 15000);                                                             # becuse otherwise its too long
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
@@ -374,29 +370,31 @@ sub callapi {
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
-    $dcp     = sanitize($dcp,      noquote => 1);  # gotta sanitize all this cockamami shit
-    $flast   = sanitize($flast,    noquote => 1);
-    $ut      = sanitize($ut,       noquote => 1);
-    $chat[1] = "Bunk.";   # this is so when the chat first starts, if these are left undef, it does not
-    $chat[2] = "Bunk.";   # satisfy the json validator on the API side, and fails for the first call to franklin.
+    $dcp     = sanitize($dcp,   noquote => 1);                                                     # gotta sanitize all this cockamami shit
+    $flast   = sanitize($flast, noquote => 1);
+    $ut      = sanitize($ut,    noquote => 1);
+    $chat[1] = "Bunk.";                                                                            # this is so when the chat first starts, if these are left undef, it does not
+    $chat[2] = "Bunk.";                                                                            # satisfy the json validator on the API side, and fails for the first call to franklin.
     $chatsan = sanitize($chat[-3], noquote => 1);
-    $ut      =~ s/\"/\\"/g;                        # for some silly reason noquote => 1 on the above sanitization call it does
-    $chatsan =~ s/\"/\\"/g;                        # not take care of double quote, which will break the json if not double-escaped.
+    $ut      =~ s/\"/\\"/g;                                                                        # for some silly reason noquote => 1 on the above sanitization call it does
+    $chatsan =~ s/\"/\\"/g;                                                                        # not take care of double quote, which will break the json if not double-escaped.
     $textcall = $dcp;
     open(LOGGER, '>>', $logf);
     print LOGGER time() . ": " . "Connecting to $url for API call.\n";
     close(LOGGER);
+
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
+
     # Below we are building the request thats sent to the API server via POST.
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
     $ua->default_header("Authorization" => "bearer " . $apikey);
     $ua->default_header("X-Client-Name" => "$xcn");
-    my $res = $ua->post($uri, Content => $askbuilt);    ## send the post request to the api
+    my $res = $ua->post($uri, Content => $askbuilt);                                               # send the post request to the api
     open(LOGGER, '>>', $logf);
     print LOGGER time() . ": " . "Preparing to receive data from API.\n";
     $resdumper = Dumper($res);
@@ -407,14 +405,15 @@ sub callapi {
     if ($res->is_success) {
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "Finished receiving data from API.\n";
-      close (LOGGER);
+      close(LOGGER);
+
       # response has the structure:
       # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
       # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
       # d0e3-3b21-4a23-92bb-5e64181318a1","finish_reason":"COMPLETE","token_count":{"prompt_tokens":39,
       # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
       # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
-      my $said  = decode_json($res->decoded_content())->{text};
+      my $said  = decode_json($res->decoded_content())->{text};                                    # mostly straightforward json decodes.
       my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
       my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
       my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
@@ -426,30 +425,26 @@ sub callapi {
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
-      $said =~ s/^\s+//;                     # this does some parsing of the API output for IRC
+      $said =~ s/^\s+//;                                                                           # this does some parsing of the API output for IRC
       $said =~ s/^\n+//;
       $said =~ s/^Franklin[:|,] //ig;
-      $said =~ s/^Reply: //i;
-      $said =~ s/^Response: //i;
-      $said =~ s/^My reply is: //i;
-      $said =~ s/^\s*[\?|.|-]\s*(\w)/$1/;    ## if it spits out a question mark, this fixes it
-
+      $said =~ s/^\s*[\?|.|-]\s*(\w)/$1/;                                                          # if it spits out a question mark, this fixes it
       if ($said =~ m/^\s*\?\s*$/) {
         $said = "";
       }
-      unless ($said eq "") {
-        my $hexfn = substr(                  ## the reencode fixes the utf8 bug
-         Digest::MD5::md5_hex(
-                                utf8::is_utf8($said)
-                              ? Encode::encode_utf8($said)
-                              : $said
+      unless ($said eq "") {                                                                       # this trims an md5 checksum to make the txid
+        my $hexfn = substr(                                                                        # the reencode fixes the utf8 bug
+         Digest::MD5::md5_hex(                                                                     # by encoding then decoding the utf8
+          utf8::is_utf8($said)
+          ? Encode::encode_utf8($said)
+          : $said
          ),
          0,
          8
         );
         open(LOGGER, '>>', $logf);
         print LOGGER time() . ": " . "Processing query $hexfn from $channel/$nick\n";
-        umask(0133);                         # perms umask for files in said/
+        umask(0133);                                                                               # perms umask for files in said/
         my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
         open(LOGGER, '>>', $logf);
@@ -463,26 +458,26 @@ sub callapi {
         close(SAID);
         my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
         my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, an LLM AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
-        my $said_html = sanitize($said, html => 1); # make sure all this is HTML safe.
+        my $said_html = sanitize($said, html => 1);                                                # make sure all this is HTML safe.
         $textcall_bare = sanitize($textcall_bare, html => 1);
         $said_html =~ s/\n/<br>/g;
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
           or Irssi::print "Couldn't open for writing.";
         binmode(SAIDHTML, "encoding(UTF-8)");
-        print SAIDHTML $fg_top    # write html
+        print SAIDHTML $fg_top                                                                     # write html
           . "<br><i>" . localtime() . "<br>Tokens used: $toks" . "<br>Completion Tokens: $ctoks" . "<br>Prompt Tokens: $ptoks" . "<br>Avg cost: \$$cost<br>" . "</i><br><br><br><b>$nick</b> asked: <br>&nbsp&nbsp&nbsp&nbsp $textcall_bare<br><br>" . $said_html . $fg_bottom;
-        close SAIDHTML;           # after writing html to file
-        my $said_cut = substr($said, 0, $hardlimit);  # preparing string to send back to channel...
-        $said_cut =~ s/\n/ /g;    # fixes newlines for irc compat
+        close SAIDHTML;                                                                            # after writing html to file
+        my $said_cut = substr($said, 0, $hardlimit);                                               # preparing string to send back to channel...
+        $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
 
         if ($type eq "pm") {
-          $server->command("query $nick");            # If this is pm open win
-          $server->command("msg $nick $said_cut");    # then pm
+          $server->command("query $nick");                                                         # If this is pm open win
+          $server->command("msg $nick $said_cut");                                                 # then pm
           $retcode = 0;
         }
         chomp(@txidchans);
-        if (grep(/^$channel$/, @txidchans)) {         # this little blurb makes it so you can turn the txid on and off for specific chans
+        if (grep(/^$channel$/, @txidchans)) {                                                      # this little blurb makes it so you can turn the txid on and off for specific chans
           if ($type eq "chan") {
             $server->command("msg $channel $said_cut TXID:$hexfn");
             open(LOGGER, '>>', $logf);
@@ -494,6 +489,7 @@ sub callapi {
           }
         }
         else { $server->command("msg $channel $said_cut"); }
+
         #push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         #if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
         #  shift(@chat);                                   # shift the earlist back thing said off the array stack.
@@ -504,30 +500,31 @@ sub callapi {
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "There was a problem sending the response to channel $channel...\n";
       close(LOGGER);
-      return 1;    # tell it it didn't finish right
+      return 1;                                                                                    # tell it it didn't finish right
     }
     else {
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "There was an issue sending reponse from the API.\n";
       close(LOGGER);
       return 1;
-    }    # otherwise tell it it was incomplete
+    }                                                                                              # otherwise tell it it was incomplete
   }
 }
 
 
 sub falive {
-  if ($hburl) {    # this makes it so its not mandatory to have it set
+  if ($hburl) {                                                                                    # this makes it so its not mandatory to have it set
     while (1) {
       if ($isup eq 0) {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
-        $ua->post($uri);    #  Send post to alive worker on other server
+        $ua->post($uri);                                                                           #  Send post to alive worker on other server
         open(LOGGER, '>>', $logf);
-        #print LOGGER time() . ": " . "Sending heartbeat ping to uptime server.\n";
+
+        #print LOGGER time() . ": " . "Sending heartbeat ping to uptime server.\n";  # too noisey to leave on all the time
         close(LOGGER);
       }
-      sleep 30;             # wait
+      sleep 30;                                                                                    # wait
     }
   }
 }
@@ -542,7 +539,7 @@ sub checkcmsg {
   close(LOGGER);
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
-  $msg_count++;
+  $msg_count++;                                                                                    # this increments the total msg count
   $pm = 0;
   my @badnicks;
   my $asshole = asshat($msg, $server, $nick, $channel);
@@ -550,7 +547,7 @@ sub checkcmsg {
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
 
   if ($moderate{$nick} >= $asslevel) {
-    $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");
+    $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
   }
   push(@chat, "Channel $channel: The user: $nick said: $msg. ");
@@ -568,13 +565,13 @@ sub checkcmsg {
     }
     chomp(@badnicks);
     for (@badnicks) {
-      s/(.*)#.*$/$1/;    # for comments in the badnicks file
+      s/(.*)#.*$/$1/;                                                                              # for comments in the badnicks file
       s/^#.*//;
     }
   }
 
   #if ($nick ~~ @badnicks) {    # smartmatch is now not recommended, so we're using grep.
-  if (grep(/^$nick$/, @badnicks)) {    # fuck everyone inside this conditional
+  if (grep(/^$nick$/, @badnicks)) {                                                                # fuck everyone inside this conditional
     open(LOGGER, '>>', $logf);
     print LOGGER time() . ": " . "The user $nick does not have privs to use this...\n";
     Irssi::print "Franklin: $nick does not have privs to use this.";
@@ -583,36 +580,37 @@ sub checkcmsg {
   else {
     my $wrote = 1;
     my $ln    = $server->{nick};
-    if ($msg =~ /^$ln[:|,] (.*)/i) {    # added /i for case insensitivity
-      my $textcall = $1;                                                            # $1 is the "dot star" inside the parenthesis
+    if ($msg =~ /^$ln[:|,] (.*)/i) {                                                               # added /i for case insensitivity
+      my $textcall = $1;                                                                           # $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
-      $textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;    # this and next 3 lines are so that it
-      $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;          # can hanle being sent specific commands
+      $textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;                   # this and next 3 lines are so that it
+      $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
-        while (($wrote eq 1) && ($try <= $maxretry)) {                              # this fixes when Franklin sometimes fails to respond
+        while (($wrote eq 1) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
           open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";          
+          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";
           close(LOGGER);
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(2.5);
           $isup = $wrote;
-          if($try == ($maxretry-1)) {
+          if ($try == ($maxretry - 1)) {
+            $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             open(LOGGER, '>>', $logf);
             print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
-            print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall";
-            close (LOGGER);
+            print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall\n";
+            close(LOGGER);
             Irssi::command("script load franklin.pl");
           }
         }
         return $wrote;
         open(LOGGER, '>>', $logf);
         print LOGGER time() . ": " . "callapi() subroutine successful for $nick\'s channel message.\n";
-        close (LOGGER);
+        close(LOGGER);
       }
       else {
         $isup = 1;
@@ -623,8 +621,8 @@ sub checkcmsg {
     }
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
-        if (int(rand(1000) - $chatterbox) eq 0) {    # Chatty level
-          $wrote = callapi($msg, $server, $nick, $channel, @chat);    # if chatterbox mode is on
+        if (int(rand(1000) - $chatterbox) eq 0) {                                                  # Chatty level
+          $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode is on
           $isup  = $wrote;
           open(LOGGER, '>>', $logf);
           print LOGGER time() . ": " . "Random chatterbox triggered.\n";
@@ -653,32 +651,41 @@ sub checkpmsg {
   print LOGGER time() . ": " . "Responding to private message from $nick...\n";
   close(LOGGER);
   Irssi::settings_set_int('franklin_total_msgs', $totals);
-  my $type  = "pm";    # this stuff only runs if it is a PM/MSG not in channel stuff
+  my $type  = "pm";                                                                                # this stuff only runs if it is a PM/MSG not in channel stuff
   my $wrote = 1;
 
   if ($nick ne "Franklin") {
     $msg_count++;
     $pm = 1;
-    my $textcall = $msg;    ## $1 is the "dot star" inside the parenthesis
+    my $textcall = $msg;                                                                           ## $1 is the "dot star" inside the parenthesis
     $textcall =~ s/\'//gs;
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
       my $try = 0;
       while (($wrote eq 1) && ($try <= $maxretry)) {
-        $wrote = callapi($textcall, $server, $nick, $channel, $type);    # this puls from the api for the pm
+        $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
         $try++;
         sleep(2.5);
+        if ($try == ($maxretry - 1)) {
+          $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
+          open(LOGGER, '>>', $logf);
+          print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
+          print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall\n";
+          close(LOGGER);
+          Irssi::command("script load franklin.pl");
+        }
         $isup = $wrote;
       }
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "The callapi() subroutine successful for $nick\'s private message.\n";
-      close (LOGGER);
+      close(LOGGER);
     }
-    else { 
+    else {
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.\n";
-      close (LOGGER); 
-      return 1 }
+      close(LOGGER);
+      return 1;
+    }
   }
 }
