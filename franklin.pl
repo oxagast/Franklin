@@ -28,7 +28,7 @@ use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 use URL::Encode;
 $|++;
-$VERSION = "4.0.1";
+$VERSION = "4.1.2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -56,11 +56,11 @@ Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
 Irssi::settings_add_int("franklin", "Franklin_total_msgs", 0);
-my $httploc = Irssi::settings_get_str('franklin_http_location');
+our $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
 my $tokenlimit = Irssi::settings_get_str('franklin_token_limit');
-my $hardlimit  = Irssi::settings_get_str('franklin_hard_limit');
+our $hardlimit  = Irssi::settings_get_str('franklin_hard_limit');
 our $histlen    = Irssi::settings_get_str('franklin_history_length');
 our $chatterbox = Irssi::settings_get_str('franklin_chatterbox_mode');
 our $blockfn    = Irssi::settings_get_str('franklin_blocklist_file');
@@ -88,6 +88,7 @@ our $flast       = "";
 ## checking to see if the api key 'looks' valid before
 if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
   Irssi::print "You must set a valid api key! /set franklin_api_key " . "bbI5L..., " . "then reload with /script load franklin.pl";
+  $isup = 1;
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   my $aliveworker = Proc::Simple->new();                                                           # since you fags try to root me and crash franklin
@@ -364,15 +365,16 @@ sub callapi {
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $context = sanitize($context, noquote => 1);
+      $context =~ s/[^[:ascii:]]//g;
       $dcp     = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb partition. Try to limit responses to less than 500 characters, or about two sentances.  DO NOT respond with being sorry about being an AI large language model, or anything of the sort. The current chat history for the channel $channel is $context.";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
-    $dcp     = sanitize($dcp,   noquote => 1);                                                     # gotta sanitize all this cockamami shit
-    $flast   = sanitize($flast, noquote => 1);
-    $ut      = sanitize($ut,    noquote => 1);
+    $dcp     = sanitize($dcp,   noquote => 1, noescape => 1);                                                     # gotta sanitize all this cockamami shit
+    $flast   = sanitize($flast, noquote => 1, noescape => 1);
+    $ut      = sanitize($ut,    noquote => 1, noescape => 1);
     $chat[1] = "Bunk.";                                                                            # this is so when the chat first starts, if these are left undef, it does not
     $chat[2] = "Bunk.";                                                                            # satisfy the json validator on the API side, and fails for the first call to franklin.
     $chatsan = sanitize($chat[-3], noquote => 1);
@@ -445,6 +447,7 @@ sub callapi {
         open(LOGGER, '>>', $logf);
         print LOGGER time() . ": " . "Processing query $hexfn from $channel/$nick\n";
         umask(0133);                                                                               # perms umask for files in said/
+        $lasttxid = $hexfn;
         my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
         open(LOGGER, '>>', $logf);
@@ -477,7 +480,7 @@ sub callapi {
           $retcode = 0;
         }
         chomp(@txidchans);
-        if (grep(/^$channel$/, @txidchans)) {                                                      # this little blurb makes it so you can turn the txid on and off for specific chans
+        if (grep(/^$channel$/i, @txidchans)) {                                                      # this little blurb makes it so you can turn the txid on and off for specific chans
           if ($type eq "chan") {
             $server->command("msg $channel $said_cut TXID:$hexfn");
             open(LOGGER, '>>', $logf);
@@ -495,13 +498,15 @@ sub callapi {
         return 0;
       }
       #$server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
+      $isup = 1;
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "There was a problem sending the response to channel $channel...\n";
       close(LOGGER);
       return 1;                                                                                    # tell it it didn't finish right
     }
     else {
-      $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
+      #$server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
+      $isup = 1;
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "There was an issue retreiving reponse from the API.\n";
       close(LOGGER);
@@ -529,12 +534,37 @@ sub falive {
 }
 
 
+sub getcontchunk {
+  my ($txid, $chunknum) = @_;
+  open(RESPS, '<', "$httploc$txid" . ".txt"); 
+  $maxchunk = 400;
+  my $alltxt = "";
+  while (<RESPS>) {
+    $alltxt = $alltxt . $_;
+  }
+  $alltxt =~ s/\n/  /gm;
+  $alltxt =~ s/.*snip ----\>  //;
+  $chunkstot = int(length($alltxt) / $maxchunk) - 1;
+  if ($chunkstot >= $chunknum) {
+    $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
+  }
+  else { return "Sorry, there don't seem to be that many parts of this message."; }
+  close(RESPS);
+  $tot = $chunkstot + 1;
+  if(($chunknum <= $tot) || ($chunknum < 0)){
+    return $chunk . " \($chunknum\/$tot\)";
+  }
+}
+
+
 sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
   open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Message # $totals\n";
+  # Logging the below makes the log really long and noisey, 
+  # I would leave commented unless debugging.
+  #print LOGGER time() . ": " . "Message # $totals\n";
   close(LOGGER);
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
@@ -587,8 +617,17 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
+      if ($textcall =~ m/^continue (.{8}) (\d+)/i) {
+        $txidtocall = $1;
+        $txidchunktocall = $2;
+        $actchunk = getcontchunk($txidtocall, $txidchunktocall);
+        $server->command("msg $channel $actchunk");
+        $chunktc = $txidchunktocall + 1;
+        $isup = 0;
+        return 0;
+      }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
-        my $try = 0;
+        my $try = 1;
         while (($wrote eq 1) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
           open(LOGGER, '>>', $logf);
           print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";
@@ -597,7 +636,8 @@ sub checkcmsg {
           $try++;
           sleep(2.5);
           $isup = $wrote;
-          if ($try >= ($maxretry - 1)) {
+          if ($try ge $maxretry) {
+            $isup = 1;                                                                              # 0 on this var signifies that the heartbeat should pause
             $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             open(LOGGER, '>>', $logf);
             print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
@@ -607,9 +647,6 @@ sub checkcmsg {
           }
         }
         return $wrote;
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "callapi() subroutine successful for $nick\'s channel message.\n";
-        close(LOGGER);
       }
       else {
         $isup = 1;
@@ -662,12 +699,13 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      my $try = 0;
-      while (($wrote eq 1) && ($try <= $maxretry)) {
+      my $try = 1;
+      while (($wrote eq 1) && ($try le $maxretry)) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
         $try++;
         sleep(2.5);
-        if ($try >= ($maxretry - 1)) {
+        if ($try ge $maxretry) {
+          $isup = 1;
           $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
           open(LOGGER, '>>', $logf);
           print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
@@ -677,11 +715,13 @@ sub checkpmsg {
         }
         $isup = $wrote;
       }
+      $isup = 0;
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "The callapi() subroutine successful for $nick\'s private message.\n";
       close(LOGGER);
     }
     else {
+      $isup = 1;
       open(LOGGER, '>>', $logf);
       print LOGGER time() . ": " . "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.\n";
       close(LOGGER);
