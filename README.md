@@ -34,8 +34,6 @@
 * Statistics dashboard detailing how many tokens were used to generate each response and cost estimates for the instance operator.
 * The ability to utilize operator status by kicking users who are being assholes (configurable in settings).
 
-![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/franklin-cheese.png)
-
 **Setup**
 
 * Install from Perl's CPAN (if deps not already met): Proc::Simple, Santitize, Irssi, and JSON.
