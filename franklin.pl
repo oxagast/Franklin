@@ -27,7 +27,7 @@ use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.1.2";
+$VERSION = "4.1.3";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
