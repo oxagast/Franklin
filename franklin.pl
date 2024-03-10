@@ -543,15 +543,17 @@ sub getcontchunk {
     $alltxt = $alltxt . $_;
   }
   $alltxt =~ s/\n/  /gm;
-  $alltxt =~ s/.*snip ----\>  //;
-  $chunkstot = int(length($alltxt) / $maxchunk) - 1;
+  $alltxt =~ s/\s+/ /gm;
+  $alltxt =~ s/.*snip ----\>\s?//m;
+  $chunkstot = int(length($alltxt) / $maxchunk);
   if ($chunkstot >= $chunknum) {
     $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
   }
   else { return "Sorry, there don't seem to be that many parts of this message."; }
   close(RESPS);
   $tot = $chunkstot + 1;
-  if(($chunknum <= $tot) || ($chunknum < 0)){
+  $chunknum++;
+  if(($chunknum <= $tot) || ($chunknum >= 0)){
     return $chunk . " \($chunknum\/$tot\)";
   }
 }
@@ -624,6 +626,10 @@ sub checkcmsg {
         $server->command("msg $channel $actchunk");
         $chunktc = $txidchunktocall + 1;
         $isup = 0;
+        return 0;
+      }
+      if ($textcall =~ m/^continue.*/) {
+        $server->command("msg $channel Hey $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
         return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
