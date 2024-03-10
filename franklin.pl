@@ -108,9 +108,10 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   Irssi::command("script load helperfrank.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
-else { 
+else {
   logit("Something went wrong parsing the API key.");
-  Irssi: print "Something went wrong with the API key..."; }
+Irssi: print "Something went wrong with the API key...";
+}
 for my $cchan (0 .. 8) {
   unless ($txidchans[$cchan]) { $txidchans[$cchan] = ""; }
 }
@@ -121,8 +122,8 @@ my @chanlst;
 $chanlst[0] = $txidchans[0] . " " . $txidchans[1] . " " . $txidchans[2];
 $chanlst[1] = $txidchans[3] . " " . $txidchans[4] . " " . $txidchans[5];
 $chanlst[2] = $txidchans[6] . " " . $txidchans[7] . " " . $txidchans[8];
-my $apifirstp = substr($apikey, 0,  8);
-my $apilastp  = substr($apikey, 32, 40);
+my $apifirstp      = substr($apikey, 0,  8);
+my $apilastp       = substr($apikey, 32, 40);
 my $scrubbedapikey = "$apifirstp" . "*" x 24 . "$apilastp";
 logit("Starting Franklin version $VERSION");
 logit("Using API key $apifirstp" . "*" x 24 . "$apilastp");
@@ -154,11 +155,11 @@ if ($txidchans[6]) {                                                            
 }
 if ($hardlimit > 380) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
-logit("Warn: Hard lmiit may spill over first line if set this high.");
+  logit("Warn: Hard lmiit may spill over first line if set this high.");
 }
 if ($histlen > 30) {
   Irssi::print "Warn: If the history is set to this many lines, the contextual prelude will fill before the user's question.";
-logit("Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.");
+  logit("Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.");
 }
 if (length($servinfo) >= 500) {
   Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
@@ -184,7 +185,6 @@ sub logit {
   print LOGGER time() . ": " . $logdat . "\n";
   close(LOGGER);
 }
-
 
 
 sub untag {
@@ -282,6 +282,7 @@ sub asshat {
       $ua->default_header("Authorization" => "bearer " . $apikey);
       $ua->default_header("X-Client-Name" => "$xcn");
       my $res = $ua->post($uri, Content => $askbuilt);                                             # send the post request to the api
+
       if ($res->is_success) {
         my $said = decode_json($res->decoded_content())->{choices}[0]{text};
         $said =~ m/(\d+)/;
@@ -303,8 +304,8 @@ sub callapi {
   $reqs++;
   my $retcode = 1;
   logit("Formatting date tag.");
-  my @months  = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );                             # Set up the date for API req
-  my @days    = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
+  my @months = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );                              # Set up the date for API req
+  my @days   = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
   $year = "20" . substr($year, -2);
   my $page    = pullpage($textcall);                                                               # If we need to read a URL
@@ -359,14 +360,14 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp     = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
     logit("Running sanitization routines on user defined strings.");
-    $dcp     = sanitize($dcp,   noquote => 1, noescape => 1);                                                     # gotta sanitize all this cockamami shit
+    $dcp     = sanitize($dcp,   noquote => 1, noescape => 1);                                      # gotta sanitize all this cockamami shit
     $flast   = sanitize($flast, noquote => 1, noescape => 1);
     $ut      = sanitize($ut,    noquote => 1, noescape => 1);
     $chat[1] = "Bunk.";                                                                            # this is so when the chat first starts, if these are left undef, it does not
@@ -376,6 +377,7 @@ sub callapi {
     $chatsan =~ s/\"/\\"/g;                                                                        # not take care of double quote, which will break the json if not double-escaped.
     $textcall = $dcp;
     logit("Connecting to $url for API call.");
+
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
@@ -392,6 +394,7 @@ sub callapi {
     $resdumper = Dumper($res);
     $resdumper =~ s/$apikey/$scrubbedapikey/;
     logit("API Transaction: " . $resdumper);
+
     if ($res->is_success) {
       logit("Finished receiving data from API.");
 
@@ -456,6 +459,7 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);                                               # preparing string to send back to channel...
         $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
+
         if ($type eq "pm") {
           logit("Response to $nick\'s query sent to them in PM.");
           $server->command("query $nick");                                                         # If this is pm open win
@@ -463,15 +467,17 @@ sub callapi {
           $retcode = 0;
         }
         chomp(@txidchans);
-        if (grep(/^$channel$/i, @txidchans)) {                                                      # this little blurb makes it so you can turn the txid on and off for specific chans
+        if (grep(/^$channel$/i, @txidchans)) {                                                     # this little blurb makes it so you can turn the txid on and off for specific chans
           if ($type eq "chan") {
             $server->command("msg $channel $said_cut TXID:$hexfn");
             logit("Response to $nick\'s query sent to channel $channel.");
+
             # Send parsed API return to chan.
             $retcode = 0;
           }
         }
         else { $server->command("msg $channel $said_cut"); }
+
         #push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
         #if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
         #  shift(@chat);                                   # shift the earlist back thing said off the array stack.
@@ -506,7 +512,7 @@ sub falive {
 
 sub getcontchunk {
   my ($txid, $chunknum) = @_;
-  open(RESPS, '<', "$httploc$txid" . ".txt") or logit("The txid $txid does not seem to exist when requesting chunk $chunknum"); 
+  open(RESPS, '<', "$httploc$txid" . ".txt") or logit("The txid $txid does not seem to exist when requesting chunk $chunknum");
   $maxchunk = 400;
   my $alltxt = "";
   while (<RESPS>) {
@@ -520,13 +526,15 @@ sub getcontchunk {
     logit("Retreived chunk $chunknum out of $maxchunk chunks from $txid out of database.");
     $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
   }
-  else { 
+  else {
     logit("User requested an invalid chunk from the database.");
-    return "Sorry, there don't seem to be that many parts of this message.";i }
+    return "Sorry, there don't seem to be that many parts of this message.";
+    i;
+  }
   close(RESPS);
   $tot = $chunkstot + 1;
   $chunknum++;
-  if(($chunknum <= $tot) || ($chunknum >= 0)){
+  if (($chunknum <= $tot) || ($chunknum >= 0)) {
     logit("Sending continuation of $txid");
     return $chunk . " \($chunknum\/$tot\)";
   }
@@ -537,6 +545,7 @@ sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
+
   #logit("Message # $totals");
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
@@ -558,7 +567,7 @@ sub checkcmsg {
   }
   if ($blockfn) {
     if (-e $blockfn) {
-      open(BN,     '<',  $blockfn)
+      open(BN, '<', $blockfn)
         or logit("Franklin: Sorry, you need a blocklist file. $!");
       @badnicks = <BN>;
       close BN;
@@ -587,12 +596,12 @@ sub checkcmsg {
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
       if ($textcall =~ m/^continue (\W{8}) (\d+)/i) {
-        $txidtocall = $1;
+        $txidtocall      = $1;
         $txidchunktocall = $2;
-        $actchunk = getcontchunk($txidtocall, $txidchunktocall);
+        $actchunk        = getcontchunk($txidtocall, $txidchunktocall);
         $server->command("msg $channel $actchunk");
         $chunktc = $txidchunktocall + 1;
-        $isup = 0;
+        $isup    = 0;
         return 0;
       }
       if ($textcall =~ m/^continue.*/) {
@@ -608,7 +617,7 @@ sub checkcmsg {
           sleep(2.5);
           $isup = $wrote;
           if ($try ge $maxretry) {
-            $isup = 1;                                                                              # 0 on this var signifies that the heartbeat should pause
+            $isup = 1;                                                                             # 0 on this var signifies that the heartbeat should pause
             $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             logit("Warn: Max tries hit, probably stalled, forcing reload!");
             logit("Warn: Offending message from $nick in $channel:  $textcall");
