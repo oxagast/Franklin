@@ -32,7 +32,7 @@ This is a log from #GPT3, Franklin's unoffcial but _defaco_ channel.
 
 ### Major features of Franklin
 
-* Now upgraded to use the 3.5 Turbo Instruct API.
+* Now upgraded to use the ~~OpenAI GPT 3.5 Turbo Instruct API~~ Cohere Coral command API.
 * Answer users' queries realistically, with human-like responses.
 * Read and interpret any *http(s) urls* given to it.
 * Uptime heartbeat with email and/or sms notifications.
@@ -44,6 +44,7 @@ This is a log from #GPT3, Franklin's unoffcial but _defaco_ channel.
 * Administrative blocklist of abusive users.
 * Statistics dashboard detailing how many tokens were used to generate each response and cost estimates for the instance operator.
 * The ability to utilize operator status by kicking users who are being assholes (configurable in settings).
+* You can now make Franklin continue what he was saying, if the first message didn't fit in chat, you can call this feature using: `Franklin: continue 582c8157 1`.  Replace the txid and chunk number respectively.
 
 ### Setup
 
