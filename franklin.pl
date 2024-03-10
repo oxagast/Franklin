@@ -90,6 +90,7 @@ if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
   $isup = 1;
 }
 if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
+  logit("Starting heartbeat worker.");
   my $aliveworker = Proc::Simple->new();                                                           # since you fags try to root me and crash franklin
   if (Irssi::settings_get_str('franklin_heartbeat_url')) {                                         # i need this so that
     $aliveworker->start(\&falive);                                                                 # i get alerts on my phone when franklin dies now.
@@ -107,7 +108,9 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   Irssi::command("script load helperfrank.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
-else { Irssi: print "Something went wrong with the API key..."; }
+else { 
+  logit("Something went wrong parsing the API key.");
+  Irssi: print "Something went wrong with the API key..."; }
 for my $cchan (0 .. 8) {
   unless ($txidchans[$cchan]) { $txidchans[$cchan] = ""; }
 }
@@ -161,7 +164,7 @@ if (length($servinfo) >= 500) {
   Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
   logit("Warn: If the server info is this long, the contextual prelude may fill before the user's question.");
 }
-if ($asslevel >= 6.5) {
+if ($asslevel <= 6.5) {
   Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
   logit("Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.");
 }
@@ -295,10 +298,11 @@ sub asshat {
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
-  logit("Calling API.");
+  logit("API connection subroutine called.");
   $ut = "$textcall";
   $reqs++;
   my $retcode = 1;
+  logit("Formatting date tag.");
   my @months  = qw( Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec );                             # Set up the date for API req
   my @days    = qw(Sun Mon Tue Wed Thu Fri Sat Sun);
   my ($sec, $min, $hour, $mday, $mon, $year, $wday, $yday, $isdst) = localtime();
@@ -414,6 +418,7 @@ sub callapi {
       if ($said =~ m/^\s*\?\s*$/) {
         $said = "";
       }
+      logit("Generatin txid checksum tag for response.");
       unless ($said eq "") {                                                                       # this trims an md5 checksum to make the txid
         my $hexfn = substr(                                                                        # the reencode fixes the utf8 bug
          Digest::MD5::md5_hex(                                                                     # by encoding then decoding the utf8
@@ -430,10 +435,10 @@ sub callapi {
         my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
         logit("Query estimated cost is $cost.");
+        logit("Opening TXT file for writing response.");
         open(SAID, '>', "$httploc$hexfn" . ".txt")
           or logit("Could not open txt file for writing.");
         binmode(SAID, "encoding(UTF-8)");
-        logit("Opening HTML file for writing response.");
         print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
         close(SAID);
         my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
@@ -441,6 +446,7 @@ sub callapi {
         my $said_html = sanitize($said, html => 1);                                                # make sure all this is HTML safe.
         $textcall_bare = sanitize($textcall_bare, html => 1);
         $said_html =~ s/\n/<br>/g;
+        logit("Opening HTML file for writing response.");
         open(SAIDHTML, '>', "$httploc$hexfn" . ".html")
           or Irssi::print "Couldn't open for writing.";
         binmode(SAIDHTML, "encoding(UTF-8)");
@@ -451,6 +457,7 @@ sub callapi {
         $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
         if ($type eq "pm") {
+          logit("Response to $nick\'s query sent to them in PM.");
           $server->command("query $nick");                                                         # If this is pm open win
           $server->command("msg $nick $said_cut");                                                 # then pm
           $retcode = 0;
@@ -499,7 +506,7 @@ sub falive {
 
 sub getcontchunk {
   my ($txid, $chunknum) = @_;
-  open(RESPS, '<', "$httploc$txid" . ".txt"); 
+  open(RESPS, '<', "$httploc$txid" . ".txt") or logit("The txid $txid does not seem to exist when requesting chunk $chunknum"); 
   $maxchunk = 400;
   my $alltxt = "";
   while (<RESPS>) {
@@ -510,13 +517,17 @@ sub getcontchunk {
   $alltxt =~ s/.*snip ----\>\s?//m;
   $chunkstot = int(length($alltxt) / $maxchunk);
   if ($chunkstot >= $chunknum) {
+    logit("Retreived chunk $chunknum out of $maxchunk chunks from $txid out of database.");
     $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
   }
-  else { return "Sorry, there don't seem to be that many parts of this message."; }
+  else { 
+    logit("User requested an invalid chunk from the database.");
+    return "Sorry, there don't seem to be that many parts of this message.";i }
   close(RESPS);
   $tot = $chunkstot + 1;
   $chunknum++;
   if(($chunknum <= $tot) || ($chunknum >= 0)){
+    logit("Sending continuation of $txid");
     return $chunk . " \($chunknum\/$tot\)";
   }
 }
@@ -575,7 +586,7 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
-      if ($textcall =~ m/^continue (.{8}) (\d+)/i) {
+      if ($textcall =~ m/^continue (\W{8}) (\d+)/i) {
         $txidtocall = $1;
         $txidchunktocall = $2;
         $actchunk = getcontchunk($txidtocall, $txidchunktocall);
@@ -585,7 +596,7 @@ sub checkcmsg {
         return 0;
       }
       if ($textcall =~ m/^continue.*/) {
-        $server->command("msg $channel Hey $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
+        $server->command("msg $channel Hey there $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
         return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
