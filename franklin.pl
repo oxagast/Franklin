@@ -120,11 +120,9 @@ $chanlst[1] = $txidchans[3] . " " . $txidchans[4] . " " . $txidchans[5];
 $chanlst[2] = $txidchans[6] . " " . $txidchans[7] . " " . $txidchans[8];
 my $apifirstp = substr($apikey, 0,  8);
 my $apilastp  = substr($apikey, 32, 40);
-open(LOGGER, '>>', $logf);
 my $scrubbedapikey = "$apifirstp" . "*" x 24 . "$apilastp";
-print LOGGER time() . ": " . "Starting Franklin version $VERSION\n";
-print LOGGER time() . ": " . "Using API key $apifirstp" . "*" x 24 . "$apilastp\n";
-close(LOGGER);
+logit("Starting Franklin version $VERSION");
+logit("Using API key $apifirstp" . "*" x 24 . "$apilastp");
 Irssi::print "";
 Irssi::print "Loading Franklin LLM AI chatbot...";
 Irssi::print "Use /set to set the following variables:";
@@ -153,40 +151,37 @@ if ($txidchans[6]) {                                                            
 }
 if ($hardlimit > 380) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: Hard lmiit may spill over first line if set this high.\n";
-  close(LOGGER);
+logit("Warn: Hard lmiit may spill over first line if set this high.");
 }
 if ($histlen > 30) {
   Irssi::print "Warn: If the history is set to this many lines, the contextual prelude will fill before the user's question.";
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.\n";
-  close(LOGGER);
+logit("Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.");
 }
 if (length($servinfo) >= 500) {
   Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: If the server info is this long, the contextual prelude may fill before the user's question.\n";
-  close(LOGGER);
+  logit("Warn: If the server info is this long, the contextual prelude may fill before the user's question.");
 }
 if ($asslevel >= 6.5) {
   Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.\n";
-  close(LOGGER);
+  logit("Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.");
 }
 if ($tokenlimit >= 1000) {
   Irssi::print "Warn: The API will not like a token limit setting this large.";
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: THe API will not like a token limit setting this large.\n";
-  close(LOGGER);
+  logit("Warn: THe API will not like a token limit setting this large.");
 }
 if ((!$havecpu) || (!$havemem) || (!$havehdd) || (!$servinfo)) {
   Irssi::print "Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
+  logit("Warn: If you fill out your bot's environment info, it will make the experience more immersive.");
+}
+
+
+sub logit {
+  (my $logdat) = @_;
   open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Warn: If you fill out your bot's environment info, it will make the experience more immersive.\n";
+  print LOGGER time() . ": " . $logdat . "\n";
   close(LOGGER);
 }
+
 
 
 sub untag {
@@ -245,9 +240,7 @@ sub pullpage {
   if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
     my $text_uri = "$1://$2$3";                                                                    # put the link back together
     Irssi::print "$text_uri";
-    open(LOGGER, '>>', $logf);
-    print LOGGER time() . ": " . "Pulling page $text_uri\n";
-    close(LOGGER);
+    logit("Pulling page $text_uri");
     my $cua = LWP::UserAgent->new(
                                   protocols_allowed => ['http', 'https'],
                                   timeout           => 10,
@@ -291,13 +284,9 @@ sub asshat {
         $said =~ m/(\d+)/;
         my $rating = $1;
         return $rating;
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "The user $nick\'s asshole rating is $rating.\n";
-        close(LOGGER);
+        logit("The user $nick\'s asshole rating is $rating.");
       }
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "Something failed out in the asshole rating subroutine...\n";
-      close(LOGGER);
+      logit("Something failed out in the asshole rating subroutine...");
       return 1;
     }
   }
@@ -306,9 +295,7 @@ sub asshat {
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Calling API.\n";
-  close(LOGGER);
+  logit("Calling API.");
   $ut = "$textcall";
   $reqs++;
   my $retcode = 1;
@@ -324,6 +311,7 @@ sub callapi {
       $context = $context . $1;                                                                    # BVreak down the chat stack for the context to build req
     }
   }
+  logit("Chat context rolled onto \$chat\[\] stack");
   my $modstat;
   if ($server->channel_find($channel)) {
     my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
@@ -337,6 +325,7 @@ sub callapi {
   else {
     $modstat = " not a channel";
   }
+  logit("We have detected we are $modstat operator of $channel.");
   unless ($cmn) { $cmn = "Franklin"; }
   if     ($cmn ne $nick) {
     my $textcall_bare = $textcall;
@@ -370,6 +359,7 @@ sub callapi {
     my $xcn = "Franklin";
     my $uri = URI->new($url);
     my $ua  = LWP::UserAgent->new;
+    logit("Running sanitization routines on user defined strings.");
     $dcp     = sanitize($dcp,   noquote => 1);                                                     # gotta sanitize all this cockamami shit
     $flast   = sanitize($flast, noquote => 1);
     $ut      = sanitize($ut,    noquote => 1);
@@ -379,10 +369,7 @@ sub callapi {
     $ut      =~ s/\"/\\"/g;                                                                        # for some silly reason noquote => 1 on the above sanitization call it does
     $chatsan =~ s/\"/\\"/g;                                                                        # not take care of double quote, which will break the json if not double-escaped.
     $textcall = $dcp;
-    open(LOGGER, '>>', $logf);
-    print LOGGER time() . ": " . "Connecting to $url for API call.\n";
-    close(LOGGER);
-
+    logit("Connecting to $url for API call.");
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
@@ -395,17 +382,12 @@ sub callapi {
     $ua->default_header("Authorization" => "bearer " . $apikey);
     $ua->default_header("X-Client-Name" => "$xcn");
     my $res = $ua->post($uri, Content => $askbuilt);                                               # send the post request to the api
-    open(LOGGER, '>>', $logf);
-    print LOGGER time() . ": " . "Preparing to receive data from API.\n";
+    logit("Preparing to receive data from API.");
     $resdumper = Dumper($res);
     $resdumper =~ s/$apikey/$scrubbedapikey/;
-    print LOGGER time() . ": " . "API Transaction: " . $resdumper . "\n";
-    close(LOGGER);
-
+    logit("API Transaction: " . $resdumper);
     if ($res->is_success) {
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "Finished receiving data from API.\n";
-      close(LOGGER);
+      logit("Finished receiving data from API.");
 
       # response has the structure:
       # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
@@ -418,13 +400,11 @@ sub callapi {
       my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
       my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
       $said = Irssi::strip_codes($said);
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.\n";
-      close(LOGGER);
-
+      logit("Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.");
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
+      logit("Reformatting returned text for irc.");
       $said =~ s/^\s+//;                                                                           # this does some parsing of the API output for IRC
       $said =~ s/^\n+//;
       $said =~ s/^Franklin[:|,] //ig;
@@ -442,18 +422,15 @@ sub callapi {
          0,
          8
         );
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "Processing query $hexfn from $channel/$nick\n";
+        logit("Processing query $hexfn from $channel/$nick");
         umask(0133);                                                                               # perms umask for files in said/
         my $toks = $ctoks + $ptoks;
         my $cost = sprintf("%.5f", ($toks / 1000 * $price_per_k));
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "Query estimated cost is $cost.\n";
+        logit("Query estimated cost is $cost.");
         open(SAID, '>', "$httploc$hexfn" . ".txt")
-          or print LOGGER time() . ": " . "Could not open txt file for writing.";
+          or logit("Could not open txt file for writing.");
         binmode(SAID, "encoding(UTF-8)");
-        print LOGGER time() . ": " . "Opening HTML file for writing response.\n";
-        close(LOGGER);
+        logit("Opening HTML file for writing response.");
         print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
         close(SAID);
         my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
@@ -470,7 +447,6 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);                                               # preparing string to send back to channel...
         $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
-
         if ($type eq "pm") {
           $server->command("query $nick");                                                         # If this is pm open win
           $server->command("msg $nick $said_cut");                                                 # then pm
@@ -480,10 +456,7 @@ sub callapi {
         if (grep(/^$channel$/, @txidchans)) {                                                      # this little blurb makes it so you can turn the txid on and off for specific chans
           if ($type eq "chan") {
             $server->command("msg $channel $said_cut TXID:$hexfn");
-            open(LOGGER, '>>', $logf);
-            print LOGGER time() . ": " . "Response to $nick\'s query sent to channel $channel.\n";
-            close(LOGGER);
-
+            logit("Response to $nick\'s query sent to channel $channel.");
             # Send parsed API return to chan.
             $retcode = 0;
           }
@@ -497,15 +470,11 @@ sub callapi {
         return 0;
       }
       $server->command("msg $channel Sorry, I am unable to complete that request at this time... Please try again later!");
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "There was a problem sending the response to channel $channel...\n";
-      close(LOGGER);
+      logit("There was a problem sending the response to channel $channel...");
       return 1;                                                                                    # tell it it didn't finish right
     }
     else {
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "There was an issue sending reponse from the API.\n";
-      close(LOGGER);
+      logit("There was an issue sending reponse from the API.");
       return 1;
     }                                                                                              # otherwise tell it it was incomplete
   }
@@ -519,10 +488,6 @@ sub falive {
         my $uri = URI->new($hburl);
         my $ua  = LWP::UserAgent->new;
         $ua->post($uri);                                                                           #  Send post to alive worker on other server
-        open(LOGGER, '>>', $logf);
-
-        #print LOGGER time() . ": " . "Sending heartbeat ping to uptime server.\n";  # too noisey to leave on all the time
-        close(LOGGER);
       }
       sleep 30;                                                                                    # wait
     }
@@ -534,9 +499,7 @@ sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Message # $totals\n";
-  close(LOGGER);
+  logit("Message # $totals");
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
   $msg_count++;                                                                                    # this increments the total msg count
@@ -550,16 +513,15 @@ sub checkcmsg {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
   }
+  logit("Pushing current channel message onto \$chat\[\] stack.");
   push(@chat, "Channel $channel: The user: $nick said: $msg. ");
   if (scalar(@chat) >= $histlen) {
     shift(@chat);
   }
   if ($blockfn) {
     if (-e $blockfn) {
-      open(LOGGER, '>>', $logf);
       open(BN,     '<',  $blockfn)
-        or print LOGGER time() . ": " . "Franklin: Sorry, you need a blocklist file. $!";
-      close(LOGGER);
+        or logit("Franklin: Sorry, you need a blocklist file. $!");
       @badnicks = <BN>;
       close BN;
     }
@@ -572,10 +534,8 @@ sub checkcmsg {
 
   #if ($nick ~~ @badnicks) {    # smartmatch is now not recommended, so we're using grep.
   if (grep(/^$nick$/, @badnicks)) {                                                                # fuck everyone inside this conditional
-    open(LOGGER, '>>', $logf);
-    print LOGGER time() . ": " . "The user $nick does not have privs to use this...\n";
+    logit("The user $nick does not have privs to use this...");
     Irssi::print "Franklin: $nick does not have privs to use this.";
-    close(LOGGER);
   }
   else {
     my $wrote = 1;
@@ -591,32 +551,24 @@ sub checkcmsg {
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 0;
         while (($wrote eq 1) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
-          open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Responding to message: $totals, on retry $try\n";
-          close(LOGGER);
+          logit("Responding to message: $totals, on retry $try");
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(2.5);
           $isup = $wrote;
           if ($try == ($maxretry - 1)) {
             $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
-            open(LOGGER, '>>', $logf);
-            print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
-            print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall\n";
-            close(LOGGER);
+            logit("Warn: Max tries hit, probably stalled, forcing reload!");
+            logit("Warn: Offending message from $nick in $channel:  $textcall");
             Irssi::command("script load franklin.pl");
           }
         }
         return $wrote;
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "callapi() subroutine successful for $nick\'s channel message.\n";
-        close(LOGGER);
+        logit("callapi() subroutine successful for $nick\'s channel message.");
       }
       else {
         $isup = 1;
-        open(LOGGER, '>>', $logf);
-        print LOGGER time() . ": " . "Unknown error, response not sent to server\n";
-        close(LOGGER);
+        logit("Unknown error, response not sent to server.");
       }
     }
     else {
@@ -624,9 +576,7 @@ sub checkcmsg {
         if (int(rand(1000) - $chatterbox) eq 0) {                                                  # Chatty level
           $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode is on
           $isup  = $wrote;
-          open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Random chatterbox triggered.\n";
-          close(LOGGER);
+          logit("Random chatterbox triggered.");
           return $wrote;
         }
         $isup = 0;
@@ -647,9 +597,7 @@ sub checkpmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
-  open(LOGGER, '>>', $logf);
-  print LOGGER time() . ": " . "Responding to private message from $nick...\n";
-  close(LOGGER);
+  logit("Responding to private message from $nick...");
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type  = "pm";                                                                                # this stuff only runs if it is a PM/MSG not in channel stuff
   my $wrote = 1;
@@ -669,22 +617,16 @@ sub checkpmsg {
         sleep(2.5);
         if ($try == ($maxretry - 1)) {
           $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
-          open(LOGGER, '>>', $logf);
-          print LOGGER time() . ": " . "Warn: Max tries hit, probably stalled, forcing reload!\n";
-          print LOGGER time() . ": " . "Warn: Offending message from $nick in $channel:  $textcall\n";
-          close(LOGGER);
+          logit("Warn: Max tries hit, probably stalled, forcing reload!");
+          logit("Warn: Offending message from $nick in $channel:  $textcall");
           Irssi::command("script load franklin.pl");
         }
         $isup = $wrote;
       }
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "The callapi() subroutine successful for $nick\'s private message.\n";
-      close(LOGGER);
+      logit("The callapi() subroutine successful for $nick\'s private message.");
     }
     else {
-      open(LOGGER, '>>', $logf);
-      print LOGGER time() . ": " . "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.\n";
-      close(LOGGER);
+      logit("Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.");
       return 1;
     }
   }
