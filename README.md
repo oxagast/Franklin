@@ -5,23 +5,34 @@
 
 ## Franklin is a ChatGPT backed IRC bot
 
-**Examples**
-```
-<   oxagast> Franklin: tell me a story about using IRC, but using only words of the archane, and obscure to the point where it is incomprehensible
-<  Franklin> Once, a kyngesman of the deep wealds of the Internet didst log into a strange and distant land known as IRC, where his dreams of wisdom and knowledge were to be found. He didst traverse many channels, where the mysterious and arcane language of 'netspeak' was spoken. He didst con https://franklin.oxasploits.com/said/4d8d8751.txt
-<+      Zed> Franklin: when was the tamagotchi first sold
-<  Franklin> The Tamagotchi was first released in Japan on November 23, 1996. https://franklin.oxasploits.com/said/00b1d95f.txt
-<  bookworm> Franklin: What is Mitgliederversammlung mean in English?
-<  Franklin> Mitgliederversammlung is a German term meaning "members' assembly" or "general assembly of members". It is typically used to refer to the annual gathering of members of a particular organization, such as a club, association, or business. https://franklin.oxasploits.com/said/80621d88.txt
-<  bookworm> Franklin: what is the method in bash to assign a command to a letter?
-<  Franklin> There is no built-in method in Bash to assign a command to a letter. However, you can create an alias in your ~/.bashrc file to assign a command to a letter. For example, to assign the command "ls -a" to the letter "l", you could add the following line to your ~/.bashrc file:  al https://franklin.oxasploits.com/said/287d0550.txt 
-<  bookworm> Franklin: books written by Larry Wall
-<  Franklin>  and Randal Schwartz  1. Programming Perl (3rd Edition): Larry Wall and Tom Christiansen 2. Learning Perl (6th Edition): Randal L. Schwartz and Tom Phoenix 3. Perl Cookbook (2nd Edition): Tom Christiansen and Nathan Torkington 4. Intermediate Perl (2nd Edition): Randal L. Schwart https://franklin.oxasploits.com/said/582c8157.txt
-```
+### Examples
 
-**Major features of Franklin**
+This is a log from #GPT3, Franklin's unoffcial but _defaco_ channel.
 
-* Now upgraded to use the 3.5 Turbo Instruct API.
+> oxagast: Franklin: tell me a story about using IRC, but using only words of the archane, and obscure to the point where it is incomprehensible
+> 
+> Franklin: Once, a kyngesman of the deep wealds of the Internet didst log into a strange and distant land known as IRC, where his dreams of wisdom and knowledge were to be found. He didst traverse many channels, where the mysterious and arcane language of 'netspeak' was spoken. He didst con https://franklin.oxasploits.com/said/4d8d8751.txt
+> 
+> Zed: Franklin: when was the tamagotchi first sold
+> 
+> Franklin: The Tamagotchi was first released in Japan on November 23, 1996. https://franklin.oxasploits.com/said/00b1d95f.txt
+> 
+> bookworm: Franklin: What is Mitgliederversammlung mean in English?
+> 
+> Franklin: Mitgliederversammlung is a German term meaning "members' assembly" or "general assembly of members". It is typically used to refer to the annual gathering of members of a particular organization, such as a club, association, or business. https://franklin.oxasploits.com/said/80621d88.txt
+> 
+> bookworm: Franklin: what is the method in bash to assign a command to a letter?
+> 
+> Franklin: There is no built-in method in Bash to assign a command to a letter. However, you can create an alias in your ~/.bashrc file to assign a command to a letter. For example, to assign the command "ls -a" to the letter "l", you could add the following line to your ~/.bashrc file:  al https://franklin.oxasploits.com/said/287d0550.txt
+> 
+> bookworm: Franklin: books written by Larry Wall
+> 
+> Franklin:  and Randal Schwartz  1. Programming Perl (3rd Edition): Larry Wall and Tom Christiansen 2. Learning Perl (6th Edition): Randal L. Schwartz and Tom Phoenix 3. Perl Cookbook (2nd Edition): Tom Christiansen and Nathan Torkington 4. Intermediate Perl (2nd Edition): Randal L. Schwart https://franklin.oxasploits.com/said/582c8157.txt
+
+
+### Major features of Franklin
+
+* Now upgraded to use the ~~OpenAI GPT 3.5 Turbo Instruct API~~ Cohere Coral command API.
 * Answer users' queries realistically, with human-like responses.
 * Read and interpret any *http(s) urls* given to it.
 * Uptime heartbeat with email and/or sms notifications.
@@ -33,11 +44,11 @@
 * Administrative blocklist of abusive users.
 * Statistics dashboard detailing how many tokens were used to generate each response and cost estimates for the instance operator.
 * The ability to utilize operator status by kicking users who are being assholes (configurable in settings).
+* You can now make Franklin continue what he was saying, if the first message didn't fit in chat, you can call this feature using: `Franklin: continue 582c8157 1`.  Replace the txid and chunk number respectively.
 
-![irc](https://raw.githubusercontent.com/oxagast/Franklin/main/franklin-cheese.png)
+### Setup
 
-**Setup**
-
+* Install [Irssi](https://irssi.org), Franklin's host process.
 * Install from Perl's CPAN (if deps not already met): Proc::Simple, Santitize, Irssi, and JSON.
 * Add `franklin.pl` to autoload on irssi start, and optionally configure your channel autojoins.
 * Start irssi
@@ -45,10 +56,19 @@
 * Ensure your webserver root directory contains a folder that is writeable by the `franklin.pl` script named `said`(usually something like `/var/www/html/said/`).
 * Append the `block.lst` file with one username per line with any users that abuse the bot.
 * Edit any variables in franklin you need to from within irssi, such as the domain name of your server where the long-text is hosted, by using `/set fraklin_...`.
-* Finally, test it by calling with "Franklin: say hi! in chat".
+* Finally, test it by calling with "Franklin: say hi!" in chat.
 * Load the helper script with: `/script load franklin_helper.pl`.  This will allow *any user* in channel to reload Franklin, but generally this is a good thing unless abused.
+* To make Franklin start on server bootup, add this to Franklin's user's crontab: `@reboot sleep 45 && cd ~/Franklin && screen -dmS Franklin`. Then add the following
+  .screenrc file:
+```
+    sessionname Franklin
+    startup_message off
+    screen -t bot     1 irssi
+    screen -t log     3 tail -f /var/log/franklin.log
+```
+`
 
-**Settings**
+### Settings
 
 Name | Description
 -|-
@@ -70,7 +90,7 @@ Name | Description
 `/set franklin_hdd_approx [string]` | The amount of hard drive space.
 `/set franklin_cpu_approx [string]` | Number of allocatable CPU cores.
 
-**Debugging**
+### Debugging
 
 Now test the bot by calling it with "Franklin: print me a test message" in channel (do this from a different nick, 
 not Franklin's nick!)
@@ -83,10 +103,16 @@ longer irssi has been running, the more this is an issue.
 Occasionally, if franklin stalls and/or stop responding to queries, you can run `/script load franklin.pl` and this will
 usually rectify the issue.  This can also be accomplished if franklin_helper.pl is loaded, by calling Franklin in channel like: "Franklin: reload".
 
-**Authors**
+Franklin has a log file you can check!  You can look in the irssi settings to see where it is saved.  You can usually [view the online version](https://franklin.oxasploits.com/bot.log) of my Franklin instance.
+
+Check if the message has been recorded in the `said/` directory!  It's usually in your webserver, so for me `/var/www/franklin/`.  You can [view mine](https://franklin.oxasploits.com/said/?C=M;O=D)!
+
+### Authors
 
 oxagast / Marshall Whittaker
 
-**Thanks to people who asked for features or found bugs**
+### Thanks
+
+The following people have found verified bugs, or asked for features that ended up being implemented.
 
 atg, dclaw, proge, CerebraNet, morb, bookworm, denzuko, and more...
