@@ -522,17 +522,16 @@ sub getcontchunk {
   $alltxt =~ s/\s+/ /gm;
   $alltxt =~ s/.*snip ----\>\s?//m;
   $chunkstot = int(length($alltxt) / $maxchunk);
+  $tot = $chunkstot + 1;
   if ($chunkstot >= $chunknum) {
-    logit("Retreived chunk $chunknum out of $maxchunk chunks from $txid out of database.");
+    logit("Retreived chunk $chunknum out of $tot chunks from $txid out of database.");
     $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
   }
   else {
     logit("User requested an invalid chunk from the database.");
     return "Sorry, there don't seem to be that many parts of this message.";
-    i;
   }
   close(RESPS);
-  $tot = $chunkstot + 1;
   $chunknum++;
   if (($chunknum <= $tot) || ($chunknum >= 0)) {
     logit("Sending continuation of $txid");
@@ -595,7 +594,7 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
-      if ($textcall =~ m/^continue (\W{8}) (\d+)/i) {
+      if ($textcall =~ m/^continue (\w{8}) (\d+)/i) {
         $txidtocall      = $1;
         $txidchunktocall = $2;
         $actchunk        = getcontchunk($txidtocall, $txidchunktocall);
