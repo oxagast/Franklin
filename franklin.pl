@@ -11,7 +11,6 @@
 #  -'
 #
 # Cohere AI 'command' model fork
-
 use 5.10.0;
 use warnings;
 use Proc::Simple;
@@ -522,7 +521,7 @@ sub getcontchunk {
   $alltxt =~ s/\s+/ /gm;
   $alltxt =~ s/.*snip ----\>\s?//m;
   $chunkstot = int(length($alltxt) / $maxchunk);
-  $tot = $chunkstot + 1;
+  $tot       = $chunkstot + 1;
   if ($chunkstot >= $chunknum) {
     logit("Retreived chunk $chunknum out of $tot chunks from $txid out of database.");
     $chunk = substr($alltxt, $maxchunk * $chunknum, $maxchunk);
@@ -661,7 +660,6 @@ sub checkpmsg {
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type  = "pm";                                                                                # this stuff only runs if it is a PM/MSG not in channel stuff
   my $wrote = 1;
-
   if ($nick ne "Franklin") {
     $msg_count++;
     $pm = 1;
