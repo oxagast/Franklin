@@ -2,20 +2,24 @@
 
 ## oxagast/Franklin
 
-**57fbdb13 (HEAD -> cohere-base_command, origin/cohere-base_command)** (13 minutes ago) _GitHub_: Update .perltidyrc<br>
-**9e4f7bf3** (2 hours ago) _Marshall Whittaker_: Updated readme.<br>
-**9a6720b0** (2 hours ago) _Marshall Whittaker_: Changelog updated<br>
-**5e7efd6f** (2 hours ago) _Marshall Whittaker_: Try adding a html linbraek in changelog.<br>
-**328ef590** (2 hours ago) _Marshall Whittaker_: Added changelog in markdown.<br>
-**d66cf16a** (13 hours ago) _Marshall Whittaker_: Fixed stray 'i;', also fixed the recognition of alphanumeric chars with \w for the txid, fixed total chunks not right bug.<br>
-**aa9fb74e** (24 hours ago) _Marshall Whittaker_: Updated frank's version number.<br>
-**0f8ec9f6** (24 hours ago) _Marshall Whittaker_: Changelog addition.<br>
-**df732816** (24 hours ago) _Marshall Whittaker_: Perltidy.<br>
-**b297acaa** (24 hours ago) _Marshall Whittaker_: Fixed bug with the asshat level warning (our greater/lesser qualilifier was backwards).  Added a couple more things for more verbose logging.<br>
-**475bdce8** (26 hours ago) _Marshall Whittaker_: Commiting the merge of of frank master and the cohere branch.<br>
-**059398f3** (26 hours ago) _Marshall Lee Whittaker_: Revamp on logging, now using a concise subroutine.<br>
-**62e4eb32** (34 hours ago) _Marshall Whittaker_: Unstashed.<br>
-**dcd080df** (34 hours ago) _GitHub_: Update franklin.pl<br>
+**5cc4b6b9 (HEAD -> cohere-base_command)** (17 seconds ago) _Marshall Whittaker_: Created a way to set the verbosity of the log file, to either very quiet (0) all the way to very noisey (3).<br>
+**9f5c1e30 (origin/cohere-base_command)** (3 hours ago) _Marshall Whittaker_: Added a reboot function to helperfrank. It can only be used as person set in irssi vars as franklin_admin.<br>
+**08e05326** (5 hours ago) _Marshall Whittaker_: Perltidy on franklin.<br>
+**b43a2392** (5 hours ago) _Marshall Whittaker_: Updated said/ backup.<br>
+**57fbdb13** (5 hours ago) _GitHub_: Update .perltidyrc<br>
+**9e4f7bf3** (7 hours ago) _Marshall Whittaker_: Updated readme.<br>
+**9a6720b0** (7 hours ago) _Marshall Whittaker_: Changelog updated<br>
+**5e7efd6f** (7 hours ago) _Marshall Whittaker_: Try adding a html linbraek in changelog.<br>
+**328ef590** (7 hours ago) _Marshall Whittaker_: Added changelog in markdown.<br>
+**d66cf16a** (18 hours ago) _Marshall Whittaker_: Fixed stray 'i;', also fixed the recognition of alphanumeric chars with \w for the txid, fixed total chunks not right bug.<br>
+**aa9fb74e** (28 hours ago) _Marshall Whittaker_: Updated frank's version number.<br>
+**0f8ec9f6** (28 hours ago) _Marshall Whittaker_: Changelog addition.<br>
+**df732816** (28 hours ago) _Marshall Whittaker_: Perltidy.<br>
+**b297acaa** (28 hours ago) _Marshall Whittaker_: Fixed bug with the asshat level warning (our greater/lesser qualilifier was backwards).  Added a couple more things for more verbose logging.<br>
+**475bdce8** (31 hours ago) _Marshall Whittaker_: Commiting the merge of of frank master and the cohere branch.<br>
+**059398f3** (31 hours ago) _Marshall Lee Whittaker_: Revamp on logging, now using a concise subroutine.<br>
+**62e4eb32** (2 days ago) _Marshall Whittaker_: Unstashed.<br>
+**dcd080df** (2 days ago) _GitHub_: Update franklin.pl<br>
 **16929aa9** (2 days ago) _Marshall Whittaker_: Fixed the case sensitivity bug in txidchans spec.  Also added the feature 'Franklin: continue [txid] [part]'.<br>
 **b3eca35e** (3 days ago) _Marshall Whittaker_: Fixed a double error message bug.<br>
 **07fb696c (tag: v4.0.0)** (4 days ago) _GitHub_: Merge pull request #16 from oxagast/cohere-base_command<br>
