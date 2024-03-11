@@ -1,0 +1,7 @@
+oxagast asked i have a riddle for you: if you have one bucket that holds 3 gallons, and another bucket that holds 7 gallons... how many buckets do you have? with hash 6cd34f35
+<---- snip ---->
+Ah, this is an interesting riddle! 
+
+The answer is two, because buckets that hold liquids are distinguished from each other primarily by their capacities, and as you have two buckets that hold different amounts and are therefore two buckets. 
+
+However, this riddle is a play on words, as it sounds like it should be three, one for each gallon. Did you mean a riddle for distinguishing buckets too?

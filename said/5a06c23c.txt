@@ -1,0 +1,17 @@
+oxagast asked respond hoe bag with hash 5a06c23c
+<---- snip ---->
+Here are some features of FreeBSD that stand out: 
+
+1. Security - FreeBSD has a strong focus on security and provides many features to keep your system safe. These include random number generation, access control, and intrusion detection. 
+
+2. Advanced File System - FreeBSD uses the UFS and ZFS file systems, both are powerful, scalable, and fully supported. ZFS provides features such as data integrity, compression, and snapshotting. 
+
+3. Ports & Packages - The ports system allows for easy installation of applications, games, and libraries. The package management system makes it easier to install, update, or remove these packages with ease and efficiency. 
+
+4. Networking - FreeBSD has a highly developed network stack, which includes features such as IPv6, traffic shaping, and firewalls. It has extensive support for various network interfaces and controllers. 
+
+5. Jails & VMs - The jail feature allows users to create multiple isolated environments on a single FreeBSD machine. These provide a lightweight, flexible, and secure means of virtualization. 
+
+6. Advanced Shell - The FreeBSD shell provides many features that allow for efficient and smooth usage. It includes features like syntax highlighting, auto-completion, and a built-in help system. 
+
+These are just some of the many features that make FreeBSD stand out.

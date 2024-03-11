@@ -1,0 +1,5 @@
+zyme asked Whats the identd port? with hash 180508d9
+<---- snip ---->
+The port used for the ident protocol is 113. Ident is a protocol that works between a client and server in which the server sends a query to the client to request information about the "owner" of the network. 
+
+Is there anything else I can help you with?

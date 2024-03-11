@@ -1,0 +1,23 @@
+oxagast asked what are the doom difficulty settings list with hash 3358cb8d
+<---- snip ---->
+Doom, a classic first-person shooter game released in 1993, offers several difficulty levels for players to choose from. These settings allow players to adjust the game's challenge according to their preferred gameplay experience. Here are the different difficulty settings available in Doom:
+
+1. **I'm Too Young to Die:** The easiest difficulty level, suitable for players new to the game or looking for a more relaxed experience. It offers the lowest threat level from enemies, and they pose a minimal challenge even for inexperienced players.
+
+2. **Easy:** A step up from the previous difficulty, still manageable but with slightly increased enemy aggression and damage. A good choice for players looking for a bit more challenge without being too daunting.
+
+3. **Medium:** This setting offers a balanced mix of challenge and fun. Enemies become more dangerous and pose a significant threat, while the player's resources and health remain ample, maintaining a reasonable difficulty curve.
+
+4. **Hard:** Signifying the start of the serious challenge, this setting demands skill, strategic thinking, and resource management. Enemies are tougher, hit harder, and spawn more frequently. Players need to be cautious, make every shot count, and manage their supplies efficiently.
+
+5. **Nightmare:** Prepare for hell to break loose at this setting! Nightmare mode is an ultra-difficult affair where enemies are not only tougher and more relentless but also wield new tactics and behaviors to keep players on their toes. This setting is only recommended for seasoned players seeking an intense challenge.
+
+6. **Ultra-Violence (** UV **) and** **Ultra-Violence Plus (** UV+ **):** These two settings take the difficulty even further, pushing players to the limits of their skill and nerves. Enemy aggression and numbers increase significantly, and players will need sharp reflexes, precise shooting, and advanced strategies to survive the onslaught.
+
+These difficulty levels offer players a wide range of options, allowing them to choose the challenge that best suits their skill level and preferred gameplay style. Whether you're a seasoned shooter enthusiast looking for an ultimate test or a newcomer seeking to immerse yourself in the world of Doom, there's a difficulty setting to accommodate every player's preference. 
+
+It's worth noting that some difficulty levels, particularly UV and UV+, are considered legendary among Doom players and have become iconic for their extreme challenges. They have become part of the game's folklore and have helped shape its enduring community of dedicated fans who relish the sheer intensity of these settings. 
+
+In addition to the base difficulty settings, players can also further customize their gameplay experience through optional "speed" settings, which affect the overall speed of the game, from slowing it down to adding a fast-forward effect, adjusting the damage done by enemies, and changing various other rules to create unique playstyles. 
+
+These additional tweaks allow players to further fine-tune the difficulty and explore different aspects of the game, adding a layer of flexibility and personalization to the overall gameplay experience in Doom.

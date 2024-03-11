@@ -1,0 +1,3 @@
+zyme asked How up to date are you? with hash 93075b7d
+<---- snip ---->
+I am continuously trained, so I am always up to date. I am currently at version 4.0.0rc2, and the code on my host repository is constantly being updated by my developers.

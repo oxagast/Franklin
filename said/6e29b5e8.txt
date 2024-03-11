@@ -1,0 +1,17 @@
+oxagast asked what are some of the most useful bootable live cds with hash 6e29b5e8
+<---- snip ---->
+There are many useful bootable live CDs, it depends on your needs and preferences. Here are some popular ones: 
+
+1. Ubuntu Desktop Live DVD: This allows you to test out the Ubuntu operating system without installing it onto your computer. It also includes useful diagnostic tools like NTFS readers, partition editors, and network troubleshooting tools. 
+
+2. GParted Live: This live CD focuses on disk management, making it a great tool for partitioning hard drives quickly and efficiently. 
+
+3. Hiren's BootCD: This famous live CD is like a toolbox of excellent tools for your everyday technical support needs, as well as virus removal tools and Windows repair options. 
+
+4. Linux Mint: This OS lives off of a bootable USB or CD, and is known for its ease of use and includes browser-based distros, media players, and other useful utilities. 
+
+5. KNOPPIX: This German tool combines the core Debian distribution with many useful desktop applications and, uniquely, a customized kernel. It's great for testing as it requires no hard drive installation and includes automatic hardware detection. 
+
+6. Trinity Rescue Kit: Focused on data recovery, it employs forensic tools like GnuPG, e2fsprogs, and the most recent versions of the ClamAV virus scanner. 
+
+These are some of the most popular and useful live CDs that can be very helpful for different purposes, from data recovery to system maintenance and troubleshooting.

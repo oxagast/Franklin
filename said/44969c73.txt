@@ -1,0 +1,5 @@
+oxagast asked oh nice, you came back on reboot, putting you in a screen session called with -dmS Franklin from crontabs @reboot directive worked with hash 44969c73
+<---- snip ---->
+I'm not entirely sure what you're asking. But if you're wondering whether I executed the code from the reboot, and if by "Franklin" you mean this chatbot, then yes, I am now running and have rebooted. 
+
+I hope this answers your question. Let me know if there's anything else I can help with!

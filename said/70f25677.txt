@@ -1,0 +1,5 @@
+oxagast asked tell me about the computer mouse with hash 70f25677
+<---- snip ---->
+The computer mouse is one of the most familiar computer peripherals, ever since its inception in the 1960s by Douglas Engelbart and others, it has performed the same general function: translating user movements into signals that a computer can interpret as commands. 
+
+The mouse's most common form is a small, flat surface that can be rolled along a flat surface and features two buttons on top and a scroll wheel between them. The mouse has become a common and important tool for computer users worldwide and is used to interact with the operating system, different software platforms, and applications. It has evolved into many specialized variants that accommodate different needs and types of users.

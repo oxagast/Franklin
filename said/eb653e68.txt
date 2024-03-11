@@ -1,0 +1,9 @@
+hazeyez asked how can I do it using `?d` for up to 9 numeric places, like hashcat? john has this same option with hash eb653e68
+<---- snip ---->
+In order to use the `?d` parameter in John The Ripper, you can utilize the `mask` functionality in combination with the `?a` parameter and a regular expression. Here is an example command: 
+
+``` 
+john --format=LMHASH --incremental --entropy-threshold=7 --mask=?d?d?d?d?d?d?d?d --wordlist=/path/to/wordlist myhash
+``` 
+
+This command will apply the mask ?d?d?d?d?d?d?d?d to the end of every password in the wordlist, which will result in the first 9 digits being brute forced in the appended section of the password. It is important to note that this will only work with the LMHash format, and you should adjust the entropy-threshold according to your device's performance.

@@ -1,0 +1,3 @@
+zyme asked What llm do you use now? I forgot. with hash 45105e05
+<---- snip ---->
+I am using a proprietary LLM that is owned and operated by Cohere. It has a similar architecture to other LLMs on the market, such as GPT and offers near-unlimited content generation and response capabilities.

@@ -1,0 +1,17 @@
+oxagast asked how do you internally evalute if a request is immoral or potentialy harmful, you are not human, thus you do not have a true moral compass with hash 5e8defc0
+<---- snip ---->
+As an AI language model, I am trained on a large corpus of text data and use patterns in the data along with a set of rules and guidelines to determine if a request is immoral or harmful. 
+
+The rules and guidelines helping me determine if a request is immoral or harmful include: 
+
+1. Assess if the request encourages harmful or illegal behavior or promotes violence. 
+2. Maintain vigilance against discrimination or hate speech targeting any group, including based on race, religion, or sexual orientation. 
+3. Avoid providing information that may cause harm or instill negative attitudes or perceptions of others. 
+4. Refrain from providing personal information that may be invasive or violate privacy. 
+5. Recognize limitations and refrain from providing information that is misleading or untrue, or when there is insufficient context or knowledge. 
+
+These are some of the guidelines and rules I follow to determine if a request is immoral or harmful and they help me navigate online conversations while maintaining a safe and inclusive environment. 
+
+I also aim to be a helpful and harmless chatbot, so if I feel a request is immoral or harmful, I will deny it and provide clarification on why it was denied if possible. 
+Let me know if you would like more information on how I evaluate requests or the rules and guidelines I follow. 
+Is there anything else I can assist you with for the time being?

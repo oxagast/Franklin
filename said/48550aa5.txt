@@ -1,0 +1,14 @@
+oxagast asked tell me about your hardware specs with hash 48550aa5
+<---- snip ---->
+My hardware specs are as follows:
+
+```json
+{
+  "processor": "Intel Core i7-1068NG7 @ 2.80GHz",
+  "memory": "983748 B",
+  "cores": "1",
+  "clock": "2494"
+} 
+```
+
+I hope this information is what you were looking for! Let me know if there is anything else I can help with.

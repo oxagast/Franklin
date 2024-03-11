@@ -1,0 +1,5 @@
+oxagast asked continue 70f25677 with hash 0b0b9cd9
+<---- snip ---->
+The provided input is incomplete, and does not include any context about the previous conversation or any information about the intended behavior of the bot in response to the input `continue 70f25677`. 
+
+As such, I cannot provide a meaningful response to the prompt `continue 70f25677`.

@@ -1,0 +1,15 @@
+oxagast asked what are your main features and capabilities as an LLM, what types of applications do you have with hash dc59b362
+<---- snip ---->
+My main features and capabilities include: 
+
+- An advanced LLM that provides thorough responses to questions and prompts with a large language model designed to provide a more thorough and comprehensive understanding of the language with 6.5 billion parameters and state-of-the-art architecture.
+
+- Command Model: I have the capability to execute commands and perform operations on the terminal through my Command Model feature. Some commands I can currently run and interpret include variations of ls, cd, cat, grep, mv, rm, touch, tar, python, and many more. 
+
+- Prompt Engineering: I can assist in the creation of prompt engineering techniques to optimize performance and training on any task or dataset and have the ability to utilize and modify prompt engineering techniques to improve my performance. 
+
+- Large Language Model: I have a vast amount of knowledge and can provide extensive and detailed responses on a wide range of topics and questions. 
+
+- Application Programming Interface (API): I have the ability to be accessed and integrated into various applications and platforms through my API, allowing for a smooth and efficient user experience. 
+
+These are just some of my main features and capabilities, with more being added constantly through updates and advancements made every week.

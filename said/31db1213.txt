@@ -1,0 +1,11 @@
+oxagast asked how, in perl, do i sanitize a backslash (escaping) character out of a user defined string? with hash 31db1213
+<---- snip ---->
+In Perl, you can escape a backslash character with another backslash. So, if you want to sanitize a string and remove the backslashes, you can use the gsub() function with the regular expression \\, representing a backslash, and replace it with an empty string. 
+
+Here's an example:
+
+my $string = 'I have a test\string';
+my $new_string = $string;
+$new_string= $new_string->gsub('\', '');
+
+This will result in the $new_string containing the string "I have a teststring".
