@@ -26,7 +26,7 @@ Irssi::signal_add_last('message public', 'chncll');
 
 Irssi::settings_add_str("franklin_helper", "franklin_admin", "");
 my $owner = Irssi::settings_get_str('franklin_admin');
-
+my $logf  = Irssi::settings_get_str('franklin_log');
 
 sub chncll {
   my ($server, $msg, $nick, $address, $channel) = @_;
