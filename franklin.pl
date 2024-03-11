@@ -593,6 +593,7 @@ sub checkcmsg {
       $textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       $textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
       $textcall =~ s/^reload$/You are currently being reloaded./i;
+      $textcall =~ s/^reboot$/Your server is being rebooted./i;
       if ($textcall =~ m/^continue (\w{8}) (\d+)/i) {
         $txidtocall      = $1;
         $txidchunktocall = $2;

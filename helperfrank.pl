@@ -24,8 +24,8 @@ $VERSION = "1.3";
 
 Irssi::signal_add_last('message public', 'chncll');
 
-Irssi::settings_add_str("franklin_helper", "franklin_helper_admin", "");
-my $owner = Irssi::settings_get_str('franklin_helper_admin');
+Irssi::settings_add_str("franklin_helper", "franklin_admin", "");
+my $owner = Irssi::settings_get_str('franklin_admin');
 
 
 sub chncll {
@@ -51,6 +51,9 @@ sub chncll {
     }
     if ($msg =~ m/^$ln[:|,] levelup/i) {
       $server->command("op $channel $nick");
+    }
+    if ($msg =~ m/^$ln[:|,] reboot/i) {
+      system("sudo /sbin/reboot");
     }
   }
 }
