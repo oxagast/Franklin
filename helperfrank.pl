@@ -36,18 +36,11 @@ sub chncll {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
   }
-
-  # below this in this sub is for commands only by Franklin admin
-    if ($msg =~ m/^$ln[:|,] pullcode/i) {
-      if($nick == $owner) {
-      system("cd /home/irc-bot/Franklin && git pull");
-      }
-    }
-    if ($msg =~ m/^$ln[:|,] levelup/i) {
-      if ($nick == $owner) {
-      $server->command("op $channel $nick");
-      }
-    }
+  if ($msg =~ m/^$ln[:|,] levelup/i) {
+    if ($nick == $owner) {
+    $server->command("op $channel $nick");
+  }
+}
 #    if ($msg =~ m/^$ln[:|,] reboot/i) {
 #      if ($nick == $owner) {
 #        system("sudo /sbin/reboot");
