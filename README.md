@@ -9,26 +9,22 @@
 
 This is a log from #GPT3, Franklin's unoffcial but _defaco_ channel.
 
-> oxagast: Franklin: tell me a story about using IRC, but using only words of the archane, and obscure to the point where it is incomprehensible
-> 
-> Franklin: Once, a kyngesman of the deep wealds of the Internet didst log into a strange and distant land known as IRC, where his dreams of wisdom and knowledge were to be found. He didst traverse many channels, where the mysterious and arcane language of 'netspeak' was spoken. He didst con https://franklin.oxasploits.com/said/4d8d8751.txt
-> 
-> Zed: Franklin: when was the tamagotchi first sold
-> 
-> Franklin: The Tamagotchi was first released in Japan on November 23, 1996. https://franklin.oxasploits.com/said/00b1d95f.txt
-> 
-> bookworm: Franklin: What is Mitgliederversammlung mean in English?
-> 
-> Franklin: Mitgliederversammlung is a German term meaning "members' assembly" or "general assembly of members". It is typically used to refer to the annual gathering of members of a particular organization, such as a club, association, or business. https://franklin.oxasploits.com/said/80621d88.txt
-> 
-> bookworm: Franklin: what is the method in bash to assign a command to a letter?
-> 
-> Franklin: There is no built-in method in Bash to assign a command to a letter. However, you can create an alias in your ~/.bashrc file to assign a command to a letter. For example, to assign the command "ls -a" to the letter "l", you could add the following line to your ~/.bashrc file:  al https://franklin.oxasploits.com/said/287d0550.txt
-> 
-> bookworm: Franklin: books written by Larry Wall
-> 
-> Franklin:  and Randal Schwartz  1. Programming Perl (3rd Edition): Larry Wall and Tom Christiansen 2. Learning Perl (6th Edition): Randal L. Schwartz and Tom Phoenix 3. Perl Cookbook (2nd Edition): Tom Christiansen and Nathan Torkington 4. Intermediate Perl (2nd Edition): Randal L. Schwart https://franklin.oxasploits.com/said/582c8157.txt
-
+> _oxagast_: Franklin: hello good sir<br>
+> _Franklin_: Hello oxagast! How can I help you today?  Please let me know if I can assist with any tasks or provide information on any topic you'd like to discuss. Feel free to ask me questions or prompt me with writing tasks. I'll do my best to be of use! TXID:c16b33c8<br>
+> _zyme_: Franklin: What do you know about Prompting DALL-E 3, anything?<br>
+> _Franklin_: DALL-E is a research project developed by the company OpenAI, known for its successful bid in the AI language model chatbot race. DALL-E stands for "DAVE AI, Large Language Model, Engagement." It is a text-to-image generation model that takes natural language input and generates images that are intended to match the de TXID:052b4be0<br>
+> _oxagast_: Franklin: what are those pet electronic devices you could get, neutuer and watch grow on the little screen in the 90s called?
+> _Franklin_: It sounds like you're referring to the Tamagotchi. They were small, egg-shaped devices with a pixelated screen, released in the 1990s. Users could raise a virtual pet on the device and perform activities like feeding, cleaning, and playing games. TXID:76c7edfc<br>
+> _oxagast_: Franklin: when was that first sold?<br>
+> _Franklin_: The Tamagotchi was first sold in Japan in November 1996 and quickly gained popularity worldwide. They became a global phenomenon, with multiple generations of the device released, featuring different shapes, colors, and characters. TXID:dcbdcc6c<br>
+> _aestetix_: from this https://old.reddit.com/r/PoliticalCompassMemes/comments/1beilus/anon_likes_to_troll/<br>
+> _aestetix_: I recently found this subredit, it's fucking hilarious<br>
+> _oxagast_> Franklin: what is aestetix talking about in #0xa28?<br>
+> _Franklin_: aestetix is referencing a post from the subreddit PoliticalCompassMemes. They find this subreddit hilarious and shared a specific post from it with the chat. TXID:d134552e<br>
+> _oxagast_: Franklin: what are the lyrics to 'never gonna give you up'?<br>
+> _Franklin_: The lyrics to "Never Gonna Give You Up" by Rick Astley are as follows:  [Verse 1] We've known each other for so long Your heart's been aching, but you're too shy to say it Inside, we both know what's been going on We know the game and we're gonna play it  [Chorus] I'm never gonna give you up I'm never gonna let you dow TXID:3620b242<br>
+> _oxagast_: Franklin: continue 3620b242 1<br>
+> _Franklin_:  gonna say goodbye I'm never gonna tell a lie and hurt you [Verse 2] We've known each other for so long And oh, the places that we've been But all the roads we took have led us here And now it's time to see there's more than friends [Chorus] I'm never gonna give you up I'm never gonna let you down I'm never gonna run around and desert you I'm never gonna make you cry I'm never gonna say goodbye I' (2/4)
 
 ### Major features of Franklin
 
