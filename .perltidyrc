@@ -3,7 +3,6 @@
 -nt
 -bt=2
 -lp
--kbl=1
 -bbb
 -bbs
 -bar
@@ -15,3 +14,6 @@
 -oll
 -fpsc=100
 -ibc
+-kbl=0
+-sob
+-lop

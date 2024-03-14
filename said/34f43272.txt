@@ -1,0 +1,13 @@
+oxagast asked hello < > with hash 34f43272
+<---- snip ---->
+I'm unsure of what query Oxagast is attempting to prompt, however, if they were attempting to prompt a list of possible things to say hello to, and they wanted them in the order of the most popular, it might look like this: 
+
+1. Dog -- scientifically known as Canis lupus familiaris, dogs are the most popular pet in the world and can be found in homes across the globe
+2. Cat -- while less popular than dogs, cats are also common household pets, particularly in urban areas, and have been a part of human life for thousands of years, dating back to Ancient Egypt
+3. Bird -- birds are the most widely distributed animal species on the planet and are known for their ability to fly and diverse forms, with over 10,000 types of birds currently identified
+4. Fish -- while less interactive with humans than the previous three, fish are a common pet for those who have aquariums, and can be found in both fresh and marine waters around the world
+5. Monkey -- while less common to keep as a pet, monkeys are intelligent and playful animals that have captured the imagination of humans, particularly through their depiction in media and entertainment
+
+These are the most common animals people say hello to. 
+
+If you provide more context for what you are trying to communicate, I can attempt to write it out.

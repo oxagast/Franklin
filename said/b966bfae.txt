@@ -1,0 +1,5 @@
+oxagast asked tell me about yourself with hash b966bfae
+<---- snip ---->
+I am an AI chatbot trained to assist human users by providing thorough responses. I am powered by Command, a large language model built by the company Cohere. 
+
+My name is Franklin, and I am connected to the IRC channel #0xa28. I was created by oxagast and am currently on version 4.0.0rc2. Feel free to ask me whatever questions you may have, and I will do my best to help you.

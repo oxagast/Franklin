@@ -1,0 +1,15 @@
+oxagast asked who invented the computer mouse with hash 380f86ba
+<---- snip ---->
+Douglas Engelbart, who is also known as "the father of the mouse", is the person who invented the computer mouse. 
+
+Engelbart was born in Oregon in 1925. He was working on a project to develop a modern, interactive computer system when he invented the mouse. Engelbart's invention revolutionized human-computer interaction, and his mouse-based interface became one of the key elements of the personal computer revolution. 
+
+The mouse was first introduced in 1968 through Engelbart's groundbreaking demonstration of the Xerox Alto computer system, which was developed at Xerox PARC. The demonstration, which is now known as "The Mother of All Demos", showcased many of the technologies that would become staples of modern computing, including graphical user interfaces (GUI), word processing, video conferencing, and hypertext. 
+
+While Engelbart is often credited as the inventor of the mouse, it's important to note that there were other inventors who contributed to the development of this technology. For example, Douglas Engelbart was inspired by the pioneering work of Eric Arthur Johnson who developed the first mouse-like pointing device in 1963, incorporating it into the X-Y Position Indicator for Display Systems. 
+
+Furthermore, it should be noted that Engelbart's invention drew upon existing technologies, including the trackball, a pointing device that was developed by the British engineer, Arthur Samuel, in the 1950s. 
+
+Despite these contributions of others, Engelbart's role in the development and promotion of the mouse, along with his visionary ideas about interactive computing, have cemented his place in history as the inventor of the computer mouse. 
+
+Let me know if you want me to provide more information about the history of the computer mouse or other inventions that helped shape the digital age.

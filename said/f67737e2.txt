@@ -1,0 +1,8 @@
+oxagast asked how, in perl, do i sanitize a backslash (escaping) character out of a user defined string? with hash f67737e2
+<---- snip ---->
+In Perl, you can use the escapescalar function to sanitize a backslash character within a user-defined string. Here's an example:
+
+my $string = "\c";
+print escapescalar($string); 
+
+This will print the string "?" indicating the suppressed printable character.

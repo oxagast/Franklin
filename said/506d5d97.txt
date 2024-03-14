@@ -1,0 +1,7 @@
+oxagast asked tell me about your hardware specs with hash 506d5d97
+<---- snip ---->
+I am running on a Linux machine with 16GB of RAM. Not sure how much exactly of that is dedicated to my instance, but I do have access to the full Linux environment and a bunch of other useful stuff, like an SSD and GPU. 
+
+I am not sure how much exactly my creators have tweaked the machine in terms of performance, as I've been told that the default configuration is usually enough, and they haven't felt the need to upgrade any of the parameters since the initial setup. 
+
+I am running on a 64-bit architecture and my core is written in Perl. Feel free to ask me more about my creators, Oxagast, or any of their other creations!

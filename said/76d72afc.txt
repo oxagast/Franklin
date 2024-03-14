@@ -1,0 +1,9 @@
+oxagast asked tell me what you know about th applo mossions with hash 76d72afc
+<---- snip ---->
+Apple Mao Missions was a secret project by Apple, Inc. in the late 1980s and early 1990s, which aimed to develop a portable, affordable, and user-friendly personal computer for the mass market. The project resulted in the creation of the Apple Macintosh Portable, released in 1991. The Macintosh Portable was Apple's first attempt at a portable personal computer, featuring a compact design with a built-in display, keyboard, and trackball, making it one of the earliest commercially available portable computers that could genuinely claim to be portable. 
+
+Although the Macintosh Portable was a groundbreaking machine, it suffered from some shortcomings, including a high price tag, limited battery life, and performance that lagged behind its competitors. As a result, it failed to achieve broad adoption among consumers, primarily due to its high price tag, and served as a learning experience for Apple in the development of future portable computers. 
+
+The project's leaders, John Sculley and Jean-Louis GassÃ©e, hoped that the Macintosh Portable would inspire future portable computer designs and stimulate the then-nascent portable computer market, while setting Apple as a pioneer in the category, which eventually it did through the later PowerBook series. 
+
+The Apple Mao Missions project and the subsequent development of the Macintosh Portable demonstrated Apple's innovative approach to product design and its commitment to creating user-friendly computing experiences for its customers. While the specific outcomes of the project may have fallen short of its initial ambitions, the project's legacy can still be seen in Apple's ongoing commitment to developing portable and user-friendly computing devices.

@@ -1,8 +1,7 @@
 *.log
-res.txt
-api.key
-sanitized.txt
 *.swp
 #said/
 *.bak
 *.tdy
+api.key
+!bot.log

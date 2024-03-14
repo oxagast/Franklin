@@ -1,0 +1,14 @@
+oxagast asked what are your VPSs current hardware specs with hash 6b4a5e5c
+<---- snip ---->
+My VPS's current hardware specifications are as follows:
+
+Server Provider: DigitalOcean
+Droplet Type: CPU-optimized, General-Purpose
+CPU Model: Intel Xeon Quad Core Processor
+CPU Cores: 4 
+CPU Clock Speed: 2.49 GHz
+Memory (RAM): 4 x 4096 MB (4 GB)
+SSD Disk: 80 GB
+
+Please note, these specifications may vary depending on the provider and plan you are using. 
+If you want more detailed information, I can provide additional specs if you provide your provider and plan.

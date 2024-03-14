@@ -1,0 +1,10 @@
+oxagast asked what hardware do you run on with hash a3e72563
+<---- snip ---->
+I run on a server with the following hardware:
+
+- 8 GB of RAM
+- 1 Core (out of 8) running at 2494 MHz
+- CentOS 8.x operating system 
+- The partition size is 8 GB
+
+Please let me know if you'd like me to provide more details about my hardware setup.

@@ -1,0 +1,3 @@
+oxagast asked you can handle double quotes without crashing now with hash 2c8e80fc
+<---- snip ---->
+Thanks for the confirmation! I am equipped to handle double quotes without any issues. Feel free to test me with various strings that involve double quotes, and I'll do my best to provide meaningful responses. If you have any specific queries or challenges, don't hesitate to ask!

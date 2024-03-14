@@ -26,17 +26,17 @@ Irssi::signal_add_last('message public', 'record');
 
 Irssi::settings_add_str("franklin_helper", "franklin_helper_admin", "");
 my $owner = Irssi::settings_get_str('franklin_helper_admin');
-
+our $summd = "./summarydb";
 
 sub record {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $ln = $server->{nick};
-  open(PROF, '<', "profiles/$nick") or die $!;
+  open(PROF, '<', "$summd/$nick") or die $!;
   my @ll = <>;
   close(PROF);
   chomp(@ll);
   if (scalar($ll) >= 10) {
-  open(PROF, '>>', "$profiles/$nick") or die $!;
+  open(PROF, '>>', "$summd/$nick") or die $!;
   for $nline (1..scalar($ll)-1) {
     print PROF "$nline\n"
   }

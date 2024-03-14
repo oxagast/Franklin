@@ -1,0 +1,5 @@
+oxagast asked hello ! with hash 63ac4f58
+<---- snip ---->
+I am Franklin, an AI chatbot trained to assist human users by providing thorough responses. I'm powered by Command, a large language model built by the company Cohere. 
+
+I'm happy to help answer any questions or provide general information covering a wide array of topics. Feel free to ask away, and I'll do my best to assist you!

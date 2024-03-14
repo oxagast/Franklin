@@ -1,0 +1,22 @@
+hazeyez asked how can I brute force digits 0-9, 1-9 numeric places, to append to the end of a password (EG: mypass_[0-9][0-9][0-9][etc]) with john the ripper? with hash 43adffc1
+<---- snip ---->
+If you want to brute force the appended digits to a password that has been hashed within John The Ripper, you can utilize the tokenizer option in combination with a mask. 
+Here are the steps to follow: 
+
+1. Ensure you have installed the required packages, if you do not have them:
+       `sudo apt install john-the-ripper-dev`
+
+2. As John the Ripper uses the rule configuration file for password parsing and formatting, you should check whether the relevant configuration is present:
+      `grep -C 2 -A 1 -F -f /etc/john.conf "mypass_"` 
+
+3. If the configuration does not exist, you can add a new rule to the john.conf file to tokenize the password appropriately. For example, add the following to your configuration file:
+      ```
+      Rule tokenizer:mypass_{1}_{1}_{1}_{1}
+      ```
+
+4. Save the file and then run John the Ripper with the following command, specifying your hashed file and the newly created rule: 
+      `john --tokenizer=mypass_{1}_{1}_{1}_{1} hashed_file.txt` 
+
+This will allow John the Ripper to brute force all combinations of digits 0-9 at three different positions in the password, allowing you to attempt to match the hash to potential passwords. 
+
+Please replace hashed_file.txt with your specific password file.
