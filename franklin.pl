@@ -614,7 +614,7 @@ sub checkcmsg {
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while (($wrote eq 1) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
+        while (($wrote ne "") && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
@@ -631,6 +631,7 @@ sub checkcmsg {
             Irssi::command("script load franklin.pl");
           }
         }
+        $isup = 0;
         return $wrote;
         logit(2, "callapi() subroutine successful for $nick\'s channel message.");
       }
