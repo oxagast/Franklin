@@ -616,20 +616,13 @@ sub checkcmsg {
         my $try = 1;
         while (($wrote ne "") && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          $wrote = callapi($textcall, $server, $nick, $channel, $type);
+          return ( callapi($textcall, $server, $nick, $channel, $type));
           $try++;
           sleep(4);
           $isup = 1;
-          if ($try ge $maxretry) {
-            $isup = 1;         
-            #$server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
-            logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");
-            logit(1, "Warn: Offending message from $nick in $channel:  $textcall");
-            Irssi::command("script load franklin.pl");
-          }
         }
         $isup = 0;
-        return $wrote;
+        #return $wrote;
         logit(2, "callapi() subroutine successful for $nick\'s channel message.");
       }
       else {
