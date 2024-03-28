@@ -618,10 +618,13 @@ sub checkcmsg {
           logit(2, "Responding to message: $totals, on retry $try");
           $wrote = callapi($textcall, $server, $nick, $channel, $type);
           $try++;
-          sleep(2.5);
-          $isup = $wrote;
+          sleep(4);
+          $isup = 1;
+          if ($try > 1) {
+            undef @chat;
+          }
           if ($try ge $maxretry) {
-            $isup = 1;                                                                             # 0 on this var signifies that the heartbeat should pause
+            $isup = 1;         
             $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");
             logit(1, "Warn: Offending message from $nick in $channel:  $textcall");
@@ -639,7 +642,7 @@ sub checkcmsg {
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {                                                  # Chatty level
-          $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode is on
+          $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode
           $isup  = $wrote;
           logit(1, "Random chatterbox triggered.");
           return $wrote;
