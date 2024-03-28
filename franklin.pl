@@ -517,7 +517,7 @@ sub falive {
 sub getcontchunk {
   my ($txid, $chunknum) = @_;
   open(RESPS, '<', "$httploc$txid" . ".txt") or logit(0, "The txid $txid does not seem to exist when requesting chunk $chunknum");
-  $maxchunk = 400;
+  $maxchunk = $hardlimit;
   my $alltxt = "";
   while (<RESPS>) {
     $alltxt = $alltxt . $_;
@@ -620,12 +620,9 @@ sub checkcmsg {
           $try++;
           sleep(4);
           $isup = 1;
-          if ($try > 1) {
-            undef @chat;
-          }
           if ($try ge $maxretry) {
             $isup = 1;         
-            $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
+            #$server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
             logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");
             logit(1, "Warn: Offending message from $nick in $channel:  $textcall");
             Irssi::command("script load franklin.pl");
