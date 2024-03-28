@@ -517,7 +517,7 @@ sub falive {
 sub getcontchunk {
   my ($txid, $chunknum) = @_;
   open(RESPS, '<', "$httploc$txid" . ".txt") or logit(0, "The txid $txid does not seem to exist when requesting chunk $chunknum");
-  $maxchunk = $hardlimit;
+  $maxchunk = $hardlimit - 3;
   my $alltxt = "";
   while (<RESPS>) {
     $alltxt = $alltxt . $_;
