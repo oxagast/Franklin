@@ -26,7 +26,7 @@ use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.2.0";
+$VERSION = "4.3.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -610,6 +610,13 @@ sub checkcmsg {
       }
       if ($textcall =~ m/^continue.*/) {
         $server->command("msg $channel Hey there $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
+        return 0;
+      }
+      if ($textcall =~ m/^link (\w{8})/i) {
+        $txidtolink = $1;
+        $lnk = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        $server->command("msg $channel Sure, here's the link to $txidtolink: $lnk");
+        $isup = 0;
         return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
