@@ -26,7 +26,7 @@ use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.2.0";
+$VERSION = "4.3.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -448,7 +448,7 @@ sub callapi {
         binmode(SAID, "encoding(UTF-8)");
         print SAID "$nick asked $textcall_bare with hash $hexfn\n<---- snip ---->\n$said\n";
         close(SAID);
-        my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
+        my $fg_top    = '<!DOCTYPE html> <html><head> <!-- Google tag (gtag.js) --> <script async src="https://www.googletagmanager.com/gtag/js?id=$gtag"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "' . $gtag . '"); </script> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" type="text/css" href="/css/style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"> <title>Franklin, an LLM AI backed bot | TXID ' . $hexfn . '</title></head> <body> <div id="content"> <main class="main_section"> <h2 id="title"></h2> <div> <article id="content"> <h2>Franklin</h2>';
         my $fg_bottom = '</article> </div> <aside id="meta"> <div> <h5 id="date"><a href="https://franklin.oxasploits.com/">Franklin, an LLM AI powered IRC Bot</a> </h5> </div> </aside> </main> </div></body>';
         my $said_html = sanitize($said, html => 1);                                                # make sure all this is HTML safe.
         $textcall_bare = sanitize($textcall_bare, html => 1);
@@ -517,7 +517,7 @@ sub falive {
 sub getcontchunk {
   my ($txid, $chunknum) = @_;
   open(RESPS, '<', "$httploc$txid" . ".txt") or logit(0, "The txid $txid does not seem to exist when requesting chunk $chunknum");
-  $maxchunk = 400;
+  $maxchunk = $hardlimit - 3;
   my $alltxt = "";
   while (<RESPS>) {
     $alltxt = $alltxt . $_;
@@ -612,23 +612,25 @@ sub checkcmsg {
         $server->command("msg $channel Hey there $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
         return 0;
       }
+      if ($textcall =~ m/^link (\w{8})/i) {
+        $txidtolink = $1;
+        $lnk = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        $server->command("msg $channel Sure, here's the link to $txidtolink: $lnk");
+        $isup = 0;
+        return 0;
+      }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while (($wrote eq 1) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
+        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          $wrote = callapi($textcall, $server, $nick, $channel, $type);
+          return ( callapi($textcall, $server, $nick, $channel, $type));
           $try++;
-          sleep(2.5);
-          $isup = $wrote;
-          if ($try ge $maxretry) {
-            $isup = 1;                                                                             # 0 on this var signifies that the heartbeat should pause
-            $server->command("msg $channel Welp.  Looks like my process is hung, thanks for that $nick.  Forcing reload to flush chat buffer...");
-            logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");
-            logit(1, "Warn: Offending message from $nick in $channel:  $textcall");
-            Irssi::command("script load franklin.pl");
-          }
+          sleep(4);
+          $isup = 1;
+Irssi::command("script load franklin.pl");
         }
-        return $wrote;
+        $isup = 0;
+        #return $wrote;
         logit(2, "callapi() subroutine successful for $nick\'s channel message.");
       }
       else {
@@ -639,7 +641,7 @@ sub checkcmsg {
     else {
       if (($chatterbox le 995) && ($chatterbox gt 0)) {
         if (int(rand(1000) - $chatterbox) eq 0) {                                                  # Chatty level
-          $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode is on
+          $wrote = callapi($msg, $server, $nick, $channel, @chat);                                 # if chatterbox mode
           $isup  = $wrote;
           logit(1, "Random chatterbox triggered.");
           return $wrote;
