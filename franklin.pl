@@ -53,8 +53,8 @@ Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
-Irssi::settings_add_int("franklin", "franklin_total_msgs", 0);
-Irssi::settings_add_int("franklin", "franklin_log_verbosity",            "2");
+Irssi::settings_add_int("franklin", "franklin_total_msgs",    0);
+Irssi::settings_add_int("franklin", "franklin_log_verbosity", "2");
 our $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -149,6 +149,7 @@ Irssi::print "  franklin_hdd_approx              (optional)            => $haveh
 Irssi::print "  franklin_log                     (mandatory)           => $logf";
 Irssi::print "  franklin_log_verbosity           (mandatory)           => $verbosity";
 Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
+
 if ($txidchans[3]) {                                                                               # if this is defined then you know you need the next line for data
   Irssi::print "                                                            $chanlst[1]";
 }
@@ -548,7 +549,6 @@ sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
-
   logit(3, "Message # $totals");
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
@@ -594,6 +594,7 @@ sub checkcmsg {
       my $textcall = $1;                                                                           # $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
+
       #$textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;                   # this and next 3 lines are so that it
       #$textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       #$textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
@@ -614,22 +615,23 @@ sub checkcmsg {
       }
       if ($textcall =~ m/^link (\w{8})/i) {
         $txidtolink = $1;
-        $lnk = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        $lnk        = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
         $server->command("msg $channel Sure, here's the link to $txidtolink: $lnk");
         $isup = 0;
         return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
+        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                    # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          return ( callapi($textcall, $server, $nick, $channel, $type));
+          return (callapi($textcall, $server, $nick, $channel, $type));
           $try++;
           sleep(4);
           $isup = 1;
-Irssi::command("script load franklin.pl");
+          Irssi::command("script load franklin.pl");
         }
         $isup = 0;
+
         #return $wrote;
         logit(2, "callapi() subroutine successful for $nick\'s channel message.");
       }

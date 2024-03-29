@@ -21,16 +21,16 @@ $VERSION = "1.4";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'Mar, 11th 2024',
 );
-
 Irssi::signal_add_last('message public', 'chncll');
-
 Irssi::settings_add_str("franklin_helper", "franklin_admin", "");
 my $owner = Irssi::settings_get_str('franklin_admin');
 my $logf  = Irssi::settings_get_str('franklin_log');
 
+
 sub chncll {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $ln = $server->{nick};
+
   # these commands can be used by anybody
   if ($msg =~ m/^$ln[:|,] reload/i) {
     $server->command("script unload franklin.pl");
@@ -38,12 +38,13 @@ sub chncll {
   }
   if ($msg =~ m/^$ln[:|,] levelup/i) {
     if ($nick == $owner) {
-    $server->command("op $channel $nick");
+      $server->command("op $channel $nick");
+    }
   }
-}
-#    if ($msg =~ m/^$ln[:|,] reboot/i) {
-#      if ($nick == $owner) {
-#        system("sudo /sbin/reboot");
-#      }
-#   }
+
+  #    if ($msg =~ m/^$ln[:|,] reboot/i) {
+  #      if ($nick == $owner) {
+  #        system("sudo /sbin/reboot");
+  #      }
+  #   }
 }
