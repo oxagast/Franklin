@@ -615,12 +615,14 @@ sub checkcmsg {
         return 0;
       }
       if ($textcall =~ m/^continue.*/) {
+        logit(1, "Continue command was used on $txidtocall:$txidchunktocall by $nick in $channel");
         $server->command("msg $channel Hey there $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
         return 0;
       }
       if ($textcall =~ m/^link (\w{8})/i) {
         $txidtolink = $1;
         $lnk        = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        logit(1, "Generated a link for TXID $txidtolink for $nick in $channel");
         $server->command("msg $channel Sure, here's the link to $txidtolink: $lnk");
         $isup = 0;
         return 0;
