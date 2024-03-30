@@ -156,7 +156,7 @@ if ($txidchans[3]) {                                                            
 if ($txidchans[6]) {                                                                               # same as above
   Irssi::print "                                                            $chanlst[2]";
 }
-if ($hardlimit > 380) {
+if ($hardlimit > 390) {
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
   logit(0, "Warn: Hard lmiit may spill over first line if set this high.");
 }
