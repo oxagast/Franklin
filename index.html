@@ -12,7 +12,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <title>Franklin, a ChatGPT bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
+    <title>Franklin, a LLM AI IRC bot</title><!-- gurlllll how bout i break you down like a shotgun and fill you full of slutshot? -->
 
 <script type="application/javascript" src="js/handler.js"></script>
 
@@ -26,7 +26,7 @@
     <h2 id="title"></h2>
 
         <article id="content">
-           <h2 id="franklin-is-a-gpt3-backed-irc-bot"><a href="https://franklin.oxasploits.com/">Franklin is a ChatGPT backed IRC bot</a></h2>
+           <h2 id="franklin-is-a-gpt3-backed-irc-bot"><a href="https://franklin.oxasploits.com/">Franklin is a LLM backed IRC bot</a></h2>
            <h4>By <a href="https://oxasploits.com">oxasploits.com</a></h4>
 <center><img src="logo.png" alt="Franklin Logo" width="320" height="320">
 </center>
@@ -45,29 +45,39 @@
 <br><br>
 <h3>Source</h3>
 <br>You can <a target="_blank" href="https://github.com/oxagast/Franklin">find me on GitHub</a>.
-For setup, please refer to the <a href="https://franklin.oxasploits.com/setup.html">manual</a>.
+<br><br>
+<h3>Setup and Usgae</h3>
+<br>
+For setup, please refer to the <a href="https://franklin.oxasploits.com/manual.html">manual</a>.
 <br><br><h3>Publications</h3>
-<br><br>An <a target="_blank" href="https://oxasploits.com/posts/openai-powered-irc-chat-bot-for-fun-and-profit/">article on Franklin</a>, dual published in oxasploits and in <i>"2600 The Hacker Quarterly"</i>, (Autumn 2023, pages 6 - 10) explaining some design decisions and little bit about how Franklin works.
+<br>An <a target="_blank" href="https://oxasploits.com/posts/openai-powered-irc-chat-bot-for-fun-and-profit/">article on Franklin</a>, dual published in oxasploits and in <i>"2600 The Hacker Quarterly"</i>, (Autumn 2023, pages 6 - 10) explaining some design decisions and little bit about how Franklin works.
 
-<br><br><h3>Previous interactions</h3><br><br>Forgive my laziness, but this is a <a href="https://franklin.oxasploits.com/said/">raw folder</a> full
+<br><br><h3>Previous interactions</h3><br>Forgive my laziness, but this is a <a href="https://franklin.oxasploits.com/said/">raw folder</a> full
 of responses Franklin has made to users.
 
 <div include-html="/totals.html"></div>
 <br><h3>News</h3>
 	<br>
 <table width="100%">
+        <tr><td>Mar 29th 2024</td><td>Added a <i>link [txid]</i> command to pull up a link to a specified TXID.</td></tr>
+        <tr><td>Mar 14th 2024</td><td>Franklin now responds to <i>continue [txid] [chunknum]</i> as an internal command!</td></tr> 
+        <tr><td>Mar 11th 2024</td><td>Revamed the logging routines.</td></tr> 
+        <tr><td>Mar 6th 2024</td><td>There is now a new branch of Franklin that works with Cohere's Coral AI, which is an LLM designed with use cases more aligned to this project (and to get around some billing errors).  I can call it beta, but its pretty stable now.  Command is the current model in use. <a href="https://github.com/oxagast/Franklin/tree/cohere-base_command">Coral API branch compatible on GitHub</a>.</td></tr>
+        <tr><td>Mar 3rd 2024</td><td>You can now view the bot's <a href="https://franklin.oxasploits.com/bot.log">logfile</a> in the event that you think you have found an error.  If you <i>have</i>, please <a href="mailto:oxagast@oxasploits.com">contact me by email</a>.</td></tr>
 	<tr><td width="180px">Oct 5th 2023</td><td>Franklin now has the ability to respond to PMs!</td></tr>
 	<tr><td>Sep 22nd 2023</td><td>The contextual prelude is now dynamic, using information about it's environment to make the user's experience more immersive.</td></tr>
 	<tr><td>Sep 6th 2023</td><td>Franklin now has a helper module that allows the operator to join and part from channels, as well as users to reload the bot if it hangs.</td></tr>
 	<tr><td>May 3rd 2023</td><td>Franklin now understands and utilizes context! Meaning, it knows what it is, who created, it, and what's going on in the chat, currently (for the past 7 lines or so).  This makes chats with him vastly more immersive and complete feeling.</td></tr>
 	<tr><td>May 2nd 2023</td><td>We have surpassed 10k queries to Franklin since the project began!</td></tr>
-	<tr><td>May 1st</td><td>I hope that is appriciated more than hated, but for those who hate it, or are trying to download the
+	<tr><td>May 1st 2023</td><td>I hope that is appriciated more than hated, but for those who hate it, or are trying to download the
 responses for whatever reason, I still host all the responses in <code>.txt</code> format (including newly genearted
 ones).</td></tr>
-	<tr><td>April 27th 2023</td><td>I have upgraded Franklin to call on the GPT 3.5 Turbo now, instead of GPT3 with the davinci model we were previously running. Responses should be faster and more acurate as a result.</td></tr>
-	<tr><td>April 24th 2023</td><td>I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore.</td></tr>
-	<tr><td>March 25th 2023</td><td>We have been added to the waitlist to use GPT4!</td></tr>
+	<tr><td>Apr 27th 2023</td><td>I have upgraded Franklin to call on the GPT 3.5 Turbo now, instead of GPT3 with the davinci model we were previously running. Responses should be faster and more acurate as a result.</td></tr>
+	<tr><td>Apr 24th 2023</td><td>I've beautified the reponses with <code>.html</code>, so they're not just simple raw text files anymore.</td></tr>
+	<tr><td>Mar 25th 2023</td><td>We have been added to the waitlist to use GPT4!</td></tr>
 </table>
+<br>
+View the <a target="_blank" href="changelog.txt">full changelog</a>.
 <br><br>
 <h3>Authors</h3>
 <p>oxagast</p>

@@ -5,3 +5,4 @@ Disallow: /donations/*.jpg$
 Disallow: /said
 Disallow: /said/*.txt$
 Disallow: /said/*.html$
+Disallow: /bot.log
