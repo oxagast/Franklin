@@ -156,12 +156,12 @@ if ($txidchans[3]) {                                                            
 if ($txidchans[6]) {                                                                               # same as above
   Irssi::print "                                                            $chanlst[2]";
 }
-if ($hardlimit > 390) {    # Note: we cannot use the full 512 characers availble
-                           # on an irc message line, as 2 characters are used for
-                           # the cr-lr, four are used for "msg ", plus the hash,
-                           # followed by the channel name and a space.  All
-                           # together in practice this should be set around
-                           # 380 to 392 at maximum.
+if ($hardlimit > 390) {                                                                            # Note: we cannot use the full 512 characers availble
+                                                                                                   # on an irc message line, as 2 characters are used for
+                                                                                                   # the cr-lr, four are used for "msg ", plus the hash,
+                                                                                                   # followed by the channel name and a space.  All
+                                                                                                   # together in practice this should be set around
+                                                                                                   # 380 to 392 at maximum.
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
   logit(0, "Warn: Hard lmiit may spill over first line if set this high.");
 }
