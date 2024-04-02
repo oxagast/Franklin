@@ -2,7 +2,8 @@
 
 ## oxagast/Franklin
 
-**8bba44ed (HEAD -> cohere-base_command, origin/cohere-base_command)** (59 minutes ago) _Marshall Whittaker_: Trying to santiize JSON user input properly to prevent hangs.<br>
+**9204b916 (HEAD -> cohere-base_command, origin/cohere-base_command)** (28 seconds ago) _Marshall Whittaker_: Perltidy cleanup again.<br>
+**8bba44ed** (61 minutes ago) _Marshall Whittaker_: Trying to santiize JSON user input properly to prevent hangs.<br>
 **434062f3** (3 days ago) _Marshall Whittaker_: Logging for link generation.<br>
 **69d98b27** (3 days ago) _Marshall Whittaker_: Perltidy cleanup.<br>
 **afa887b9** (3 days ago) _Marshall Whittaker_: Added a note as to why  has to be what it is.<br>
