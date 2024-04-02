@@ -284,9 +284,10 @@ sub asshat {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
       $dcp = Irssi::strip_codes($textcall);
+
       #$textcall =~ s/\"/\\\"/g;
       $textcall =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-      $dcp =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+      $dcp      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
       my $askbuilt =                                                                               # Build the API request
         '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": $tokenlimit}';
       $ua->default_header("accept"        => "application/json");
@@ -393,31 +394,30 @@ sub callapi {
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-      $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-      $dcp =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-      $ut =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
-$askbuilt =~ s/'//;
+    $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
+    $askbuilt =~ s/'//;
 
-# Below we are building the request thats sent to the API server via POST.
-$ua->default_header("accept"        => "application/json");
-$ua->default_header("content-type"  => "application/json");
-$ua->default_header("Authorization" => "bearer " . $apikey);
-$ua->default_header("X-Client-Name" => "$xcn");
-$ua->timeout(12);
+    # Below we are building the request thats sent to the API server via POST.
+    $ua->default_header("accept"        => "application/json");
+    $ua->default_header("content-type"  => "application/json");
+    $ua->default_header("Authorization" => "bearer " . $apikey);
+    $ua->default_header("X-Client-Name" => "$xcn");
+    $ua->timeout(12);
+    my $res = $ua->post($uri, Content => $askbuilt);                                               # send the post request to the api
+    logit(2, "Preparing to receive data from API.");
+    $resdumper = Dumper($res);
+    $resdumper =~ s/$apikey/$scrubbedapikey/;
+    logit(3, "API Transaction: " . $resdumper);
 
-my $res = $ua->post($uri, Content => $askbuilt);                                               # send the post request to the api
-logit(2, "Preparing to receive data from API.");
-  $resdumper = Dumper($res);
-  $resdumper =~ s/$apikey/$scrubbedapikey/;
-  logit(3, "API Transaction: " . $resdumper);
+    if ($res->is_success) {
+      logit(2, "Finished receiving data from API.");
 
-  if ($res->is_success) {
-    logit(2, "Finished receiving data from API.");
-
-    # response has the structure:
-    # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
-    # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
+      # response has the structure:
+      # {"response_id":"01ccb227-0255-4cbf-a490-684a93dccd2e","text":"Elon Musk was born in 1971 and is
+      # therefore 52 years old. \n\nWould you like to know more about Elon Musk?","generation_id":"899d
       # d0e3-3b21-4a23-92bb-5e64181318a1","finish_reason":"COMPLETE","token_count":{"prompt_tokens":39,
       # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
       # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
