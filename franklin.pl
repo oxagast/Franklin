@@ -506,6 +506,7 @@ sub callapi {
       return 1;                                                                                    # tell it it didn't finish right
     }
     else {
+      logit(0, "There is an issue receiving a timley response from the API.");
       $isup = 1;
       return 1;
     }                                                                                              # otherwise tell it it was incomplete
@@ -570,7 +571,6 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
-
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -640,7 +640,7 @@ sub checkcmsg {
           logit(2, "Responding to message: $totals, on retry $try");
           return (callapi($textcall, $server, $nick, $channel, $type));
           $try++;
-          sleep(4);
+          sleep(1);
           $isup = 1;
           Irssi::command("script load franklin.pl");
         }
@@ -651,7 +651,8 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
-        $server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
+        #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
+       Irssi::command("script load franklin.pl");
       }
     }
     else {
