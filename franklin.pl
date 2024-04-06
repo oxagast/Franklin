@@ -106,7 +106,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message private', 'checkpmsg');
   Irssi::signal_add_last('message public',  'checkcmsg');
-  #Irssi::command("script load helperfrank.pl");
+  Irssi::command("script load helperfrank.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
 else {

@@ -32,12 +32,11 @@ my $logf  = Irssi::settings_get_str('franklin_log');
 sub resetworker {
   while (1) {
     sleep 900;
-    system->command("script unload franklin.pl");                                                  # these make sure if something unexpected
     system->command("script load franklin.pl");                                                    # causes a lockup, it reloads automatically
   }
 }
-$resetloop = Proc::Simple->new();
-$resetloop->start(\&resetworker);
+#$resetloop = Proc::Simple->new();
+#$resetloop->start(\&resetworker);
 
 
 sub chncll {
