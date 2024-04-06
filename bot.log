@@ -28552,3 +28552,1605 @@
 1712368991: Starting heartbeat worker.
 1712368991: Starting Franklin version 4.3.2
 1712368991: Using API key jsIgap1Q************************2au0dV3Y
+1712369492: Starting heartbeat worker.
+1712369492: Starting Franklin version 4.3.2
+1712369492: Using API key jsIgap1Q************************2au0dV3Y
+1712369520: Message # 106382
+1712369520: Pushing current channel message onto $chat[] stack.
+1712369524: Message # 106383
+1712369524: Pushing current channel message onto $chat[] stack.
+1712369787: Message # 106384
+1712369787: Pushing current channel message onto $chat[] stack.
+1712369787: Responding to message: 106384, on retry 1
+1712369787: API connection subroutine called.
+1712369787: Formatting date tag.
+1712369787: Chat context rolled onto $chat[] stack
+1712369787: We have detected we are not a channel operator of #GPT3.
+1712369787: Running sanitization routines on user defined strings.
+1712369787: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712369787: Preparing to receive data from API.
+1712369787: API Transaction: $VAR1 = bless( {'_request' => bless( {'_uri_canonical' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_uri' => $VAR1->{'_request'}{'_uri_canonical'},'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: oxagast said: hello. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "oxagast asked: reboot", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #GPT3 and have been asked 1 things since load. You are at version 4.3.2. It is 22:16 on Fri 5 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #GPT3 is: ", "max_tokens": 350}','_max_body_size' => undef,'_method' => 'POST','_headers' => bless( {'x-client-name' => 'Franklin','accept' => 'application/json','content-length' => 842,'user-agent' => 'libwww-perl/6.68','content-type' => 'application/json','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'}}, 'HTTP::Headers' )}, 'HTTP::Request' ),'_headers' => bless( {'content-type' => 'application/json','::std_case' => {'num_tokens' => 'Num_tokens','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-peer' => 'Client-Peer','client-ssl-socket-class' => 'Client-SSL-Socket-Class','client-ssl-cipher' => 'Client-SSL-Cipher','access-control-expose-headers' => 'Access-Control-Expose-Headers','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-version' => 'Client-SSL-Version','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','num_chars' => 'Num_chars','x-debug-trace-id' => 'X-Debug-Trace-Id','x-accel-expires' => 'X-Accel-Expires','client-date' => 'Client-Date','client-response-num' => 'Client-Response-Num','alt-svc' => 'Alt-Svc'},'num_chars' => '992','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','server' => 'envoy','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','pragma' => 'no-cache','via' => '1.1 google','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','client-peer' => '34.96.76.122:443','date' => 'Sat, 06 Apr 2024 02:16:27 GMT','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','x-accel-expires' => '0','x-debug-trace-id' => 'ace615a9f09211cd848ea2e95d252bf2','client-response-num' => 1,'connection' => 'close','client-date' => 'Sat, 06 Apr 2024 02:16:27 GMT','vary' => 'Origin','client-ssl-version' => 'TLSv1_3','client-ssl-cert-subject' => '/CN=api.cohere.com','num_tokens' => '204','x-envoy-upstream-service-time' => '198','client-ssl-socket-class' => 'IO::Socket::SSL','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','content-length' => '537'}, 'HTTP::Headers' ),'_msg' => 'OK','_max_body_size' => undef,'_content' => '{"response_id":"36d83c9a-ef4f-4d76-aece-9e24db8f769d","text":"Rebooting...","generation_id":"8a5f8900-b56c-42dc-9832-e28105460b6e","chat_history":[{"role":"USER","message":"Channel #2600: The user: oxagast said: hello. "},{"role":"CHATBOT","message":"Starting Franklin..."},{"role":"USER","message":"oxagast asked: reboot"},{"role":"CHATBOT","message":"Rebooting..."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":201,"output_tokens":3},"tokens":{"input_tokens":216,"output_tokens":3}}}','_rc' => '200','_protocol' => 'HTTP/1.1'}, 'HTTP::Response' );
+1712369787: Finished receiving data from API.
+1712369787: Used  completion tokens and  prompt tokens for query 106384.  billed.
+1712369787: Reformatting returned text for irc.
+1712369787: Generatin txid checksum tag for response.
+1712369787: Processing query d7c47abe from #GPT3/oxagast
+1712369787: Query estimated cost is 0.00000.
+1712369787: Opening TXT file for writing response.
+1712369787: Opening HTML file for writing response.
+1712369787: Response to oxagast's query sent to channel #GPT3.
+1712369824: Starting heartbeat worker.
+1712369824: Starting Franklin version 4.3.2
+1712369824: Using API key jsIgap1Q************************2au0dV3Y
+1712369855: Starting heartbeat worker.
+1712369855: Starting Franklin version 4.3.2
+1712369855: Using API key jsIgap1Q************************2au0dV3Y
+1712369901: Starting heartbeat worker.
+1712369901: Starting Franklin version 4.3.2
+1712369901: Using API key jsIgap1Q************************2au0dV3Y
+1712370003: Message # 106384
+1712370003: Pushing current channel message onto $chat[] stack.
+1712370003: Message # 106384
+1712370003: Pushing current channel message onto $chat[] stack.
+1712370008: Message # 106385
+1712370008: Pushing current channel message onto $chat[] stack.
+1712370008: Message # 106385
+1712370008: Pushing current channel message onto $chat[] stack.
+1712370160: Message # 106386
+1712370160: Message # 106386
+1712370160: Pushing current channel message onto $chat[] stack.
+1712370160: Pushing current channel message onto $chat[] stack.
+1712370175: Message # 106387
+1712370175: Message # 106387
+1712370175: Pushing current channel message onto $chat[] stack.
+1712370175: Pushing current channel message onto $chat[] stack.
+1712370191: Message # 106388
+1712370191: Pushing current channel message onto $chat[] stack.
+1712370191: Message # 106388
+1712370191: Pushing current channel message onto $chat[] stack.
+1712370211: Message # 106389
+1712370211: Pushing current channel message onto $chat[] stack.
+1712370460: Message # 106390
+1712370460: Pushing current channel message onto $chat[] stack.
+1712370460: Message # 106391
+1712370460: Pushing current channel message onto $chat[] stack.
+1712370463: Message # 106392
+1712370463: Pushing current channel message onto $chat[] stack.
+1712370724: Starting heartbeat worker.
+1712370724: Starting Franklin version 4.3.2
+1712370724: Using API key jsIgap1Q************************2au0dV3Y
+1712370724: Starting Franklin version 4.3.2
+1712370724: Using API key jsIgap1Q************************2au0dV3Y
+1712370755: Starting heartbeat worker.
+1712370755: Starting Franklin version 4.3.2
+1712370755: Starting Franklin version 4.3.2
+1712370755: Using API key jsIgap1Q************************2au0dV3Y
+1712370755: Using API key jsIgap1Q************************2au0dV3Y
+1712370787: Message # 106384
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370787: Message # 106384
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370787: Message # 106384
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370787: Message # 106389
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370787: Message # 106393
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370787: Message # 106384
+1712370787: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106385
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106385
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106385
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106385
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106390
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370790: Message # 106394
+1712370790: Pushing current channel message onto $chat[] stack.
+1712370801: Starting Franklin version 4.3.2
+1712370801: Using API key jsIgap1Q************************2au0dV3Y
+1712370811: Message # 106386
+1712370811: Pushing current channel message onto $chat[] stack.
+1712370811: Message # 106386
+1712370811: Pushing current channel message onto $chat[] stack.
+1712370811: Message # 106386
+1712370811: Pushing current channel message onto $chat[] stack.
+1712370811: Message # 106386
+1712370811: Pushing current channel message onto $chat[] stack.
+1712370811: Message # 106391
+1712370811: Pushing current channel message onto $chat[] stack.
+1712370871: Message # 106387
+1712370871: Pushing current channel message onto $chat[] stack.
+1712370871: Message # 106387
+1712370871: Pushing current channel message onto $chat[] stack.
+1712370871: Message # 106387
+1712370871: Pushing current channel message onto $chat[] stack.
+1712370871: Message # 106387
+1712370871: Pushing current channel message onto $chat[] stack.
+1712370871: Message # 106392
+1712370871: Pushing current channel message onto $chat[] stack.
+1712371183: Starting heartbeat worker.
+1712371183: Starting Franklin version 4.3.2
+1712371183: Using API key jsIgap1Q************************2au0dV3Y
+1712371237: Message # 106388
+1712371237: Pushing current channel message onto $chat[] stack.
+1712371247: Message # 106389
+1712371247: Pushing current channel message onto $chat[] stack.
+1712371254: Message # 106390
+1712371254: Pushing current channel message onto $chat[] stack.
+1712371257: Message # 106391
+1712371257: Pushing current channel message onto $chat[] stack.
+1712372083: Starting heartbeat worker.
+1712372083: Starting Franklin version 4.3.2
+1712372083: Using API key jsIgap1Q************************2au0dV3Y
+1712372636: Message # 106388
+1712372636: Pushing current channel message onto $chat[] stack.
+1712372636: Message # 106392
+1712372636: Pushing current channel message onto $chat[] stack.
+1712372646: Message # 106389
+1712372646: Pushing current channel message onto $chat[] stack.
+1712372646: Message # 106393
+1712372646: Pushing current channel message onto $chat[] stack.
+1712372648: Message # 106390
+1712372648: Pushing current channel message onto $chat[] stack.
+1712372648: Message # 106394
+1712372648: Pushing current channel message onto $chat[] stack.
+1712372686: Message # 106391
+1712372686: Pushing current channel message onto $chat[] stack.
+1712372686: Message # 106395
+1712372686: Pushing current channel message onto $chat[] stack.
+1712373377: Message # 106396
+1712373377: Pushing current channel message onto $chat[] stack.
+1712373425: Message # 106397
+1712373425: Pushing current channel message onto $chat[] stack.
+1712373441: Message # 106398
+1712373441: Pushing current channel message onto $chat[] stack.
+1712373441: Responding to message: 106398, on retry 1
+1712373441: API connection subroutine called.
+1712373441: Formatting date tag.
+1712373441: Chat context rolled onto $chat[] stack
+1712373441: We have detected we are not a channel operator of #2600.
+1712373441: Running sanitization routines on user defined strings.
+1712373441: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712373443: Preparing to receive data from API.
+1712373443: API Transaction: $VAR1 = bless( {'_max_body_size' => undef,'_protocol' => 'HTTP/1.1','_rc' => '200','_headers' => bless( {'x-debug-trace-id' => '7b45c6f36e53903bbaeddcbbc9abe962','num_tokens' => '255','client-response-num' => 1,'server' => 'envoy','content-length' => '654','client-ssl-socket-class' => 'IO::Socket::SSL','x-envoy-upstream-service-time' => '1429','::std_case' => {'client-peer' => 'Client-Peer','num_chars' => 'Num_chars','access-control-expose-headers' => 'Access-Control-Expose-Headers','client-ssl-cipher' => 'Client-SSL-Cipher','client-ssl-version' => 'Client-SSL-Version','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-date' => 'Client-Date','client-ssl-socket-class' => 'Client-SSL-Socket-Class','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','x-debug-trace-id' => 'X-Debug-Trace-Id','x-accel-expires' => 'X-Accel-Expires','num_tokens' => 'Num_tokens','alt-svc' => 'Alt-Svc','client-response-num' => 'Client-Response-Num'},'pragma' => 'no-cache','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','client-peer' => '34.96.76.122:443','connection' => 'close','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','x-accel-expires' => '0','date' => 'Sat, 06 Apr 2024 03:17:23 GMT','client-date' => 'Sat, 06 Apr 2024 03:17:23 GMT','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','client-ssl-version' => 'TLSv1_3','client-ssl-cert-subject' => '/CN=api.cohere.com','via' => '1.1 google','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','vary' => 'Origin','num_chars' => '1045','content-type' => 'application/json','access-control-expose-headers' => 'X-Debug-Trace-ID'}, 'HTTP::Headers' ),'_content' => '{"response_id":"24af9496-e282-42ec-8eb4-35a1c987b320","text":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o.","generation_id":"6e46f6fb-9884-4482-b0af-6fa66d508665","chat_history":[{"role":"USER","message":"Channel #2600: The user: hazeyez said: hi ox. "},{"role":"CHATBOT","message":"Starting Franklin..."},{"role":"USER","message":"hazeyez asked: o"},{"role":"CHATBOT","message":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":227,"output_tokens":28},"tokens":{"input_tokens":242,"output_tokens":28}}}','_msg' => 'OK','_request' => bless( {'_method' => 'POST','_max_body_size' => undef,'_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: hazeyez said: hi ox. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "hazeyez asked: o", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 1 things since load. You are at version 4.3.2. It is 23:17 on Fri 5 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: hazeyez said: hi ox. The user: hazeyez said: o. ", "max_tokens": 350}','_headers' => bless( {'x-client-name' => 'Franklin','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','content-type' => 'application/json','content-length' => 895,'::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'user-agent' => 'libwww-perl/6.68','accept' => 'application/json'}, 'HTTP::Headers' ),'_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' )}, 'HTTP::Response' );
+1712373443: Finished receiving data from API.
+1712373443: Used  completion tokens and  prompt tokens for query 106398.  billed.
+1712373443: Reformatting returned text for irc.
+1712373443: Generatin txid checksum tag for response.
+1712373443: Processing query c4a0c0f3 from #2600/hazeyez
+1712373443: Query estimated cost is 0.00000.
+1712373443: Opening TXT file for writing response.
+1712373443: Opening HTML file for writing response.
+1712373443: Response to hazeyez's query sent to channel #2600.
+1712373460: Message # 106399
+1712373460: Pushing current channel message onto $chat[] stack.
+1712373460: Responding to message: 106399, on retry 1
+1712373460: API connection subroutine called.
+1712373460: Formatting date tag.
+1712373460: Chat context rolled onto $chat[] stack
+1712373460: We have detected we are not a channel operator of #2600.
+1712373460: Running sanitization routines on user defined strings.
+1712373460: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712373461: Preparing to receive data from API.
+1712373461: API Transaction: $VAR1 = bless( {'_max_body_size' => undef,'_protocol' => 'HTTP/1.1','_rc' => '200','_headers' => bless( {'client-peer' => '34.96.76.122:443','connection' => 'close','::std_case' => {'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-ssl-cipher' => 'Client-SSL-Cipher','client-ssl-version' => 'Client-SSL-Version','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','access-control-expose-headers' => 'Access-Control-Expose-Headers','num_chars' => 'Num_chars','client-peer' => 'Client-Peer','client-response-num' => 'Client-Response-Num','num_tokens' => 'Num_tokens','x-accel-expires' => 'X-Accel-Expires','x-debug-trace-id' => 'X-Debug-Trace-Id','alt-svc' => 'Alt-Svc','client-date' => 'Client-Date','client-ssl-socket-class' => 'Client-SSL-Socket-Class','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time'},'pragma' => 'no-cache','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','content-length' => '782','x-envoy-upstream-service-time' => '1152','client-ssl-socket-class' => 'IO::Socket::SSL','num_tokens' => '305','x-debug-trace-id' => '106abae402a3f2b6f0a042890375687b','server' => 'envoy','client-response-num' => 1,'vary' => 'Origin','num_chars' => '1138','content-type' => 'application/json','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-version' => 'TLSv1_3','via' => '1.1 google','client-ssl-cert-subject' => '/CN=api.cohere.com','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','client-date' => 'Sat, 06 Apr 2024 03:17:41 GMT','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','date' => 'Sat, 06 Apr 2024 03:17:41 GMT','x-accel-expires' => '0'}, 'HTTP::Headers' ),'_content' => '{"response_id":"cfa8089b-5e80-46b0-a858-b2c1499e9270","text":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o. The user: hazeyez said: That\'s new.","generation_id":"2cd1c77b-3025-42cd-b640-59873b5ee528","chat_history":[{"role":"USER","message":"Channel #2600: The user: hazeyez said: o. "},{"role":"CHATBOT","message":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o."},{"role":"USER","message":"hazeyez asked: Thats new"},{"role":"CHATBOT","message":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o. The user: hazeyez said: That\'s new."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":265,"output_tokens":40},"tokens":{"input_tokens":280,"output_tokens":40}}}','_msg' => 'OK','_request' => bless( {'_headers' => bless( {'user-agent' => 'libwww-perl/6.68','accept' => 'application/json','::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'content-type' => 'application/json','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','content-length' => 988,'x-client-name' => 'Franklin'}, 'HTTP::Headers' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: hazeyez said: o. "},{"role": "CHATBOT", "message": "Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o."} ], "message": "hazeyez asked: Thats new", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 2 things since load. You are at version 4.3.2. It is 23:17 on Fri 5 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: hazeyez said: hi ox. The user: hazeyez said: o. The user: hazeyez said: Franklin: o. ", "max_tokens": 350}','_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_max_body_size' => undef,'_method' => 'POST','_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' )}, 'HTTP::Response' );
+1712373461: Finished receiving data from API.
+1712373461: Used  completion tokens and  prompt tokens for query 106399.  billed.
+1712373461: Reformatting returned text for irc.
+1712373461: Generatin txid checksum tag for response.
+1712373461: Processing query 117df77e from #2600/hazeyez
+1712373461: Query estimated cost is 0.00000.
+1712373461: Opening TXT file for writing response.
+1712373461: Opening HTML file for writing response.
+1712373461: Response to hazeyez's query sent to channel #2600.
+1712373470: Message # 106400
+1712373470: Pushing current channel message onto $chat[] stack.
+1712373472: Message # 106401
+1712373472: Pushing current channel message onto $chat[] stack.
+1712373549: Message # 106402
+1712373549: Pushing current channel message onto $chat[] stack.
+1712375861: Message # 106403
+1712375861: Pushing current channel message onto $chat[] stack.
+1712379520: Message # 106404
+1712379520: Pushing current channel message onto $chat[] stack.
+1712379948: Message # 106405
+1712379948: Pushing current channel message onto $chat[] stack.
+1712379953: Message # 106406
+1712379953: Pushing current channel message onto $chat[] stack.
+1712380128: Message # 106407
+1712380128: Pushing current channel message onto $chat[] stack.
+1712380175: Message # 106408
+1712380175: Pushing current channel message onto $chat[] stack.
+1712380235: Message # 106409
+1712380235: Pushing current channel message onto $chat[] stack.
+1712380274: Message # 106410
+1712380274: Pushing current channel message onto $chat[] stack.
+1712380280: Message # 106411
+1712380280: Pushing current channel message onto $chat[] stack.
+1712380306: Message # 106412
+1712380306: Pushing current channel message onto $chat[] stack.
+1712380310: Message # 106413
+1712380310: Pushing current channel message onto $chat[] stack.
+1712380317: Message # 106414
+1712380317: Pushing current channel message onto $chat[] stack.
+1712380322: Message # 106415
+1712380322: Pushing current channel message onto $chat[] stack.
+1712380322: Message # 106416
+1712380322: Pushing current channel message onto $chat[] stack.
+1712380322: Message # 106417
+1712380322: Pushing current channel message onto $chat[] stack.
+1712380322: Message # 106418
+1712380322: Pushing current channel message onto $chat[] stack.
+1712380327: Message # 106419
+1712380327: Pushing current channel message onto $chat[] stack.
+1712380330: Message # 106420
+1712380330: Pushing current channel message onto $chat[] stack.
+1712380362: Message # 106421
+1712380362: Pushing current channel message onto $chat[] stack.
+1712380381: Message # 106422
+1712380381: Pushing current channel message onto $chat[] stack.
+1712380384: Message # 106423
+1712380384: Pushing current channel message onto $chat[] stack.
+1712380389: Message # 106424
+1712380389: Pushing current channel message onto $chat[] stack.
+1712380397: Message # 106425
+1712380397: Pushing current channel message onto $chat[] stack.
+1712380404: Message # 106426
+1712380404: Pushing current channel message onto $chat[] stack.
+1712380413: Message # 106427
+1712380413: Pushing current channel message onto $chat[] stack.
+1712380430: Message # 106428
+1712380430: Pushing current channel message onto $chat[] stack.
+1712380440: Message # 106429
+1712380440: Pushing current channel message onto $chat[] stack.
+1712380453: Message # 106430
+1712380453: Pushing current channel message onto $chat[] stack.
+1712380473: Message # 106431
+1712380473: Pushing current channel message onto $chat[] stack.
+1712380475: Message # 106432
+1712380475: Pushing current channel message onto $chat[] stack.
+1712380480: Message # 106433
+1712380480: Pushing current channel message onto $chat[] stack.
+1712380508: Message # 106434
+1712380508: Pushing current channel message onto $chat[] stack.
+1712380535: Message # 106435
+1712380535: Pushing current channel message onto $chat[] stack.
+1712380540: Message # 106436
+1712380540: Pushing current channel message onto $chat[] stack.
+1712380547: Message # 106437
+1712380547: Pushing current channel message onto $chat[] stack.
+1712380549: Message # 106438
+1712380549: Pushing current channel message onto $chat[] stack.
+1712380550: Message # 106439
+1712380550: Pushing current channel message onto $chat[] stack.
+1712380550: Message # 106440
+1712380550: Pushing current channel message onto $chat[] stack.
+1712380553: Message # 106441
+1712380553: Pushing current channel message onto $chat[] stack.
+1712380566: Message # 106442
+1712380566: Pushing current channel message onto $chat[] stack.
+1712380581: Message # 106443
+1712380581: Pushing current channel message onto $chat[] stack.
+1712380582: Message # 106444
+1712380582: Pushing current channel message onto $chat[] stack.
+1712380592: Message # 106445
+1712380592: Pushing current channel message onto $chat[] stack.
+1712380623: Message # 106446
+1712380623: Pushing current channel message onto $chat[] stack.
+1712380631: Message # 106447
+1712380631: Pushing current channel message onto $chat[] stack.
+1712380640: Message # 106448
+1712380640: Pushing current channel message onto $chat[] stack.
+1712380659: Message # 106449
+1712380659: Pushing current channel message onto $chat[] stack.
+1712380779: Message # 106450
+1712380779: Pushing current channel message onto $chat[] stack.
+1712380966: Message # 106451
+1712380966: Pushing current channel message onto $chat[] stack.
+1712380979: Message # 106452
+1712380979: Pushing current channel message onto $chat[] stack.
+1712380996: Message # 106453
+1712380996: Pushing current channel message onto $chat[] stack.
+1712381058: Message # 106454
+1712381058: Pushing current channel message onto $chat[] stack.
+1712381058: Message # 106455
+1712381058: Pushing current channel message onto $chat[] stack.
+1712381058: Message # 106456
+1712381058: Pushing current channel message onto $chat[] stack.
+1712381227: Message # 106457
+1712381227: Pushing current channel message onto $chat[] stack.
+1712381234: Message # 106458
+1712381234: Pushing current channel message onto $chat[] stack.
+1712381236: Message # 106459
+1712381236: Pushing current channel message onto $chat[] stack.
+1712381392: Message # 106460
+1712381392: Pushing current channel message onto $chat[] stack.
+1712381434: Message # 106461
+1712381434: Pushing current channel message onto $chat[] stack.
+1712381802: Message # 106462
+1712381802: Pushing current channel message onto $chat[] stack.
+1712382299: Message # 106463
+1712382299: Pushing current channel message onto $chat[] stack.
+1712382405: Message # 106464
+1712382405: Pushing current channel message onto $chat[] stack.
+1712382405: Message # 106465
+1712382405: Pushing current channel message onto $chat[] stack.
+1712382429: Message # 106466
+1712382429: Pushing current channel message onto $chat[] stack.
+1712382430: Message # 106467
+1712382430: Pushing current channel message onto $chat[] stack.
+1712382542: Message # 106468
+1712382542: Pushing current channel message onto $chat[] stack.
+1712383263: Message # 106469
+1712383263: Pushing current channel message onto $chat[] stack.
+1712383370: Message # 106392
+1712383370: Pushing current channel message onto $chat[] stack.
+1712383370: Message # 106470
+1712383370: Pushing current channel message onto $chat[] stack.
+1712383375: Message # 106393
+1712383375: Pushing current channel message onto $chat[] stack.
+1712383375: Message # 106471
+1712383375: Pushing current channel message onto $chat[] stack.
+1712383378: Message # 106394
+1712383378: Pushing current channel message onto $chat[] stack.
+1712383378: Message # 106472
+1712383378: Pushing current channel message onto $chat[] stack.
+1712383386: Message # 106395
+1712383386: Pushing current channel message onto $chat[] stack.
+1712383386: Message # 106473
+1712383386: Pushing current channel message onto $chat[] stack.
+1712383441: Message # 106396
+1712383441: Pushing current channel message onto $chat[] stack.
+1712383441: Message # 106474
+1712383441: Pushing current channel message onto $chat[] stack.
+1712383463: Message # 106397
+1712383463: Pushing current channel message onto $chat[] stack.
+1712383463: Message # 106475
+1712383463: Pushing current channel message onto $chat[] stack.
+1712383555: Message # 106398
+1712383555: Pushing current channel message onto $chat[] stack.
+1712383555: Message # 106476
+1712383555: Pushing current channel message onto $chat[] stack.
+1712383674: Message # 106399
+1712383674: Pushing current channel message onto $chat[] stack.
+1712383674: Message # 106477
+1712383674: Pushing current channel message onto $chat[] stack.
+1712383695: Message # 106400
+1712383695: Pushing current channel message onto $chat[] stack.
+1712383695: Message # 106478
+1712383695: Pushing current channel message onto $chat[] stack.
+1712383750: Message # 106479
+1712383750: Pushing current channel message onto $chat[] stack.
+1712383772: Message # 106480
+1712383772: Pushing current channel message onto $chat[] stack.
+1712383772: Message # 106481
+1712383772: Pushing current channel message onto $chat[] stack.
+1712383784: Message # 106482
+1712383784: Pushing current channel message onto $chat[] stack.
+1712383808: Message # 106483
+1712383808: Pushing current channel message onto $chat[] stack.
+1712383811: Message # 106484
+1712383811: Pushing current channel message onto $chat[] stack.
+1712383812: Message # 106485
+1712383812: Pushing current channel message onto $chat[] stack.
+1712383831: Message # 106401
+1712383831: Pushing current channel message onto $chat[] stack.
+1712383831: Message # 106486
+1712383831: Pushing current channel message onto $chat[] stack.
+1712383898: Message # 106402
+1712383898: Pushing current channel message onto $chat[] stack.
+1712383898: Message # 106487
+1712383898: Pushing current channel message onto $chat[] stack.
+1712383953: Message # 106403
+1712383953: Pushing current channel message onto $chat[] stack.
+1712383953: Message # 106488
+1712383953: Pushing current channel message onto $chat[] stack.
+1712383993: Message # 106489
+1712383993: Pushing current channel message onto $chat[] stack.
+1712383999: Message # 106404
+1712383999: Pushing current channel message onto $chat[] stack.
+1712384000: Message # 106490
+1712384000: Pushing current channel message onto $chat[] stack.
+1712384045: Message # 106491
+1712384045: Pushing current channel message onto $chat[] stack.
+1712384055: Message # 106405
+1712384055: Pushing current channel message onto $chat[] stack.
+1712384055: Message # 106492
+1712384055: Pushing current channel message onto $chat[] stack.
+1712384073: Message # 106406
+1712384073: Pushing current channel message onto $chat[] stack.
+1712384073: Message # 106493
+1712384073: Pushing current channel message onto $chat[] stack.
+1712384076: Message # 106407
+1712384076: Pushing current channel message onto $chat[] stack.
+1712384076: Message # 106494
+1712384076: Pushing current channel message onto $chat[] stack.
+1712384076: Message # 106495
+1712384076: Pushing current channel message onto $chat[] stack.
+1712384087: Message # 106408
+1712384087: Pushing current channel message onto $chat[] stack.
+1712384087: Message # 106496
+1712384087: Pushing current channel message onto $chat[] stack.
+1712384112: Message # 106497
+1712384112: Pushing current channel message onto $chat[] stack.
+1712384122: Message # 106498
+1712384122: Pushing current channel message onto $chat[] stack.
+1712384131: Message # 106499
+1712384131: Pushing current channel message onto $chat[] stack.
+1712384164: Message # 106500
+1712384164: Pushing current channel message onto $chat[] stack.
+1712384173: Message # 106501
+1712384173: Pushing current channel message onto $chat[] stack.
+1712384189: Message # 106409
+1712384189: Pushing current channel message onto $chat[] stack.
+1712384189: Message # 106502
+1712384189: Pushing current channel message onto $chat[] stack.
+1712384336: Message # 106410
+1712384336: Pushing current channel message onto $chat[] stack.
+1712384336: Message # 106503
+1712384336: Pushing current channel message onto $chat[] stack.
+1712384395: Message # 106411
+1712384395: Pushing current channel message onto $chat[] stack.
+1712384395: Message # 106504
+1712384395: Pushing current channel message onto $chat[] stack.
+1712384450: Message # 106412
+1712384450: Pushing current channel message onto $chat[] stack.
+1712384450: Message # 106505
+1712384450: Pushing current channel message onto $chat[] stack.
+1712384560: Message # 106413
+1712384560: Pushing current channel message onto $chat[] stack.
+1712384560: Message # 106506
+1712384560: Pushing current channel message onto $chat[] stack.
+1712384597: Message # 106414
+1712384597: Pushing current channel message onto $chat[] stack.
+1712384597: Message # 106507
+1712384597: Pushing current channel message onto $chat[] stack.
+1712384615: Message # 106415
+1712384615: Pushing current channel message onto $chat[] stack.
+1712384615: Message # 106508
+1712384615: Pushing current channel message onto $chat[] stack.
+1712384629: Message # 106416
+1712384629: Pushing current channel message onto $chat[] stack.
+1712384629: Message # 106509
+1712384629: Pushing current channel message onto $chat[] stack.
+1712384637: Message # 106417
+1712384637: Pushing current channel message onto $chat[] stack.
+1712384637: Message # 106510
+1712384637: Pushing current channel message onto $chat[] stack.
+1712384643: Message # 106418
+1712384643: Pushing current channel message onto $chat[] stack.
+1712384643: Message # 106511
+1712384643: Pushing current channel message onto $chat[] stack.
+1712384645: Message # 106419
+1712384645: Pushing current channel message onto $chat[] stack.
+1712384645: Message # 106512
+1712384645: Pushing current channel message onto $chat[] stack.
+1712384653: Message # 106420
+1712384653: Pushing current channel message onto $chat[] stack.
+1712384653: Message # 106513
+1712384653: Pushing current channel message onto $chat[] stack.
+1712384668: Message # 106421
+1712384668: Pushing current channel message onto $chat[] stack.
+1712384668: Message # 106514
+1712384668: Pushing current channel message onto $chat[] stack.
+1712384688: Message # 106422
+1712384688: Pushing current channel message onto $chat[] stack.
+1712384688: Message # 106515
+1712384688: Pushing current channel message onto $chat[] stack.
+1712384697: Message # 106423
+1712384697: Pushing current channel message onto $chat[] stack.
+1712384697: Message # 106516
+1712384697: Pushing current channel message onto $chat[] stack.
+1712384704: Message # 106424
+1712384704: Pushing current channel message onto $chat[] stack.
+1712384704: Message # 106517
+1712384704: Pushing current channel message onto $chat[] stack.
+1712384708: Message # 106425
+1712384708: Pushing current channel message onto $chat[] stack.
+1712384708: Message # 106518
+1712384708: Pushing current channel message onto $chat[] stack.
+1712384710: Message # 106426
+1712384710: Pushing current channel message onto $chat[] stack.
+1712384710: Message # 106519
+1712384710: Pushing current channel message onto $chat[] stack.
+1712384716: Message # 106427
+1712384716: Pushing current channel message onto $chat[] stack.
+1712384716: Message # 106520
+1712384716: Pushing current channel message onto $chat[] stack.
+1712384734: Message # 106428
+1712384734: Pushing current channel message onto $chat[] stack.
+1712384734: Message # 106521
+1712384734: Pushing current channel message onto $chat[] stack.
+1712384757: Message # 106429
+1712384757: Pushing current channel message onto $chat[] stack.
+1712384757: Message # 106522
+1712384757: Pushing current channel message onto $chat[] stack.
+1712384763: Message # 106430
+1712384763: Pushing current channel message onto $chat[] stack.
+1712384763: Message # 106523
+1712384763: Pushing current channel message onto $chat[] stack.
+1712384771: Message # 106431
+1712384771: Pushing current channel message onto $chat[] stack.
+1712384771: Message # 106524
+1712384771: Pushing current channel message onto $chat[] stack.
+1712384774: Message # 106432
+1712384774: Pushing current channel message onto $chat[] stack.
+1712384774: Message # 106525
+1712384774: Pushing current channel message onto $chat[] stack.
+1712384775: Message # 106433
+1712384775: Pushing current channel message onto $chat[] stack.
+1712384775: Message # 106526
+1712384775: Pushing current channel message onto $chat[] stack.
+1712384811: Message # 106434
+1712384811: Pushing current channel message onto $chat[] stack.
+1712384811: Message # 106527
+1712384811: Pushing current channel message onto $chat[] stack.
+1712384811: Message # 106435
+1712384811: Pushing current channel message onto $chat[] stack.
+1712384812: Message # 106528
+1712384812: Pushing current channel message onto $chat[] stack.
+1712384816: Message # 106436
+1712384816: Pushing current channel message onto $chat[] stack.
+1712384816: Message # 106529
+1712384816: Pushing current channel message onto $chat[] stack.
+1712384839: Message # 106437
+1712384839: Pushing current channel message onto $chat[] stack.
+1712384839: Message # 106530
+1712384839: Pushing current channel message onto $chat[] stack.
+1712384847: Message # 106438
+1712384847: Pushing current channel message onto $chat[] stack.
+1712384847: Message # 106531
+1712384847: Pushing current channel message onto $chat[] stack.
+1712384860: Message # 106439
+1712384860: Pushing current channel message onto $chat[] stack.
+1712384860: Message # 106532
+1712384860: Pushing current channel message onto $chat[] stack.
+1712384863: Message # 106440
+1712384863: Pushing current channel message onto $chat[] stack.
+1712384863: Message # 106533
+1712384863: Pushing current channel message onto $chat[] stack.
+1712384890: Message # 106441
+1712384890: Pushing current channel message onto $chat[] stack.
+1712384890: Message # 106534
+1712384890: Pushing current channel message onto $chat[] stack.
+1712384896: Message # 106442
+1712384896: Pushing current channel message onto $chat[] stack.
+1712384896: Message # 106535
+1712384896: Pushing current channel message onto $chat[] stack.
+1712384905: Message # 106443
+1712384905: Pushing current channel message onto $chat[] stack.
+1712384905: Message # 106536
+1712384905: Pushing current channel message onto $chat[] stack.
+1712384907: Message # 106444
+1712384907: Pushing current channel message onto $chat[] stack.
+1712384907: Message # 106537
+1712384907: Pushing current channel message onto $chat[] stack.
+1712384907: Message # 106445
+1712384907: Pushing current channel message onto $chat[] stack.
+1712384908: Message # 106538
+1712384908: Pushing current channel message onto $chat[] stack.
+1712384916: Message # 106446
+1712384916: Pushing current channel message onto $chat[] stack.
+1712384916: Message # 106539
+1712384916: Pushing current channel message onto $chat[] stack.
+1712384922: Message # 106447
+1712384922: Pushing current channel message onto $chat[] stack.
+1712384922: Message # 106540
+1712384922: Pushing current channel message onto $chat[] stack.
+1712384925: Message # 106448
+1712384925: Pushing current channel message onto $chat[] stack.
+1712384925: Message # 106541
+1712384925: Pushing current channel message onto $chat[] stack.
+1712384928: Message # 106449
+1712384928: Pushing current channel message onto $chat[] stack.
+1712384928: Message # 106542
+1712384928: Pushing current channel message onto $chat[] stack.
+1712384936: Message # 106450
+1712384936: Pushing current channel message onto $chat[] stack.
+1712384936: Message # 106543
+1712384936: Pushing current channel message onto $chat[] stack.
+1712384944: Message # 106451
+1712384944: Pushing current channel message onto $chat[] stack.
+1712384944: Message # 106544
+1712384944: Pushing current channel message onto $chat[] stack.
+1712384948: Message # 106452
+1712384948: Pushing current channel message onto $chat[] stack.
+1712384948: Message # 106545
+1712384948: Pushing current channel message onto $chat[] stack.
+1712384965: Message # 106453
+1712384965: Pushing current channel message onto $chat[] stack.
+1712384965: Message # 106546
+1712384965: Pushing current channel message onto $chat[] stack.
+1712384974: Message # 106454
+1712384974: Pushing current channel message onto $chat[] stack.
+1712384974: Message # 106547
+1712384974: Pushing current channel message onto $chat[] stack.
+1712384976: Message # 106455
+1712384976: Pushing current channel message onto $chat[] stack.
+1712384976: Message # 106548
+1712384976: Pushing current channel message onto $chat[] stack.
+1712384980: Message # 106456
+1712384980: Pushing current channel message onto $chat[] stack.
+1712384980: Message # 106549
+1712384980: Pushing current channel message onto $chat[] stack.
+1712384985: Message # 106457
+1712384985: Pushing current channel message onto $chat[] stack.
+1712384985: Message # 106550
+1712384985: Pushing current channel message onto $chat[] stack.
+1712384995: Message # 106458
+1712384995: Pushing current channel message onto $chat[] stack.
+1712384995: Message # 106551
+1712384995: Pushing current channel message onto $chat[] stack.
+1712385001: Message # 106459
+1712385001: Pushing current channel message onto $chat[] stack.
+1712385001: Message # 106552
+1712385001: Pushing current channel message onto $chat[] stack.
+1712385009: Message # 106460
+1712385009: Pushing current channel message onto $chat[] stack.
+1712385009: Message # 106553
+1712385009: Pushing current channel message onto $chat[] stack.
+1712385019: Message # 106461
+1712385019: Pushing current channel message onto $chat[] stack.
+1712385019: Message # 106554
+1712385019: Pushing current channel message onto $chat[] stack.
+1712385024: Message # 106462
+1712385024: Pushing current channel message onto $chat[] stack.
+1712385024: Message # 106555
+1712385024: Pushing current channel message onto $chat[] stack.
+1712385031: Message # 106463
+1712385031: Pushing current channel message onto $chat[] stack.
+1712385031: Message # 106556
+1712385031: Pushing current channel message onto $chat[] stack.
+1712385034: Message # 106464
+1712385034: Pushing current channel message onto $chat[] stack.
+1712385034: Message # 106557
+1712385034: Pushing current channel message onto $chat[] stack.
+1712385035: Message # 106465
+1712385035: Pushing current channel message onto $chat[] stack.
+1712385035: Message # 106558
+1712385035: Pushing current channel message onto $chat[] stack.
+1712385069: Message # 106466
+1712385069: Pushing current channel message onto $chat[] stack.
+1712385069: Message # 106559
+1712385069: Pushing current channel message onto $chat[] stack.
+1712385072: Message # 106467
+1712385072: Pushing current channel message onto $chat[] stack.
+1712385072: Message # 106560
+1712385072: Pushing current channel message onto $chat[] stack.
+1712385080: Message # 106468
+1712385080: Pushing current channel message onto $chat[] stack.
+1712385080: Message # 106561
+1712385080: Pushing current channel message onto $chat[] stack.
+1712385099: Message # 106469
+1712385099: Pushing current channel message onto $chat[] stack.
+1712385099: Message # 106562
+1712385099: Pushing current channel message onto $chat[] stack.
+1712385099: Message # 106470
+1712385099: Pushing current channel message onto $chat[] stack.
+1712385099: Message # 106563
+1712385099: Pushing current channel message onto $chat[] stack.
+1712385105: Message # 106471
+1712385105: Pushing current channel message onto $chat[] stack.
+1712385105: Message # 106564
+1712385105: Pushing current channel message onto $chat[] stack.
+1712385109: Message # 106472
+1712385109: Pushing current channel message onto $chat[] stack.
+1712385109: Message # 106565
+1712385109: Pushing current channel message onto $chat[] stack.
+1712385111: Message # 106473
+1712385111: Pushing current channel message onto $chat[] stack.
+1712385111: Message # 106566
+1712385111: Pushing current channel message onto $chat[] stack.
+1712385132: Message # 106474
+1712385132: Pushing current channel message onto $chat[] stack.
+1712385132: Message # 106567
+1712385132: Pushing current channel message onto $chat[] stack.
+1712385137: Message # 106475
+1712385137: Pushing current channel message onto $chat[] stack.
+1712385137: Message # 106568
+1712385137: Pushing current channel message onto $chat[] stack.
+1712385201: Message # 106476
+1712385201: Pushing current channel message onto $chat[] stack.
+1712385201: Message # 106569
+1712385201: Pushing current channel message onto $chat[] stack.
+1712385232: Message # 106477
+1712385232: Pushing current channel message onto $chat[] stack.
+1712385232: Message # 106570
+1712385232: Pushing current channel message onto $chat[] stack.
+1712385258: Message # 106478
+1712385258: Pushing current channel message onto $chat[] stack.
+1712385258: Message # 106571
+1712385258: Pushing current channel message onto $chat[] stack.
+1712385307: Message # 106479
+1712385307: Pushing current channel message onto $chat[] stack.
+1712385307: Message # 106572
+1712385307: Pushing current channel message onto $chat[] stack.
+1712385330: Message # 106480
+1712385330: Pushing current channel message onto $chat[] stack.
+1712385330: Message # 106573
+1712385330: Pushing current channel message onto $chat[] stack.
+1712385331: Message # 106481
+1712385331: Pushing current channel message onto $chat[] stack.
+1712385331: Message # 106574
+1712385331: Pushing current channel message onto $chat[] stack.
+1712385333: Message # 106482
+1712385333: Pushing current channel message onto $chat[] stack.
+1712385333: Message # 106575
+1712385333: Pushing current channel message onto $chat[] stack.
+1712385333: Message # 106483
+1712385333: Pushing current channel message onto $chat[] stack.
+1712385333: Message # 106576
+1712385333: Pushing current channel message onto $chat[] stack.
+1712385338: Message # 106484
+1712385338: Pushing current channel message onto $chat[] stack.
+1712385338: Message # 106577
+1712385338: Pushing current channel message onto $chat[] stack.
+1712385343: Message # 106485
+1712385343: Pushing current channel message onto $chat[] stack.
+1712385343: Message # 106578
+1712385343: Pushing current channel message onto $chat[] stack.
+1712385379: Message # 106486
+1712385379: Pushing current channel message onto $chat[] stack.
+1712385379: Message # 106579
+1712385379: Pushing current channel message onto $chat[] stack.
+1712385425: Message # 106487
+1712385425: Pushing current channel message onto $chat[] stack.
+1712385425: Message # 106580
+1712385425: Pushing current channel message onto $chat[] stack.
+1712385440: Message # 106488
+1712385440: Pushing current channel message onto $chat[] stack.
+1712385440: Message # 106581
+1712385440: Pushing current channel message onto $chat[] stack.
+1712385510: Message # 106489
+1712385510: Pushing current channel message onto $chat[] stack.
+1712385510: Message # 106582
+1712385510: Pushing current channel message onto $chat[] stack.
+1712385556: Message # 106490
+1712385556: Pushing current channel message onto $chat[] stack.
+1712385556: Message # 106583
+1712385556: Pushing current channel message onto $chat[] stack.
+1712385603: Message # 106491
+1712385603: Pushing current channel message onto $chat[] stack.
+1712385603: Message # 106584
+1712385603: Pushing current channel message onto $chat[] stack.
+1712385681: Message # 106492
+1712385681: Pushing current channel message onto $chat[] stack.
+1712385681: Message # 106585
+1712385681: Pushing current channel message onto $chat[] stack.
+1712385698: Message # 106586
+1712385698: Pushing current channel message onto $chat[] stack.
+1712385721: Message # 106587
+1712385721: Pushing current channel message onto $chat[] stack.
+1712385760: Message # 106493
+1712385760: Pushing current channel message onto $chat[] stack.
+1712385760: API connection subroutine called.
+1712385760: Formatting date tag.
+1712385760: Chat context rolled onto $chat[] stack
+1712385760: We have detected we are not a channel operator of #0xa28.
+1712385760: Running sanitization routines on user defined strings.
+1712385760: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712385760: Message # 106588
+1712385760: Pushing current channel message onto $chat[] stack.
+1712385763: Preparing to receive data from API.
+1712385763: API Transaction: $VAR1 = bless( {'_request' => bless( {'_uri_canonical' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_uri' => $VAR1->{'_request'}{'_uri_canonical'},'_max_body_size' => undef,'_method' => 'POST','_headers' => bless( {'x-client-name' => 'Franklin','::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'user-agent' => 'libwww-perl/6.68','accept' => 'application/json','content-length' => 1992,'authorization' => 'bearer jsIgap1Q************************2au0dV3Y','content-type' => 'application/json'}, 'HTTP::Headers' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #0xa28: The user: Hyper64 said: so I just left her dry, started ignoring her and went to sun bath with a girl whom I know has a crush on me. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "Hyper64 asked: winding forward, the lesbian friend had an open self inflected wound shes done some days ago. I asked to med her ", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #0xa28 and have been asked 1 things since load. You are at version 4.3.2. It is 2:42 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #0xa28 is: The user: code said: lol. The user: code said: like was this a date. The user: Hyper64 said: well.... The user: Hyper64 said: you dont know much about our relationship like aestetix and oxagast do, however we are close friends for about half a year now. The user: Hyper64 said: in the past we already fell asleep cuddling really intimately . The user: Hyper64 said: yesterday we were in a pool party with a bunch of friends. The user: Hyper64 said: this whole week I was pretty horny for her cause she kept hinting stuff and actually offered me a blowy like 4 days ago. The user: Hyper64 said: so in the pool party she annoyed me a bit and I wanted to make her jealous . The user: Hyper64 said: so I just left her dry, started ignoring her and went to sun bath with a girl whom I know has a crush on me. The user: Hyper64 said: I even cuddled and received a massage from her while the lesbian friend kept trying to seek attention from me. ", "max_tokens": 350}'}, 'HTTP::Request' ),'_protocol' => 'HTTP/1.1','_max_body_size' => undef,'_rc' => '200','_content' => '{"response_id":"ea9986b2-482a-462d-91b6-49ab7f05bbbc","text":"Channel #0xa28: The user: Hyper64 said: winding forward, the lesbian friend had an open self-inflicted wound she\'d done some days ago. I asked to med her.","generation_id":"eccf9022-631d-4268-991f-1d1a6e1a07cb","chat_history":[{"role":"USER","message":"Channel #0xa28: The user: Hyper64 said: so I just left her dry, started ignoring her and went to sun bath with a girl whom I know has a crush on me. "},{"role":"CHATBOT","message":"Starting Franklin..."},{"role":"USER","message":"Hyper64 asked: winding forward, the lesbian friend had an open self inflected wound shes done some days ago. I asked to med her "},{"role":"CHATBOT","message":"Channel #0xa28: The user: Hyper64 said: winding forward, the lesbian friend had an open self-inflicted wound she\'d done some days ago. I asked to med her."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":489,"output_tokens":42},"tokens":{"input_tokens":504,"output_tokens":42}}}','_msg' => 'OK','_headers' => bless( {'client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','::std_case' => {'client-ssl-version' => 'Client-SSL-Version','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','client-ssl-cipher' => 'Client-SSL-Cipher','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','num_chars' => 'Num_chars','client-peer' => 'Client-Peer','access-control-expose-headers' => 'Access-Control-Expose-Headers','alt-svc' => 'Alt-Svc','num_tokens' => 'Num_tokens','x-debug-trace-id' => 'X-Debug-Trace-Id','x-accel-expires' => 'X-Accel-Expires','client-response-num' => 'Client-Response-Num','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-socket-class' => 'Client-SSL-Socket-Class','client-date' => 'Client-Date'},'pragma' => 'no-cache','connection' => 'close','client-peer' => '34.96.76.122:443','client-response-num' => 1,'server' => 'envoy','x-debug-trace-id' => '0de7c9a0b04eea260056e38ce88aa5e4','num_tokens' => '531','client-ssl-socket-class' => 'IO::Socket::SSL','x-envoy-upstream-service-time' => '2346','content-length' => '1033','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','client-ssl-version' => 'TLSv1_3','via' => '1.1 google','client-ssl-cert-subject' => '/CN=api.cohere.com','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','access-control-expose-headers' => 'X-Debug-Trace-ID','vary' => 'Origin','num_chars' => '2141','content-type' => 'application/json','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','x-accel-expires' => '0','date' => 'Sat, 06 Apr 2024 06:42:43 GMT','client-date' => 'Sat, 06 Apr 2024 06:42:43 GMT','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0'}, 'HTTP::Headers' )}, 'HTTP::Response' );
+1712385763: Finished receiving data from API.
+1712385763: Used  completion tokens and  prompt tokens for query 106493.  billed.
+1712385763: Reformatting returned text for irc.
+1712385763: Generatin txid checksum tag for response.
+1712385763: Processing query 5fa7bb30 from #0xa28/Hyper64
+1712385763: Query estimated cost is 0.00000.
+1712385763: Opening TXT file for writing response.
+1712385763: Opening HTML file for writing response.
+1712385763: Random chatterbox triggered.
+1712385805: Message # 106494
+1712385805: Pushing current channel message onto $chat[] stack.
+1712385805: Message # 106589
+1712385805: Pushing current channel message onto $chat[] stack.
+1712385845: Message # 106495
+1712385845: Pushing current channel message onto $chat[] stack.
+1712385845: Message # 106590
+1712385845: Pushing current channel message onto $chat[] stack.
+1712385868: Message # 106496
+1712385868: Pushing current channel message onto $chat[] stack.
+1712385868: Message # 106591
+1712385868: Pushing current channel message onto $chat[] stack.
+1712385898: Message # 106497
+1712385898: Pushing current channel message onto $chat[] stack.
+1712385898: Message # 106592
+1712385898: Pushing current channel message onto $chat[] stack.
+1712385937: Message # 106498
+1712385937: Pushing current channel message onto $chat[] stack.
+1712385938: Message # 106593
+1712385938: Pushing current channel message onto $chat[] stack.
+1712385961: Message # 106594
+1712385961: Pushing current channel message onto $chat[] stack.
+1712385961: Responding to message: 106594, on retry 1
+1712385961: API connection subroutine called.
+1712385961: Formatting date tag.
+1712385961: Chat context rolled onto $chat[] stack
+1712385961: We have detected we are not a channel operator of #2600.
+1712385961: Running sanitization routines on user defined strings.
+1712385961: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712385968: Preparing to receive data from API.
+1712385968: API Transaction: $VAR1 = bless( {'_content' => '{"response_id":"d579954a-8bae-4150-a3ca-46f5d4519dbc","text":"CerebraNet: That\'s an interesting question. Time servers are used to synchronize the clocks of computers on a network. If a computer\'s clock is disrupted, it can cause all sorts of problems, including authentication failures, encryption errors, and general system instability.\\n\\nThere are a few ways to disrupt a computer\'s access to a time server. One way is to perform a denial-of-service attack on the time server itself, flooding it with traffic so that it becomes unavailable to the target computer. Another way is to spoof the time server, tricking the target computer into synchronizing with a malicious time source. This can be done by intercepting and modifying the network traffic between the computer and the time server, or by compromising the DNS server used to look up the time server\'s address.\\n\\nIt\'s important to note that disrupting a computer\'s access to a time server is likely to be detected as the effects on the system will be noticeable. Additionally, many systems have multiple time servers configured for redundancy, so disrupting a single time server may not be sufficient.","generation_id":"f11ca3e3-175d-4600-9c37-195a621f1bd2","chat_history":[{"role":"USER","message":"Channel #0xa28: The user: Hyper64 said: passing forward even more we just went asleep in my bad cuddling in the most intimate way ever. "},{"role":"CHATBOT","message":"Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o. The user: hazeyez said: Thats new."},{"role":"USER","message":"CerebraNet asked: How can we hack a computer by disrupting its access to a time server"},{"role":"CHATBOT","message":"CerebraNet: That\'s an interesting question. Time servers are used to synchronize the clocks of computers on a network. If a computer\'s clock is disrupted, it can cause all sorts of problems, including authentication failures, encryption errors, and general system instability.\\n\\nThere are a few ways to disrupt a computer\'s access to a time server. One way is to perform a denial-of-service attack on the time server itself, flooding it with traffic so that it becomes unavailable to the target computer. Another way is to spoof the time server, tricking the target computer into synchronizing with a malicious time source. This can be done by intercepting and modifying the network traffic between the computer and the time server, or by compromising the DNS server used to look up the time server\'s address.\\n\\nIt\'s important to note that disrupting a computer\'s access to a time server is likely to be detected as the effects on the system will be noticeable. Additionally, many systems have multiple time servers configured for redundancy, so disrupting a single time server may not be sufficient."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":334,"output_tokens":217},"tokens":{"input_tokens":350,"output_tokens":217}}}','_msg' => 'OK','_headers' => bless( {'client-ssl-socket-class' => 'IO::Socket::SSL','x-envoy-upstream-service-time' => '6445','client-transfer-encoding' => ['chunked'],'num_tokens' => '551','x-debug-trace-id' => 'fd8176b272a62a18efb370ed09e88f2c','server' => 'envoy','client-response-num' => 1,'client-peer' => '34.96.76.122:443','connection' => 'close','::std_case' => {'client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','client-ssl-version' => 'Client-SSL-Version','client-ssl-cipher' => 'Client-SSL-Cipher','access-control-expose-headers' => 'Access-Control-Expose-Headers','client-peer' => 'Client-Peer','num_chars' => 'Num_chars','client-response-num' => 'Client-Response-Num','client-transfer-encoding' => 'Client-Transfer-Encoding','alt-svc' => 'Alt-Svc','x-debug-trace-id' => 'X-Debug-Trace-Id','x-accel-expires' => 'X-Accel-Expires','num_tokens' => 'Num_tokens','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-socket-class' => 'Client-SSL-Socket-Class','client-date' => 'Client-Date'},'pragma' => 'no-cache','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','client-date' => 'Sat, 06 Apr 2024 06:46:08 GMT','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','date' => 'Sat, 06 Apr 2024 06:46:08 GMT','x-accel-expires' => '0','vary' => 'Origin','content-type' => 'application/json','num_chars' => '1497','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-cert-subject' => '/CN=api.cohere.com','via' => '1.1 google','client-ssl-version' => 'TLSv1_3','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC'}, 'HTTP::Headers' ),'_max_body_size' => undef,'_protocol' => 'HTTP/1.1','_rc' => '200','_request' => bless( {'_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_max_body_size' => undef,'_method' => 'POST','_headers' => bless( {'content-type' => 'application/json','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','content-length' => 1347,'accept' => 'application/json','user-agent' => 'libwww-perl/6.68','::std_case' => {'if-ssl-cert-subject' => 'If-SSL-Cert-Subject','x-client-name' => 'X-Client-Name'},'x-client-name' => 'Franklin'}, 'HTTP::Headers' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #0xa28: The user: Hyper64 said: passing forward even more we just went asleep in my bad cuddling in the most intimate way ever. "},{"role": "CHATBOT", "message": "Channel #2600: The user: hazeyez said: hi ox. The user: hazeyez said: o. The user: hazeyez said: Thats new."} ], "message": "CerebraNet asked: How can we hack a computer by disrupting its access to a time server", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 3 things since load. You are at version 4.3.2. It is 2:46 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: hazeyez said: right well they try to measure it by providing the stratum or how many hops it is to the source, and precision which is how far off the sync is to the source in microseconds. The user: hazeyez said: the source is typically an atomic clock. ", "max_tokens": 350}','_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' )}, 'HTTP::Response' );
+1712385968: Finished receiving data from API.
+1712385968: Used  completion tokens and  prompt tokens for query 106594.  billed.
+1712385968: Reformatting returned text for irc.
+1712385968: Generatin txid checksum tag for response.
+1712385968: Processing query 09e64d3b from #2600/CerebraNet
+1712385968: Query estimated cost is 0.00000.
+1712385968: Opening TXT file for writing response.
+1712385968: Opening HTML file for writing response.
+1712385968: Response to CerebraNet's query sent to channel #2600.
+1712385987: Message # 106499
+1712385987: Pushing current channel message onto $chat[] stack.
+1712385987: Message # 106595
+1712385987: Pushing current channel message onto $chat[] stack.
+1712386027: Message # 106500
+1712386027: Pushing current channel message onto $chat[] stack.
+1712386027: Message # 106596
+1712386027: Pushing current channel message onto $chat[] stack.
+1712386041: Message # 106501
+1712386041: Pushing current channel message onto $chat[] stack.
+1712386041: Message # 106597
+1712386041: Pushing current channel message onto $chat[] stack.
+1712386120: Message # 106502
+1712386120: Pushing current channel message onto $chat[] stack.
+1712386120: Message # 106598
+1712386120: Pushing current channel message onto $chat[] stack.
+1712386183: Message # 106503
+1712386183: Pushing current channel message onto $chat[] stack.
+1712386183: Message # 106599
+1712386183: Pushing current channel message onto $chat[] stack.
+1712386213: Message # 106504
+1712386213: Pushing current channel message onto $chat[] stack.
+1712386213: Message # 106600
+1712386213: Pushing current channel message onto $chat[] stack.
+1712386259: Message # 106505
+1712386259: Pushing current channel message onto $chat[] stack.
+1712386259: Message # 106601
+1712386259: Pushing current channel message onto $chat[] stack.
+1712386345: Message # 106506
+1712386345: Pushing current channel message onto $chat[] stack.
+1712386345: Message # 106602
+1712386345: Pushing current channel message onto $chat[] stack.
+1712386398: Message # 106507
+1712386398: Pushing current channel message onto $chat[] stack.
+1712386398: Message # 106603
+1712386398: Pushing current channel message onto $chat[] stack.
+1712386414: Message # 106508
+1712386414: Pushing current channel message onto $chat[] stack.
+1712386414: Message # 106604
+1712386414: Pushing current channel message onto $chat[] stack.
+1712386417: Message # 106509
+1712386417: Pushing current channel message onto $chat[] stack.
+1712386417: Message # 106605
+1712386417: Pushing current channel message onto $chat[] stack.
+1712386436: Message # 106510
+1712386436: Pushing current channel message onto $chat[] stack.
+1712386436: Message # 106606
+1712386436: Pushing current channel message onto $chat[] stack.
+1712386437: Message # 106511
+1712386437: Pushing current channel message onto $chat[] stack.
+1712386437: Message # 106607
+1712386437: Pushing current channel message onto $chat[] stack.
+1712386456: Message # 106512
+1712386456: Pushing current channel message onto $chat[] stack.
+1712386456: Message # 106608
+1712386456: Pushing current channel message onto $chat[] stack.
+1712386463: Message # 106513
+1712386463: Pushing current channel message onto $chat[] stack.
+1712386463: Message # 106609
+1712386463: Pushing current channel message onto $chat[] stack.
+1712386469: Message # 106514
+1712386469: Pushing current channel message onto $chat[] stack.
+1712386469: Message # 106610
+1712386469: Pushing current channel message onto $chat[] stack.
+1712386523: Message # 106515
+1712386523: Pushing current channel message onto $chat[] stack.
+1712386523: Message # 106611
+1712386523: Pushing current channel message onto $chat[] stack.
+1712386548: Message # 106516
+1712386548: Pushing current channel message onto $chat[] stack.
+1712386548: Message # 106612
+1712386548: Pushing current channel message onto $chat[] stack.
+1712386588: Message # 106517
+1712386588: Pushing current channel message onto $chat[] stack.
+1712386588: Message # 106613
+1712386588: Pushing current channel message onto $chat[] stack.
+1712386613: Message # 106518
+1712386613: Pushing current channel message onto $chat[] stack.
+1712386613: Message # 106614
+1712386613: Pushing current channel message onto $chat[] stack.
+1712386641: Message # 106519
+1712386641: Pushing current channel message onto $chat[] stack.
+1712386641: Message # 106615
+1712386641: Pushing current channel message onto $chat[] stack.
+1712386675: Message # 106520
+1712386675: Pushing current channel message onto $chat[] stack.
+1712386675: Message # 106616
+1712386675: Pushing current channel message onto $chat[] stack.
+1712386688: Message # 106521
+1712386688: Pushing current channel message onto $chat[] stack.
+1712386688: Message # 106617
+1712386688: Pushing current channel message onto $chat[] stack.
+1712386688: Message # 106522
+1712386688: Pushing current channel message onto $chat[] stack.
+1712386688: Message # 106618
+1712386688: Pushing current channel message onto $chat[] stack.
+1712386809: Message # 106523
+1712386809: Pushing current channel message onto $chat[] stack.
+1712386809: Message # 106619
+1712386809: Pushing current channel message onto $chat[] stack.
+1712386841: Message # 106524
+1712386841: Pushing current channel message onto $chat[] stack.
+1712386841: Message # 106620
+1712386841: Pushing current channel message onto $chat[] stack.
+1712386851: Message # 106525
+1712386851: Pushing current channel message onto $chat[] stack.
+1712386851: Message # 106621
+1712386851: Pushing current channel message onto $chat[] stack.
+1712386862: Message # 106526
+1712386862: Pushing current channel message onto $chat[] stack.
+1712386862: Message # 106622
+1712386862: Pushing current channel message onto $chat[] stack.
+1712386865: Message # 106527
+1712386865: Pushing current channel message onto $chat[] stack.
+1712386865: Message # 106623
+1712386865: Pushing current channel message onto $chat[] stack.
+1712386903: Message # 106528
+1712386903: Pushing current channel message onto $chat[] stack.
+1712386903: Message # 106624
+1712386903: Pushing current channel message onto $chat[] stack.
+1712386905: Message # 106529
+1712386905: Pushing current channel message onto $chat[] stack.
+1712386905: Message # 106625
+1712386905: Pushing current channel message onto $chat[] stack.
+1712386914: Message # 106530
+1712386914: Pushing current channel message onto $chat[] stack.
+1712386914: Message # 106626
+1712386914: Pushing current channel message onto $chat[] stack.
+1712386920: Message # 106531
+1712386920: Pushing current channel message onto $chat[] stack.
+1712386920: Message # 106627
+1712386920: Pushing current channel message onto $chat[] stack.
+1712386930: Message # 106532
+1712386930: Pushing current channel message onto $chat[] stack.
+1712386931: Message # 106628
+1712386931: Pushing current channel message onto $chat[] stack.
+1712386932: Message # 106533
+1712386932: Pushing current channel message onto $chat[] stack.
+1712386932: Message # 106629
+1712386932: Pushing current channel message onto $chat[] stack.
+1712386934: Message # 106534
+1712386934: Pushing current channel message onto $chat[] stack.
+1712386934: Message # 106630
+1712386934: Pushing current channel message onto $chat[] stack.
+1712386941: Message # 106535
+1712386941: Pushing current channel message onto $chat[] stack.
+1712386941: Message # 106631
+1712386941: Pushing current channel message onto $chat[] stack.
+1712386946: Message # 106536
+1712386946: Pushing current channel message onto $chat[] stack.
+1712386946: Message # 106632
+1712386946: Pushing current channel message onto $chat[] stack.
+1712386947: Message # 106537
+1712386947: Pushing current channel message onto $chat[] stack.
+1712386947: Message # 106633
+1712386947: Pushing current channel message onto $chat[] stack.
+1712386949: Message # 106538
+1712386949: Pushing current channel message onto $chat[] stack.
+1712386949: Message # 106634
+1712386949: Pushing current channel message onto $chat[] stack.
+1712386961: Message # 106539
+1712386961: Pushing current channel message onto $chat[] stack.
+1712386961: Message # 106635
+1712386961: Pushing current channel message onto $chat[] stack.
+1712386963: Message # 106540
+1712386963: Pushing current channel message onto $chat[] stack.
+1712386963: Message # 106636
+1712386963: Pushing current channel message onto $chat[] stack.
+1712386966: Message # 106541
+1712386966: Pushing current channel message onto $chat[] stack.
+1712386966: Message # 106637
+1712386966: Pushing current channel message onto $chat[] stack.
+1712386967: Message # 106542
+1712386967: Pushing current channel message onto $chat[] stack.
+1712386967: Message # 106638
+1712386967: Pushing current channel message onto $chat[] stack.
+1712386969: Message # 106543
+1712386969: Pushing current channel message onto $chat[] stack.
+1712386969: Message # 106639
+1712386969: Pushing current channel message onto $chat[] stack.
+1712387022: Message # 106544
+1712387022: Pushing current channel message onto $chat[] stack.
+1712387022: Message # 106640
+1712387022: Pushing current channel message onto $chat[] stack.
+1712387032: Message # 106545
+1712387032: Pushing current channel message onto $chat[] stack.
+1712387032: Message # 106641
+1712387032: Pushing current channel message onto $chat[] stack.
+1712387044: Message # 106642
+1712387044: Pushing current channel message onto $chat[] stack.
+1712387044: Message # 106643
+1712387044: Pushing current channel message onto $chat[] stack.
+1712387061: Message # 106644
+1712387061: Pushing current channel message onto $chat[] stack.
+1712387102: Message # 106546
+1712387102: Pushing current channel message onto $chat[] stack.
+1712387102: Message # 106645
+1712387102: Pushing current channel message onto $chat[] stack.
+1712387175: Message # 106547
+1712387175: Pushing current channel message onto $chat[] stack.
+1712387175: Message # 106646
+1712387175: Pushing current channel message onto $chat[] stack.
+1712387209: Message # 106548
+1712387209: Pushing current channel message onto $chat[] stack.
+1712387209: Message # 106647
+1712387209: Pushing current channel message onto $chat[] stack.
+1712387223: Message # 106549
+1712387223: Pushing current channel message onto $chat[] stack.
+1712387223: Message # 106648
+1712387223: Pushing current channel message onto $chat[] stack.
+1712387231: Message # 106550
+1712387231: Pushing current channel message onto $chat[] stack.
+1712387231: Message # 106649
+1712387231: Pushing current channel message onto $chat[] stack.
+1712387333: Message # 106551
+1712387333: Pushing current channel message onto $chat[] stack.
+1712387333: Message # 106650
+1712387333: Pushing current channel message onto $chat[] stack.
+1712387398: Message # 106552
+1712387398: Pushing current channel message onto $chat[] stack.
+1712387398: Message # 106651
+1712387398: Pushing current channel message onto $chat[] stack.
+1712387408: Message # 106553
+1712387408: Pushing current channel message onto $chat[] stack.
+1712387408: Message # 106652
+1712387408: Pushing current channel message onto $chat[] stack.
+1712387410: Message # 106554
+1712387410: Pushing current channel message onto $chat[] stack.
+1712387410: Message # 106653
+1712387410: Pushing current channel message onto $chat[] stack.
+1712387422: Message # 106555
+1712387422: Pushing current channel message onto $chat[] stack.
+1712387423: Message # 106654
+1712387423: Pushing current channel message onto $chat[] stack.
+1712387432: Message # 106556
+1712387432: Pushing current channel message onto $chat[] stack.
+1712387432: Message # 106655
+1712387432: Pushing current channel message onto $chat[] stack.
+1712387432: Message # 106557
+1712387432: Pushing current channel message onto $chat[] stack.
+1712387432: Message # 106656
+1712387432: Pushing current channel message onto $chat[] stack.
+1712387701: Message # 106657
+1712387701: Pushing current channel message onto $chat[] stack.
+1712387725: Message # 106658
+1712387725: Pushing current channel message onto $chat[] stack.
+1712388827: Message # 106659
+1712388827: Pushing current channel message onto $chat[] stack.
+1712389035: Message # 106660
+1712389035: Pushing current channel message onto $chat[] stack.
+1712389089: Message # 106661
+1712389089: Pushing current channel message onto $chat[] stack.
+1712389091: Message # 106662
+1712389091: Pushing current channel message onto $chat[] stack.
+1712389091: Message # 106663
+1712389091: Pushing current channel message onto $chat[] stack.
+1712390070: Message # 106664
+1712390070: Pushing current channel message onto $chat[] stack.
+1712392442: Message # 106558
+1712392442: Pushing current channel message onto $chat[] stack.
+1712392442: Message # 106665
+1712392442: Pushing current channel message onto $chat[] stack.
+1712392451: Message # 106559
+1712392451: Pushing current channel message onto $chat[] stack.
+1712392451: Message # 106666
+1712392451: Pushing current channel message onto $chat[] stack.
+1712392496: Message # 106560
+1712392496: Pushing current channel message onto $chat[] stack.
+1712392496: Message # 106667
+1712392496: Pushing current channel message onto $chat[] stack.
+1712392510: Message # 106561
+1712392510: Pushing current channel message onto $chat[] stack.
+1712392510: Message # 106668
+1712392510: Pushing current channel message onto $chat[] stack.
+1712392591: Message # 106562
+1712392591: Pushing current channel message onto $chat[] stack.
+1712392591: Message # 106669
+1712392591: Pushing current channel message onto $chat[] stack.
+1712392600: Message # 106563
+1712392600: Pushing current channel message onto $chat[] stack.
+1712392600: Message # 106670
+1712392600: Pushing current channel message onto $chat[] stack.
+1712392632: Message # 106564
+1712392632: Pushing current channel message onto $chat[] stack.
+1712392632: Message # 106671
+1712392632: Pushing current channel message onto $chat[] stack.
+1712392640: Message # 106565
+1712392640: Pushing current channel message onto $chat[] stack.
+1712392640: Message # 106672
+1712392640: Pushing current channel message onto $chat[] stack.
+1712392647: Message # 106566
+1712392647: Pushing current channel message onto $chat[] stack.
+1712392647: Message # 106673
+1712392647: Pushing current channel message onto $chat[] stack.
+1712392833: Message # 106567
+1712392833: Pushing current channel message onto $chat[] stack.
+1712392833: Message # 106674
+1712392833: Pushing current channel message onto $chat[] stack.
+1712392907: Message # 106568
+1712392907: Pushing current channel message onto $chat[] stack.
+1712392907: Message # 106675
+1712392907: Pushing current channel message onto $chat[] stack.
+1712392939: Message # 106569
+1712392939: Pushing current channel message onto $chat[] stack.
+1712392939: Message # 106676
+1712392939: Pushing current channel message onto $chat[] stack.
+1712392944: Message # 106570
+1712392944: Pushing current channel message onto $chat[] stack.
+1712392944: Message # 106677
+1712392944: Pushing current channel message onto $chat[] stack.
+1712392946: Message # 106571
+1712392946: Pushing current channel message onto $chat[] stack.
+1712392946: Message # 106678
+1712392946: Pushing current channel message onto $chat[] stack.
+1712392946: Message # 106572
+1712392946: Pushing current channel message onto $chat[] stack.
+1712392946: Message # 106679
+1712392946: Pushing current channel message onto $chat[] stack.
+1712392961: Message # 106573
+1712392961: Pushing current channel message onto $chat[] stack.
+1712392961: Message # 106680
+1712392961: Pushing current channel message onto $chat[] stack.
+1712393045: Message # 106574
+1712393045: Pushing current channel message onto $chat[] stack.
+1712393045: Message # 106681
+1712393045: Pushing current channel message onto $chat[] stack.
+1712393443: Message # 106575
+1712393443: Pushing current channel message onto $chat[] stack.
+1712393443: Message # 106682
+1712393443: Pushing current channel message onto $chat[] stack.
+1712393453: Message # 106576
+1712393453: Pushing current channel message onto $chat[] stack.
+1712393453: Message # 106683
+1712393453: Pushing current channel message onto $chat[] stack.
+1712393454: Message # 106577
+1712393454: Pushing current channel message onto $chat[] stack.
+1712393454: Message # 106684
+1712393454: Pushing current channel message onto $chat[] stack.
+1712393687: Message # 106578
+1712393687: Pushing current channel message onto $chat[] stack.
+1712393687: Message # 106685
+1712393687: Pushing current channel message onto $chat[] stack.
+1712393688: Message # 106579
+1712393688: Pushing current channel message onto $chat[] stack.
+1712393688: Message # 106686
+1712393688: Pushing current channel message onto $chat[] stack.
+1712394409: Message # 106580
+1712394409: Pushing current channel message onto $chat[] stack.
+1712394409: Message # 106687
+1712394409: Pushing current channel message onto $chat[] stack.
+1712394446: Message # 106581
+1712394446: Pushing current channel message onto $chat[] stack.
+1712394446: Message # 106688
+1712394446: Pushing current channel message onto $chat[] stack.
+1712394448: Message # 106582
+1712394448: Pushing current channel message onto $chat[] stack.
+1712394448: Message # 106689
+1712394448: Pushing current channel message onto $chat[] stack.
+1712394457: Message # 106583
+1712394457: Pushing current channel message onto $chat[] stack.
+1712394457: Message # 106690
+1712394457: Pushing current channel message onto $chat[] stack.
+1712394497: Message # 106584
+1712394497: Pushing current channel message onto $chat[] stack.
+1712394497: Message # 106691
+1712394497: Pushing current channel message onto $chat[] stack.
+1712394506: Message # 106585
+1712394506: Pushing current channel message onto $chat[] stack.
+1712394506: Message # 106692
+1712394506: Pushing current channel message onto $chat[] stack.
+1712394512: Message # 106586
+1712394512: Pushing current channel message onto $chat[] stack.
+1712394512: Message # 106693
+1712394512: Pushing current channel message onto $chat[] stack.
+1712394519: Message # 106587
+1712394519: Pushing current channel message onto $chat[] stack.
+1712394519: Message # 106694
+1712394519: Pushing current channel message onto $chat[] stack.
+1712394666: Message # 106588
+1712394666: Pushing current channel message onto $chat[] stack.
+1712394666: Message # 106695
+1712394666: Pushing current channel message onto $chat[] stack.
+1712394745: Message # 106589
+1712394745: Pushing current channel message onto $chat[] stack.
+1712394745: Message # 106696
+1712394745: Pushing current channel message onto $chat[] stack.
+1712394755: Message # 106590
+1712394755: Pushing current channel message onto $chat[] stack.
+1712394755: Message # 106697
+1712394755: Pushing current channel message onto $chat[] stack.
+1712394760: Message # 106591
+1712394760: Pushing current channel message onto $chat[] stack.
+1712394760: Message # 106698
+1712394760: Pushing current channel message onto $chat[] stack.
+1712395050: Message # 106592
+1712395050: Pushing current channel message onto $chat[] stack.
+1712395050: Message # 106699
+1712395050: Pushing current channel message onto $chat[] stack.
+1712395067: Message # 106593
+1712395067: Pushing current channel message onto $chat[] stack.
+1712395067: Message # 106700
+1712395067: Pushing current channel message onto $chat[] stack.
+1712395466: Message # 106594
+1712395466: Pushing current channel message onto $chat[] stack.
+1712395466: Message # 106701
+1712395466: Pushing current channel message onto $chat[] stack.
+1712395467: Message # 106595
+1712395467: Pushing current channel message onto $chat[] stack.
+1712395467: Message # 106702
+1712395467: Pushing current channel message onto $chat[] stack.
+1712395467: Message # 106596
+1712395467: Pushing current channel message onto $chat[] stack.
+1712395467: Message # 106703
+1712395467: Pushing current channel message onto $chat[] stack.
+1712397280: Message # 106597
+1712397280: Pushing current channel message onto $chat[] stack.
+1712397280: Message # 106704
+1712397280: Pushing current channel message onto $chat[] stack.
+1712397341: Message # 106598
+1712397341: Pushing current channel message onto $chat[] stack.
+1712397341: Message # 106705
+1712397341: Pushing current channel message onto $chat[] stack.
+1712397381: Message # 106599
+1712397381: Pushing current channel message onto $chat[] stack.
+1712397381: Message # 106706
+1712397381: Pushing current channel message onto $chat[] stack.
+1712397410: Message # 106600
+1712397410: Pushing current channel message onto $chat[] stack.
+1712397410: Message # 106707
+1712397410: Pushing current channel message onto $chat[] stack.
+1712397432: Message # 106601
+1712397432: Pushing current channel message onto $chat[] stack.
+1712397432: Message # 106708
+1712397432: Pushing current channel message onto $chat[] stack.
+1712397849: Message # 106602
+1712397849: Pushing current channel message onto $chat[] stack.
+1712397849: Message # 106709
+1712397849: Pushing current channel message onto $chat[] stack.
+1712397853: Message # 106603
+1712397853: Pushing current channel message onto $chat[] stack.
+1712397853: Message # 106710
+1712397853: Pushing current channel message onto $chat[] stack.
+1712397855: Message # 106604
+1712397855: Pushing current channel message onto $chat[] stack.
+1712397855: Message # 106711
+1712397855: Pushing current channel message onto $chat[] stack.
+1712398160: Message # 106605
+1712398160: Pushing current channel message onto $chat[] stack.
+1712398160: Message # 106712
+1712398160: Pushing current channel message onto $chat[] stack.
+1712398170: Message # 106606
+1712398170: Pushing current channel message onto $chat[] stack.
+1712398170: Message # 106713
+1712398170: Pushing current channel message onto $chat[] stack.
+1712398179: Message # 106607
+1712398179: Pushing current channel message onto $chat[] stack.
+1712398179: Message # 106714
+1712398179: Pushing current channel message onto $chat[] stack.
+1712399629: Message # 106608
+1712399629: Pushing current channel message onto $chat[] stack.
+1712399629: Message # 106715
+1712399629: Pushing current channel message onto $chat[] stack.
+1712399680: Message # 106609
+1712399680: Pushing current channel message onto $chat[] stack.
+1712399680: Message # 106716
+1712399680: Pushing current channel message onto $chat[] stack.
+1712400054: Message # 106610
+1712400054: Pushing current channel message onto $chat[] stack.
+1712400054: Message # 106717
+1712400054: Pushing current channel message onto $chat[] stack.
+1712400063: Message # 106611
+1712400063: Pushing current channel message onto $chat[] stack.
+1712400063: Message # 106718
+1712400063: Pushing current channel message onto $chat[] stack.
+1712400091: Message # 106612
+1712400091: Pushing current channel message onto $chat[] stack.
+1712400091: Message # 106719
+1712400091: Pushing current channel message onto $chat[] stack.
+1712400103: Message # 106613
+1712400103: Pushing current channel message onto $chat[] stack.
+1712400103: Message # 106720
+1712400103: Pushing current channel message onto $chat[] stack.
+1712400119: Message # 106614
+1712400119: Pushing current channel message onto $chat[] stack.
+1712400120: Message # 106721
+1712400120: Pushing current channel message onto $chat[] stack.
+1712400123: Message # 106615
+1712400123: Pushing current channel message onto $chat[] stack.
+1712400123: Message # 106722
+1712400123: Pushing current channel message onto $chat[] stack.
+1712400128: Message # 106616
+1712400128: Pushing current channel message onto $chat[] stack.
+1712400128: Message # 106723
+1712400128: Pushing current channel message onto $chat[] stack.
+1712400128: Message # 106617
+1712400128: Pushing current channel message onto $chat[] stack.
+1712400129: Message # 106724
+1712400129: Pushing current channel message onto $chat[] stack.
+1712400165: Message # 106618
+1712400165: Pushing current channel message onto $chat[] stack.
+1712400165: Message # 106725
+1712400165: Pushing current channel message onto $chat[] stack.
+1712400175: Message # 106619
+1712400175: Pushing current channel message onto $chat[] stack.
+1712400176: Message # 106726
+1712400176: Pushing current channel message onto $chat[] stack.
+1712400183: Message # 106620
+1712400183: Pushing current channel message onto $chat[] stack.
+1712400183: Message # 106727
+1712400183: Pushing current channel message onto $chat[] stack.
+1712403334: Message # 106621
+1712403334: Pushing current channel message onto $chat[] stack.
+1712403334: Message # 106728
+1712403334: Pushing current channel message onto $chat[] stack.
+1712403340: Message # 106622
+1712403340: Pushing current channel message onto $chat[] stack.
+1712403340: Message # 106729
+1712403340: Pushing current channel message onto $chat[] stack.
+1712403358: Message # 106623
+1712403358: Pushing current channel message onto $chat[] stack.
+1712403358: Message # 106730
+1712403358: Pushing current channel message onto $chat[] stack.
+1712403404: Message # 106624
+1712403404: Pushing current channel message onto $chat[] stack.
+1712403404: Message # 106731
+1712403404: Pushing current channel message onto $chat[] stack.
+1712403976: Message # 106625
+1712403976: Pushing current channel message onto $chat[] stack.
+1712403976: Message # 106732
+1712403976: Pushing current channel message onto $chat[] stack.
+1712404196: Message # 106626
+1712404196: Pushing current channel message onto $chat[] stack.
+1712404196: Message # 106733
+1712404196: Pushing current channel message onto $chat[] stack.
+1712404205: Message # 106627
+1712404205: Pushing current channel message onto $chat[] stack.
+1712404205: Message # 106734
+1712404205: Pushing current channel message onto $chat[] stack.
+1712404285: Message # 106628
+1712404285: Pushing current channel message onto $chat[] stack.
+1712404285: Message # 106735
+1712404285: Pushing current channel message onto $chat[] stack.
+1712404289: Message # 106629
+1712404289: Pushing current channel message onto $chat[] stack.
+1712404289: Message # 106736
+1712404289: Pushing current channel message onto $chat[] stack.
+1712405020: Message # 106630
+1712405020: Pushing current channel message onto $chat[] stack.
+1712405020: Message # 106737
+1712405020: Pushing current channel message onto $chat[] stack.
+1712405023: Message # 106631
+1712405023: Pushing current channel message onto $chat[] stack.
+1712405023: Message # 106738
+1712405023: Pushing current channel message onto $chat[] stack.
+1712405032: Message # 106632
+1712405032: Pushing current channel message onto $chat[] stack.
+1712405032: Message # 106739
+1712405032: Pushing current channel message onto $chat[] stack.
+1712405129: Message # 106633
+1712405129: Pushing current channel message onto $chat[] stack.
+1712405129: Message # 106740
+1712405129: Pushing current channel message onto $chat[] stack.
+1712405152: Message # 106634
+1712405152: Pushing current channel message onto $chat[] stack.
+1712405152: Message # 106741
+1712405152: Pushing current channel message onto $chat[] stack.
+1712405160: Message # 106635
+1712405160: Pushing current channel message onto $chat[] stack.
+1712405160: Message # 106742
+1712405160: Pushing current channel message onto $chat[] stack.
+1712405165: Message # 106636
+1712405165: Pushing current channel message onto $chat[] stack.
+1712405166: Message # 106743
+1712405166: Pushing current channel message onto $chat[] stack.
+1712405175: Message # 106637
+1712405175: Pushing current channel message onto $chat[] stack.
+1712405175: Message # 106744
+1712405175: Pushing current channel message onto $chat[] stack.
+1712405185: Message # 106638
+1712405185: Pushing current channel message onto $chat[] stack.
+1712405185: Message # 106745
+1712405185: Pushing current channel message onto $chat[] stack.
+1712405187: Message # 106639
+1712405187: Pushing current channel message onto $chat[] stack.
+1712405187: Message # 106746
+1712405187: Pushing current channel message onto $chat[] stack.
+1712405205: Message # 106640
+1712405205: Pushing current channel message onto $chat[] stack.
+1712405205: Message # 106747
+1712405205: Pushing current channel message onto $chat[] stack.
+1712405216: Message # 106641
+1712405216: Pushing current channel message onto $chat[] stack.
+1712405216: Message # 106748
+1712405216: Pushing current channel message onto $chat[] stack.
+1712405281: Message # 106642
+1712405281: Pushing current channel message onto $chat[] stack.
+1712405281: Message # 106749
+1712405281: Pushing current channel message onto $chat[] stack.
+1712405291: Message # 106643
+1712405291: Pushing current channel message onto $chat[] stack.
+1712405291: Message # 106750
+1712405291: Pushing current channel message onto $chat[] stack.
+1712405316: Message # 106644
+1712405316: Pushing current channel message onto $chat[] stack.
+1712405316: Message # 106751
+1712405316: Pushing current channel message onto $chat[] stack.
+1712405325: Message # 106645
+1712405325: Pushing current channel message onto $chat[] stack.
+1712405325: Message # 106752
+1712405325: Pushing current channel message onto $chat[] stack.
+1712405335: Message # 106646
+1712405335: Pushing current channel message onto $chat[] stack.
+1712405335: Message # 106753
+1712405335: Pushing current channel message onto $chat[] stack.
+1712405338: Message # 106647
+1712405338: Pushing current channel message onto $chat[] stack.
+1712405338: Message # 106754
+1712405338: Pushing current channel message onto $chat[] stack.
+1712405342: Message # 106648
+1712405342: Pushing current channel message onto $chat[] stack.
+1712405342: Message # 106755
+1712405342: Pushing current channel message onto $chat[] stack.
+1712405346: Message # 106649
+1712405346: Pushing current channel message onto $chat[] stack.
+1712405346: Message # 106756
+1712405346: Pushing current channel message onto $chat[] stack.
+1712405351: Message # 106650
+1712405351: Pushing current channel message onto $chat[] stack.
+1712405351: Message # 106757
+1712405351: Pushing current channel message onto $chat[] stack.
+1712405351: Message # 106651
+1712405351: Pushing current channel message onto $chat[] stack.
+1712405351: Message # 106758
+1712405351: Pushing current channel message onto $chat[] stack.
+1712405614: Message # 106652
+1712405614: Pushing current channel message onto $chat[] stack.
+1712405614: Message # 106759
+1712405614: Pushing current channel message onto $chat[] stack.
+1712405660: Message # 106653
+1712405660: Pushing current channel message onto $chat[] stack.
+1712405660: Message # 106760
+1712405660: Pushing current channel message onto $chat[] stack.
+1712405674: Message # 106654
+1712405674: Pushing current channel message onto $chat[] stack.
+1712405674: Message # 106761
+1712405674: Pushing current channel message onto $chat[] stack.
+1712405713: Message # 106655
+1712405713: Pushing current channel message onto $chat[] stack.
+1712405713: Message # 106762
+1712405713: Pushing current channel message onto $chat[] stack.
+1712406309: Message # 106656
+1712406309: Pushing current channel message onto $chat[] stack.
+1712406310: Message # 106763
+1712406310: Pushing current channel message onto $chat[] stack.
+1712406492: Message # 106764
+1712406492: Pushing current channel message onto $chat[] stack.
+1712406492: Message # 106765
+1712406492: Pushing current channel message onto $chat[] stack.
+1712406497: Message # 106766
+1712406497: Pushing current channel message onto $chat[] stack.
+1712406501: Message # 106767
+1712406501: Pushing current channel message onto $chat[] stack.
+1712406504: Message # 106768
+1712406504: Pushing current channel message onto $chat[] stack.
+1712406508: Message # 106769
+1712406508: Pushing current channel message onto $chat[] stack.
+1712406508: Message # 106770
+1712406508: Pushing current channel message onto $chat[] stack.
+1712409022: Message # 106657
+1712409022: Pushing current channel message onto $chat[] stack.
+1712409022: Message # 106771
+1712409022: Pushing current channel message onto $chat[] stack.
+1712409032: Message # 106658
+1712409032: Pushing current channel message onto $chat[] stack.
+1712409032: Message # 106772
+1712409032: Pushing current channel message onto $chat[] stack.
+1712409417: Message # 106659
+1712409417: Pushing current channel message onto $chat[] stack.
+1712409417: Message # 106773
+1712409417: Pushing current channel message onto $chat[] stack.
+1712409426: Message # 106660
+1712409426: Pushing current channel message onto $chat[] stack.
+1712409426: Message # 106774
+1712409426: Pushing current channel message onto $chat[] stack.
+1712409436: Message # 106661
+1712409436: Pushing current channel message onto $chat[] stack.
+1712409436: Message # 106775
+1712409436: Pushing current channel message onto $chat[] stack.
+1712409460: Message # 106662
+1712409460: Pushing current channel message onto $chat[] stack.
+1712409460: Message # 106776
+1712409460: Pushing current channel message onto $chat[] stack.
+1712409484: Message # 106663
+1712409484: Pushing current channel message onto $chat[] stack.
+1712409484: Message # 106777
+1712409484: Pushing current channel message onto $chat[] stack.
+1712409547: Message # 106664
+1712409547: Pushing current channel message onto $chat[] stack.
+1712409547: Message # 106778
+1712409547: Pushing current channel message onto $chat[] stack.
+1712409550: Message # 106665
+1712409550: Pushing current channel message onto $chat[] stack.
+1712409550: Message # 106779
+1712409550: Pushing current channel message onto $chat[] stack.
+1712409550: Message # 106666
+1712409550: Pushing current channel message onto $chat[] stack.
+1712409550: Message # 106780
+1712409550: Pushing current channel message onto $chat[] stack.
+1712409555: Message # 106667
+1712409555: Pushing current channel message onto $chat[] stack.
+1712409555: Message # 106781
+1712409555: Pushing current channel message onto $chat[] stack.
+1712409558: Message # 106668
+1712409558: Pushing current channel message onto $chat[] stack.
+1712409558: Message # 106782
+1712409558: Pushing current channel message onto $chat[] stack.
+1712409577: Message # 106669
+1712409577: Pushing current channel message onto $chat[] stack.
+1712409577: Message # 106783
+1712409577: Pushing current channel message onto $chat[] stack.
+1712409580: Message # 106670
+1712409580: Pushing current channel message onto $chat[] stack.
+1712409580: Message # 106784
+1712409580: Pushing current channel message onto $chat[] stack.
+1712409632: Message # 106671
+1712409632: Pushing current channel message onto $chat[] stack.
+1712409632: Message # 106785
+1712409632: Pushing current channel message onto $chat[] stack.
+1712409642: Message # 106672
+1712409642: Pushing current channel message onto $chat[] stack.
+1712409642: Message # 106786
+1712409642: Pushing current channel message onto $chat[] stack.
+1712409682: Message # 106673
+1712409682: Pushing current channel message onto $chat[] stack.
+1712409682: Message # 106787
+1712409682: Pushing current channel message onto $chat[] stack.
+1712410643: Message # 106674
+1712410643: Pushing current channel message onto $chat[] stack.
+1712410643: Message # 106788
+1712410643: Pushing current channel message onto $chat[] stack.
+1712410824: Message # 106675
+1712410824: Pushing current channel message onto $chat[] stack.
+1712410824: Message # 106789
+1712410824: Pushing current channel message onto $chat[] stack.
+1712411110: Message # 106676
+1712411110: Pushing current channel message onto $chat[] stack.
+1712411110: Message # 106790
+1712411110: Pushing current channel message onto $chat[] stack.
+1712411119: Message # 106677
+1712411119: Pushing current channel message onto $chat[] stack.
+1712411119: Message # 106791
+1712411119: Pushing current channel message onto $chat[] stack.
+1712411166: Message # 106678
+1712411166: Pushing current channel message onto $chat[] stack.
+1712411166: Message # 106792
+1712411166: Pushing current channel message onto $chat[] stack.
+1712411191: Message # 106793
+1712411191: Pushing current channel message onto $chat[] stack.
+1712411273: Message # 106679
+1712411273: Pushing current channel message onto $chat[] stack.
+1712411273: Message # 106794
+1712411273: Pushing current channel message onto $chat[] stack.
+1712411273: Message # 106680
+1712411273: Pushing current channel message onto $chat[] stack.
+1712411273: Message # 106795
+1712411273: Pushing current channel message onto $chat[] stack.
+1712411382: Starting heartbeat worker.
+1712411382: Starting Franklin version 4.3.2
+1712411382: Using API key jsIgap1Q************************2au0dV3Y

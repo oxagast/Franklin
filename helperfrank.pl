@@ -54,7 +54,8 @@ sub chncll {
       $server->command("op $channel $nick");
     }
     if ($msg =~ m/^$ln[:|,] reboot/i) {
-      system("sudo /sbin/reboot");
+      system("sh -c 'sleep 5 && sudo /sbin/reboot' &");
+      $server->command("quit Franklins server is going down for reboot!");
     }
   }
 }

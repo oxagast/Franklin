@@ -106,7 +106,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message private', 'checkpmsg');
   Irssi::signal_add_last('message public',  'checkcmsg');
-  Irssi::command("script load helperfrank.pl");
+  #Irssi::command("script load helperfrank.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
 else {
@@ -373,7 +373,7 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
