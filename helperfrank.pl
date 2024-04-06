@@ -11,7 +11,11 @@
 use Irssi;
 use Data::Dumper;
 use vars qw($VERSION %IRSSI);
-$VERSION = "1.4";
+
+#use IO::Async::Timer::Periodic;
+#use IO::Async::Loop;
+use Proc::Simple;
+$VERSION = "2.1";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -25,6 +29,15 @@ Irssi::signal_add_last('message public', 'chncll');
 Irssi::settings_add_str("franklin_helper", "franklin_admin", "");
 my $owner = Irssi::settings_get_str('franklin_admin');
 my $logf  = Irssi::settings_get_str('franklin_log');
+sub resetworker {
+  while (1) {
+    sleep 900;
+    system->command("script unload franklin.pl");                                                  # these make sure if something unexpected
+    system->command("script load franklin.pl");                                                    # causes a lockup, it reloads automatically
+  }
+}
+$resetloop = Proc::Simple->new();
+$resetloop->start(\&resetworker);
 
 
 sub chncll {
@@ -36,15 +49,12 @@ sub chncll {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
   }
-  if ($msg =~ m/^$ln[:|,] levelup/i) {
-    if ($nick == $owner) {
+  if ($nick eq $owner) {                                                                           # these may only be used by botmaster
+    if ($msg =~ m/^$ln[:|,] levelup/i) {
       $server->command("op $channel $nick");
     }
+    if ($msg =~ m/^$ln[:|,] reboot/i) {
+      system("sudo /sbin/reboot");
+    }
   }
-
-  #    if ($msg =~ m/^$ln[:|,] reboot/i) {
-  #      if ($nick == $owner) {
-  #        system("sudo /sbin/reboot");
-  #      }
-  #   }
 }
