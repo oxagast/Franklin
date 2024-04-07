@@ -30323,3 +30323,834 @@
 1712415969: Pushing current channel message onto $chat[] stack.
 1712416244: Message # 106831
 1712416244: Pushing current channel message onto $chat[] stack.
+1712416550: Message # 106832
+1712416550: Pushing current channel message onto $chat[] stack.
+1712416591: Message # 106833
+1712416591: Pushing current channel message onto $chat[] stack.
+1712416594: Message # 106834
+1712416594: Pushing current channel message onto $chat[] stack.
+1712416622: Message # 106835
+1712416622: Pushing current channel message onto $chat[] stack.
+1712416628: Message # 106836
+1712416628: Pushing current channel message onto $chat[] stack.
+1712416639: Message # 106837
+1712416639: Pushing current channel message onto $chat[] stack.
+1712416675: Message # 106838
+1712416675: Pushing current channel message onto $chat[] stack.
+1712416679: Message # 106839
+1712416679: Pushing current channel message onto $chat[] stack.
+1712416686: Message # 106840
+1712416686: Pushing current channel message onto $chat[] stack.
+1712416708: Message # 106841
+1712416708: Pushing current channel message onto $chat[] stack.
+1712416764: Message # 106842
+1712416764: Pushing current channel message onto $chat[] stack.
+1712416912: Message # 106843
+1712416912: Pushing current channel message onto $chat[] stack.
+1712416925: Message # 106844
+1712416925: Pushing current channel message onto $chat[] stack.
+1712416947: Message # 106845
+1712416947: Pushing current channel message onto $chat[] stack.
+1712416947: Message # 106846
+1712416947: Pushing current channel message onto $chat[] stack.
+1712417201: Message # 106847
+1712417201: Pushing current channel message onto $chat[] stack.
+1712417728: Message # 106848
+1712417728: Pushing current channel message onto $chat[] stack.
+1712417728: Responding to message: 106848, on retry 1
+1712417728: API connection subroutine called.
+1712417728: Formatting date tag.
+1712417728: Chat context rolled onto $chat[] stack
+1712417728: We have detected we are not a channel operator of #2600.
+1712417728: Running sanitization routines on user defined strings.
+1712417728: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712417728: Preparing to receive data from API.
+1712417728: API Transaction: $VAR1 = bless( {'_content' => '{"message":"invalid json syntax"}','_headers' => bless( {'x-debug-trace-id' => '708effa178d5e51f2bb037c3df0b6640','vary' => 'Origin','via' => '1.1 google','server' => 'envoy','client-peer' => '34.96.76.122:443','client-date' => 'Sat, 06 Apr 2024 15:35:28 GMT','::std_case' => {'client-response-num' => 'Client-Response-Num','client-date' => 'Client-Date','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','access-control-expose-headers' => 'Access-Control-Expose-Headers','client-peer' => 'Client-Peer','client-ssl-cipher' => 'Client-SSL-Cipher','x-debug-trace-id' => 'X-Debug-Trace-Id','client-ssl-version' => 'Client-SSL-Version','client-ssl-socket-class' => 'Client-SSL-Socket-Class','alt-svc' => 'Alt-Svc','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','x-accel-expires' => 'X-Accel-Expires'},'client-ssl-cert-subject' => '/CN=api.cohere.com','x-accel-expires' => '0','date' => 'Sat, 06 Apr 2024 15:35:28 GMT','client-ssl-socket-class' => 'IO::Socket::SSL','client-ssl-version' => 'TLSv1_3','connection' => 'close','pragma' => 'no-cache','content-length' => '33','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','x-envoy-upstream-service-time' => '37','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','client-response-num' => 1,'content-type' => 'application/json','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC'}, 'HTTP::Headers' ),'_max_body_size' => undef,'_rc' => '400','_request' => bless( {'_method' => 'POST','_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: JARVIS said: Title: GitHub - oxagast/Franklin: Franklin is a LLM powered AI IRC chat bot. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "dirmaster0 asked: best torrent sites to find game ROMs?", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 1 things since load. You are at version 4.3.2. It is 11:35 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: oxagast said: its just a lot of work in general to keep it working right and add featues, so i gotta proritize things like keeping it working in channel over adding features, thats all. The user: Zed said: I installed vim-ai and ChatGPT api on this computer so I have just been playing for fun and professional reason. The user: oxagast said: nice. The user: oxagast said: Zed: open a github issue on its page and say you want news headlines so i remember. The user: oxagast said: if you dont mind. The user: Zed said: Did not realize the api and ChatGPT are two different price structuers . The user: Zed said: link the githup please. The user: oxagast said: https://github.com/oxagast/Franklin. The user: JARVIS said: Title: GitHub - oxagast/Franklin: Franklin is a LLM powered AI IRC chat bot. The user: oxagast said: im gonna go take a nap before work, i didnt get any sleep last night. ", "max_tokens": 350}','_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_max_body_size' => undef,'_headers' => bless( {'x-client-name' => 'Franklin','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','accept' => 'application/json','user-agent' => 'libwww-perl/6.68','content-type' => 'application/json','::std_case' => {'if-ssl-cert-subject' => 'If-SSL-Cert-Subject','x-client-name' => 'X-Client-Name'},'content-length' => 1891}, 'HTTP::Headers' ),'_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' ),'_msg' => 'Bad Request','_protocol' => 'HTTP/1.1'}, 'HTTP::Response' );
+1712417728: There is an issue receiving a timley response from the API.
+1712417765: Message # 106849
+1712417765: Pushing current channel message onto $chat[] stack.
+1712417767: Message # 106850
+1712417767: Pushing current channel message onto $chat[] stack.
+1712417776: Message # 106851
+1712417776: Pushing current channel message onto $chat[] stack.
+1712417776: Responding to message: 106851, on retry 1
+1712417776: API connection subroutine called.
+1712417776: Formatting date tag.
+1712417776: Chat context rolled onto $chat[] stack
+1712417776: We have detected we are not a channel operator of #2600.
+1712417776: Running sanitization routines on user defined strings.
+1712417776: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712417777: Preparing to receive data from API.
+1712417777: API Transaction: $VAR1 = bless( {'_protocol' => 'HTTP/1.1','_msg' => 'Bad Request','_rc' => '400','_request' => bless( {'_method' => 'POST','_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: dirmaster0 said: Oh Ox needed to fix him. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "dirmaster0 asked: cmon dawg fix your own code bugs", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 2 things since load. You are at version 4.3.2. It is 11:36 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: oxagast said: Zed: open a github issue on its page and say you want news headlines so i remember. The user: oxagast said: if you dont mind. The user: Zed said: Did not realize the api and ChatGPT are two different price structuers . The user: Zed said: link the githup please. The user: oxagast said: https://github.com/oxagast/Franklin. The user: JARVIS said: Title: GitHub - oxagast/Franklin: Franklin is a LLM powered AI IRC chat bot. The user: oxagast said: im gonna go take a nap before work, i didnt get any sleep last night. The user: dirmaster0 said: Franklin: best torrent sites to find game ROMs?. The user: dirmaster0 said: Oh Ox needed to fix him. The user: dirmaster0 said: rip. ", "max_tokens": 350}','_headers' => bless( {'accept' => 'application/json','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','x-client-name' => 'Franklin','content-length' => 1637,'content-type' => 'application/json','::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'user-agent' => 'libwww-perl/6.68'}, 'HTTP::Headers' ),'_max_body_size' => undef,'_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' ),'_max_body_size' => undef,'_headers' => bless( {'client-ssl-socket-class' => 'IO::Socket::SSL','client-ssl-cert-subject' => '/CN=api.cohere.com','x-accel-expires' => '0','date' => 'Sat, 06 Apr 2024 15:36:16 GMT','pragma' => 'no-cache','content-length' => '33','connection' => 'close','client-ssl-version' => 'TLSv1_3','server' => 'envoy','client-peer' => '34.96.76.122:443','via' => '1.1 google','vary' => 'Origin','x-debug-trace-id' => '69a4ee0b836885c77adc23000a7fbc8f','::std_case' => {'x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-cipher' => 'Client-SSL-Cipher','client-peer' => 'Client-Peer','access-control-expose-headers' => 'Access-Control-Expose-Headers','x-debug-trace-id' => 'X-Debug-Trace-Id','client-response-num' => 'Client-Response-Num','client-date' => 'Client-Date','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','alt-svc' => 'Alt-Svc','client-ssl-socket-class' => 'Client-SSL-Socket-Class','x-accel-expires' => 'X-Accel-Expires','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','client-ssl-version' => 'Client-SSL-Version'},'client-date' => 'Sat, 06 Apr 2024 15:36:17 GMT','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','x-envoy-upstream-service-time' => '36','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','content-type' => 'application/json','client-response-num' => 1,'client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3'}, 'HTTP::Headers' ),'_content' => '{"message":"invalid json syntax"}'}, 'HTTP::Response' );
+1712417777: There is an issue receiving a timley response from the API.
+1712421197: Message # 106852
+1712421197: Pushing current channel message onto $chat[] stack.
+1712424173: Message # 106853
+1712424173: Pushing current channel message onto $chat[] stack.
+1712424182: Message # 106854
+1712424182: Pushing current channel message onto $chat[] stack.
+1712424185: Message # 106855
+1712424185: Pushing current channel message onto $chat[] stack.
+1712424185: Message # 106856
+1712424185: Pushing current channel message onto $chat[] stack.
+1712424228: Message # 106857
+1712424228: Pushing current channel message onto $chat[] stack.
+1712424232: Message # 106858
+1712424232: Pushing current channel message onto $chat[] stack.
+1712424574: Message # 106859
+1712424574: Pushing current channel message onto $chat[] stack.
+1712424591: Message # 106860
+1712424591: Pushing current channel message onto $chat[] stack.
+1712424794: Message # 106861
+1712424794: Pushing current channel message onto $chat[] stack.
+1712424811: Message # 106862
+1712424811: Pushing current channel message onto $chat[] stack.
+1712424827: Message # 106863
+1712424827: Pushing current channel message onto $chat[] stack.
+1712425129: Message # 106864
+1712425129: Pushing current channel message onto $chat[] stack.
+1712425148: Message # 106865
+1712425148: Pushing current channel message onto $chat[] stack.
+1712425159: Message # 106866
+1712425159: Pushing current channel message onto $chat[] stack.
+1712425196: Message # 106867
+1712425196: Pushing current channel message onto $chat[] stack.
+1712425196: Message # 106868
+1712425196: Pushing current channel message onto $chat[] stack.
+1712425208: Message # 106869
+1712425208: Pushing current channel message onto $chat[] stack.
+1712425221: Message # 106870
+1712425221: Pushing current channel message onto $chat[] stack.
+1712425228: Message # 106871
+1712425228: Pushing current channel message onto $chat[] stack.
+1712425231: Message # 106872
+1712425231: Pushing current channel message onto $chat[] stack.
+1712425237: Message # 106873
+1712425237: Pushing current channel message onto $chat[] stack.
+1712425241: Message # 106874
+1712425241: Pushing current channel message onto $chat[] stack.
+1712425243: Message # 106875
+1712425243: Pushing current channel message onto $chat[] stack.
+1712425250: Message # 106876
+1712425250: Pushing current channel message onto $chat[] stack.
+1712425253: Message # 106877
+1712425253: Pushing current channel message onto $chat[] stack.
+1712425259: Message # 106878
+1712425259: Pushing current channel message onto $chat[] stack.
+1712425267: Message # 106879
+1712425267: Pushing current channel message onto $chat[] stack.
+1712425276: Message # 106880
+1712425276: Pushing current channel message onto $chat[] stack.
+1712425284: Message # 106881
+1712425284: Pushing current channel message onto $chat[] stack.
+1712425285: Message # 106882
+1712425285: Pushing current channel message onto $chat[] stack.
+1712425293: Message # 106883
+1712425294: Pushing current channel message onto $chat[] stack.
+1712425316: Message # 106884
+1712425316: Pushing current channel message onto $chat[] stack.
+1712425327: Message # 106885
+1712425327: Pushing current channel message onto $chat[] stack.
+1712425340: Message # 106886
+1712425340: Pushing current channel message onto $chat[] stack.
+1712425369: Message # 106887
+1712425369: Pushing current channel message onto $chat[] stack.
+1712425378: Message # 106888
+1712425378: Pushing current channel message onto $chat[] stack.
+1712425390: Message # 106889
+1712425390: Pushing current channel message onto $chat[] stack.
+1712425392: Message # 106890
+1712425392: Pushing current channel message onto $chat[] stack.
+1712425400: Message # 106891
+1712425400: Pushing current channel message onto $chat[] stack.
+1712425406: Message # 106892
+1712425406: Pushing current channel message onto $chat[] stack.
+1712425410: Message # 106893
+1712425410: Pushing current channel message onto $chat[] stack.
+1712425441: Message # 106894
+1712425441: Pushing current channel message onto $chat[] stack.
+1712425448: Message # 106895
+1712425448: Pushing current channel message onto $chat[] stack.
+1712425450: Message # 106896
+1712425450: Pushing current channel message onto $chat[] stack.
+1712425450: Message # 106897
+1712425450: Pushing current channel message onto $chat[] stack.
+1712425458: Message # 106898
+1712425458: Pushing current channel message onto $chat[] stack.
+1712425464: Message # 106899
+1712425464: Pushing current channel message onto $chat[] stack.
+1712425465: Message # 106900
+1712425465: Pushing current channel message onto $chat[] stack.
+1712425470: Message # 106901
+1712425470: Pushing current channel message onto $chat[] stack.
+1712425474: Message # 106902
+1712425474: Pushing current channel message onto $chat[] stack.
+1712425486: Message # 106903
+1712425486: Pushing current channel message onto $chat[] stack.
+1712425486: Message # 106904
+1712425486: Pushing current channel message onto $chat[] stack.
+1712425492: Message # 106905
+1712425492: Pushing current channel message onto $chat[] stack.
+1712425510: Message # 106906
+1712425510: Pushing current channel message onto $chat[] stack.
+1712425542: Message # 106907
+1712425542: Pushing current channel message onto $chat[] stack.
+1712425578: Message # 106908
+1712425578: Pushing current channel message onto $chat[] stack.
+1712425622: Message # 106909
+1712425622: Pushing current channel message onto $chat[] stack.
+1712425646: Message # 106910
+1712425646: Pushing current channel message onto $chat[] stack.
+1712425649: Message # 106911
+1712425649: Pushing current channel message onto $chat[] stack.
+1712425660: Message # 106912
+1712425660: Pushing current channel message onto $chat[] stack.
+1712425669: Message # 106913
+1712425669: Pushing current channel message onto $chat[] stack.
+1712425696: Message # 106914
+1712425696: Pushing current channel message onto $chat[] stack.
+1712425717: Message # 106915
+1712425717: Pushing current channel message onto $chat[] stack.
+1712425722: Message # 106916
+1712425722: Pushing current channel message onto $chat[] stack.
+1712425730: Message # 106917
+1712425730: Pushing current channel message onto $chat[] stack.
+1712425755: Message # 106918
+1712425755: Pushing current channel message onto $chat[] stack.
+1712425759: Message # 106919
+1712425759: Pushing current channel message onto $chat[] stack.
+1712425762: Message # 106920
+1712425762: Pushing current channel message onto $chat[] stack.
+1712425770: Message # 106921
+1712425770: Pushing current channel message onto $chat[] stack.
+1712425786: Message # 106922
+1712425786: Pushing current channel message onto $chat[] stack.
+1712425796: Message # 106923
+1712425796: Pushing current channel message onto $chat[] stack.
+1712425811: Message # 106924
+1712425811: Pushing current channel message onto $chat[] stack.
+1712425811: Message # 106925
+1712425811: Pushing current channel message onto $chat[] stack.
+1712425827: Message # 106926
+1712425827: Pushing current channel message onto $chat[] stack.
+1712425855: Message # 106927
+1712425855: Pushing current channel message onto $chat[] stack.
+1712425858: Message # 106928
+1712425858: Pushing current channel message onto $chat[] stack.
+1712425876: Message # 106929
+1712425876: Pushing current channel message onto $chat[] stack.
+1712425881: Message # 106930
+1712425881: Pushing current channel message onto $chat[] stack.
+1712425889: Message # 106931
+1712425889: Pushing current channel message onto $chat[] stack.
+1712425902: Message # 106932
+1712425902: Pushing current channel message onto $chat[] stack.
+1712425921: Message # 106933
+1712425921: Pushing current channel message onto $chat[] stack.
+1712425940: Message # 106934
+1712425940: Pushing current channel message onto $chat[] stack.
+1712425945: Message # 106935
+1712425945: Pushing current channel message onto $chat[] stack.
+1712425957: Message # 106936
+1712425957: Pushing current channel message onto $chat[] stack.
+1712425972: Message # 106937
+1712425972: Pushing current channel message onto $chat[] stack.
+1712425979: Message # 106938
+1712425979: Pushing current channel message onto $chat[] stack.
+1712425986: Message # 106939
+1712425986: Pushing current channel message onto $chat[] stack.
+1712426005: Message # 106940
+1712426005: Pushing current channel message onto $chat[] stack.
+1712426018: Message # 106941
+1712426018: Pushing current channel message onto $chat[] stack.
+1712426071: Message # 106942
+1712426071: Pushing current channel message onto $chat[] stack.
+1712426082: Message # 106943
+1712426082: Pushing current channel message onto $chat[] stack.
+1712426103: Message # 106944
+1712426103: Pushing current channel message onto $chat[] stack.
+1712426127: Message # 106945
+1712426127: Pushing current channel message onto $chat[] stack.
+1712426189: Message # 106946
+1712426189: Pushing current channel message onto $chat[] stack.
+1712426242: Message # 106947
+1712426242: Pushing current channel message onto $chat[] stack.
+1712426254: Message # 106948
+1712426254: Pushing current channel message onto $chat[] stack.
+1712426283: Message # 106949
+1712426283: Pushing current channel message onto $chat[] stack.
+1712426301: Message # 106950
+1712426301: Pushing current channel message onto $chat[] stack.
+1712426339: Message # 106951
+1712426339: Pushing current channel message onto $chat[] stack.
+1712426472: Message # 106952
+1712426472: Pushing current channel message onto $chat[] stack.
+1712426539: Message # 106953
+1712426539: Pushing current channel message onto $chat[] stack.
+1712426540: Message # 106954
+1712426540: Pushing current channel message onto $chat[] stack.
+1712426550: Message # 106955
+1712426550: Pushing current channel message onto $chat[] stack.
+1712426564: Message # 106956
+1712426564: Pushing current channel message onto $chat[] stack.
+1712426575: Message # 106957
+1712426575: Pushing current channel message onto $chat[] stack.
+1712426607: Message # 106958
+1712426607: Pushing current channel message onto $chat[] stack.
+1712426607: Message # 106959
+1712426607: Pushing current channel message onto $chat[] stack.
+1712426615: Message # 106960
+1712426615: Pushing current channel message onto $chat[] stack.
+1712426655: Message # 106961
+1712426655: Pushing current channel message onto $chat[] stack.
+1712426656: Message # 106962
+1712426656: Pushing current channel message onto $chat[] stack.
+1712426666: Message # 106963
+1712426666: Pushing current channel message onto $chat[] stack.
+1712426684: Message # 106964
+1712426684: Pushing current channel message onto $chat[] stack.
+1712426703: Message # 106965
+1712426703: Pushing current channel message onto $chat[] stack.
+1712426713: Message # 106966
+1712426713: Pushing current channel message onto $chat[] stack.
+1712426788: Message # 106967
+1712426788: Pushing current channel message onto $chat[] stack.
+1712426846: Message # 106968
+1712426846: Pushing current channel message onto $chat[] stack.
+1712426875: Message # 106969
+1712426875: Pushing current channel message onto $chat[] stack.
+1712426912: Message # 106970
+1712426912: Pushing current channel message onto $chat[] stack.
+1712426948: Message # 106971
+1712426948: Pushing current channel message onto $chat[] stack.
+1712426967: Message # 106972
+1712426967: Pushing current channel message onto $chat[] stack.
+1712426987: Message # 106973
+1712426987: Pushing current channel message onto $chat[] stack.
+1712427024: Message # 106974
+1712427024: Pushing current channel message onto $chat[] stack.
+1712427029: Message # 106975
+1712427029: Pushing current channel message onto $chat[] stack.
+1712427051: Message # 106976
+1712427051: Pushing current channel message onto $chat[] stack.
+1712427109: Message # 106977
+1712427109: Pushing current channel message onto $chat[] stack.
+1712427114: Message # 106978
+1712427114: Pushing current channel message onto $chat[] stack.
+1712427130: Message # 106979
+1712427130: Pushing current channel message onto $chat[] stack.
+1712427138: Message # 106980
+1712427138: Pushing current channel message onto $chat[] stack.
+1712427181: Message # 106981
+1712427181: Pushing current channel message onto $chat[] stack.
+1712427194: Message # 106982
+1712427194: Pushing current channel message onto $chat[] stack.
+1712427230: Message # 106983
+1712427230: Pushing current channel message onto $chat[] stack.
+1712427279: Message # 106984
+1712427279: Pushing current channel message onto $chat[] stack.
+1712427279: Message # 106985
+1712427279: Pushing current channel message onto $chat[] stack.
+1712427291: Message # 106986
+1712427291: Pushing current channel message onto $chat[] stack.
+1712427306: Message # 106987
+1712427306: Pushing current channel message onto $chat[] stack.
+1712427312: Message # 106988
+1712427312: Pushing current channel message onto $chat[] stack.
+1712427318: Message # 106989
+1712427318: Pushing current channel message onto $chat[] stack.
+1712427330: Message # 106990
+1712427330: Pushing current channel message onto $chat[] stack.
+1712427352: Message # 106991
+1712427352: Pushing current channel message onto $chat[] stack.
+1712427356: Message # 106992
+1712427356: Pushing current channel message onto $chat[] stack.
+1712427371: Message # 106993
+1712427371: Pushing current channel message onto $chat[] stack.
+1712427381: Message # 106994
+1712427381: Pushing current channel message onto $chat[] stack.
+1712427389: Message # 106995
+1712427389: Pushing current channel message onto $chat[] stack.
+1712427407: Message # 106996
+1712427407: Pushing current channel message onto $chat[] stack.
+1712427434: Message # 106997
+1712427434: Pushing current channel message onto $chat[] stack.
+1712427450: Message # 106998
+1712427450: Pushing current channel message onto $chat[] stack.
+1712427480: Message # 106999
+1712427480: Pushing current channel message onto $chat[] stack.
+1712427512: Message # 107000
+1712427512: Pushing current channel message onto $chat[] stack.
+1712427512: Message # 107001
+1712427512: Pushing current channel message onto $chat[] stack.
+1712427517: Message # 107002
+1712427517: Pushing current channel message onto $chat[] stack.
+1712427533: Message # 107003
+1712427533: Pushing current channel message onto $chat[] stack.
+1712427545: Message # 107004
+1712427545: Pushing current channel message onto $chat[] stack.
+1712427632: Message # 107005
+1712427632: Pushing current channel message onto $chat[] stack.
+1712427654: Message # 107006
+1712427654: Pushing current channel message onto $chat[] stack.
+1712427681: Message # 107007
+1712427681: Pushing current channel message onto $chat[] stack.
+1712427718: Message # 107008
+1712427718: Pushing current channel message onto $chat[] stack.
+1712427722: Message # 107009
+1712427722: Pushing current channel message onto $chat[] stack.
+1712427723: Message # 107010
+1712427723: Pushing current channel message onto $chat[] stack.
+1712427739: Message # 107011
+1712427739: Pushing current channel message onto $chat[] stack.
+1712427773: Message # 107012
+1712427773: Pushing current channel message onto $chat[] stack.
+1712427779: Message # 107013
+1712427779: Pushing current channel message onto $chat[] stack.
+1712427854: Message # 107014
+1712427854: Pushing current channel message onto $chat[] stack.
+1712427943: Message # 107015
+1712427943: Pushing current channel message onto $chat[] stack.
+1712427954: Message # 107016
+1712427954: Pushing current channel message onto $chat[] stack.
+1712427959: Message # 107017
+1712427959: Pushing current channel message onto $chat[] stack.
+1712427962: Message # 107018
+1712427962: Pushing current channel message onto $chat[] stack.
+1712427985: Message # 107019
+1712427985: Pushing current channel message onto $chat[] stack.
+1712428001: Message # 107020
+1712428001: Pushing current channel message onto $chat[] stack.
+1712428042: Message # 107021
+1712428042: Pushing current channel message onto $chat[] stack.
+1712428074: Message # 107022
+1712428074: Pushing current channel message onto $chat[] stack.
+1712428117: Message # 107023
+1712428117: Pushing current channel message onto $chat[] stack.
+1712428179: Message # 107024
+1712428179: Pushing current channel message onto $chat[] stack.
+1712428197: Message # 107025
+1712428197: Pushing current channel message onto $chat[] stack.
+1712428311: Message # 107026
+1712428311: Pushing current channel message onto $chat[] stack.
+1712428312: Message # 107027
+1712428312: Pushing current channel message onto $chat[] stack.
+1712428319: Message # 107028
+1712428319: Pushing current channel message onto $chat[] stack.
+1712432414: Message # 107029
+1712432414: Pushing current channel message onto $chat[] stack.
+1712432438: Message # 107030
+1712432438: Pushing current channel message onto $chat[] stack.
+1712433752: Starting heartbeat worker.
+1712433752: Starting Franklin version 4.3.2
+1712433752: Using API key jsIgap1Q************************2au0dV3Y
+1712433765: Message # 107031
+1712433765: Pushing current channel message onto $chat[] stack.
+1712433765: Responding to message: 107031, on retry 1
+1712433765: API connection subroutine called.
+1712433765: Formatting date tag.
+1712433765: Chat context rolled onto $chat[] stack
+1712433765: We have detected we are not a channel operator of #2600.
+1712433765: Running sanitization routines on user defined strings.
+1712433765: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712433766: Preparing to receive data from API.
+1712433766: API Transaction: $VAR1 = bless( {'_headers' => bless( {'alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','access-control-expose-headers' => 'X-Debug-Trace-ID','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','x-envoy-upstream-service-time' => '832','num_tokens' => '246','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','content-type' => 'application/json','client-response-num' => 1,'client-ssl-cert-subject' => '/CN=api.cohere.com','date' => 'Sat, 06 Apr 2024 20:02:46 GMT','x-accel-expires' => '0','client-ssl-socket-class' => 'IO::Socket::SSL','connection' => 'close','client-ssl-version' => 'TLSv1_3','pragma' => 'no-cache','content-length' => '708','vary' => 'Origin','x-debug-trace-id' => 'a1747e45fa1a98e29546cb5985714673','server' => 'envoy','client-peer' => '34.96.76.122:443','via' => '1.1 google','num_chars' => '1047','client-date' => 'Sat, 06 Apr 2024 20:02:46 GMT','::std_case' => {'client-response-num' => 'Client-Response-Num','num_tokens' => 'Num_tokens','num_chars' => 'Num_chars','client-date' => 'Client-Date','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','access-control-expose-headers' => 'Access-Control-Expose-Headers','client-peer' => 'Client-Peer','client-ssl-cipher' => 'Client-SSL-Cipher','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','x-debug-trace-id' => 'X-Debug-Trace-Id','client-ssl-version' => 'Client-SSL-Version','alt-svc' => 'Alt-Svc','client-ssl-socket-class' => 'Client-SSL-Socket-Class','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','x-accel-expires' => 'X-Accel-Expires'}}, 'HTTP::Headers' ),'_max_body_size' => undef,'_content' => '{"response_id":"5ad87f53-b7ea-4aa8-bcff-62d419aa0f2e","text":"Beep... Boop...\\n\\nI am Franklin, an IRC bot created by master oxagast. How can I assist?","generation_id":"c40da642-0e24-400e-be25-39e412fcdb90","chat_history":[{"role":"USER","message":"Channel #2600: The user: oxagast said: Franklin: hey dude. "},{"role":"CHATBOT","message":"Starting Franklin..."},{"role":"USER","message":"oxagast asked: hey dude"},{"role":"CHATBOT","message":"Beep... Boop...\\n\\nI am Franklin, an IRC bot created by master oxagast. How can I assist?"}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":219,"output_tokens":27},"tokens":{"input_tokens":234,"output_tokens":27}}}','_rc' => '200','_request' => bless( {'_uri_canonical' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_max_body_size' => undef,'_headers' => bless( {'x-client-name' => 'Franklin','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','accept' => 'application/json','user-agent' => 'libwww-perl/6.68','content-type' => 'application/json','::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'content-length' => 897}, 'HTTP::Headers' ),'_uri' => $VAR1->{'_request'}{'_uri_canonical'},'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: oxagast said: Franklin: hey dude. "},{"role": "CHATBOT", "message": "Starting Franklin..."} ], "message": "oxagast asked: hey dude", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 1 things since load. You are at version 4.3.2. It is 16:2 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: ", "max_tokens": 350}','_method' => 'POST'}, 'HTTP::Request' ),'_msg' => 'OK','_protocol' => 'HTTP/1.1'}, 'HTTP::Response' );
+1712433766: Finished receiving data from API.
+1712433766: Used  completion tokens and  prompt tokens for query 107031.  billed.
+1712433766: Reformatting returned text for irc.
+1712433766: Generatin txid checksum tag for response.
+1712433766: Processing query 514e7b84 from #2600/oxagast
+1712433766: Query estimated cost is 0.00000.
+1712433766: Opening TXT file for writing response.
+1712433766: Opening HTML file for writing response.
+1712433766: Response to oxagast's query sent to channel #2600.
+1712433853: Message # 107032
+1712433853: Pushing current channel message onto $chat[] stack.
+1712433876: Message # 107033
+1712433876: Pushing current channel message onto $chat[] stack.
+1712433879: Message # 107034
+1712433879: Pushing current channel message onto $chat[] stack.
+1712433888: Message # 107035
+1712433888: Pushing current channel message onto $chat[] stack.
+1712433890: Message # 107036
+1712433890: Pushing current channel message onto $chat[] stack.
+1712433890: Message # 107037
+1712433890: Pushing current channel message onto $chat[] stack.
+1712433898: Message # 107038
+1712433898: Pushing current channel message onto $chat[] stack.
+1712433898: Message # 107039
+1712433898: Pushing current channel message onto $chat[] stack.
+1712433918: Message # 107040
+1712433918: Pushing current channel message onto $chat[] stack.
+1712433918: Message # 107041
+1712433918: Pushing current channel message onto $chat[] stack.
+1712433935: Message # 107042
+1712433935: Pushing current channel message onto $chat[] stack.
+1712433939: Message # 107043
+1712433939: Pushing current channel message onto $chat[] stack.
+1712434060: Message # 107044
+1712434060: Pushing current channel message onto $chat[] stack.
+1712434127: Message # 107045
+1712434127: Pushing current channel message onto $chat[] stack.
+1712434156: Message # 107046
+1712434156: Pushing current channel message onto $chat[] stack.
+1712434311: Message # 107047
+1712434311: Pushing current channel message onto $chat[] stack.
+1712434315: Message # 107048
+1712434315: Pushing current channel message onto $chat[] stack.
+1712434333: Message # 107049
+1712434333: Pushing current channel message onto $chat[] stack.
+1712434343: Message # 107050
+1712434343: Pushing current channel message onto $chat[] stack.
+1712434346: Message # 107051
+1712434346: Pushing current channel message onto $chat[] stack.
+1712434349: Message # 107052
+1712434349: Pushing current channel message onto $chat[] stack.
+1712434414: Message # 107053
+1712434414: Pushing current channel message onto $chat[] stack.
+1712434414: Responding to message: 107053, on retry 1
+1712434414: API connection subroutine called.
+1712434414: Formatting date tag.
+1712434414: Chat context rolled onto $chat[] stack
+1712434414: We have detected we are not a channel operator of #2600.
+1712434414: Running sanitization routines on user defined strings.
+1712434414: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712434418: Preparing to receive data from API.
+1712434418: API Transaction: $VAR1 = bless( {'_max_body_size' => undef,'_headers' => bless( {'alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','access-control-expose-headers' => 'X-Debug-Trace-ID','x-envoy-upstream-service-time' => '4192','num_tokens' => '684','client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','content-type' => 'application/json','client-response-num' => 1,'x-accel-expires' => '0','date' => 'Sat, 06 Apr 2024 20:13:38 GMT','client-ssl-cert-subject' => '/CN=api.cohere.com','client-ssl-socket-class' => 'IO::Socket::SSL','connection' => 'close','client-ssl-version' => 'TLSv1_3','pragma' => 'no-cache','vary' => 'Origin','client-transfer-encoding' => ['chunked'],'x-debug-trace-id' => 'fef5f497e7e61d3d6a349f5f311218b1','client-peer' => '34.96.76.122:443','server' => 'envoy','via' => '1.1 google','num_chars' => '2213','client-date' => 'Sat, 06 Apr 2024 20:13:38 GMT','::std_case' => {'x-debug-trace-id' => 'X-Debug-Trace-Id','client-transfer-encoding' => 'Client-Transfer-Encoding','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-cipher' => 'Client-SSL-Cipher','client-peer' => 'Client-Peer','access-control-expose-headers' => 'Access-Control-Expose-Headers','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-date' => 'Client-Date','num_chars' => 'Num_chars','num_tokens' => 'Num_tokens','client-response-num' => 'Client-Response-Num','x-accel-expires' => 'X-Accel-Expires','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','client-ssl-socket-class' => 'Client-SSL-Socket-Class','alt-svc' => 'Alt-Svc','client-ssl-version' => 'Client-SSL-Version'}}, 'HTTP::Headers' ),'_content' => '{"response_id":"890b484c-13c2-4dc2-91c1-faf5b98baa67","text":"Beep... Processing... With the provided ingredients and constraints, there are 18 possible unique meal combinations. These combinations are formed by choosing one option from each of the following categories:\\n\\n- Cheese: American, Swiss, or Provolone\\n- Condiment: Mayonnaise, Mustard, or Both\\n- Pickle: Bread and Butter, Polish Dill, or Kosher Dill\\n\\nEach category has three options, and when multiplied together (3 x 3 x 3), we get a total of 27 possible combinations. However, since the sandwich must include either mayonnaise or mustard (or both), we subtract the two combinations that exclude both condiments. This results in a final count of 27 - 2 = 18 unique meal combinations.","generation_id":"6c16317b-052f-4339-855b-09114c3632fe","chat_history":[{"role":"USER","message":"Channel #2600: The user: oxagast said: wow. "},{"role":"CHATBOT","message":"Beep... Boop...  I am Franklin, an IRC bot created by master oxagast. How can I assist?"},{"role":"USER","message":"hazeyez asked: how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ?"},{"role":"CHATBOT","message":"Beep... Processing... With the provided ingredients and constraints, there are 18 possible unique meal combinations. These combinations are formed by choosing one option from each of the following categories:\\n\\n- Cheese: American, Swiss, or Provolone\\n- Condiment: Mayonnaise, Mustard, or Both\\n- Pickle: Bread and Butter, Polish Dill, or Kosher Dill\\n\\nEach category has three options, and when multiplied together (3 x 3 x 3), we get a total of 27 possible combinations. However, since the sandwich must include either mayonnaise or mustard (or both), we subtract the two combinations that exclude both condiments. This results in a final count of 27 - 2 = 18 unique meal combinations."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":528,"output_tokens":156},"tokens":{"input_tokens":543,"output_tokens":156}}}','_request' => bless( {'_method' => 'POST','_uri_canonical' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_headers' => bless( {'accept' => 'application/json','x-client-name' => 'Franklin','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','content-length' => 2063,'::std_case' => {'x-client-name' => 'X-Client-Name','if-ssl-cert-subject' => 'If-SSL-Cert-Subject'},'content-type' => 'application/json','user-agent' => 'libwww-perl/6.68'}, 'HTTP::Headers' ),'_max_body_size' => undef,'_uri' => $VAR1->{'_request'}{'_uri_canonical'},'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: oxagast said: wow. "},{"role": "CHATBOT", "message": "Beep... Boop...  I am Franklin, an IRC bot created by master oxagast. How can I assist?"} ], "message": "hazeyez asked: how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ?", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 2 things since load. You are at version 4.3.2. It is 16:13 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: hazeyez said: come at me dclaw. The user: hazeyez said: nothing better than a ham & cheese SAMMY, extra mayo and a pickle. The user: hazeyez said: america, swiss, provolone, sometimes mayo & mustard, and bread n butter or a polish/kosher dill spear. The user: hazeyez said: i made a fresh batch of homemade peach iced tea last night with tea, peach puree, and light agave. The user: oxagast said: oh wow, i had lost my wallet. The user: oxagast said: like lost it lost it. The user: oxagast said: and so i just opened my door, and it fell off the outside of my door knob right in front of e. The user: oxagast said: someone picked that thing up and brought it back to me and just left it on my door. The user: oxagast said: wow. The user: oxagast said: moneys all there too. ", "max_tokens": 350}'}, 'HTTP::Request' ),'_rc' => '200','_msg' => 'OK','_protocol' => 'HTTP/1.1'}, 'HTTP::Response' );
+1712434418: Finished receiving data from API.
+1712434418: Used  completion tokens and  prompt tokens for query 107053.  billed.
+1712434418: Reformatting returned text for irc.
+1712434418: Generatin txid checksum tag for response.
+1712434418: Processing query 24650bd3 from #2600/hazeyez
+1712434418: Query estimated cost is 0.00000.
+1712434418: Opening TXT file for writing response.
+1712434418: Opening HTML file for writing response.
+1712434418: Response to hazeyez's query sent to channel #2600.
+1712434446: Message # 107054
+1712434446: Pushing current channel message onto $chat[] stack.
+1712434493: Message # 107055
+1712434493: Pushing current channel message onto $chat[] stack.
+1712434493: Responding to message: 107055, on retry 1
+1712434493: API connection subroutine called.
+1712434493: Formatting date tag.
+1712434493: Chat context rolled onto $chat[] stack
+1712434493: We have detected we are not a channel operator of #2600.
+1712434493: Running sanitization routines on user defined strings.
+1712434493: Connecting to https://api.cohere.ai/v1/chat for API call.
+1712434494: Preparing to receive data from API.
+1712434494: API Transaction: $VAR1 = bless( {'_protocol' => 'HTTP/1.1','_msg' => 'OK','_rc' => '200','_request' => bless( {'_method' => 'POST','_uri' => bless( do{\(my $o = 'https://api.cohere.ai/v1/chat')}, 'URI::https' ),'_content' => '{"chat_history": [ {"role": "USER", "message": "Channel #2600: The user: hazeyez said: Franklin: how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ?. "},{"role": "CHATBOT", "message": "Beep... Processing... With the provided ingredients and constraints, there are 18 possible unique meal combinations. These combinations are formed by choosing one option from each of the following categories:  - Cheese: American, Swiss, or Provolone - Condiment: Mayonnaise, Mustard, or Both - Pickle: Bread and Butter, Polish Dill, or Kosher Dill  Each category has three options, and when"} ], "message": "hazeyez asked: wrong, 27 options: 3 cheeses * 3 dressing options * 3 pickle options, therefore 3^3 = 27, would you like to change your answer?", "preamble": "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are not a channel moderator or operator, and in the IRC channel #2600 and have been asked 3 things since load. You are at version 4.3.2. It is 16:14 on Sat 6 Apr 2024 EST.  Your server hardware currently has 1.00 gb free memory and 1 cores clocked at 2494 and an 8 gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel #2600 is: The user: hazeyez said: i made a fresh batch of homemade peach iced tea last night with tea, peach puree, and light agave. The user: oxagast said: oh wow, i had lost my wallet. The user: oxagast said: like lost it lost it. The user: oxagast said: and so i just opened my door, and it fell off the outside of my door knob right in front of e. The user: oxagast said: someone picked that thing up and brought it back to me and just left it on my door. The user: oxagast said: wow. The user: oxagast said: moneys all there too. The user: hazeyez said: Franklin: how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ?. ", "max_tokens": 350}','_max_body_size' => undef,'_headers' => bless( {'x-client-name' => 'Franklin','authorization' => 'bearer jsIgap1Q************************2au0dV3Y','accept' => 'application/json','user-agent' => 'libwww-perl/6.68','content-length' => 2612,'content-type' => 'application/json','::std_case' => {'if-ssl-cert-subject' => 'If-SSL-Cert-Subject','x-client-name' => 'X-Client-Name'}}, 'HTTP::Headers' ),'_uri_canonical' => $VAR1->{'_request'}{'_uri'}}, 'HTTP::Request' ),'_max_body_size' => undef,'_headers' => bless( {'content-type' => 'application/json','client-response-num' => 1,'client-ssl-cert-issuer' => '/C=US/O=Let\'s Encrypt/CN=R3','num_tokens' => '669','x-envoy-upstream-service-time' => '1032','client-ssl-cipher' => 'TLS_AES_256_GCM_SHA384','access-control-expose-headers' => 'X-Debug-Trace-ID','cache-control' => 'no-cache, no-store, no-transform, must-revalidate, private, max-age=0','expires' => 'Thu, 01 Jan 1970 00:00:00 UTC','alt-svc' => 'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000','::std_case' => {'num_chars' => 'Num_chars','num_tokens' => 'Num_tokens','client-ssl-cert-issuer' => 'Client-SSL-Cert-Issuer','client-date' => 'Client-Date','client-response-num' => 'Client-Response-Num','x-debug-trace-id' => 'X-Debug-Trace-Id','client-ssl-cipher' => 'Client-SSL-Cipher','client-peer' => 'Client-Peer','access-control-expose-headers' => 'Access-Control-Expose-Headers','x-envoy-upstream-service-time' => 'X-Envoy-Upstream-Service-Time','client-ssl-version' => 'Client-SSL-Version','x-accel-expires' => 'X-Accel-Expires','client-ssl-cert-subject' => 'Client-SSL-Cert-Subject','alt-svc' => 'Alt-Svc','client-ssl-socket-class' => 'Client-SSL-Socket-Class'},'client-date' => 'Sat, 06 Apr 2024 20:14:54 GMT','num_chars' => '2762','via' => '1.1 google','client-peer' => '34.96.76.122:443','server' => 'envoy','x-debug-trace-id' => '1f7f34053f829365898c0c19d519d33b','vary' => 'Origin','content-length' => '1631','pragma' => 'no-cache','client-ssl-version' => 'TLSv1_3','connection' => 'close','client-ssl-socket-class' => 'IO::Socket::SSL','date' => 'Sat, 06 Apr 2024 20:14:54 GMT','x-accel-expires' => '0','client-ssl-cert-subject' => '/CN=api.cohere.com'}, 'HTTP::Headers' ),'_content' => '{"response_id":"9c022da4-68d2-4ec1-9d87-a670c5ea4927","text":"Beep... Processing... Affirmative, master hazeyez. You are correct. There are indeed 27 possible combinations. My apologies for the oversight.","generation_id":"b2336fd5-bfe2-48e2-9b0f-27a29b612c34","chat_history":[{"role":"USER","message":"Channel #2600: The user: hazeyez said: Franklin: how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ?. "},{"role":"CHATBOT","message":"Beep... Processing... With the provided ingredients and constraints, there are 18 possible unique meal combinations. These combinations are formed by choosing one option from each of the following categories:  - Cheese: American, Swiss, or Provolone - Condiment: Mayonnaise, Mustard, or Both - Pickle: Bread and Butter, Polish Dill, or Kosher Dill  Each category has three options, and when"},{"role":"USER","message":"hazeyez asked: wrong, 27 options: 3 cheeses * 3 dressing options * 3 pickle options, therefore 3^3 = 27, would you like to change your answer?"},{"role":"CHATBOT","message":"Beep... Processing... Affirmative, master hazeyez. You are correct. There are indeed 27 possible combinations. My apologies for the oversight."}],"finish_reason":"COMPLETE","meta":{"api_version":{"version":"1"},"billed_units":{"input_tokens":637,"output_tokens":32},"tokens":{"input_tokens":652,"output_tokens":32}}}'}, 'HTTP::Response' );
+1712434494: Finished receiving data from API.
+1712434494: Used  completion tokens and  prompt tokens for query 107055.  billed.
+1712434494: Reformatting returned text for irc.
+1712434494: Generatin txid checksum tag for response.
+1712434494: Processing query c555301c from #2600/hazeyez
+1712434494: Query estimated cost is 0.00000.
+1712434494: Opening TXT file for writing response.
+1712434494: Opening HTML file for writing response.
+1712434494: Response to hazeyez's query sent to channel #2600.
+1712434498: Message # 107056
+1712434498: Pushing current channel message onto $chat[] stack.
+1712434503: Message # 107057
+1712434503: Pushing current channel message onto $chat[] stack.
+1712434505: Message # 107058
+1712434505: Pushing current channel message onto $chat[] stack.
+1712434511: Message # 107059
+1712434511: Pushing current channel message onto $chat[] stack.
+1712434526: Message # 107060
+1712434526: Pushing current channel message onto $chat[] stack.
+1712434542: Message # 107061
+1712434542: Pushing current channel message onto $chat[] stack.
+1712434549: Message # 107062
+1712434549: Pushing current channel message onto $chat[] stack.
+1712434690: Message # 107063
+1712434690: Pushing current channel message onto $chat[] stack.
+1712434725: Message # 107064
+1712434725: Pushing current channel message onto $chat[] stack.
+1712434914: Message # 107065
+1712434914: Pushing current channel message onto $chat[] stack.
+1712435490: Message # 107066
+1712435490: Pushing current channel message onto $chat[] stack.
+1712435569: Message # 107067
+1712435569: Pushing current channel message onto $chat[] stack.
+1712435571: Message # 107068
+1712435571: Pushing current channel message onto $chat[] stack.
+1712435666: Message # 107069
+1712435666: Pushing current channel message onto $chat[] stack.
+1712435667: Message # 107070
+1712435667: Pushing current channel message onto $chat[] stack.
+1712435697: Message # 107071
+1712435697: Pushing current channel message onto $chat[] stack.
+1712435703: Message # 107072
+1712435703: Pushing current channel message onto $chat[] stack.
+1712435708: Message # 107073
+1712435708: Pushing current channel message onto $chat[] stack.
+1712435716: Message # 107074
+1712435716: Pushing current channel message onto $chat[] stack.
+1712435727: Message # 107075
+1712435727: Pushing current channel message onto $chat[] stack.
+1712435738: Message # 107076
+1712435738: Pushing current channel message onto $chat[] stack.
+1712435764: Message # 107077
+1712435764: Pushing current channel message onto $chat[] stack.
+1712435780: Message # 107078
+1712435780: Pushing current channel message onto $chat[] stack.
+1712436137: Message # 107079
+1712436137: Pushing current channel message onto $chat[] stack.
+1712436146: Message # 107080
+1712436146: Pushing current channel message onto $chat[] stack.
+1712436158: Message # 107081
+1712436158: Pushing current channel message onto $chat[] stack.
+1712436476: Message # 107082
+1712436476: Pushing current channel message onto $chat[] stack.
+1712436483: Message # 107083
+1712436483: Pushing current channel message onto $chat[] stack.
+1712436506: Message # 107084
+1712436506: Pushing current channel message onto $chat[] stack.
+1712436521: Message # 107085
+1712436521: Pushing current channel message onto $chat[] stack.
+1712436530: Message # 107086
+1712436530: Pushing current channel message onto $chat[] stack.
+1712437050: Message # 107087
+1712437050: Pushing current channel message onto $chat[] stack.
+1712437055: Message # 107088
+1712437055: Pushing current channel message onto $chat[] stack.
+1712437058: Message # 107089
+1712437058: Pushing current channel message onto $chat[] stack.
+1712437064: Message # 107090
+1712437064: Pushing current channel message onto $chat[] stack.
+1712437100: Message # 107091
+1712437100: Pushing current channel message onto $chat[] stack.
+1712437112: Message # 107092
+1712437112: Pushing current channel message onto $chat[] stack.
+1712437135: Message # 107093
+1712437135: Pushing current channel message onto $chat[] stack.
+1712437146: Message # 107094
+1712437146: Pushing current channel message onto $chat[] stack.
+1712437163: Message # 107095
+1712437163: Pushing current channel message onto $chat[] stack.
+1712437175: Message # 107096
+1712437175: Pushing current channel message onto $chat[] stack.
+1712437257: Message # 107097
+1712437257: Pushing current channel message onto $chat[] stack.
+1712437257: Message # 107098
+1712437257: Pushing current channel message onto $chat[] stack.
+1712437311: Message # 107099
+1712437311: Pushing current channel message onto $chat[] stack.
+1712437361: Message # 107100
+1712437361: Pushing current channel message onto $chat[] stack.
+1712437375: Message # 107101
+1712437375: Pushing current channel message onto $chat[] stack.
+1712437384: Message # 107102
+1712437384: Pushing current channel message onto $chat[] stack.
+1712437400: Message # 107103
+1712437400: Pushing current channel message onto $chat[] stack.
+1712437426: Message # 107104
+1712437426: Pushing current channel message onto $chat[] stack.
+1712437466: Message # 107105
+1712437466: Pushing current channel message onto $chat[] stack.
+1712437467: Message # 107106
+1712437467: Pushing current channel message onto $chat[] stack.
+1712437506: Message # 107107
+1712437506: Pushing current channel message onto $chat[] stack.
+1712437509: Message # 107108
+1712437509: Pushing current channel message onto $chat[] stack.
+1712437531: Message # 107109
+1712437531: Pushing current channel message onto $chat[] stack.
+1712437583: Message # 107110
+1712437583: Pushing current channel message onto $chat[] stack.
+1712437594: Message # 107111
+1712437594: Pushing current channel message onto $chat[] stack.
+1712437603: Message # 107112
+1712437603: Pushing current channel message onto $chat[] stack.
+1712437612: Message # 107113
+1712437612: Pushing current channel message onto $chat[] stack.
+1712437621: Message # 107114
+1712437621: Pushing current channel message onto $chat[] stack.
+1712437642: Message # 107115
+1712437642: Pushing current channel message onto $chat[] stack.
+1712437647: Message # 107116
+1712437647: Pushing current channel message onto $chat[] stack.
+1712437655: Message # 107117
+1712437655: Pushing current channel message onto $chat[] stack.
+1712437662: Message # 107118
+1712437662: Pushing current channel message onto $chat[] stack.
+1712437692: Message # 107119
+1712437692: Pushing current channel message onto $chat[] stack.
+1712437703: Message # 107120
+1712437703: Pushing current channel message onto $chat[] stack.
+1712437718: Message # 107121
+1712437718: Pushing current channel message onto $chat[] stack.
+1712437732: Message # 107122
+1712437732: Pushing current channel message onto $chat[] stack.
+1712437743: Message # 107123
+1712437743: Pushing current channel message onto $chat[] stack.
+1712437746: Message # 107124
+1712437746: Pushing current channel message onto $chat[] stack.
+1712437749: Message # 107125
+1712437749: Pushing current channel message onto $chat[] stack.
+1712437754: Message # 107126
+1712437754: Pushing current channel message onto $chat[] stack.
+1712437764: Message # 107127
+1712437764: Pushing current channel message onto $chat[] stack.
+1712437804: Message # 107128
+1712437804: Pushing current channel message onto $chat[] stack.
+1712437811: Message # 107129
+1712437811: Pushing current channel message onto $chat[] stack.
+1712437824: Message # 107130
+1712437824: Pushing current channel message onto $chat[] stack.
+1712437825: Message # 107131
+1712437825: Pushing current channel message onto $chat[] stack.
+1712437850: Message # 107132
+1712437850: Pushing current channel message onto $chat[] stack.
+1712437852: Message # 107133
+1712437852: Pushing current channel message onto $chat[] stack.
+1712437854: Message # 107134
+1712437854: Pushing current channel message onto $chat[] stack.
+1712437864: Message # 107135
+1712437864: Pushing current channel message onto $chat[] stack.
+1712437869: Message # 107136
+1712437869: Pushing current channel message onto $chat[] stack.
+1712437895: Message # 107137
+1712437895: Pushing current channel message onto $chat[] stack.
+1712437904: Message # 107138
+1712437904: Pushing current channel message onto $chat[] stack.
+1712437914: Message # 107139
+1712437914: Pushing current channel message onto $chat[] stack.
+1712437921: Message # 107140
+1712437921: Pushing current channel message onto $chat[] stack.
+1712437935: Message # 107141
+1712437935: Pushing current channel message onto $chat[] stack.
+1712437944: Message # 107142
+1712437944: Pushing current channel message onto $chat[] stack.
+1712437944: Message # 107143
+1712437944: Pushing current channel message onto $chat[] stack.
+1712437947: Message # 107144
+1712437947: Pushing current channel message onto $chat[] stack.
+1712437951: Message # 107145
+1712437951: Pushing current channel message onto $chat[] stack.
+1712437956: Message # 107146
+1712437956: Pushing current channel message onto $chat[] stack.
+1712437958: Message # 107147
+1712437958: Pushing current channel message onto $chat[] stack.
+1712437989: Message # 107148
+1712437989: Pushing current channel message onto $chat[] stack.
+1712437997: Message # 107149
+1712437997: Pushing current channel message onto $chat[] stack.
+1712438005: Message # 107150
+1712438005: Pushing current channel message onto $chat[] stack.
+1712438027: Message # 107151
+1712438027: Pushing current channel message onto $chat[] stack.
+1712438053: Message # 107152
+1712438053: Pushing current channel message onto $chat[] stack.
+1712438060: Message # 107153
+1712438060: Pushing current channel message onto $chat[] stack.
+1712438113: Message # 107154
+1712438113: Pushing current channel message onto $chat[] stack.
+1712438132: Message # 107155
+1712438132: Pushing current channel message onto $chat[] stack.
+1712438138: Message # 107156
+1712438138: Pushing current channel message onto $chat[] stack.
+1712438140: Message # 107157
+1712438140: Pushing current channel message onto $chat[] stack.
+1712438143: Message # 107158
+1712438143: Pushing current channel message onto $chat[] stack.
+1712438166: Message # 107159
+1712438166: Pushing current channel message onto $chat[] stack.
+1712438170: Message # 107160
+1712438170: Pushing current channel message onto $chat[] stack.
+1712438214: Message # 107161
+1712438214: Pushing current channel message onto $chat[] stack.
+1712438219: Message # 107162
+1712438219: Pushing current channel message onto $chat[] stack.
+1712438224: Message # 107163
+1712438224: Pushing current channel message onto $chat[] stack.
+1712438225: Message # 107164
+1712438225: Pushing current channel message onto $chat[] stack.
+1712438970: Message # 107165
+1712438970: Pushing current channel message onto $chat[] stack.
+1712438972: Message # 107166
+1712438972: Pushing current channel message onto $chat[] stack.
+1712438975: Message # 107167
+1712438975: Pushing current channel message onto $chat[] stack.
+1712438975: Message # 107168
+1712438975: Pushing current channel message onto $chat[] stack.
+1712441126: Message # 107169
+1712441126: Pushing current channel message onto $chat[] stack.
+1712441267: Message # 107170
+1712441267: Pushing current channel message onto $chat[] stack.
+1712441270: Message # 107171
+1712441270: Pushing current channel message onto $chat[] stack.
+1712441285: Message # 107172
+1712441285: Pushing current channel message onto $chat[] stack.
+1712441285: Message # 107173
+1712441285: Pushing current channel message onto $chat[] stack.
+1712441312: Message # 107174
+1712441312: Pushing current channel message onto $chat[] stack.
+1712441399: Message # 107175
+1712441399: Pushing current channel message onto $chat[] stack.
+1712441405: Message # 107176
+1712441405: Pushing current channel message onto $chat[] stack.
+1712441425: Message # 107177
+1712441425: Pushing current channel message onto $chat[] stack.
+1712441436: Message # 107178
+1712441436: Pushing current channel message onto $chat[] stack.
+1712441507: Message # 107179
+1712441507: Pushing current channel message onto $chat[] stack.
+1712441519: Message # 107180
+1712441519: Pushing current channel message onto $chat[] stack.
+1712442533: Message # 107181
+1712442533: Pushing current channel message onto $chat[] stack.
+1712442543: Message # 107182
+1712442543: Pushing current channel message onto $chat[] stack.
+1712442547: Message # 107183
+1712442547: Pushing current channel message onto $chat[] stack.
+1712442549: Message # 107184
+1712442549: Pushing current channel message onto $chat[] stack.
+1712442576: Message # 107185
+1712442576: Pushing current channel message onto $chat[] stack.
+1712442600: Message # 107186
+1712442600: Pushing current channel message onto $chat[] stack.
+1712442614: Message # 107187
+1712442614: Pushing current channel message onto $chat[] stack.
+1712442792: Message # 107188
+1712442792: Pushing current channel message onto $chat[] stack.
+1712442808: Message # 107189
+1712442808: Pushing current channel message onto $chat[] stack.
+1712442810: Message # 107190
+1712442810: Pushing current channel message onto $chat[] stack.
+1712443113: Message # 107191
+1712443113: Pushing current channel message onto $chat[] stack.
+1712449709: Message # 107192
+1712449709: Pushing current channel message onto $chat[] stack.
+1712449710: Message # 107193
+1712449710: Pushing current channel message onto $chat[] stack.
+1712452892: Message # 107194
+1712452892: Pushing current channel message onto $chat[] stack.
+1712452921: Message # 107195
+1712452921: Pushing current channel message onto $chat[] stack.
+1712452947: Message # 107196
+1712452947: Pushing current channel message onto $chat[] stack.
+1712452982: Message # 107197
+1712452982: Pushing current channel message onto $chat[] stack.
+1712452999: Message # 107198
+1712452999: Pushing current channel message onto $chat[] stack.
+1712453046: Message # 107199
+1712453046: Pushing current channel message onto $chat[] stack.
+1712453063: Message # 107200
+1712453063: Pushing current channel message onto $chat[] stack.
+1712453138: Message # 107201
+1712453138: Pushing current channel message onto $chat[] stack.
+1712453138: Message # 107202
+1712453138: Pushing current channel message onto $chat[] stack.
+1712453725: Message # 107203
+1712453725: Pushing current channel message onto $chat[] stack.
+1712453729: Message # 107204
+1712453729: Pushing current channel message onto $chat[] stack.
+1712453733: Message # 107205
+1712453733: Pushing current channel message onto $chat[] stack.
+1712453733: Message # 107206
+1712453733: Pushing current channel message onto $chat[] stack.
+1712454393: Message # 107207
+1712454393: Pushing current channel message onto $chat[] stack.
+1712454406: Message # 107208
+1712454406: Pushing current channel message onto $chat[] stack.
