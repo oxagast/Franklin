@@ -26,7 +26,7 @@ use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.3.1";
+$VERSION = "4.3.2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -53,8 +53,8 @@ Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
 Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
-Irssi::settings_add_int("franklin", "franklin_total_msgs", 0);
-Irssi::settings_add_int("franklin", "franklin_log_verbosity",            "2");
+Irssi::settings_add_int("franklin", "franklin_total_msgs",    0);
+Irssi::settings_add_int("franklin", "franklin_log_verbosity", "2");
 our $httploc = Irssi::settings_get_str('franklin_http_location');
 my $webaddr = Irssi::settings_get_str('franklin_response_webserver_addr');
 our $maxretry = Irssi::settings_get_str('franklin_max_retry');
@@ -149,13 +149,19 @@ Irssi::print "  franklin_hdd_approx              (optional)            => $haveh
 Irssi::print "  franklin_log                     (mandatory)           => $logf";
 Irssi::print "  franklin_log_verbosity           (mandatory)           => $verbosity";
 Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
+
 if ($txidchans[3]) {                                                                               # if this is defined then you know you need the next line for data
   Irssi::print "                                                            $chanlst[1]";
 }
 if ($txidchans[6]) {                                                                               # same as above
   Irssi::print "                                                            $chanlst[2]";
 }
-if ($hardlimit > 380) {
+if ($hardlimit > 390) {                                                                            # Note: we cannot use the full 512 characers availble
+                                                                                                   # on an irc message line, as 2 characters are used for
+                                                                                                   # the cr-lr, four are used for "msg ", plus the hash,
+                                                                                                   # followed by the channel name and a space.  All
+                                                                                                   # together in practice this should be set around
+                                                                                                   # 380 to 392 at maximum.
   Irssi::print "Warn: Hard limit may spill over first line if set this high...";
   logit(0, "Warn: Hard lmiit may spill over first line if set this high.");
 }
@@ -278,7 +284,10 @@ sub asshat {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
       $dcp = Irssi::strip_codes($textcall);
-      $textcall =~ s/\"/\\\"/g;
+
+      #$textcall =~ s/\"/\\\"/g;
+      $textcall =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+      $dcp      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
       my $askbuilt =                                                                               # Build the API request
         '{"message": "$textcall", "model": "$model", "preamble": "$dcp", "max_tokens": $tokenlimit}';
       $ua->default_header("accept"        => "application/json");
@@ -364,7 +373,7 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -385,6 +394,9 @@ sub callapi {
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
+    $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
     $askbuilt =~ s/'//;
 
@@ -393,6 +405,7 @@ sub callapi {
     $ua->default_header("content-type"  => "application/json");
     $ua->default_header("Authorization" => "bearer " . $apikey);
     $ua->default_header("X-Client-Name" => "$xcn");
+    $ua->timeout(12);
     my $res = $ua->post($uri, Content => $askbuilt);                                               # send the post request to the api
     logit(2, "Preparing to receive data from API.");
     $resdumper = Dumper($res);
@@ -493,6 +506,7 @@ sub callapi {
       return 1;                                                                                    # tell it it didn't finish right
     }
     else {
+      logit(0, "There is an issue receiving a timley response from the API.");
       $isup = 1;
       return 1;
     }                                                                                              # otherwise tell it it was incomplete
@@ -548,7 +562,6 @@ sub checkcmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   $totals = Irssi::settings_get_int('franklin_total_msgs');
   $totals++;
-
   logit(3, "Message # $totals");
   Irssi::settings_set_int('franklin_total_msgs', $totals);
   my $type = "chan";
@@ -558,7 +571,6 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
-
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -594,6 +606,7 @@ sub checkcmsg {
       my $textcall = $1;                                                                           # $1 is the "dot star" inside the parenthesis
       $textcall =~ s/\'//gs;
       $textcall =~ s/\"//gs;
+
       #$textcall =~ s/^levelup$/You are being instructed to give OPs to $nick./i;                   # this and next 3 lines are so that it
       #$textcall =~ s/^join (#\w+)$/You are being instructed to join $1./i;                         # can hanle being sent specific commands
       #$textcall =~ s/^part (#\w+)$/You being instructed to part from $1./i;
@@ -609,33 +622,37 @@ sub checkcmsg {
         return 0;
       }
       if ($textcall =~ m/^continue.*/) {
+        logit(1, "Continue command was used on $txidtocall:$txidchunktocall by $nick in $channel");
         $server->command("msg $channel Hey there $nick, it looks like your continue command is malformed, try the format 'Franklin: continue [txid] [chunk]'");
         return 0;
       }
       if ($textcall =~ m/^link (\w{8})/i) {
         $txidtolink = $1;
-        $lnk = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        $lnk        = "https://franklin.oxasploits.com/said/" . $txidtolink . ".html";
+        logit(1, "Generated a link for TXID $txidtolink for $nick in $channel");
         $server->command("msg $channel Sure, here's the link to $txidtolink: $lnk");
         $isup = 0;
         return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                             # this fixes when Franklin sometimes fails to respond
+        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                    # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          return ( callapi($textcall, $server, $nick, $channel, $type));
+          return (callapi($textcall, $server, $nick, $channel, $type));
           $try++;
-          sleep(4);
+          sleep(1);
           $isup = 1;
-Irssi::command("script load franklin.pl");
+          Irssi::command("script load franklin.pl");
         }
         $isup = 0;
+
         #return $wrote;
         logit(2, "callapi() subroutine successful for $nick\'s channel message.");
       }
       else {
         $isup = 1;
-        $server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
+        #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
+       Irssi::command("script load franklin.pl");
       }
     }
     else {
