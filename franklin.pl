@@ -24,6 +24,7 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
+use Filesys::Df;
 use Data::Dumper qw(Dumper);
 $|++;
 $VERSION = "4.3.2";
@@ -52,7 +53,6 @@ Irssi::settings_add_str("franklin", "franklin_asshat_threshold",        "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
-Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
 Irssi::settings_add_int("franklin", "franklin_total_msgs",    0);
 Irssi::settings_add_int("franklin", "franklin_log_verbosity", "2");
 our $httploc = Irssi::settings_get_str('franklin_http_location');
@@ -67,7 +67,10 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
-our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
+#our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
+my $havehdd_hash = df("/var/www/franklin/said/", 1000000000);
+our $havehdd = sprintf("%.1f", $havehdd_hash->{bavail});
+Irssi::print "$havehdd";
 our $havemem  = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
 our $havecpu  = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
 Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
@@ -143,9 +146,6 @@ Irssi::print "  franklin_blocklist_file          (mandatory)           => $block
 Irssi::print "  franklin_server_info             (optional)            => " . substr($servinfo, 0, 27) . "...";
 Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
-Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
-Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
-Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_log                     (mandatory)           => $logf";
 Irssi::print "  franklin_log_verbosity           (mandatory)           => $verbosity";
 Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
@@ -369,11 +369,14 @@ sub callapi {
       #   if the bot is an operator in channel
       #   user definable server info
       #   current channel
+      open(NEWS, "<",'/home/franklin/Franklin/wn.txt');
+      my $headlines = <NEWS>;
+      close(NEWS);
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -571,7 +574,6 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
-
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -652,9 +654,8 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
-
         #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
-        Irssi::command("script load franklin.pl");
+       Irssi::command("script load franklin.pl");
       }
     }
     else {
