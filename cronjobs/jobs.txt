@@ -1,5 +1,5 @@
 */10 * * * * /home/franklin/totals.sh > /var/www/franklin/totals.html
 */2 * * * * /home/franklin/recents.sh > /var/www/franklin/recent.html
 @reboot sleep 45 && cd ~/Franklin && screen -dmS Franklin
-0 3 * * * curl "https://newsapi.org/v2/everything?q=world%20news&from=2024-03-13&sortBy=publishedAt&apiKey=yourapikeygoeshere" > /home/franklin/Franklin/worldnews.txt
+0 3 * * * curl "https://newsapi.org/v2/everything?q=world%20news&from=$(date +'%Y-%m-%d')&sortBy=publishedAt&apiKey=yourapikeygoeshere" > /home/franklin/Franklin/worldnews.txt
 */5 * * * *  jq '.["articles"] | .[] | .title' -r /home/franklin/Franklin/worldnews.txt| grep -v '\[Removed\]' | grep ".\{45,\}"  | sort -R | head -n 5 | sed -e 's/.*\:\ \+//' | sed -e "s/[’|‘|'|”]//" | tr '\n' '+' | sed -e 's/+/.  /g' > /home/franklin/Franklin/wn.txt
