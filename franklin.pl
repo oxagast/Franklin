@@ -571,6 +571,7 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
+
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -651,8 +652,9 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
+
         #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
-       Irssi::command("script load franklin.pl");
+        Irssi::command("script load franklin.pl");
       }
     }
     else {
