@@ -5,3 +5,5 @@
 *.tdy
 api.key
 !bot.log
+worldnews.txt
+wn.txt
