@@ -68,7 +68,7 @@ our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
 our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
-our $havemem  = substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " gb free memory";
+our $havemem  = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
 our $havecpu  = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
 Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
 Irssi::settings_add_str("franklin", "franklin_cpu_approx", $havecpu);
