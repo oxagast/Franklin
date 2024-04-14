@@ -67,12 +67,13 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
+
 #our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
 my $havehdd_hash = df("/var/www/franklin/said/", 1000000000);
 our $havehdd = sprintf("%.1f", $havehdd_hash->{bavail});
 Irssi::print "$havehdd";
-our $havemem  = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
-our $havecpu  = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
+our $havemem = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
+our $havecpu = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
 Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
 Irssi::settings_add_str("franklin", "franklin_cpu_approx", $havecpu);
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
@@ -369,7 +370,7 @@ sub callapi {
       #   if the bot is an operator in channel
       #   user definable server info
       #   current channel
-      open(NEWS, "<",'/home/franklin/Franklin/wn.txt');
+      open(NEWS, "<", '/home/franklin/Franklin/wn.txt');
       my $headlines = <NEWS>;
       close(NEWS);
       my $mod   = "Cohree \"command\" LLM APi";
@@ -574,6 +575,7 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
+
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -654,8 +656,9 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
+
         #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
-       Irssi::command("script load franklin.pl");
+        Irssi::command("script load franklin.pl");
       }
     }
     else {
