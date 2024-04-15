@@ -37,11 +37,12 @@ sub chncll {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
   }
-  if ($nick eq $owner) {                                                                           # these may only be used by botmaster
+  if ($nick =~ m/^$owner/i) {                            # these may only be used by botmaster
     if ($msg =~ m/^$ln[:|,] levelup/i) {
       $server->command("op $channel $nick");
     }
     if ($msg =~ m/^$ln[:|,] reboot/i) {
+      Irssi::print "REBOOT";
       system("sh -c 'sleep 5 && sudo /sbin/reboot' &");
       $server->command("quit Franklins server is going down for reboot!");
     }

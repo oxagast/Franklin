@@ -480,7 +480,6 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);                                               # preparing string to send back to channel...
         $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
-
         if ($type eq "pm") {
           logit(1, "Response to $nick\'s query sent to them in PM.");
           $server->command("query $nick");                                                         # If this is pm open win
