@@ -398,13 +398,11 @@ sub callapi {
     $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-    $chatsan =~ s/[^a-zA-Z0-9,.]+//g;
-    $dcp =~ s/[^a-zA-Z0-9,.]+//g;
-    $ut =~ s/[^a-zA-Z0-9,.]+//g;
-    $flast =~ s/[^a-zA-Z0-9,.]+//g;
+    $chatsan =~ s/[^a-zA-Z0-9,. #]+//g;
+    $dcp =~ s/[^a-zA-Z0-9,. #]+//g;
+    $ut =~ s/[^a-zA-Z0-9,. #]+//g;
+    $flast =~ s/[^a-zA-Z0-9,. #]+//g;
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
-    $askbuilt =~ s/'//;
-
     # Below we are building the request thats sent to the API server via POST.
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
