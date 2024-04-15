@@ -27,7 +27,7 @@ use Sys::MemInfo qw(totalmem freemem);
 use Filesys::Df;
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.4.0r1";
+$VERSION = "4.4.0r2";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -67,11 +67,8 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
-
-#our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
 my $havehdd_hash = df("/var/www/franklin/said/", 1000000000);
 our $havehdd = sprintf("%.1f", $havehdd_hash->{bavail});
-Irssi::print "$havehdd";
 our $havemem = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
 our $havecpu = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
 Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
@@ -377,7 +374,7 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -597,8 +594,6 @@ sub checkcmsg {
       s/^#.*//;
     }
   }
-
-  #if ($nick ~~ @badnicks) {    # smartmatch is now not recommended, so we're using grep.
   if (grep(/^$nick$/, @badnicks)) {                                                                # fuck everyone inside this conditional
     logit(0, "The user $nick does not have privs to use this...");
     Irssi::print "Franklin: $nick does not have privs to use this.";
@@ -638,11 +633,19 @@ sub checkcmsg {
         $isup = 0;
         return 0;
       }
+      if ($textcall =~ m/^reboot/i) {
+         logit(0, "The user $nick called can admin command, server reboot.");
+         return 0;
+      }
+       if ($textcall =~ m/^levelup/i) {
+         logit(0, "The user $nick called an admin command, mode operator status.");
+         return 0;
+      }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                    # this fixes when Franklin sometimes fails to respond
+        while ($try <= $maxretry) {                                    # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          return (callapi($textcall, $server, $nick, $channel, $type));
+          return callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(1);
           $isup = 1;
