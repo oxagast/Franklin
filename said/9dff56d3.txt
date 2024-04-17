@@ -1,0 +1,24 @@
+zyme asked What were they? with hash 9dff56d3
+<---- snip ---->
+Here is a list of the 20 things I have been asked so far:
+
+> 1. zyme asked: what time is it?
+> 2. zyme asked: how are you?
+> 3. zyme asked: how is the weather?
+> 4. XRAA asked: what is the current headline news?
+> 5. zyme asked: hows the server doing?
+> 6. XRAA asked: can you explain the third headline?
+> 7. zyme asked: can you give me the server specs?
+> 8. XRAA asked: what is your source code written in?
+> 9. zyme asked: who created you?
+> 10. XRAA asked: where can i find your source code?
+> 11. zyme asked: how many cores does the server have?
+> 12. XRAA asked: how many questions have been asked in this channel?
+> 13. zyme asked: what version are you running?
+> 14. XRAA asked: can you tell me the second headline again?
+> 15. zyme asked: how much disk is available?
+> 16. XRAA asked: how much memory is free?
+> 17. zyme asked: what is your name?
+> 18. XRAA asked: what is your nick?
+> 19. XRAA asked: are you a channel operator?
+> 20. XRAA said: Franklin: why does al jazeera report about premier league games?

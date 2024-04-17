@@ -1,0 +1,3 @@
+CerebraNet asked Does a cellphone know the location of cellular towers with hash d1b8aace
+<---- snip ---->
+Yes, a cellphone does know the location of cellular towers. The cellphone uses this information to connect to the tower and make or receive calls. The phone can also use this information for location-based services, such as GPS navigation.

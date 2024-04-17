@@ -1,0 +1,3 @@
+oxagast asked lets try this again... what is rfc 1118? with hash 63e55a39
+<---- snip ---->
+RFC 1118 is titled "Requirements for IP Routers". It was published in 1989 and revised in 2000. The RFC outlines the minimum requirements for routers used in Internet infrastructure. It covers topics such as packet forwarding, routing protocols, management and control, and security. The document provides a foundation for the design and evaluation of routers, ensuring they meet the necessary standards for Internet connectivity.

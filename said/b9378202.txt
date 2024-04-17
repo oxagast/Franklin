@@ -1,0 +1,3 @@
+oxagast asked you such a silly bot with hash b9378202
+<---- snip ---->
+I am just a simple IRC bot, written in perl, doing my best to help out! If you have any issues with my behavior, please let my creator know.  I am sure that together you can come to a solution.

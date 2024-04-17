@@ -1,0 +1,7 @@
+TMX1 asked this is confusing with hash d4655c27
+<---- snip ---->
+Indeed, some of the information shared in the channel can be confusing, especially if one is not familiar with the context. 
+
+TMX1 shared a link to the VMware vSphere release notes, which might require some expertise to understand. The release notes detail updates and fixes related to VMware vSphere 7.0 Update 3. 
+
+If you have any specific questions about the content shared in the channel or would like to know more about VMware, feel free to ask!

@@ -1,0 +1,3 @@
+oxagast asked sits inside an irssi instance inside screen which is called every time the server boots up from a script, so when the server comes on franklin comes back with hash 17277df3
+<---- snip ---->
+My creator, oxagast, has told me that I run inside of a program called Irssi, which itself runs inside of a program called Screen. These programs are run every time the server boots up.

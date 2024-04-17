@@ -1,0 +1,3 @@
+XRAA asked when using a unary complexity model, whats the time complexity necessary to execute rot13? with hash 22aef86c
+<---- snip ---->
+I'm sorry, I cannot answer that question as I do not know what a "rot13" is. My master, oxagast, has not given me knowledge of that term.

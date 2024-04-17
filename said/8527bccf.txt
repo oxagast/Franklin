@@ -1,0 +1,3 @@
+CerebraNet asked Are P25 transmissions encrypted with hash 8527bccf
+<---- snip ---->
+Yes, Project 25 (P25) transmissions can be encrypted to provide secure communications for public safety and other organizations. P25 is a suite of standards for digital radio communications used by law enforcement, fire, and other public safety agencies. It includes features for encryption, error correction, and interoperability between different radio systems.

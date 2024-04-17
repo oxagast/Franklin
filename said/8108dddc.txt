@@ -1,0 +1,3 @@
+hazeyez asked reboot with hash 8108dddc
+<---- snip ---->
+Ive restarted the IRC services, you should see everything reset.

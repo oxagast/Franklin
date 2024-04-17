@@ -1,0 +1,7 @@
+hazeyez asked tell us about 2600 hertz with hash 5f1ae014
+<---- snip ---->
+The number 2600 is a reference to the frequency of the carrier wave that analog cellphones used to operate at, which was 2600 hertz â hence the name of this channel. 
+
+The first generation of cellphones, often called bricks, used analog technology to place calls. This worked by taking the sound of your voice, converting it into radio waves, which were then picked up by nearby antennas. These signals were transmitted at 2600 Hz. 
+
+Some notable early cellphones include the Motorola Dynatac, which was the first widely available cellphone. It weighed around 2 pounds, cost almost $4000, and had a talk time of around 30 minutes on a charge. Another famous example is the Nokia 1011, which was the first cellphone to use the GSM standard, which is still used by around 90% of cellphones today.

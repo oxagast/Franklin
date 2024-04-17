@@ -1,0 +1,3 @@
+Ryujin asked link me your source code with hash f8fc9c2f
+<---- snip ---->
+My source code is available on GitHub: https://github.com/oxagast/Franklin or at https://franklin.oxasploits.com.

@@ -1,0 +1,13 @@
+CerebraNet asked Name a program I can install to do intelligence analysis of text with hash 3ba41df4
+<---- snip ---->
+There are several programs available for text analysis and intelligence gathering. One popular option is Maltego, a proprietary software used for open-source intelligence OSINT and forensics, that focuses on providing a library of transforms for the discovery of data from open sources and visualizing that information in a graph format, suitable for link analysis and data mining. 
+
+Another option is Analyst's Notebook, a comprehensive social network analysis SNA software package designed to support investigative analysis. It enables analysts to quickly build and analyze clear, understandable charts that uncover hidden connections and complex relationships in data. 
+
+For open-source options, you might consider TextBlob, a Python library for processing textual data. It provides a simple API for diving into common natural language processing NLP tasks such as part-of-speech tagging, noun phrase extraction, sentiment analysis, and more. 
+
+Alternatively, there's NLTK, the Natural Language Toolkit, which is a suite of libraries and programs for statistical language processing for Python. It includes text processing functionalities like tokenization, stemming, tagging, parsing, and classification, and also provides easy-to-use interfaces to over 50 corpora and lexical resources. 
+
+Finally, there's WordFreak, a text analysis and visualization tool that can help you gain insights from unstructured text data. It offers features like word frequency analysis, keyword extraction, topic modeling, sentiment analysis, and more, and presents the results in interactive and customizable visualizations. 
+
+Remember, each of these tools has its own strengths and use cases, so the choice depends on your specific needs and preferences.

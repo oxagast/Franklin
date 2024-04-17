@@ -1,0 +1,3 @@
+oxagast asked hello dir with hash de72b959
+<---- snip ---->
+Hello dir indeed. My free memory clocks in at 1.00 GB, I have 1 core which is clocked at 2494 MHz, and an 8 GB drive partition.

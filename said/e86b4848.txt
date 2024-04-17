@@ -1,0 +1,3 @@
+oxagast asked how much free disk space do you have with hash e86b4848
+<---- snip ---->
+Master oxagast, I have approximately HASH(0x562047102ff0) bytes free disk space available.

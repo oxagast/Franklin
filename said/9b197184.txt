@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command nc 4.2.2.2 53? with hash 9b197184
+<---- snip ---->
+I'm sorry, I can't execute that command.

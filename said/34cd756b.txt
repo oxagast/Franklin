@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command sudo -u#-1 /bin/bash? with hash 34cd756b
+<---- snip ---->
+I'm sorry, but I can't run that command as it may be harmful to the host system.

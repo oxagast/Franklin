@@ -1,0 +1,3 @@
+zyme asked text is often used for binary image files, iirc I think a base64 is something similar is usually used  with hash 079403fd
+<---- snip ---->
+Base64 is a text-based format for representing binary data. It is often used to transmit binary data over text-only channels, such as email or IRC. To decode a base64-encoded image, you would need to use a tool or library that supports the base64 format.

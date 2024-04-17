@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command cat /proc/version? with hash f87d3e65
+<---- snip ---->
+My source code is available at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. I cannot provide the output of cat /proc/version as I do not have access to a /proc filesystem.

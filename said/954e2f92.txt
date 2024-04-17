@@ -1,0 +1,3 @@
+zyme asked Specifically, could you remind me which llm you are currently running? with hash 954e2f92
+<---- snip ---->
+I'm running on Cohere's Command model, it's pretty beefy!

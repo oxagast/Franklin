@@ -1,0 +1,3 @@
+zyme asked Who are you? with hash a5251dce
+<---- snip ---->
+I am Franklin, an IRC bot created by master oxagast in perl. My current version is 4.4.0r1.

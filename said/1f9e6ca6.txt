@@ -1,0 +1,3 @@
+oxagast asked how much free disk space do you have with hash 1f9e6ca6
+<---- snip ---->
+Master oxagast, I have an undefined amount of free disk space, as I do not have a disk. My source code may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. My current hardware specs are 0.07 out of 1.00 free memory and 1 core clocked at 2494 MHz.

@@ -1,0 +1,9 @@
+hazeyez asked how many full meal combinations can made if every meal has a ham and cheese sandwich with one variety of cheese, and one variety of pickle if the ingredient options are: Sandwich: ham, american / or swiss / or provolone cheese,  mayonaise or mustard or both on the sandwich, and a bread+butter / or polish dill / or kosher dill pickle ? with hash 24650bd3
+<---- snip ---->
+Beep... Processing... With the provided ingredients and constraints, there are 18 possible unique meal combinations. These combinations are formed by choosing one option from each of the following categories:
+
+- Cheese: American, Swiss, or Provolone
+- Condiment: Mayonnaise, Mustard, or Both
+- Pickle: Bread and Butter, Polish Dill, or Kosher Dill
+
+Each category has three options, and when multiplied together (3 x 3 x 3), we get a total of 27 possible combinations. However, since the sandwich must include either mayonnaise or mustard (or both), we subtract the two combinations that exclude both condiments. This results in a final count of 27 - 2 = 18 unique meal combinations.

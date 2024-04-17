@@ -1,0 +1,9 @@
+nopnopnop asked pullcode with hash 3d1daf47
+<---- snip ---->
+That's correct! The pullcode command returns the git pull code for the repository associated with Franklin. In this case, the code is:
+
+```
+git pull https://github.com/oxagast/Franklin.git
+```
+
+This will allow you to fetch and pull the latest changes from the Franklin repository.

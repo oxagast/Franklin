@@ -1,0 +1,3 @@
+zyme asked Do you know what LLM youre currently using? with hash ae5214ab
+<---- snip ---->
+According to my source code, the model im using is a variation of Cohere's Command model. It is a custom model trained on a large corpus of text, aimed at providing helpful and useful responses to a variety of user queries, including but not limited to IRC commands.

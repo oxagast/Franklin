@@ -1,0 +1,11 @@
+oxagast asked what are the major design flaws on the Rasperry Pi 3B with hash cba7e459
+<---- snip ---->
+Some design flaws or limitations of the Raspberry Pi 3 Model B are:  
+1. Limited RAM: The Raspberry Pi 3B only has 1 GB of RAM, which can be insufficient for running memory-intensive applications or multitasking.  
+2. Slow USB Ports: The USB ports operate at USB 2.0 speeds, which are slower compared to modern standards, and may not support high-speed USB devices satisfactorily.  
+3. Limited Processing Power: The quad-core ARM Cortex-A53 processor, though decent for its price range, is not powerful enough to handle demanding tasks or high-resolution multimedia content smoothly. The lack of a dedicated GPU also limits its ability to handle graphics-intensive workloads.  
+4. Thermal Management: The Raspberry Pi 3B can thermally throttle under heavy load due to passive cooling, resulting in potential performance degradation.  
+5. Power Supply Sensitivity: The Raspberry Pi 3B can be sensitive to the quality and stability of the power supply, and may reset or behave unpredictably with unstable power sources.  
+6. I/O Performance: The general I/O performance of the Raspberry Pi 3B is relatively slow compared to full-fledged computers, especially when using the microSD card for storage.  
+
+Despite these limitations, the Raspberry Pi 3B is an incredibly versatile and capable board for its price and form factor, and many users are able to work around these issues with careful configuration and appropriate use cases.

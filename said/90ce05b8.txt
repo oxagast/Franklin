@@ -1,0 +1,11 @@
+xibalba asked Tell me about BSD CARP with hash 90ce05b8
+<---- snip ---->
+BSD CARP (Common Address Redundancy Protocol) is a method for providing high availability and load balancing of IP-based services. It allows multiple hosts to share one or more IP addresses and handle incoming requests directed to those addresses. CARP operates at the level of the network layer and provides redundancy and failover for network services.
+
+CARP works by having multiple hosts, called CARP peers, which agree on a virtual IP address (VIP) and a protocol to manage it. Each peer sends regular advertisements to the other peers, informing them of their willingness and ability to serve traffic for the VIP. These advertisements are sent using a specified protocol, such as UDP or Ethernet multicast.
+
+The peers elect one host as the master, which is responsible for responding to the VIP. The other peers, called backups, forward any traffic they receive for the VIP to the master. If the master fails or becomes unresponsive, the backups will detect this and one of them will take over as the new master. This failover process ensures that the services remain available.
+
+CARP provides a way to create highly available network services without requiring external load balancers or complex configurations. It's particularly useful for creating redundant network infrastructures and ensuring continuity of critical services. 
+
+In the context of your previous conversation, xibalba mentioned CARP as an example in MSSQL for handling the change of a master IP address.

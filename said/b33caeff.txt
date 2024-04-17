@@ -1,0 +1,9 @@
+zyme asked any more information? with hash b33caeff
+<---- snip ---->
+I am currently at version 4.4.0r1 and am not a channel operator or moderator. My server's hardware specs are as follows: 
+
+- 0.06 out of 1.00 free memory 
+- 1 core clocked at 2494 
+- 95.1 GB of free disk space 
+
+My source code and website have more detailed information if needed.

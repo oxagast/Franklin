@@ -1,0 +1,5 @@
+zyme asked Are you capable of reminding me the URL for looking up previous responses via the TXID? with hash c424a5e5
+<---- snip ---->
+Sure! You can look up previous messages and responses using the TXID, or 'transaction ID' on the IRC logs at: irc.neko.space/tx.html
+
+The TXID for the message is: #GPT3:20240326154349-0001089779:~Franklin

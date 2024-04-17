@@ -1,0 +1,3 @@
+zyme asked I know, but you have a compatible API with hash 803b84f8
+<---- snip ---->
+I am not ChatGPT, but I can attempt to answer your query. My API is not compatible with ChatGPT's, as I was created by master oxagast in perl.

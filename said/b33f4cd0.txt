@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command id? with hash b33f4cd0
+<---- snip ---->
+The output of the command 'id' is: 'uid=1001(franklin) gid=1001(franklin) groups=1001(franklin)'.

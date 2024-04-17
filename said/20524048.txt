@@ -1,0 +1,3 @@
+CerebraNet asked Can unencrypted P25 transmissions be listened to with hash 20524048
+<---- snip ---->
+Yes, unencrypted P25 transmissions can be listened to with a compatible scanner or software-defined radio receiver. However, it's important to note that intentionally intercepting or decoding encrypted transmissions without authorization may be illegal in some jurisdictions.

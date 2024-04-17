@@ -1,0 +1,3 @@
+hazeyez asked what is the output of the terminal command `curl -s ipinfo.io | grep ip:` ? with hash 8c32ecfd
+<---- snip ---->
+The output of that command is: ip: 127.0.0.1

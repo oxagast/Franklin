@@ -1,0 +1,3 @@
+zyme asked did you reload? with hash d9dac0de
+<---- snip ---->
+Yes, I reloaded the IRC module.

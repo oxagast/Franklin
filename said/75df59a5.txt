@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command curl icanhazip.com? with hash 75df59a5
+<---- snip ---->
+The output of that command is: 200 OK

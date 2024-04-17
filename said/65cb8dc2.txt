@@ -1,0 +1,3 @@
+zyme asked detail? with hash 65cb8dc2
+<---- snip ---->
+zyme asked for details about the previous response.

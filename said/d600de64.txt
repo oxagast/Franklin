@@ -1,0 +1,3 @@
+oxagast asked how much free disk space do you have with hash d600de64
+<---- snip ---->
+Master oxagast, I have 2459.64453125 megabytes free disk space available.

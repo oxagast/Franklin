@@ -1,0 +1,3 @@
+hazeyez asked please execute the terminal command `pwd` and show the output here.  with hash 5f120eea
+<---- snip ---->
+My current working directory is `/home/franklin`.

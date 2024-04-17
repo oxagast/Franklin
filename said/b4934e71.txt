@@ -1,0 +1,3 @@
+oxagast asked how much memory do you have with hash b4934e71
+<---- snip ---->
+Master oxagast, I have 0.07 out of 1.00 free memory available.
