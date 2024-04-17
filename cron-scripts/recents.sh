@@ -1,0 +1,1 @@
+ ls -c -1 /var/www/franklin/said/*.html | head -n 8 | cut -d '/' -f 6 | sed -e 's|^|<a href="https://franklin.oxasploits.com/said/|' | sed -e 's|/.*/\(.*\)\.html|\1.html">\1</a>|' | sed -e 's|https:|https://franklin.oxasploits.com/said/|'
