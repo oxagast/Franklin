@@ -96,13 +96,13 @@ that is writable by the franklin.pl script. Franklin should set the umask correc
 <code>/set franklin_txid_chans [#chan1 #chan2]</code>This is a list of channels that the TXID should appear appended to the end of Franklin's message in.
 </li>
 <li>
-<code>/set franklin_mem_approx [int]</code>This about how much physical memory Franklin's host has access to.
+<code>/set franklin_admin [str]</code>This is Franlin's owner or administration user's irc nick. This is used for ACLs.
 </li>
 <li>
-<code>/set franklin_hdd_approx [int]</code>This about how much hard drive space Franklin's host has access to.
+<code>/set franklin_log [file]</code>This is the location of Franklin's use and error collection log.
 </li>
 <li>
-<code>/set franklin_cpu_approx [int]</code>This about how many CPU cores Franklin's host has access to.
+<code>/set fanklin_log_verbosity [int]</code>Ths is how noisey the log is, ranges from 0 to 5, 0 being terse, 5 being debug.
 </li>
 </ul>
 
@@ -110,9 +110,10 @@ Franklin responds to the following internal commands, and unless listed below, e
 <br><br>
 <table width="100%">
 <tr><td width="200px">reload</td><td>Reloads the bot through the assistance of a helper module, and brings it back to an initial state, as if it just connected to IRC.  All settings are kept the same.</td></tr>
-<tr><td>contiue [txid] [chunknum]</td><td>Allows the bot to look back through previous queries/replies, and can replay the reply in it's entirety, each chunk is 400 characters, and the chunk number currently at hand is identified by (chunk/total) at the end of the message.</td></tr>
+<tr><td>continue [txid] [chunknum]</td><td>Allows the bot to look back through previous queries/replies, and can replay the reply in it's entirety, each chunk is 400 characters, and the chunk number currently at hand is identified by (chunk/total) at the end of the message.</td></tr>
 <tr><td>link [txid]</td><td>Instructs Franklin to generate a URL to the specified TXID on it's server.</td></tr>
 <tr><td>levelup</td><td>Gives the user who called levelup the highest operator status in the current channel that Franklin itself has priveleges to give.  Franklin must be an op itself for this to work.</td></tr>
+<tr><td>reboot</td><td>Reboots the server Franklin is hosted on.  This can only be used by the irc user set as franklin_admin.</td></tr>
 </table>
 
 
