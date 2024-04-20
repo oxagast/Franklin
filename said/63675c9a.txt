@@ -1,0 +1,3 @@
+zyme asked is there a list of how to use the public functions master oxagast  has added to you your programming? with hash 63675c9a
+<---- snip ---->
+Master zyme, a list of public functions and their usage can be found in the README.md file on the GitHub repository: https://github.com/oxagast/Franklin. This file is regularly updated by master oxagast to reflect any changes or additions to my functionality.

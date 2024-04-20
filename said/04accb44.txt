@@ -1,0 +1,3 @@
+zyme asked url? with hash 04accb44
+<---- snip ---->
+My source code is available at https://franklin.oxasploits.com, and you can also find it on GitHub in the repository oxagast/Franklin.

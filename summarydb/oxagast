@@ -1,0 +1,28 @@
+{
+  "versions": {
+    "userfile": "1.0.0",
+    "franklin": "4.0.0"
+  },
+  "nick": "oxagast",
+  "create_date": "04182024",
+  "change_date": "04192024",
+  "total_messages": 55,
+  "queries_per_day": 12,
+  "mentions_per_day": 3,
+  "messages_per_day": 2,
+  "average_message_length": 77,
+  "operator": true,
+  "messages": {
+    "last": [
+      "hello how are you",
+      "oh yeah im fine",
+      "yeah my name is oxagast, whats yours"
+    ],
+    "random": [
+      "blah",
+      "no i like girls toes",
+      "Franklin: tell me about nyc"
+    ]
+  },
+  "checksum": "B2CCA97A"
+}

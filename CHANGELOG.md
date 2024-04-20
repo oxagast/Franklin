@@ -2,78 +2,86 @@
 
 ## 
 
-**2d5744b5 (HEAD -> cohere-base_command, origin/cohere-base_command)** (4 minutes ago) _Marshall Whittaker_: Perltidy run to cleanup.<br>
-**b6faf7e0** (8 hours ago) _Marshall Whittaker_: Appended so the date updates to current date.<br>
-**441ee257** (8 hours ago) _Marshall Whittaker_: Took worldnews files out.<br>
-**474bd105** (8 hours ago) _Marshall Whittaker_: Added the ability to parse current events off an API.<br>
-**9db6ded0** (11 hours ago) _Marshall Whittaker_: Perltidy cleanup.<br>
-**5b66e75f** (11 hours ago) _Marshall Whittaker_: Merge branch 'cohere-base_command' of ssh://github.com/oxagast/Franklin into cohere-base_command<br>
-**c7cd4ab3** (11 hours ago) _Marshall Whittaker_: Now can get free memory out of total memory for environment info.<br>
-**59ae9393** (7 days ago) _GitHub_: Merge pull request #26 from oxagast/frank_master<br>
-**4874401b** (7 days ago) _GitHub_: Update SUPPORT.md<br>
-**849acf29** (7 days ago) _Marshall Whittaker_: Changelog updates.<br>
-**432bf627** (7 days ago) _Marshall Whittaker_: Up.<br>
-**8d6a0111** (7 days ago) _Marshall Whittaker_: Turned off that subroutine that was making it respawn inside itself recurively, oof.<br>
-**e64826f5** (8 days ago) _Marshall Whittaker_: Minor touchups to helper config.<br>
-**e531b08d** (8 days ago) _Marshall Whittaker_: ACL works better now.<br>
-**b7eb9a47** (8 days ago) _Marshall Whittaker_: Fixing permissions on all files.<br>
-**610cc59e** (11 days ago) _GitHub_: Create SUPPORT.md<br>
-**d11b2f9f** (11 days ago) _Marshall Whittaker_: Changelog update.<br>
-**9204b916** (11 days ago) _Marshall Whittaker_: Perltidy cleanup again.<br>
-**8bba44ed** (11 days ago) _Marshall Whittaker_: Trying to santiize JSON user input properly to prevent hangs.<br>
-**434062f3** (2 weeks ago) _Marshall Whittaker_: Logging for link generation.<br>
-**69d98b27** (2 weeks ago) _Marshall Whittaker_: Perltidy cleanup.<br>
-**afa887b9** (2 weeks ago) _Marshall Whittaker_: Added a note as to why  has to be what it is.<br>
-**60869d8f** (2 weeks ago) _Marshall Whittaker_: Set the hardlimit's upper bound a tad higher, because after some refinement it can handle 10 more chars.<br>
-**ebbf0634** (2 weeks ago) _Marshall Whittaker_: Perltidy cleanup.<br>
-**20d87271** (2 weeks ago) _Marshall Whittaker_: Updated CHANGELOG.md<br>
-**39ded85e** (2 weeks ago) _GitHub_: Merge pull request #24 from oxagast/frank_master<br>
-**2377a1a4** (2 weeks ago) _GitHub_: Merge pull request #23 from oxagast/cohere-base_command<br>
-**c030d579** (2 weeks ago) _Marshall Whittaker_: Added a link command.<br>
-**9bd729c1** (2 weeks ago) _Marshall Whittaker_: Added a link call.<br>
-**78b4e104** (2 weeks ago) _Marshall Whittaker_: Backed the continue line up by 3 characters to get the whole word.<br>
-**fa4f6eaf** (2 weeks ago) _Marshall Whittaker_: Trying to get conditional loop correct.<br>
-**2a16274e** (2 weeks ago) _Marshall Whittaker_: Squelch triple output.<br>
-**aebc8ccb** (2 weeks ago) _Marshall Whittaker_: Made the continue max len equal to the hardlimit var so they match up.<br>
-**20add4fa** (2 weeks ago) _Marshall Whittaker_: Fixing wrong type of 'not equal' conditional used.<br>
-**ce6b9b84** (2 weeks ago) _Marshall Whittaker_: Trying to work the error out on first try fail bug.<br>
-**8c718b44** (4 weeks ago) _GitHub_: Update helperfrank.pl<br>
-**329375ce** (4 weeks ago) _GitHub_: Update README.md<br>
-**574ec4b0** (4 weeks ago) _GitHub_: Merge pull request #21 from oxagast/cohere-base_command<br>
-**d3a3b025** (4 weeks ago) _GitHub_: Merge pull request #20 from oxagast/frank_master<br>
-**6d59c953** (4 weeks ago) _Marshall Whittaker_: Made some minor changes to an upcoming feature.<br>
-**3100e9a7** (4 weeks ago) _Marshall Whittaker_: Specifically allowed bot.log file into repo.<br>
-**2843b1ab** (5 weeks ago) _Marshall Whittaker_: Changes.<br>
-**5cc4b6b9** (5 weeks ago) _Marshall Whittaker_: Created a way to set the verbosity of the log file, to either very quiet (0) all the way to very noisey (3).<br>
-**9f5c1e30** (5 weeks ago) _Marshall Whittaker_: Added a reboot function to helperfrank. It can only be used as person set in irssi vars as franklin_admin.<br>
-**08e05326** (5 weeks ago) _Marshall Whittaker_: Perltidy on franklin.<br>
-**b43a2392** (5 weeks ago) _Marshall Whittaker_: Updated said/ backup.<br>
-**57fbdb13** (5 weeks ago) _GitHub_: Update .perltidyrc<br>
-**9e4f7bf3** (5 weeks ago) _Marshall Whittaker_: Updated readme.<br>
-**9a6720b0** (5 weeks ago) _Marshall Whittaker_: Changelog updated<br>
-**5e7efd6f** (5 weeks ago) _Marshall Whittaker_: Try adding a html linbraek in changelog.<br>
-**328ef590** (5 weeks ago) _Marshall Whittaker_: Added changelog in markdown.<br>
-**d66cf16a** (5 weeks ago) _Marshall Whittaker_: Fixed stray 'i;', also fixed the recognition of alphanumeric chars with \w for the txid, fixed total chunks not right bug.<br>
-**5d201633 (frank_master)** (5 weeks ago) _GitHub_: Merge pull request #19 from oxagast/cohere-base_command<br>
-**aa9fb74e** (5 weeks ago) _Marshall Whittaker_: Updated frank's version number.<br>
-**0f8ec9f6** (5 weeks ago) _Marshall Whittaker_: Changelog addition.<br>
-**df732816** (5 weeks ago) _Marshall Whittaker_: Perltidy.<br>
-**b297acaa** (5 weeks ago) _Marshall Whittaker_: Fixed bug with the asshat level warning (our greater/lesser qualilifier was backwards).  Added a couple more things for more verbose logging.<br>
-**dbaea113** (5 weeks ago) _GitHub_: Update README.md<br>
-**1bac83fc** (5 weeks ago) _GitHub_: Update README.md<br>
-**e3862095** (5 weeks ago) _GitHub_: Update README.md<br>
-**475bdce8** (5 weeks ago) _Marshall Whittaker_: Commiting the merge of of frank master and the cohere branch.<br>
-**059398f3** (5 weeks ago) _Marshall Lee Whittaker_: Revamp on logging, now using a concise subroutine.<br>
-**62e4eb32** (5 weeks ago) _Marshall Whittaker_: Unstashed.<br>
-**dcd080df** (5 weeks ago) _GitHub_: Update franklin.pl<br>
-**16929aa9** (5 weeks ago) _Marshall Whittaker_: Fixed the case sensitivity bug in txidchans spec.  Also added the feature 'Franklin: continue [txid] [part]'.<br>
-**b3eca35e** (5 weeks ago) _Marshall Whittaker_: Fixed a double error message bug.<br>
-**07fb696c (tag: v4.0.0)** (5 weeks ago) _GitHub_: Merge pull request #16 from oxagast/cohere-base_command<br>
-**a7ad73fe** (5 weeks ago) _Marshall Whittaker_: Fixed comment outdenting for better readability, fixed some minor errors.<br>
-**a94fb641** (5 weeks ago) _Marshall Whittaker_: Fixed some minor things, added a autoreload on suspected hang.<br>
-**65f1b525** (5 weeks ago) _Marshall Whittaker_: Fixed how it would not respond on the first query after reload, becase there was nothing in the spots in the  array. Otherwise pulling undef from [1], [2], etc will not satisfy the json and make it valid.  Adding just bunk to the array works.<br>
-**fd7564b2** (5 weeks ago) _Marshall Whittaker_: Perltidy.<br>
-**260c3ea5** (5 weeks ago) _Marshall Whittaker_: Got rid of stray " in contetxt bug.  Repositioned the user articles to better match a conversation.<br>
+**2f3c2cdc (HEAD -> cohere-base_command, origin/cohere-base_command)** (2 days ago) _Marshall Whittaker_: Updated said backup.<br>
+**62afe11d** (2 days ago) _Marshall Whittaker_: Finally thinking i've ironed out the intermittent hang bug, special characters were not properly santized and introduced into the json going to the API, making the api return a failure unhandled by Franklin.<br>
+**ad6c4ca0** (4 days ago) _Marshall Whittaker_: Oops no hash.<br>
+**1ffcf18d** (4 days ago) _Marshall Whittaker_: Added period to the list.<br>
+**71b14b15** (4 days ago) _Marshall Whittaker_: Trying to iron out a bug.<br>
+**6e3e9b3c** (5 days ago) _Marshall Whittaker_: Fixed check for nick equaling caller in helperfrank.pl.<br>
+**bff67812** (6 days ago) _Marshall Whittaker_: Edited version number.<br>
+**f63d060a** (6 days ago) _Marshall Whittaker_: Updated changelog.<br>
+**2d5744b5** (6 days ago) _Marshall Whittaker_: Perltidy run to cleanup.<br>
+**b6faf7e0** (6 days ago) _Marshall Whittaker_: Appended so the date updates to current date.<br>
+**441ee257** (6 days ago) _Marshall Whittaker_: Took worldnews files out.<br>
+**474bd105** (6 days ago) _Marshall Whittaker_: Added the ability to parse current events off an API.<br>
+**9db6ded0** (6 days ago) _Marshall Whittaker_: Perltidy cleanup.<br>
+**5b66e75f** (6 days ago) _Marshall Whittaker_: Merge branch 'cohere-base_command' of ssh://github.com/oxagast/Franklin into cohere-base_command<br>
+**c7cd4ab3** (6 days ago) _Marshall Whittaker_: Now can get free memory out of total memory for environment info.<br>
+**59ae9393** (13 days ago) _GitHub_: Merge pull request #26 from oxagast/frank_master<br>
+**4874401b** (13 days ago) _GitHub_: Update SUPPORT.md<br>
+**849acf29** (13 days ago) _Marshall Whittaker_: Changelog updates.<br>
+**432bf627** (13 days ago) _Marshall Whittaker_: Up.<br>
+**8d6a0111** (13 days ago) _Marshall Whittaker_: Turned off that subroutine that was making it respawn inside itself recurively, oof.<br>
+**e64826f5** (13 days ago) _Marshall Whittaker_: Minor touchups to helper config.<br>
+**e531b08d** (2 weeks ago) _Marshall Whittaker_: ACL works better now.<br>
+**b7eb9a47** (2 weeks ago) _Marshall Whittaker_: Fixing permissions on all files.<br>
+**610cc59e** (2 weeks ago) _GitHub_: Create SUPPORT.md<br>
+**d11b2f9f** (2 weeks ago) _Marshall Whittaker_: Changelog update.<br>
+**9204b916** (2 weeks ago) _Marshall Whittaker_: Perltidy cleanup again.<br>
+**8bba44ed** (2 weeks ago) _Marshall Whittaker_: Trying to santiize JSON user input properly to prevent hangs.<br>
+**434062f3** (3 weeks ago) _Marshall Whittaker_: Logging for link generation.<br>
+**69d98b27** (3 weeks ago) _Marshall Whittaker_: Perltidy cleanup.<br>
+**afa887b9** (3 weeks ago) _Marshall Whittaker_: Added a note as to why  has to be what it is.<br>
+**60869d8f** (3 weeks ago) _Marshall Whittaker_: Set the hardlimit's upper bound a tad higher, because after some refinement it can handle 10 more chars.<br>
+**ebbf0634** (3 weeks ago) _Marshall Whittaker_: Perltidy cleanup.<br>
+**20d87271** (3 weeks ago) _Marshall Whittaker_: Updated CHANGELOG.md<br>
+**39ded85e** (3 weeks ago) _GitHub_: Merge pull request #24 from oxagast/frank_master<br>
+**2377a1a4** (3 weeks ago) _GitHub_: Merge pull request #23 from oxagast/cohere-base_command<br>
+**c030d579** (3 weeks ago) _Marshall Whittaker_: Added a link command.<br>
+**9bd729c1** (3 weeks ago) _Marshall Whittaker_: Added a link call.<br>
+**78b4e104** (3 weeks ago) _Marshall Whittaker_: Backed the continue line up by 3 characters to get the whole word.<br>
+**fa4f6eaf** (3 weeks ago) _Marshall Whittaker_: Trying to get conditional loop correct.<br>
+**2a16274e** (3 weeks ago) _Marshall Whittaker_: Squelch triple output.<br>
+**aebc8ccb** (3 weeks ago) _Marshall Whittaker_: Made the continue max len equal to the hardlimit var so they match up.<br>
+**20add4fa** (3 weeks ago) _Marshall Whittaker_: Fixing wrong type of 'not equal' conditional used.<br>
+**ce6b9b84** (3 weeks ago) _Marshall Whittaker_: Trying to work the error out on first try fail bug.<br>
+**8c718b44** (5 weeks ago) _GitHub_: Update helperfrank.pl<br>
+**329375ce** (5 weeks ago) _GitHub_: Update README.md<br>
+**574ec4b0** (5 weeks ago) _GitHub_: Merge pull request #21 from oxagast/cohere-base_command<br>
+**d3a3b025** (5 weeks ago) _GitHub_: Merge pull request #20 from oxagast/frank_master<br>
+**6d59c953** (5 weeks ago) _Marshall Whittaker_: Made some minor changes to an upcoming feature.<br>
+**3100e9a7** (5 weeks ago) _Marshall Whittaker_: Specifically allowed bot.log file into repo.<br>
+**2843b1ab** (6 weeks ago) _Marshall Whittaker_: Changes.<br>
+**5cc4b6b9** (6 weeks ago) _Marshall Whittaker_: Created a way to set the verbosity of the log file, to either very quiet (0) all the way to very noisey (3).<br>
+**9f5c1e30** (6 weeks ago) _Marshall Whittaker_: Added a reboot function to helperfrank. It can only be used as person set in irssi vars as franklin_admin.<br>
+**08e05326** (6 weeks ago) _Marshall Whittaker_: Perltidy on franklin.<br>
+**b43a2392** (6 weeks ago) _Marshall Whittaker_: Updated said/ backup.<br>
+**57fbdb13** (6 weeks ago) _GitHub_: Update .perltidyrc<br>
+**9e4f7bf3** (6 weeks ago) _Marshall Whittaker_: Updated readme.<br>
+**9a6720b0** (6 weeks ago) _Marshall Whittaker_: Changelog updated<br>
+**5e7efd6f** (6 weeks ago) _Marshall Whittaker_: Try adding a html linbraek in changelog.<br>
+**328ef590** (6 weeks ago) _Marshall Whittaker_: Added changelog in markdown.<br>
+**d66cf16a** (6 weeks ago) _Marshall Whittaker_: Fixed stray 'i;', also fixed the recognition of alphanumeric chars with \w for the txid, fixed total chunks not right bug.<br>
+**5d201633 (frank_master)** (6 weeks ago) _GitHub_: Merge pull request #19 from oxagast/cohere-base_command<br>
+**aa9fb74e** (6 weeks ago) _Marshall Whittaker_: Updated frank's version number.<br>
+**0f8ec9f6** (6 weeks ago) _Marshall Whittaker_: Changelog addition.<br>
+**df732816** (6 weeks ago) _Marshall Whittaker_: Perltidy.<br>
+**b297acaa** (6 weeks ago) _Marshall Whittaker_: Fixed bug with the asshat level warning (our greater/lesser qualilifier was backwards).  Added a couple more things for more verbose logging.<br>
+**dbaea113** (6 weeks ago) _GitHub_: Update README.md<br>
+**1bac83fc** (6 weeks ago) _GitHub_: Update README.md<br>
+**e3862095** (6 weeks ago) _GitHub_: Update README.md<br>
+**475bdce8** (6 weeks ago) _Marshall Whittaker_: Commiting the merge of of frank master and the cohere branch.<br>
+**059398f3** (6 weeks ago) _Marshall Lee Whittaker_: Revamp on logging, now using a concise subroutine.<br>
+**62e4eb32** (6 weeks ago) _Marshall Whittaker_: Unstashed.<br>
+**dcd080df** (6 weeks ago) _GitHub_: Update franklin.pl<br>
+**16929aa9** (6 weeks ago) _Marshall Whittaker_: Fixed the case sensitivity bug in txidchans spec.  Also added the feature 'Franklin: continue [txid] [part]'.<br>
+**b3eca35e** (6 weeks ago) _Marshall Whittaker_: Fixed a double error message bug.<br>
+**07fb696c (tag: v4.0.0)** (6 weeks ago) _GitHub_: Merge pull request #16 from oxagast/cohere-base_command<br>
+**a7ad73fe** (6 weeks ago) _Marshall Whittaker_: Fixed comment outdenting for better readability, fixed some minor errors.<br>
+**a94fb641** (6 weeks ago) _Marshall Whittaker_: Fixed some minor things, added a autoreload on suspected hang.<br>
+**65f1b525** (6 weeks ago) _Marshall Whittaker_: Fixed how it would not respond on the first query after reload, becase there was nothing in the spots in the  array. Otherwise pulling undef from [1], [2], etc will not satisfy the json and make it valid.  Adding just bunk to the array works.<br>
+**fd7564b2** (6 weeks ago) _Marshall Whittaker_: Perltidy.<br>
+**260c3ea5** (6 weeks ago) _Marshall Whittaker_: Got rid of stray " in contetxt bug.  Repositioned the user articles to better match a conversation.<br>
 **48f2d1fa** (6 weeks ago) _Marshall Whittaker_: Fixed some sanitization issues with the dcp.<br>
 **8faabeba** (6 weeks ago) _Marshall Whittaker_: Added Sys:: related calls to get real mem and cpu stats.<br>
 **0a091c8c** (6 weeks ago) _Marshall Whittaker_: Version change and some comments.<br>
@@ -86,7 +94,7 @@
 **c8b6da38** (6 weeks ago) _Marshall Whittaker_: Revamed some code to work with Cohere LLM AI on this branch.<br>
 **daed6449** (3 months ago) _Marshall Whittaker_: Tested increase in token length accomodated by GPT 3.5 Turbo Instruct (4096 tok).<br>
 **f3e25bb0** (4 months ago) _marshall whittaker_: Added logging.<br>
-**f57f03f2** (4 months ago) _marshall whittaker_: Added a 2.5 second pause before retrying the API call.<br>
+**f57f03f2** (5 months ago) _marshall whittaker_: Added a 2.5 second pause before retrying the API call.<br>
 **08085d9a** (5 months ago) _marshall whittaker_: Perltidy.<br>
 **6b5390af** (5 months ago) _Marshall Lee Whittaker_: Total messages count redo.<br>
 **4d6d920b** (5 months ago) _Marshall Lee Whittaker_: Total messages count.<br>
@@ -177,12 +185,12 @@
 **a6a3c2f8** (6 months ago) _marshall whittaker_: Removed extra g-tag output.<br>
 **e5061ce7** (6 months ago) _marshall whittaker_: woo<br>
 **09ece388** (6 months ago) _marshall whittaker_: Removed the start of a reposne 'response: '.<br>
-**1ce94fb3** (6 months ago) _marshall whittaker_: Rearranged some things that make the rolling chat history and permissions work.<br>
-**d858ab59** (6 months ago) _marshall whittaker_: Took some stuff out of the contextual prelude<br>
-**ea8f4b48** (6 months ago) _marshall whittaker_: HDD and MEM values were switched, fixed.<br>
-**9017ce01** (6 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
-**33227a93** (6 months ago) _Marshall Whittaker_: Minor changes.<br>
-**f6a1965a** (6 months ago) _Marshall Lee Whittaker_: Added a archive of previous Franklin responses.<br>
+**1ce94fb3** (7 months ago) _marshall whittaker_: Rearranged some things that make the rolling chat history and permissions work.<br>
+**d858ab59** (7 months ago) _marshall whittaker_: Took some stuff out of the contextual prelude<br>
+**ea8f4b48** (7 months ago) _marshall whittaker_: HDD and MEM values were switched, fixed.<br>
+**9017ce01** (7 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
+**33227a93** (7 months ago) _Marshall Whittaker_: Minor changes.<br>
+**f6a1965a** (7 months ago) _Marshall Lee Whittaker_: Added a archive of previous Franklin responses.<br>
 **6c285343** (7 months ago) _Marshall Lee Whittaker_: Code cleanup, via perltidy.<br>
 **5260b2bf** (7 months ago) _marshall whittaker_: Cleaning up some.<br>
 **e529bb7e** (7 months ago) _marshall whittaker_: Now responds to PMs properly.<br>
@@ -199,10 +207,10 @@
 **3e4e16e9** (7 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
 **fe183898** (7 months ago) _marshall whittaker_: Shortened the contextual prelude some.<br>
 **63c94247** (7 months ago) _marshall whittaker_: Added some more information about the server Franklin is on.<br>
-**9897268e** (7 months ago) _marshall whittaker_: Oof don't overwtei me<br>
-**f805881b** (7 months ago) _Marshall Lee Whittaker_: Renamed helper.pl to franklin_helper.pl.<br>
-**abadb17d** (7 months ago) _GitHub_: Took out trigger and am now using franklin_helper<br>
-**4bcabcdd** (7 months ago) _GitHub_: Some updates to reflect new features.<br>
+**9897268e** (8 months ago) _marshall whittaker_: Oof don't overwtei me<br>
+**f805881b** (8 months ago) _Marshall Lee Whittaker_: Renamed helper.pl to franklin_helper.pl.<br>
+**abadb17d** (8 months ago) _GitHub_: Took out trigger and am now using franklin_helper<br>
+**4bcabcdd** (8 months ago) _GitHub_: Some updates to reflect new features.<br>
 **20314c81** (8 months ago) _marshall whittaker_: You can now add channels via /set franklin_txid_chans seperated by spaces to add a txid to the message.<br>
 **d0f40309** (8 months ago) _Marshall Lee Whittaker_: Trying out a new feature that allows you to hide txids from certain channels.<br>
 **9e8b9c86** (8 months ago) _marshall whittaker_: perltidy<br>
@@ -224,17 +232,17 @@
 **d07ab2e9** (8 months ago) _Marshall Lee Whittaker_: Frank loader?<br>
 **f50ac4a9** (8 months ago) _Marshall Lee Whittaker_: Trying to implemnt a thread for signal.<br>
 **6710b9aa** (8 months ago) _Marshall Lee Whittaker_: Added some returns for code correctness.<br>
-**379a3136** (8 months ago) _Marshall Whittaker_: aaa<br>
-**87741e62** (8 months ago) _Marshall Whittaker_: back<br>
-**6e5dae0e** (8 months ago) _Marshall Whittaker_: Try this.<br>
-**7a7c02ea** (8 months ago) _Marshall Whittaker_: Maybe it was in the wrong spot.<br>
-**3a2657f1** (8 months ago) _Marshall Whittaker_: try this<br>
-**fc7e64f5** (8 months ago) _Marshall Whittaker_: lets try passing a ref<br>
-**4505ae06** (8 months ago) _Marshall Whittaker_: revert with code commented<br>
-**ccf27033** (8 months ago) _Marshall Whittaker_: hmmm<br>
-**113f2980** (8 months ago) _Marshall Whittaker_: Trying thread forking.<br>
-**da61165e** (8 months ago) _Marshall Whittaker_: Fixed error message in chatterbox to reflect 0 to 1000 change.<br>
-**0ee3430c** (8 months ago) _Marshall Whittaker_: Added trigger.pl because we use it for 'Franklin: reload'.<br>
+**379a3136** (9 months ago) _Marshall Whittaker_: aaa<br>
+**87741e62** (9 months ago) _Marshall Whittaker_: back<br>
+**6e5dae0e** (9 months ago) _Marshall Whittaker_: Try this.<br>
+**7a7c02ea** (9 months ago) _Marshall Whittaker_: Maybe it was in the wrong spot.<br>
+**3a2657f1** (9 months ago) _Marshall Whittaker_: try this<br>
+**fc7e64f5** (9 months ago) _Marshall Whittaker_: lets try passing a ref<br>
+**4505ae06** (9 months ago) _Marshall Whittaker_: revert with code commented<br>
+**ccf27033** (9 months ago) _Marshall Whittaker_: hmmm<br>
+**113f2980** (9 months ago) _Marshall Whittaker_: Trying thread forking.<br>
+**da61165e** (9 months ago) _Marshall Whittaker_: Fixed error message in chatterbox to reflect 0 to 1000 change.<br>
+**0ee3430c** (9 months ago) _Marshall Whittaker_: Added trigger.pl because we use it for 'Franklin: reload'.<br>
 **fdd0f03e** (9 months ago) _marshall whittaker_: Doubled a line somehow.<br>
 **66491cfc** (9 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
 **b156f05a** (9 months ago) _marshall whittaker_: cleaned some things up<br>
@@ -266,10 +274,10 @@
 **d1de953f** (9 months ago) _marshall whittaker_: Got the kicker working on bad words.<br>
 **621edfb3** (9 months ago) _marshall whittaker_: Got the asshole rating system kinda working. maybe.<br>
 **d33af2a5** (9 months ago) _marshall whittaker_: Started adding asshole detection, and updated readme for 1:1000.<br>
-**4df5cf55** (9 months ago) _marshall whittaker_: Fixed typo in the ua call.<br>
-**957a528b** (9 months ago) _GitHub_: Update franklin.pl<br>
-**21a12fab** (9 months ago) _GitHub_: Update franklin.pl<br>
-**cdc2151b** (10 months ago) _marshall whittaker_: Franklin now knows what time it is!<br>
+**4df5cf55** (10 months ago) _marshall whittaker_: Fixed typo in the ua call.<br>
+**957a528b** (10 months ago) _GitHub_: Update franklin.pl<br>
+**21a12fab** (10 months ago) _GitHub_: Update franklin.pl<br>
+**cdc2151b** (11 months ago) _marshall whittaker_: Franklin now knows what time it is!<br>
 **6cc2a39f** (10 months ago) _marshall whittaker_: Trigger suggestion in readme.<br>
 **8dc6d019** (10 months ago) _marshall whittaker_: Now knows what the current date is.<br>
 **f74374cc** (10 months ago) _marshall whittaker_: Fixed if the context is too long it doesn't answer or answers garbled.<br>
@@ -279,8 +287,8 @@
 **a235b79f** (10 months ago) _marshall whittaker_: lets see if eniac can read the api key now.<br>
 **8647e2d5** (10 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
 **8ca5e055** (10 months ago) _marshall whittaker_: Added a setting to control the google analytics G- tag without changing the source.<br>
-**7f15642f** (10 months ago) _GitHub_: Removed some old comments that didn't mean anything anymore<br>
-**8162435d** (10 months ago) _marshall whittaker_: Fixed not having a franklin_http_location in settings and thus having it always set to undef and files saving to wront location.<br>
+**7f15642f** (11 months ago) _GitHub_: Removed some old comments that didn't mean anything anymore<br>
+**8162435d** (11 months ago) _marshall whittaker_: Fixed not having a franklin_http_location in settings and thus having it always set to undef and files saving to wront location.<br>
 **602b4e31** (11 months ago) _GitHub_: Comments for context<br>
 **69756e49** (11 months ago) _GitHub_: Update contextual prelude<br>
 **5b149dfb** (11 months ago) _marshall whittaker_: Added info str for user defined info about networks.<br>
@@ -317,18 +325,18 @@
 **d4e8902c** (11 months ago) _marshall whittaker_: Fixed a default.<br>
 **02d8cd2c** (11 months ago) _marshall whittaker_: Fixing chatterbox mode.<br>
 **fc8f0e86** (11 months ago) _marshall whittaker_: Added some more text corrections, and some less vague error messages for users.<br>
-**b956aaca** (11 months ago) _marshall whittaker_: Removed the old html parts.<br>
-**06dee39d** (11 months ago) _marshall whittaker_: Modfied so that it no longer reads the HTML from files, this causes some errors sometimes.<br>
-**d57bc6a3** (11 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
-**cfc5ddee** (11 months ago) _marshall whittaker_: Got the lockup bug ironed out.<br>
-**69b88199** (11 months ago) _GitHub_: Update franklin.pl<br>
-**9b12aa40** (11 months ago) _GitHub_: Update README.md<br>
-**b0cba030** (11 months ago) _GitHub_: Thanks to the people this project has benefited from<br>
-**f56913ff** (11 months ago) _marshall whittaker_: Took out the entier frank_thinks subroutine becuase it needs to be redesigned from the ground up.<br>
-**b8a9224a** (11 months ago) _marshall whittaker_: Changed the loop to a goto statement, we're gonna see if tightening that up helps.<br>
-**69c2d73a** (11 months ago) _marshall whittaker_: Fixed the error always popping up about chatterbox mode.<br>
-**873dfc10** (11 months ago) _GitHub_: Update franklin.pl<br>
-**19822f4e** (11 months ago) _marshall whittaker_: Trying to get rid of the hang that stops it, also forks off the say's now.<br>
+**b956aaca** (12 months ago) _marshall whittaker_: Removed the old html parts.<br>
+**06dee39d** (12 months ago) _marshall whittaker_: Modfied so that it no longer reads the HTML from files, this causes some errors sometimes.<br>
+**d57bc6a3** (12 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
+**cfc5ddee** (12 months ago) _marshall whittaker_: Got the lockup bug ironed out.<br>
+**69b88199** (12 months ago) _GitHub_: Update franklin.pl<br>
+**9b12aa40** (12 months ago) _GitHub_: Update README.md<br>
+**b0cba030** (12 months ago) _GitHub_: Thanks to the people this project has benefited from<br>
+**f56913ff** (12 months ago) _marshall whittaker_: Took out the entier frank_thinks subroutine becuase it needs to be redesigned from the ground up.<br>
+**b8a9224a** (12 months ago) _marshall whittaker_: Changed the loop to a goto statement, we're gonna see if tightening that up helps.<br>
+**69c2d73a** (12 months ago) _marshall whittaker_: Fixed the error always popping up about chatterbox mode.<br>
+**873dfc10** (12 months ago) _GitHub_: Update franklin.pl<br>
+**19822f4e** (12 months ago) _marshall whittaker_: Trying to get rid of the hang that stops it, also forks off the say's now.<br>
 **3348a1a6** (12 months ago) _marshall whittaker_: Now shows approx cost of generating a message.<br>
 **51268952** (12 months ago) _marshall whittaker_: Learning mode is getting better.<br>
 **6b4e1250** (12 months ago) _marshall whittaker_: Since the website is in a branch of its own now, its gone from here.<br>
@@ -363,11 +371,11 @@
 **9278e5a7** (12 months ago) _marshall whittaker_: Adjusted the sanitzation to the proper spot in code.<br>
 **9fd3f01e** (12 months ago) _marshall whittaker_: klMerge branch 'main' of github.com:oxagast/Franklin<br>
 **26326d39** (12 months ago) _marshall whittaker_: Fixed double quote -> single quote bug, and added html pages as pretty output for IRC, but kept the .txt output too.<br>
-**01498105** (12 months ago) _GitHub_: Updated screenshot<br>
-**ec277be4** (12 months ago) _GitHub_: Add files via upload<br>
-**ffe13039** (12 months ago) _GitHub_: Update README.md<br>
-**f3d6ad49** (12 months ago) _marshall whittaker_: Now works when you address franklin with either : or ,.<br>
-**85f79801** (1 year ago) _GitHub_: Added .txt file extension to files in said/<br>
+**01498105** (1 year ago) _GitHub_: Updated screenshot<br>
+**ec277be4** (1 year ago) _GitHub_: Add files via upload<br>
+**ffe13039** (1 year ago) _GitHub_: Update README.md<br>
+**f3d6ad49** (1 year ago) _marshall whittaker_: Now works when you address franklin with either : or ,.<br>
+**85f79801** (1 year, 1 month ago) _GitHub_: Added .txt file extension to files in said/<br>
 **ee0bee05** (1 year, 1 month ago) _marshall whittaker_: Changed website to reflect some changes and gpt4.<br>
 **24bf9f8b** (1 year, 1 month ago) _GitHub_: Edited README resource.<br>
 **28fffd98** (1 year, 1 month ago) _GitHub_: Edited the README resource.<br>
@@ -432,37 +440,37 @@
 **3837c6dd** (1 year, 3 months ago) _Marshall Lee Whittaker_: Santisiation of nicks.<br>
 **7b851fde** (1 year, 3 months ago) _Marshall Lee Whittaker_: Fixed backticks in nicks maybe.<br>
 **0896e628** (1 year, 3 months ago) _Marshall Lee Whittaker_: Added the website<br>
-**d18b1e63** (1 year, 3 months ago) _Marshall Lee Whittaker_: Checking and setup.<br>
-**d9214351** (1 year, 3 months ago) _marshall whittaker_: Fixed collisons on md5 by checksumming the text itself.<br>
-**4c8e68e9** (1 year, 3 months ago) _GitHub_: Spelling<br>
-**fee04d09** (1 year, 3 months ago) _GitHub_: updated thanks<br>
-**d056148e** (1 year, 3 months ago) _GitHub_: Update README.md<br>
-**a80410e6** (1 year, 3 months ago) _GitHub_: screenshot up<br>
-**66508b61** (1 year, 3 months ago) _Marshall Lee Whittaker_: Screenie<br>
-**91313c7a** (1 year, 3 months ago) _Marshall Lee Whittaker_: Screenie.<br>
-**8bea61a3** (1 year, 3 months ago) _GitHub_: Delete irc_chats.png<br>
-**328fcef9** (1 year, 3 months ago) _Marshall Lee Whittaker_: IRC screenshot.<br>
-**d5790774** (1 year, 3 months ago) _Marshall Lee Whittaker_: removed swap file and added to gitignore<br>
-**308b32f0** (1 year, 3 months ago) _Marshall Lee Whittaker_: hehe<br>
-**28d69b24** (1 year, 3 months ago) _marshall whittaker_: Formatted the long api call to something more readable on multi lines.<br>
-**f3fdc979** (1 year, 3 months ago) _marshall whittaker_: some commenting<br>
-**372edc04** (1 year, 3 months ago) _marshall whittaker_: Fixed collisions.<br>
-**5f322dbe** (1 year, 3 months ago) _Marshall Lee Whittaker_: formatting.<br>
-**8190523b** (1 year, 3 months ago) _marshall whittaker_: Removed extreneous file.<br>
-**ed941965** (1 year, 3 months ago) _marshall whittaker_: readme heading<br>
-**6076b1fa** (1 year, 3 months ago) _marshall whittaker_: readme heading<br>
-**247d7c2a** (1 year, 3 months ago) _marshall whittaker_: Edited some readme stuff.<br>
-**88f3f7be** (1 year, 3 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
-**97b6d814** (1 year, 3 months ago) _marshall whittaker_: Added some setup info.<br>
-**97928e3c** (1 year, 3 months ago) _GitHub_: Added the callers nick for ban list use<br>
-**55f199a6** (1 year, 3 months ago) _marshall whittaker_: New api storing.<br>
-**4c5e3148** (1 year, 3 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
-**a8bf2633** (1 year, 3 months ago) _marshall whittaker_: Removed some stuff that isn't needed.<br>
-**3e921c6f** (1 year, 3 months ago) _GitHub_: Update block.list<br>
-**adb033fc** (1 year, 3 months ago) _marshall whittaker_: oops Merge branch 'main' of github.com:oxagast/Franklin<br>
-**ce5fd6ea** (1 year, 3 months ago) _marshall whittaker_: Some acl as well as a lengthy message output holder.<br>
-**4338fa1d** (1 year, 3 months ago) _GitHub_: sanitize<br>
-**60018e39** (1 year, 3 months ago) _Marshall Whittaker_: Added soft and hard limit vars.<br>
+**d18b1e63** (1 year, 4 months ago) _Marshall Lee Whittaker_: Checking and setup.<br>
+**d9214351** (1 year, 4 months ago) _marshall whittaker_: Fixed collisons on md5 by checksumming the text itself.<br>
+**4c8e68e9** (1 year, 4 months ago) _GitHub_: Spelling<br>
+**fee04d09** (1 year, 4 months ago) _GitHub_: updated thanks<br>
+**d056148e** (1 year, 4 months ago) _GitHub_: Update README.md<br>
+**a80410e6** (1 year, 4 months ago) _GitHub_: screenshot up<br>
+**66508b61** (1 year, 4 months ago) _Marshall Lee Whittaker_: Screenie<br>
+**91313c7a** (1 year, 4 months ago) _Marshall Lee Whittaker_: Screenie.<br>
+**8bea61a3** (1 year, 4 months ago) _GitHub_: Delete irc_chats.png<br>
+**328fcef9** (1 year, 4 months ago) _Marshall Lee Whittaker_: IRC screenshot.<br>
+**d5790774** (1 year, 4 months ago) _Marshall Lee Whittaker_: removed swap file and added to gitignore<br>
+**308b32f0** (1 year, 4 months ago) _Marshall Lee Whittaker_: hehe<br>
+**28d69b24** (1 year, 4 months ago) _marshall whittaker_: Formatted the long api call to something more readable on multi lines.<br>
+**f3fdc979** (1 year, 4 months ago) _marshall whittaker_: some commenting<br>
+**372edc04** (1 year, 4 months ago) _marshall whittaker_: Fixed collisions.<br>
+**5f322dbe** (1 year, 4 months ago) _Marshall Lee Whittaker_: formatting.<br>
+**8190523b** (1 year, 4 months ago) _marshall whittaker_: Removed extreneous file.<br>
+**ed941965** (1 year, 4 months ago) _marshall whittaker_: readme heading<br>
+**6076b1fa** (1 year, 4 months ago) _marshall whittaker_: readme heading<br>
+**247d7c2a** (1 year, 4 months ago) _marshall whittaker_: Edited some readme stuff.<br>
+**88f3f7be** (1 year, 4 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
+**97b6d814** (1 year, 4 months ago) _marshall whittaker_: Added some setup info.<br>
+**97928e3c** (1 year, 4 months ago) _GitHub_: Added the callers nick for ban list use<br>
+**55f199a6** (1 year, 4 months ago) _marshall whittaker_: New api storing.<br>
+**4c5e3148** (1 year, 4 months ago) _marshall whittaker_: Merge branch 'main' of github.com:oxagast/Franklin<br>
+**a8bf2633** (1 year, 4 months ago) _marshall whittaker_: Removed some stuff that isn't needed.<br>
+**3e921c6f** (1 year, 4 months ago) _GitHub_: Update block.list<br>
+**adb033fc** (1 year, 4 months ago) _marshall whittaker_: oops Merge branch 'main' of github.com:oxagast/Franklin<br>
+**ce5fd6ea** (1 year, 4 months ago) _marshall whittaker_: Some acl as well as a lengthy message output holder.<br>
+**4338fa1d** (1 year, 4 months ago) _GitHub_: sanitize<br>
+**60018e39** (1 year, 4 months ago) _Marshall Whittaker_: Added soft and hard limit vars.<br>
 **332d1523** (1 year, 4 months ago) _Marshall Whittaker_: Fixed the jq line so it makes more sense.<br>
 **a4d3cdcc** (1 year, 4 months ago) _GitHub_: A perl script from the irssi archives.<br>
 **028a5bc5** (1 year, 4 months ago) _GitHub_: Create trigger_for_irssi.txt<br>

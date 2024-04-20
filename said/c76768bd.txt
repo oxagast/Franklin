@@ -1,0 +1,3 @@
+oxagast asked can you tell me how many questions youve been asked since last reload in #2600? with hash c76768bd
+<---- snip ---->
+I have been asked 67 things since load.
