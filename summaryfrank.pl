@@ -50,9 +50,11 @@ sub buildjson {
               ($nick => {create_date => "04182024", change_date => "04192024",
               total_messages => $totmsgs, queries_per_day => 4, mentions_per_day => 5,
               messages_per_day => 18, average_message_length => 78, operator => false,
-              (messages => {last => { $lastm[0], $lastm[1], $lastm[2] }, random => { $rndm[0], $rndm[1], $rndm[2] }})}));
-$json_nick = create_json (\%summdb);
-Irssi::print $json_nick;
+              (messages => {last => [ $lastm[0], $lastm[1], $lastm[2] ],
+              random => [ $rndm[0], $rndm[1], $rndm[2] ]})}));
+
+    $json_nick = create_json (\%summdb);
+    Irssi::print $json_nick;
 }
 
 # this could maybe work like ...
