@@ -14,6 +14,7 @@ use vars qw($VERSION %IRSSI);
 use utf8;
 use JSON::Create 'create_json';
 use Proc::Simple;
+use POSIX qw(strftime);
 
 $userfile = "1.0.0";
 $franklinver = "4.0.0";
@@ -30,12 +31,12 @@ $franklinver = "4.0.0";
 my $sdbloc = "/home/franklin/Franklin/summarydb";
 Irssi::signal_add_last('message public', 'catchmsg');
 
-  buildjson();
 
 sub buildjson {
+ my ($nick, $create_date, $change_date, $totmsgs, $msg) = @_;
 
-@lastm = ("blah", "hello yes i am oxagst", "your mine franklin");
-@rndm = ("archery lol", "i wanna shoot spunk", "or not");
+  push(@lastm, $msg);
+  @rndm = ("", "", "");
 
 
   # the json should look something like the below after generation
@@ -45,16 +46,16 @@ sub buildjson {
   ## ssages":{"last":["hello how are you","oh yeah im fine","yeah my name is oxagast, wh
   ## ats yours"],"random":["blah","no i like girls toes","Franklin: tell me about nyc"]},
   ## "checksum":"B2CCA97A"}
-  $nick = "oxagast";
   %summdb = (( versions => { selfver => $userfile, frankver => $franklinver }),
-              ($nick => {create_date => "04182024", change_date => "04192024",
-              total_messages => $totmsgs, queries_per_day => 4, mentions_per_day => 5,
-              messages_per_day => 18, average_message_length => 78, operator => false,
+              ($nick => {create_date => "$create_date", change_date => "$change_date",
+              total_messages => $totmsgs, queries_per_day => 0, mentions_per_day => 0,
+              messages_per_day => 0, average_message_length => 0, operator => false,
               (messages => {last => [ $lastm[0], $lastm[1], $lastm[2] ],
               random => [ $rndm[0], $rndm[1], $rndm[2] ]})}));
 
     $json_nick = create_json (\%summdb);
     Irssi::print $json_nick;
+    return $json_nick;
 }
 
 # this could maybe work like ...
@@ -64,10 +65,16 @@ sub buildjson {
 
 
 
-#sub catchmsg {
-#   ($server, $msg, $nick, $address, $channel) = @_;
-#   $totmsgs++;
-  #open(SDB, '>', "$sdbloc/$nick");
-  #  print SDB $collected;
-  #close(SDB);
-  #}
+sub catchmsg {
+  my ($server, $msg, $nick, $address, $channel) = @_;
+  $totmsgs++;
+  my $create_date;
+  if (-e "$sdbloc/$nick") {
+    $create_date = strftime("%m%d%Y", localtime);
+  }
+  my $change_date = strftime("%m%d%Y", localtime);
+  $sdbjson = buildjson($nick, $create_date, $change_date, $totmsgs, $msg);
+  open(SDB, '>', "$sdbloc/$nick");
+  print SDB $sdbjson;
+  close(SDB);
+}
