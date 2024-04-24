@@ -399,10 +399,11 @@ sub callapi {
     $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     $chatsan =~ s/[^a-zA-Z0-9,. #]+//g;
-    $dcp =~ s/[^a-zA-Z0-9,. #]+//g;
-    $ut =~ s/[^a-zA-Z0-9,. #]+//g;
-    $flast =~ s/[^a-zA-Z0-9,. #]+//g;
+    $dcp     =~ s/[^a-zA-Z0-9,. #]+//g;
+    $ut      =~ s/[^a-zA-Z0-9,. #]+//g;
+    $flast   =~ s/[^a-zA-Z0-9,. #]+//g;
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
+
     # Below we are building the request thats sent to the API server via POST.
     $ua->default_header("accept"        => "application/json");
     $ua->default_header("content-type"  => "application/json");
@@ -479,6 +480,7 @@ sub callapi {
         my $said_cut = substr($said, 0, $hardlimit);                                               # preparing string to send back to channel...
         $said_cut =~ s/\n/ /g;                                                                     # fixes newlines for irc compat
         $flast = $said_cut;
+
         if ($type eq "pm") {
           logit(1, "Response to $nick\'s query sent to them in PM.");
           $server->command("query $nick");                                                         # If this is pm open win
@@ -636,16 +638,16 @@ sub checkcmsg {
         return 0;
       }
       if ($textcall =~ m/^reboot/i) {
-         logit(0, "The user $nick called can admin command, server reboot.");
-         return 0;
+        logit(0, "The user $nick called can admin command, server reboot.");
+        return 0;
       }
-       if ($textcall =~ m/^levelup/i) {
-         logit(0, "The user $nick called an admin command, mode operator status.");
-         return 0;
+      if ($textcall =~ m/^levelup/i) {
+        logit(0, "The user $nick called an admin command, mode operator status.");
+        return 0;
       }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while ($try <= $maxretry) {                                    # this fixes when Franklin sometimes fails to respond
+        while ($try <= $maxretry) {                                                                # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
           return callapi($textcall, $server, $nick, $channel, $type);
           $try++;
