@@ -374,7 +374,7 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines The current chat history for the channel $channel is: $context";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -395,9 +395,6 @@ sub callapi {
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-    $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-    $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-    $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
     $chatsan =~ s/[^a-zA-Z0-9,. #]+//g;
     $dcp     =~ s/[^a-zA-Z0-9,. #]+//g;
     $ut      =~ s/[^a-zA-Z0-9,. #]+//g;
@@ -706,11 +703,11 @@ sub checkpmsg {
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
       my $try = 1;
-      while (($wrote eq 1) && ($try le $maxretry)) {
+      while ($try <= $maxretry) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
         $try++;
         sleep(2.5);
-        if ($try ge $maxretry) {
+        if ($try >= $maxretry) {
           $isup = 1;
           $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
           logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");

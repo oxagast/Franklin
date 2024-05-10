@@ -27,11 +27,23 @@ $franklinver = "4.0.0";
           url         => 'http://franklin.oxasploits.com',
           changed     => 'Mar, 11th 2024',
 );
+my $sdbloc = "/home/franklin/Franklin/fprofiles";
 Irssi::signal_add_last('message public', 'catchmsg');
-my $sdbloc = "/home/franklin/Franklin/fprofiles/";
+
 
 sub buildjson {
-  my ($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_line_length, @lastm, @rndm) = @_;
+  my ($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_line_length) = @_;
+  my @lastm, @rndm;
+  push(@lastm, $msg);
+  if($#lastm >= 8) {
+  shift(@lastm);
+}
+  if(int(rand(10)) == 0) {
+    push(@rndm, $msg);
+   if($#rndm >= 8) {
+   shift(@rndm);
+}
+  }
 ($sec,$min,$hour,$day,$mon,$year_1900,$wday,$yday,$isdst)=localtime;
 if(($hour == 0) && ($min == 0)) {
 $nh{'qpd'} = $nh{'qpd'}/2;
@@ -65,8 +77,8 @@ $hn{'tot'} = $totmsgs + 1;
                         operator               => false,
                         (
                          messages => {
-                                      last   => [@lastm],
-                                      random => [@rndm]
+                                      last   => [@lastm[0], @lastm[1], @lastm[2], @lastm[3], @lastm[4], @lastm[5], @lastm[6], @lastm[7]],
+                                      random => [@rndm[0],  @rndm[1],  @rndm[2], @rndm[3],  @rndm[4],  @rndm[5], @rndm[6], @rndm[7]]
                          }
                         )
               }
@@ -95,37 +107,22 @@ sub catchmsg {
     close(SDBI);
   }
   $dstruct                = parse_json($injson);
+  #Irssi::print $injson;
+  #print Dumper(parse_json($injson));
   $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
   $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
   $create_date            = $dstruct->{$nick}->{create_date};
   $change_date            = $dstruct->{$nick}->{change_date};
   $average_message_length = $dstruct->{$nick}->{average_message_length};
   $oper                   = $dstruct->{$nick}->{operator};
-  for $m (0..scalar( $dstruct->{$nick}->{messages}->{last}[$m])) {
-  @lm[$m]                     = $dstruct->{$nick}->{messages}->{last}[$m];
-}
-  if(scalar(@lm) >= 6) {
-  shift(@lm);
-}
-  push(@lm, $msg);
-
-  for $r (0..6) {
-  @rm[$r]                    = $dstruct->{$nick}->{messages}->{random}[$r];
-  }
-  if(scalar(@rm) >= 6) {
-shift(@rm);
-}
-  if (int(rand(20)) == 0) {
-  push(@rm, $msg);
-}
-
+  #Irssi::print "$queries_per_day $messages_per_day $create_date $change_date $average_message_length $oper";
   my $create_date;
 
   if (-e "$sdbloc/$nick") {
     $create_date = strftime("%m%d%Y", localtime);
   }
   my $change_date = strftime("%m%d%Y", localtime);
-  $sdbjson = buildjson($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, @rm);
+  $sdbjson = buildjson($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_message_length);
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;
   close(SDBO);
