@@ -28,11 +28,18 @@ $franklinver = "4.0.0";
           changed     => 'Mar, 11th 2024',
 );
 Irssi::signal_add_last('message public', 'catchmsg');
-my $sdbloc = "/home/franklin/Franklin/fprofiles/";
-our $prevnick;
+my $sdbloc = "/home/franklin/Franklin/fprofiles/";                                                 # this is the location of the dbase dir
+
 
 sub buildjson {
   my ($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_line_length, @lastm, @rndm) = @_;
+  if (scalar(@lastm) > 8) {
+    shift(@lastm);                                                                                 # this stuff makes it so that there i
+  }                                                                                                # maximum of x items in the 'last' array
+  my $create_date;
+  if (-e "$sdbloc/$nick") {
+    $create_date = strftime("%m%d%Y", localtime);                                                  # creation time in dbase
+  }
   ($sec, $min, $hour, $day, $mon, $year_1900, $wday, $yday, $isdst) = localtime;
   if (($hour == 0) && ($min == 0)) {
     $nh{'qpd'}  = $nh{'qpd'} / 2;
@@ -40,10 +47,10 @@ sub buildjson {
     $nh{'mspd'} = $nh{'msd'} / 2;
   }
   if ($msg =~ m/^Franklin[:|,] /) {
-    $nh{'qpd'} = ($queries_per_day + 1);
+    $nh{'qpd'} = ($queries_per_day + 1);                                                           # franklin was called, we know it was a query
   }
-  $nh{'mspd'} = ($messages_per_day + 1);
-  $nh{'lll'}  = ($average_line_length + length($msg)) / 2;
+  $nh{'mspd'} = ($messages_per_day + 1);                                                           # this is reset every morning at midnight
+  $nh{'lll'}  = ($average_line_length + length($msg)) / 2;                                         # calcs avg line len
   $hn{'tot'}  = $totmsgs + 1;
 
   # the json should look something like the below after generation
@@ -73,7 +80,6 @@ sub buildjson {
               }
              )
   );
-  $prevnick = $nick;
   return create_json(\%summdb);
 }
 
@@ -84,11 +90,12 @@ sub buildjson {
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $injson = "";
-  if (!-e "$sdbloc/$nick") {
-    @init = ();
-    $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 1, 1, 1, 0, $msg, @init);
-    open(SDBN, '>', "$sdbloc/$nick");
-    print SDBN $newjsonout;
+  if (!-e "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
+    @init       = ();                                                                              # so that the random comes in blanked out
+    $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
+                                                                                                   # add to the 'last' space in json
+    open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
+    print SDBN $newjsonout;                                                                        # creates profile
     close(SDBN);
     $injson = $newjsonout;
   }
@@ -96,14 +103,9 @@ sub catchmsg {
     open(SDBI, '<', "$sdbloc/$nick");
     $injson = <SDBI>;
     close(SDBI);
-}
-  $lmn{$nick}             = \@lm;
-  $rmn{$nick}             = \@rm;
-  
-  if($prevnick ne $nick) {
-  @{$lmn{$nick}} = ();
-  @{$rmn{$nick}} = ();
   }
+  $lmn{$nick} = \@lm;
+  $rmn{$nick} = \@rm;
   my $dstruct                = parse_json($injson);
   my $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
   my $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
@@ -112,30 +114,16 @@ sub catchmsg {
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
-  for $m (0 .. scalar($dstruct->{$nick}->{messages}->{last}[$m])-1) {
-    @{$lmn{$nick}}[$m] = $dstruct->{$nick}->{messages}->{last}[$m];
-  }
-  if (scalar(@{$lmn{$nick}}) > 8) {
-    shift(@{$lmn{$nick}});
-  }
-  push(@{$lmn{$nick}}, $msg);
-  for $r (0 .. scalar($dstruct->{$nick}->{messages}->{random}[$r])-1) {
-    @rm[$r] = $dstruct->{$nick}->{messages}->{random}[$r];
-  }
-  if (scalar(@{$rm{$nick}}) > 8) {
-    shift(@{$rm{$nick}});
-  }
-  if (int(rand(25)) == 0) {
-    push(@{$rm{$nick}}, $msg);
-  }
   my $create_date;
+  @lm = @{$dstruct->{$nick}->{messages}->{last}};
+
   if (-e "$sdbloc/$nick") {
-    $create_date = strftime("%m%d%Y", localtime);
+    $change_date = strftime("%m%d%Y", localtime);                                                  # if existing user write update date
   }
   my $change_date = strftime("%m%d%Y", localtime);
-  my $sdbjson = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @{$lmn{$nick}}, @{$rmn{$nick}});
+  my $sdbjson     = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, $msg);
   open(SDBO, '>', "$sdbloc/$nick");
-  print SDBO $sdbjson;
+  print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);
   Irssi::print $sdbjson;
 }
