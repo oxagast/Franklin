@@ -8,3 +8,4 @@ api.key
 worldnews.txt
 wn.txt
 fprofiles/*
+!fprofiles/oxagast
