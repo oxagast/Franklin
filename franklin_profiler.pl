@@ -16,7 +16,7 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-$userfile    = "1.0.0";
+$userfile    = "1.1.2";
 $franklinver = "4.0.0";
 %IRSSI = (
           authors     => 'oxagast',
