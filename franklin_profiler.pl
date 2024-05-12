@@ -29,7 +29,7 @@ $franklinver = "4.0.0";
 );
 Irssi::signal_add_last('message public', 'catchmsg');
 my $sdbloc = "/home/franklin/Franklin/fprofiles/";
-
+our $prevnick;
 
 sub buildjson {
   my ($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_line_length, @lastm, @rndm) = @_;
@@ -59,7 +59,7 @@ sub buildjson {
               $nick => {
                         create_date            => "$create_date",
                         change_date            => "$change_date",
-                        total_messages         => $totmsgs,
+                        total_messages         => $hn{'tot'},
                         queries_per_day        => $nh{'qpd'},
                         messages_per_day       => $nh{'mspd'},
                         average_message_length => $nh{'lll'},
@@ -73,6 +73,7 @@ sub buildjson {
               }
              )
   );
+  $prevnick = $nick;
   return create_json(\%summdb);
 }
 
@@ -84,7 +85,8 @@ sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $injson = "";
   if (!-e "$sdbloc/$nick") {
-    $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 0, 0, 0, 0, 0, 0);
+    @init = ();
+    $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 1, 1, 1, 0, $msg, @init);
     open(SDBN, '>', "$sdbloc/$nick");
     print SDBN $newjsonout;
     close(SDBN);
@@ -94,39 +96,44 @@ sub catchmsg {
     open(SDBI, '<', "$sdbloc/$nick");
     $injson = <SDBI>;
     close(SDBI);
-  }
+}
   $lmn{$nick}             = \@lm;
   $rmn{$nick}             = \@rm;
-  $dstruct                = parse_json($injson);
-  $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
-  $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
-  $create_date            = $dstruct->{$nick}->{create_date};
-  $change_date            = $dstruct->{$nick}->{change_date};
-  $average_message_length = $dstruct->{$nick}->{average_message_length};
-  $oper                   = $dstruct->{$nick}->{operator};
-
-  for $m (0 .. scalar($dstruct->{$nick}->{messages}->{last}[$m])) {
-    @lm[$m] = $dstruct->{$nick}->{messages}->{last}[$m];
+  
+  if($prevnick ne $nick) {
+  @{$lmn{$nick}} = ();
+  @{$rmn{$nick}} = ();
   }
-  if (scalar(@lm) >= 6) {
-    shift(@lm);
+  my $dstruct                = parse_json($injson);
+  my $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
+  my $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
+  my $create_date            = $dstruct->{$nick}->{create_date};
+  my $change_date            = $dstruct->{$nick}->{change_date};
+  my $average_message_length = $dstruct->{$nick}->{average_message_length};
+  my $oper                   = $dstruct->{$nick}->{operator};
+  my $ttls                   = $dstruct->{$nick}->{total_messages};
+  for $m (0 .. scalar($dstruct->{$nick}->{messages}->{last}[$m])-1) {
+    @{$lmn{$nick}}[$m] = $dstruct->{$nick}->{messages}->{last}[$m];
   }
-  push(@lm, $msg);
-  for $r (0 .. 6) {
+  if (scalar(@{$lmn{$nick}}) > 8) {
+    shift(@{$lmn{$nick}});
+  }
+  push(@{$lmn{$nick}}, $msg);
+  for $r (0 .. scalar($dstruct->{$nick}->{messages}->{random}[$r])-1) {
     @rm[$r] = $dstruct->{$nick}->{messages}->{random}[$r];
   }
-  if (scalar(@rm) >= 6) {
-    shift(@rm);
+  if (scalar(@{$rm{$nick}}) > 8) {
+    shift(@{$rm{$nick}});
   }
-  if (int(rand(20)) == 0) {
-    push(@rm, $msg);
+  if (int(rand(25)) == 0) {
+    push(@{$rm{$nick}}, $msg);
   }
   my $create_date;
   if (-e "$sdbloc/$nick") {
     $create_date = strftime("%m%d%Y", localtime);
   }
   my $change_date = strftime("%m%d%Y", localtime);
-  $sdbjson = buildjson($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, @rm);
+  my $sdbjson = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @{$lmn{$nick}}, @{$rmn{$nick}});
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;
   close(SDBO);

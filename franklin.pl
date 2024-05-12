@@ -423,9 +423,12 @@ sub callapi {
       # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
       # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
       my $said  = decode_json($res->decoded_content())->{text};                                    # mostly straightforward json decodes.
-      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
-      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
-      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+      #      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
+      #      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
+      #      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+      my $ctoks = 0;
+      my $ptoks = 0;
+      my $btoks = 0;
       $said = Irssi::strip_codes($said);
       logit(1, "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.");
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
