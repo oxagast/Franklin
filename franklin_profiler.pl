@@ -36,22 +36,22 @@ sub buildjson {
   if (scalar(@lastm) > 8) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
   }                                                                                                # maximum of x items in the 'last' array
-  my $create_date;
-  if (-e "$sdbloc/$nick") {
-    $create_date = strftime("%m%d%Y", localtime);                                                  # creation time in dbase
-  }
   ($sec, $min, $hour, $day, $mon, $year_1900, $wday, $yday, $isdst) = localtime;
+  my ($qpd, $mnpd, $msd);
   if (($hour == 0) && ($min == 0)) {
-    $nh{'qpd'}  = $nh{'qpd'} / 2;
-    $nh{'mnpd'} = $nh{'mnpd'} / 2;
-    $nh{'mspd'} = $nh{'msd'} / 2;
+    $qpd  = $qpd / 2;
+    $mnpd = $mnpd / 2;
+    $msd = $msd / 2;
   }
   if ($msg =~ m/^Franklin[:|,] /) {
-    $nh{'qpd'} = ($queries_per_day + 1);                                                           # franklin was called, we know it was a query
+    $qpd = ($queries_per_day + 1);                                                           # franklin was called, we know it was a query
   }
-  $nh{'mspd'} = ($messages_per_day + 1);                                                           # this is reset every morning at midnight
-  $nh{'lll'}  = ($average_line_length + length($msg)) / 2;                                         # calcs avg line len
-  $hn{'tot'}  = $totmsgs + 1;
+  else {
+    $qpd = $queries_per_day;
+  }
+  $mspd = ($messages_per_day + 1);                                                           # this is reset every morning at midnight
+  my $alll  = ($average_line_length + length($msg)) / 2;                                         # calcs avg line len
+  my $totm  = $totmsgs + 1;
 
   # the json should look something like the below after generation
   ## {"versions":{"userfile":"1.0.0","franklin":"4.0.0"},"nick":"oxagast","create_date":
@@ -66,10 +66,10 @@ sub buildjson {
               $nick => {
                         create_date            => "$create_date",
                         change_date            => "$change_date",
-                        total_messages         => $hn{'tot'},
-                        queries_per_day        => $nh{'qpd'},
-                        messages_per_day       => $nh{'mspd'},
-                        average_message_length => $nh{'lll'},
+                        total_messages         => "$totm",
+                        queries_per_day        => "$qpd",
+                        messages_per_day       => "$mspd",
+                        average_message_length => "$alll",
                         operator               => false,
                         (
                          messages => {
@@ -90,7 +90,7 @@ sub buildjson {
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $injson = "";
-  if (!-e "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
+  if (! -f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
     $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
@@ -114,11 +114,9 @@ sub catchmsg {
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
-  my $create_date;
   @lm = @{$dstruct->{$nick}->{messages}->{last}};
-
-  if (-e "$sdbloc/$nick") {
-    $change_date = strftime("%m%d%Y", localtime);                                                  # if existing user write update date
+  if ($create_date eq "") {
+    $create_date = strftime("%m%d%Y", localtime);
   }
   my $change_date = strftime("%m%d%Y", localtime);
   my $sdbjson     = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, $msg);
