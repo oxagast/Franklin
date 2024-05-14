@@ -16,8 +16,8 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-$userfile    = "1.1.2";
-$franklinver = "4.0.0";
+$userfile    = "1.2.0";
+$franklinver = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -41,17 +41,17 @@ sub buildjson {
   if (($hour == 0) && ($min == 0)) {
     $qpd  = $qpd / 2;
     $mnpd = $mnpd / 2;
-    $msd = $msd / 2;
+    $msd  = $msd / 2;
   }
   if ($msg =~ m/^Franklin[:|,] /) {
-    $qpd = ($queries_per_day + 1);                                                           # franklin was called, we know it was a query
+    $qpd = ($queries_per_day + 1);                                                                 # franklin was called, we know it was a query
   }
   else {
     $qpd = $queries_per_day;
   }
-  $mspd = ($messages_per_day + 1);                                                           # this is reset every morning at midnight
-  my $alll  = ($average_line_length + length($msg)) / 2;                                         # calcs avg line len
-  my $totm  = $totmsgs + 1;
+  $mspd = ($messages_per_day + 1);                                                                 # this is reset every morning at midnight
+  my $alll = ($average_line_length + length($msg)) / 2;                                            # calcs avg line len
+  my $totm = $totmsgs + 1;
 
   # the json should look something like the below after generation
   ## {"versions":{"userfile":"1.0.0","franklin":"4.0.0"},"nick":"oxagast","create_date":
@@ -90,9 +90,9 @@ sub buildjson {
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $injson = "";
-  if (! -f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
+  if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
-    $newjsonout = buildjson($nick, strftime("%m%d%Y", localtime), strftime("%m%d%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
+    $newjsonout = buildjson($nick, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
     open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
     print SDBN $newjsonout;                                                                        # creates profile
@@ -115,10 +115,11 @@ sub catchmsg {
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
   @lm = @{$dstruct->{$nick}->{messages}->{last}};
+
   if ($create_date eq "") {
-    $create_date = strftime("%m%d%Y", localtime);
+    $create_date = strftime("%m-%d-%Y", localtime);
   }
-  my $change_date = strftime("%m%d%Y", localtime);
+  my $change_date = strftime("%m-%d-%Y", localtime);
   my $sdbjson     = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, $msg);
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;                                                                             # update the user in dbase

@@ -25,9 +25,11 @@ use Encode;
 use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Filesys::Df;
+use JSON::Create 'create_json';
+use JSON::Parse ':all';
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.4.1";
+$VERSION = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -53,6 +55,7 @@ Irssi::settings_add_str("franklin", "franklin_asshat_threshold",        "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
+Irssi::settings_add_str("franklin", "franklin_profiles_dir",            "/home/franklin/Franklin/fprofiles");
 Irssi::settings_add_int("franklin", "franklin_total_msgs",    0);
 Irssi::settings_add_int("franklin", "franklin_log_verbosity", "2");
 our $httploc = Irssi::settings_get_str('franklin_http_location');
@@ -77,6 +80,7 @@ our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our $logf      = Irssi::settings_get_str('franklin_log');
 our $verbosity = Irssi::settings_get_str('franklin_log_verbosity');
+our $prosdir   = Irssi::settings_get_str('franklin_profiles_dir');
 our @chat;
 our %moderate;
 our $apikey;
@@ -307,11 +311,51 @@ sub asshat {
   }
 }
 
+sub nickpull {
+    my ($cnk) = @_;
+      if (-f "$prosdir/$cnk") {
+        open(DB, '<', "$prosdir/$cnk");
+        $injson = <DB>;
+        close(DB);
+      }
+      my $dstruct;
+      my ($queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
+      if (valid_json($injson) == 1) {
+        $dstruct                = parse_json($injson);
+        $queries_per_day        = $dstruct->{$cnk}->{queries_per_day};
+        $messages_per_day       = $dstruct->{$cnk}->{messages_per_day};
+        $create_date            = $dstruct->{$cnk}->{create_date};
+        $change_date            = $dstruct->{$cnk}->{change_date};
+        $average_message_length = $dstruct->{$cnk}->{average_message_length};
+        $oper                   = $dstruct->{$cnk}->{operator};
+        $ttls                   = $dstruct->{$cnk}->{total_messages};
+        @lm                     = @{$dstruct->{$cnk}->{messages}->{last}};
+        $wt                     = "";
+
+        for $sa (0 .. scalar(@lm) - 1) {
+          $wt = $wt . " " . @lm[$sa];
+        }
+      }
+      else {
+        $queries_per_day        = 1;
+        $messages_per_day       = 1;
+        $create_date            = "";
+        $change_date            = "";
+        $average_message_length = 0;
+        $oper                   = false;
+        $ttls                   = 1;
+        @lm                     = ();
+        $wt                     = "";
+      }
+      return ("The user $cnk has queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
+}
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   logit(2, "API connection subroutine called.");
   $ut = "$textcall";
+  
+          Irssi::print $server->channel_find($channel)->nicks();
   $reqs++;
   my $retcode = 1;
   logit(2, "Formatting date tag.");
@@ -351,6 +395,21 @@ sub callapi {
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
+
+     my @mentioned = ();
+      my @tcwords = split(/ /, $textcall_bare);
+      foreach my $ccnw ($server->channel_find($channel)->nicks()) {
+          $cnfg = $ccnw->{nick};
+          if (grep(/$cnfg.?/, @tcwords)) {
+          push(@mentioned, $cnfg);
+          }
+       
+      }
+      my $mentiontxt;
+      foreach my $cm (@mentioned) {
+        Irssi::print $cm;
+        $mentiontxt = $mentiontxt . nickpull($cm);
+      }
       # below is the contextual prelude that sets cohere command up
       # with some information about it's environmenmt, as well as the
       # question asked and user who asked it, to more accurately answer
@@ -374,7 +433,8 @@ sub callapi {
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context";
+      my $cmc = nickpull($nick);
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context.  The calling $cmc . The user mentioend in the query $cm has $mentiontxt";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -423,14 +483,15 @@ sub callapi {
       # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
       # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
       my $said  = decode_json($res->decoded_content())->{text};                                    # mostly straightforward json decodes.
-      #      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
-      #      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
-      #      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+                                                                                                   #      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
+                                                                                                   #      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
+                                                                                                   #      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
       my $ctoks = 0;
       my $ptoks = 0;
       my $btoks = 0;
       $said = Irssi::strip_codes($said);
       logit(1, "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.");
+
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
