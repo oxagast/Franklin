@@ -311,51 +311,52 @@ sub asshat {
   }
 }
 
-sub nickpull {
-    my ($cnk) = @_;
-      if (-f "$prosdir/$cnk") {
-        open(DB, '<', "$prosdir/$cnk");
-        $injson = <DB>;
-        close(DB);
-      }
-      my $dstruct;
-      my ($queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
-      if (valid_json($injson) == 1) {
-        $dstruct                = parse_json($injson);
-        $queries_per_day        = $dstruct->{$cnk}->{queries_per_day};
-        $messages_per_day       = $dstruct->{$cnk}->{messages_per_day};
-        $create_date            = $dstruct->{$cnk}->{create_date};
-        $change_date            = $dstruct->{$cnk}->{change_date};
-        $average_message_length = $dstruct->{$cnk}->{average_message_length};
-        $oper                   = $dstruct->{$cnk}->{operator};
-        $ttls                   = $dstruct->{$cnk}->{total_messages};
-        @lm                     = @{$dstruct->{$cnk}->{messages}->{last}};
-        $wt                     = "";
 
-        for $sa (0 .. scalar(@lm) - 1) {
-          $wt = $wt . " " . @lm[$sa];
-        }
-      }
-      else {
-        $queries_per_day        = 1;
-        $messages_per_day       = 1;
-        $create_date            = "";
-        $change_date            = "";
-        $average_message_length = 0;
-        $oper                   = false;
-        $ttls                   = 1;
-        @lm                     = ();
-        $wt                     = "";
-      }
-      return ("The user $cnk has queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
+sub nickpull {
+  my ($cnk) = @_;
+  if (-f "$prosdir/$cnk") {
+    open(DB, '<', "$prosdir/$cnk");
+    $injson = <DB>;
+    close(DB);
+  }
+  my $dstruct;
+  my ($queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
+  if (valid_json($injson) == 1) {
+    $dstruct                = parse_json($injson);
+    $queries_per_day        = $dstruct->{$cnk}->{queries_per_day};
+    $messages_per_day       = $dstruct->{$cnk}->{messages_per_day};
+    $create_date            = $dstruct->{$cnk}->{create_date};
+    $change_date            = $dstruct->{$cnk}->{change_date};
+    $average_message_length = $dstruct->{$cnk}->{average_message_length};
+    $oper                   = $dstruct->{$cnk}->{operator};
+    $ttls                   = $dstruct->{$cnk}->{total_messages};
+    @lm                     = @{$dstruct->{$cnk}->{messages}->{last}};
+    $wt                     = "";
+
+    for $sa (0 .. scalar(@lm) - 1) {
+      $wt = $wt . " " . @lm[$sa];
+    }
+  }
+  else {
+    $queries_per_day        = 1;
+    $messages_per_day       = 1;
+    $create_date            = "";
+    $change_date            = "";
+    $average_message_length = 0;
+    $oper                   = false;
+    $ttls                   = 1;
+    @lm                     = ();
+    $wt                     = "";
+  }
+  return ("The user $cnk has queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
 }
+
 
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   logit(2, "API connection subroutine called.");
   $ut = "$textcall";
-  
-          Irssi::print $server->channel_find($channel)->nicks();
+  Irssi::print $server->channel_find($channel)->nicks();
   $reqs++;
   my $retcode = 1;
   logit(2, "Formatting date tag.");
@@ -395,21 +396,20 @@ sub callapi {
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
-
-     my @mentioned = ();
-      my @tcwords = split(/ /, $textcall_bare);
+      my @mentioned = ();
+      my @tcwords   = split(/ /, $textcall_bare);
       foreach my $ccnw ($server->channel_find($channel)->nicks()) {
-          $cnfg = $ccnw->{nick};
-          if (grep(/$cnfg.?/, @tcwords)) {
+        $cnfg = $ccnw->{nick};
+        if (grep(/$cnfg.?/, @tcwords)) {
           push(@mentioned, $cnfg);
-          }
-       
+        }
       }
       my $mentiontxt;
       foreach my $cm (@mentioned) {
         Irssi::print $cm;
         $mentiontxt = $mentiontxt . nickpull($cm);
       }
+
       # below is the contextual prelude that sets cohere command up
       # with some information about it's environmenmt, as well as the
       # question asked and user who asked it, to more accurately answer
