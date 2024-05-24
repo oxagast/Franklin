@@ -27,6 +27,7 @@ $VERSION = "2.1";
 );
 Irssi::signal_add_last('message public', 'chncll');
 Irssi::settings_add_str("franklin_helper", "franklin_admin", "");
+our $owner = Irssi::settings_get_str("franklin_admin");
 
 
 sub chncll {
@@ -38,7 +39,7 @@ sub chncll {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
   }
-  if ($nick =~ m/^$owner/i) {                                                                      # these may only be used by botmaster
+  if ($nick eq $owner) {                                                                      # these may only be used by botmaster
     if ($msg =~ m/^$ln[:|,] levelup/i) {
       $server->command("op $channel $nick");
     }

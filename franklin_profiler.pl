@@ -61,26 +61,26 @@ sub buildjson {
   ## ats yours"],"random":["blah","no i like girls toes","Franklin: tell me about nyc"]},
   ## "checksum":"B2CCA97A"}
   %summdb = (
-             (versions => {selfver => $userfile, frankver => $franklinver}),
-             (
-              $nick => {
-                        create_date            => "$create_date",
-                        change_date            => "$change_date",
-                        total_messages         => "$totm",
-                        queries_per_day        => "$qpd",
-                        messages_per_day       => "$mspd",
-                        average_message_length => "$alll",
-                        operator               => false,
-                        (
-                         messages => {
-                                      last   => [@lastm],
-                                      random => [@rndm]
-                         }
-                        )
-              }
-             )
+    (versions => {selfver => $userfile, frankver => $franklinver}),
+    (
+     $nick => {                                                                                    # all this gets rewritten back in json after modificaions
+      create_date            => "$create_date",
+      change_date            => "$change_date",
+      total_messages         => "$totm",
+      queries_per_day        => "$qpd",
+      messages_per_day       => "$mspd",
+      average_message_length => "$alll",
+      operator               => false,
+      (
+       messages => {
+                    last   => [@lastm],
+                    random => [@rndm]
+       }
+      )
+     }
+    )
   );
-  return create_json(\%summdb);
+  return create_json(\%summdb);                                                                    # return the json hash
 }
 
 # this could maybe work like ...
@@ -114,7 +114,7 @@ sub catchmsg {
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
-  @lm = @{$dstruct->{$nick}->{messages}->{last}};
+  @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
 
   if ($create_date eq "") {
     $create_date = strftime("%m-%d-%Y", localtime);
@@ -124,5 +124,4 @@ sub catchmsg {
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);
-  Irssi::print $sdbjson;
 }

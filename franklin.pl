@@ -319,9 +319,11 @@ sub nickpull {
     $injson = <DB>;
     close(DB);
   }
+
+  # this next part is almost identical to the way it works in the profiler.
   my $dstruct;
   my ($queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
-  if (valid_json($injson) == 1) {
+  if (valid_json($injson) == 1) {                                                                  # this check is so it doesn't crash if the json for some reason is invalid.
     $dstruct                = parse_json($injson);
     $queries_per_day        = $dstruct->{$cnk}->{queries_per_day};
     $messages_per_day       = $dstruct->{$cnk}->{messages_per_day};
@@ -337,8 +339,8 @@ sub nickpull {
       $wt = $wt . " " . @lm[$sa];
     }
   }
-  else {
-    $queries_per_day        = 1;
+  else {                                                                                           # this next block is just some dummy data in the
+    $queries_per_day        = 1;                                                                   # event that the nik isn't in the dbase.
     $messages_per_day       = 1;
     $create_date            = "";
     $change_date            = "";
@@ -348,6 +350,8 @@ sub nickpull {
     @lm                     = ();
     $wt                     = "";
   }
+
+  # we return this string to be tacked ontop the end of the DCP.
   return ("The user $cnk has queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
 }
 
@@ -396,6 +400,10 @@ sub callapi {
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
+      # this next block will takes the msg and splits it by spaces, then cross references that against
+      # the nicks in the channel currently, then if one is found it adds it to the mentioned array, which
+      # is then looped over and compiled with the nickpull sub which returns a string that will be later
+      # added to the DCP.
       my @mentioned = ();
       my @tcwords   = split(/ /, $textcall_bare);
       foreach my $ccnw ($server->channel_find($channel)->nicks()) {
@@ -406,8 +414,7 @@ sub callapi {
       }
       my $mentiontxt;
       foreach my $cm (@mentioned) {
-        Irssi::print $cm;
-        $mentiontxt = $mentiontxt . nickpull($cm);
+        $mentiontxt = $mentiontxt . nickpull($cm);                                                 # this is what really gets added to DCP
       }
 
       # below is the contextual prelude that sets cohere command up
