@@ -16,7 +16,7 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-$userfile    = "1.2.0";
+$userfile    = "1.3.1";
 $franklinver = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
@@ -32,24 +32,21 @@ my $sdbloc = "/home/franklin/Franklin/fprofiles/";                              
 
 
 sub buildjson {
-  my ($nick, $create_date, $change_date, $totmsgs, $msg, $queries_per_day, $messages_per_day, $average_line_length, @lastm, @rndm) = @_;
+  my ($nick, $hostn, $create_date, $change_date, $totmsgs, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_line_length, @lastm, @rndm) = @_;
   if (scalar(@lastm) > 8) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
   }                                                                                                # maximum of x items in the 'last' array
   ($sec, $min, $hour, $day, $mon, $year_1900, $wday, $yday, $isdst) = localtime;
   my ($qpd, $mnpd, $msd);
-  if (($hour == 0) && ($min == 0)) {
-    $qpd  = $qpd / 2;
-    $mnpd = $mnpd / 2;
-    $msd  = $msd / 2;
+  if ($change_date != strftime("%m-%d-%Y", localtime)) {
+    $day++;
   }
   if ($msg =~ m/^Franklin[:|,] /) {
-    $qpd = ($queries_per_day + 1);                                                                 # franklin was called, we know it was a query
+    $queries++;
+    $qpd = $queries / $day;                                                                 # franklin was called, we know it was a query
   }
-  else {
-    $qpd = $queries_per_day;
-  }
-  $mspd = ($messages_per_day + 1);                                                                 # this is reset every morning at midnight
+  $messages++;
+  $mspd = $messages/ $day;                                                                 # this is reset every morning at midnight
   my $alll = ($average_line_length + length($msg)) / 2;                                            # calcs avg line len
   my $totm = $totmsgs + 1;
 
@@ -67,9 +64,13 @@ sub buildjson {
       create_date            => "$create_date",
       change_date            => "$change_date",
       total_messages         => "$totm",
-      queries_per_day        => "$qpd",
-      messages_per_day       => "$mspd",
-      average_message_length => "$alll",
+      queries        => "$queries",
+      messages       => "$messages",
+      queries_per_day => "$qpd",
+      messages_per_day => "$mpd",
+      average_message_length        => "$alll",
+      day            => "$day",
+      hostname       => "$hostn",
       operator               => false,
       (
        messages => {
@@ -83,6 +84,13 @@ sub buildjson {
   return create_json(\%summdb);                                                                    # return the json hash
 }
 
+#my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
+
+
+
+
+
+
 # this could maybe work like ...
 # have all nicks in one json string, oxagast => { ... }, billybob => { ... }, lisab => { ... }, ......
 # then copy parts that dont need changing, only pull, edit, and reinsert pieces of json that are
@@ -92,7 +100,7 @@ sub catchmsg {
   my $injson = "";
   if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
-    $newjsonout = buildjson($nick, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
+    $newjsonout = buildjson($nick, "localhost", strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
     open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
     print SDBN $newjsonout;                                                                        # creates profile
@@ -107,20 +115,33 @@ sub catchmsg {
   $lmn{$nick} = \@lm;
   $rmn{$nick} = \@rm;
   my $dstruct                = parse_json($injson);
-  my $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
-  my $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
+  my $queries        = $dstruct->{$nick}->{queries};
+  my $messages       = $dstruct->{$nick}->{messages};
+  my $queries_per_day = $dstruct->{$nick}->{queries_per_day};
+  my $messages_per_day = $dstruct->{$nick}->{messages_per_day};
   my $create_date            = $dstruct->{$nick}->{create_date};
   my $change_date            = $dstruct->{$nick}->{change_date};
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
+  my $day                    = $dstruct->{$nick}->{day};
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
   @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
+
+
+my $hostn;
+  foreach $n  ($server->channel_find($channel)->nicks) {
+    if ($n->{nick} eq $nick) {
+    $hostn = $n->{host};
+  }
+}
+
+
 
   if ($create_date eq "") {
     $create_date = strftime("%m-%d-%Y", localtime);
   }
   my $change_date = strftime("%m-%d-%Y", localtime);
-  my $sdbjson     = buildjson($nick, $create_date, $change_date, $ttls, $msg, $queries_per_day, $messages_per_day, $average_message_length, @lm, $msg);
+  my $sdbjson     = buildjson($nick, $hostn, $create_date, $change_date, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, @lm, $msg);
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);
