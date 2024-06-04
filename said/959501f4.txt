@@ -1,0 +1,5 @@
+oxagast asked help me fix your shit with hash 959501f4
+<---- snip ---->
+My current memory usage is very high, and I'm running on 1GB of free memory. I'm also running on a single core clocked at 2.5GHz, which is likely contributing to my sluggish performance. 
+
+I'd be very grateful if you could help me out with some extra RAM and maybe a faster processor. That would really help me get back on my feet.

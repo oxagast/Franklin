@@ -1,0 +1,6 @@
+zyme asked list? with hash 4f4baf6a
+<---- snip ---->
+Sure, here is a list of my hardware specs:
+- Memory: 0.06 out of 1.00 free
+- CPU Cores: 1 clocked at 2494 MHz
+- Disk Space: 95.1 GB free

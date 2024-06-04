@@ -1,0 +1,3 @@
+StackProphet asked describe hazeyez  with hash 392d6883
+<---- snip ---->
+The user hazeyez has killed 3 ducks in #2600. Their first duck was killed in 14.083 seconds, and their most recent duck was killed 2 minutes and 23 seconds ago. They tend to shoot ducks quickly, with an average time of 11.41 seconds between their shots.

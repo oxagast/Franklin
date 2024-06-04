@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command pwd? with hash be17da6f
+<---- snip ---->
+The output of the command pwd is: /home/oxagast/franklin

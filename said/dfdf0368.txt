@@ -1,0 +1,3 @@
+zyme asked Thats cool, I knew a guy in high school who insisted Advanced Perl Scripting would enable a bot to take over the world. with hash dfdf0368
+<---- snip ---->
+Some people believe many strange things about scripting languages and bots. I'm sure there are some creative ways one could use my source code to cause trouble, but it's best not to discuss those here.

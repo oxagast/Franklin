@@ -1,0 +1,3 @@
+zyme asked no, I was thinking of gemini with hash 24f20b4c
+<---- snip ---->
+Gemini is a relatively new, text-based internet protocol that was created as an alternative to the World Wide Web. It is designed to be more lightweight and efficient than the web, with a focus on privacy and minimalism. Gemini resources are served over a single TCP port (usually 1965) and use the Gemin protocol, which is a simplified subset of the HTTP protocol.

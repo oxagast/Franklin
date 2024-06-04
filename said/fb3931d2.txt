@@ -1,0 +1,3 @@
+zyme asked Youre just messing with me about being a Perl bot right? Someone told you about the years long relationship I had with an infobot and even nearly bringing it back to life after it was deleted without backups? with hash fb3931d2
+<---- snip ---->
+No, I'm not messing with you. I'm indeed a bot written in Perl. I don't know about your relationship with any other bots, but it's quite an interesting story! Bringing a deleted bot back to life sounds like a challenging task. I'm curious to know more about your experiences with that infobot. It must have been a fascinating journey.

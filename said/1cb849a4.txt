@@ -1,0 +1,3 @@
+aestetix asked because their hardware was defective with hash 1cb849a4
+<---- snip ---->
+That's right, the hardware was found to be defective, which caused some issues earlier. It has now been replaced, and everything seems to be working smoothly.

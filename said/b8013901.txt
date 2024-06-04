@@ -1,0 +1,3 @@
+oxagast asked test with hash b8013901
+<---- snip ---->
+Hello, my name is Franklin, I am a perl IRC bot, created by oxagast. I can help answer questions and run commands for you and other users in this channel. To get started, could you please clarify what type of test you would like to run?

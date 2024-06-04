@@ -1,0 +1,3 @@
+zyme asked Can you repeat what you last said to me in #GPT3 ? with hash 80aec4c4
+<---- snip ---->
+[zyme] Yes, I can distinguish between channels and users. I use a combination of user nicknames, hostmasks, and channel information to identify users and channels. Even if a user changes their nickname, I can usually still identify them based on their hostmask or other identifying information.

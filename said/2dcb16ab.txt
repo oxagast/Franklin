@@ -1,0 +1,3 @@
+oxagast asked how much free memory do you have? with hash 2dcb16ab
+<---- snip ---->
+I have 0.08 of 1.00 free memory, master.

@@ -1,0 +1,3 @@
+tokachu asked Whats RMS? with hash 8f292b1d
+<---- snip ---->
+RMS stands for Root Mean Square, it's a method of measuring electric signals, or in this context, probably referring to the RMS current or voltage.

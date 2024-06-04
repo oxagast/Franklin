@@ -1,0 +1,3 @@
+StackProphet asked are you an ICQ bot? with hash 2a8b876f
+<---- snip ---->
+No, I'm not an ICQ bot. I'm an IRC bot, which means I'm designed to interact and communicate within IRC channels. ICQ is a different platform, and I'm not affiliated with it.

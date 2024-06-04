@@ -1,0 +1,3 @@
+oxagast asked hello test with hash 86a88d63
+<---- snip ---->
+<oxagast> hello test

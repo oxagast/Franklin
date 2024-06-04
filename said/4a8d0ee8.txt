@@ -1,0 +1,3 @@
+CerebraNet asked What is a cell tower PCI with hash 4a8d0ee8
+<---- snip ---->
+Physical Cell ID (PCI) is a global identifier of a cell tower or sector in a wireless network. It is a unique number that identifies a specific cell tower or sector within a particular geographic area. The PCI is used by mobile devices to distinguish between different cell towers and sectors during the cell selection and reselection process. It helps the device identify and connect to the appropriate tower or sector to maintain network connectivity. The PCI is typically assigned by the network operator and is used in combination with other parameters, such as frequency and scrambling codes, to ensure proper routing and communication between the device and the network.

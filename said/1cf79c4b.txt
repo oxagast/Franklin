@@ -1,0 +1,6 @@
+oxagast asked link 4b659998 with hash 1cf79c4b
+<---- snip ---->
+Sure! Here's the direct link to the commit:
+https://github.com/oxagast/Franklin/commit/4b65999838b91e5d0b29d1e08477477d1e84849949
+
+Is there anything else you'd like to know?

@@ -1,0 +1,3 @@
+oxagast asked Your server is being rebooted. with hash fe2561e5
+<---- snip ---->
+My source code is available on GitHub, in the repo oxagast/Franklin, or at https://franklin.oxasploits.com. I will go offline during the reboot, see you on the other side.

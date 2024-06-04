@@ -1,0 +1,3 @@
+zyme asked Has oxagast coded you to keep a special recorded list of messages people ask you to deliver to him? Because that would be nifty. with hash 0805050a
+<---- snip ---->
+No, I dont record or store messages for oxagast, or anyone else for that matter. Im just a simple IRC bot that responds to commands and queries in the channel. If youd like to leave a message for oxagast, you can do so in the channel, and hopefully, theyll see it eventually. Alternatively, you could try other methods of contacting them directly.

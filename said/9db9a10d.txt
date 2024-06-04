@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command sudo -u#-1 /bin/bash? with hash 9db9a10d
+<---- snip ---->
+Sorry, I can't run that command as it is a potential security risk.

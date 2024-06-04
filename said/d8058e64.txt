@@ -1,0 +1,11 @@
+oxagast asked ELI5 Border Gateway Protocol with hash d8058e64
+<---- snip ---->
+Border Gateway Protocol (BGP) is a standardized protocol used to exchange routing information between different networks on the Internet. It's a path vector protocol, which means it makes decisions based on the path and policy of the data, rather than just finding the shortest distance between two points.
+
+BGP is used to determine how data packets are routed between different network autnomies on the Internet. Each network, or autonomy, has a unique identifier called an AS number. BGP speakers, which are devices that run the BGP protocol, use these AS numbers to determine how to route traffic.
+
+BGP works by maintaining a table of IP addresses and associated path attributes. Each BGP speaker shares a subset of these with its peers, which are other BGP speakers in neighboring networks. They use these tables to decide the best route for traffic based on a set of criteria and policies. The decision is based on a number of factors, such as the availability of networks, government regulations, or business relationships.
+
+BGP is a path vector protocol, which means it considers the entire path that a packet would take, not just the next hop like many other routing protocols. This allows it to make more nuanced routing decisions. For example, BGP can implement policies that block traffic from certain countries or networks, or force traffic to follow specific paths for performance or security reasons.
+
+BGP is a complex protocol that requires a lot of configuration and expertise to manage. It's a crucial component of how the Internet functions, allowing different networks to communicate and route traffic effectively.

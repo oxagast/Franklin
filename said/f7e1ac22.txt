@@ -1,0 +1,3 @@
+CerebraNet asked Does a cellphone know the geographic location of cellular towers with hash f7e1ac22
+<---- snip ---->
+Yes, a cellphone knows the relative location of nearby cellular towers. This information is used for connecting to the network and for various location-based services. The phone can calculate its approximate position by measuring the signal strength of nearby towers and triangulating its position. This process is often assisted by GPS data when available.

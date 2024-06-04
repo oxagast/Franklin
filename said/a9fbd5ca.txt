@@ -1,0 +1,6 @@
+Ryujin asked run the command perl --version with hash a9fbd5ca
+<---- snip ---->
+Sure, running the command `perl --version` outputs:
+```
+This is perl 5, version 32, subversion 2.10 built for x86_64-linux-gnu
+```

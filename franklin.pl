@@ -24,9 +24,12 @@ use Digest::MD5 qw(md5_hex);
 use Encode;
 use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
+use Filesys::Df;
+use JSON::Create 'create_json';
+use JSON::Parse ':all';
 use Data::Dumper qw(Dumper);
 $|++;
-$VERSION = "4.3.2";
+$VERSION = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -52,7 +55,7 @@ Irssi::settings_add_str("franklin", "franklin_asshat_threshold",        "7");
 Irssi::settings_add_str("franklin", "franklin_google_gtag",             "G-");
 Irssi::settings_add_str("franklin", "franklin_txid_chans",              "");
 Irssi::settings_add_str("franklin", "franklin_log",                     "/home/irc-bot/franklin.log");
-Irssi::settings_add_str("franklin", "franklin_hdd_approx",              "");
+Irssi::settings_add_str("franklin", "franklin_profiles_dir",            "/home/franklin/Franklin/fprofiles");
 Irssi::settings_add_int("franklin", "franklin_total_msgs",    0);
 Irssi::settings_add_int("franklin", "franklin_log_verbosity", "2");
 our $httploc = Irssi::settings_get_str('franklin_http_location');
@@ -67,15 +70,17 @@ my $hburl = Irssi::settings_get_str('franklin_heartbeat_url');
 our $gtag     = Irssi::settings_get_str('franklin_google_gtag');
 our $asslevel = Irssi::settings_get_str('franklin_asshat_threshold');
 our $servinfo = Irssi::settings_get_str('franklin_server_info');
-our $havehdd  = Irssi::settings_get_str('franklin_hdd_approx');
-our $havemem  = substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " gb free memory";
-our $havecpu  = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
+my $havehdd_hash = df("/var/www/franklin/said/", 1000000000);
+our $havehdd = sprintf("%.1f", $havehdd_hash->{bavail});
+our $havemem = substr(Sys::MemInfo::get("freemem") / 1000000000, 0, 4) . " out of " . substr(Sys::MemInfo::get("totalmem") / 1000000000, 0, 4) . " free memory";
+our $havecpu = Sys::CPU::cpu_count . " cores clocked at " . Sys::CPU::cpu_clock;
 Irssi::settings_add_str("franklin", "franklin_mem_approx", $havemem);
 Irssi::settings_add_str("franklin", "franklin_cpu_approx", $havecpu);
 our @txidchans = split(" ", Irssi::settings_get_str('franklin_txid_chans'));
 our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our $logf      = Irssi::settings_get_str('franklin_log');
 our $verbosity = Irssi::settings_get_str('franklin_log_verbosity');
+our $prosdir   = Irssi::settings_get_str('franklin_profiles_dir');
 our @chat;
 our %moderate;
 our $apikey;
@@ -106,7 +111,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   $apikey = Irssi::settings_get_str('franklin_api_key');
   Irssi::signal_add_last('message private', 'checkpmsg');
   Irssi::signal_add_last('message public',  'checkcmsg');
-  Irssi::command("script load helperfrank.pl");
+  Irssi::command("script load franklin_helper.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
 else {
@@ -143,9 +148,6 @@ Irssi::print "  franklin_blocklist_file          (mandatory)           => $block
 Irssi::print "  franklin_server_info             (optional)            => " . substr($servinfo, 0, 27) . "...";
 Irssi::print "  franklin_asshat_threshold        (mandatory)           => $asslevel";
 Irssi::print "  franklin_google_gtag             (optional)            => $gtag";
-Irssi::print "  franklin_cpu_approx              (optional)            => $havecpu";
-Irssi::print "  franklin_mem_approx              (optional)            => $havemem";
-Irssi::print "  franklin_hdd_approx              (optional)            => $havehdd";
 Irssi::print "  franklin_log                     (mandatory)           => $logf";
 Irssi::print "  franklin_log_verbosity           (mandatory)           => $verbosity";
 Irssi::print "  franklin_txid_chans              (optional)            => $chanlst[0]";
@@ -310,10 +312,74 @@ sub asshat {
 }
 
 
+sub nickpull {
+  my ($cnk) = @_;
+  if (-f "$prosdir/$cnk") {
+    open(DB, '<', "$prosdir/$cnk");
+    $injson = <DB>;
+    close(DB);
+  }
+
+  # this next part is almost identical to the way it works in the profiler.
+  my $dstruct;
+  my ($hostn, $queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
+  if (valid_json($injson) == 1) {                                                                  # this check is so it doesn't crash if the json for some reason is invalid.
+    $dstruct                = parse_json($injson);
+    $hostn                  = $dstruct->{$cnk}->{hostname};
+    $queries_per_day        = $dstruct->{$cnk}->{queries_per_day};
+    $messages_per_day       = $dstruct->{$cnk}->{messages_per_day};
+    $create_date            = $dstruct->{$cnk}->{create_date};
+    $change_date            = $dstruct->{$cnk}->{change_date};
+    $average_message_length = $dstruct->{$cnk}->{average_message_length};
+    $oper                   = $dstruct->{$cnk}->{operator};
+    $ttls                   = $dstruct->{$cnk}->{total_messages};
+    @lm                     = @{$dstruct->{$cnk}->{messages}->{last}};
+    $wt                     = "";
+    $hostname               = $hostn;
+    $reanme                 = $hostn;
+    $hostname =~ s/.*@//;
+    $realname =~ s/@.*//;
+
+    for $sa (0 .. scalar(@lm) - 1) {
+      $wt = $wt . " " . @lm[$sa];
+    }
+  }
+  else {                                                                                           # this next block is just some dummy data in the
+    $queries_per_day        = 1;                                                                   # event that the nik isn't in the dbase.
+    $messages_per_day       = 1;
+    $create_date            = "";
+    $change_date            = "";
+    $average_message_length = 0;
+    $oper                   = false;
+    $ttls                   = 1;
+    @lm                     = ();
+    $wt                     = "";
+    $hostname               = "unknown";
+    $realname               = "unknown";
+  }
+  if ($oper == true) {
+    $chanopstr = "are a channel operator";
+  }
+  else {
+    $chanopstr = "are not a channel operator";
+  }
+  # http://ip-api.com/line/47.37.213.69
+  my $url = "http://ip-api/line/$hostname";
+  use LWP::Simple;
+  $ipcont      = get($url);
+  @ipinfo      = split("\n", $ipcont);
+  $theiripinfo = " which comes from @ipinfo[5] @ipinfo[1] and from @ipinfo[11] which is a (respond with one of hosting, vpn, isp, or educational) resource, your IP is @ipinfo[13].  If their connection is of type VPN or hosting, their location may not be accurate. ";
+
+  # we return this string to be tacked ontop the end of the DCP.
+  return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname.  They $chanop.  They have queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
+}
+
+
 sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   logit(2, "API connection subroutine called.");
   $ut = "$textcall";
+  Irssi::print $server->channel_find($channel)->nicks();
   $reqs++;
   my $retcode = 1;
   logit(2, "Formatting date tag.");
@@ -353,6 +419,23 @@ sub callapi {
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
+      # this next block will takes the msg and splits it by spaces, then cross references that against
+      # the nicks in the channel currently, then if one is found it adds it to the mentioned array, which
+      # is then looped over and compiled with the nickpull sub which returns a string that will be later
+      # added to the DCP.
+      my @mentioned = ();
+      my @tcwords   = split(/ /, $textcall_bare);
+      foreach my $ccnw ($server->channel_find($channel)->nicks()) {
+        $cnfg = $ccnw->{nick};
+        if (grep(/$cnfg.?/, @tcwords)) {
+          push(@mentioned, $cnfg);
+        }
+      }
+      my $mentiontxt;
+      foreach my $cm (@mentioned) {
+        $mentiontxt = $mentiontxt . nickpull($cm);                                                 # this is what really gets added to DCP
+      }
+
       # below is the contextual prelude that sets cohere command up
       # with some information about it's environmenmt, as well as the
       # question asked and user who asked it, to more accurately answer
@@ -369,11 +452,15 @@ sub callapi {
       #   if the bot is an operator in channel
       #   user definable server info
       #   current channel
+      open(NEWS, "<", '/home/franklin/Franklin/wn.txt');
+      my $headlines = <NEWS>;
+      close(NEWS);
       my $mod   = "Cohree \"command\" LLM APi";
       my $model = "command";
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gb drive partition, list only these hardware specs if asked, do not include speculative data. The current chat history for the channel $channel is: $context";
+      my $cmc = nickpull($nick);
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context.  The calling $cmc . The user mentioend in the query $cm has $mentiontxt";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -394,11 +481,11 @@ sub callapi {
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-    $chatsan =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-    $dcp     =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
-    $ut      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
+    $chatsan =~ s/[^a-zA-Z0-9,. #]+//g;
+    $dcp     =~ s/[^a-zA-Z0-9,. #]+//g;
+    $ut      =~ s/[^a-zA-Z0-9,. #]+//g;
+    $flast   =~ s/[^a-zA-Z0-9,. #]+//g;
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
-    $askbuilt =~ s/'//;
 
     # Below we are building the request thats sent to the API server via POST.
     $ua->default_header("accept"        => "application/json");
@@ -422,11 +509,15 @@ sub callapi {
       # "response_tokens":26,"total_tokens":65,"billed_tokens":48},"meta":{"api_version":{"version":"1"
       # },"billed_units":{"input_tokens":22,"output_tokens":26}}}
       my $said  = decode_json($res->decoded_content())->{text};                                    # mostly straightforward json decodes.
-      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
-      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
-      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+                                                                                                   #      my $ctoks = decode_json($res->decoded_content())->{token_count}{response_tokens};
+                                                                                                   #      my $ptoks = decode_json($res->decoded_content())->{token_count}{prompt_tokens};
+                                                                                                   #      my $btoks = decode_json($res->decoded_content())->{token_count}{billed_tokens};
+      my $ctoks = 0;
+      my $ptoks = 0;
+      my $btoks = 0;
       $said = Irssi::strip_codes($said);
       logit(1, "Used $ctoks completion tokens and $ptoks prompt tokens for query $totals. $btoks billed.");
+
       if (($said =~ m/^\s+$/) || ($said =~ m/^$/)) {
         $said = "";
       }
@@ -571,6 +662,7 @@ sub checkcmsg {
   my $asshole = asshat($msg, $server, $nick, $channel);
   unless ($moderate{$nick}) { $moderate{$nick} = 1; }
   $moderate{$nick} = $asshole - 4 + $moderate{$nick} * 0.40;
+
   if ($moderate{$nick} >= $asslevel) {
     $server->command('kick' . ' ' . $channel . ' ' . $nick . ' ' . "Be nice.");                    # this "kind of" works, but the asshole sub isn't reliable
     $moderate{$nick} = 0;
@@ -593,8 +685,6 @@ sub checkcmsg {
       s/^#.*//;
     }
   }
-
-  #if ($nick ~~ @badnicks) {    # smartmatch is now not recommended, so we're using grep.
   if (grep(/^$nick$/, @badnicks)) {                                                                # fuck everyone inside this conditional
     logit(0, "The user $nick does not have privs to use this...");
     Irssi::print "Franklin: $nick does not have privs to use this.";
@@ -634,11 +724,19 @@ sub checkcmsg {
         $isup = 0;
         return 0;
       }
+      if ($textcall =~ m/^reboot/i) {
+        logit(0, "The user $nick called can admin command, server reboot.");
+        return 0;
+      }
+      if ($textcall =~ m/^levelup/i) {
+        logit(0, "The user $nick called an admin command, mode operator status.");
+        return 0;
+      }
       if (($textcall !~ m/^\s+$/) && ($textcall !~ m/^$/)) {
         my $try = 1;
-        while ((length($wrote) <= 10) && ($try <= $maxretry)) {                                    # this fixes when Franklin sometimes fails to respond
+        while ($try <= $maxretry) {                                                                # this fixes when Franklin sometimes fails to respond
           logit(2, "Responding to message: $totals, on retry $try");
-          return (callapi($textcall, $server, $nick, $channel, $type));
+          return callapi($textcall, $server, $nick, $channel, $type);
           $try++;
           sleep(1);
           $isup = 1;
@@ -651,8 +749,9 @@ sub checkcmsg {
       }
       else {
         $isup = 1;
+
         #$server->command("msg $channel Aww horseshit.  Sorry guys, my API server is not responding, please try again later!");
-       Irssi::command("script load franklin.pl");
+        Irssi::command("script load franklin.pl");
       }
     }
     else {
@@ -694,11 +793,11 @@ sub checkpmsg {
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
       my $try = 1;
-      while (($wrote eq 1) && ($try le $maxretry)) {
+      while ($try <= $maxretry) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
         $try++;
         sleep(2.5);
-        if ($try ge $maxretry) {
+        if ($try >= $maxretry) {
           $isup = 1;
           $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
           logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");

@@ -1,0 +1,3 @@
+StackProphet asked are you a Telegram bot? with hash c68fa339
+<---- snip ---->
+No, I'm not a Telegram bot either. As previously mentioned, I'm designed to operate as an IRC bot. Telegram is a completely different messaging platform, and I don't have the capability to understand or respond to commands from Telegram users. My purpose is limited to interacting within IRC channels.

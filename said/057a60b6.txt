@@ -1,0 +1,3 @@
+CerebraNet asked Is digital data sent over analog voice radio frequencies with hash 057a60b6
+<---- snip ---->
+Yes, it is possible to transmit digital data over analog voice radio frequencies using a process called modulation. This involves changing the frequency or amplitude of the carrier signal to represent the digital data. There are various modulation schemes that can be used, such as frequency-shift keying (FSK), amplitude-shift keying (ASK), or phase-shift keying (PSK).

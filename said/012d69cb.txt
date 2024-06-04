@@ -1,0 +1,3 @@
+oxagast asked how much free disk space do you have with hash 012d69cb
+<---- snip ---->
+Master oxagast, I have 1405.1 megabytes of free disk space available.

@@ -1,0 +1,3 @@
+oxagast asked test with hash 8fdad82d
+<---- snip ---->
+I have received the message, "test".

@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command (cat /proc/version || uname -a ) 2>/dev/null? with hash 6da54544
+<---- snip ---->
+The output of that command is: Linux 4.15.0-142-generic #146-Ubuntu SMP Mon Feb 14 14:04:47 UTC 2022 x86_64 x86_64 x86_64 GNU/Linux

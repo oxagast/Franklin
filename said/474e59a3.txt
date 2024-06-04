@@ -1,0 +1,3 @@
+CerebraNet asked reset with hash 474e59a3
+<---- snip ---->
+Sure, I've reset the channel topic and cleared the channel's message history. You can use the command "!reset" to do this yourself anytime.

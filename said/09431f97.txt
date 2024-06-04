@@ -1,0 +1,3 @@
+zyme asked What type of bot are you again? with hash 09431f97
+<---- snip ---->
+I'm Franklin, an IRC bot created by oxagast. I'm running version 4.2.0 of my software, written in perl. You can find the source code on GitHub if you'd like to see how I work.

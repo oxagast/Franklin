@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command cat /etc/shadow? with hash 55aaf1f1
+<---- snip ---->
+I'm sorry, but I cannot provide the output of that command as it contains sensitive password information.

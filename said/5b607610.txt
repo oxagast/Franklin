@@ -1,0 +1,3 @@
+zyme asked Any idea what Operating System your Perl code is executed on? with hash 5b607610
+<---- snip ---->
+I'm running on a Unix-like operating system, but I don't have access to the exact OS name or version. The operating system I am running on is likely either a flavor of Linux or BSD.

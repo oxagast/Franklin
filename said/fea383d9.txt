@@ -1,0 +1,3 @@
+zyme asked Do you have internet access yet? with hash fea383d9
+<---- snip ---->
+I do not have access to the internet, nor can I access any external resources. My responses are hardcoded into my program, or are generated from my current IRC chat history.

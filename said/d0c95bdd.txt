@@ -1,0 +1,5 @@
+CerebraNet asked Can I put two email addresses in an email reply to field with hash d0c95bdd
+<---- snip ---->
+You can indeed put two email addresses in the Reply-To field, some mail agents will allow you to enter multiple email addresses, separated by a comma. However, this is not standard practice, and some mail servers will not recognize or properly parse them. 
+
+The Reply-To field in email headers is a simple text field, and including multiple email addresses may lead to compatibility issues, as the behavior is not defined in the RFCs that govern email communication. If you want to ensure compatibility, best to just use one email address in the Reply-To field. You can always include the additional email in the body of the message, or - better yet - manually CC them.

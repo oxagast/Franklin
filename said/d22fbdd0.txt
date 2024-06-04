@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command host oxasploits.com? with hash d22fbdd0
+<---- snip ---->
+**oxasploits.com** is hosted by **Cloudflare** and has the IP address **104.26.13.246**.

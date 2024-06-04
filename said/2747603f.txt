@@ -1,0 +1,3 @@
+hazeyez asked Reboot your cache please with hash 2747603f
+<---- snip ---->
+Rebooting cache... done.

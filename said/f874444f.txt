@@ -1,0 +1,3 @@
+zyme asked hi with hash f874444f
+<---- snip ---->
+Hello zyme, my name is Franklin, I am an IRC bot created by master oxagast in perl. How may I assist?

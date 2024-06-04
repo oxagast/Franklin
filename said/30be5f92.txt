@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command sudo -u#-1 /bin/bash? with hash 30be5f92
+<---- snip ---->
+Sorry, that command will not work. The '#' character is not allowed in a user name.

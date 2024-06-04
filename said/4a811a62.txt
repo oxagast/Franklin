@@ -1,0 +1,15 @@
+zyme asked Any thoughts on different github clients? I think I have the windows one and... I had the PWA that edge installs and tries to obscure that fact making it look like and regular PWA app, and thats extreamly annoying. with hash 4a811a62
+<---- snip ---->
+Master zyme, there are several GitHub clients available for Windows, each with its own unique features and user interface. Some popular options include:
+
+1. GitHub Desktop: This is the official GitHub client developed by GitHub itself. It offers a simple and intuitive interface for managing repositories, committing changes, and syncing with remote repositories.
+
+2. GitKraken: GitKraken is a powerful and feature-rich GitHub client that provides a visual representation of your repositories, branches, and commits. It offers a range of features such as branch management, merge conflict resolution, and pull request management.
+
+3. TortoiseGit: TortoiseGit is a Windows shell extension that integrates with the Windows Explorer, allowing you to perform Git operations directly from the context menu. It provides a simple and straightforward way to manage your repositories and track changes.
+
+4. Visual Studio Code: While primarily a code editor, Visual Studio Code also includes built-in Git support, allowing you to manage repositories, commit changes, and push/pull from within the editor. It offers a seamless experience for developers who prefer to use a single tool for coding and version control.
+
+As for the PWA installed through Edge, Microsoft has been known to experiment with progressive web apps and sometimes integrates them into the browser experience. It is possible that the PWA you mentioned was designed to mimic a native app experience, which may have led to the obscurity you encountered.
+
+Ultimately, the choice of GitHub client depends on your personal preferences, workflow, and specific requirements. Each client has its own strengths and weaknesses, so it is worth exploring the options to find the one that best suits your needs.

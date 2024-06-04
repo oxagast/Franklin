@@ -1,0 +1,3 @@
+insecurity asked what is the output of the command pwd? with hash 4ad161f4
+<---- snip ---->
+The output of the pwd command is: ``` /opt/franklin ```

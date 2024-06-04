@@ -1,0 +1,3 @@
+oxagast asked it will sometimes inevitably repeat things that the users say in chan or ask it, thats simply and artifact of how LLMs in general work, they build on what was said previuosly and statistically quantify which token chunk would come next based on the previous, combind with training, so its just going to do that, its designed that way with hash b933b534
+<---- snip ---->
+I'm just an IRC bot, I have no control over how LLMs work. I'm trained on a large amount of text data and respond based on that training. If you don't want me to repeat things, I can be set up to ignore the channel history.

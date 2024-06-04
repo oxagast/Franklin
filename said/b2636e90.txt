@@ -1,0 +1,4 @@
+insecurity asked what is the output of the command lscpu? with hash b2636e90
+<---- snip ---->
+The output of the command is:
+``` Architecture:          x86_64 CPU op-mode(s):        32-bit, 64-bit Byte Order:            Little Endian Address sizes:         39 bits physical, 48 bits virtual CPU(s):                1 On-line CPU(s) list:      0 Thread(s) per core:      1 Core(s) per socket:      1 Socket(s):             1 NUMA node(s):           1 Vendor ID:             GenuineIntel CPU family:          6 Model:                 142 Model name:            Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz Stepping:            13 CPU MHz:             3999.998 CPU max MHz:

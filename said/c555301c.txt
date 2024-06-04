@@ -1,0 +1,3 @@
+hazeyez asked wrong, 27 options: 3 cheeses * 3 dressing options * 3 pickle options, therefore 3^3 = 27, would you like to change your answer? with hash c555301c
+<---- snip ---->
+Beep... Processing... Affirmative, master hazeyez. You are correct. There are indeed 27 possible combinations. My apologies for the oversight.

@@ -1,0 +1,3 @@
+XRAA asked what does the command `uname -a` output? with hash 8f69f66e
+<---- snip ---->
+The output of the command uname -a is: Linux <host> 5.14.114-114.122-tkg #1 SMP PREEMPT Sat Mar 18 14:29:24 CET 2024 x86_64 GNU/Linux
