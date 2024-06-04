@@ -32,10 +32,18 @@ my $sdbloc = "/home/franklin/Franklin/fprofiles/";                              
 
 
 sub buildjson {
-  my ($nick, $hostn, $create_date, $change_date, $totmsgs, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_line_length, @lastm, @rndm) = @_;
+  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_line_length, @lastm, $rndmm) = @_;
+  if (1 == int(rand(25))) {
+    push(@rndm, $rndmm);
+  }
   if (scalar(@lastm) > 8) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
-  }                                                                                                # maximum of x items in the 'last' array
+  } 
+  if (scalar(@rndm) > 8) {
+    shift(@rndm);
+  }
+
+  # maximum of x items in the 'last' array
   ($sec, $min, $hour, $day, $mon, $year_1900, $wday, $yday, $isdst) = localtime;
   my ($qpd, $mnpd, $msd);
   if ($change_date != strftime("%m-%d-%Y", localtime)) {
@@ -71,7 +79,7 @@ sub buildjson {
       average_message_length => "$alll",
       day                    => "$day",
       hostname               => "$hostn",
-      operator               => false,
+      operator               => $oper,
       (
        messages => {
                     last   => [@lastm],
@@ -94,7 +102,7 @@ sub catchmsg {
   my $injson = "";
   if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
-    $newjsonout = buildjson($nick, "localhost", strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
+    $newjsonout = buildjson($nick, "localhost", 0, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
     open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
     print SDBN $newjsonout;                                                                        # creates profile
@@ -117,7 +125,6 @@ sub catchmsg {
   my $change_date            = $dstruct->{$nick}->{change_date};
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
   my $day                    = $dstruct->{$nick}->{day};
-  my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
   @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
   my $hostn;
@@ -126,12 +133,18 @@ sub catchmsg {
     if ($n->{nick} eq $nick) {
       $hostn = $n->{host};
     }
+    if ($n->{nick} eq $nick) {
+      if ($n->{op} != 0) {
+      $oper = true;
+    }
+    else { $oper = false; }
+  }
   }
   if ($create_date eq "") {
     $create_date = strftime("%m-%d-%Y", localtime);
   }
   my $change_date = strftime("%m-%d-%Y", localtime);
-  my $sdbjson     = buildjson($nick, $hostn, $create_date, $change_date, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, @lm, $msg);
+  my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $change_date, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, @lm, $msg);
   open(SDBO, '>', "$sdbloc/$nick");
   print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);

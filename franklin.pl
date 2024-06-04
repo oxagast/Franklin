@@ -357,7 +357,12 @@ sub nickpull {
     $hostname               = "unknown";
     $realname               = "unknown";
   }
-
+  if ($oper == true) {
+    $chanopstr = "are a channel operator";
+  }
+  else {
+    $chanopstr = "are not a channel operator";
+  }
   # http://ip-api.com/line/47.37.213.69
   my $url = "http://ip-api/line/$hostname";
   use LWP::Simple;
@@ -366,7 +371,7 @@ sub nickpull {
   $theiripinfo = " which comes from @ipinfo[5] @ipinfo[1] and from @ipinfo[11] which is a (respond with one of hosting, vpn, isp, or educational) resource, your IP is @ipinfo[13].  If their connection is of type VPN or hosting, their location may not be accurate. ";
 
   # we return this string to be tacked ontop the end of the DCP.
-  return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname and has queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
+  return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname.  They $chanop.  They have queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
 }
 
 
