@@ -43,10 +43,10 @@ sub buildjson {
   }
   if ($msg =~ m/^Franklin[:|,] /) {
     $queries++;
-    $qpd = $queries / $day;                                                                 # franklin was called, we know it was a query
+    $qpd = $queries / $day;                                                                        # franklin was called, we know it was a query
   }
   $messages++;
-  $mspd = $messages/ $day;                                                                 # this is reset every morning at midnight
+  $mspd = $messages / $day;                                                                        # this is reset every morning at midnight
   my $alll = ($average_line_length + length($msg)) / 2;                                            # calcs avg line len
   my $totm = $totmsgs + 1;
 
@@ -64,13 +64,13 @@ sub buildjson {
       create_date            => "$create_date",
       change_date            => "$change_date",
       total_messages         => "$totm",
-      queries        => "$queries",
-      messages       => "$messages",
-      queries_per_day => "$qpd",
-      messages_per_day => "$mpd",
-      average_message_length        => "$alll",
-      day            => "$day",
-      hostname       => "$hostn",
+      queries                => "$queries",
+      messages               => "$messages",
+      queries_per_day        => "$qpd",
+      messages_per_day       => "$mpd",
+      average_message_length => "$alll",
+      day                    => "$day",
+      hostname               => "$hostn",
       operator               => false,
       (
        messages => {
@@ -85,12 +85,6 @@ sub buildjson {
 }
 
 #my $cmn = $server->channel_find($channel)->nick_find($server->{nick});
-
-
-
-
-
-
 # this could maybe work like ...
 # have all nicks in one json string, oxagast => { ... }, billybob => { ... }, lisab => { ... }, ......
 # then copy parts that dont need changing, only pull, edit, and reinsert pieces of json that are
@@ -115,10 +109,10 @@ sub catchmsg {
   $lmn{$nick} = \@lm;
   $rmn{$nick} = \@rm;
   my $dstruct                = parse_json($injson);
-  my $queries        = $dstruct->{$nick}->{queries};
-  my $messages       = $dstruct->{$nick}->{messages};
-  my $queries_per_day = $dstruct->{$nick}->{queries_per_day};
-  my $messages_per_day = $dstruct->{$nick}->{messages_per_day};
+  my $queries                = $dstruct->{$nick}->{queries};
+  my $messages               = $dstruct->{$nick}->{messages};
+  my $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
+  my $messages_per_day       = $dstruct->{$nick}->{messages_per_day};
   my $create_date            = $dstruct->{$nick}->{create_date};
   my $change_date            = $dstruct->{$nick}->{change_date};
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
@@ -126,17 +120,13 @@ sub catchmsg {
   my $oper                   = $dstruct->{$nick}->{operator};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
   @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
+  my $hostn;
 
-
-my $hostn;
-  foreach $n  ($server->channel_find($channel)->nicks) {
+  foreach $n ($server->channel_find($channel)->nicks) {
     if ($n->{nick} eq $nick) {
-    $hostn = $n->{host};
+      $hostn = $n->{host};
+    }
   }
-}
-
-
-
   if ($create_date eq "") {
     $create_date = strftime("%m-%d-%Y", localtime);
   }

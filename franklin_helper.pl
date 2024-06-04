@@ -39,7 +39,7 @@ sub chncll {
     $server->command("script unload franklin.pl");
     $server->command("script load franklin.pl");
   }
-  if ($nick eq $owner) {                                                                      # these may only be used by botmaster
+  if ($nick eq $owner) {                                                                           # these may only be used by botmaster
     if ($msg =~ m/^$ln[:|,] levelup/i) {
       $server->command("op $channel $nick");
     }

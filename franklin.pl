@@ -335,10 +335,11 @@ sub nickpull {
     $ttls                   = $dstruct->{$cnk}->{total_messages};
     @lm                     = @{$dstruct->{$cnk}->{messages}->{last}};
     $wt                     = "";
-    $hostname = $hostn;
-    $reanme = $hostn;
+    $hostname               = $hostn;
+    $reanme                 = $hostn;
     $hostname =~ s/.*@//;
     $realname =~ s/@.*//;
+
     for $sa (0 .. scalar(@lm) - 1) {
       $wt = $wt . " " . @lm[$sa];
     }
@@ -353,14 +354,15 @@ sub nickpull {
     $ttls                   = 1;
     @lm                     = ();
     $wt                     = "";
-    $hostname                  = "unknown";
-    $realname                   = "unknown";
+    $hostname               = "unknown";
+    $realname               = "unknown";
   }
+
   # http://ip-api.com/line/47.37.213.69
- my $url = "http://ip-api/line/$hostname";
+  my $url = "http://ip-api/line/$hostname";
   use LWP::Simple;
-  $ipcont = get($url);
-  @ipinfo = split ("\n", $ipcont);
+  $ipcont      = get($url);
+  @ipinfo      = split("\n", $ipcont);
   $theiripinfo = " which comes from @ipinfo[5] @ipinfo[1] and from @ipinfo[11] which is a (respond with one of hosting, vpn, isp, or educational) resource, your IP is @ipinfo[13].  If their connection is of type VPN or hosting, their location may not be accurate. ";
 
   # we return this string to be tacked ontop the end of the DCP.
