@@ -12,7 +12,7 @@
 #
 # Cohere AI 'command' model fork
 use 5.10.0;
-use warnings;
+#use warnings;
 use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
@@ -379,7 +379,7 @@ sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   logit(2, "API connection subroutine called.");
   $ut = "$textcall";
-  Irssi::print $server->channel_find($channel)->nicks();
+  #Irssi::print $server->channel_find($channel)->nicks();
   $reqs++;
   my $retcode = 1;
   logit(2, "Formatting date tag.");
@@ -423,6 +423,7 @@ sub callapi {
       # the nicks in the channel currently, then if one is found it adds it to the mentioned array, which
       # is then looped over and compiled with the nickpull sub which returns a string that will be later
       # added to the DCP.
+      if($type eq "chan") {
       my @mentioned = ();
       my @tcwords   = split(/ /, $textcall_bare);
       foreach my $ccnw ($server->channel_find($channel)->nicks()) {
@@ -435,7 +436,7 @@ sub callapi {
       foreach my $cm (@mentioned) {
         $mentiontxt = $mentiontxt . nickpull($cm);                                                 # this is what really gets added to DCP
       }
-
+     }
       # below is the contextual prelude that sets cohere command up
       # with some information about it's environmenmt, as well as the
       # question asked and user who asked it, to more accurately answer
@@ -792,21 +793,7 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-      my $try = 1;
-      while ($try <= $maxretry) {
         $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
-        $try++;
-        sleep(2.5);
-        if ($try >= $maxretry) {
-          $isup = 1;
-          $server->command("msg $channel Welp.  Looks like my process is hung, $nick.  Forcing reload to flush chat buffer...");
-          logit(0, "Warn: Max tries hit, probably stalled, forcing reload!");
-          logit(1, "Warn: Offending message from $nick in $channel:  $textcall");
-          Irssi::command("script load franklin.pl");
-        }
-        $isup = $wrote;
-      }
-      logit(2, "The callapi() subroutine successful for $nick\'s private message.");
     }
     else {
       logit(0, "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.");
