@@ -12,6 +12,7 @@
 #
 # Cohere AI 'command' model fork
 use 5.10.0;
+
 #use warnings;
 use Proc::Simple;
 use Irssi;
@@ -363,6 +364,7 @@ sub nickpull {
   else {
     $chanopstr = "are not a channel operator";
   }
+
   # http://ip-api.com/line/47.37.213.69
   my $url = "http://ip-api/line/$hostname";
   use LWP::Simple;
@@ -379,6 +381,7 @@ sub callapi {
   my ($textcall, $server, $nick, $channel, $type) = @_;
   logit(2, "API connection subroutine called.");
   $ut = "$textcall";
+
   #Irssi::print $server->channel_find($channel)->nicks();
   $reqs++;
   my $retcode = 1;
@@ -423,20 +426,21 @@ sub callapi {
       # the nicks in the channel currently, then if one is found it adds it to the mentioned array, which
       # is then looped over and compiled with the nickpull sub which returns a string that will be later
       # added to the DCP.
-      if($type eq "chan") {
-      my @mentioned = ();
-      my @tcwords   = split(/ /, $textcall_bare);
-      foreach my $ccnw ($server->channel_find($channel)->nicks()) {
-        $cnfg = $ccnw->{nick};
-        if (grep(/$cnfg.?/, @tcwords)) {
-          push(@mentioned, $cnfg);
+      if ($type eq "chan") {
+        my @mentioned = ();
+        my @tcwords   = split(/ /, $textcall_bare);
+        foreach my $ccnw ($server->channel_find($channel)->nicks()) {
+          $cnfg = $ccnw->{nick};
+          if (grep(/$cnfg.?/, @tcwords)) {
+            push(@mentioned, $cnfg);
+          }
+        }
+        my $mentiontxt;
+        foreach my $cm (@mentioned) {
+          $mentiontxt = $mentiontxt . nickpull($cm);                                               # this is what really gets added to DCP
         }
       }
-      my $mentiontxt;
-      foreach my $cm (@mentioned) {
-        $mentiontxt = $mentiontxt . nickpull($cm);                                                 # this is what really gets added to DCP
-      }
-     }
+
       # below is the contextual prelude that sets cohere command up
       # with some information about it's environmenmt, as well as the
       # question asked and user who asked it, to more accurately answer
@@ -793,7 +797,7 @@ sub checkpmsg {
     $textcall =~ s/\"//gs;
     Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
-        $wrote = callapi($textcall, $server, $nick, $channel, $type);                              # this puls from the api for the pm
+      $wrote = callapi($textcall, $server, $nick, $channel, $type);                                # this puls from the api for the pm
     }
     else {
       logit(0, "Warn: The callapi() subroutine failed after $maxretry tries for $nick\'s message.");
