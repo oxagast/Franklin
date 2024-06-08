@@ -426,19 +426,23 @@ sub callapi {
       # the nicks in the channel currently, then if one is found it adds it to the mentioned array, which
       # is then looped over and compiled with the nickpull sub which returns a string that will be later
       # added to the DCP.
-      if ($type eq "chan") {
-        my @mentioned = ();
-        my @tcwords   = split(/ /, $textcall_bare);
-        foreach my $ccnw ($server->channel_find($channel)->nicks()) {
-          $cnfg = $ccnw->{nick};
-          if (grep(/$cnfg.?/, @tcwords)) {
-            push(@mentioned, $cnfg);
-          }
+      my @mentioned = ();
+      my @tcwords   = split(/ /, $textcall_bare);
+      my @nks;
+      @nks[0] = $nick;
+      if ($pm == 0) {
+        @nks = $server->channel_find($channel)->nicks();
+      }
+      foreach my $ccnw (@nks) {
+        $cnfg = $ccnw->{nick};
+        if (grep(/$cnfg.?/, @tcwords)) {
+          push(@mentioned, $cnfg);
+          Irssi::print $cnfg;
         }
-        my $mentiontxt;
-        foreach my $cm (@mentioned) {
-          $mentiontxt = $mentiontxt . nickpull($cm);                                               # this is what really gets added to DCP
-        }
+      }
+      my $mentiontxt;
+      foreach my $cm (@mentioned) {
+        $mentiontxt = $mentiontxt . nickpull($cm);                                                 # this is what really gets added to DCP
       }
 
       # below is the contextual prelude that sets cohere command up
@@ -478,6 +482,7 @@ sub callapi {
     $chat[1] = "Bunk.";                                                                            # this is so when the chat first starts, if these are left undef, it does not
     $chat[2] = "Bunk.";                                                                            # satisfy the json validator on the API side, and fails for the first call to franklin.
     $chatsan = sanitize($chat[-3], noquote => 1);
+    if ($chatsan == "") { $chatsan = "none"; }
     $ut      =~ s/\"/\\"/g;                                                                        # for some silly reason noquote => 1 on the above sanitization call it does
     $chatsan =~ s/\"/\\"/g;                                                                        # not take care of double quote, which will break the json if not double-escaped.
     $textcall = $dcp;
@@ -490,6 +495,9 @@ sub callapi {
     $dcp     =~ s/[^a-zA-Z0-9,. #]+//g;
     $ut      =~ s/[^a-zA-Z0-9,. #]+//g;
     $flast   =~ s/[^a-zA-Z0-9,. #]+//g;
+    if ($flast == "") {
+      $flast = "none";
+    }
     my $askbuilt = qq({"chat_history": [ {"role": "USER", "message": "$chatsan"},{"role": "CHATBOT", "message": "$flast"} ], "message": "$nick asked: $ut", "preamble": "$dcp", "max_tokens": $tokenlimit});
 
     # Below we are building the request thats sent to the API server via POST.
@@ -795,7 +803,8 @@ sub checkpmsg {
     my $textcall = $msg;                                                                           ## $1 is the "dot star" inside the parenthesis
     $textcall =~ s/\'//gs;
     $textcall =~ s/\"//gs;
-    Irssi::print "Franklin: $nick asked: $textcall";
+
+    #Irssi::print "Franklin: $nick asked: $textcall";
     if (($textcall !~ m/^\s+$/) || ($textcall !~ m/^$/)) {
       $wrote = callapi($textcall, $server, $nick, $channel, $type);                                # this puls from the api for the pm
     }
