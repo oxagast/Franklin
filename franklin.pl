@@ -29,6 +29,7 @@ use Filesys::Df;
 use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Data::Dumper qw(Dumper);
+use HTML::Strip
 $|++;
 $VERSION = "4.5.0";
 %IRSSI = (
@@ -199,58 +200,6 @@ sub logit {
   }
 }
 
-
-sub untag {
-  local $_ = $_[0] || $_;
-  s{
-    <               # open tag
-    (?:             # open group (A)
-      (!--) |       #   comment (1) or
-      (\?) |        #   another comment (2) or
-      (?i:          #   open group (B) for /i
-        ( TITLE  |  #     one of start tags
-          SCRIPT |  #     for which
-          APPLET |  #     must be skipped
-          OBJECT |  #     all content
-          STYLE     #     to correspond
-        )           #     end tag (3)
-      ) |           #   close group (B), or
-      ([!/A-Za-z])  #   one of these chars, remember in (4)
-    )               # close group (A)
-    (?(4)           # if previous case is (4)
-      (?:           #   open group (C)
-        (?!         #     and next is not : (D)
-          [\s=]     #       \s or "="
-          ["`']     #       with open quotes
-        )           #     close (D)
-        [^>] |      #     and not close tag or
-        [\s=]       #     \s or "=" with
-        `[^`]*` |   #     something in quotes ` or
-        [\s=]       #     \s or "=" with
-        '[^']*' |   #     something in quotes ' or
-        [\s=]       #     \s or "=" with
-        "[^"]*"     #     something in quotes "
-      )*            #   repeat (C) 0 or more times
-    |               # else (if previous case is not (4))
-      .*?           #   minimum of any chars
-    )               # end if previous char is (4)
-    (?(1)           # if comment (1)
-      (?<=--)       #   wait for "--"
-    )               # end if comment (1)
-    (?(2)           # if another comment (2)
-      (?<=\?)       #   wait for "?"
-    )               # end if another comment (2)
-    (?(3)           # if one of tags-containers (3)
-      </            #   wait for end
-      (?i:\3)       #   of this tag
-      (?:\s[^>]*)?  #   skip junk to ">"
-    )               # end if (3)
-    >               # tag closed
-   }{}gsx;                                                                                         # STRIP THIS TAG
-  return $_ ? $_ : "";
-}
-
-
 sub pullpage {
   my ($text) = @_;
   if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
@@ -265,9 +214,9 @@ sub pullpage {
     );
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $page_body = untag(encode('utf-8', $cres->decoded_content()));                            # we get an error unless this is utf8
-      $page_body =~ s/\s+/ /g;
-      $page_body =~ s/[^a-zA-Z0-9, ]+//g;
+      my $stripper = HTML::Strip->new();
+      my $page_body = $stripper->parse( encode('utf-8', $cres->decoded_content()) );
+      $stripper->eof;
       return $page_body;
     }
   }
@@ -287,8 +236,6 @@ sub asshat {
       my $uri = URI->new($url);
       my $ua  = LWP::UserAgent->new;
       $dcp = Irssi::strip_codes($textcall);
-
-      #$textcall =~ s/\"/\\\"/g;
       $textcall =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
       $dcp      =~ s/[\"|\f|\n|\b|\r|\t|\\|`]//g;
       my $askbuilt =                                                                               # Build the API request
@@ -320,7 +267,6 @@ sub nickpull {
     $injson = <DB>;
     close(DB);
   }
-
   # this next part is almost identical to the way it works in the profiler.
   my $dstruct;
   my ($hostn, $queries_per_day, $messages_per_day, $create_date, $change_date, $average_message_length, $oper, $ttls, @lm, $wt);
@@ -418,7 +364,7 @@ sub callapi {
     my $textcall_bare = $textcall;
     my $dcp;
     if (($page) && (length($page) >= 20)) {
-      $page = substr($page, 0, 15000);                                                             # becuse otherwise its too long
+      $page = substr($page, 0, 50000);                                                             # becuse otherwise its too long
       $dcp  = "The query to the bot by the IRC user $nick is: $textcall  -- and the webpage text they are asking about says: $page";
     }
     else {
