@@ -100,17 +100,17 @@ sub buildjson {
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
   my $injson = "";
-  if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
+  if (!-f "$sdbloc/$nick.json") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
     $newjsonout = buildjson($nick, "localhost", 0, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
-    open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
+    open(SDBN, '>', "$sdbloc/$nick.json");                                                              # opens user's profile
     print SDBN $newjsonout;                                                                        # creates profile
     close(SDBN);
     $injson = $newjsonout;
   }
   if (-e "$sdbloc/$nick") {
-    open(SDBI, '<', "$sdbloc/$nick");
+    open(SDBI, '<', "$sdbloc/$nick.json");
     $injson = <SDBI>;
     close(SDBI);
   }
@@ -145,7 +145,7 @@ sub catchmsg {
   }
   my $change_date = strftime("%m-%d-%Y", localtime);
   my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $change_date, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, @lm, $msg);
-  open(SDBO, '>', "$sdbloc/$nick");
+  open(SDBO, '>', "$sdbloc/$nick.json");
   print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);
 }

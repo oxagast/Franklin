@@ -262,8 +262,8 @@ sub asshat {
 
 sub nickpull {
   my ($cnk) = @_;
-  if (-f "$prosdir/$cnk") {
-    open(DB, '<', "$prosdir/$cnk");
+  if (-f "$prosdir/$cnk.json") {
+    open(DB, '<', "$prosdir/$cnk.json");
     $injson = <DB>;
     close(DB);
   }
