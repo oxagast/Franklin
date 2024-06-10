@@ -7,5 +7,5 @@ api.key
 !bot.log
 worldnews.txt
 wn.txt
-fprofiles/*.json
-!fprofiles/oxagast.json
+#fprofiles/*.json
+#!fprofiles/oxagast.json
