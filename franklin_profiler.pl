@@ -16,7 +16,7 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-$userfile    = "1.3.1";
+$userfile    = "1.3.2";
 $franklinver = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
@@ -32,10 +32,10 @@ my $sdbloc = "/home/franklin/Franklin/fprofiles/";                              
 
 
 sub buildjson {
-  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $day, $average_line_length, @lastm) = @_;
+  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $day, $average_line_length, @lastm, @rndm) = @_;
   push(@lastm, $msg);
   if (int(rand(10)) == 0) {
-    push(rndm, $msg);
+    push(@rndm, $msg);
   }
   if (scalar(@lastm) > 8) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
@@ -104,7 +104,7 @@ sub catchmsg {
   if (!-f "$sdbloc/$nick.json") {                                                                       # checks if the user is already in the database ad creates it if not
     @init       = ();                                                                              # so that the random comes in blanked out
 #  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $day, $average_line_length, @lastm, $rndmm) = @_;
-    $newjsonout = buildjson($nick, "localhost", 0, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, "", 0, 1, 1, $msg);    # the final $msg is needed to
+    $newjsonout = buildjson($nick, "localhost", 0, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, "", 0, 1, 1, $msg, $msg);    # the final $msg is needed to
                                                                                                    # add to the 'last' space in json
     open(SDBN, '>', "$sdbloc/$nick.json");                                                              # opens user's profile
     print SDBN $newjsonout;                                                                        # creates profile
@@ -117,6 +117,7 @@ sub catchmsg {
     close(SDBI);
   }
   $lmn{$nick} = \@lm;
+  $rmn{$nick} = \@rm;
   my $dstruct                = parse_json($injson);
   my $queries                = $dstruct->{$nick}->{queries};
   my $queries_per_day        = $dstruct->{$nick}->{queries_per_day};
@@ -127,6 +128,7 @@ sub catchmsg {
   my $day                    = $dstruct->{$nick}->{day};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
   @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
+  @rm = @{$dstruct->{$nick}->{messages}->{random}};
   my $hostn;
 
   foreach $n ($server->channel_find($channel)->nicks) {
@@ -144,7 +146,7 @@ sub catchmsg {
     $create_date = strftime("%m-%d-%Y", localtime);
   }
   my $change_date = strftime("%m-%d-%Y", localtime);
-  my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $change_date, $ttls, $msg, $queries, $day, $average_message_length, @lm);
+  my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $change_date, $ttls, $msg, $queries, $day, $average_message_length, @lm, @rm);
   open(SDBO, '>', "$sdbloc/$nick.json");
   print SDBO $sdbjson;                                                                             # update the user in dbase
   close(SDBO);
