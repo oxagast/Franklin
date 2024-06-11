@@ -34,6 +34,9 @@ my $sdbloc = "/home/franklin/Franklin/fprofiles/";                              
 sub buildjson {
   my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $day, $average_line_length, @lastm) = @_;
   push(@lastm, $msg);
+  if (int(rand(10)) == 0) {
+    push(rndm, $msg);
+  }
   if (scalar(@lastm) > 8) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
   } 
@@ -50,10 +53,13 @@ sub buildjson {
   if ($msg =~ m/^Franklin[:|,] /) {
     $queries++;
     $qpd = $queries / $day;                                                                        # franklin was called, we know it was a query
-  }
+    $qpd = sprintf("%.2f", $qpd);   
+}
   my $alll = ($average_line_length + length($msg)) / 2;                                            # calcs avg line len
+  $alll = sprintf("%.2f", $alll);
   my $totm = $totmsgs + 1;
   $mspd = $totmsgs + 1  / $day;                                                                        # this is reset every morning at midnight
+  $mspd = sprintf("%.2f", $mspd);
   # the json should look something like the below after generation
   ## {"versions":{"userfile":"1.0.0","franklin":"4.0.0"},"nick":"oxagast","create_date":
   ## "04182024","change_date":"04192024","total_messages":55,"queries_per_day":12,"menti
