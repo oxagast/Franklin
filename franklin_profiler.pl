@@ -37,10 +37,10 @@ sub buildjson {
   if (int(rand(10)) == 0) {
     push(@rndm, $msg);
   }
-  if (scalar(@lastm) > 8) {
+  if (scalar(@lastm) > 12) {
     shift(@lastm);                                                                                 # this stuff makes it so that there i
   } 
-  if (scalar(@rndm) > 8) {
+  if (scalar(@rndm) > 12) {
     shift(@rndm);
   }
 

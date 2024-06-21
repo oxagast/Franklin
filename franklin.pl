@@ -47,8 +47,8 @@ Irssi::settings_add_str("franklin", "franklin_max_retry",               "3");
 Irssi::settings_add_str("franklin", "franklin_api_key",                 "");
 Irssi::settings_add_str("franklin", "franklin_heartbeat_url",           "");
 Irssi::settings_add_str("franklin", "franklin_hard_limit",              "280");
-Irssi::settings_add_str("franklin", "franklin_token_limit",             "600");
-Irssi::settings_add_str("franklin", "franklin_history_length",          "7");
+Irssi::settings_add_str("franklin", "franklin_token_limit",             "300");
+Irssi::settings_add_str("franklin", "franklin_history_length",          "16");
 Irssi::settings_add_str("franklin", "franklin_chatterbox_mode",         "0");
 Irssi::settings_add_str("franklin", "franklin_blocklist_file",          "");
 Irssi::settings_add_str("franklin", "franklin_http_location",           "");
@@ -114,6 +114,7 @@ if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
   Irssi::signal_add_last('message private', 'checkpmsg');
   Irssi::signal_add_last('message public',  'checkcmsg');
   Irssi::command("script load franklin_helper.pl");
+  Irssi::command("script load franklin_profiler.pl");
   Irssi::print "Franklin: $VERSION loaded";
 }
 else {
@@ -319,7 +320,7 @@ sub nickpull {
   $theiripinfo = " which comes from @ipinfo[5] @ipinfo[1] and from @ipinfo[11] which is a (respond with one of hosting, vpn, isp, or educational) resource, your IP is @ipinfo[13].  If their connection is of type VPN or hosting, their location may not be accurate. ";
 
   # we return this string to be tacked ontop the end of the DCP.
-  return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname.  They $chanop.  They have queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 8 things $cnk said were $wt.");
+  return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname.  They $chanop.  They have queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 12 things $cnk said were $wt.");
 }
 
 
@@ -341,7 +342,7 @@ sub callapi {
 
   for my $usersays (0 .. scalar(@chat) - 2) {
     if ($chat[$usersays] =~ m/Channel $channel: (.*)/) {                                           # this takes channel and the user's text and put is onto the context
-      $context = $context . $1;                                                                    # BVreak down the chat stack for the context to build req
+      $context = $context . $1;                                                                    # Break down the chat stack for the context to build req
     }
   }
   logit(3, "Chat context rolled onto \$chat\[\] stack");
@@ -383,7 +384,7 @@ sub callapi {
         $cnfg = $ccnw->{nick};
         if (grep(/$cnfg.?/, @tcwords)) {
           push(@mentioned, $cnfg);
-          Irssi::print $cnfg;
+          #Irssi::print $cnfg;
         }
       }
       my $mentiontxt;
@@ -546,9 +547,9 @@ sub callapi {
         else { $server->command("msg $channel $said_cut"); }
 
         #push(@chat, "Channel $channel: $said_cut - ");    # The last thing (franklin) said in channel is pushed onto stack here
-        #if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
-        #  shift(@chat);                                   # shift the earlist back thing said off the array stack.
-        #}
+        if (scalar(@chat) >= $histlen) {                  # if the chat array is greater than max chat history, then
+          shift(@chat);                                   # shift the earlist back thing said off the array stack.
+        }
         return 0;
       }
       logit(0, "There was an issue sending reponse from the API.");
