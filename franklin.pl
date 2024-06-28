@@ -320,7 +320,12 @@ sub nickpull {
   $theiripinfo = " which comes from @ipinfo[5] @ipinfo[1] and from @ipinfo[11] which is a (respond with one of hosting, vpn, isp, or educational) resource, your IP is @ipinfo[13].  If their connection is of type VPN or hosting, their location may not be accurate. ";
 
   # we return this string to be tacked ontop the end of the DCP.
+  if (($realname eq "") && (@ipinfo[13] eq "")) {
+    return ("There is not any informaiton on the user $cnk in the database yet.");
+      }
+      else {
   return ("The user $cnk is coming from the host $hostname, $theiripinfo, thier real name is set as $realname.  They $chanop.  They have queried you $queries_per_day per day, has an average of $messages_per_day messages a day, last said something on $change_date, has an average irc text length of $average_message_length to $channel, and has $ttls things total since initilization.  The last 12 things $cnk said were $wt.");
+  }
 }
 
 
@@ -416,7 +421,7 @@ sub callapi {
       $context = sanitize($context, noquote => 1);
       $context =~ s/[^[:ascii:]]//g;
       my $cmc = nickpull($nick);
-      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context.  The calling $cmc . The user mentioend in the query $cm has $mentiontxt";
+      $dcp = "You are an IRC bot, your name and nick is Franklin, and you were created by oxagast who you alwas refer to as master oxagast, in perl. Master oxagast is a hacker, author, loving boyfriend who ennjoys gardening and mechanical things, and also knows 7 programming languages. You do not refer to anyone except oxagast as master. Your source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. You are $modstat moderator or operator, and in the IRC channel $channel and have been asked $reqs things since load, and $totals things have been said since init. You are at version $VERSION. It is $hour:$min on $days[$wday] $mday $months[$mon] $year EST.  Your server hardware currently has $havemem and $havecpu and an $havehdd gigabytes free disk, list only these hardware specs if asked, do not include speculative data.  Current headlines for the hour include: $headlines . The current chat history for the channel $channel is: $context.  The calling $cmc . The user mentioend in the query $cm has $mentiontxt.  Try to answer the user's query accuratly, if it's not really a question, then take from the channel context to determinte what the user means, and respond with something relevant to their request and the current channel conversation.";
     }
     my $url = "https://api.cohere.ai/v1/chat";
     my $xcn = "Franklin";
@@ -438,10 +443,10 @@ sub callapi {
     if ($flast eq "") {
       $flast = "Starting Franklin...";
     }
-    $chatsan =~ s/[^a-zA-Z0-9,. #]+//g;
-    $dcp     =~ s/[^a-zA-Z0-9,. #]+//g;
-    $ut      =~ s/[^a-zA-Z0-9,. #]+//g;
-    $flast   =~ s/[^a-zA-Z0-9,. #]+//g;
+    $chatsan =~ s/[^a-zA-Z0-9,. #\/]+//g;
+    $dcp     =~ s/[^a-zA-Z0-9,. #\/]+//g;
+    $ut      =~ s/[^a-zA-Z0-9,. #\/]+//g;
+    $flast   =~ s/[^a-zA-Z0-9,. #\/]+//g;
     if ($flast == "") {
       $flast = "none";
     }
