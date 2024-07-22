@@ -1,0 +1,3 @@
+zyme asked TLDR what a PPI medication is and does with hash 5bf86a5c
+<---- snip ---->
+A PPI, or proton-pump inhibitor, is a type of drug that inhibits the production of stomach acid. They are typically prescribed for conditions such as gastroesophageal reflux disease (GERD), peptic ulcers, and Zollinger-Ellison syndrome. PPIs work by blocking the enzyme system in the stomach that produces acid, which helps to reduce the amount of acid in the stomach and can help to relieve symptoms such as heartburn, indigestion, and acid reflux. Some common PPIs include omeprazole (Prilosec), lansoprazole (Prevacid), and esomeprazole (Nexium).

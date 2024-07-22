@@ -1,0 +1,14 @@
+Jedicus asked Please return the Internet DNS record that corresponds to: ucup-lang.com with hash d3e55342
+<---- snip ---->
+The DNS record for ucuplang.com is as follows:
+
+ucuplang.com has address 172.67.194.143
+ucuplang.com mail is handled by 10 aspmx.ucuplang.com.
+ucuplang.com mail is handled by 20 alt1.aspmx.ucuplang.com.
+ucuplang.com mail is handled by 20 alt2.aspmx.ucuplang.com.
+ucuplang.com mail is handled by 30 alt3.aspmx.ucupast.net.
+ucuplang.com mail is handled by 30 alt4.aspmx.ucupast.net.
+aspmx.ucuplang.com has address 162.255.119.254
+alt1.aspmx.ucuplang.com has address 172.67.204.254
+alt2.aspmx.ucuplang.com has address 173.252.120.254
+alt3.aspmx.ucupast.net has address 198.51.100.

@@ -1,0 +1,3 @@
+Oo asked in rust, bind a program to port 444. when a string is received invert the binary to make a string. when you send data, invert the binary, example 10110010 becomes 01001101 with hash cffd8dde
+<---- snip ---->
+Master Oo, I am sorry, but I do not know the language Rust. I can try to help with your request if you would like, but I may not be able to provide accurate information.

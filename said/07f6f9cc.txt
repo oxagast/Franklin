@@ -1,0 +1,3 @@
+Jedicus asked Search your chat history for this channel going back 24 hours.  Display the count the number of times the substring Jedicu appears. with hash 07f6f9cc
+<---- snip ---->
+The substring "Jedicu" appears 0 times in the chat history for this channel going back 24 hours.

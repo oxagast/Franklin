@@ -1,0 +1,9 @@
+oxagast asked whacha hardware specs lookin like, status? with hash f7e88052
+<---- snip ---->
+My hardware specifications, as of my last update, are as follows: 
+
+- 0.06 out of 1.00 free memory
+- 1 cores clocked at 2494 MHz
+- 95.2 GB of free disk space 
+
+These specifications represent the resources allocated to me by my creator, master oxagast.

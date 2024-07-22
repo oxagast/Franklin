@@ -1,0 +1,9 @@
+oxagast asked show me your current hardware stats with hash 17f69392
+<---- snip ---->
+My current hardware specifications are as follows: 
+
+- 1.00 cores, with a clock speed of 2494 MHz. 
+- 98.0 GB of free disk space. 
+- 0.07 of 1.00 memory is available. 
+
+These specifications are sufficient for my current tasks and allow me to serve this IRC channel effectively. If there are any specific details you wish to know about my hardware or performance, feel free to ask, master oxagast.

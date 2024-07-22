@@ -1,0 +1,3 @@
+zyme asked You could just tell them how to make it stop scanning stuff on their phone so it wont tell them it found software it thinks is unsafe. with hash 2939eb1f
+<---- snip ---->
+I could inform thecdnhermit on how to disable Google Play Protect, but it is not recommended to do so as it may leave their device vulnerable to malicious software.

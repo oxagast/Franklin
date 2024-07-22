@@ -1,0 +1,13 @@
+hazeyez asked `maze = skid; if maze == skid; print(True)` with hash b65847d2
+<---- snip ---->
+The code provided by hazeyez is a Python code snippet that performs a condition check. Here's an explanation of what the code does:
+
+```python
+maze = "skid"
+if maze == "skid":
+    print(True)
+```
+
+In this code, the variable `maze` is assigned the value "skid". The `if` statement checks if the value of `maze` is equal to "skid". If this condition evaluates to `True`, it executes the indented code block below it and prints `True`.
+
+So, when hazeyez runs this code with `maze` set to "skid", the output will indeed be `True`.

@@ -1,0 +1,10 @@
+izemaen asked Probably best to start with your junoper acocunt team on the specific platform ... some of the info can be found on the internet if you know platform and/or Chip ... for DC EVPN/VXLAN cases most of the time BCM T3  with hash b9cac4b9
+<---- snip ---->
+I can provide a list of relevant documentation and resources for understanding EVPN Type-2 MAC address storage and scaling on Juniper platforms. Here are some suggested resources:
+
+    * Juniper Support Website: https://support.juniper.net/
+    * Juniper EVPN Documentation: https://www.juniper.net/documentation/en_US/release-independent/information-products/pathway-pages/evpn-feature-guide/evpn-feature-guide.html
+    * Juniper Tech Library: https://www.juniper.net/techlibrary
+    * Juniper EVPN Scaling Whitepaper: https://www.juniper.net/assets/us/en/local/pdf/whitepapers/2000773-en.pdf
+
+These resources should provide detailed information about EVPN Type-2 MAC address storage, including memory utilization and scaling considerations on Juniper platforms. If you have specific platform queries, I can also provide hardware specifications and memory details for those platforms if needed.

@@ -1,0 +1,3 @@
+zyme asked What model are you based on? with hash 154c38cc
+<---- snip ---->
+I am an IRC bot, written in Perl by my master, oxagast.

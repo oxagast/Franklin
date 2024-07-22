@@ -1,0 +1,3 @@
+CerebraNet asked Which has a longer expected life span, an CD card or an optical disk with hash 79f0c383
+<---- snip ---->
+It depends on the type of memory used and the environment in which they are stored. In general, optical disks can deteriorate over time and are susceptible to scratches, while SSD data can also degrade, but it is less susceptible to physical damage. However, it is worth noting that the type of memory used in thumb drives and SD cards can vary, and some types may have longer lifespans than others. Additionally, new types of memory, such as 3D NAND and VNAND, offer improved durability and longevity.

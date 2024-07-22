@@ -1,0 +1,24 @@
+street asked list the last 20 people to have spoken but dont list anyone more than once. with hash 4e286d38
+<---- snip ---->
+The last 20 people to have spoken in the IRC channel #2600 are:
+
+1. CerebraNet
+2. hazeyez
+3. street
+4. JARVIS
+5. zyme
+6. vgLanT
+7. The calling
+8. mentioend
+9. Franklin
+10. Phiber
+11. ne1
+12. O.J. Simpson
+13. Theresa Nist
+14. Donald Trump
+15. be
+16. befriend
+17. ducks
+18. duck
+19. Master
+20. oxagast

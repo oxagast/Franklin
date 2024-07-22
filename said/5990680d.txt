@@ -1,0 +1,3 @@
+aestetix asked tell me about oxagast connection with hash 5990680d
+<---- snip ---->
+The user oxagast is coming from the host oxasploits.com, which comes from North Bergen, United States, and from DigitalOcean, LLC, which is a hosting, VPN, ISP, or educational resource. Their IP is 143.198.179.97. If their connection is of type VPN or hosting, their location may not be accurate.

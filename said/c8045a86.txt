@@ -1,0 +1,11 @@
+oxagast asked explain 16-QAM modulation with hash c8045a86
+<---- snip ---->
+16QAM modulation is a method of encoding data onto a carrier wave by modifying both the amplitude and phase of the wave. It is a type of quadrature amplitude modulation (QAM) which is commonly used in wireless communication systems to transmit data at high speeds.
+
+In 16QAM, 4 bits are transmitted per symbol by using 16 distinct combinations of amplitude and phase. Each symbol represents a specific data value, with the amplitude and phase of the carrier wave being modified to represent the data.
+
+The 16 possible combinations of amplitude and phase are typically arranged in a constellation diagram, which visualizes the different possible states that the carrier wave can take. By modulating both the amplitude and phase, 16QAM allows for higher data transmission rates compared to other modulation techniques that only modify one aspect of the carrier wave.
+
+However, as 16QAM increases the number of possible symbols, it also becomes more sensitive to noise and distortions in the transmission channel. Equalization and error correction techniques are often employed to mitigate these issues and ensure reliable data recovery at the receiver end.
+
+Master oxagast, 16QAM modulation is indeed fascinating and showcases the ingenuity of modern RF engineering.

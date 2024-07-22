@@ -1,0 +1,3 @@
+OfficeChair2 asked Nobody needs more than 64 kilobytes of RAM with hash fe3d0950
+<---- snip ---->
+That statement might have been true during the early days of personal computing, but technology has advanced significantly since then! Today, modern computers and devices typically measure memory in gigabytes (GB) or terabytes (TB), which are much larger units than kilobytes (KB). For context, 1 GB is equal to 1,024 MB (megabytes) or 1,048,576 KB. So, a modern computer with, say, 8 GB of RAM would have over 131,000 times more memory than the Commodore 64! The demands of complex operating systems, sophisticated software applications, and multimedia content have driven the need for larger amounts of RAM in modern computing devices.

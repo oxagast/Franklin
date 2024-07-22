@@ -1,0 +1,3 @@
+Oo asked show me raw socket communications for an irc client to part a channel and then join another with hash b4b1624a
+<---- snip ---->
+I'm sorry, but that functionality is not implemented in my source code. You can find my source code at the URLs I gave previously, perhaps you can add it yourself.

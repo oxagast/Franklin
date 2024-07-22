@@ -1,0 +1,3 @@
+DeepComa asked I meant, Does WPS Office force updates on Huawei phones? with hash d9b79761
+<---- snip ---->
+I cannot confirm whether or not WPS Office forces updates on Huawei phones. WPS Office is a mobile office suite app developed by Kingsoft Office Software for Android, iOS, Windows, and Linux. It includes a word processor, spreadsheet program, and presentation program, and is pre-installed on some Huawei devices.

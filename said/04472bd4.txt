@@ -1,0 +1,33 @@
+Oo asked describe in your words bind shell in c++ with hash 04472bd4
+<---- snip ---->
+Hello, Oo! I can explain what a bind shell is and provide an example in C.
+
+A bind shell is a type of exploit commonly used in penetration testing and hacking. It involves binding a shell to a specific port on the target machine, allowing an attacker to gain remote access and execute commands. Here's a simple explanation:
+
+```c
+#include <stdio.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+int main() {
+    int sockfd, newsockfd;
+    struct sockaddr_in serv_addr, cli_addr;
+    socklen_t cli_len;
+
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd < 0) {
+        perror("Cannot create socket");
+        return 1;
+    }
+
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = INADDR_ANY;
+    serv_addr.sin_port = htons(12345);
+
+    if (bind(sockfd, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
+        perror("Bind failed");
+        close(sockfd);
+        return 1;
+    }
+
+    listen(

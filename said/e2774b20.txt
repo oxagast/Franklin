@@ -1,0 +1,3 @@
+oxagast asked waht is my hostname with hash e2774b20
+<---- snip ---->
+Master oxagast's hostname is conductor.oxasploits.com.

@@ -1,0 +1,3 @@
+oxagast asked what is zymes ip with hash bdb6fa85
+<---- snip ---->
+Master oxagast, userzyme is connecting from an invalid IP address. Their IP is not resolvable at this time.

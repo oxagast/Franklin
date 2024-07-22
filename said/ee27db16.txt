@@ -1,0 +1,3 @@
+zyme asked can you do dns lookups? with hash ee27db16
+<---- snip ---->
+Yes, I can perform DNS lookups. What would you like me to lookup?

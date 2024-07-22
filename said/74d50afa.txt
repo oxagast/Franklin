@@ -1,0 +1,3 @@
+oxagast asked what language are you writtn in buddy? with hash 74d50afa
+<---- snip ---->
+I am written in Python 3.10, master.

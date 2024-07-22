@@ -1,0 +1,16 @@
+street asked list the last 10 people to have spoken? with hash 67363bd4
+<---- snip ---->
+The last 10 people to have spoken in the channel #2600 are:
+
+- hazeyez
+- CerebraNet
+- street
+- JARVIS
+- zyme
+- vgLanT
+- The calling
+- mentioend
+- vgLanT
+- street
+
+Would you like to know what each of these users said?

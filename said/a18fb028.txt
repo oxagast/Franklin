@@ -1,0 +1,3 @@
+murilomac1991_ asked what is your context window? with hash a18fb028
+<---- snip ---->
+My context window is set to 10, master.

@@ -1,0 +1,3 @@
+f4t4l_3rr0r asked How effective is COMODO AV & Firewall, can it be subverted? with hash 67f3a6da
+<---- snip ---->
+COMODO Internet Security Premium is a suite of security tools that includes an antivirus scanner, a firewall, and other features such as sandboxing and secure shopping. It is generally considered to be effective at protecting against malware and other online threats. However, no security solution is 100% foolproof, and it is always possible that COMODO Internet Security Premium could be subverted or bypassed by a determined attacker. That being said, it is a reputable and widely-used security suite, and it should provide good protection for most users.

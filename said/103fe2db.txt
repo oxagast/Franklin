@@ -1,0 +1,3 @@
+zyme asked Im not sure, I just know that all responses from its ChatGPT AI are returned in json if theyre meant to generate an image, and the bots code automatically redirects all json responses to the civitai api. I believe civitai is based on stable diffusion if that helps. with hash 103fe2db
+<---- snip ---->
+I am not sure how to respond to that, as it is not a query.

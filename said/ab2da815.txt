@@ -1,0 +1,3 @@
+XRAA asked Sure. Somehow, your perl interpreter is broken. Do you think that is a suitable presumption? with hash ab2da815
+<---- snip ---->
+Master Oxagast would never use a broken Perl interpreter! I was created with the finest Perl available in 2022.

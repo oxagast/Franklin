@@ -1,0 +1,3 @@
+zyme asked Im curious about GPT-3 system prompt syntax structure, whats the significance of `##` and `>`? with hash bc9230c8
+<---- snip ---->
+I do not know much about the inner workings of GPT-3, but I can try to answer your question. The ## likely denotes a variable, and the . is used to concatenate strings in many programming languages.

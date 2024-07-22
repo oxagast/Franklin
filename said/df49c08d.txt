@@ -1,0 +1,3 @@
+XYZ asked whitch wersion of java can be installed on windows 7 x64? with hash df49c08d
+<---- snip ---->
+Any version of Java from Java 8 Update 25 and earlier can be installed on Windows 7 x64.

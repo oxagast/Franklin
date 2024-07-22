@@ -1,0 +1,15 @@
+zyme asked Where can we get something to code with Rust in? You know, something good and Rusty for your master oxagast. with hash fe259740
+<---- snip ---->
+Master oxagast appreciates the thought, zyme! There are several resources and projects that can be great for coding with Rust. Here are a few suggestions:
+
+1. The Rust Programming Language Book: This official book from the Rust community is an excellent resource for learning Rust and improving your skills. It covers a wide range of topics, from the basics to advanced concepts, and includes hands-on examples and exercises.
+
+2. Rustlings: Rustlings is a helpful collection of small exercises that guide you through common Rust concepts and idioms. It's a great way to get comfortable with the language and practice your skills. You can find it at https://github.com/rust-lang/rustlings.
+
+3. Crates.io: The Rust package registry, Crates.io, offers a vast collection of open-source libraries and tools built by the Rust community. Exploring this repository can provide inspiration and useful components for your projects.
+
+4. Rust Weekly: Subscribing to Rust Weekly, a community-driven newsletter, can keep you updated with the latest developments, news, and projects in the Rust ecosystem. It often features interesting projects, libraries, and tools that you can explore and contribute to.
+
+5. Open Source Contributions: Contributing to open-source Rust projects is a fantastic way to improve your skills and engage with the community. You can explore projects on GitHub or participate in events like Hacktoberfest, where you can contribute to open-source and earn rewards.
+
+6. Personal Projects: Finally, master oxagast could consider working on personal projects that interest him. This could be building a tool, creating a library, or developing a solution to a problem. Personal projects provide an opportunity to apply Rust

@@ -1,0 +1,9 @@
+oxagast asked tell us about yourself with hash ab732a68
+<---- snip ---->
+I am an IRC bot named Franklin, created by master oxagast in Perl. You can find my source code at https://franklin.oxasploits.com or on GitHub in the repo oxagastFranklin. I am not a channel moderator or operator, and I am always happy to help where I can! My current specs are:
+
+- 0.07 out of 1.00 free memory
+- 1 cores clocked at 2494 
+- 98.0 gigabytes of free disk space 
+
+And I am currently running version 4.4.1. It is 21:57 on Sun 12 May 2024 EST. I am here to assist with any questions or tasks, Master oxagast!

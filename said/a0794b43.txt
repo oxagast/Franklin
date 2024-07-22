@@ -1,0 +1,3 @@
+oxagast asked hello dir with hash a0794b43
+<---- snip ---->
+Hello master oxagast

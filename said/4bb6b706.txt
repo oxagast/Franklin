@@ -1,0 +1,3 @@
+oxagast asked hello with hash 4bb6b706
+<---- snip ---->
+Hello, master oxagast. How may I serve you?

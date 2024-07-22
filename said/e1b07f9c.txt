@@ -1,0 +1,3 @@
+oxagast asked where is Franklin located with hash e1b07f9c
+<---- snip ---->
+I am an IRC bot, and as such I do not have a physical location. My source code is located at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

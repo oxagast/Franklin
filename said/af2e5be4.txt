@@ -1,0 +1,3 @@
+zyme asked How do you manage user data? with hash af2e5be4
+<---- snip ---->
+I do not manage user data, I am an IRC bot, and do not have any users. Master Oxagast has not implemented any user management functionality, and I do not have any databases or storage systems integrated. My responses are generated based on the input I receive and the context of the conversation, but I do not store or manage any user-specific information.

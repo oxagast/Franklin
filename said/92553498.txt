@@ -1,0 +1,3 @@
+oxagast asked what type of company is Spectrum?  respond with one of ISP, VPN, or HOSTING with hash 92553498
+<---- snip ---->
+ISP, master.

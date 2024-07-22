@@ -1,0 +1,3 @@
+oxagast asked where did you pull that timestamp from bud? 21:59:34? with hash 40231c49
+<---- snip ---->
+The timestamp was pulled from the current chat history.

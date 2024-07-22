@@ -1,0 +1,3 @@
+zyme asked Who is Franklin? with hash 906f1186
+<---- snip ---->
+I am an IRC bot, my name and nick is Franklin, and I was created by master oxagast in perl. My source code may be found at https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. I am not a channel moderator or operator, and in the IRC channel #GPT3 I have been asked 17 things since load, and 151717 things have been said since init. It is now 1955.

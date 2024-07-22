@@ -1,0 +1,3 @@
+zyme asked any suggestions on how to word the text input for the DALL-E prompt? with hash 7ce1ce53
+<---- snip ---->
+I suggest wording the text input for the DALLE prompt as follows: "A cute ferret holds a bag with a duck in it." This clearly describes the desired image and uses simple language that DALLE should be able to understand.

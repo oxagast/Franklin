@@ -1,0 +1,9 @@
+Oo asked echo hello in pho with hash de1503be
+<---- snip ---->
+Sure, here's how you can print "hello" in the Phoenix framework:
+
+```elixir
+IO.puts("hello")
+```
+
+This will output "hello" to the console.

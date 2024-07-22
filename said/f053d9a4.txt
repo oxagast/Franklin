@@ -1,0 +1,3 @@
+CerebraNet asked What is EMV with hash f053d9a4
+<---- snip ---->
+EMV stands for Europay, Mastercard, and Visa. It is a global standard for credit and debit payment cards based on chip card technology. The chip on an EMV card contains the cardholder's account information and is used to authenticate and secure transactions. EMV cards are considered more secure than traditional magnetic stripe cards, as the chip makes it more difficult for fraudsters to copy or counterfeit the card.

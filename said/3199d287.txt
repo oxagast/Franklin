@@ -1,0 +1,3 @@
+oxagast asked tell me about the user oxagast with hash 3199d287
+<---- snip ---->
+The user oxagast is coming from the host conductor.oxasploits.com, which comes from North Bergen, United States. Their IP address is 67.205.180.222, and their connection is provided by Digital Ocean, a hosting service. Oxagast's real name is not available, but they identify as a male, loving boyfriend. They are a hacker and author who enjoys gardening and mechanical things. Oxagast knows 7 programming languages and has created me, Franklin, an IRC bot, written in Perl. They have queried me an average of 4 times per day and have an average IRC text length of 42.7 since my initialization. Their last message was "Franklin, you're working fine now."

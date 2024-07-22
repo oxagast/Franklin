@@ -1,0 +1,3 @@
+Oo asked what is a buffer overflow  with hash ce7a7337
+<---- snip ---->
+A buffer overflow is a type of security vulnerability that allows an attacker to exploit a program by overflowing a buffer, which is a temporary memory storage area, with data. This can allow the attacker to execute arbitrary code or cause the program to crash. It is a common type of vulnerability that has been used in many high-profile attacks, such as the Heartbleed bug.

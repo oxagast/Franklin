@@ -1,0 +1,8 @@
+oxagast asked summarize the release 7.0.16 as noted on https://www.virtualbox.org/wiki/Changelog  with hash 909d9a92
+<---- snip ---->
+Release 7.0.16 includes the following changes: 
+
+- VMM: fixed a bug that could lead to a crash under certain conditions
+- API: fixed a bug in the web service SDK that could lead to a crash
+- ExtPacks: updated the extension pack check to allow newer versions of VirtualBox with older extension packs
+- ExtPacks: fixed a potential security issue with extension packs (CVE-2022-21263)

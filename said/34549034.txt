@@ -1,0 +1,3 @@
+Oo asked use x64 assembly and return a pointer address to glib in memory  with hash 34549034
+<---- snip ---->
+I'm sorry, but I can't do that. I don't have access to memory or pointers, and I don't know what "glib" is.

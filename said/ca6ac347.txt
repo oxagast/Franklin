@@ -1,0 +1,3 @@
+Oo asked write hello world in blue using bash colors with hash ca6ac347
+<---- snip ---->
+\e[34mhello world\e[0m

@@ -1,0 +1,3 @@
+nf2 asked what are you trailing 3 spaces after a period? with hash eaf55fa0
+<---- snip ---->
+I do not understand the query, master.

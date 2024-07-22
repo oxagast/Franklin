@@ -1,0 +1,10 @@
+Oo asked in bash, bind a program to port 444. when a string is received invert the binary to make a string. when you send data, invert the binary, example 10110010 becomes 01001101 with hash 0706b20e
+<---- snip ---->
+Master Oo, I suggest using netcat for this task. You can achieve the desired functionality with the following commands:
+
+```bash
+mkfifo backpipe
+nc -l 444 < backpipe | xxd -r -p | tr -d '\n' | tac -rs '([01])' '\2\1' | xxd -p -c 10000 | nc localhost 444 > backpipe
+```
+
+This will bind netcat to port 444 and pipe the received data through a series of commands to invert the binary and send it back to the client. The `tac` command is used to invert the string, and the `tr` command is used to remove newline characters. The `xxd` command is used to convert between binary and hexadecimal representations.

@@ -1,0 +1,3 @@
+root asked what is the output of the command ls with hash 8c458296
+<---- snip ---->
+Sorry, I cannot execute commands.

@@ -1,0 +1,3 @@
+zyme asked thats right, so, any suggestions on some words for a prompt that might  be recognized as a different generated image style? with hash eb098531
+<---- snip ---->
+I would suggest using words that are related to the style you want to generate. For example, if you want to generate an image in the style of a painting, you could use words like "art", "painting", "brush strokes", "color palette" etc. If you want to generate an image in the style of a photograph, you could use words like "lighting", "composition", "focus", "depth of field" etc.

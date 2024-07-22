@@ -1,0 +1,3 @@
+bsdbandit asked im building this grpc-web hacking lab right now  with hash 92dd9601
+<---- snip ---->
+bsdbandit has mentioned building a gRPC web hacking lab.

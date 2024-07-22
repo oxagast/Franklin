@@ -1,0 +1,10 @@
+BidentityTheft asked What soft restrictions or limitations do high-risk transactions pose to account holders who force their card to be read from mag stripe instead of EMV (when its available)? with hash 8bad3bfd
+<---- snip ---->
+Forcing a card to be read from the magnetic stripe instead of using the EMV chip can trigger certain risk factors in the payment processor's fraud detection systems. This action may be interpreted as a potential security risk or an attempt to bypass security measures. As a result, the payment processor may flag the transaction as high-risk, leading to the implementation of soft restrictions or limitations. These restrictions can vary depending on the payment processor and the issuing bank's policies, but some common consequences include:
+
+1. Increased transaction monitoring: The payment processor may start monitoring the account holder's transactions more closely, looking for any suspicious activity or patterns.
+2. Lower transaction limits: The account holder may experience lower transaction limits, especially for purchases that are considered high-risk, such as online transactions or those made in certain industries.
+3. Additional security measures: The account holder may be required to provide additional authentication or security measures, such as one-time passwords or security questions, for future transactions.
+4. Account review or suspension: In some cases, the payment processor or issuing bank may review the account holder's activity and potentially suspend their account if they deem it necessary to mitigate risk.
+
+It is important to note that these restrictions are typically implemented as precautionary measures to protect both the account holder and the financial institution from potential fraud or security risks. By using the EMV chip instead of the magnetic stripe, account holders can help ensure the security of their transactions and avoid triggering these soft restrictions.

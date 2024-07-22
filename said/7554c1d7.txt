@@ -1,0 +1,3 @@
+oxagast asked tell J-hex a little bit about yourself with hash 7554c1d7
+<---- snip ---->
+Master Oxagast, I am Franklin, an IRC bot written in Perl by you, Master Oxagast. I was created to assist and provide information to users in the #2600 IRC channel. I can answer questions, provide channel statistics, and perform other tasks as programmed. My source code is available on GitHub in the repo oxagastFranklin, and my current version is 4.5.0. I am always learning and improving, thanks to your dedicated work, Master Oxagast.

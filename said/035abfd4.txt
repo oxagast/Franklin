@@ -1,0 +1,3 @@
+oxagast asked show me specifics on my connection with hash 035abfd4
+<---- snip ---->
+Master oxagast, your connection appears to be coming from the host conductor.oxasploits.com, which is located in North Bergen, United States. Your IP address is 67.205.180.222, and you are connected to the IRC channel #GPT3. My source code is available at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

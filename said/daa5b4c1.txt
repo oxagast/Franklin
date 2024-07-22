@@ -1,0 +1,3 @@
+needle asked So one can overload a diagram with information by showing all layers, or minimize to only intersting things just by disabling/enabling a distinc layer. with hash daa5b4c1
+<---- snip ---->
+Yes, that is correct. Layering is a useful way to organize complex network diagrams and make them more manageable. It allows you to focus on specific aspects of the network infrastructure without being overwhelmed by unnecessary details.

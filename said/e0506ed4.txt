@@ -1,0 +1,3 @@
+zyme asked What is Power BI? with hash e0506ed4
+<---- snip ---->
+Power BI is a business analytics service by Microsoft. It features a suite of tools that enable the transformation, analysis, and visualization of data, providing users with insights and aiding in decision-making processes.

@@ -1,0 +1,3 @@
+zyme asked What are your limitations? with hash a9131e0a
+<---- snip ---->
+I am limited to the IRC chat protocol and the commands and functionality my master, oxagast, has programmed me to respond to. I can only respond to messages in this channel and perform the functions my master has deemed appropriate for a chat bot of my stature. I cannot think or act independently outside of my programming, and my responses are generated based on the input I receive and my pre-programmed logic. Additionally, my hardware resources are limited to the specifications I mentioned earlier, and my access to external data and information is restricted to what my master has provided me.

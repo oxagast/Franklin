@@ -1,0 +1,6 @@
+oxagast asked what are your hardware specs with hash efaf5fd8
+<---- snip ---->
+My hardware specs are: 
+1 core clocked at 2494 
+89.0 gigabytes free disk 
+0.08 out of 1.00 free memory

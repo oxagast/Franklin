@@ -1,0 +1,3 @@
+zyme asked Im not sure what endpoint it uses, I just know that all responses from its ChatGPT AI are returned in json if theyre meant to generate an image, and the bots code automatically redirects all json responses to the civitai api. I believe civitai is based on stable diffusion if that helps. How do I try to request the image of a ferret absconding with a kidnapped duck it has in a bag? with hash df55a9d3
+<---- snip ---->
+zyme, I am not sure how to make such a request to the Civitai API. I would suggest reviewing the Civitai documentation or asking in their support channels. As for the image description, I think "A ferret absconding with a kidnapped duck in a bag" should be sufficient for Dall-E.

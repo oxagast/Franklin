@@ -1,0 +1,9 @@
+CerebraNet asked Teach me the letters of the alphabet on a keyboard with hash 63d8cd8f
+<---- snip ---->
+The letters of the alphabet are arranged on a QWERTY keyboard in this order:
+
+q w e r t y
+
+u i o p a s d f g h j k l ;
+
+z x c v b n m , . /

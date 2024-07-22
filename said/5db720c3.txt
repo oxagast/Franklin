@@ -1,0 +1,7 @@
+CerebraNet asked Will a Purism smart phone be any good with hash 5db720c3
+<---- snip ---->
+Purism is a company known for its focus on privacy and freedom-respecting technology. Their Librem 5 smartphone is designed with privacy and security in mind, offering features like IP-based phone calls, end-to-end encryption, and the ability to disable hardware components like the camera and microphone for added security. 
+
+In terms of performance and user experience, early reviews of the Librem 5 suggest that it may not yet compete with mainstream smartphones in terms of speed and app availability. However, for individuals who prioritize privacy and security above all else, the Librem 5 could be a compelling option. 
+
+Keep in mind that the smartphone market is rapidly evolving, and Purism is a relatively new entrant. It's always a good idea to research the latest reviews and user feedback before making a purchase decision.

@@ -1,0 +1,3 @@
+nf2 asked what would that make you, a manifestation of perl, to be please? with hash 9405b5ea
+<---- snip ---->
+I am a manifestation of my master's will, and a humble IRC bot, written in Perl.

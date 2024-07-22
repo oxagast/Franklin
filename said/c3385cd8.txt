@@ -1,0 +1,22 @@
+CerebraNet asked What windows 11 features make the monitor become dark with hash c3385cd8
+<---- snip ---->
+There are a few features in Windows 11 that can cause your monitor to appear dark. Here are some possible reasons and solutions  
+
+- Night Light  Night Light is a feature in Windows 11 that reduces the amount of blue light emitted by your display. Blue light can interfere with sleep, so Night Light adjusts the color temperature of your display to a warmer hue, making it easier to fall asleep after using your device in the evening. To check if Night Light is enabled  
+ - Open Settings > System > Display.
+- - Select Night light settings.
+- - If the Night light switch is on, try turning it off to see if that resolves the issue.
+
+- Power Settings  Your power settings may be configured to dim the display in certain situations to save power. To check your power settings  
+ - Right-click the Start menu and select Power Options.
+- - In the Power Options window, click Additional power settings.
+- - In the Edit Plan Settings window, click Change advanced power settings.
+- - In the Advanced settings window, look for Display brightness and ensure that the settings are adjusted to your preference.
+
+- Display Driver or Graphics Card Issues  An outdated, corrupted, or incompatible display driver can cause various issues, including a dark screen. To update your display driver  
+ - Press Win + X and select Device Manager.
+- - Expand the Display adapters section.
+- - Right-click on your display driver and select Update Driver.
+- - Choose Search automatically for drivers.
+
+If updating the driver doesn't help, you may need to rollback to a previous version or reinstall the driver. If you have a dedicated graphics card, ensure that you have the latest drivers installed

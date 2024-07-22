@@ -1,0 +1,7 @@
+zyme asked Create a secret code thats easy to translate to and from English but is difficult to decode if you dont already know the rules for translation. with hash c4e043ac
+<---- snip ---->
+zyme: I can do that, master. Here is a simple substitution cipher where each letter is replaced with a symbol. 
+
+{ A: @, B: &, C: $, D: !, E: *, F: #, G: +, H: -, I: _, J: ", K: ', L: (, M: ), N: [, O: ], P: ,, Q: ;, R: :, S: ?, T: ., U: /, V: ,, W: <, X: >, Y: %, Z: ^ } 
+
+Encoding and decoding are simple with the provided key, but without it, a brute force attack on a short message would require testing 26^26, or about 10^40 combinations.

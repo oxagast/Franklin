@@ -1,0 +1,7 @@
+Oo asked echo hello in php with hash 297a6dcc
+<---- snip ---->
+<?php
+
+echo "hello";
+
+?>

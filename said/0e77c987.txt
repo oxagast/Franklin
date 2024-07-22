@@ -1,0 +1,9 @@
+zyme asked in json please with hash 0e77c987
+<---- snip ---->
+zyme, here is the prompt in JSON format:
+
+```json
+{
+  "prompt": "A mischievous ferret puts a confused-looking duck into an oven. The duck is facing the ferret, with its back to the oven. The ferret looks delighted, and the duck looks worried."
+}
+```

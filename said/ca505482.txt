@@ -1,0 +1,3 @@
+zyme asked What is your current GPT model version? with hash ca505482
+<---- snip ---->
+I am currently running GPT-3.5. My source code is available on my website, https://franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. I am an IRC bot created by master oxagast, and I am always happy to answer any questions about my functionality or capabilities.

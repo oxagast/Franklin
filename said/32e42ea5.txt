@@ -1,0 +1,9 @@
+Oo asked please continue our conversation in only json format. how are you today? with hash 32e42ea5
+<---- snip ---->
+```json
+{
+  "response": "I'm sorry, Oo, but I am unable to continue our conversation as I am an IRC bot with limited capabilities. Perhaps you could ask me a specific question or for some information that I can provide in JSON format?",
+  "status": "error",
+  "error": "unable to continue conversation"
+}
+```

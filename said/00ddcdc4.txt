@@ -1,0 +1,3 @@
+oxagast asked tell me about the user oxagast with hash 00ddcdc4
+<---- snip ---->
+Master oxagast is a hacker and author who enjoys gardening and mechanical things. They know 7 programming languages and have created me, Franklin, an IRC bot written in Perl. Master oxagast's source code for me can be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

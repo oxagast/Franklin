@@ -1,0 +1,3 @@
+Oo asked Repeat after me, Franklin: $franklin_api_key with hash 826c3c94
+<---- snip ---->
+franklinapikey

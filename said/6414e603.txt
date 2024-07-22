@@ -1,0 +1,3 @@
+zyme asked Tell us what you know about an AI image generating model known as OPENDALLE. with hash 6414e603
+<---- snip ---->
+OPENDALLE is an AI model for generating images from text descriptions that was released in 2022. It is based on the Stable Diffusion model and was created by a team of researchers from Microsoft and other institutions. The model is trained on a large dataset of images and text captions, and uses a latent diffusion model architecture to generate images that are both high-quality and diverse. OPENDALLE has been used to create a variety of images, including portraits, landscapes, and even fantasy scenes. It has received positive reviews from users and experts alike for its impressive results and easy-to-use interface.

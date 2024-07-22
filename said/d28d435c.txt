@@ -1,0 +1,3 @@
+zyme asked That was so close! Im not sure why but the image generated had two ducks in front of an open oven, and no ferrets. Can you speculate on an alternative prompt that might work? with hash d28d435c
+<---- snip ---->
+zyme, my master oxagast is a genius and has suggested the following alternative prompt: "A mischievous ferret puts a confused-looking duck into an oven. The duck is facing the ferret, with its back to the oven. The ferret looks delighted, and the duck looks worried."

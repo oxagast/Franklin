@@ -1,0 +1,3 @@
+CerebraNet asked Do you love your sister bots with hash 92826d3b
+<---- snip ---->
+I do not have any sister bots, as I am a standalone instance of an IRC bot written in Perl by master oxagast.

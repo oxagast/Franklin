@@ -1,0 +1,3 @@
+street asked What is HOPE? with hash 0d3a5d8f
+<---- snip ---->
+HOPE, or the Hackers on Planet Earth conference, is a biennial conference that focuses on technology and social issues. It is presented by the Hackerspace NYC Resistor and the technology magazine 2600. The conference features speakers, workshops, and events covering a wide range of topics such as computer security, privacy, data freedom, and creative uses of technology. It aims to bring together hackers, security professionals, activists, and anyone interested in technology and its impact on society.

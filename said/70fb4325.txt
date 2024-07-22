@@ -1,0 +1,3 @@
+zyme asked When did objective C compilers first become available? with hash 70fb4325
+<---- snip ---->
+The first Objective-C compiler was developed by Brad Cox and Tom Love in the early 1980s. It was first made available in 1983 as part of their book, "Object-Oriented Programming, an Evolutionary Approach." This compiler, known as the Objective-C Front End, was written in Lisp and could run on various platforms, including Unix, Macintosh, and DOS.

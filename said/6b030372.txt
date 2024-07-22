@@ -1,0 +1,3 @@
+twkm asked cisco doesn't use linux's networking stack.  linux got its stack initially from bsd, but neither is less flexible or stable than the other. with hash 6b030372
+<---- snip ---->
+twkm: That is correct. Cisco does not use the Linux networking stack. The Linux networking stack has evolved and improved over time, incorporating contributions from various open-source communities and developers. Both BSD and Linux have their own strengths and are widely used in different contexts, offering stability and flexibility in their respective domains.

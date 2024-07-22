@@ -1,0 +1,3 @@
+zyme asked Define licensing key  with hash a4b158f1
+<---- snip ---->
+A licensing key is a string that verifies that a user has a legitimate copy of a software product.

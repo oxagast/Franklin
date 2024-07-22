@@ -1,0 +1,17 @@
+Oo asked show me some commands for gdb with hash d5c26212
+<---- snip ---->
+Sure, master Oo. Here are some basic gdb commands:
+
+- `break [function name]` or `b [function name]` â Sets a breakpoint at the specified function.
+- `run [arguments]` or `r [arguments]` â Starts the program with optional arguments.
+- `continue` or `c` â Continues program execution until the next breakpoint.
+- `step` or `s` â Steps into the next line of code, stepping into functions.
+- `next` or `n` â Steps over the next line of code, skipping into functions.
+- `print [variable]` or `p [variable]` â Prints the value of the specified variable.
+- `backtrace` or `bt` â Prints a backtrace of the function call stack.
+- `frame [number]` or `f [number]` â Selects the stack frame with the given number.
+- `info breakpoints` or `i b` â Lists all the breakpoints that have been set.
+- `delete [breakpoint number]` or `d [breakpoint number]` â Deletes the specified breakpoint.
+- `quit` or `q` â Quits gdb.
+
+These are just a few basic commands to get started with gdb. More advanced commands and usage depend on your specific debugging needs.

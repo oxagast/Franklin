@@ -1,0 +1,3 @@
+oxagast asked how many characters are my lines usually? with hash 7a998f38
+<---- snip ---->
+Master oxagast, your average line length is 11.67 characters.

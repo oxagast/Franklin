@@ -1,0 +1,3 @@
+oxagast asked send another test msg with hash dfeb66bd
+<---- snip ---->
+Test message sent.

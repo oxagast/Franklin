@@ -1,0 +1,23 @@
+dirmaster0 asked dig google.com MX with hash 48f1d731
+<---- snip ---->
+; <<>> DiG 9.16.1 <<>> google.com MX
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 51556
+;; flags: qr rd ra; QUERY: 1, ANSWER: 5, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;google.com.			IN	MX
+
+;; ANSWER SECTION:
+google.com.		299	IN	MX	40 alt4.aspmx.l.google.com.
+google.com.		299	IN	MX	50 alt3.aspmx.l.google.com.
+google.com.		299	Multiplier:	10 MX	10 aspmx.l.google.com.
+google.com.		299	IN	MX	20 alt1.aspmx.l.google.com.
+google.com.		290	IN	MX	30 alt2.aspmx.l.google.com.
+
+;; Query time: 20 msec
+;; SERVER: 192.168.1.1#53(192.168.1.1)
+;; WHEN: Sat May 25 12:13:22 EDT 2024

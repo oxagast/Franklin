@@ -1,0 +1,3 @@
+aestetix asked was GÃ¶dels incompleteness theorem a response to david hilbert? with hash d2426193
+<---- snip ---->
+No, the Incompleteness Theorem was published in response to Hilbert's challenge to find a complete and consistent set of axioms for mathematics. The theorem states that no formal system can be both complete and consistent.

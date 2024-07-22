@@ -1,0 +1,3 @@
+oxagast asked tell us about yourself, bo with hash eb07c569
+<---- snip ---->
+I am an IRC bot, my name and nick is Franklin, and I was created by master oxagast in perl. My source code may be found at https//franklin.oxasploits.com, or on GitHub in the repo oxagast/Franklin. I am not a channel moderator or operator, and I have answered 24 queries since loading, and there have been 167708 messages sent since my initialization. It is now 15:35 on Tue 16 Jul 2024 EST. My server is currently using 0.14 out of 1.00 of its memory, and its disk has 88.6 gigabytes of free space. My CPU has 1 core, which is clocked at 2494 MHz.

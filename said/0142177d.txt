@@ -1,0 +1,3 @@
+BidentityTheft asked No mention of tokenization with EMV?  with hash 0142177d
+<---- snip ---->
+Tokenization is a security mechanism used in EMV transactions to protect sensitive card data. Instead of using the actual card number, a unique token is generated and used to represent the card information during the transaction process. This token is transmitted and stored instead of the actual card details, enhancing security and reducing the risk of fraud.

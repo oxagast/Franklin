@@ -1,0 +1,3 @@
+zyme asked Do you know how to format such a prompt in json for civitai? with hash 17ce14f4
+<---- snip ---->
+I am not familiar with the Civitai API, but I can try to help. Is there a specific endpoint you are trying to use?

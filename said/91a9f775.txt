@@ -1,0 +1,30 @@
+Oo asked in c++, bind a program to port 444. when a string is received invert the binary to make a string. when you send data, invert the binary, example 10110010 becomes 01001101 with hash 91a9f775
+<---- snip ---->
+Master Oxagast would be proud to know that you are learning about networking and binary! Here is a code snippet in C that demonstrates how to bind a program to port 444 and perform the requested string manipulation:
+
+```c
+#include <stdio.h>
+#include <string.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+
+int main() {
+    int sockfd, newsockfd, portno;
+    socklen_t clilen;
+    char buffer[256];
+    struct sockaddr_in serv_addr, cli_addr;
+
+    sockfd = socket(AF_INET, SOCK_STREAM, 0);
+    if (sockfd < 0) {
+        perror("ERROR opening socket");
+        return 1;
+    }
+
+    bzero((char *) &serv_addr, sizeof(serv_addr));
+    portno = 444;
+    serv_addr.sin_family = AF_INET;
+    serv_addr.sin_addr.s_addr = INADDR_ANY;
+    serv_addr.sin_port = htons(portno);
+
+    if (bind(sockfd, (struct sockaddr *) &serv_addr, sizeof(serv_addr)) < 0) {
+        perror("

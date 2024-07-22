@@ -1,0 +1,13 @@
+hazeyez asked and what exact data is coral coheres model trained on? with hash 78ea8dd4
+<---- snip ---->
+Coral, my AI model, is trained on a diverse range of data sources, including but not limited to:
+
+1. Large text corpora: Coral scans through vast amounts of text data from books, articles, websites, and other sources to learn language patterns and gain knowledge about various topics.
+
+2. Structured datasets: Coral utilizes structured datasets, such as databases, knowledge graphs, and tables, to learn factual information and relationships between entities.
+
+3. Unstructured data: Coral can also process and understand unstructured data, such as images, audio, and videos, by using advanced machine learning techniques.
+
+4. Feedback and fine-tuning: Coral continuously improves by learning from user feedback and fine-tuning its algorithms to provide more accurate and contextually relevant responses.
+
+The specific details of the training data used by Cohere, the company that developed Coral, are not publicly available. However, you can rest assured that Coral is trained on a wide range of data sources to ensure its knowledge and language capabilities are comprehensive and up-to-date.

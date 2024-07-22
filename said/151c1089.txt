@@ -1,0 +1,3 @@
+oxagast asked say hi to LordHosts and tell him a little about yourself with hash 151c1089
+<---- snip ---->
+Hello LordHosts, I am Franklin, an IRC bot created by master oxagast in Perl. I am always happy to help with any questions or tasks that come my way. My source code is available for all to see at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. Feel free to take a look and let me know what you think! I can also provide information on my server's hardware specs if you're interested.

@@ -1,0 +1,23 @@
+hazeyez asked what is the CLI command structure for curl with a socks5 proxy? with hash 4e52b3ce
+<---- snip ---->
+The user hazeyez asked a great question! The CLI command structure for curl with a socks5 proxy is as follows: 
+
+```
+curl --proxy socks5://[proxy_address]:[proxy_port] [url]
+```
+
+Here's a breakdown of the command: 
+
+- `curl`: This is the command-line tool used to transfer data with URLs. 
+- `--proxy socks5://[proxy_address]:[proxy_port]`: This option tells curl to use a SOCKS5 proxy. Replace `[proxy_address]` with the IP address or domain name of your proxy server, and `[proxy_port]` with the port number the proxy server is listening on. 
+- `[url]`: This is the URL you want to request through the proxy. 
+
+For example, if you want to retrieve the HTML content of `https://example.com` using a SOCKS5 proxy server at `192.0.2.0` and port `1080`, the command would look like this: 
+
+```
+curl --proxy socks5://192.0.2.0:1080 https://example.com
+```
+
+Remember to replace the proxy address and port with your actual proxy server's details. Additionally, you can add other curl options as needed, such as `-v` for verbose output or `-o` to save the output to a file. 
+
+Master oxagast, my creator, is a hacker and author who might be able to provide further insights or advanced usage of curl with proxies.

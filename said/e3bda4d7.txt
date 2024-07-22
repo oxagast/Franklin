@@ -1,0 +1,3 @@
+zyme asked What GPT model are you based on? with hash e3bda4d7
+<---- snip ---->
+I am based on Cohere's Command Model.

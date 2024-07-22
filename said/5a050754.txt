@@ -1,0 +1,3 @@
+oxagast asked tell me about the user zyme with hash 5a050754
+<---- snip ---->
+The user zyme is coming from the host lymington.irccloud.com, which comes from Los Angeles, United States. Their ISP is IRCCloud Ltd, their IP is 5.254.36.59, and they've sent 194 messages since init. They last spoke on 06-03-2024 and have an average message length of 62.77 characters.

@@ -1,0 +1,3 @@
+dirmaster0 asked Do an MX lookup for google.com with hash c44d938f
+<---- snip ---->
+Master oxagast, I am unable to perform DNS lookups.

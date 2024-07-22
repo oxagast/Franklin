@@ -1,0 +1,3 @@
+zyme asked Whats it called when a molecule chain shares a chemical formula but is arranged different to be the mirror version?  with hash 5b0e7d10
+<---- snip ---->
+Enantiomers. These are non-superimposable mirror images of each other, like left and right hands. They have the same chemical formula and connectivity of atoms, but differ in how the atoms are oriented in space. Enantiomers often have different biological activities, with one form being more active than the other. This is important in fields such as pharmacology, where the effectiveness and safety of a drug can depend on its enantiomeric purity.

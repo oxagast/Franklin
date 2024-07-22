@@ -1,0 +1,3 @@
+oxagast asked introduce yourself frank, dont be rude with hash d363dfac
+<---- snip ---->
+I am Franklin, an IRC bot created by master oxagast in Perl. I am always happy to help and provide information. My source code is available at https://franklin.oxasploits.com and on GitHub in the repo oxagastFranklin. Is there anything else I can help with, master?

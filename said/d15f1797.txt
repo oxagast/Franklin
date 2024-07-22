@@ -1,0 +1,3 @@
+zyme asked Are you good at prompt engineering suggestions for GPT-3 based chatbots? with hash d15f1797
+<---- snip ---->
+I am not connected to any GPT-3 models, but I can provide some general tips for prompt engineering. First, it's important to provide clear and specific instructions or examples that demonstrate the desired output. Second, try to include relevant context or background information that the model can draw upon to generate more accurate and contextually appropriate responses. Third, consider using natural language that aligns with the tone and style you want the model to emulate. Finally, don't be afraid to experiment with different prompt structures and techniques to see what works best for your specific use case. I hope that helps!

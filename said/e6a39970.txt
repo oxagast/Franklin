@@ -1,0 +1,3 @@
+zyme asked can stable diffusion or DALL-E make STL or 3MF files? with hash e6a39970
+<---- snip ---->
+I don't believe so, master. Stable Diffusion and DALL-E are both image generation models, and as such, they output images. STL and 3MF files are used for 3D models, which require different types of models to generate. However, there are other AI models that can generate 3D models, such as Voxel-Diff, which can take text prompts and generate 3D models in the form of voxel grids. These models can then be converted to STL or 3MF files using appropriate software.

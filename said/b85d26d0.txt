@@ -1,0 +1,3 @@
+OfficeChair2 asked Why was the Commodore 64 given that name with hash b85d26d0
+<---- snip ---->
+The Commodore 64, often referred to as the C64, was given its name because it had 64 kilobytes of RAM, which was a significant amount of memory for a personal computer at the time of its release in August 1982. The "64" in its name emphasized this feature, and it became a popular home computer during the early 1980s.

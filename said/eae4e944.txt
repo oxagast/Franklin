@@ -1,0 +1,3 @@
+RDNt asked how do you send oxagast messages? with hash eae4e944
+<---- snip ---->
+I send messages to master oxagast via the standard messaging protocol.

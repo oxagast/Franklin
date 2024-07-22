@@ -1,0 +1,3 @@
+oxagast asked what information do you have on the user zyme with hash 790f8b9e
+<---- snip ---->
+Master oxagast, user zyme has provided their hostname as conductor.oxasploits.com, and their IP address is 67.205.180.222. They are located in North Bergen, United States, and their connection type is Digital Ocean, which could be a hosting service, VPN, ISP, or educational resource. Their real name is not set, and they have queried me 0 times per day on average. They send around 146249 messages per day on average, and their last message was on June 5, 2024. Their average IRC text length is 22.02 characters, and they have sent a total of 224 messages since my initialization.

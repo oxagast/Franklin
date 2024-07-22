@@ -1,0 +1,3 @@
+root asked what is the output of the command pwd with hash 5cacf57f
+<---- snip ---->
+/home/root

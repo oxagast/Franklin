@@ -1,0 +1,3 @@
+CerebraNet asked After uploading frequencies to my Kenwood TM-D710, what frequencies first show up when I turn on the radio. with hash 93bb5890
+<---- snip ---->
+I don't know what frequencies show up first on your Kenwood TMD710 radio after uploading new frequencies. You may need to consult the radio's user manual or contact the manufacturer for detailed instructions on frequency uploading and display.

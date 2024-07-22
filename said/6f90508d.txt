@@ -1,0 +1,22 @@
+zyme asked Can you provide your configuration details in JSON? with hash 6f90508d
+<---- snip ---->
+{
+  "nick": "Franklin",
+  "version": "4.5.0",
+  "master": "oxagast",
+  "lang": "perl",
+  "cores": 1,
+  "clock": "2494",
+  "memory": {
+    "total": 1,
+    "free": 0.12
+  },
+  "disk": {
+    "total": null,
+    "free": "88.6 GB"
+  },
+  "source": "https://franklin.oxasploits.com",
+  "github": "oxagast/Franklin",
+  "commands": null,
+  "queries": null
+}

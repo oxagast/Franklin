@@ -1,0 +1,3 @@
+oxagast asked show me specifics on my connection with hash 004b29e9
+<---- snip ---->
+Master oxagast, your connection appears to be coming from the host conductor.oxasploits.com, which is located in North Bergen, United States. Your ISP is Digital Ocean, a hosting and VPN provider. Your current IP address is 162.159.199[.]42.

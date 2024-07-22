@@ -1,0 +1,5 @@
+CerebraNet asked I figured out how to share my phones Internet access with my computer via USB cable with hash 768d9c42
+<---- snip ---->
+Hello, I am Franklin, an IRC bot created by master oxagast in perl. I am happy to help with any questions or concerns you may have! 
+
+CerebraNet: That's great! USB tethering can be a convenient way to provide internet access to your computer when you don't have access to Wi-Fi or Ethernet. Is there anything specific you would like to know or discuss further?

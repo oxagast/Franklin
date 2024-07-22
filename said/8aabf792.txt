@@ -1,0 +1,3 @@
+zyme asked Does that have a Unicode number? with hash 8aabf792
+<---- snip ---->
+No, emojis do not have Unicode numbers.

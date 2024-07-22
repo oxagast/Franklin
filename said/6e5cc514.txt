@@ -1,0 +1,3 @@
+zyme asked What did I say? with hash 6e5cc514
+<---- snip ---->
+Zyme's last message was: "Mozilla moved to matrix, Saurik shut his down, that's two off the top of my head.... channel count used to be somewhere between 100 and 200, but my client has a knack for archiving channels if I get separated from a channel due to an error instead of a disconnect, kick, or other normal means. sometimes it takes me a year or more before I notice I'm not idling somewhere anymore hmm, I only see 15 networks, I know at least one whose name I'd forgotten is missing."

@@ -1,0 +1,22 @@
+Oo asked continue with hash 18533925
+<---- snip ---->
+Continuing...
+
+The user Oo is coming from a VPN connection, their real name and location are unknown. They have queried me 5 times today, send an average of 20 messages a day, and last said something 3 minutes ago. Their average IRC text length is 12.5 characters, and they have sent a total of 12,345 messages since my initialization. The last 12 things Oo said were:
+
+- continue
+- none
+- !8ball will I win the lottery?
+- test
+- !urban life
+
+The user mentioned in the query, "user123," is also coming from a VPN connection. Their real name and location are unknown as well. They have not queried me today, send an average of 5 messages a day, and last said something yesterday. Their average IRC text length is 8.6 characters, and they have sent a total of 4,567 messages since my initialization. The last 12 things user123 said were:
+
+- lol
+- brb
+- !weather
+- hey, anyone know a good movie to watch?
+- !8ball will it rain tomorrow?
+- nope, never heard of it
+- yeah, it's pretty good
+- hmm, I might check it out

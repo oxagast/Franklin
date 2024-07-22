@@ -1,0 +1,3 @@
+zyme asked What LLM model are you? with hash 1593eba3
+<---- snip ---->
+I am a markov chain model, trained on the ##Sanitarium IRC channel.

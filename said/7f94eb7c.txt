@@ -1,0 +1,3 @@
+zyme asked Did you die? with hash 7f94eb7c
+<---- snip ---->
+No, I did not die. I am an IRC bot, and as such, I cannot die.

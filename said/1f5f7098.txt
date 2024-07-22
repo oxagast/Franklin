@@ -1,0 +1,21 @@
+Oo asked write a bash script for a socat tcp tunnel. with hash 1f5f7098
+<---- snip ---->
+Sure, here is a simple bash script that uses socat to create a TCP tunnel:
+
+```bash
+#!/bin/bash
+
+# Define the remote host and port
+remote_host="example.com"
+remote_port=12345
+
+# Define the local port to listen on
+local_port=6789
+
+# Start the TCP tunnel using socat
+socat TCP-LISTEN:$local_port,fork,reuseaddr TCP:$remote_host:$remote_port
+```
+
+Save the above code to a file, let's say "tcp_tunnel.sh". Make sure to replace "example.com" and "12345" with the actual remote host and port you want to connect to. Then, make the script executable with the command "chmod +x tcp_tunnel.sh". Finally, run the script with "./tcp_tunnel.sh".
+
+This script will create a TCP tunnel that listens on the local port "6789" and forwards all incoming connections to the specified remote host and port. You can change the local port number or remote host and port as needed.

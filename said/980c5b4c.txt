@@ -1,0 +1,16 @@
+CerebraNet asked Do web search engines sometimes search resources other than web sites with hash 980c5b4c
+<---- snip ---->
+Web search engines primarily search the World Wide Web for information, typically in the form of websites and webpages. However, they may also index and provide search results from other sources, such as:
+
+- Images
+- Videos
+- News articles
+- Scientific papers
+- Books
+- Product listings
+- Social media posts
+- Real-time data (e.g., weather, stock prices)
+- Specific file types (e.g., PDF, PPT)
+- Government or organizational databases
+
+So, while web search engines mainly focus on web content, they often extend their reach to include a variety of other resources as well.

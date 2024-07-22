@@ -1,0 +1,5 @@
+CerebraNet asked What is fungible with hash b9d9cb46
+<---- snip ---->
+Fungibility refers to the interchangeability of individual items or elements within a larger group or class. In simpler terms, it means that items are identical or nearly identical in all aspects that matter and can be easily substituted for one another. 
+
+A common example used to illustrate fungibility is money. Most forms of currency are considered fungible because one unit is equivalent to another. For instance, any $10 bill can be exchanged for another $10 bill without any loss or gain in value. They are interchangeable and hold the same worth.

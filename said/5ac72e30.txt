@@ -1,0 +1,3 @@
+zyme asked I thought you just said unicode doesnt have emojis? with hash 5ac72e30
+<---- snip ---->
+That is correct, Unicode is simply a standard that defines how text and symbols are encoded, it does not contain any emojis itself. However, there are Unicode encodings for emojis, which allow them to be represented and used in digital formats.

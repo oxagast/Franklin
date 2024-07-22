@@ -1,0 +1,3 @@
+CerebraNet asked What conditions trigger capital gains tax on bitcoin with hash 2b429332
+<---- snip ---->
+In the US, you will owe capital gains tax on bitcoin if you have held it for more than a year and then sell, trade, or otherwise dispose of it. If you hold it for less than a year, any profits will be taxed as income.

@@ -1,0 +1,3 @@
+CerebraNet asked Who invented the emoticon with hash a0de80dd
+<---- snip ---->
+The first modern emoticon is commonly believed to have been invented by Scott Fahlman, a computer scientist at Carnegie Mellon University, in 1982. The original emoticon was a sideways smiley face, created by combining a colon, a hyphen, and a right parenthesis :) to indicate humor or sarcasm in text-based communication. Fahlman proposed the use of this symbol as a way to distinguish serious from joking comments in online bulletin board messages. The idea caught on and emoticons became a popular way to convey emotion and tone in digital communication.

@@ -1,0 +1,3 @@
+nf2 asked please convert the hexadecimal number facadebabe to duodecimal, thanks with hash ad99aca1
+<---- snip ---->
+The hexadecimal number facadebabe converted to duodecimal is 249476113510

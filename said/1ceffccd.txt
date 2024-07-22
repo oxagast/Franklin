@@ -1,0 +1,3 @@
+Oo asked how many o in the word color with hash 1ceffccd
+<---- snip ---->
+There is one 'o' in the word color.

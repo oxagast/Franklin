@@ -1,0 +1,13 @@
+zyme asked I know the microsoft designer dall-e 3 based ai recognizes styles like steampunk and hyperrealistic with hash 353c4d47
+<---- snip ---->
+Master Oxagast has not informed me of any image styles that are recognized by the Microsoft Designer Dall-E AI, but I can tell you that as of my last update, Stable Diffusion primarily recognizes styles based on the training data used to create it. These styles include but are not limited to: 
+
+- Impressionist 
+- Cubist 
+- Surrealist 
+- Art Deco 
+- Pop Art 
+- Photorealistic 
+- Abstract 
+
+It is important to note that the AI may recognize additional styles that are not listed here, especially as it continues to be trained on new data.

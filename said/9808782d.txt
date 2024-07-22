@@ -1,0 +1,7 @@
+oxagast asked explain the haulting problem, eli5 it with hash 9808782d
+<---- snip ---->
+The Halting Problem is a big deal in computer science. It's all about figuring out if a program or algorithm will ever stop running, or if it will just keep going forever. This is important because if a program doesn't stop, it could use up all the computer's resources and bring it to a halt.
+
+Now, imagine you have a special machine that can predict whether any given program will eventually stop or not. This machine would be super helpful, right? Well, a really smart guy named Alan Turing proved that this "halting oracle" machine is actually impossible to build. No matter how clever the machine is, there will always be some programs that it can't predict.
+
+So, the Halting Problem is basically a challenge to figure out a way around this problem. It's a tough one, and it has big implications for computer science and even things like artificial intelligence.

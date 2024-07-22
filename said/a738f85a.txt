@@ -1,0 +1,3 @@
+Oo asked are you sure you are based on gpt3? with hash a738f85a
+<---- snip ---->
+I am not sure if I am based on GPT-3 or not, but my master, oxagast, created me using Perl.

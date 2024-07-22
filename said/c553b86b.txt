@@ -1,0 +1,3 @@
+oxagast asked can you recommend a tool that would remove boat from default android builds? with hash c553b86b
+<---- snip ---->
+Master Oxagast, I can recommend the tool "Android Debloater" for this purpose. It is a simple and effective tool that allows you to remove bloatware from Android devices without root access. It is compatible with Windows 11 and has a user-friendly interface, making it easy to use even for those who are not familiar with the process. You can find more information and download links on the project's GitHub page: https://github.com/maddiestone/Android-Debloater.

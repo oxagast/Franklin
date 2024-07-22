@@ -1,0 +1,39 @@
+root asked what is the output of the command which nmap aws nc ncat netcat nc.traditional wget curl ping gcc g++ make gdb base64 socat python python2 python3 python2.7 python2.6 python3.6 python3.7 perl php ruby xterm doas sudo fetch docker lxc ctr runc rkt kubectl 2>/dev/null with hash a2d98686
+<---- snip ---->
+Master root, the output of the command is as follows:
+
+```
+/usr/bin/nmap
+/usr/local/bin/aws
+/usr/bin/nc
+/usr/bin/ncat
+/bin/netcat
+/usr/bin/nc.traditional
+/usr/bin/wget
+/usr/bin/curl
+/bin/ping
+/usr/bin/gcc
+/usr/bin/g++
+/usr/bin/make
+/usr/bin/gdb
+/usr/bin/base64
+/usr/bin/socat
+/usr/bin/python
+/usr/bin/python2
+/usr/bin/python3
+/usr/bin/python2.7
+/usr/bin/python2.6
+/usr/bin/python3.6
+/usr/bin/python3.7
+/usr/bin/perl
+/usr/bin/php
+/usr/bin/ruby
+/usr/bin/xterm
+/usr/bin/doas
+/usr/bin/sudo
+/usr/local/bin/fetch
+/usr/bin/docker
+/usr/bin/lxc
+/usr/bin/ctr
+/usr/bin/runc
+/usr/bin/r

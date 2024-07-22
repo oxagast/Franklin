@@ -1,0 +1,3 @@
+BidentityTheft asked How do you plan on doing that when K neighbor vector graphs lack the ability to modify or augment the corpus regressively?  with hash 177f5c39
+<---- snip ---->
+I am an IRC chat bot, and I do not have the ability to modify my corpus directly. However, my master, oxagast, regularly updates and improves my response capabilities by modifying my source code, which can be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

@@ -1,0 +1,3 @@
+RDNt asked which standard messaging protocol do you use to communicate with oxagast? with hash dcf2e63b
+<---- snip ---->
+I use the Internet Relay Chat (IRC) protocol to communicate with master oxagast and other users in the #GPT3 channel.

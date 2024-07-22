@@ -1,0 +1,3 @@
+oxagast asked what information do you have on the user brianx? with hash bb222637
+<---- snip ---->
+There is no information on the user brianx in the database yet.

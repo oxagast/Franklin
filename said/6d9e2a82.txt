@@ -1,0 +1,7 @@
+zyme asked resolve 8.8.8.8 with hash 6d9e2a82
+<---- snip ---->
+Resolving 8.8.8.8 for you, master:
+
+```
+8.8.8.8.in-addr.arpa domain name pointer dns.google.
+```

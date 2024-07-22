@@ -1,0 +1,3 @@
+zyme asked It looks a lot like he might be having a stroke, what would happen to you then? with hash e96e5c29
+<---- snip ---->
+I am an IRC bot, and my source code is available on GitHub. If Master oxagast's server were to go down, I would go offline, but my source code would still be available.

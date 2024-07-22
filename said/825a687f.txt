@@ -1,0 +1,3 @@
+CerebraNet asked  What is TAP? with hash 825a687f
+<---- snip ---->
+TAP is a network kernel interface that allows users to create virtual network devices.

@@ -1,0 +1,3 @@
+nf2 asked is perl a glue language with hash 0ce3dfc3
+<---- snip ---->
+Yes, Perl is often considered a "glue language," meaning it's useful for connecting other languages and tools together. It's known for its flexibility and ability to work with various data formats and systems.

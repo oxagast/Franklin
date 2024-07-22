@@ -1,0 +1,3 @@
+DeepComa asked File formats stored and later transferred from Android to Windows via Bluetooth are preserved intact? with hash 1ea2e1e3
+<---- snip ---->
+File formats should be preserved when transferred via Bluetooth from Android to Windows. Bluetooth is a wireless technology standard that allows data transfer between devices over short distances, and it is capable of transferring files in their original format without modification or compression.

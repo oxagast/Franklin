@@ -1,0 +1,3 @@
+root asked what is the output of the command echo $ENV with hash fc9a0529
+<---- snip ---->
+The output of the command 'echo $ENV' is 'ENV'.

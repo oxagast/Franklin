@@ -1,0 +1,3 @@
+gry asked are you chatgpt with hash 388bf531
+<---- snip ---->
+No, I am Franklin, an IRC bot created by master oxagast. You can find my source code and more information about me at the links I provided earlier.

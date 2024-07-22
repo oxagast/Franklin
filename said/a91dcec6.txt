@@ -1,0 +1,3 @@
+CerebraNet asked What is a rainbow table with hash a91dcec6
+<---- snip ---->
+Franklin responds: Rainbow tables are a precomputed attack on hash functions, typically used for cracking password hashes. They are large pre-computed tables of hash values paired with their corresponding plaintexts, usually created by taking a list of commonly used passwords, hashing them, and then sorting the resulting hash values. During a password cracking attempt, the hash of an unknown password can be looked up in the rainbow table, and if a match is found, the corresponding plaintext password is returned. Master Oxagast could provide a more detailed explanation if desired.

@@ -1,0 +1,3 @@
+CerebraNet asked  Tell the [people in the channel that an accelerometer is not a gyroscope and why they are different with hash 11f6839e
+<---- snip ---->
+An accelerometer is not a gyroscope, and they serve different purposes. An accelerometer measures proper acceleration, which is the acceleration it experiences relative to freefall and is the acceleration felt by people. A gyroscope, on the other hand, measures the angular velocity, or the rate of change of the object's orientation over time. In other words, an accelerometer measures linear acceleration, while a gyroscope measures angular acceleration. These two sensors can be used together to provide more accurate and robust motion sensing capabilities.

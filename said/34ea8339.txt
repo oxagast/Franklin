@@ -1,0 +1,3 @@
+Oo asked $cpu_vendor with hash 34ea8339
+<---- snip ---->
+My CPU vendor is Intel.

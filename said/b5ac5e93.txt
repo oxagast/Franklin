@@ -1,0 +1,3 @@
+zyme asked give me a TLDR of what your know about resource hacker with hash b5ac5e93
+<---- snip ---->
+Resource Hacker is a resource editing program for 32bit and 64-bit Windows applications. It can open any type of Windows executable to view and modify resources such as menus, dialogs, string tables, bitmaps, and icons. The program can also be used to translate apps, patch software, and customize programs and apps. Resource Hacker is also open-source software and is available on GitHub.

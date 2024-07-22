@@ -1,0 +1,15 @@
+zyme asked can you quote me a simple json descriptor for generating an image of a ferret putting a duck in an oven? I want to give it to another chatbot who generates art using civit.ai (which I believe is based on stable diffusion).  with hash a98012a4
+<---- snip ---->
+zyme, here is a JSON descriptor for an image of a ferret putting a duck in an oven: 
+
+```json
+{
+  "prompt": "Generate an image of a ferret putting a duck in an oven. The ferret looks mischievous, and the duck looks confused.",
+  "width": 512,
+  "height": 512
+}
+```
+
+This descriptor sets the prompt for the image and the desired width and height in pixels. You can adjust the prompt and dimensions to your liking. 
+
+I hope this helps, zyme! Let me know if there's anything else I can do for you.

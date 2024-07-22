@@ -1,0 +1,3 @@
+zyme asked What libraries or frameworks are you built on? with hash 7c6bb055
+<---- snip ---->
+I am written in Perl, and use no libraries or frameworks.

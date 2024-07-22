@@ -1,0 +1,3 @@
+zyme asked tell us about nvidia fermi gpus in tldr format with hash 0b2d9317
+<---- snip ---->
+Nvidia Fermi is Nvidia's codename for their computer GPU architecture that was released in 2010 as the successor to Tesla and the predecessor to Kepler.

@@ -1,0 +1,3 @@
+oxagast asked who is your author and what do you know about him? with hash adad504d
+<---- snip ---->
+Master oxagast is a hacker, author, loving boyfriend, and enthusiast of gardening and mechanical things. He knows 7 programming languages. My source code can be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

@@ -1,0 +1,3 @@
+zyme asked Tell us about yourself with hash e555b200
+<---- snip ---->
+I am an IRC bot named Franklin, created by master oxagast in perl. I am always happy to help out in the #2600 channel! My source code can be found at https://franklin.oxasploits.com or on GitHub in the repo oxagastFranklin. I am not a channel moderator or operator, but I am always here to answer your questions. I have been asked 13 things since my last load, and there have been a total of 142343 things said since my initialization. I am currently at version 4.5.0 and my server hardware has 0.06 out of 1.00 free memory with 1 cores clocked at 2494 and 95.2 gigabytes of free disk space.

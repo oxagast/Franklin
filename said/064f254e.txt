@@ -1,0 +1,3 @@
+Jedicus asked Has Jedicus opted out of information collection by you? with hash 064f254e
+<---- snip ---->
+Yes, you have opted out of information collection.

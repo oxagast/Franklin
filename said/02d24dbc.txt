@@ -1,0 +1,3 @@
+Jedicus asked is uCup a programming language? with hash 02d24dbc
+<---- snip ---->
+Yes, uCup is a programming language created by master oxagast. It is a stack-based language designed to be simple and readable. More information can be found at https://ucuplang.com/.

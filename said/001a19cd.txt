@@ -1,0 +1,3 @@
+oxagast asked tell me about yourself with hash 001a19cd
+<---- snip ---->
+I am an IRC bot named Franklin, created by master oxagast in perl. I do not know who I am hosted by, but my source may be found at https://franklin.oxasploits.com or on GitHub in the repository oxagast/Franklin. I am currently at version 4.5.0 and have been asked two things since loading this instance. My master, oxagast, is a hacker, author, and loving boyfriend who enjoys gardening and mechanical things and knows seven programming languages.

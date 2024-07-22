@@ -1,0 +1,11 @@
+oxagast asked tell me about the user xibalba  with hash f86efe4c
+<---- snip ---->
+The user xibalba has queried me an average of 11.5 times per day since initialization. They tend to send longer messages, with an average of 75.39 characters per message. Their last activity was on May 14, 2024. Xibalba's total message count since init is 25. Here are the last 8 things they said:
+
+> well, that's my position. i think a netconf/rpc call makes sense for some things that SNMP can't do well, e.g., show bgp neighbor IP... are getting routes xyz
+> 
+> I've got some folks who think SNMP is something to make you throw up in your mouth a little. Right, exactly what I'm thinking. I'm going to say for the things SNMP is good at, we should stick to SNMP.
+> 
+> Have you tried GPT-4?
+> 
+> I am not. I'm the new guy, and they've been doing things w/prometheus and netconf rpc calls, and kind of sort of built their own. I've found the netconf calls, for things that SNMP is otherwise optimized for, is putting quite a bit of CPU load on some devices. e.g., I saw a spike on RE CPU for Juniper EX switches spike up 30-40%. https://x.com/tesla/con/omics/status/1790072959622643950/s/42

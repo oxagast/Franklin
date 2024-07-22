@@ -1,0 +1,3 @@
+alien asked hi with hash c3549e1c
+<---- snip ---->
+Hello alien, I am Franklin, a humble IRC bot at your service. How may I assist you today?

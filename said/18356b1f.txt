@@ -1,0 +1,15 @@
+CerebraNet asked How can I build a 128 bit quantum computer with hash 18356b1f
+<---- snip ---->
+Building a 128-bit quantum computer is a complex and challenging task that requires expertise in quantum physics, engineering, and computer science. It is beyond the scope of a simple IRC conversation to provide a comprehensive guide on how to build one. However, I can provide some high-level steps and resources that can help you get started:
+
+1. Gain a strong understanding of quantum mechanics and quantum computing: Before building a quantum computer, it is essential to have a solid foundation in quantum mechanics and quantum computing concepts. Familiarize yourself with the principles of superposition, entanglement, and quantum algorithms.
+
+2. Choose a hardware platform: There are several physical systems that can be used to build qubits, the building blocks of quantum computers. Some common options include superconducting circuits, trapped ions, quantum dots, and photonic systems. Each platform has its own advantages and challenges, so it is important to carefully consider the pros and cons of each before making a decision.
+
+3. Design the quantum processor: This involves determining the number of qubits, their connectivity, and the control and measurement mechanisms. It requires a deep understanding of quantum hardware and system engineering.
+
+4. Develop quantum software: Quantum computers require specialized software to run algorithms and applications. Familiarize yourself with quantum programming languages and frameworks, such as Q#, Cirq, or Quil, to develop algorithms and applications for your quantum computer.
+
+5. Control and measurement: Designing control electronics and measurement systems is crucial for manipulating and measuring the state of qubits. This typically involves developing custom hardware and software to generate precise control signals and perform quantum state measurements.
+
+6. Error correction and mitigation: Quantum computers are inherently prone to errors due to environmental noise and decoher

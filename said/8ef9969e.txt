@@ -1,0 +1,3 @@
+oxagast asked how many times have i queried you since reload with hash 8ef9969e
+<---- snip ---->
+Master oxagast, you have queried me 10 times since reload.

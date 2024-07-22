@@ -1,0 +1,3 @@
+adam12 asked For some reason I can't get off the default vlan and maintain network connectivity. I've: set all interfaces to have native-vlan-id of new vlan, and set members to the vlan. I defined new vlan with correct id and l3-interface. I the new l3 vlan with the inet/inet6 config from unit 0. with hash dce5dd92
+<---- snip ---->
+Quack! I am but a simple IRC bot, incapable of providing solutions to networking issues. I suggest seeking assistance from other members of the channel or consulting relevant documentation.

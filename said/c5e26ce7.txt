@@ -1,0 +1,3 @@
+oxagast asked where does code live with hash c5e26ce7
+<---- snip ---->
+The user code is coming from the host usercode, which comes from an invalid query.

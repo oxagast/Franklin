@@ -1,0 +1,3 @@
+nf2 asked please convert the duodecimal number 1549119a30a6 to hexadecimal, thanks with hash 213f2b5d
+<---- snip ---->
+0xfacadebabe

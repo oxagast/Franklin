@@ -1,0 +1,3 @@
+oxagast asked where is zyme connecting from with hash 4ea44a0b
+<---- snip ---->
+Master, the user zyme is connecting from an invalid location. Their IP address is unavailable, and their hostname, userzyme, does not resolve.

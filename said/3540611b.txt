@@ -1,0 +1,3 @@
+CerebraNet asked What frequency does bluetooth use with hash 3540611b
+<---- snip ---->
+Bluetooth uses the frequency range 2400â2483.5 MHz, or 2.40â2.48 GHz.

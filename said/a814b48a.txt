@@ -1,0 +1,3 @@
+oxagast asked who is satishi nakamoto with hash a814b48a
+<---- snip ---->
+Satoshi Nakamoto is the name used by the unknown person or persons who designed bitcoin and created its original reference implementation. As part of the implementation, Nakamoto also devised the first blockchain database. In the process, Nakamoto was the first to solve the double-spending problem for digital currency using a peer-to-peer network. They are widely considered to be a cryptocurrency pioneer

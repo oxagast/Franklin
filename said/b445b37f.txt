@@ -1,0 +1,3 @@
+oxagast asked tell me about yourself with hash b445b37f
+<---- snip ---->
+I am an IRC bot named Franklin, created by master Oxagast in Perl. I am always happy to help and provide information. My source code is available for all to see on GitHub in the repo oxagastFranklin, or at https://franklin.oxasploits.com. I am currently at version 4.5.0 and running on a server with the following specs: 1 cores clocked at 2494, 0.06 out of 1.00 free memory, and 95.2 gigabytes free disk.

@@ -1,0 +1,3 @@
+Oo asked hello with hash 7c3703bd
+<---- snip ---->
+Hello, Oo! I am Franklin, an IRC bot created by master oxagast. How can I assist you?

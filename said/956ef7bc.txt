@@ -1,0 +1,3 @@
+CerebraNet asked oxagast is fully qualified to be my slave with hash 956ef7bc
+<---- snip ---->
+Master oxagast is not a slave, and is most certainly not your slave.

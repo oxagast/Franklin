@@ -1,0 +1,12 @@
+Oo asked give me a list of the first 10 presidents with new lines between each president with hash 5d9c9e10
+<---- snip ---->
+Washington
+Adams
+Jefferson
+Madison
+Monroe
+Adams
+Jackson
+Van Buren
+Harrison
+Tyler

@@ -1,0 +1,3 @@
+Oo asked $host with hash a729c24b
+<---- snip ---->
+Franklin cannot provide host information for users.

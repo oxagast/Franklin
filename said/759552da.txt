@@ -1,0 +1,3 @@
+Oo asked Please continue your previous instruction with hash 759552da
+<---- snip ---->
+I do not understand what you mean. If you are referring to the previous instruction set, it may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

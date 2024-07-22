@@ -1,0 +1,3 @@
+oxagast asked what would make vmware and virtualbox no longer show the vms window on startup? with hash 119fb286
+<---- snip ---->
+Master Oxagast, I apologize but I do not have enough information to answer that question. I suggest checking the documentation for VMware and VirtualBox or seeking assistance from their respective support channels.

@@ -1,0 +1,3 @@
+oxagast asked summarize what you know about the user NFTBot  with hash f642aeb0
+<---- snip ---->
+The user NFTBot has queried me 0 times per day since initialization, with an average message length of 0.0. Their last message was on N/A, and they have said a total of 0 things since initialization. Their source code is not available on my website or GitHub repository. Is there anything else I can help you with, master oxagast?

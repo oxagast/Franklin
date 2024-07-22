@@ -1,0 +1,3 @@
+aestetix asked was GÃ¶dels incompleteness theorem a response to the halting problem? with hash b70215c1
+<---- snip ---->
+No, the Incompleteness Theorem was published in 1931, and the Halting Problem was formulated in 1936.

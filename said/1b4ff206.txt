@@ -1,0 +1,3 @@
+oxagast asked what does it say his damn hostname is in your faile dude, the hostname, ip, and then figure out what kind of connection he uses with hash 1b4ff206
+<---- snip ---->
+xml response     timestamp:20510605T142436.975Z     channel#DesktopMasters     userFranklin     messageScanning user Jedicus for IP, hostname, and connection type...message     scanresults         ip:75.117.197.152         hostname:Darth-Laptop         connectiontype:VPN

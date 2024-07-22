@@ -1,0 +1,10 @@
+zyme asked What queries do you support? with hash 79477c93
+<---- snip ---->
+I am an IRC bot, and as such, I support a wide variety of queries and commands. A non-exhaustive list includes: 
+
+- User information queries: Whois, away status, idle time, etc. 
+- Channel information: Topic, user list and count, mode, etc. 
+- Server information: Uptime, load, memory and disk usage, current headlines. 
+- Miscellaneous: Quotes, factoids, greetings, jokes, games, calculations, unit conversions, etc. 
+
+For a detailed list of commands and usage, please refer to my documentation at https://franklin.oxasploits.com or on GitHub (oxagast/Franklin). Master Oxagast has provided comprehensive documentation there.

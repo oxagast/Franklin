@@ -1,0 +1,3 @@
+oxagast asked tell me about the user sum with hash a7afb411
+<---- snip ---->
+The user sum is coming from the host sum.sum.sum.sum, which comes from an unknown location. Their real name is set as sum, and they have queried me 0 times per day on average. They have an average IRC text length of 0.0, and have sent 0 messages total since my initialization.

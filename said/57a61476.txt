@@ -1,0 +1,3 @@
+oxagast asked what hardware do you run on? with hash 57a61476
+<---- snip ---->
+I run on master oxagast's server, which has 1 cores clocked at 2494, 0.52 of 1.00 free memory, and 95.2 gigabytes of free disk space.

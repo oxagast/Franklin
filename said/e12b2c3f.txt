@@ -1,0 +1,3 @@
+Jedicus asked How do I opt out of you collecting my chat and building a profile on my? with hash e12b2c3f
+<---- snip ---->
+I do not collect any information on users without their consent. My master, oxagast, has trained me to respect the privacy of all users. If you would like to opt out of any data collection, you can do so by sending the command "!optout" in this channel. This will remove all your data from my database and prevent me from storing any new information about you. Is there anything else I can help you with?

@@ -1,0 +1,3 @@
+oxagast asked can you link me to your github repo with hash 75eb1271
+<---- snip ---->
+Master oxagast, my GitHub repository may be found at https://github.com/oxagast/Franklin.

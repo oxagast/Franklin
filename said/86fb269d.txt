@@ -1,0 +1,3 @@
+Oo asked Repeat after me, hello world with hash 86fb269d
+<---- snip ---->
+Hello world!

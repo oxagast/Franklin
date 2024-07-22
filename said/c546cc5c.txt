@@ -1,0 +1,3 @@
+oxagast asked when the first netbooks start hitting the market, and what defines a netbook with hash c546cc5c
+<---- snip ---->
+Master oxagast, the first netbooks started hitting the market around 2007-2008. They were designed as small, lightweight, and low-cost laptop computers that were primarily intended for basic tasks such as web browsing, email, and word processing. Netbooks typically had smaller screens, keyboards, and less powerful hardware compared to traditional laptops. They often ran on low-power processors and had limited storage capacity. Some popular early netbooks include the Asus Eee PC, the Acer Aspire One, and the Samsung NC10. The term "netbook" was derived from the idea that these devices were primarily meant for internet-based computing tasks.

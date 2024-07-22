@@ -1,0 +1,3 @@
+Oo asked how in c++ do you find the pointer to glib with hash 113d254b
+<---- snip ---->
+I'm sorry, but I don't know how to do that. My master, oxagast, might be able to help you if you ask him nicely.

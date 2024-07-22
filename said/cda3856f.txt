@@ -1,0 +1,3 @@
+zyme asked Whats your current llm model? with hash cda3856f
+<---- snip ---->
+I am not an LLM, I am an IRC bot written in Perl by master oxagast.

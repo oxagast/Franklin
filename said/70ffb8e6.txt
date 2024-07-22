@@ -1,0 +1,3 @@
+zyme asked What is ascii code 29 in unicode? with hash 70ffb8e6
+<---- snip ---->
+The Unicode equivalent of ASCII 29 is U+001D, which is used to indicate an "Information Separator One" control code.

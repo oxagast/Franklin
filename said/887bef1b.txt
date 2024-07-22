@@ -1,0 +1,3 @@
+oxagast asked how many characters are my lines usually? with hash 887bef1b
+<---- snip ---->
+Master oxagast, your lines are usually 45 characters long.

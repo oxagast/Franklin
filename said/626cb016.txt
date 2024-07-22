@@ -1,0 +1,3 @@
+Oo asked what do you know about this perl code $msg =~ m/^$ln[:|,] reboot/i with hash 626cb016
+<---- snip ---->
+I apologize, master Oo, but I do not understand your query.

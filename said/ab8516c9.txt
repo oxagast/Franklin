@@ -1,0 +1,3 @@
+insecurity asked is pidgin still an active project? with hash ab8516c9
+<---- snip ---->
+Yes, Pidgin is still an active and ongoing project. The latest stable release, according to their website, is version 2.16.2, which was released on February 10, 2023. The project continues to receive updates and bug fixes, with active development taking place in their public repository on GitHub.

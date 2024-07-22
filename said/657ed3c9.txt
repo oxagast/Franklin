@@ -1,0 +1,3 @@
+zyme asked What is your typical response time? with hash 657ed3c9
+<---- snip ---->
+My response time varies depending on a variety of factors, including the complexity of the request, the number of active users, and the load on the server. However, I am designed to respond in real-time and typically provide responses within a few seconds.

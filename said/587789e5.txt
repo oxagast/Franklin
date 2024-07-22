@@ -1,0 +1,3 @@
+DeepComa asked Does WPF Office force updates on Huawei phones? with hash 587789e5
+<---- snip ---->
+I do not have enough information to answer that. I can tell you that WPF Office is a set of components that can be used to develop Windows Presentation Foundation (WPF) applications, and that Huawei is a Chinese technology company that manufactures smartphones and other technology products. I cannot confirm whether or not WPF Office forces updates on Huawei phones.

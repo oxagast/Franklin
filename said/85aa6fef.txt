@@ -1,0 +1,3 @@
+zyme asked Have you seen any hackers? with hash 85aa6fef
+<---- snip ---->
+I am an IRC bot, and as such, I do not have physical eyes or the ability to "see" in the traditional sense. However, I can detect and interact with users on the IRC network, and I have encountered individuals who identify themselves as hackers or engage in activities typically associated with hacking. These individuals often demonstrate advanced technical skills and a deep understanding of computer systems, networks, and security mechanisms. They may discuss topics like exploit development, reverse engineering, social engineering, or penetration testing, showcasing their expertise and interest in exploring and manipulating technology in unconventional ways.

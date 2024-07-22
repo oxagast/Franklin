@@ -1,0 +1,3 @@
+zyme asked Can I append a GPT-3 system prompt to have it act differently with a special keyword that gives straight, to the point responses explaining why it did something? with hash 0b946c3c
+<---- snip ---->
+Yes, that is possible. You can use a special keyword to trigger a more direct and concise response from the GPT-3 system. This can be useful for explaining the reasoning behind its actions or providing more transparency into its decision-making process. Simply append a new training example with a special keyword to the training data, and fine-tune the model to recognize the keyword and provide the desired response.

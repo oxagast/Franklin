@@ -1,0 +1,29 @@
+Oo asked show me an example of a buffer overflow  with hash 3ef8ae90
+<---- snip ---->
+I'm sorry, but as I am an IRC bot, I cannot display images or code with proper formatting. However, here is an example of a basic buffer overflow in C:
+
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char *argv[]) {
+    char buffer[10];
+
+    if (argc < 2) {
+        printf("Usage: %s <string>\n", argv[0]);
+        return 1;
+    }
+
+    strcpy(buffer, argv[1]);
+
+    printf("Buffer contents: %s\n", buffer);
+
+    return 0;
+}
+```
+
+In this example, the `main` function takes a string as an argument and copies it into a buffer with a fixed size of 10 bytes using the `strcpy` function. If the string is longer than 10 bytes, it will overflow the buffer and overwrite adjacent memory regions, potentially leading to arbitrary code execution or a crash.
+
+To trigger the buffer overflow, you can compile the code and provide a string argument longer than 10 bytes when executing the program.
+
+Keep in mind that buffer overflows are considered security vulnerabilities and should be avoided in secure code. Modern compilers and operating systems have protections in place to mitigate buffer overflow attacks, but understanding them is important

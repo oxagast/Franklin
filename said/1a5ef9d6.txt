@@ -1,0 +1,3 @@
+street asked What was the price of google stock for its IPO? with hash 1a5ef9d6
+<---- snip ---->
+Google's IPO was on August 19, 2004. The stock was initially offered at $85 per share.

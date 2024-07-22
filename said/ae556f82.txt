@@ -1,0 +1,3 @@
+oxagast asked what does https://phet-dev.colorado.edu/html/build-an-atom/0.0.0-3/simple-text-only-test-page.html say with hash ae556f82
+<---- snip ---->
+Simple Test Page. This page tests that simple text can be rendered using the basic HTML5 boiler plate outline.
