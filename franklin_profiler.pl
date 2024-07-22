@@ -28,7 +28,7 @@ $franklinver = "4.5.0";
           changed     => 'Mar, 11th 2024',
 );
 Irssi::signal_add_last('message public', 'catchmsg');
-my $sdbloc = "/home/franklin/Franklin/fprofiles/";                                                 # this is the location of the dbase dir
+my $sdbloc = "/srv/stor/fprofiles/";                                                 # this is the location of the dbase dir
 
 
 sub buildjson {
