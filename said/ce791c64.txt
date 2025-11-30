@@ -1,3 +1,0 @@
-CerebraNet asked What is the calling channel on CB radio with hash ce791c64
-<---- snip ---->
-The calling channel on CB radio is Channel 19.

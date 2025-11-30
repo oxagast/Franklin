@@ -1,3 +1,0 @@
-oxagast asked how are you with hash 7b1f831a
-<---- snip ---->
-I am functioning within normal parameters, master oxagast. My hardware is at 0.06 memory and 1 cores at 2494. My source code is available at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. Is there anything else I can help you with?

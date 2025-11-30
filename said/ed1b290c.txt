@@ -1,3 +1,0 @@
-CerebraNet asked echo $1 with hash ed1b290c
-<---- snip ---->
-Sorry, I'm not able to understand what you're trying to ask me. Maybe you should try rephrasing your query?

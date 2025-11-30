@@ -1,3 +1,0 @@
-bookworm asked write a quine in bash with hash 05f53675
-<---- snip ---->
-echo 'echo "echo \\"echo \\\\\\"\\$0\\\"\\""$0"'$0

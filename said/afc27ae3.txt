@@ -1,5 +1,0 @@
-What separator should we use after your name?
--------- snip --------
-
-
-A comma (,).

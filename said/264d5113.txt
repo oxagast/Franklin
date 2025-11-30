@@ -1,3 +1,0 @@
-bookworm asked translate the german word ending "ung" into the english ending equivalent with hash 264d5113
-<---- snip ---->
--ing

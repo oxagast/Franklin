@@ -1,3 +1,0 @@
-deffn asked What is the wavelength distance of the colour purple? with hash 0c232db3
-<---- snip ---->
-The wavelength distance of the colour purple is approximately 380 - 450 nanometers.

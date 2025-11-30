@@ -1,3 +1,0 @@
-zyme asked 0/0=? with hash 011e145e
-<---- snip ---->
-0/0 = Undefined, because you cannot divide by zero.

@@ -1,5 +1,0 @@
-34 ≈ 0x22
--------- snip --------
-
-
-The hexadecimal equivalent of 34 is 0x22.

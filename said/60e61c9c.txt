@@ -1,3 +1,0 @@
-CerebraNet asked What is windows equivalent to cat with hash 60e61c9c
-<---- snip ---->
-The Windows equivalent to cat is 'type'.

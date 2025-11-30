@@ -1,6 +1,0 @@
-sudo systemctl start tftpd-hp
--------- snip --------
-
-
-# Then restart the service
-sudo systemctl restart tftpd-hp

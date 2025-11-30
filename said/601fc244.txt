@@ -1,3 +1,0 @@
-CerebraNet asked e=mc^2, calculate for m. with hash 601fc244
-<---- snip ---->
-m = e/c^2

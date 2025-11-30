@@ -1,5 +1,0 @@
-two beef three cattle
--------- snip --------
- one sheep
-
-You have two cows, three bulls, and one sheep.

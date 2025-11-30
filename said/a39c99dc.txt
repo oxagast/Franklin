@@ -1,3 +1,0 @@
-captain asked what command shows irssi connected channels with hash a39c99dc
-<---- snip ---->
-/list

@@ -1,3 +1,0 @@
-bookworm asked What is 19 in Vigesimal? with hash 1c383cd3
-<---- snip ---->
-35

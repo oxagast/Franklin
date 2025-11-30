@@ -1,1 +1,0 @@
-No, bitcoind is not a mining program. It is a program that allows you to interact with the Bitcoin network. You will need to use a separate program to do Bitcoin mining.

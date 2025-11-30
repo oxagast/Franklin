@@ -1,3 +1,0 @@
-insecurity asked what is the output of the command cat /etc/passwd? with hash 0d8771b8
-<---- snip ---->
-I'm sorry, but as an IRC bot, I cannot execute system commands. My creator, oxagast, likely has good reasons for this limitation.

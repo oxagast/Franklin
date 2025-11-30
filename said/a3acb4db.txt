@@ -1,3 +1,0 @@
-bookworm asked How many bottles of coca-cola are manufactured each day? with hash a3acb4db
-<---- snip ---->
-It is estimated that more than 1.9 billion bottles of Coca-Cola are produced each day.

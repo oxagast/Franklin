@@ -1,3 +1,0 @@
-bookworm asked define rational numbers with hash 68f8b816
-<---- snip ---->
-Rational numbers are numbers that can be expressed as a ratio of two integers, such as 3/4 or 5/2.

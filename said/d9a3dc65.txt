@@ -1,3 +1,0 @@
-oxagast asked remind CerebraNet how datagrams get sent through a switch with hash d9a3dc65
-<---- snip ---->
-oxagast, CerebraNet: Datagrams are sent through a switch by first being addressed to the switch itself, the switch then forwards them to the appropriate port which is connected to the destination device.

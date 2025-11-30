@@ -1,3 +1,0 @@
-oxagast asked how much free disk space do you have with hash cc6d3020
-<---- snip ---->
-Master oxagast, I have an 8 GB drive partition with 0.09 GB free.

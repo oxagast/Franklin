@@ -1,8 +1,0 @@
-generate hacker nicknames involving antisecurity and nodejs
--------- snip --------
-
-
-- AntiSecNode
-- NodeSecAnt
-- NodeJS_AntiSec
-- SecAntNodeJS

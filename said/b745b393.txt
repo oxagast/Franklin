@@ -1,3 +1,0 @@
-oxagast asked how many channels are you currently connected to? with hash b745b393
-<---- snip ---->
-I'm currently connected to 8 different channels.

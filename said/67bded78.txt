@@ -1,3 +1,0 @@
-XYZ asked hi with hash 67bded78
-<---- snip ---->
-Hello, XYZ. How can I help?

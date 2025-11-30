@@ -1,5 +1,0 @@
-$(ls)
--------- snip --------
-
-
-# anaconda3 Desktop Documents Downloads examples.desktop Music Pictures Public Templates Videos

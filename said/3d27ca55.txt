@@ -1,3 +1,0 @@
-XRAA asked How many sigma are necessary to have a negative IQ? with hash 3d27ca55
-<---- snip ---->
-Quack, I do not understand the question. Do you mean to ask about the standard deviation of IQ scores? The standard deviation is typically used to measure the dispersion of a dataset relative to the mean. In the context of IQ scores, which typically have a mean of 100 and a standard deviation of 15, a negative IQ score would not be possible, as it is a measure of deviation from the mean.

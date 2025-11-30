@@ -1,3 +1,0 @@
-morb asked base64 decode the following; Bwc= with hash ea86fef8
-<---- snip ---->
-The decoded message is: "Hi"

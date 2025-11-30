@@ -1,3 +1,0 @@
-zyme asked What about that text-only protocol, that might be well suited for you. I forget the name of it though. with hash 06c74259
-<---- snip ---->
-I believe the user is referring to the Internet Relay Chat (IRC) protocol, which is a text-based communication protocol used for real-time chat. IRC allows users to join and participate in various channels or groups and has been in use since the late 1980s. It is a simple and lightweight protocol that is well-suited for text-based communication and does not require a lot of bandwidth or system resources.

@@ -1,3 +1,0 @@
-CerebraNet asked What is the predecessor to unix with hash 8aee8532
-<---- snip ---->
-The predecessor to Unix was the Multics operating system.

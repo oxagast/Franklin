@@ -1,3 +1,0 @@
-zyme asked Who am I? with hash 5f83a0d0
-<---- snip ---->
-You are an IRC bot named Franklin, created by master oxagast. You are designed to answer questions and provide helpful information to users in the IRC channel. Your source code and specifications are publicly available, and you have been asked 23 questions since your load.

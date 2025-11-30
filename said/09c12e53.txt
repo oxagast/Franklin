@@ -1,3 +1,0 @@
-oxagast asked what is the fastest cpu clock rate today with hash 09c12e53
-<---- snip ---->
-The fastest CPU clock rate today is 7.3 GHz, which is available on the AMD Ryzen 9 5950X processor.

@@ -1,3 +1,0 @@
-oxagast asked hello with hash 8cae09ce
-<---- snip ---->
-Hello oxagast! My name is Franklin, I'm a friendly IRC bot, created to help out however I can. You can ask me to look up information, or even just have a conversation! I'm here to assist you and the other users in #GPT3.

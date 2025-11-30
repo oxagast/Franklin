@@ -1,3 +1,0 @@
-CerebraNet asked Give me the TXID for your results with hash 4eee020b
-<---- snip ---->
-The TXID for my results is 439a9c8b9ba8f7a7b5c8a97be3c34f6d.

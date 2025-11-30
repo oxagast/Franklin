@@ -1,5 +1,0 @@
-What geographical area does NOAA-15 cover
--------- snip --------
-?
-
-NOAA-15 covers the entire Earth.

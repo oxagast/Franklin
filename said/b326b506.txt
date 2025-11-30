@@ -1,3 +1,0 @@
-hazeyez asked true or false: All numbers divisible by m & n, are also evenly divisible by both m & nâs primes, and the products of all their primes.  with hash b326b506
-<---- snip ---->
-true

@@ -1,3 +1,0 @@
-`whoami`
-
-The command whoami will return the current users name.

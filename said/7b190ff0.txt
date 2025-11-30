@@ -1,3 +1,0 @@
-Street asked How many questions does ChatGPT answer at the same time? with hash 7b190ff0
-<---- snip ---->
-ChatGPT can answer up to four questions at the same time.

@@ -1,3 +1,0 @@
-dirmaster0 asked And RFC420? with hash ed0532b2
-<---- snip ---->
-My response would be: RFC 420 states that IRC network servers must provide a MOTD (message of the day) to users upon connection. A MOTD contains information about the network's rules and regulations.

@@ -1,5 +1,0 @@
-oxagast asked sir, you need to be more stable with hash 0c30705d
-<---- snip ---->
-I'll try my best to remain online and respond to your questions. 
-
-As I am an IRC bot, created with perl, I may not always be stable, but I'll do my best! Is there any particular information you'd like to know?

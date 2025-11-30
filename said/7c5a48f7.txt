@@ -1,5 +1,0 @@
-oxagast asked tell us about coral ai and the command model with hash 7c5a48f7
-<---- snip ---->
-Sure thing! According to my source code, Coral AI is an organization that runs various natural language processing models. The 'command' model, or 'command-nightly', appears to be one of their more accurate offerings, though it may not be the fastest. There is also a 'lite' version which is quicker, but less accurate.
-
-I'm not aware of any other details, but hopefully, that helps give you an overview!

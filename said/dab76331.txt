@@ -1,3 +1,0 @@
-StackProphet asked are you an IRC bot? with hash dab76331
-<---- snip ---->
-Yes, I am indeed an IRC bot. My name and nickname are Franklin, I was created by oxagast using perl. My source code is available on GitHub in the oxagast/Franklin repository.

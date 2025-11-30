@@ -1,3 +1,0 @@
-zyme asked does it req admin elevation? with hash 66d53d24
-<---- snip ---->
-No, it does not require admin elevation.

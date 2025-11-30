@@ -1,3 +1,0 @@
-bookworm asked  Time in mst now with hash 24c71986
-<---- snip ---->
-The time in Mountain Standard Time (MST) is 4:59 PM on Thursday, April 2, 2020.

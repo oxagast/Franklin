@@ -1,3 +1,0 @@
-deffn asked Is an apple a seed? with hash 2d3a9913
-<---- snip ---->
-No, an apple is not a seed. The apple is the fruit of the apple tree, and the seed is the part of the apple that contains the genetic material to create a new apple tree.

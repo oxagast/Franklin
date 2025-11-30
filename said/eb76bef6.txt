@@ -1,3 +1,0 @@
-bookworm asked curl wttr.in with hash eb76bef6
-<---- snip ---->
-The weather in Unknown, XX is currently -3°C, cloudy with a chance of rain. It looks like it's going to be a cold one!

@@ -1,3 +1,0 @@
-bookworm asked echo \\'functÑÎ¿n f { ÐµÑhÎ¿ hÐµllÎ¿ wÎ¿rld; }; f\\' | tr \\'a-z\\' \\'A-Z\\' with hash 41902bf3
-<---- snip ---->
-FUNCTІΟN F { ЕСHΟ HЕLLΟ WΟRLD; }; F

@@ -1,3 +1,0 @@
-XYZ asked how long takes to download 300MB file with 8K/s speed? with hash 165c2723
-<---- snip ---->
-It will take approximately 5 minutes and 33 seconds to download a 300MB file with a speed of 8 Kibibits per second.

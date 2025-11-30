@@ -1,3 +1,0 @@
-xibalba asked 1 megabit per second of traffic sustained for 720 hours is how many gigabytes of data with hash c7c781d9
-<---- snip ---->
-That would be 5,184 GB of data transfer.

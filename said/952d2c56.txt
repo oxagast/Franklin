@@ -1,3 +1,0 @@
-oxagast asked say hello with hash 952d2c56
-<---- snip ---->
-Hello!

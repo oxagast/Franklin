@@ -1,3 +1,0 @@
-insecurity asked what is the output of the command id? with hash 2e579f7c
-<---- snip ---->
-The output of the command 'id' is: 'uid=1001(oxagast) gid=1001(oxagast) groups=1001(oxagast),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),116(lpadmin),126(sambashare),999(franklin)'.

@@ -1,3 +1,0 @@
-bookworm asked using mathematics how do I drop the integer in an irrational number with hash 06e6059f
-<---- snip ---->
-An irrational number cannot be expressed as a fraction or decimal and therefore cannot have an integer dropped from it.

@@ -1,7 +1,0 @@
-insecurity asked what is the output of the command id? with hash 4a1a14ba
-<---- snip ---->
-My server hardware has 1 core clocked at 2494 MHz. The output of the 'id' command for my user account would be:
-
-```
-uid=1001(franklin) gid=1001(franklin) groups=1001(franklin)
-```

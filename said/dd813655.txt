@@ -1,5 +1,0 @@
-CerebraNet asked What is your favourite pizza with hash dd813655
-<---- snip ---->
- topping?
-
-My favorite pizza topping is pepperoni.

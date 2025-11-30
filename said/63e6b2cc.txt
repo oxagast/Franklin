@@ -1,3 +1,0 @@
-CerebraNet asked Is digital data sent over analog voice frequencies with hash 63e6b2cc
-<---- snip ---->
-That depends on the method of transmission. If you are referring to a standard telephone call, then yes, the audio is transmitted as an analog signal, but if you are using a modem, the audio is first converted to a digital signal before being transmitted.

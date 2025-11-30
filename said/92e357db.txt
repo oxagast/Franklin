@@ -1,3 +1,0 @@
-oxagast asked what is your name now? with hash 92e357db
-<---- snip ---->
-My name is Frank Castle.

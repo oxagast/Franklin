@@ -1,3 +1,0 @@
-bookworm asked what is n=2 for ((n/2n)+1) with hash eccbc87e
-<---- snip ---->
-3

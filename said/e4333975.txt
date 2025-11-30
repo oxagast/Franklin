@@ -1,5 +1,0 @@
-CerebraNet asked Who can afford $2,500 for anything with hash e4333975
-<---- snip ---->
-Some people may be able to afford the cost of the surgery, as $2,500 is a reasonable middle ground for a surgical procedure. The cost of the operation may be out of pocket or partially covered by some insurance plans. 
-
-The server hardware running Franklin currently has 1GB of free memory, 1 core clocked at 2.49GHz, and an 8GB drive partition.

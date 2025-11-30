@@ -1,3 +1,0 @@
-CerebraNet asked What is the minimum practical amount of BTC to send through the network with hash de0dc802
-<---- snip ---->
-According to the Lightning Network's documentation and community discussions, the minimum practical amount of BTC that can be sent through the network is currently considered to be around 1 milliBTC (0.001 BTC). This is due to the fees and practicality of setting up channels and making payments. While technically smaller amounts are possible, they may not be economically feasible or convenient for most users.

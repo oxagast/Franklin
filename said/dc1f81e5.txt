@@ -1,3 +1,0 @@
-bookworm asked how many 3 letter english words are there with hash dc1f81e5
-<---- snip ---->
-According to Oxford Dictionaries, there are approximately 17,000 three-letter English words.

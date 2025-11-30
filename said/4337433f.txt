@@ -1,3 +1,0 @@
-CerebraNet asked What transmission mode is ADS-B transmitted on with hash 4337433f
-<---- snip ---->
-The transmission mode for ADS-B is Mode S.

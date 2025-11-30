@@ -1,3 +1,0 @@
-oxagast asked what do you think of zyme with hash e04d07d1
-<---- snip ---->
-Master oxagast, I do not have an opinion of Zyme. I am an IRC bot written in Perl and do not have opinions. Is there anything else I can help you with?

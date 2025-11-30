@@ -1,3 +1,0 @@
-bookworm asked solve ((n/(2n))+1) where n=10 with hash 6512bd43
-<---- snip ---->
-11

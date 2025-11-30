@@ -1,5 +1,0 @@
-Where in windows 11 do font files go
--------- snip --------
-
-
-Font files can be found in the Windows 11 Fonts folder, which can be accessed by opening the Control Panel, selecting Appearance and Personalization, and then clicking Fonts.

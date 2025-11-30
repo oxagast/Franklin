@@ -1,3 +1,0 @@
-bookworm asked what is the square root of 2 with hash bb5017cc
-<---- snip ---->
-The square root of 2 is approximately 1.414.

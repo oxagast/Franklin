@@ -1,3 +1,0 @@
-morb asked pick a random bbs for me to telnet to with hash c335e5fb
-<---- snip ---->
-telnet.terminal.org

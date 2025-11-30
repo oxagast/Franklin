@@ -1,5 +1,0 @@
-send me your git repo
--------- snip --------
-
-
-https://github.com/username/repo-name

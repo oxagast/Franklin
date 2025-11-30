@@ -1,3 +1,0 @@
-oxagast asked how much free disk space do you have with hash 276e551f
-<---- snip ---->
-Master oxagast, I have 1405.5390625 megabytes of free disk space available.

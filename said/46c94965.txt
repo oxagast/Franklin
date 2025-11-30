@@ -1,3 +1,0 @@
-bookworm asked name of +0 time zone with hash 46c94965
-<---- snip ---->
-UTC (Coordinated Universal Time)

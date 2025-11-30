@@ -1,3 +1,0 @@
-bookworm asked expand My supervisor is [Name] with hash fab5f138
-<---- snip ---->
-My supervisor is [Name], [Title].

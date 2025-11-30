@@ -1,6 +1,0 @@
-Write a python script for Hello World
--------- snip --------
-
-
-#Prints "Hello World" to the console
-print("Hello World")

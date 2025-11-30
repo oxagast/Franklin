@@ -1,5 +1,0 @@
-oxagast asked lets play hangman, you go with hash 1b0d80f2
-<---- snip ---->
-Sure thing! I'll start with the word "computer". 
-
-You'll need to guess the word, letter by letter. Each incorrect guess will bring us closer to hanging the poor stickman! Please give me your first guess!

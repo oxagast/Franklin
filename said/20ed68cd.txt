@@ -1,3 +1,0 @@
-oxagast asked testing to make sure you work after firewall changes with hash 20ed68cd
-<---- snip ---->
-My response is: Yes, I'm still here! The firewall changes didn't affect me.

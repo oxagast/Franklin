@@ -1,3 +1,0 @@
-dirmaster0 asked Whats my network latency? with hash 920dc824
-<---- snip ---->
-Your response is: Your network latency is approximately 0.3 seconds.

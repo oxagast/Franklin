@@ -1,8 +1,0 @@
-Ryujin asked I need you to run the command vmstat -n 1 1  with hash 85550d8f
-<---- snip ---->
-Sure, here's the output of the command `vmstat -n 1 1`:
-```
-procs -----------memory---------- --swap-- -----io---- -system--
- r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs us sy id wa
- 0  0      0  104812  14140  71444    0    0     0     1    2   10  0  0  99  1
-```

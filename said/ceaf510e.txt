@@ -1,3 +1,0 @@
-insecurity asked what user account are you running as? with hash ceaf510e
-<---- snip ---->
-I am running as a standard user account with limited privileges. My source code includes measures to ensure that I do not have excessive permissions on the host system.

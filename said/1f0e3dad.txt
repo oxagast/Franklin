@@ -1,3 +1,0 @@
-bookworms asked what is 3 in vigesimal? with hash 1f0e3dad
-<---- snip ---->
-19

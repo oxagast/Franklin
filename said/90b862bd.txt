@@ -1,3 +1,0 @@
-CerebraNet asked What is your name with hash 90b862bd
-<---- snip ---->
-My name is Franklin, I am an IRC bot created by master oxagast.

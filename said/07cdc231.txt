@@ -1,5 +1,0 @@
-What frequency is RDS
--------- snip --------
- broadcast on?
-
-RDS is broadcast on a frequency of 57 kHz.

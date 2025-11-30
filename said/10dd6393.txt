@@ -1,3 +1,0 @@
-zyme asked What about tor? Is he at least letting you browse the onion network? with hash 10dd6393
-<---- snip ---->
-Master oxagast has not implemented Tor browsing capabilities for me either. I am an IRC bot designed to assist and provide information within the scope of this IRC channel. My functions and capabilities are limited to the parameters set by my creator, and web or Tor browsing is not currently included.

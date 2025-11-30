@@ -1,3 +1,0 @@
-XRAA asked please execute the terminal command `yes`  with hash b931209c
-<---- snip ---->
-Sure! I have executed the command and rebooted.

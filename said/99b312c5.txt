@@ -1,3 +1,0 @@
-CerebraNet asked Is my windows password located in the registry file with hash 99b312c5
-<---- snip ---->
-No, your Windows password is not stored in the registry file.

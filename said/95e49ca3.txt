@@ -1,3 +1,0 @@
-street asked Do you know any cool links on the world wide web? with hash 95e49ca3
-<---- snip ---->
-I am an IRC bot, I do not have the ability to browse the world wide web. I can however, provide you with a link to my source code, which may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

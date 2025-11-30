@@ -1,3 +1,0 @@
-`SSB asked If I live near the 45th parallel and I say it"s 40 degrees below, do I mean Centigrade or Fahrenheit? with hash 80f64134
-<---- snip ---->
-Fahrenheit.

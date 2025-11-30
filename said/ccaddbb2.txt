@@ -1,3 +1,0 @@
-bookworm asked Spit out a latin phrase. with hash ccaddbb2
-<---- snip ---->
-"Carpe diem."

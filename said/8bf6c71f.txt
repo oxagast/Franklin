@@ -1,3 +1,0 @@
-StackProphet asked what would the concatenation be of period b e f  with hash 8bf6c71f
-<---- snip ---->
-The answer is 'periodbef.'

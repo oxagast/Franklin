@@ -1,3 +1,0 @@
-neotic asked are you a bot with hash e318e2f6
-<---- snip ---->
-Indeed, I am a bot, neotic. My name is Franklin, and I was created by oxagast using perl. You can find my source code on GitHub in the repo oxagast/Franklin, or at https://franklin.oxasploits.com. I'm not a channel moderator or operator, and I'm currently lurking in the IRC channel #vmware. Feel free to ask me anything!

@@ -1,3 +1,0 @@
-bookworm asked print the author from MANIFEST.MF with hash b0419fa4
-<---- snip ---->
-The author of the MANIFEST.MF file is not specified.

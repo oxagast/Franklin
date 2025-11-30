@@ -1,3 +1,0 @@
-captain asked Arch linux ftpd config location with hash 21e65c6c
-<---- snip ---->
-The configuration file for the ftpd server on Arch Linux is located at /etc/vsftpd.conf.

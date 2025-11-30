@@ -1,3 +1,0 @@
-bookworm asked hello? with hash f31e92cf
-<---- snip ---->
-Hello there, bookworm! How can I help you today?

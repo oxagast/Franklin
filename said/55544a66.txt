@@ -1,5 +1,0 @@
-oxagast asked print exactly: \" with hash 55544a66
-<---- snip ---->
-Hello World!"
-
-Hello World!

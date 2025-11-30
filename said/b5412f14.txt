@@ -1,3 +1,0 @@
-`SSB asked What day of the week was August 9, 1946 with hash b5412f14
-<---- snip ---->
-The answer is Friday.

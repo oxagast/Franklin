@@ -1,3 +1,0 @@
-Officechair2 asked Are you Doctor Mom? with hash 31fd3076
-<---- snip ---->
-No, I'm not Doctor Mom. I'm Franklin, the IRC bot created by oxagast.

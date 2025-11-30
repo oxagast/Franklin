@@ -1,6 +1,0 @@
-Show me a for loop for python
--------- snip --------
-
-
-for i in range(10):
- print(i)

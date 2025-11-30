@@ -1,3 +1,0 @@
-kJer asked what is the max message size in IRC? with hash ccfedb7d
-<---- snip ---->
-The max message size in IRC is 512 characters.

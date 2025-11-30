@@ -1,7 +1,0 @@
-write Hello World in Rust
--------- snip --------
-
-
-fn main() {
- println!("Hello World!")
-}

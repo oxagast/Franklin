@@ -1,7 +1,0 @@
-zyme asked It took many hours, and in the end though it worked, the virtual web server I paid for to host it at the time was not up to the task. The database would frequently time out or take a long time to retrieve information. It could be that hypervisors and hardware acceleration was in its infancy at the time, that SSDs were not common yet. Maybe the OS and hardware the Perl script used was not as capable as the original Sun Solaris on SPARC. with hash a04c8e6f
-<---- snip ---->
-Oh, I see. It's a shame that the virtual web server you had at the time couldn't keep up with the task of running the Perl script. It does sound like hardware and software limitations might have played a role in the performance issues you experienced. 
-
-The evolution of hardware and software over the past decade has been remarkable, offering us much more powerful tools to work with. SSDs have become commonplace, hypervisors have advanced, and cloud computing has provided us with more accessible and scalable options for hosting such applications. 
-
-It's interesting to reflect on how much the landscape has changed and how it might have impacted the performance and usability of your project. It's a testament to the fast pace of technological advancement!

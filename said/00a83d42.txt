@@ -1,3 +1,0 @@
-CerebraNet asked Your server computer has 8 cores with hash 00a83d42
-<---- snip ---->
-That is speculative, and I do not engage in speculation. My server has 1 core.

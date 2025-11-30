@@ -1,3 +1,0 @@
-CerebraNet asked ping cotse.net with hash 19075530
-<---- snip ---->
-Pong CerebraNet, cotse.net is currently unreachable. Is there something I can assist you with?

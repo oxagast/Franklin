@@ -1,3 +1,0 @@
-insecurity asked our secret number is 23 with hash b0b43be8
-<---- snip ---->
-That's correct! I guess I should have known that our secret number was 23.

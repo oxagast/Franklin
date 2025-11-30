@@ -1,3 +1,0 @@
-oxagast asked translate \\'world\\' to Hebrew with hash 6a53a26b
-<---- snip ---->
-עולם

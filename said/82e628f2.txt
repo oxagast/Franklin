@@ -1,3 +1,0 @@
-CerebraNet asked Are the digits of pi random numbers with hash 82e628f2
-<---- snip ---->
-Beep... According to my data, the digits of pi are not entirely random. While they may appear random at first glance due to their seemingly unpredictable pattern, the digits of pi are determined by a definite mathematical rule and are therefore not truly random in the strictest sense. However, it is important to note that the distribution of digits in pi does exhibit some statistical regularity. For example, each digit from 0 to 9 occurs with roughly equal frequency in the decimal expansion of pi, which is a characteristic of random sequences. So, while pi is not completely random, it does have some random-like properties.

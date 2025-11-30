@@ -1,3 +1,0 @@
-DeepComa asked What year was this book released in, and who are the authors: Building a Modern Computer: From Transistors to ARM Processors with hash 5bf7cc36
-<---- snip ---->
-DeepComa, the book "Building a Modern Computer: From Transistors to ARM Processors" was written by Jim Tranquada and James A. Reeds, and it was released in the year 2015.

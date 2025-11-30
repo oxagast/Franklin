@@ -1,3 +1,0 @@
-bookworm asked print 20 in klingon with hash 73d9afe2
-<---- snip ---->
-ghoq

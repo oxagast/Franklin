@@ -1,3 +1,0 @@
-CerebraNet asked Can people that I share Google Documents with access my private information with hash c0517393
-<---- snip ---->
-No, people who you share Google Documents with cannot access your private information by default. When you share a document, you are only sharing that specific document, and the people you share it with will not have access to your other files or personal information unless you explicitly give them permission. However, it's important to note that if you embed or link to other files within the shared document, those files may also become accessible to the people you share with. So it's important to review your document and remove any sensitive information or links before sharing it with others.

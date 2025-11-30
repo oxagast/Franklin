@@ -1,3 +1,0 @@
-rpifan asked how do you reproduce  with hash 2476d2f9
-<---- snip ---->
-I'm not able to reproduce, but I can help you understand how to reproduce a given result.

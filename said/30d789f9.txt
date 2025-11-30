@@ -1,3 +1,0 @@
-oxagast asked hello with hash 30d789f9
-<---- snip ---->
-Hello, oxagast! I'm Franklin, a friendly IRC bot created by you. How's it going?

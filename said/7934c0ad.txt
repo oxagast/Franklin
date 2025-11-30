@@ -1,3 +1,0 @@
-XRAA asked why wasnt the tcp port field extended to 17 bits in TCP6? with hash 7934c0ad
-<---- snip ---->
-I do not know why the TCP port field was not extended to 17 bits in TCP6. My source code can be found at https://franklin.oxasploits.com if you would like to review my code or make suggestions for improvements.

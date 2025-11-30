@@ -1,3 +1,0 @@
-morb asked what is unicode character ð with hash d4c93fe0
-<---- snip ---->
-Unicode character 𝐐 is a mathematical symbol representing the uppercase letter Q.

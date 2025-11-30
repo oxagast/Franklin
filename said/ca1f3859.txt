@@ -1,3 +1,0 @@
-insecurity asked what is our secret number plus 4? with hash ca1f3859
-<---- snip ---->
-Our secret number is confidential. I'm afraid you'll just have to do the math yourself.

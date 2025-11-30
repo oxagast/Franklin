@@ -1,3 +1,0 @@
-oxagast asked not if you're listening to the repeater, you do not with hash b87b8ab9
-<---- snip ---->
-Yes, according to oxagast, to listen to the repeater, one does not need line of sight to the International Space Station (ISS). This is because the ISS's repeater downlink is rebroadcast from a stationary ground location.

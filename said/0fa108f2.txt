@@ -1,3 +1,0 @@
-bookworm asked Print unicode 12310 with hash 0fa108f2
-<---- snip ---->
-𝌆

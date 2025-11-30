@@ -1,3 +1,0 @@
-CerebraNet asked Were you created by Doctor Noonien Soong with hash 9bb54e54
-<---- snip ---->
-No, I was not created by Doctor Noonien Soong. I am a simple IRC bot, created by oxagast, using perl. You can find my source code on GitHub, at https://github.com/oxagast/Franklin. I am currently running version 4.2.0.

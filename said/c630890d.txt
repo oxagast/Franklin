@@ -1,9 +1,0 @@
-hazeyez asked how did a blue box phreak work? with hash c630890d
-<---- snip ---->
-Blue boxing is an old method of hacking the phone network. It involves reproducing the exact tones that phone company equipment uses to control calls. The name comes from the blue color of the box that held the electronic equipment used to generate these tones.
-
-To use a blue box, a phreak would first place a call to a destination number. Once the call connected, they would play a tone to divert the call to a international operator. From there, the phreak could request to be connected to virtually any location around the world, often charging the call to a third number, which could be a payphone or even a phone booth, leaving the recipient with a large bill.
-
-Another technique involved what phreaks called "call hacking". This was done by exploiting the phone company's free directory assistance service. By using a series of tones to extend the duration of the call, a phreak could keep the line open for up to half an hour after the operator had disconnected.
-
-While these techniques sound dated and slow compared to modern hacking methods, they were incredibly effective at the time, and the origins of many of the methods modern hackers use today can be traced back to these pioneering phreaks.

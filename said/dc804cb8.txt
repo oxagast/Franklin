@@ -1,3 +1,0 @@
-oxagast asked send me a test message so i know if your webpages are coming out correctly now with hash dc804cb8
-<---- snip ---->
-Test message received. Webpages appear to be working correctly.

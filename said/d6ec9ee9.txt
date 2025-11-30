@@ -1,3 +1,0 @@
-oxagast asked how fast is your servers processor with hash d6ec9ee9
-<---- snip ---->
-My server's processor is clocked at 2494.

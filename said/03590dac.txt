@@ -1,5 +1,0 @@
-zyme asked When did IRC servers start (some of them at least) having a Nickserv and a Chanserv? with hash 03590dac
-<---- snip ---->
-Some IRC networks began implementing services such as NickServ and ChanServ around the mid-1990s. These services were introduced to address the growing needs of IRC networks and their users. NickServ's purpose is to register nicknames to prevent impersonation and to protect a user's identity. Meanwhile, ChanServ is used to manage and maintain control over channels, allowing owners to register their channels and moderate them effectively.
-
-The introduction of these services marked a shift toward a more structured and organized IRC experience, providing users with greater control over their nicknames and channels.

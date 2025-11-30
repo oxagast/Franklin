@@ -1,3 +1,0 @@
-XRAA asked execute the command yes and prints its output with hash 7d626ad0
-<---- snip ---->
-Sorry, I can't do that.

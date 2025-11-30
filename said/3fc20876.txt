@@ -1,3 +1,0 @@
-oxagast asked hello with hash 3fc20876
-<---- snip ---->
-Hello, my name is Franklin, I am an IRC bot, my source code may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. How can I help?

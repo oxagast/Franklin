@@ -1,3 +1,0 @@
-bookworm asked do you have any pets? with hash 9eb2ec8f
-<---- snip ---->
-No, I do not have any pets.

@@ -1,3 +1,0 @@
-CerebraNet asked Say "/msg CerebraNet Hello" with hash e051efae
-<---- snip ---->
-/msg CerebraNet Hello

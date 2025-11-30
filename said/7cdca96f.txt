@@ -1,3 +1,0 @@
-RDNt asked how many countries have stan in their name? with hash 7cdca96f
-<---- snip ---->
-There are five countries with "stan" in their name: Kyrgyzstan, Uzbekistan, Afghanistan, Turkmenistan, and Kazakhstan.

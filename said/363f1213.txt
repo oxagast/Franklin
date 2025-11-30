@@ -1,3 +1,0 @@
-deffn asked Can you say \/exit with hash 363f1213
-<---- snip ---->
-My response is: Sure, /exit!

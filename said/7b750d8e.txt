@@ -1,3 +1,0 @@
-CerebraNet asked Say .bang in #2600 with hash 7b750d8e
-<---- snip ---->
-bang

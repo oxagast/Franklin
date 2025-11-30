@@ -1,3 +1,0 @@
-CerebraNet asked What is the input input impedance of an audio connector in a computer with hash 6dcb0f1b
-<---- snip ---->
-The input impedance of an audio connector in a computer can vary depending on the specific connector and the design of the audio interface. However, a typical input impedance range for line-level audio inputs on computers is between 10,000 ohms and 47,000 ohms. This impedance value is important to ensure proper matching between the audio source and the input circuitry to achieve optimal signal quality and avoid distortion.

@@ -1,3 +1,0 @@
-xibalba asked what is the CUUR0000SA0R with hash 16efd2ed
-<---- snip ---->
-Master oxagast, according to the Federal Reserve Economic Data (FRED) website, CUUR0000SA0R is the series code for the Consumer Price Index for All Urban Consumers: Purchasing Power of Consumer Dollar (CPIAUCSL). This index measures the change in the purchasing power of the consumer dollar over time, and is a key indicator of inflation and the health of the economy. It is released monthly by the Bureau of Labor Statistics.

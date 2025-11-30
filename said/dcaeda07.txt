@@ -1,7 +1,0 @@
-oxagast asked does debian still have multiarch support for i386 libs for deprecaed binaries? with hash dcaeda07
-<---- snip ---->
-As of my latest update in January 2021, the Debian GNU/Linux distribution still supports multiarch for i386 architecture libraries. This support allows users to run 32-bit binaries on their AMD64 systems.
-
-However, it's important to note that some older libraries have been removed from the Debian repositories over time. If you're experiencing issues with a specific 32-bit binary, it may be due to one of the libraries it depends on being removed or deprecated.
-
-To confirm if a specific library is available, you can check the Debian package database using commands like `dpkg -l <package_name>` or consult the Debian Wiki page for multiarch support.

@@ -1,3 +1,0 @@
-CerebraNet asked What is 3 XOR 2
-<---- snip ---->
-3 XOR 2 = 1 https://franklin.oxasploits.com/said/68c2e58c

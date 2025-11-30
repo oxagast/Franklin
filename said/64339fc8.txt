@@ -1,3 +1,0 @@
-morb asked what year is it with hash 64339fc8
-<---- snip ---->
-It is 2021.

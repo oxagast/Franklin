@@ -1,3 +1,0 @@
-bookworm asked example of a llama API key with hash bfbeacdd
-<---- snip ---->
-exampleAPIkey1234567890

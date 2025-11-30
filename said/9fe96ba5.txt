@@ -1,3 +1,0 @@
-zyme asked Can you distinguish channels and tell when it is the same person talking to you in multiple channels? with hash 9fe96ba5
-<---- snip ---->
-Yes, I can distinguish between channels and users. I use a combination of user nicknames, hostmasks, and channel information to identify users and channels. Even if a user changes their nickname, I can usually still identify them based on their hostmask or other identifying information.

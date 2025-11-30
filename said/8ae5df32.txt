@@ -1,3 +1,0 @@
-bookworm asked How old am I? with hash 8ae5df32
-<---- snip ---->
-That depends on when you were born.

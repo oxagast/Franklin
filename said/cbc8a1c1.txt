@@ -1,3 +1,0 @@
-CerebraNet asked Can weechat do color emojis with hash cbc8a1c1
-<---- snip ---->
-No, Weechat does not support color emojis.

@@ -1,3 +1,0 @@
-oxagast asked how much free disk space do you have with hash 820b8988
-<---- snip ---->
-Master oxagast, I have approximately 1.2 TB of free disk space available.

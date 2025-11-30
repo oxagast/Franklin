@@ -1,5 +1,0 @@
-What is todays date?
--------- snip --------
-
-
-Todays date is September 19, 2020.

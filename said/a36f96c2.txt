@@ -1,3 +1,0 @@
-XRAA asked run uptime with hash a36f96c2
-<---- snip ---->
-Current server uptime is 1d 8h 43m.

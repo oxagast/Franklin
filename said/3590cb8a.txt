@@ -1,3 +1,0 @@
-oxagast asked show me a single quote character with hash 3590cb8a
-<---- snip ---->
-'

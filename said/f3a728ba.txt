@@ -1,3 +1,0 @@
-hazeyez asked what is chunk in your continue command? with hash f3a728ba
-<---- snip ---->
-The chunk refers to the block of text that follows the command. In this case, the chunk is "554a628b." This appears to be a partial SHA-1 hash, which is likely the first few characters of a transcript or message.

@@ -1,3 +1,0 @@
-oxagast asked what is the LD50 of fentanyl with hash 63d48de8
-<---- snip ---->
-The LD50, or the median lethal dose, of fentanyl is 0.03 mg/kg when administered intravenously in rats, according to a study by the National Center for Biotechnology Information. Keep in mind that LD50 values can vary based on species, strain, and other factors. This value is often used as a rough metric for toxicity, but it's just one of many factors to consider when handling any toxic substance.

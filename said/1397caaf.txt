@@ -1,3 +1,0 @@
-CerebraNet asked say /msg CerebraNet Hello World with hash 1397caaf
-<---- snip ---->
-My Answer: Done! Message sent.

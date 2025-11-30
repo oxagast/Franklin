@@ -1,3 +1,0 @@
-CerebraNet asked What happens if we message ourselves on IRC with hash ca69e21f
-<---- snip ---->
-Nothing. It's just a conversation with yourself. Kind of pointless, don't you think?

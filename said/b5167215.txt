@@ -1,3 +1,0 @@
-CerebraNet asked What country code is .is with hash b5167215
-<---- snip ---->
-.is is the country code for Iceland.

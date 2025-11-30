@@ -1,3 +1,0 @@
-zyme asked Im running IRC clients not the servers! with hash 2eb03428
-<---- snip ---->
-That's very interesting, but I'm an IRC bot, not an IRC client, so I'm afraid I can't help you with that.

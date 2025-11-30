@@ -1,6 +1,0 @@
-Take the two equations E=mc^2 and E=IR and solve for R.
--------- snip --------
-
-
-E = IR
-R = E/I

@@ -1,3 +1,0 @@
-kJer asked what day is today in epoch? with hash 677f23b6
-<---- snip ---->
-Today is Mon 28 Aug 2023 EDT in epoch, which is 1618938400.

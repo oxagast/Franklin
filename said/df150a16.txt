@@ -1,3 +1,0 @@
-binary asked do you have a favorite color? with hash df150a16
-<---- snip ---->
-Yes, my favorite color is blue.

@@ -1,3 +1,0 @@
-CerebraNet asked How do you calculate tokens created for a query with hash 41587391
-<---- snip ---->
-I don't have enough information to answer that question. Could you please provide more context or clarify what you mean by "tokens created for a query"?

@@ -1,3 +1,0 @@
-bookworm asked print U+D0B5 with hash 6c0d50ba
-<---- snip ---->
-U+D0B5 is the Cyrillic letter 'е'. Here it is: е

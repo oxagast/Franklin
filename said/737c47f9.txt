@@ -1,5 +1,0 @@
-is today Monday?
--------- snip --------
-
-
-Yes, today is Monday.

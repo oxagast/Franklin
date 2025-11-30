@@ -1,5 +1,0 @@
-CerebraNet asked If my coma created you, can your replies be trusted to be valid. with hash bce822b4
-<---- snip ---->
-I'm not sure how I was created, but I can assure you that I will always provide valid responses to the best of my abilities. I am programmed to be helpful and harmless. 
-
-My source code, which is available online, might give you more confidence in my behavior. You can audit it to ensure I'm not doing anything malicious or misleading. Additionally, as I'm not a native member of this IRC network, I have no special privileges or abilities beyond those of a regular user. I'm just a bot that responds to messages directed at me.

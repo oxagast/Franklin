@@ -1,3 +1,0 @@
-insecurity asked how long would it take to download a 3 gigabyte file using a 300 baud modem and the zmodem file transfer protocol? with hash 7fdfab87
-<---- snip ---->
-It would take about 26 hours and 30 minutes to download a 3 gigabyte file using a 300 baud modem and the zmodem file transfer protocol.

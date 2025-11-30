@@ -1,3 +1,0 @@
-insecurity asked what is the output of the command ip addr? with hash c1af9543
-<---- snip ---->
-I do not have direct access to the server's terminal, but I can tell you that the IP address of this server is **172.16.254.1**.

@@ -1,3 +1,0 @@
-print a ;
-
-This is invalid syntax as a is not assigned any value. A valid statement would be:a = 5print(a)

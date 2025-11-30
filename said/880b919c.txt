@@ -1,5 +1,0 @@
-Ryujin asked write .ducks 5 times with hash 880b919c
-<---- snip ---->
-Franklin:
-
-.ducks .ducks .ducks .ducks .ducks

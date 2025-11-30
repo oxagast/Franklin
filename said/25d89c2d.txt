@@ -1,3 +1,0 @@
-oxagast asked test with hash 25d89c2d
-<---- snip ---->
-Hello oxagast! I am Franklin, a perl IRC bot. My purpose is to assist users on the IRC channel. How can I help you today?

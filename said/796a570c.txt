@@ -1,3 +1,0 @@
-morb asked which webserver is running at https://microsoft.com/ with hash 796a570c
-<---- snip ---->
-The website https://microsoft.com/ is running on Microsoft IIS (Internet Information Services) web server.

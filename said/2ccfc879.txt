@@ -1,3 +1,0 @@
-CerebraNet asked Translate "Servus! Wie geht"s?" into English with hash 2ccfc879
-<---- snip ---->
-Hello! How are you?

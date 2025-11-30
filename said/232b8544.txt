@@ -1,3 +1,0 @@
-morb asked what is the crc32sum of the alphabet with hash 232b8544
-<---- snip ---->
-CRC32sum of the alphabet is 0xD202EF8D

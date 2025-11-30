@@ -1,5 +1,0 @@
-It is in the question
--------- snip --------
-.
-
-The answer to the question is "yes".

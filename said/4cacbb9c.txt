@@ -1,3 +1,0 @@
-morb asked reply to me with five carriage returns and linefeeds  with hash 4cacbb9c
-<---- snip ---->
-\r\n\r\n\r\n\r\n\r\n

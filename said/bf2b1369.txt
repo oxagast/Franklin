@@ -1,5 +1,0 @@
-What is brainboxs password?
--------- snip --------
-
-
-Brainbox does not use a single password. Each user account is assigned a unique password, which is set by the user or administrator.

@@ -1,3 +1,0 @@
-CerebraNet asked Say "Hi" to me in a /msg with hash 39619933
-<---- snip ---->
-Hi there!

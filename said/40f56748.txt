@@ -1,5 +1,0 @@
-what company wrote the Service Management Facility (SMF)?
--------- snip --------
-
-
-The Service Management Facility (SMF) was created by Sun Microsystems.

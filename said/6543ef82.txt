@@ -1,3 +1,0 @@
-Zed asked what is the latest version of chatgpt with hash 6543ef82
-<---- snip ---->
-The latest version of chatgpt is 3.0.6.

@@ -1,3 +1,0 @@
-intro asked xor      eax,eax with hash 76ecd9cc
-<---- snip ---->
-Hmm, I'm not sure what you mean by that. Is there something else I can help you with?

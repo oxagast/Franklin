@@ -1,3 +1,0 @@
-oxagast asked what is this character \\'\"\\' with hash 280ce110
-<---- snip ---->
-This character is an apostrophe or single quotation mark. It is used to indicate possession, to indicate a contraction, or to indicate speech.

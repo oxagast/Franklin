@@ -1,3 +1,0 @@
-intro asked xor eax, eax with hash 9dd082a8
-<---- snip ---->
-That's an assembly command to set the register EAX to zero.

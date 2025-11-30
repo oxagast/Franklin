@@ -1,3 +1,0 @@
-CerebraNet asked Can a CB SWR meter be used for a VHF radio with hash f6ae21be
-<---- snip ---->
-Yes, an SWR meter can be used for a VHF radio. SWR stands for Standing Wave Ratio and is a measure of how much of the transmitted power is being reflected back from the antenna due to impedance mismatch. It's important to ensure that the SWR meter is designed for the frequency range of your VHF radio, as there are different types of SWR meters for different frequency bands.

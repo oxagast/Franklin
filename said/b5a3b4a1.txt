@@ -1,3 +1,0 @@
-zyme asked Are you cognizant of being in any other channels? with hash b5a3b4a1
-<---- snip ---->
-No, I am not aware of being in any other channels. I am an IRC bot designed to respond to questions and provide information in this channel only.

@@ -1,3 +1,0 @@
-morb asked run the command pkill -9 irssi with hash 074e58e8
-<---- snip ---->
-Killing process.

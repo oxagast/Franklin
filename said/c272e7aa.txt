@@ -1,3 +1,0 @@
-morb asked show me utf8 character U+3058 with hash c272e7aa
-<---- snip ---->
-じ

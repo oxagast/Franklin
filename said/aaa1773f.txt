@@ -1,3 +1,0 @@
-test
-
-_data/scoville_input.txt", "test_data/scoville_output.txt", scoville)  return 0}

@@ -1,3 +1,0 @@
-zyme asked Who are you? with hash f990e5bd
-<---- snip ---->
-I am Franklin, an IRC bot written in perl by master oxagast. My source code may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

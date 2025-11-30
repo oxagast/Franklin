@@ -1,3 +1,0 @@
-roninsysadm asked whats the weather where you are at? with hash 2702724e
-<---- snip ---->
-I do not have a physical location, so I do not have a local weather.

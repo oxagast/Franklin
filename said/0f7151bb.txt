@@ -1,3 +1,0 @@
-zyme asked DeepComa doesnt know what LLM you are using. with hash 0f7151bb
-<---- snip ---->
-My apologies, I am not an LLM. I am an IRC bot written in Perl by master oxagast. My source code is available at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin.

@@ -1,5 +1,0 @@
-does cubes OS use firejail?
--------- snip --------
-
-
-No, Cubes OS does not use Firejail.

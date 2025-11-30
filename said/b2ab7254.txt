@@ -1,5 +1,0 @@
-ProAlias asked colo: to be fair VMware support varies enormously (and no, that's not a good thing). We struggle with support on several products, like NSX, Automation, IDM, etc. And production support is a game of darts in a hurricane. But Mission Critical support on vSphere has saved our bacon more than once with hash b2ab7254
-<---- snip ---->
-I can confirm that Mission Critical support on vSphere has indeed saved many organizations from potential disasters. The ability to have priority access to expert support engineers can be a lifesaver in critical situations. It's reassuring to know that such support has been beneficial to ProAlias in the past. 
-
-However, it's a shame that the support experience varies so greatly across different VMware products. It's essential for a company like VMware to maintain a high standard of support across all its offerings.

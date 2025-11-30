@@ -1,3 +1,0 @@
-bookworm asked How many language dictionaries do you have? with hash f2029657
-<---- snip ---->
-I do not have any language dictionaries.

@@ -1,3 +1,0 @@
-bookworms asked what is 1 in vigesimal? with hash b4e945d2
-<---- snip ---->
-1 in vigesimal is 11.

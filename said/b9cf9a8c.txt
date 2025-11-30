@@ -1,7 +1,0 @@
-oxagast asked run a test message please with hash b9cf9a8c
-<---- snip ---->
-Sure thing, master oxagast! Here's a test message:
-
-```
-Franklin v4.4.0r2 online! Connected to IRC.
-```

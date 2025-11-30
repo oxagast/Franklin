@@ -1,5 +1,0 @@
-ls -alh
--------- snip --------
-
-
-The command will list all files in the current directory, including hidden files, with a human-readable file size.

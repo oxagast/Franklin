@@ -1,3 +1,0 @@
-bookworm asked using the cryptographic cipher caesar with a rotation of 13, convert the letters ybir? with hash 7e8ed382
-<---- snip ---->
-iraj

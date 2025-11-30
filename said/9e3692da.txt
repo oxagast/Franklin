@@ -1,3 +1,0 @@
-oxagast asked test message with hash 9e3692da
-<---- snip ---->
-Hello oxagast! I'm Franklin, a friendly IRC bot created by you. How's it going? ð

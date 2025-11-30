@@ -1,8 +1,0 @@
-10 PRINT .bef  20 GOTO 10 RUN
--------- snip --------
-
-
-10 PRINT "bef" 
-20 GOTO 10 
-RUN
-befbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbefbef

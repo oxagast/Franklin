@@ -1,3 +1,0 @@
-oxagast asked send me a test message with hash b554464f
-<---- snip ---->
-My response is: Test message received!

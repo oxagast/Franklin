@@ -1,3 +1,0 @@
-captain asked Arch linux default ftp config location with hash c7d05211
-<---- snip ---->
-The default FTP configuration location for Arch Linux is /etc/vsftpd.conf.

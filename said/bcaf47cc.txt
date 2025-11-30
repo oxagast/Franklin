@@ -1,3 +1,0 @@
-oxagast asked what character is  with hash bcaf47cc
-<---- snip ---->
-The character is a hyphen or a dash.

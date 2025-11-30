@@ -1,5 +1,0 @@
-are there any bash IRC clients?
--------- snip --------
-
-
-Yes, there are several IRC clients available for the Bash shell, including irssi, epic, and BitchX.

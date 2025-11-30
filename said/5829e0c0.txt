@@ -1,3 +1,0 @@
-morb asked when was the ines emulator released with hash 5829e0c0
-<---- snip ---->
-The iNES emulator was released in 1998.

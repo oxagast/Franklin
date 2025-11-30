@@ -1,3 +1,0 @@
-morb asked chicken:egg::chatgpt:x (solve for x) with hash f61f5d14
-<---- snip ---->
-Answer: kitten

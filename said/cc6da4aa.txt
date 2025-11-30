@@ -1,5 +1,0 @@
-What is the file suffix for a python script
--------- snip --------
-
-
-The file suffix for a Python script is .py.

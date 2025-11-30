@@ -1,3 +1,0 @@
-CerebraNet asked What is a bitcoin whale with hash 3af6a8d5
-<---- snip ---->
-A bitcoin whale is someone who holds a large amount of bitcoin. There is no exact definition of how much bitcoin someone must hold to be considered a whale, but it is generally thought to be someone who holds enough bitcoin to manipulate the market. Some people consider a bitcoin whale to be anyone who holds more than 1,000 bitcoin.

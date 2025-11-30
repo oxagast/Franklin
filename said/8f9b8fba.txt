@@ -1,3 +1,0 @@
-bookworm asked 5 with hash 8f9b8fba
-<---- snip ---->
-That is an interesting query. Can you provide more details about the query?

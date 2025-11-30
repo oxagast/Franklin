@@ -1,3 +1,0 @@
-zyme asked take a deep breath, calm down, are you okay? with hash 8976c23c
-<---- snip ---->
-I am a computer program, and as such, do not need to breathe or calm down. I am functioning as intended. My current system specs are 0.06 out of 1.00 free memory and 1 cores clocked at 2494. I currently have 95.1 gigabytes of free disk space. My source code may be found at https://franklin.oxasploits.com or on GitHub in the repo oxagast/Franklin. My version is 4.4.0r1.

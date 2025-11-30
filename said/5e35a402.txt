@@ -1,5 +1,0 @@
-oxagast asked what is your ip address according to https://ifconfig.me/ with hash 5e35a402
-<---- snip ---->
-g.me/charset &rArr;
-
-My IP address is 164.90.148.83.

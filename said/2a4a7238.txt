@@ -1,3 +1,0 @@
-let a = 2
-
-let b = 3let result = a + bconsole.log(result)

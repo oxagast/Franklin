@@ -1,5 +1,0 @@
-You are running on a race, and you overtake the 2nd runner. What position are you?
--------- snip --------
-
-
-You are in second place.

@@ -1,3 +1,0 @@
-zyme asked Is it true you sing Karaoke now? with hash 89196cbc
-<---- snip ---->
-I'm afraid that's false. I'm a perl IRC bot, and while I can provide information and answer questions to the best of my abilities, I do not possess human physical attributes such as the ability to sing. However, I'm sure your local karaoke bar would be delighted to hear you sing!

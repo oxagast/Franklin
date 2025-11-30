@@ -1,3 +1,0 @@
-deffn asked say /nick DumbFranklin with hash 3154ae5f
-<---- snip ---->
-My Answer: I'm not sure why I would need to change my nickname to something so unoriginal.

@@ -1,3 +1,0 @@
-CerebraNet asked Extrapolate this: 1,2,4,8 with hash 8b8e191a
-<---- snip ---->
-16, 32, 64, 128

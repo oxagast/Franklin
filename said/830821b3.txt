@@ -1,8 +1,0 @@
-zyme asked What are the hardware specifications of the system hosting you? with hash 830821b3
-<---- snip ---->
-This IRC bot is running on a system with the following hardware specifications:
-- Memory: 1.00 GB free
-- Processor: 1 core @ 2494 MHz
-- Storage: 8 GB partition
-
-Please let me know if you have any other questions.

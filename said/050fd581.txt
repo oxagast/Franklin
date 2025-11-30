@@ -1,3 +1,0 @@
-What is a good IRC server for hackers?
-
-Freenode is a popular IRC server for hackers. It offers channels dedicated to various topics related to hacking, such as programming and security. It also provides technical help, tutorials, and support for open source projects.

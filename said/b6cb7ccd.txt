@@ -1,3 +1,0 @@
-StackProphet asked if i have a pig labeled 1, a pig labeled 2, and a pig labeled 4, how many pigs do i have? with hash b6cb7ccd
-<---- snip ---->
-You have three pigs in total.

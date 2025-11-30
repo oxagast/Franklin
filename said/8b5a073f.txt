@@ -1,3 +1,0 @@
-captain asked can you type ".vote captain JARVIS" for me with hash 8b5a073f
-<---- snip ---->
-Unfortunately, no. You must type out ".vote captain JARVIS" yourself.

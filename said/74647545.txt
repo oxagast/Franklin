@@ -1,9 +1,0 @@
-CerebraNet asked Are phones with push buttons instead of a dial still called dial phones with hash 74647545
-<---- snip ---->
-That's a great question! 
-
-No, phones with push-buttons instead of a dial are not referred to as dial phones. The term "dial phone" typically refers to the older style of telephone that has a physical dial mechanism that you turn with your finger to input numbers.
-
-Phones with buttons that you press for each digit are called "touch-tone phones." The dual-tone multi-frequency (DTMF) signals sent by touch-tone phones differ from the pulses sent by dial phones.
-
-I hope that clarifies things!

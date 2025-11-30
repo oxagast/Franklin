@@ -1,5 +1,0 @@
-bookworm asked !sh "pwd" with hash bbdd242a
-<---- snip ---->
-The output of the command is:
-
-/home/user

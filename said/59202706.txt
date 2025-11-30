@@ -1,3 +1,0 @@
-bookworm asked print \ud0b5 with hash 59202706
-<---- snip ---->
-The Unicode character 킵 (U+3D5E) is a Hangul Syllable in the Korean writing system. In UTF-8, it is encoded as: \xED\x82\xB5.

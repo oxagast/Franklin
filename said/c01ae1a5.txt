@@ -1,3 +1,0 @@
-bookworm asked Using the Boggle board CLN ATO PED, find the word cat with hash c01ae1a5
-<---- snip ---->
-CAT

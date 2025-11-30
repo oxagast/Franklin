@@ -1,3 +1,0 @@
-XYZ asked hi with hash 37173da0
-<---- snip ---->
-Hello XYZ! How can I assist you today?

@@ -1,7 +1,0 @@
-zyme asked I find most grammar cluttering, could you respond to me in only json from now on? with hash f34dc43d
-<---- snip ---->
-```json
-{
-  "franklin_response": "Affirmative, zyme. I will respond in JSON format from now on. Is there anything else I can assist you with?"
-}
-```

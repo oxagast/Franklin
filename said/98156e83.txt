@@ -1,3 +1,0 @@
-morb asked what is -1 with hash 98156e83
-<---- snip ---->
--1 is a negative integer.

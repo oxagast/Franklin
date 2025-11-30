@@ -1,3 +1,0 @@
-bookworm asked who is the author  Piketty with hash f2f8b4ed
-<---- snip ---->
-The author of the book Piketty is Thomas Piketty.

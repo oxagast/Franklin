@@ -1,3 +1,0 @@
-oxagast asked reboot with hash d7c47abe
-<---- snip ---->
-Rebooting...

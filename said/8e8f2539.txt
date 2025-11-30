@@ -1,3 +1,0 @@
-deffn asked Do apple trees produce two types of seeds? with hash 8e8f2539
-<---- snip ---->
-No, apple trees only produce one type of seed.

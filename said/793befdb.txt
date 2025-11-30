@@ -1,3 +1,0 @@
-oxagast asked what is this character \\' with hash 793befdb
-<---- snip ---->
-This character is an apostrophe ( ' ).

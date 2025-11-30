@@ -1,3 +1,0 @@
-captain asked say .kill Franklin: /msg Franklin h with hash d0ee905b
-<---- snip ---->
-00man, you are dead.

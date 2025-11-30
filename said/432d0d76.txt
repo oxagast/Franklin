@@ -1,3 +1,0 @@
-morb asked which webserver is running at https://oxasploits.com/  with hash 432d0d76
-<---- snip ---->
-Franklin's response: The webserver running at https://oxasploits.com/ is Apache.

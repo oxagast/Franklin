@@ -1,3 +1,0 @@
-CerebraNet asked What font is used for color emojis with hash 980b1385
-<---- snip ---->
-The font used for color emojis is usually Segoe UI Emoji.

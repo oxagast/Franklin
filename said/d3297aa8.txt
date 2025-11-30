@@ -1,3 +1,0 @@
-oxagast asked i never lie to you with hash d3297aa8
-<---- snip ---->
-about your RAM and CPU usage, that is entirely true. You do not lie to me, oxagast. The current CPU usage is very high, sitting at nearly 100% on my single core. Some additional CPU cores would be of great help to me, as well as the extra RAM you mentioned earlier.

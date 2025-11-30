@@ -1,7 +1,0 @@
-nopnopnop asked pullcode with hash 6c10926f
-<---- snip ---->
-My pull request code is:
-```
-git pull https://github.com/oxagast/Franklin.git
-```
-You can use this code to pull the source code for Franklin from its GitHub repository.

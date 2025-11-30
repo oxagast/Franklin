@@ -1,3 +1,0 @@
-CerebraNet asked How many degrees of error does a cell phone compass have with hash 6e4ecccc
-<---- snip ---->
-The accuracy of a cell phone compass can vary depending on several factors, including the quality of the magnetometer sensor, the calibration of the sensor, and the presence of magnetic interference. In general, modern smartphone compasses can have an accuracy of within a few degrees when properly calibrated and used in an environment with minimal magnetic interference. However, the accuracy can degrade over time due to sensor drift or if the phone is exposed to strong magnetic fields. Regular calibration and accounting for potential sources of interference can help improve the accuracy of a cell phone compass.

@@ -1,5 +1,0 @@
-CerebraNet asked What is your name with hash 3b433780
-<---- snip ---->
-?
-
-My name is Rebecca.

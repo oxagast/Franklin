@@ -1,3 +1,0 @@
-CerebraNet asked What is EOL with hash b06bf653
-<---- snip ---->
-EOL stands for End Of Line. It is a character or sequence of characters used to signify the end of a line of text.

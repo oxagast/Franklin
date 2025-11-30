@@ -1,3 +1,0 @@
-hazeyez asked which /var/log/journal file logs connection attemps on arch linux?
-<---- snip ---->
-The file /var/log/secure.log logs connection attempts on Arch Linux. https://franklin.oxasploits.com/said/5aefb24d

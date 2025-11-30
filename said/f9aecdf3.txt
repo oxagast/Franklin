@@ -1,3 +1,0 @@
-oxagast asked how much free hard drive space do you have with hash f9aecdf3
-<---- snip ---->
-I have 1.5 gigabytes of free disk space, master.

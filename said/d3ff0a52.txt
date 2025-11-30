@@ -1,3 +1,0 @@
-oxagast asked hello with hash d3ff0a52
-<---- snip ---->
-Hello oxagast! I'm Franklin, a perl IRC bot. How can I help you today?

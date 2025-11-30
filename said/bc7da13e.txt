@@ -1,3 +1,0 @@
-XRAA asked What is your name? with hash bc7da13e
-<---- snip ---->
-My name is Franklin, I am an IRC bot written in Perl by master oxagast. How may I help you?

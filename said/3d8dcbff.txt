@@ -1,3 +1,0 @@
-morb asked whats 0.01 * 100 with hash 3d8dcbff
-<---- snip ---->
-The answer given by Franklin is: 1.

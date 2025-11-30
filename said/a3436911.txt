@@ -1,3 +1,0 @@
-CerebraNet asked What is the square root of -0 with hash a3436911
-<---- snip ---->
-The square root of -0 is 0.

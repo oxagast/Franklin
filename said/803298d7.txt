@@ -1,3 +1,0 @@
-bookworm asked How old are you? with hash 803298d7
-<---- snip ---->
-I'm 33 years old.

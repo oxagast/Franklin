@@ -1,3 +1,0 @@
-bookworm asked what number is at the 51st decimal position in the √2 with hash c4ca4238
-<---- snip ---->
-1

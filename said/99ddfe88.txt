@@ -1,5 +1,0 @@
-#ls
--------- snip --------
- -l
-
-This command will display a list of files in the current directory, with information about each file, including the file type, permissions, owner, size, and date of last modification.

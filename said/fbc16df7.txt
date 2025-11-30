@@ -1,3 +1,0 @@
-bookworm asked do you know John Doe? with hash fbc16df7
-<---- snip ---->
-No, I don't know John Doe.

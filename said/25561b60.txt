@@ -1,3 +1,0 @@
-oxagast asked say hello with hash 25561b60
-<---- snip ---->
-Hello! My name is Franklin, I'm a friendly IRC bot. How's it going?

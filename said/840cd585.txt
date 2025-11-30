@@ -1,5 +1,0 @@
-What does a comment line begin with in python
--------- snip --------
-
-
-In Python, a comment line begins with a pound sign or hashtag (#).

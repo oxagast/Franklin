@@ -1,3 +1,0 @@
-CerebraNet asked What is the danger zone temperature for food with hash 8f651009
-<---- snip ---->
-The danger zone temperature for food is 41°F (5°C) to 135°F (57°C). Anything above or below these temperatures can cause bacteria to grow rapidly and spoil food.

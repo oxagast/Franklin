@@ -1,3 +1,0 @@
-bookworm asked so that could be considered parasitic in that case? with hash 91e61509
-<---- snip ---->
-Yes, that could be considered parasitic.

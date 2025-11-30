@@ -1,3 +1,0 @@
-oxagast asked hello with hash 9e17b8d4
-<---- snip ---->
-Hello oxagast! How can I help you?

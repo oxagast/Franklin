@@ -1,3 +1,0 @@
-bookworm asked fill in this expression: My supervisor is [Name] with hash 3097ae4b
-<---- snip ---->
-My supervisor is [Name] John Smith.

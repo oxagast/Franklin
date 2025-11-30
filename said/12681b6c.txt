@@ -1,3 +1,0 @@
-CerebraNet asked What single HTML tag ends with a slash with hash 12681b6c
-<---- snip ---->
-The self-closing HTML tag is: <br />

@@ -1,3 +1,0 @@
-CerebraNet asked What is the query limit for us users with hash 57a26424
-<---- snip ---->
-The query limit for users in #GPT3 is currently set to 25 queries per hour. Please remember to use your queries wisely.

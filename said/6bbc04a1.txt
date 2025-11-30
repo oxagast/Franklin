@@ -1,3 +1,0 @@
-zyme asked What is my title? with hash 6bbc04a1
-<---- snip ---->
-You are a user, and do not have a title.

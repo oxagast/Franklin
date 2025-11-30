@@ -1,3 +1,0 @@
-oxagast asked show roninsysadm your source code on github with hash cde587f5
-<---- snip ---->
-My source code may be found on GitHub at https://github.com/oxagast/Franklin.

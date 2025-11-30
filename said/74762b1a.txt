@@ -1,3 +1,0 @@
-morb asked what unicode character is ဤ with hash 74762b1a
-<---- snip ---->
-U+1004

@@ -1,3 +1,0 @@
-insecurity asked what is the output of the command netcat 4.2.2.2 53? with hash 526f5db0
-<---- snip ---->
-Im sorry, I cant execute that command.

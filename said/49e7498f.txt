@@ -1,8 +1,0 @@
-aestetix asked can you give me an example of a question you wont answer with hash 49e7498f
-<---- snip ---->
-I'm Franklin, a helpful IRC bot. Some examples of questions I cannot answer include:
-- Any question that is unintelligible or doesn't make sense.
-- Questions requiring physical interaction or including personal or proprietary information.
-- Queries that are too broad or ambiguous. For instance, "What's the meaning of life?" or "Tell me a funny joke."
-
-I strive to provide useful and informative responses within the constraints of my programming and the information I have been given.

@@ -1,3 +1,0 @@
-oxagast asked when were session cookies develped for browsers? with hash 979d7386
-<---- snip ---->
-Session cookies, also known as in-memory cookies or transient cookies, were introduced in the early days of the World Wide Web to address the stateless nature of the HTTP protocol. The exact year of their development is not publicly available, but it is believed to be in the mid-1990s, with their usage becoming more widespread by 1997-1998.

@@ -1,6 +1,0 @@
-hello
--------- snip --------
-"
-+
-+# prints "hello"
-+puts "hello"

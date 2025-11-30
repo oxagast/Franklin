@@ -1,3 +1,0 @@
-xibalba asked $(./franklin.pl) with hash de3cf2d8
-<---- snip ---->
-Hello! My name is Franklin and I am here to help. What can I do for you?

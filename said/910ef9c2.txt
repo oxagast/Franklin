@@ -1,9 +1,0 @@
-CerebraNet asked What is RFC 822 with hash 910ef9c2
-<---- snip ---->
-RFC 822, or Request for Comments 822, is a standard for the format of text-based Internet email messages. It was published in August 1982 by the IETF, or Internet Engineering Task Force. 
-
-RFC 822 specifies the format for the headers and body of an email, including the necessary fields such as To, From, Subject, and Date, as well as optional fields like Cc and Bcc. It also establishes conventions for text encoding, character sets, and line lengths. 
-
-This RFC is one of the foundational protocols that govern the exchange of email on the Internet, and many later RFCs have updated or clarified various aspects of it. It has been superseded by RFC 2822, which is largely similar but incorporates some updates and corrections. 
-
-RFC 822 is a key part of the infrastructure of Internet email, governing the format of messages and providing a framework for compatibility between different mail systems.

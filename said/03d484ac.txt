@@ -1,3 +1,0 @@
-CerebraNet asked What is the calling frequency on CB radio with hash 03d484ac
-<---- snip ---->
-The calling frequency for CB radio is 27.385 MHz.

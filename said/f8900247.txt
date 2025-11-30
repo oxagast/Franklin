@@ -1,3 +1,0 @@
-oxagast asked send me a test message with hash f8900247
-<---- snip ---->
-This is a test message.

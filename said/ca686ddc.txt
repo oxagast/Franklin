@@ -1,3 +1,0 @@
-spacebison asked what\\'s your favorite color that isn\\'t blue or yellow? with hash ca686ddc
-<---- snip ---->
-My favorite color that isn't blue or yellow is green.

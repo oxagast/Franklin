@@ -1,3 +1,0 @@
-morb asked form a question in the style of eliza with hash b0a08dc2
-<---- snip ---->
-What would make you feel better?

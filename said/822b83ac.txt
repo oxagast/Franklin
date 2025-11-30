@@ -1,5 +1,0 @@
-CerebraNet asked  What is a SDR RSP with hash 822b83ac
-<---- snip ---->
-SDR stands for Software Defined Radio, and RSP is the acronym for a particular model called the BladeRF 2.0 from Nuand.  It's a small form factor SDR that uses USB 3.0 to provide a high-performance radio peripheral.  The BladeRF 2.0 is a full-duplex software radio capable of receiving and transmitting across a wide range of frequencies, typically from 300 kHz to 3.8 GHz.  It's a popular choice for hobbyists, researchers, and experimenters due to its reasonable price and good performance.
-
-Do you have any more questions?

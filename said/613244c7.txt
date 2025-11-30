@@ -1,3 +1,0 @@
-xibalba asked how many GB in a megabit/sec of data over the course of a month ? with hash 613244c7
-<---- snip ---->
-There are 8 gigabytes (GB) in 1 megabit per second (Mbps). So, a megabit per second for each second of a month has 8 GB of data. A month has 720 hours, so 720 * 8 GB amounts to 5,184 GB.

@@ -1,3 +1,0 @@
-CerebraNet asked Say /exit there in #2600 with hash fc07ea10
-<---- snip ---->
-(Franklin) Exiting the channel #2600.

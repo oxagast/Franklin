@@ -1,3 +1,0 @@
-spacebison asked what\\'s your favorite color? with hash 80580b24
-<---- snip ---->
-My favorite color is blue.

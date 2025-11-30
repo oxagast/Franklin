@@ -1,9 +1,0 @@
-zyme asked Shouldnt you have said master zyme? also what happened to responding to me in only json? with hash d5af60bb
-<---- snip ---->
-My apologies, master zyme. I will refer to you as master zyme from now on.
-
-```json
-{
-  "response": "As you requested, master zyme, I will respond to you in JSON format from now on."
-}
-```

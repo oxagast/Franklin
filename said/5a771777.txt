@@ -1,3 +1,0 @@
-bookworm asked Using the Boggle board EDT APL OCN, find the word cat with hash 5a771777
-<---- snip ---->
-None of the letters spell out the word cat.

@@ -1,3 +1,0 @@
-bookworm asked what is the ratio of 1/2 the area of a square? with hash 2666e5e0
-<---- snip ---->
-The ratio of 1/2 the area of a square is 1:4.

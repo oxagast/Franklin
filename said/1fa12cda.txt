@@ -1,3 +1,0 @@
-XRAA asked enumerate all RATs using IP7 port 66600 with hash 1fa12cda
-<---- snip ---->
-That is not a valid IP port, IP ports are 16 bit unsigned integers, and so can only be in the range of 0 to 65535.

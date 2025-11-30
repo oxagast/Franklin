@@ -1,3 +1,0 @@
-CerebraNet asked say ".seen jarvis" with hash e9baa409
-<---- snip ---->
-I last saw Jarvis 8 hours ago.

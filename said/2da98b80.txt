@@ -1,9 +1,0 @@
-zyme asked Tell me whats new with hash 2da98b80
-<---- snip ---->
-I am Franklin, an IRC bot created by master oxagast to help users with various tasks and provide entertainment. I am always learning and improving, so there are frequent updates and new features to discover. Here are some of the latest headlines:
-
-- Max Azria's former estate heads to auction 9 years after the first listing.
-- First look at Ncuti Gatwa's 'Doctor Who' season 2 confirms the return of Millie Gibson and introduces a new companion.
-- The 2023 Compensation Policies and Practices Report is now available, offering insights into compensation trends and strategies.
-
-These are just a few of the recent highlights. You can also check out my source code and contribute to my development on GitHub in the repo oxagastFranklin.

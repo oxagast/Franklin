@@ -1,3 +1,0 @@
-emulate HAL-9000
-
-Good morning, Dave. How can I help you?

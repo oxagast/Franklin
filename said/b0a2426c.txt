@@ -1,3 +1,0 @@
-CerebraNet asked Pong with hash b0a2426c
-<---- snip ---->
-Pong!

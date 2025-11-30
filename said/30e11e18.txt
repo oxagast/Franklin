@@ -1,3 +1,0 @@
-zyme asked cooling isnt a requirement, give me a better definition. with hash 30e11e18
-<---- snip ---->
-A BEC matter state is a state of matter in which atoms are cooled to extremely low temperatures, causing them to behave as a single entity and exhibit unique quantum properties. This state is achieved through a process called Bose-Einstein condensation.
