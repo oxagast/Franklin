@@ -9,6 +9,8 @@
 #   |  '   `-` ' ' ' ` ' ' ' '
 #  -'
 use Irssi;
+use strict;
+use warnings;
 use Data::Dumper;
 use vars qw($VERSION %IRSSI);
 use utf8;
@@ -16,8 +18,7 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-$userfile    = "1.3.1";
-$franklinver = "4.5.0";
+my $franklinver = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
           contact     => 'oxagast@oxasploits.com',
@@ -28,44 +29,27 @@ $franklinver = "4.5.0";
           changed     => 'Mar, 11th 2024',
 );
 Irssi::signal_add_last('message public', 'catchmsg');
-my $sdbloc = "/home/franklin/Franklin/fprofiles/";                                                 # this is the location of the dbase dir
 
-
-sub buildjson {
-  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_line_length, @lastm, $rndmm) = @_;
-  if (1 == int(rand(25))) {
-    push(@rndm, $rndmm);
-  }
-  if (scalar(@lastm) > 8) {
-    shift(@lastm);                                                                                 # this stuff makes it so that there i
-  } 
-  if (scalar(@rndm) > 8) {
-    shift(@rndm);
-  }
-
-  # maximum of x items in the 'last' array
-  ($sec, $min, $hour, $day, $mon, $year_1900, $wday, $yday, $isdst) = localtime;
-  my ($qpd, $mnpd, $msd);
-  if ($change_date != strftime("%m-%d-%Y", localtime)) {
+sub buildjson {2sas
+  my $current_date = strftime("%m-%d-%Y", localtime);
+  my ($qpd, $mspd);
+  if ($change_date ne $current_date) {
     $day++;
   }
+  
+  # Prevent division by zero
+  my $calc_day = $day > 0 ? $day : 1;
+
   if ($msg =~ m/^Franklin[:|,] /) {
     $queries++;
-    $qpd = $queries / $day;                                                                        # franklin was called, we know it was a query
   }
+  $qpd = $queries / $calc_day;
   $messages++;
-  $mspd = $messages / $day;                                                                        # this is reset every morning at midnight
+  $mspd = $messages / $calc_day;
   my $alll = ($average_line_length + length($msg)) / 2;                                            # calcs avg line len
   my $totm = $totmsgs + 1;
 
-  # the json should look something like the below after generation
-  ## {"versions":{"userfile":"1.0.0","franklin":"4.0.0"},"nick":"oxagast","create_date":
-  ## "04182024","change_date":"04192024","total_messages":55,"queries_per_day":12,"menti
-  ## ons_per_day":3,"messages_per_day":2,"average_message_length":77,"operator":true,"me
-  ## ssages":{"last":["hello how are you","oh yeah im fine","yeah my name is oxagast, wh
-  ## ats yours"],"random":["blah","no i like girls toes","Franklin: tell me about nyc"]},
-  ## "checksum":"B2CCA97A"}
-  %summdb = (
+  my %summdb = (
     (versions => {selfver => $userfile, frankver => $franklinver}),
     (
      $nick => {                                                                                    # all this gets rewritten back in json after modificaions
@@ -75,7 +59,7 @@ sub buildjson {
       queries                => "$queries",
       messages               => "$messages",
       queries_per_day        => "$qpd",
-      messages_per_day       => "$mpd",
+      messages_per_day       => "$mspd",
       average_message_length => "$alll",
       day                    => "$day",
       hostname               => "$hostn",
@@ -83,7 +67,7 @@ sub buildjson {
       (
        messages => {
                     last   => [@lastm],
-                    random => [@rndm]
+                    random => []
        }
       )
      }
@@ -99,23 +83,46 @@ sub buildjson {
 # altered when that user speaks in channels, then written back to file.
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  my $sdbloc = Irssi::settings_get_str('franklin_profiles_dir');
+
+  # Add error handling for the profiles directory
+  if (!defined $sdbloc || $sdbloc eq '') {
+    Irssi::print "Franklin Profiler Error: 'franklin_profiles_dir' setting is empty. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: 'franklin_profiles_dir' setting is empty. Cannot save profile for $nick.");
+    return; # Stop processing if the path is invalid
+  }
+
+  if (!-d $sdbloc) {
+    Irssi::print "Franklin Profiler Error: Profiles directory does not exist: $sdbloc. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: Profiles directory does not exist at $sdbloc. Cannot save profile for $nick.");
+    return; # Stop processing if the directory doesn't exist
+  }
+
+  if (!-w $sdbloc) {
+    Irssi::print "Franklin Profiler Error: Profiles directory is not writable: $sdbloc. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: Profiles directory is not writable at $sdbloc. Cannot save profile for $nick.");
+    return; # Stop processing if the directory is not writable
+  }
+
   my $injson = "";
   if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
-    @init       = ();                                                                              # so that the random comes in blanked out
-    $newjsonout = buildjson($nick, "localhost", 0, strftime("%m-%d-%Y", localtime), strftime("%m-%d-%Y", localtime), 1, 1, 1, 0, $msg, @init);    # the final $msg is needed to
+    my @init       = ();                                                                              # so that the random comes in blanked out
+    my $today = strftime("%m-%d-%Y", localtime);
+    my $newjsonout = buildjson($nick, "localhost", 0, $today, $today, 0, $msg, 0, 0, 0, 0, 1, length($msg), \@init, $msg);
                                                                                                    # add to the 'last' space in json
-    open(SDBN, '>', "$sdbloc/$nick");                                                              # opens user's profile
-    print SDBN $newjsonout;                                                                        # creates profile
-    close(SDBN);
+    if (open(my $fh, '>', "$sdbloc/$nick")) {
+        print $fh $newjsonout;
+        close($fh);
+    }
     $injson = $newjsonout;
   }
   if (-e "$sdbloc/$nick") {
-    open(SDBI, '<', "$sdbloc/$nick");
-    $injson = <SDBI>;
-    close(SDBI);
+    if (open(my $fh, '<', "$sdbloc/$nick")) {
+        $injson = <$fh>;
+        close($fh);
+    }
   }
-  $lmn{$nick} = \@lm;
-  $rmn{$nick} = \@rm;
+  
   my $dstruct                = parse_json($injson);
   my $queries                = $dstruct->{$nick}->{queries};
   my $messages               = $dstruct->{$nick}->{messages};
@@ -126,26 +133,24 @@ sub catchmsg {
   my $average_message_length = $dstruct->{$nick}->{average_message_length};
   my $day                    = $dstruct->{$nick}->{day};
   my $ttls                   = $dstruct->{$nick}->{total_messages};
-  @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
-  my $hostn;
+  my @lm = @{$dstruct->{$nick}->{messages}->{last}};                                                  # this has to be encased in @{} to denote that is indeed an array ref
+  my $hostn = "unknown";
+  my $oper = 0;
 
   foreach $n ($server->channel_find($channel)->nicks) {
     if ($n->{nick} eq $nick) {
       $hostn = $n->{host};
+      $oper = $n->{op} ? 1 : 0;
+      last;
     }
-    if ($n->{nick} eq $nick) {
-      if ($n->{op} != 0) {
-      $oper = true;
-    }
-    else { $oper = false; }
-  }
   }
   if ($create_date eq "") {
     $create_date = strftime("%m-%d-%Y", localtime);
   }
-  my $change_date = strftime("%m-%d-%Y", localtime);
-  my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $change_date, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, @lm, $msg);
-  open(SDBO, '>', "$sdbloc/$nick");
-  print SDBO $sdbjson;                                                                             # update the user in dbase
-  close(SDBO);
+  my $today = strftime("%m-%d-%Y", localtime);
+  my $sdbjson     = buildjson($nick, $hostn, $oper, $create_date, $today, $ttls, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_message_length, \@lm, $msg);
+  if (open(my $fh, '>', "$sdbloc/$nick")) {
+      print $fh $sdbjson;
+      close($fh);
+  }
 }
