@@ -1,9 +1,16 @@
 # Franklin
 <p align="center"><img src="https://raw.githubusercontent.com/oxagast/Franklin/webpage/logo.png" alt="Logo"></p>
 
+## Overview
+Franklin is an advanced IRC bot powered by the Cohere Coral Command API (formerly GPT-3.5). It provides realistic, human-like responses and is designed for deep integration with IRSSI.
 
-
-## Franklin is a ChatGPT backed IRC bot
+## Core Features
+* **AI Intelligence**: Uses Cohere Coral command API for contextual conversations.
+* **Web Awareness**: Can read and interpret content from provided URLs.
+* **Autonomy**: Features a "Chatterbox" mode for autonomous interaction.
+* **Self-Awareness**: Aware of its environment (IRC server, channel, operator status, hardware stats).
+* **Logging & Transparency**: Every response is assigned a TXID and archived to a searchable web directory.
+* **Administrative Tools**: Integrated blocklist, kick threshold for "asshats," and remote reload capabilities.
 
 ### Examples
 
