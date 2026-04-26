@@ -18,7 +18,6 @@ use JSON::Create 'create_json';
 use JSON::Parse ':all';
 use Proc::Simple;
 use POSIX qw(strftime);
-my $userfile    = "1.3.2";
 my $franklinver = "4.5.0";
 %IRSSI = (
           authors     => 'oxagast',
@@ -30,21 +29,8 @@ my $franklinver = "4.5.0";
           changed     => 'Mar, 11th 2024',
 );
 Irssi::signal_add_last('message public', 'catchmsg');
-my $sdbloc = "/home/franklin/Franklin/fprofiles/";                                                 # this is the location of the dbase dir
 
-
-sub buildjson {
-  my ($nick, $hostn, $oper, $create_date, $change_date, $totmsgs, $msg, $queries, $messages, $queries_per_day, $messages_per_day, $day, $average_line_length, $lastm_ref, $rndmm) = @_;
-  my @lastm = @$lastm_ref;
-  my @rndm; # Initialize locally or pass as ref
-  
-  if (1 == int(rand(25))) {
-    # push(@rndm, $rndmm); # logic depends on global @rndm which is risky
-  }
-  if (scalar(@lastm) > 8) {
-    shift(@lastm);
-  } 
-
+sub buildjson {2sas
   my $current_date = strftime("%m-%d-%Y", localtime);
   my ($qpd, $mspd);
   if ($change_date ne $current_date) {
@@ -97,6 +83,27 @@ sub buildjson {
 # altered when that user speaks in channels, then written back to file.
 sub catchmsg {
   my ($server, $msg, $nick, $address, $channel) = @_;
+  my $sdbloc = Irssi::settings_get_str('franklin_profiles_dir');
+
+  # Add error handling for the profiles directory
+  if (!defined $sdbloc || $sdbloc eq '') {
+    Irssi::print "Franklin Profiler Error: 'franklin_profiles_dir' setting is empty. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: 'franklin_profiles_dir' setting is empty. Cannot save profile for $nick.");
+    return; # Stop processing if the path is invalid
+  }
+
+  if (!-d $sdbloc) {
+    Irssi::print "Franklin Profiler Error: Profiles directory does not exist: $sdbloc. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: Profiles directory does not exist at $sdbloc. Cannot save profile for $nick.");
+    return; # Stop processing if the directory doesn't exist
+  }
+
+  if (!-w $sdbloc) {
+    Irssi::print "Franklin Profiler Error: Profiles directory is not writable: $sdbloc. Cannot save profile for $nick.";
+    logit(0, "Franklin Profiler Error: Profiles directory is not writable at $sdbloc. Cannot save profile for $nick.");
+    return; # Stop processing if the directory is not writable
+  }
+
   my $injson = "";
   if (!-f "$sdbloc/$nick") {                                                                       # checks if the user is already in the database ad creates it if not
     my @init       = ();                                                                              # so that the random comes in blanked out

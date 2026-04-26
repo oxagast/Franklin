@@ -17,11 +17,13 @@ use Proc::Simple;
 use Irssi;
 use vars qw($VERSION %IRSSI);
 use Sanitize;
+use File::Path qw(make_path);
 use LWP::UserAgent;
 use URI;
 use JSON;
 use Digest::MD5 qw(md5_hex);
 use Encode;
+do 'c:\Users\selfd\Desktop\Franklin\franklin_shared.pl';
 use Sys::CPU;
 use Sys::MemInfo qw(totalmem freemem);
 use Filesys::Df;
@@ -81,6 +83,18 @@ our $totals    = Irssi::settings_get_int('franklin_total_msgs');
 our $logf      = Irssi::settings_get_str('franklin_log');
 our $verbosity = Irssi::settings_get_str('franklin_log_verbosity');
 our $prosdir   = Irssi::settings_get_str('franklin_profiles_dir');
+
+if (!-d $prosdir) {
+    logit(1, "Profiles directory missing. Attempting to create: $prosdir");
+    eval { make_path($prosdir); };
+    if ($@) {
+        Irssi::print "Franklin Error: Could not create profiles directory: $prosdir - $@";
+        logit(0, "Critical Startup Error: Failed to create $prosdir: $@");
+    } else {
+        Irssi::print "Franklin: Created profiles directory at $prosdir";
+    }
+}
+
 our @chat;
 our %moderate;
 our $apikey;
@@ -91,12 +105,13 @@ our $isup        = 0;
 our $pm          = -1;
 our $flast       = "";
 our $model       = "command"; # Default model, used in asshat function.
-## checking to see if the api key 'looks' valid before
-if (Irssi::settings_get_str('franklin_api_key') !~ m/^.{40}$/) {
-  Irssi::print "You must set a valid api key! /set franklin_api_key " . "bbI5L..., " . "then reload with /script load franklin.pl";
+
+# Centralized settings validation
+unless (validate_settings()) {
   $isup = 1;
 }
-if (Irssi::settings_get_str('franklin_api_key') =~ m/^.{40}$/) {
+
+if ($isup == 0) {
   logit(1, "Starting heartbeat worker.");
   my $aliveworker = Proc::Simple->new();                                                           # since you fags try to root me and crash franklin
   if (Irssi::settings_get_str('franklin_heartbeat_url')) {                                         # i need this so that
@@ -153,46 +168,6 @@ if ($txidchans[3]) {                                                            
 if ($txidchans[6]) {                                                                               # same as above
   Irssi::print "                                                            $chanlst[2]";
 }
-if ($hardlimit > 390) {                                                                            # Note: we cannot use the full 512 characers availble
-                                                                                                   # on an irc message line, as 2 characters are used for
-                                                                                                   # the cr-lr, four are used for "msg ", plus the hash,
-                                                                                                   # followed by the channel name and a space.  All
-                                                                                                   # together in practice this should be set around
-                                                                                                   # 380 to 392 at maximum.
-  Irssi::print "Warn: Hard limit may spill over first line if set this high...";
-  logit(0, "Warn: Hard lmiit may spill over first line if set this high.");
-}
-if ($histlen > 30) {
-  Irssi::print "Warn: If the history is set to this many lines, the contextual prelude will fill before the user's question.";
-  logit(0, "Warn: If the history is set to this many lines, the contextual prelude may fill before the user's question.");
-}
-if (length($servinfo) >= 500) {
-  Irssi::print "Warn: If server info is this long, the contextual prelude may fill before the user's question.";
-  logit(0, "Warn: If the server info is this long, the contextual prelude may fill before the user's question.");
-}
-if ($asslevel <= 6.5) {
-  Irssi::print "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.";
-  logit(0, "Warn: Unless you want a ton of kicks, you don't really want to set this threshold below 7.");
-}
-if ($tokenlimit >= 1000) {
-  Irssi::print "Warn: The API will not like a token limit setting this large.";
-  logit(0, "Warn: THe API will not like a token limit setting this large.");
-}
-if ((!$havecpu) || (!$havemem) || (!$havehdd) || (!$servinfo)) {
-  Irssi::print "Warn: If you fill out your bot's environment info, it will make the experience more immersive.";
-  logit(0, "Warn: If you fill out your bot's environment info, it will make the experience more immersive.");
-}
-
-
-sub logit {
-  my ($loglvl, $logdat) = @_;
-  if ($loglvl <= $verbosity) {
-    if (open(my $fh, '>>', $logf)) {
-      print $fh time() . ": " . $logdat . "\n";
-      close($fh);
-    }
-  }
-}
 
 
 sub untag {
@@ -248,22 +223,44 @@ sub untag {
 
 sub pullpage {
   my ($text) = @_;
-  if ($text =~ m!(http|ftp|https):\/\/([\w_-]+(?:(?:\.[\w_-]+)+))([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])!) {    # grab the link parts
-    my $text_uri = "$1://$2$3";                                                                    # put the link back together
+  if ($text =~ m!(?:(http|ftp|https):\/\/)?([\w_-]+(?:\.[\w_-]+)*)(?::(\d+))?([\w.,@?^=%&:\/~+#-]*[\w@?^=%&\/~+#-])?!i) {
+    my $proto  = $1 // "http";
+    my $domain = $2;
+    my $port   = $3 ? ":$3" : "";
+    my $path   = $4 // "";
+
+    # Guard: To prevent matching every word in a sentence, we require either:
+    # 1. An explicit protocol (http://...)
+    # 2. At least one dot in the domain (google.com)
+    # 3. The specific internal hostname 'localhost'
+    return undef unless (defined $1 || $domain =~ /\./ || $domain eq 'localhost');
+
+    my $text_uri = "$proto://$domain$port$path";
     Irssi::print "$text_uri";
     logit(2, "Pulling page $text_uri");
-    my $cua = LWP::UserAgent->new(
-                                  protocols_allowed => ['http', 'https'],
-                                  timeout           => 10,
-                                  agent             => 'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59',
-                                  max_size          => 4000
+    my $cua = _get_ua(
+        protocols_allowed => ['http', 'https'],
+        max_size          => 4000,
+        agent             => 'Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59'
     );
+    $cua->requests_redirectable(['GET', 'HEAD', 'POST']);
     my $cres = $cua->get(URI::->new($text_uri));
     if ($cres->is_success) {
-      my $page_body = untag(encode('utf-8', $cres->decoded_content()));                            # we get an error unless this is utf8
+      # decoded_content() attempts to decode bytes into characters based on HTTP headers.
+      # We fall back to a manual UTF-8 decode if the header is missing or invalid.
+      my $content = $cres->decoded_content;
+      if (!defined $content) {
+          $content = Encode::decode('UTF-8', $cres->content) // $cres->content;
+      }
+
+      my $page_body = untag($content);
       $page_body =~ s/\s+/ /g;
       $page_body =~ s/[^a-zA-Z0-9, ]+//g;
-      return $page_body;
+      return encode('utf-8', $page_body);
+    }
+    else {
+      logit(1, "HTTP Error pulling $text_uri: " . $cres->status_line);
+      return undef;
     }
   }
   else { return undef }
@@ -279,7 +276,7 @@ sub asshat {
       $textcall = $setup;
       my $url = "https://api.cohere.ai/v1/chat"; # Cohere API endpoint
       my $xcn = "Franklin"; # Client name for headers
-      my $ua  = LWP::UserAgent->new(timeout => 10); # Added timeout for API calls
+      my $ua  = _get_ua();
       $dcp = Irssi::strip_codes($textcall);
 
       #$textcall =~ s/\"/\\\"/g;
@@ -466,7 +463,7 @@ sub callapi {
              . "News: $env->{headlines}. History: $env->{context}. Caller: $cmc. Mentions: $mentiontxt";
     }
 
-    my $ua = LWP::UserAgent->new(timeout => 12);
+    my $ua = _get_ua(timeout => 12);
     my $chatsan = sanitize($chat[-3] // "Bunk", noquote => 1);
     my $ut = sanitize($textcall_bare, noquote => 1, noescape => 1);
     my $flast_san = sanitize($flast || "Starting...", noquote => 1, noescape => 1);
@@ -539,7 +536,7 @@ sub falive {
     while (1) {
       if ($isup eq 0) {
         my $uri = URI->new($hburl);
-        my $ua  = LWP::UserAgent->new(timeout => 10); # Added timeout for heartbeat
+        my $ua  = _get_ua();
         $ua->post($uri);                                                                           #  Send post to alive worker on other server
       }
       sleep 30;                                                                                    # wait
